@@ -159,6 +159,40 @@ schedule:
 さらに合わせて調整できます。クラス名は全て `mcv-` で始まる名前空間にしてあるため、
 WordPressテーマの既存スタイルと衝突しません。
 
+背景には、サンティ・ディ・ティート筆《ニッコロ・マキャヴェッリの肖像》
+(16世紀後半、フィレンツェ ヴェッキオ宮殿蔵、パブリックドメイン、出典: Wikimedia Commons)を
+不透明度7%程度の透かしとして表示しています。濃さは `widget.css` の
+`.mcv-widget::before` の `opacity` 値(既定 `0.07`)で調整できます。
+
+### つぶやきの文章を無料のローカルLLMで推敲する(Ollama)
+
+外部の有料APIを使わず、GitHub Actionsの実行環境内だけで完結する
+無料・独立のローカルLLM([Ollama](https://ollama.com))で、定型合成モードの
+下書きを自然な文章に推敲する機能を組み込んであります。
+
+`.github/workflows/tweet.yml` には既にOllamaのセットアップ手順
+(インストール→起動→軽量モデル `qwen2.5:1.5b` の取得)が含まれており、
+**追加設定なしでそのまま動作**します。生成の優先順位は:
+
+```
+1. Ollama(無料・ローカル、既定で最優先)
+   ↓ 失敗時
+2. Anthropic API(ANTHROPIC_API_KEY設定時のみ)
+   ↓ 失敗時
+3. 定型合成モード(必ず成功する最終フォールバック)
+```
+
+**使用モデルを変更したい場合**は、`.github/workflows/tweet.yml` 内の
+`ollama pull qwen2.5:1.5b` と `OLLAMA_MODEL: "qwen2.5:1.5b"` の2箇所を、
+Ollamaが対応する他の軽量モデル名(例: `gemma2:2b`, `llama3.2:1b` など)に
+書き換えてください。モデルが大きいほど文章は洗練されますが、
+GitHub Actions上でのダウンロード・生成時間は長くなります。
+
+**ローカルPC上でOllamaを使う場合**(`bot.py` を手元で実行する場合など)は、
+[Ollama公式サイト](https://ollama.com)からインストールし、
+`ollama serve` を起動した状態で `ollama pull qwen2.5:1.5b` を実行しておけば、
+同様に自動でOllama推敲モードが使われます。
+
 ---
 
 ## 任意: X(旧Twitter)へ実際に投稿する場合

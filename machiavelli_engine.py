@@ -6,9 +6,11 @@ machiavelli_engine.py
 「マキャベリ人格」によるつぶやき文を生成する。
 
 2つの生成モードを用意する:
-  1. template  : APIキー無しで動く定型合成モード(常に動作する既定モード)
-  2. llm       : Anthropic API を使い、より自然で個別具体的な分析文を生成するモード
-                 (環境変数 ANTHROPIC_API_KEY が設定されている場合のみ有効)
+  1. template : APIキー無しで動く定型合成モード(常に動作する最終フォールバック)
+  2. ollama   : 無料・独立のローカルLLM(Ollama)で定型下書きを推敲するモード
+                (Ollamaが起動している場合、既定で最優先)
+  3. llm      : Anthropic API を使い、個別具体的な分析文を生成するモード
+                (環境変数 ANTHROPIC_API_KEY が設定されている場合のみ有効)
 
 分析の視座(persona instructions):
 - 近現代のリベラルな国際法規範・主権平等の建前を採用しない。
@@ -95,6 +97,23 @@ def _build_analysis(item: NewsItem) -> str:
     return template.format(frag=frag, kw=kw)
 
 
+def _build_draft(item: NewsItem, max_chars: int = 230) -> str:
+    """
+    テーマ別分析文 + 箴言 + 出典からなる「下書き」を組み立てる(URLは含まない)。
+    定型合成モードの本体であり、Ollama推敲モードの入力素材としても使う。
+    """
+    quote = pick_quote(item.theme)
+    analysis = _build_analysis(item)
+    citation = f"『{QUOTES_DB_SOURCE_LABEL(quote['source'])}』"
+
+    draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
+    if len(draft) > max_chars:
+        avail = max_chars - len(quote['ja']) - len(citation) - 8
+        analysis = textwrap.shorten(analysis, width=max(avail, 10), placeholder="…")
+        draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
+    return draft
+
+
 def generate_commentary_template(item: NewsItem, max_chars: int = 280) -> str:
     """
     APIキー無しで動作する定型合成モード。
@@ -102,16 +121,8 @@ def generate_commentary_template(item: NewsItem, max_chars: int = 280) -> str:
     固定文が一律に付くことはなく、記事の内容とスコアリングで検出したキーワードに応じて
     分析文の型と差し込み語句が変わる。
     """
-    quote = pick_quote(item.theme)
-    analysis = _build_analysis(item)
-    citation = f"『{QUOTES_DB_SOURCE_LABEL(quote['source'])}』"
-
-    tweet = f"{analysis}\n「{quote['ja']}」\n{citation}"
-    if len(tweet) > max_chars:
-        avail = max_chars - len(quote['ja']) - len(citation) - 8
-        analysis = textwrap.shorten(analysis, width=max(avail, 10), placeholder="…")
-        tweet = f"{analysis}\n「{quote['ja']}」\n{citation}"
-    return _prepend_source_link(tweet, item, max_chars)
+    draft = _build_draft(item, max_chars=max_chars - 40)
+    return _prepend_source_link(draft, item, max_chars)
 
 
 def QUOTES_DB_SOURCE_LABEL(src_code: str) -> str:
@@ -217,10 +228,75 @@ def generate_commentary_llm(item: NewsItem, model: str = None) -> str:
 
 
 def generate_commentary(item: NewsItem, prefer_llm: bool = True) -> str:
-    """メインエントリポイント。LLMモードを優先し、失敗したらtemplateにフォールバック。"""
+    """
+    メインエントリポイント。以下の優先順で生成を試み、失敗したら次にフォールバックする:
+      1. generate_commentary_ollama  : 無料・独立のローカルLLM(Ollama)による下書きの推敲
+      2. generate_commentary_llm     : Anthropic APIによる生成(ANTHROPIC_API_KEY設定時)
+      3. generate_commentary_template: 定型合成モード(常に成功する最終フォールバック)
+    """
     if prefer_llm:
+        try:
+            return generate_commentary_ollama(item)
+        except Exception:
+            pass
         try:
             return generate_commentary_llm(item)
         except Exception:
             pass
     return generate_commentary_template(item)
+
+
+OLLAMA_REFINE_PROMPT = """以下は、マキャベリの思想の枠組みに基づいて機械的に組み立てた
+地政学分析のツイート下書きである。これを、マキャベリ自身が書いたかのように
+自然で洗練された日本語の文章に整えよ。
+
+厳守事項:
+- 「」で囲まれた引用文と、『』で囲まれた出典表記は、一字一句変更しないこと
+- 事実関係(固有名詞・地名・団体名)を書き換えたり、新たな事実を付け足したりしないこと
+- 全体で230字を超えないこと
+- 一人称は「余」または「予」を用い、断定的・冷徹な文体にすること
+- 感嘆符や絵文字、前置き・説明・鉤括弧での補足は一切書かないこと
+- 出力は洗練後のツイート本文のみ
+
+[下書き]
+{draft}
+"""
+
+
+def generate_commentary_ollama(item: NewsItem, max_chars: int = 280) -> str:
+    """
+    無料・独立のローカルLLM(Ollama)を用いて、定型合成モードの下書きを推敲するモード。
+    外部APIに一切データを送らず、ローカル(またはCI実行環境内)で完結する。
+
+    前提: Ollama (https://ollama.com) がインストールされ、
+          `ollama serve` が起動していること。
+    環境変数:
+      OLLAMA_HOST  既定 "http://localhost:11434"
+      OLLAMA_MODEL 既定 "qwen2.5:1.5b"(軽量・無料のオープンモデル。他の導入済みモデル名も指定可)
+    Ollamaが起動していない、またはモデルが無い場合は例外を送出し、
+    呼び出し側で他モードにフォールバックすること。
+    """
+    import requests  # pip install requests
+
+    host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+    model = os.environ.get("OLLAMA_MODEL", "qwen2.5:1.5b")
+
+    draft = _build_draft(item, max_chars=230)
+    prompt = OLLAMA_REFINE_PROMPT.format(draft=draft)
+
+    resp = requests.post(
+        f"{host}/api/generate",
+        json={
+            "model": model,
+            "prompt": prompt,
+            "stream": False,
+            "options": {"temperature": 0.6},
+        },
+        timeout=(5, 90),
+    )
+    resp.raise_for_status()
+    text = (resp.json().get("response") or "").strip()
+    if not text:
+        raise RuntimeError("Ollamaから空の応答が返された")
+
+    return _prepend_source_link(text, item, max_chars)

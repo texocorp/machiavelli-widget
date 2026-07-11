@@ -5,10 +5,44 @@
    ========================================================== */
 
 .mcv-widget {
+  position: relative;
   max-width: 640px;
   margin: 2.5em auto;
+  padding: 1.5em;
   font-family: "Hiragino Mincho ProN", "Yu Mincho", "游明朝", serif;
   color: #2b241c;
+  overflow: hidden;
+}
+
+/*
+  背景の肖像画(透かし):
+  サンティ・ディ・ティート筆《ニッコロ・マキャヴェッリの肖像》(16世紀後半、
+  フィレンツェ ヴェッキオ宮殿蔵)。パブリックドメイン作品の忠実な複製。
+  出典: Wikimedia Commons
+  https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg
+  Special:FilePath 経由の安定リンクを使用(ファイル実体のハッシュパスに依存しない)。
+*/
+.mcv-widget::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg");
+  background-repeat: no-repeat;
+  background-position: center 15%;
+  background-size: 62% auto;
+  filter: grayscale(100%) contrast(0.9);
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.mcv-widget__header,
+.mcv-widget__list,
+.mcv-widget__empty,
+.mcv-widget__error,
+.mcv-widget__footer {
+  position: relative;
+  z-index: 1;
 }
 
 .mcv-widget__header {

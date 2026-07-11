@@ -152,7 +152,7 @@
 
     var footer = document.createElement("div");
     footer.className = "mcv-widget__footer";
-    footer.textContent = "Il Principe, Discorsi ほかより";
+    footer.textContent = "Il Principe, Discorsi ほかより ／ 肖像: Santi di Tito (Wikimedia Commons, Public Domain)";
     container.appendChild(footer);
   }
 

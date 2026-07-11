@@ -26,9 +26,28 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # --- 無料・独立のローカルLLM(Ollama)のセットアップ ---
+      # Anthropic API等の外部有料サービスを使わず、CI実行環境内で
+      # 完結する軽量モデルにより、つぶやきの下書きを推敲する。
+      - name: Install Ollama
+        run: curl -fsSL https://ollama.com/install.sh | sh
+
+      - name: Start Ollama server
+        run: |
+          nohup ollama serve > ollama.log 2>&1 &
+          for i in $(seq 1 20); do
+            curl -sf http://localhost:11434/ && break
+            sleep 1
+          done
+
+      - name: Pull local model
+        run: ollama pull qwen2.5:1.5b
+
       - name: Generate feed
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OLLAMA_HOST: "http://localhost:11434"
+          OLLAMA_MODEL: "qwen2.5:1.5b"
         run: python generate_feed.py
 
       - name: Commit updated feed
