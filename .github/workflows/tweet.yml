@@ -11,6 +11,12 @@ on:
 permissions:
   contents: write
 
+# 同時に複数のワークフローが走って push が競合しないよう、直列実行に制御する。
+# (手動実行と定時実行が重なった場合、後発は前者の完了を待ってから実行される)
+concurrency:
+  group: update-machiavelli-feed
+  cancel-in-progress: false
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
@@ -50,10 +56,30 @@ jobs:
           OLLAMA_MODEL: "qwen2.5:1.5b"
         run: python generate_feed.py
 
-      - name: Commit updated feed
+      - name: Commit and push updated feed
         run: |
           git config user.name "machiavelli-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/feed.json logs/seen.json 2>/dev/null || git add docs/feed.json
-          git diff --quiet --cached || git commit -m "Update feed.json [skip ci]"
-          git push
+
+          if git diff --quiet --cached; then
+            echo "変更なし。コミットをスキップします。"
+            exit 0
+          fi
+
+          git commit -m "Update feed.json [skip ci]"
+
+          # push が「remote に新しい変更がある」ために拒否された場合に備え、
+          # 直前の最新状態を取り込んでから再試行する(最大3回)。
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 成功"
+              exit 0
+            fi
+            echo "push 失敗。リモートの最新状態を取り込んで再試行します (試行 $i/3)"
+            git pull --rebase origin main
+            sleep 3
+          done
+
+          echo "3回試行しても push に失敗しました。"
+          exit 1
