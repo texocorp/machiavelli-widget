@@ -1,0 +1,40 @@
+name: Update Machiavelli Feed
+
+# 頻度調整はここ(cron)で行う。既定は3時間おき。
+# UTC基準なので日本時間との時差(-9時間)に注意。
+# 例: 毎正時に実行したい → "0 * * * *"
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}   # Actionsタブから手動実行も可能にする
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate feed
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_feed.py
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "machiavelli-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/feed.json logs/seen.json 2>/dev/null || git add docs/feed.json
+          git diff --quiet --cached || git commit -m "Update feed.json [skip ci]"
+          git push
