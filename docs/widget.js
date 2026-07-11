@@ -24,7 +24,7 @@
   var TARGET_ID = currentScript.getAttribute("data-target") || "machiavelli-tweets";
   var COUNT = parseInt(currentScript.getAttribute("data-count") || "5", 10);
   var REFRESH_MS = parseInt(currentScript.getAttribute("data-refresh") || "600000", 10); // 既定10分
-  var TITLE = currentScript.getAttribute("data-title") || "マキャベリ、地政学を語る";
+  var TITLE = currentScript.getAttribute("data-title") || "マキャベリ、国際情勢を語る";
   var SUBTITLE = currentScript.getAttribute("data-subtitle") || "Niccolò Machiavelli on Geopolitics";
 
   function ensureContainer() {
@@ -62,6 +62,32 @@
     return div.innerHTML;
   }
 
+  var URL_LINE_PATTERN = /^https?:\/\/\S+$/;
+
+  function extractLink(entry) {
+    var text = entry.text || "";
+    var lines = text.split("\n");
+    if (lines.length > 0 && URL_LINE_PATTERN.test(lines[0].trim())) {
+      return {
+        url: lines[0].trim(),
+        body: lines.slice(1).join("\n").replace(/^\n+/, ""),
+      };
+    }
+    // 旧形式のfeed.json(本文にURLを含まない)との互換性維持
+    if (entry.source_url) {
+      return { url: entry.source_url, body: text };
+    }
+    return { url: null, body: text };
+  }
+
+  function hostnameOf(url) {
+    try {
+      return new URL(url).hostname.replace(/^www\./, "");
+    } catch (e) {
+      return url;
+    }
+  }
+
   function render(container, entries) {
     container.innerHTML = "";
 
@@ -87,9 +113,21 @@
       var li = document.createElement("li");
       li.className = "mcv-widget__item";
 
+      var parsed = extractLink(entry);
+
+      if (parsed.url) {
+        var link = document.createElement("a");
+        link.className = "mcv-widget__item-link";
+        link.href = parsed.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "🔗 " + hostnameOf(parsed.url) + " の記事より";
+        li.appendChild(link);
+      }
+
       var text = document.createElement("p");
       text.className = "mcv-widget__item-text";
-      text.textContent = entry.text;
+      text.textContent = parsed.body;
 
       var meta = document.createElement("div");
       meta.className = "mcv-widget__item-meta";

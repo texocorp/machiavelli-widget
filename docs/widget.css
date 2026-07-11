@@ -49,6 +49,21 @@
   box-shadow: 0 1px 2px rgba(60, 50, 30, 0.06);
 }
 
+.mcv-widget__item-link {
+  display: inline-block;
+  font-size: 0.72em;
+  color: #7c6a45;
+  text-decoration: none;
+  border-bottom: 1px dotted #b8a98a;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.02em;
+}
+
+.mcv-widget__item-link:hover {
+  color: #4a3d24;
+  border-bottom-style: solid;
+}
+
 .mcv-widget__item-text {
   white-space: pre-line;
   font-size: 0.98em;

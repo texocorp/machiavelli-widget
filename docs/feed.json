@@ -2,21 +2,21 @@
   {
     "id": "sample0001",
     "timestamp": "2026-07-11T00:00:00+00:00",
-    "text": "高市首相、国会答弁で台湾有事に言及「逃げれば同盟崩壊」の本質は「同盟」にある。己の剣を持たぬ者は、庇護者の都合の中でしか生きられぬ。\n「二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。」\n『君主論 第21章』",
+    "text": "https://example.com/news/takaichi-taiwan-remark\n高市首相、国会答弁で台湾有事に言及「逃げれば同盟崩壊」に見るのは、同盟という名の非対称な力関係である。守られる側は、いつも守る側の計算に従う。\n「二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。」\n『君主論 第21章』",
     "theme": "alleanze_dipendenza",
     "score": 6,
     "source": "デモ用サンプル",
     "source_title": "高市首相、国会答弁で台湾有事に言及「逃げれば同盟崩壊」",
-    "source_url": ""
+    "source_url": "https://example.com/news/takaichi-taiwan-remark"
   },
   {
     "id": "sample0002",
     "timestamp": "2026-07-10T12:00:00+00:00",
-    "text": "中国、台湾包囲を見据えた軍備増強を継続は、防衛の指揮権を他国に委ねた者が、その他国の判断一つで運命を左右される構図を露わにする。\n「二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。」\n『君主論 第21章』",
+    "text": "https://example.com/news/china-military-buildup-taiwan\n中国、台湾包囲を見据えた軍備増強を継続は、防衛の指揮権を他国に委ねた者が、その他国の判断一つで運命を左右される構図を露わにする。\n「二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。」\n『君主論 第21章』",
     "theme": "alleanze_dipendenza",
     "score": 6,
     "source": "デモ用サンプル",
     "source_title": "中国、台湾包囲を見据えた軍備増強を継続",
-    "source_url": ""
+    "source_url": "https://example.com/news/china-military-buildup-taiwan"
   }
 ]
