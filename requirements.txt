@@ -1,4 +1,4 @@
 pyyaml>=6.0
 feedparser>=6.0
-tweepy>=4.14        # dry_run=false で実際にXへ投稿する場合のみ必要
-anthropic>=0.34      # LLMモード(より自然な生成文)を使う場合のみ必要
+tweepy>=4.14
+anthropic>=0.34
