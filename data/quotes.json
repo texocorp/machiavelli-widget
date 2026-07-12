@@ -6,21 +6,25 @@
       "D": "Discorsi sopra la prima deca di Tito Livio（リウィウス論／政略論）",
       "AG": "Dell'arte della guerra（戦争の技法）",
       "IF": "Istorie fiorentine（フィレンツェ史）"
-    }
+    },
+    "id_schema": "各箴言は id で一意に識別される(テーマ略号+連番、例: FV1, PA2)。machiavelli_engine.py の pick_quote() が、直近の使用履歴(重複回避)と使用回数(偏り是正)の管理にこの id を用いる。新たな箴言を追加する際は、そのテーマ内で重複しない id を付与すること。"
   },
   "themes": {
     "fortuna_virtu": [
       {
+        "id": "FV1",
         "it": "La fortuna è arbitra della metà delle azioni nostre, ma... ne lascia governare l'altra metà, o presso, a noi.",
         "ja": "運命は我々の行いの半分を支配するに過ぎず、残る半分、あるいはそれに近い部分は、我々自身の裁量に委ねられている。",
         "source": "P, cap.XXV"
       },
       {
+        "id": "FV2",
         "it": "È meglio essere impetuoso che respettivo, perché la fortuna è donna...",
         "ja": "慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。",
         "source": "P, cap.XXV"
       },
       {
+        "id": "FV3",
         "it": "Chi si accomoda col tempo poco erra, e più raro ha migliore fortuna.",
         "ja": "時勢に己を合わせる者は過つこと少なく、より良き運命を得ることも稀ではない。",
         "source": "D, III.9"
@@ -28,23 +32,33 @@
     ],
     "paura_amore": [
       {
+        "id": "PA1",
         "it": "È molto più sicuro essere temuto che amato, quando si abbia a mancare dell'uno de' dua.",
         "ja": "愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。",
         "source": "P, cap.XVII"
       },
       {
+        "id": "PA2",
         "it": "Debbe nondimeno il principe farsi temere in modo che, se non acquista lo amore, che fugga lo odio.",
         "ja": "とはいえ君主は、愛を得られぬまでも憎しみだけは免れるように、恐れられねばならない。",
+        "source": "P, cap.XVII"
+      },
+      {
+        "id": "PA3",
+        "it": "Delli uomini si può dire questo generalmente: che sieno ingrati, volubili, simulatori e dissimulatori, fuggitori de' pericoli, cupidi di guadagno.",
+        "ja": "人間について概して言えばこうだ。恩知らずで、移ろいやすく、偽り欺き、危険を避け、利得に貪欲である。",
         "source": "P, cap.XVII"
       }
     ],
     "armi_proprie": [
       {
+        "id": "AP1",
         "it": "Le armi mercenarie e ausiliarie sono inutili e pericolose.",
         "ja": "傭兵と援軍は、無用であるだけでなく危険である。",
         "source": "P, cap.XII"
       },
       {
+        "id": "AP2",
         "it": "Uno principe, adunque, debbe non avere altro obietto né altro pensiero... che la guerra e ordini e disciplina di essa.",
         "ja": "君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。",
         "source": "P, cap.XIV"
@@ -52,11 +66,13 @@
     ],
     "alleanze_dipendenza": [
       {
+        "id": "AD1",
         "it": "Uno principe debbe... non si far mai compagno di uno più potente di lui per offendere altri.",
         "ja": "君主たる者、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば汝はその者の虜囚となるからだ。",
         "source": "P, cap.XXI"
       },
       {
+        "id": "AD2",
         "it": "E' quasi impossibile che uno principe respettivo... possa vivere sicuro in mezzo di dua potentati.",
         "ja": "二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。",
         "source": "P, cap.XXI"
@@ -64,11 +80,13 @@
     ],
     "inganno_simulazione": [
       {
+        "id": "IS1",
         "it": "Dovendo, adunque, uno principe sapere bene usare la bestia, debbe di quelle pigliare la golpe e il lione.",
         "ja": "獣の性を巧みに用いるべき君主は、狐と獅子の両者を範とせねばならぬ。獅子は罠を見破れず、狐は狼を退けられぬ。",
         "source": "P, cap.XVIII"
       },
       {
+        "id": "IS2",
         "it": "Non può, per tanto, uno signore prudente, né debbe, osservare la fede quando tale osservanzia li torni contro.",
         "ja": "賢慮ある君主は、信義を守ることが己に不利益となるとき、これを守ってはならぬ、また守るべきでもない。",
         "source": "P, cap.XVIII"
@@ -76,11 +94,13 @@
     ],
     "necessita": [
       {
+        "id": "NE1",
         "it": "Dove si dilibera al tutto della salute della patria, non vi debbe cadere alcuna considerazione né di giusto né di ingiusto.",
         "ja": "祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。",
         "source": "D, III.41"
       },
       {
+        "id": "NE2",
         "it": "La necessità... fa sì che alcune volte le cattive azioni sieno lodate.",
         "ja": "必要は、時として悪しき行いをも賞賛に値するものへと変える。",
         "source": "D, I.9 (趣旨)"
@@ -88,35 +108,53 @@
     ],
     "imperi_declino": [
       {
+        "id": "ID1",
         "it": "Le repubbliche hanno più lunga vita, e godono più lungamente la buona fortuna, che i principati.",
         "ja": "共和国は君主国に比べ、より長く命脈を保ち、より長く好運を享受する。",
         "source": "D, III.9 (趣旨)"
       },
       {
+        "id": "ID2",
         "it": "Gli uomini offendono... o per paura o per odio.",
         "ja": "人が害をなすのは、恐怖からか、憎悪からかのいずれかである。",
         "source": "D, III.6 (趣旨)"
+      },
+      {
+        "id": "ID3",
+        "it": "Non vi è cosa più difficile a trattare, né più dubbia a riuscire, né più pericolosa a maneggiare, che farsi capo a introdurre nuovi ordini.",
+        "ja": "新たな秩序を打ち立てる先導者となることほど、扱いが難しく、成功が疑わしく、手がけて危険なことはない。",
+        "source": "P, cap.VI"
       }
     ],
     "popolo_principe": [
       {
+        "id": "PP1",
         "it": "La natura de' populi è varia... ed è facile a persuadere loro una cosa, difficile fermarli in quella persuasione.",
         "ja": "民衆の性は移ろいやすい。あることを説き伏せるのは容易いが、その説得を持続させるのは難しい。",
         "source": "P, cap.VI"
       },
       {
+        "id": "PP2",
         "it": "Il vulgo è sempre preso dalle apparenze e dallo evento della cosa.",
         "ja": "衆愚は常に見かけと結果にのみ捕らわれる。",
         "source": "P, cap.XVIII"
+      },
+      {
+        "id": "PP3",
+        "it": "Il popolo, quando non è corrotto, se gli è detto il vero delle cose, con difficultà si lascia ingannare.",
+        "ja": "堕落しておらぬ民衆は、事の真実を告げられれば、容易には欺かれぬ。",
+        "source": "D, I.4 (趣旨)"
       }
     ],
     "guerra": [
       {
+        "id": "GU1",
         "it": "La guerra si de' fare quando è necessario, non quando è lecito.",
         "ja": "戦争は、正当だからではなく、必要であるがゆえに為すべきものである。",
         "source": "D, III.12（趣旨）／後世に頻用される要約"
       },
       {
+        "id": "GU2",
         "it": "Non si può la spesa della guerra scusare colla povertà.",
         "ja": "貧窮を理由に戦の備えを怠ることは許されぬ。",
         "source": "AG, 趣旨"
@@ -124,8 +162,15 @@
     ],
     "neutralita": [
       {
+        "id": "NT1",
         "it": "Uno principe... debbe eleggersi amico, e inimicarsi gagliardamente, perché sempre tale partito fia più utile che stare neutrale.",
         "ja": "君主たる者は、はっきりと味方を選び、敢然と敵対せねばならぬ。中立を保つより、その方が常に得策である。",
+        "source": "P, cap.XXI"
+      },
+      {
+        "id": "NT2",
+        "it": "Perché il vincitore non ti vuole amici sospetti, che non lo aiutino nelle avversità; il perdente non ti riceve, per non avere voluto con l'armi in mano correre la fortuna sua.",
+        "ja": "勝者は、苦難を共にせぬ疑わしき友を欲せず、敗者もまた、剣を執って運命を共にせぬ者を迎え入れはしない。",
         "source": "P, cap.XXI"
       }
     ]
