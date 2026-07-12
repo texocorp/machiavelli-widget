@@ -103,21 +103,21 @@
         "id": "NE2",
         "it": "La necessità... fa sì che alcune volte le cattive azioni sieno lodate.",
         "ja": "必要は、時として悪しき行いをも賞賛に値するものへと変える。",
-        "source": "D, I.9 (趣旨)"
+        "source": "D, I.9"
       }
     ],
     "imperi_declino": [
       {
         "id": "ID1",
-        "it": "Le repubbliche hanno più lunga vita, e godono più lungamente la buona fortuna, che i principati.",
-        "ja": "共和国は君主国に比べ、より長く命脈を保ち、より長く好運を享受する。",
-        "source": "D, III.9 (趣旨)"
+        "it": "A volere che una setta o una republica viva lungamente, è necessario ritirarla spesso verso il suo principio.",
+        "ja": "宗派であれ共和国であれ、長く存続させようとするならば、しばしばその原点へと立ち返らせることが必要である。",
+        "source": "D, III.1"
       },
       {
         "id": "ID2",
         "it": "Gli uomini offendono... o per paura o per odio.",
         "ja": "人が害をなすのは、恐怖からか、憎悪からかのいずれかである。",
-        "source": "D, III.6 (趣旨)"
+        "source": "D, III.6"
       },
       {
         "id": "ID3",
@@ -141,23 +141,23 @@
       },
       {
         "id": "PP3",
-        "it": "Il popolo, quando non è corrotto, se gli è detto il vero delle cose, con difficultà si lascia ingannare.",
-        "ja": "堕落しておらぬ民衆は、事の真実を告げられれば、容易には欺かれぬ。",
-        "source": "D, I.4 (趣旨)"
+        "it": "La moltitudine... è più savia e più costante che uno principe.",
+        "ja": "多数の民衆は、一人の君主よりも賢明であり、より一貫している。",
+        "source": "D, I.58"
       }
     ],
     "guerra": [
       {
         "id": "GU1",
-        "it": "La guerra si de' fare quando è necessario, non quando è lecito.",
-        "ja": "戦争は、正当だからではなく、必要であるがゆえに為すべきものである。",
-        "source": "D, III.12（趣旨）／後世に頻用される要約"
+        "it": "Perché la guerra non si toglie, ma si differisce a vantaggio d'altri.",
+        "ja": "戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
+        "source": "P, cap.III"
       },
       {
         "id": "GU2",
-        "it": "Non si può la spesa della guerra scusare colla povertà.",
-        "ja": "貧窮を理由に戦の備えを怠ることは許されぬ。",
-        "source": "AG, 趣旨"
+        "it": "Che li danari non sono il nervo della guerra, come è oppinione comune, ma i buoni soldati.",
+        "ja": "巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
+        "source": "D, II.10"
       }
     ],
     "neutralita": [
