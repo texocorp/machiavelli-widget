@@ -65,19 +65,44 @@ def load_weights(config_path: str = "config.yaml") -> dict:
     return cfg["scoring_weights"]
 
 
-def score_item(item: NewsItem, weights: dict) -> NewsItem:
+def load_scoring_config(config_path: str = "config.yaml") -> dict:
+    """
+    スコアリングに必要な設定一式(重み・除外キーワード・最低選別スコア)を
+    まとめて読み込む。
+    """
+    with open(config_path, "r", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    return {
+        "weights": cfg["scoring_weights"],
+        "exclude_keywords": cfg.get("exclude_keywords", []),
+        "minimum_score": cfg.get("selection", {}).get("minimum_score", 1),
+    }
+
+
+def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> NewsItem:
     """
     テキスト中に出現するキーワードの重みを合算してスコアリングする。
-    high=3点, medium=2点, low=1点。
+    high=4点, medium=2点, low=1点。
     地政学的に「力の実相」に関わる語(軍事・領土・核・同盟等)を最重視する設計。
+
+    exclude_keywords のいずれかに一致した場合は、他の一致点数に関わらず
+    score=-1(除外)を返す。スポーツ・芸能等のノイズ記事を弾くための仕組み。
     """
     text = f"{item.title} {item.summary}"
+
+    for ex in (exclude_keywords or []):
+        if re.search(re.escape(ex), text, re.IGNORECASE):
+            item.score = -1
+            item.matched_keywords = [f"[除外理由: {ex}]"]
+            item.theme = "necessita"
+            return item
+
     total = 0
     matched = []
     topic_votes = {}
 
     for level, words in weights.items():
-        pts = {"high": 3, "medium": 2, "low": 1}[level]
+        pts = {"high": 4, "medium": 2, "low": 1}[level]
         for w in words:
             if re.search(re.escape(w), text, re.IGNORECASE):
                 total += pts
@@ -97,8 +122,8 @@ def score_item(item: NewsItem, weights: dict) -> NewsItem:
     return item
 
 
-def rank_news(items: list, weights: dict, top_n: int = 5) -> list:
-    """スコア降順でニュースを並べ、上位 top_n 件を返す。"""
-    scored = [score_item(i, weights) for i in items]
+def rank_news(items: list, weights: dict, top_n: int = 5, exclude_keywords: list = None) -> list:
+    """スコア降順でニュースを並べ、上位 top_n 件を返す(除外対象は score=-1 として最下位になる)。"""
+    scored = [score_item(i, weights, exclude_keywords) for i in items]
     scored.sort(key=lambda x: x.score, reverse=True)
     return scored[:top_n]

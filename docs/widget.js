@@ -2,6 +2,8 @@
  * Machiavelli Geopolitics Widget
  * --------------------------------
  * WordPress等の任意のページに、以下のように埋め込むだけで動作する。
+ * 背景の肖像画も、この widget.js と widget.css だけで自動的に表示される
+ * (WordPress側に別途 <img> タグを書く必要はない)。
  *
  *   <div id="machiavelli-tweets"></div>
  *   <link rel="stylesheet" href="https://<あなたのGitHub Pages URL>/widget.css">
@@ -9,7 +11,7 @@
  *     src="https://<あなたのGitHub Pages URL>/widget.js"
  *     data-feed="https://<あなたのGitHub Pages URL>/feed.json"
  *     data-target="machiavelli-tweets"
- *     data-count="5"
+ *     data-count="10"
  *     data-refresh="600000"
  *   ></script>
  *
@@ -22,7 +24,7 @@
 
   var FEED_URL = currentScript.getAttribute("data-feed") || "./feed.json";
   var TARGET_ID = currentScript.getAttribute("data-target") || "machiavelli-tweets";
-  var COUNT = parseInt(currentScript.getAttribute("data-count") || "5", 10);
+  var COUNT = parseInt(currentScript.getAttribute("data-count") || "10", 10);
   var REFRESH_MS = parseInt(currentScript.getAttribute("data-refresh") || "600000", 10); // 既定10分
   var TITLE = currentScript.getAttribute("data-title") || "Bot";
   var SUBTITLE = currentScript.getAttribute("data-subtitle") || "Niccolò Machiavelli on Geopolitics";
@@ -98,57 +100,62 @@
       '<span class="mcv-widget__subtitle">' + escapeHtml(SUBTITLE) + "</span>";
     container.appendChild(header);
 
+    // スクロール領域。この要素の背景に肖像画が敷かれており(widget.css参照)、
+    // ここをスクロールすると肖像画の別の部分が現れる。
+    var scrollArea = document.createElement("div");
+    scrollArea.className = "mcv-widget__scroll";
+    container.appendChild(scrollArea);
+
     if (!entries || entries.length === 0) {
       var empty = document.createElement("div");
       empty.className = "mcv-widget__empty";
       empty.textContent = "目下、語るべき動きなし。";
-      container.appendChild(empty);
-      return;
+      scrollArea.appendChild(empty);
+    } else {
+      var list = document.createElement("ul");
+      list.className = "mcv-widget__list";
+
+      entries.slice(0, COUNT).forEach(function (entry) {
+        var li = document.createElement("li");
+        li.className = "mcv-widget__item";
+
+        var parsed = extractLink(entry);
+
+        if (parsed.url) {
+          var link = document.createElement("a");
+          link.className = "mcv-widget__item-link";
+          link.href = parsed.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = "🔗 " + hostnameOf(parsed.url) + " の記事より";
+          li.appendChild(link);
+        }
+
+        var text = document.createElement("p");
+        text.className = "mcv-widget__item-text";
+        text.textContent = parsed.body;
+
+        var meta = document.createElement("div");
+        meta.className = "mcv-widget__item-meta";
+
+        var sig = document.createElement("span");
+        sig.className = "mcv-widget__item-signature";
+        sig.textContent = "— N. Machiavelli";
+
+        var time = document.createElement("span");
+        time.className = "mcv-widget__item-time";
+        time.textContent = formatTimestamp(entry.timestamp);
+
+        meta.appendChild(sig);
+        meta.appendChild(time);
+
+        li.appendChild(text);
+        li.appendChild(meta);
+        list.appendChild(li);
+      });
+
+      scrollArea.appendChild(list);
     }
-
-    var list = document.createElement("ul");
-    list.className = "mcv-widget__list";
-
-    entries.slice(0, COUNT).forEach(function (entry) {
-      var li = document.createElement("li");
-      li.className = "mcv-widget__item";
-
-      var parsed = extractLink(entry);
-
-      if (parsed.url) {
-        var link = document.createElement("a");
-        link.className = "mcv-widget__item-link";
-        link.href = parsed.url;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.textContent = "🔗 " + hostnameOf(parsed.url) + " の記事より";
-        li.appendChild(link);
-      }
-
-      var text = document.createElement("p");
-      text.className = "mcv-widget__item-text";
-      text.textContent = parsed.body;
-
-      var meta = document.createElement("div");
-      meta.className = "mcv-widget__item-meta";
-
-      var sig = document.createElement("span");
-      sig.className = "mcv-widget__item-signature";
-      sig.textContent = "— N. Machiavelli";
-
-      var time = document.createElement("span");
-      time.className = "mcv-widget__item-time";
-      time.textContent = formatTimestamp(entry.timestamp);
-
-      meta.appendChild(sig);
-      meta.appendChild(time);
-
-      li.appendChild(text);
-      li.appendChild(meta);
-      list.appendChild(li);
-    });
-
-    container.appendChild(list);
 
     var footer = document.createElement("div");
     footer.className = "mcv-widget__footer";

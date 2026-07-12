@@ -23,11 +23,17 @@ mode:
 # --- ニュース取得元 (RSS) ---
 # 地政学的に重要度の高い一次情報・通信社ソースを中心に設定。
 # 自由に追加・削除可能。
+#
+# 注記(2026年更新): Reuters・AP は一般向けRSS配信を既に終了しているため、
+# 代わりに Google News の国際(World)トピックフィードと、BBC / Al Jazeera を
+# 追加し、特定ソース(NHK)への偏りを解消した。
 news_sources:
-  - name: "Reuters World"
-    url: "https://feeds.reuters.com/Reuters/worldNews"
-  - name: "AP Top News"
-    url: "https://apnews.com/apf-topnews.rss"
+  - name: "Google News 国際(World)"
+    url: "https://news.google.com/rss/headlines/section/topic/WORLD?hl=ja&gl=JP&ceid=JP:ja"
+  - name: "BBC World"
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+  - name: "Al Jazeera"
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
   - name: "NHK国際"
     url: "https://www3.nhk.or.jp/rss/news/cat6.xml"
   - name: "防衛省ニュース"
@@ -37,8 +43,18 @@ news_sources:
 
 # --- 地政学的重要度スコアリングの重み ---
 # geopolitical_scorer.py が使用するキーワード群。重要ニュースの選別基準。
+#
+# 設計方針(2026年改訂):
+# ・「訪問」「会談」「声明」のような、スポーツ・芸能等の記事にも
+#   偶然マッチしてしまう汎用的すぎる語は low 階層から削除した
+#   (例:「メジャーリーグ球団がホワイトハウスを訪問」が「訪問」に
+#   反応して選ばれてしまう事例があったため)。
+# ・exclude に該当する語が含まれる記事は、他の一致に関わらず
+#   無条件で除外する(スポーツ・芸能・エンタメ等のノイズ排除)。
+# ・selection.minimum_score 未満のスコアの記事は選ばない
+#   (弱い一致1つだけでは選出されないようにする)。
 scoring_weights:
-  high:      # 重み 3点: 軍事的実力・主権・勢力均衡に直結
+  high:      # 重み 4点: 軍事的実力・主権・勢力均衡に直結
     - "軍事"
     - "侵攻"
     - "領土"
@@ -63,10 +79,48 @@ scoring_weights:
     - "safety"
     - "sanction"
     - "summit"
-  low:       # 重み 1点: 一般的な国際ニュース
-    - "会談"
-    - "声明"
-    - "訪問"
+    - "safety"
+  low:       # 重み 1点: 国際情勢がらみだが単独では弱いシグナル
+    - "対立"
+    - "緊張"
+    - "危機"
+
+# 以下の語が含まれる記事は、他の一致点数に関わらず候補から除外する。
+# スポーツ・芸能・エンタメ・グルメ等、地政学分析の素材にふさわしくない記事のノイズ除去。
+exclude_keywords:
+  - "メジャーリーグ"
+  - "MLB"
+  - "プロ野球"
+  - "野球"
+  - "サッカー"
+  - "Jリーグ"
+  - "バスケットボール"
+  - "NBA"
+  - "オリンピック"
+  - "全豪オープン"
+  - "全米オープン"
+  - "ワールドカップ"
+  - "芸能"
+  - "俳優"
+  - "女優"
+  - "アイドル"
+  - "コンサート"
+  - "ライブツアー"
+  - "映画"
+  - "ドラマ"
+  - "アニメ"
+  - "ゲーム実況"
+  - "グルメ"
+  - "レシピ"
+  - "ファッション"
+  - "占い"
+  - "ホワイトハウスを訪問"    # スポーツ球団等の表敬訪問(外交行事ではない)を明示的に除外
+
+# --- 選別の閾値 ---
+selection:
+  # このスコア未満の記事は、たとえ最上位でも選ばない。
+  # (low階層のキーワード単独一致=1点では選出されない水準に設定)
+  minimum_score: 3
 
 # --- Twitter/X API 認証情報 (dry_run=false の場合のみ使用) ---
 # ここには直接キーを書かず、環境変数から読み込む運用を強く推奨します。

@@ -6,7 +6,6 @@
 
 .mcv-widget {
   position: relative;
-  z-index: 1;               /* WordPress側に直接置くimgタグより手前に表示されるようにする */
   max-width: 640px;
   margin: 2.5em auto;
   padding: 1.5em;
@@ -15,14 +14,11 @@
 }
 
 /*
-  背景の肖像画(マキャベリの透かし)は、このCSSファイル内ではなく、
-  WordPressの「カスタムHTML」ブロックに直接 <img> タグとして
-  埋め込む方式に変更した。理由:
-  ・CSSの background-image による透かしは、テーマ側のCSSリセットや
-    スタッキングコンテキストの影響で表示されない事例があったため
-  ・WordPress側のHTMLに直接書く方が、表示崩れの原因を
-    その場で目視・調整しやすいため
-  埋め込み方法は README.md の「肖像画(透かし)の埋め込み」を参照。
+  背景の肖像画は、つぶやき一覧のスクロール領域(.mcv-widget__scroll)の
+  背景画像として実装している。スクロールすると背景も一緒に動き、
+  肖像画の別の部分が徐々に現れる仕組み。詳細は下記 .mcv-widget__scroll を参照。
+  以前試したWordPress側への直接<img>埋め込み方式は不要になったため、
+  埋め込みコードは <div id="machiavelli-tweets"></div> のみのシンプルな形に戻せる。
 */
 
 .mcv-widget__header {
@@ -47,20 +43,56 @@
   letter-spacing: 0.05em;
 }
 
+/*
+  スクロール領域(つぶやき一覧)。
+  背景に肖像画を敷き、background-attachment: local を指定することで、
+  この領域内をスクロールすると背景ごと一緒に動き、肖像画の
+  別の部分が徐々に現れていく効果を実現している
+  (attachment: fixed はブラウザのビューポート基準になり、
+   この用途には適さないため local を使用)。
+  出典: サンティ・ディ・ティート筆《ニッコロ・マキャヴェッリの肖像》
+  (16世紀後半、フィレンツェ ヴェッキオ宮殿蔵、パブリックドメイン、
+  Wikimedia Commons)
+*/
+.mcv-widget__scroll {
+  position: relative;
+  max-height: 480px;
+  overflow-y: auto;
+  border-radius: 2px;
+
+  background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 130% auto;   /* 縦に長く表示し、スクロールで下部まで現れるようにする */
+  background-attachment: local;
+  background-color: #f7f3ea;
+}
+
+/* Firefox等、background-attachment:local が効かない環境向けの保険:
+   スクロール領域が十分な高さを持つよう、内側に余白を作る透明スペーサー。 */
+.mcv-widget__scroll::after {
+  content: "";
+  display: block;
+  height: 1px;
+}
+
 .mcv-widget__list {
+  position: relative;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0.2em;
 }
 
 .mcv-widget__item {
-  background: #fbf8f2;
+  /* 半透明にして、背後の肖像画がうっすらと透けて見えるようにする */
+  background: rgba(251, 248, 242, 0.87);
   border: 1px solid #e4dbc7;
   border-left: 3px solid #7c6a45;
   border-radius: 2px;
   padding: 1.1em 1.3em;
   margin-bottom: 1em;
   box-shadow: 0 1px 2px rgba(60, 50, 30, 0.06);
+  backdrop-filter: blur(0.5px);
 }
 
 .mcv-widget__item-link {
@@ -115,6 +147,9 @@
 @media (max-width: 480px) {
   .mcv-widget {
     margin: 1.5em 0.5em;
+  }
+  .mcv-widget__scroll {
+    max-height: 60vh;
   }
   .mcv-widget__item {
     padding: 0.9em 1em;

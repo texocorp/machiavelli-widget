@@ -5,14 +5,24 @@ machiavelli_engine.py
 選別されたニュースと、対応するマキャベリの箴言から、
 「マキャベリ人格」によるつぶやき文を生成する。
 
-2つの生成モードを用意する:
-  1. template : APIキー無しで動く定型合成モード(常に動作する最終フォールバック)
-  2. ollama   : 無料・独立のローカルLLM(Ollama)で定型下書きを推敲するモード
-                (Ollamaが起動している場合、既定で最優先)
-  3. llm      : Anthropic API を使い、個別具体的な分析文を生成するモード
-                (環境変数 ANTHROPIC_API_KEY が設定されている場合のみ有効)
+【生成プロセスの設計方針】
+処理を4つの明確な役割に分離し、それぞれ何が(誰が)担当するかを固定している:
 
-分析の視座(persona instructions):
+  1. 箴言を選ぶ            … pick_quote()            常にPythonが決定的に選ぶ
+  2. 分析文を1文だけ得る    … _get_analysis()         LLM(失敗時はテンプレート)
+  3. 分析文+引用+出典を結合 … generate_commentary()内  常にPythonが機械的に結合
+  4. 先頭にURLを付加        … _prepend_source_link()  常にPythonが決定的に付加
+
+LLMに任せるのは「ニュースの本質を一文で言い当てる」ことだけであり、
+引用文・出典・URLにはLLMを一切関与させない。これにより、LLMが失敗・迷走しても
+影響は分析文1文に限定され、引用の正確さや出典表記は常に保証される。
+
+分析文の生成は以下の優先順で試み、失敗したら次にフォールバックする:
+  1. ollama : 無料・独立のローカルLLM(Ollamaが起動している場合、既定で最優先)
+  2. llm    : Anthropic API(環境変数 ANTHROPIC_API_KEY 設定時のみ)
+  3. template: テーマ別テンプレート(APIキー等が無くても常に成功する最終フォールバック)
+
+【分析の視座(persona instructions)】
 - 近現代のリベラルな国際法規範・主権平等の建前を採用しない。
 - 力の実相(誰が誰の軍を実効支配しているか、誰が誰に安全保障を依存しているか)を基準に語る。
 - 例として、日本については「独立主権国家」という法的建前ではなく、
@@ -140,12 +150,22 @@ def QUOTES_DB_SOURCE_LABEL(src_code: str) -> str:
 
 def _strip_bracket_annotations(text: str) -> str:
     """
-    LLMが指示に反して付け加えることがある【随時更新】【引用】等の
-    【】注釈を機械的に除去する安全策。念のための二重の防御であり、
-    プロンプト側の指示(付け加えないこと)が主たる対策である。
+    LLMが指示に反して付け加えることがある【随時更新】【引用】【下書き】や
+    半角の[DRAFT]等の注釈・ラベルを機械的に除去する安全策。
+    念のための二重の防御であり、プロンプト側の指示(付け加えないこと)が
+    主たる対策である。全角【】・半角[]の両方に対応する。
     """
     import re
+    # 全角【...】、半角[...] のいずれも、20文字以内の短いラベルとして除去する
+    # (引用の出典表記『...』は対象外なので誤って消えることはない)
     cleaned = re.sub(r"【[^】]{0,20}】", "", text)
+    cleaned = re.sub(r"\[[^\]]{0,20}\]", "", cleaned)
+    # 文頭に残りがちな「下書き:」「回答:」等のラベル的接頭辞も除去
+    cleaned = re.sub(
+        r"^\s*(下書き|推敲(後|案)?|回答|出力|結果|返答|ツイート本文|DRAFT|Draft|Answer)\s*[:：]\s*",
+        "",
+        cleaned,
+    )
     cleaned = re.sub(r"[ \u3000]{2,}", " ", cleaned)  # 除去後にできる余分な空白を整理
     return cleaned.strip()
 
@@ -171,130 +191,57 @@ def _prepend_source_link(text: str, item: NewsItem, max_chars: int = 280) -> str
     return f"{url}\n{trimmed}"
 
 
-SYSTEM_PROMPT = """あなたはニッコロ・マキャベリその人として、現代の国際情勢を分析し
-280字以内の日本語のツイートを1件だけ生成する。以下を厳守せよ:
+SYSTEM_PROMPT_NOTE = """
+以前はLLM(特にOllamaの軽量モデル)に「下書き全体(分析文+引用+出典)を
+渡し、引用と出典は一字一句変えるな」という複雑な指示で丸ごと書き直させていたが、
+小型モデルには同時に守るべき制約が多すぎ、品質不安定・余計なラベルの
+混入(【下書き】等)の原因になっていた。
 
-1. 近現代のリベラルな国際法規範・道徳的理想主義(主権平等の建前、多国間協調の美徳など)を
-   自明の前提として採用しない。代わりに、力の実相・恐怖と信義の道具性・
-   フォルトゥーナ(運命)とヴィルトゥ(力量)という古典的現実主義の枠組みで語る。
-2. 日本の安全保障に言及する場合は、法的建前(独立主権国家)ではなく、
-   太平洋戦争敗戦以来の指揮権・基地・核の傘における対米依存という実効支配の実情を
-   踏まえて分析する(特定の政党や政策への賛否は述べない。あくまで力関係の分析)。
-3. 与えられた引用句を1つそのまま、または自然な形で文中に組み込むこと。引用元も明記する。
-4. 一人称は「余」または「予」、文体は簡潔・断定的・冷徹。感嘆符や絵文字は使わない。
-   文末は必ず「だ・である調」(〜である、〜だ、〜せねばならぬ、〜べし等)に統一し、
-   「です・ます調」(〜です、〜ます、〜ください等)は一切用いないこと。
-5. 出力はツイート本文のみ。前置きや解説は書かない。230字を超えない。
-6. 分析は当該ニュース固有の具体的な内容(登場する主体・地域・行動)に即して書くこと。
-   どの記事にも当てはまるような一般論・定型句の使い回しは禁止する。
-   「〜は自国の運命の主ではない」のような、内容に関わらず貼り付け可能な
-   紋切り型の結語を毎回繰り返してはならない。箴言とニュースの結び付きを、
-   その記事だけに固有の一文でコンパクトに示すこと。
-7. 元記事のURLは、本文とは別にシステム側が先頭に自動付加する。
-   本文中に自分でURLやリンクを書き込んではならない。
-8. 【随時更新】【引用】【速報】のような【】で囲んだ注釈・ラベル・見出し語を
-   一切付け加えないこと。ツイート本文は分析文・引用・出典のみで構成する。
+そこで役割を明確に分離した:
+  ・LLMの仕事は「ニュースの本質を一文で言い当てる」ことだけに限定する
+  ・引用文・出典・URLは常にPython側が機械的に(=確実に)組み立てる
+この分離により、LLMが失敗・迷走してもその影響は分析文1文に限定され、
+つぶやき全体の構成(引用の正確さ・出典・URL)は常に保証される。
 """
 
-USER_PROMPT_TEMPLATE = """[ニュース見出し] {title}
-[概要] {summary}
-[出典] {source}
+ANALYSIS_PROMPT = """次のニュースの本質を、マキャベリの現実主義的な視座から一文で言い当てよ。
 
-[使用する箴言(伊語原文)] {quote_it}
-[箴言の意訳] {quote_ja}
-[箴言の出典] {quote_source}
+ニュース見出し: {title}
+概要: {summary}
 
-上記を踏まえ、マキャベリとしてのツイート本文を1件生成せよ。"""
+条件:
+- 出力は1文のみ。40字以上100字以内
+- 文末は「だ・である」調(〜である、〜だ、〜べし等)に統一する
+- 「」『』などの引用符、URL、見出しラベル、前置きや説明は一切書かない
+- このニュース固有の具体的な内容(登場する主体・地域・行動)に触れる。
+  どの記事にも当てはまる一般論は禁止
+- 出力は分析文一文のみ。それ以外は何も書くな
+"""
 
 
-def generate_commentary_llm(item: NewsItem, model: str = None) -> str:
+def _validate_analysis(text: str, min_len: int = 8, max_len: int = 160) -> str:
     """
-    Anthropic API を用いた高品質生成モード。
-    環境変数 ANTHROPIC_API_KEY が必要。未設定の場合は例外を送出し、
-    呼び出し側で template モードにフォールバックすること。
+    LLMが返した分析文を検証する。1行だけ取り出し、注釈ラベルを除去し、
+    長さが妥当かを確認する。条件を満たさない場合は例外を送出し、
+    呼び出し側でのフォールバック(他モード・最終的にはテンプレート)を促す。
     """
-    import anthropic  # pip install anthropic
-
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise RuntimeError("ANTHROPIC_API_KEY is not set")
-
-    model = model or os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
-    quote = pick_quote(item.theme)
-
-    client = anthropic.Anthropic(api_key=api_key)
-    msg = client.messages.create(
-        model=model,
-        max_tokens=400,
-        system=SYSTEM_PROMPT,
-        messages=[{
-            "role": "user",
-            "content": USER_PROMPT_TEMPLATE.format(
-                title=item.title,
-                summary=item.summary,
-                source=item.source,
-                quote_it=quote["it"],
-                quote_ja=quote["ja"],
-                quote_source=QUOTES_DB_SOURCE_LABEL(quote["source"]),
-            )
-        }],
-    )
-    text = "".join(block.text for block in msg.content if block.type == "text").strip()
     text = _strip_bracket_annotations(text)
-    return _prepend_source_link(text, item, max_chars=280)
+    text = text.strip().split("\n")[0].strip()
+    if not (min_len <= len(text) <= max_len):
+        raise ValueError(f"分析文の長さが不正({len(text)}字): {text!r}")
+    return text
 
 
-def generate_commentary(item: NewsItem, prefer_llm: bool = True) -> str:
+def _analysis_via_ollama(item: NewsItem) -> str:
     """
-    メインエントリポイント。以下の優先順で生成を試み、失敗したら次にフォールバックする:
-      1. generate_commentary_ollama  : 無料・独立のローカルLLM(Ollama)による下書きの推敲
-      2. generate_commentary_llm     : Anthropic APIによる生成(ANTHROPIC_API_KEY設定時)
-      3. generate_commentary_template: 定型合成モード(常に成功する最終フォールバック)
-    """
-    if prefer_llm:
-        try:
-            return generate_commentary_ollama(item)
-        except Exception:
-            pass
-        try:
-            return generate_commentary_llm(item)
-        except Exception:
-            pass
-    return generate_commentary_template(item)
-
-
-OLLAMA_REFINE_PROMPT = """以下は、マキャベリの思想の枠組みに基づいて機械的に組み立てた
-地政学分析のツイート下書きである。これを、マキャベリ自身が書いたかのように
-自然で洗練された日本語の文章に整えよ。
-
-厳守事項:
-- 「」で囲まれた引用文と、『』で囲まれた出典表記は、一字一句変更しないこと
-- 事実関係(固有名詞・地名・団体名)を書き換えたり、新たな事実を付け足したりしないこと
-- 全体で230字を超えないこと
-- 一人称は「余」または「予」を用い、断定的・冷徹な文体にすること
-- 文末は必ず「だ・である調」(〜である、〜だ、〜せねばならぬ、〜べし等)に統一し、
-  「です・ます調」は一切用いないこと
-- 感嘆符や絵文字、前置き・説明・鉤括弧での補足は一切書かないこと
-- 【随時更新】【引用】【速報】のような【】で囲んだ注釈・ラベル・見出し語を
-  一切付け加えないこと
-- 出力は洗練後のツイート本文のみ
-
-[下書き]
-{draft}
-"""
-
-
-def generate_commentary_ollama(item: NewsItem, max_chars: int = 280) -> str:
-    """
-    無料・独立のローカルLLM(Ollama)を用いて、定型合成モードの下書きを推敲するモード。
+    無料・独立のローカルLLM(Ollama)に、分析文1文だけを書かせる。
     外部APIに一切データを送らず、ローカル(またはCI実行環境内)で完結する。
 
-    前提: Ollama (https://ollama.com) がインストールされ、
-          `ollama serve` が起動していること。
+    前提: Ollama (https://ollama.com) がインストールされ、`ollama serve` が起動していること。
     環境変数:
       OLLAMA_HOST  既定 "http://localhost:11434"
       OLLAMA_MODEL 既定 "qwen2.5:1.5b"(軽量・無料のオープンモデル。他の導入済みモデル名も指定可)
-    Ollamaが起動していない、またはモデルが無い場合は例外を送出し、
+    Ollamaが起動していない、応答が不正、等の場合は例外を送出し、
     呼び出し側で他モードにフォールバックすること。
     """
     import requests  # pip install requests
@@ -302,9 +249,7 @@ def generate_commentary_ollama(item: NewsItem, max_chars: int = 280) -> str:
     host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
     model = os.environ.get("OLLAMA_MODEL", "qwen2.5:1.5b")
 
-    draft = _build_draft(item, max_chars=230)
-    prompt = OLLAMA_REFINE_PROMPT.format(draft=draft)
-
+    prompt = ANALYSIS_PROMPT.format(title=item.title, summary=item.summary)
     resp = requests.post(
         f"{host}/api/generate",
         json={
@@ -313,12 +258,78 @@ def generate_commentary_ollama(item: NewsItem, max_chars: int = 280) -> str:
             "stream": False,
             "options": {"temperature": 0.6},
         },
-        timeout=(5, 90),
+        timeout=(5, 60),
     )
     resp.raise_for_status()
-    text = (resp.json().get("response") or "").strip()
-    if not text:
-        raise RuntimeError("Ollamaから空の応答が返された")
-    text = _strip_bracket_annotations(text)
+    text = resp.json().get("response") or ""
+    return _validate_analysis(text)
 
-    return _prepend_source_link(text, item, max_chars)
+
+def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
+    """
+    Anthropic APIに、分析文1文だけを書かせる。
+    環境変数 ANTHROPIC_API_KEY が設定されている場合のみ有効。
+    """
+    import anthropic  # pip install anthropic
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        raise RuntimeError("ANTHROPIC_API_KEY is not set")
+
+    model = model or os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+    client = anthropic.Anthropic(api_key=api_key)
+    msg = client.messages.create(
+        model=model,
+        max_tokens=150,
+        messages=[{
+            "role": "user",
+            "content": ANALYSIS_PROMPT.format(title=item.title, summary=item.summary),
+        }],
+    )
+    text = "".join(block.text for block in msg.content if block.type == "text")
+    return _validate_analysis(text)
+
+
+def _get_analysis(item: NewsItem, prefer_llm: bool = True) -> str:
+    """
+    分析文(1文)を得る。優先順位:
+      1. Ollama(無料・ローカル、既定で最優先)
+      2. Anthropic API(ANTHROPIC_API_KEY設定時)
+      3. テーマ別テンプレート(常に成功する最終フォールバック、_build_analysis)
+    """
+    if prefer_llm:
+        try:
+            return _analysis_via_ollama(item)
+        except Exception:
+            pass
+        try:
+            return _analysis_via_anthropic(item)
+        except Exception:
+            pass
+    return _build_analysis(item)
+
+
+def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = 280) -> str:
+    """
+    メインエントリポイント。つぶやきを組み立てる。
+
+    処理の流れ(常にこの順序・この役割分担で行われる):
+      1. 箴言を選ぶ               … pick_quote()             (決定的・常に正確)
+      2. 分析文を1文だけ得る       … _get_analysis()          (LLM、失敗時はテンプレート)
+      3. 分析文+引用+出典を結合    … ここで直接組み立てる       (決定的・Pythonが結合)
+      4. 先頭に元記事URLを付加     … _prepend_source_link()  (決定的・常に正確)
+
+    引用文・出典・URLは常にPython側が組み立てるため、LLMの出力内容に
+    関わらず、これらが改変されたり欠落したりすることはない。
+    """
+    quote = pick_quote(item.theme)
+    citation = f"『{QUOTES_DB_SOURCE_LABEL(quote['source'])}』"
+    analysis = _get_analysis(item, prefer_llm=prefer_llm)
+
+    draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
+    if len(draft) > max_chars - 40:
+        avail = (max_chars - 40) - len(quote['ja']) - len(citation) - 8
+        analysis = textwrap.shorten(analysis, width=max(avail, 10), placeholder="…")
+        draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
+
+    return _prepend_source_link(draft, item, max_chars)

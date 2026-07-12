@@ -9,7 +9,7 @@ demo.py
 実運用では news_fetcher.py が RSS から自動取得したデータに置き換わる。
 """
 
-from geopolitical_scorer import NewsItem, load_weights, rank_news
+from geopolitical_scorer import NewsItem, load_scoring_config, rank_news
 from machiavelli_engine import generate_commentary_template
 
 # 注: url は説明用のダミーリンク(example.com)です。
@@ -49,25 +49,48 @@ SAMPLE_NEWS = [
         source="経済安保ニュース",
         url="https://example.com/news/china-russia-joint-statement",
     ),
+    # --- 以下2件は「除外キーワードで正しく弾かれるか」を確認するためのノイズ記事 ---
+    NewsItem(
+        title="メジャーリーグの人気球団がホワイトハウスを訪問",
+        summary="優勝を果たした球団の選手たちが大統領を表敬訪問し、記念撮影を行った。",
+        source="スポーツニュース(ノイズ記事の例)",
+        url="https://example.com/news/mlb-white-house-visit",
+    ),
+    NewsItem(
+        title="人気俳優が来日、映画のプロモーションで会見",
+        summary="ハリウッド俳優が新作映画の宣伝のため来日し、ファンとの交流イベントを行った。",
+        source="芸能ニュース(ノイズ記事の例)",
+        url="https://example.com/news/actor-japan-visit",
+    ),
 ]
 
 
 def main():
-    weights = load_weights("config.yaml")
-    ranked = rank_news(SAMPLE_NEWS, weights, top_n=len(SAMPLE_NEWS))
+    scoring_cfg = load_scoring_config("config.yaml")
+    ranked = rank_news(
+        SAMPLE_NEWS,
+        scoring_cfg["weights"],
+        top_n=len(SAMPLE_NEWS),
+        exclude_keywords=scoring_cfg["exclude_keywords"],
+    )
 
     print("=" * 70)
     print("地政学的重要度ランキング(マキャベリ的基準: 力の実相を最重視)")
+    print(f"最低選別スコア: {scoring_cfg['minimum_score']} 点")
     print("=" * 70)
     for i, item in enumerate(ranked, 1):
-        print(f"{i}. [score={item.score:>2}] [theme={item.theme}] {item.title}")
-        print(f"   キーワード一致: {', '.join(item.matched_keywords) if item.matched_keywords else 'なし'}")
+        flag = "→ 除外" if item.score < 0 else (
+            "→ 選出可" if item.score >= scoring_cfg["minimum_score"] else "→ 閾値未満で不選出"
+        )
+        print(f"{i}. [score={item.score:>2}] [theme={item.theme}] {flag}  {item.title}")
+        print(f"   一致: {', '.join(item.matched_keywords) if item.matched_keywords else 'なし'}")
     print()
 
     print("=" * 70)
-    print("生成されたつぶやき(上位3件・templateモード)")
+    print("生成されたつぶやき(選出可となった記事のうち上位3件・templateモード)")
     print("=" * 70)
-    for item in ranked[:3]:
+    qualified = [i for i in ranked if i.score >= scoring_cfg["minimum_score"]]
+    for item in qualified[:3]:
         tweet = generate_commentary_template(item)
         print(f"\n--- 元記事: {item.title} [{item.source}] ---")
         print(tweet)

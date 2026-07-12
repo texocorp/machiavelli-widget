@@ -17,7 +17,7 @@ import datetime
 import json
 import os
 
-from geopolitical_scorer import load_weights, rank_news
+from geopolitical_scorer import load_scoring_config, rank_news
 from machiavelli_engine import generate_commentary
 from news_fetcher import fetch_all
 from bot import _hash_item, load_seen, save_seen  # 重複排除ロジックを再利用
@@ -41,7 +41,7 @@ def save_feed(feed: list):
 
 
 def main():
-    cfg_weights = load_weights("config.yaml")
+    scoring_cfg = load_scoring_config("config.yaml")
     seen = load_seen()
 
     items = fetch_all()
@@ -49,14 +49,19 @@ def main():
         print("[SKIP] ニュースを取得できませんでした。")
         return
 
-    ranked = rank_news(items, cfg_weights, top_n=10)
+    ranked = rank_news(
+        items,
+        scoring_cfg["weights"],
+        top_n=10,
+        exclude_keywords=scoring_cfg["exclude_keywords"],
+    )
     target = None
     for item in ranked:
         h = _hash_item(item)
         if h in seen:
             continue
-        if item.score <= 0:
-            continue
+        if item.score < scoring_cfg["minimum_score"]:
+            continue  # 閾値未満、または除外キーワードに一致(score=-1)
         target = (item, h)
         break
 

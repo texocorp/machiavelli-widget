@@ -128,18 +128,21 @@ def run_once(cfg: dict, seen: set) -> bool:
         return False
 
     weights = cfg["scoring_weights"]
+    exclude_keywords = cfg.get("exclude_keywords", [])
+    minimum_score = cfg.get("selection", {}).get("minimum_score", 1)
+
     items = fetch_all()
     if not items:
         print("[SKIP] ニュースを取得できませんでした。")
         return False
 
-    ranked = rank_news(items, weights, top_n=10)
+    ranked = rank_news(items, weights, top_n=10, exclude_keywords=exclude_keywords)
     for item in ranked:
         h = _hash_item(item)
         if h in seen:
             continue  # 既につぶやいた話題はスキップ
-        if item.score <= 0:
-            continue  # 地政学的重要度が閾値未満
+        if item.score < minimum_score:
+            continue  # 地政学的重要度が閾値未満、または除外キーワードに一致(score=-1)
 
         text = generate_commentary(item, prefer_llm=True)
         post_tweet(text, cfg)
