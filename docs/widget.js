@@ -24,7 +24,7 @@
   var TARGET_ID = currentScript.getAttribute("data-target") || "machiavelli-tweets";
   var COUNT = parseInt(currentScript.getAttribute("data-count") || "5", 10);
   var REFRESH_MS = parseInt(currentScript.getAttribute("data-refresh") || "600000", 10); // 既定10分
-  var TITLE = currentScript.getAttribute("data-title") || "マキャベリ、国際情勢を語る";
+  var TITLE = currentScript.getAttribute("data-title") || "Bot";
   var SUBTITLE = currentScript.getAttribute("data-subtitle") || "Niccolò Machiavelli on Geopolitics";
 
   function ensureContainer() {
@@ -168,7 +168,7 @@
       })
       .catch(function (err) {
         container.innerHTML =
-          '<div class="mcv-widget__error">つぶやきの取得に失敗いたしました(' +
+          '<div class="mcv-widget__error">つぶやきの取得に失敗した(' +
           escapeHtml(String(err.message || err)) +
           ")</div>";
       });
