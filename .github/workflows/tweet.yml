@@ -47,13 +47,13 @@ jobs:
           done
 
       - name: Pull local model
-        run: ollama pull qwen2.5:1.5b
+        run: ollama pull qwen2.5:3b
 
       - name: Generate feed
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OLLAMA_HOST: "http://localhost:11434"
-          OLLAMA_MODEL: "qwen2.5:1.5b"
+          OLLAMA_MODEL: "qwen2.5:3b"
         run: python generate_feed.py
 
       - name: Commit and push updated feed
