@@ -44,7 +44,7 @@ import json
 import os
 import random
 import textwrap
-from geopolitical_scorer import NewsItem
+from geopolitical_scorer import NewsItem, clean_news_text
 
 QUOTES_PATH = os.path.join(os.path.dirname(__file__), "data", "quotes.json")
 
@@ -204,7 +204,7 @@ def _trim_japanese(text: str, max_len: int) -> str:
 
 
 def _title_fragment(title: str, width: int = 28) -> str:
-    frag = title.strip().rstrip("。").rstrip("——")
+    frag = clean_news_text(title).strip().rstrip("。").rstrip("——")
     return _trim_japanese(frag, width)
 
 
@@ -376,7 +376,10 @@ def _analysis_via_ollama(item: NewsItem) -> str:
     host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
     model = os.environ.get("OLLAMA_MODEL", "qwen2.5:3b")
 
-    prompt = ANALYSIS_PROMPT.format(title=item.title, summary=item.summary)
+    prompt = ANALYSIS_PROMPT.format(
+        title=clean_news_text(item.title),
+        summary=clean_news_text(item.summary),
+    )
     resp = requests.post(
         f"{host}/api/generate",
         json={
@@ -417,7 +420,10 @@ def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
         max_tokens=150,
         messages=[{
             "role": "user",
-            "content": ANALYSIS_PROMPT.format(title=item.title, summary=item.summary),
+            "content": ANALYSIS_PROMPT.format(
+                title=clean_news_text(item.title),
+                summary=clean_news_text(item.summary),
+            ),
         }],
     )
     text = "".join(block.text for block in msg.content if block.type == "text")

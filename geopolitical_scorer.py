@@ -27,6 +27,31 @@ class NewsItem:
     matched_keywords: list = field(default_factory=list)
 
 
+def clean_news_text(text: str) -> str:
+    """
+    ニュースの見出し・概要から、【随時更新】【速報】【独自】のような
+    全角ブラケットの編集ラベルや、半角[LIVE]等のラベルを除去する。
+
+    【このクリーニングが必要な理由】
+    NHK等の一部のニュース配信は、見出し自体に「【随時更新】ウクライナ情勢」
+    のような編集上のラベルを含めている。これをクリーニングせずに
+    そのままテンプレート文やLLMへのプロンプトに渡すと、
+    「見出しに書かれていた」という理由だけでラベルがつぶやきの
+    分析文にそのまま紛れ込んでしまう(実際に発生した不具合)。
+
+    見出し・概要は、ニュースを取得した直後(news_fetcher.py)の時点で
+    このクリーニングを通すことを想定しているが、念のため
+    machiavelli_engine.py 側(_title_fragment、LLMプロンプト組み立て時)でも
+    同じ関数を呼び、二重に防御する。
+    """
+    if not text:
+        return text
+    cleaned = re.sub(r"【[^】]{0,20}】", "", text)
+    cleaned = re.sub(r"\[[^\]]{0,20}\]", "", cleaned)
+    cleaned = re.sub(r"[ \u3000]{2,}", " ", cleaned)
+    return cleaned.strip()
+
+
 # ニュースのトピック→ quotes.json のテーマキーへのマッピング
 TOPIC_THEME_MAP = {
     "military_alliance": "alleanze_dipendenza",   # 同盟・保護国・駐留・属国的依存

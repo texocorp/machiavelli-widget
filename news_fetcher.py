@@ -10,7 +10,7 @@ config.yaml の news_sources (RSS) から最新記事を取得する。
 
 import feedparser
 import yaml
-from geopolitical_scorer import NewsItem
+from geopolitical_scorer import NewsItem, clean_news_text
 
 
 def load_sources(config_path: str = "config.yaml") -> list:
@@ -29,8 +29,10 @@ def fetch_all(config_path: str = "config.yaml", per_feed_limit: int = 10) -> lis
             print(f"[WARN] フィード取得失敗: {src['name']} ({e})")
             continue
         for entry in feed.entries[:per_feed_limit]:
-            title = getattr(entry, "title", "").strip()
-            summary = getattr(entry, "summary", getattr(entry, "description", "")).strip()
+            title = clean_news_text(getattr(entry, "title", "").strip())
+            summary = clean_news_text(
+                getattr(entry, "summary", getattr(entry, "description", "")).strip()
+            )
             link = getattr(entry, "link", "")
             if not title:
                 continue
