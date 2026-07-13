@@ -54,32 +54,80 @@ def clean_news_text(text: str) -> str:
 
 # ニュースのトピック→ quotes.json のテーマキーへのマッピング
 TOPIC_THEME_MAP = {
-    "military_alliance": "alleanze_dipendenza",   # 同盟・保護国・駐留・属国的依存
-    "war_conflict": "guerra",                     # 戦争・武力衝突
-    "deterrence_fear": "paura_amore",              # 抑止・威嚇・恐怖による統制
-    "deception_diplomacy": "inganno_simulazione",  # 外交的欺瞞・二枚舌
-    "empire_decline": "imperi_declino",            # 覇権の興亡・秩序の変化
-    "domestic_populace": "popolo_principe",        # 世論・国内政治の移ろいやすさ
-    "neutrality_choice": "neutralita",              # 中立という選択の是非
-    "necessity_realpolitik": "necessita",           # 必要による正当化
-    "military_selfreliance": "armi_proprie",        # 自前の軍事力 vs 傭兵/他国依存
-    "fortune_timing": "fortuna_virtu",               # 好機・時勢の変化
+    "war_conflict": "guerra",                       # 戦争・武力衝突・攻撃
+    "deterrence_fear": "paura_amore",                # 抑止・威嚇・恐怖による統制
+    "military_alliance": "alleanze_dipendenza",      # 同盟・保護国・駐留・属国的依存
+    "deception_diplomacy": "inganno_simulazione",    # 外交的欺瞞・二枚舌
+    "empire_decline": "imperi_declino",              # 覇権の興亡・秩序の変化
+    "domestic_populace": "popolo_principe",          # 世論・国内政治の移ろいやすさ
+    "neutrality_choice": "neutralita",                # 中立という選択の是非
+    "necessity_realpolitik": "necessita",             # 必要による正当化
+    "military_selfreliance": "armi_proprie",          # 自前の軍事力 vs 傭兵/他国依存
+    "fortune_timing": "fortuna_virtu",                 # 好機・時勢の変化
 }
 
-# キーワード→トピック の粗いマッピング(スコアリング後、最尤テーマを推定)
+# テーマ分類の優先順位(上から順にチェックし、最初に一致したものを採用する)。
+#
+# 【なぜ「一致数の多数決」ではなく「優先順位」にしたか】
+# 以前は KEYWORD_TOPIC_HINTS の一致数が最も多いトピックを採用していたが、
+# 同点の場合は「辞書内で先に定義されたトピック」が常に勝つ実装になっており、
+# 「米軍」(military_alliance)が先に定義されていたせいで、
+# 実際には武力攻撃・報復を報じる記事(例:「米軍とイランの攻撃応酬」)まで
+# war_conflict ではなく military_alliance に誤分類され続け、
+# 結果として alleanze_dipendenza テーマ(箴言2件のみ)ばかりが選ばれ、
+# 同じ箴言が繰り返し引用される原因になっていた。
+#
+# 優先順位方式では、より具体的・深刻な事象(実際の武力衝突)を、
+# より一般的・周辺的なシグナル(米軍関与・同盟という語の存在)より
+# 優先して判定する。これにより、記事の実態に即したテーマ分類がなされ、
+# 結果として箴言の使用もテーマ単位でより広く分散するようになる。
+TOPIC_PRIORITY = [
+    "war_conflict",
+    "deterrence_fear",
+    "military_alliance",
+    "deception_diplomacy",
+    "empire_decline",
+    "domestic_populace",
+    "neutrality_choice",
+    "necessity_realpolitik",
+    "military_selfreliance",
+    "fortune_timing",
+]
+
+# キーワード→トピック の粗いマッピング。
+# 同じキーワードが複数トピックに関わる場合があるが、最終判定は
+# TOPIC_PRIORITY の順序(上記)で決まるため、ここでの記載順自体は問わない。
 KEYWORD_TOPIC_HINTS = {
-    "米軍": "military_alliance", "駐留": "military_alliance", "基地": "military_alliance",
-    "同盟": "military_alliance", "alliance": "military_alliance",
+    # war_conflict: 実際の武力行使・攻撃・侵攻・封鎖
     "台湾有事": "war_conflict", "侵攻": "war_conflict", "戦争": "war_conflict",
     "invasion": "war_conflict", "war": "war_conflict", "封鎖": "war_conflict",
+    "攻撃": "war_conflict", "反撃": "war_conflict", "報復": "war_conflict",
+    "攻撃応酬": "war_conflict", "空爆": "war_conflict", "ミサイル": "war_conflict",
+    "武力行使": "war_conflict", "交戦": "war_conflict", "砲撃": "war_conflict",
+    # deterrence_fear: 抑止・威嚇・核
     "抑止": "deterrence_fear", "威嚇": "deterrence_fear", "核": "deterrence_fear",
-    "nuclear": "deterrence_fear", "deterrence": "deterrence_fear",
+    "nuclear": "deterrence_fear", "deterrence": "deterrence_fear", "軍事的圧力": "deterrence_fear",
+    # military_alliance: 同盟・駐留・基地・依存関係(実際の武力衝突が無い場合の話題)
+    "米軍": "military_alliance", "駐留": "military_alliance", "基地": "military_alliance",
+    "同盟": "military_alliance", "alliance": "military_alliance",
+    "NATO": "military_alliance", "地位協定": "military_alliance", "共同訓練": "military_alliance",
+    "結束": "military_alliance",
+    # deception_diplomacy: 外交・会談・声明・首脳会議
     "外交": "deception_diplomacy", "会談": "deception_diplomacy", "声明": "deception_diplomacy",
+    "首脳会議": "deception_diplomacy", "サミット": "deception_diplomacy", "共同声明": "deception_diplomacy",
+    # empire_decline: 覇権・秩序・衰退
     "覇権": "empire_decline", "秩序": "empire_decline", "衰退": "empire_decline",
+    "国際秩序": "empire_decline",
+    # domestic_populace: 世論・内政
     "世論": "domestic_populace", "選挙": "domestic_populace", "内政": "domestic_populace",
+    # neutrality_choice: 中立
     "中立": "neutrality_choice", "neutral": "neutrality_choice",
+    # necessity_realpolitik: 制裁・関税・貿易摩擦
     "制裁": "necessity_realpolitik", "関税": "necessity_realpolitik", "sanction": "necessity_realpolitik",
+    "貿易摩擦": "necessity_realpolitik",
+    # military_selfreliance: 傭兵・自主防衛
     "傭兵": "military_selfreliance", "自主防衛": "military_selfreliance",
+    # fortune_timing: 好機・時勢
     "好機": "fortune_timing", "タイミング": "fortune_timing",
 }
 
@@ -124,7 +172,7 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> 
 
     total = 0
     matched = []
-    topic_votes = {}
+    matched_topics = set()
 
     for level, words in weights.items():
         pts = {"high": 4, "medium": 2, "low": 1}[level]
@@ -135,15 +183,20 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> 
 
     for kw, topic in KEYWORD_TOPIC_HINTS.items():
         if re.search(re.escape(kw), text, re.IGNORECASE):
-            topic_votes[topic] = topic_votes.get(topic, 0) + 1
+            matched_topics.add(topic)
 
     item.score = total
     item.matched_keywords = matched
-    if topic_votes:
-        best_topic = max(topic_votes.items(), key=lambda x: x[1])[0]
-        item.theme = TOPIC_THEME_MAP.get(best_topic, "necessita")
-    else:
-        item.theme = "necessita"  # デフォルト: 必要性の論理
+
+    # 優先順位(TOPIC_PRIORITY)の順に見ていき、最初に一致したトピックを採用する。
+    # 「一致数が最も多いトピック」ではなく「最も具体的・深刻なトピック」を
+    # 優先することで、例えば実際の武力攻撃を報じる記事が、
+    # 単に「米軍」という語を含むだけで同盟関連テーマに誤分類される事態を防ぐ。
+    item.theme = "necessita"  # デフォルト: 必要性の論理
+    for topic in TOPIC_PRIORITY:
+        if topic in matched_topics:
+            item.theme = TOPIC_THEME_MAP.get(topic, "necessita")
+            break
     return item
 
 
