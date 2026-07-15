@@ -1,5 +1,15 @@
 [
   {
+    "id": "e7ea17c400f1",
+    "timestamp": "2026-07-15T21:54:51.490630+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260715/k10015177811000.html\n米軍 イランの海上封鎖再開 イラン“周辺国の基地を攻撃”が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "NHK国際",
+    "source_title": "米軍 イランの海上封鎖再開 イラン“周辺国の基地を攻撃”",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260715/k10015177811000.html"
+  },
+  {
     "id": "07096e5bdd94",
     "timestamp": "2026-07-15T19:03:42.519859+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MWmt6MjBTTW9jLXRhelF4cVItelBLOTNPdUxzdTE0eHZoX1JJMUtTUnZhWGNzNHA3dzVYUDF6NjhaeFFBbnh3Sk15WE1mNFJDY2lRRzZJVF8xcDEzVXd2Y0lrVjF2VVJ0TkR5aGdBNGpmOElMWkRMVzBUSDNfT2s?oc=5\nウクライナ向け防衛関連資金で中国製のドローン部品を購入…の背後にあるのは「軍事」という力の論理であり、",
@@ -288,15 +298,5 @@
     "source": "デモ用サンプル",
     "source_title": "高市首相、国会答弁で台湾有事に言及「逃げれば同盟崩壊」",
     "source_url": "https://example.com/news/takaichi-taiwan-remark"
-  },
-  {
-    "id": "sample0002",
-    "timestamp": "2026-07-10T12:00:00+00:00",
-    "text": "https://example.com/news/china-military-buildup-taiwan\n中国、台湾包囲を見据えた軍備増強を継続は、防衛の指揮権を他国に委ねた者が、その他国の判断一つで運命を左右される構図を露わにする。\n「二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。」\n『君主論 第21章』",
-    "theme": "alleanze_dipendenza",
-    "score": 6,
-    "source": "デモ用サンプル",
-    "source_title": "中国、台湾包囲を見据えた軍備増強を継続",
-    "source_url": "https://example.com/news/china-military-buildup-taiwan"
   }
 ]
