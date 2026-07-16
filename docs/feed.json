@@ -1,5 +1,15 @@
 [
   {
+    "id": "b5bb903ea8e1",
+    "timestamp": "2026-07-16T13:31:36.215087+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260716/k10015178061000.html\n米軍の攻撃はマキャベリの観点から見れば、現実的生存のための冷酷な手段だと批判されざるを得ないだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 9,
+    "source": "NHK国際",
+    "source_title": "米軍 “海上封鎖再開 警告無視の船攻撃” イランは対抗の姿勢",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260716/k10015178061000.html"
+  },
+  {
     "id": "2995d90aef94",
     "timestamp": "2026-07-16T10:54:13.486716+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260716/k10015178061000.html\nマキャベリならこの事態を「戦闘再開の現実的導因は軍事上の圧力を選び求めた米側であり、イランの反発こそがその本質だ」と評価するだろう。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "（社説）ＮＡＴＯ首脳会議 試される米欧の結束 - 朝日新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tVVpwa1lWNU9CTFBmdzQ1YlFkLWhpSkVnM2JDSzZqVmM3WHRNTVhoMGFSUVpYRm9JQ2RiejlBXzZlSkZ5QXhCaGNCUzh2SEhTRHN1YXllb1QzSXNC?oc=5"
-  },
-  {
-    "id": "786e7d25e07c",
-    "timestamp": "2026-07-12T18:59:16.442701+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5dVVab3BsaXh2Y29fa1p0T25TekRTaENJXzdIMGUyUnRla2hSZU4yNFN1UFN4QmN4OTZwQzBZQ1VzRXVQYjdKSlFyRmhKd2RjdU9HdWVQQXEwRzVKNTRCREJFZU9OTGs?oc=5\n米軍再びイランに攻撃、イランがホルムズ海峡封鎖宣言 米欧対立深まる。\n「君主たる者、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば汝はその者の虜囚となるからだ。",
-    "theme": "alleanze_dipendenza",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "米、イランに再び攻撃 イランは「ホルムズ封鎖」宣言、周辺国に報復 - 朝日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5dVVab3BsaXh2Y29fa1p0T25TekRTaENJXzdIMGUyUnRla2hSZU4yNFN1UFN4QmN4OTZwQzBZQ1VzRXVQYjdKSlFyRmhKd2RjdU9HdWVQQXEwRzVKNTRCREJFZU9OTGs?oc=5"
   }
 ]
