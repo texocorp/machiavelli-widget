@@ -1,5 +1,15 @@
 [
   {
+    "id": "35ad32dbf17f",
+    "timestamp": "2026-07-17T08:01:00.906023+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlbmtxeE9heXV5ME11SERaSk8za1NwRXE3YkRnNTNOT0JIUG1WSHFFeEcteWV1cE1FaU5ZOXhlUWlRVnRXemhMZlhzZWZ2Vjhaa3Z4Q3BjcFFSU20xOGM0SXJ2cjZKczBFMmRwSVZvZUJzd2dpMkV3bDJ3?oc=5\nトランプの言動が再びイラン攻撃を招く可能性を示唆する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "アングル：イラン攻撃拡大を示唆するトランプ氏、同じ失敗繰り返す恐れ - ロイター",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlbmtxeE9heXV5ME11SERaSk8za1NwRXE3YkRnNTNOT0JIUG1WSHFFeEcteWV1cE1FaU5ZOXhlUWlRVnRXemhMZlhzZWZ2Vjhaa3Z4Q3BjcFFSU20xOGM0SXJ2cjZKczBFMmRwSVZvZUJzd2dpMkV3bDJ3?oc=5"
+  },
+  {
     "id": "d89211f24a20",
     "timestamp": "2026-07-17T05:37:41.539718+00:00",
     "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QMkRGX0dZMWxEZjJkd1h5UWVDSnBTLU5jVUZoS3VlZnRiTW1PY1Y1U2w5RXFnMnFId1d1RW9WSFRLUnBCMWlnd2k1Vy1ud3FGWXUxWkVTeDNlT3NwU3lHM0Zrbw?oc=5\n米イラン衝突再燃、軍事的緊張高まる現実主義視座下。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏、対イラン封鎖の再開宣言 ホルムズ通過に20%の｢通航料｣ - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NYU9IZXpvQlpYS20wd0hETTExWXFqWmpwb0l2anhKUFZzZ1I1bDB3Z2ZoSkFhYWd1TmpzSDMtWUJIRGR4ck5zeEUwQkRJOHRUX2QyMGVmSFhrNDIzb1VsOE45Ul8zT0dqN0doWA?oc=5"
-  },
-  {
-    "id": "d55cf374f2c5",
-    "timestamp": "2026-07-13T14:28:14.540593+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260713/k10015175281000.html\n日本はマキャベリの観点から見ればロシア軍のハイテク物資調達拠点として現実的に利用されている。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "NHK国際",
-    "source_title": "“日本はロシア軍のハイテク物資調達の拠点” NYタイムズ",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260713/k10015175281000.html"
   }
 ]
