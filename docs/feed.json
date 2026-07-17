@@ -1,5 +1,15 @@
 [
   {
+    "id": "fc285de02060",
+    "timestamp": "2026-07-17T10:42:25.197476+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260717/k10015141081000.html\nロシアの軍事侵攻がウクライナ情勢をマキャベリ式な現実主義の渦中に押し寄せている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月17日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260717/k10015141081000.html"
+  },
+  {
     "id": "35ad32dbf17f",
     "timestamp": "2026-07-17T08:01:00.906023+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlbmtxeE9heXV5ME11SERaSk8za1NwRXE3YkRnNTNOT0JIUG1WSHFFeEcteWV1cE1FaU5ZOXhlUWlRVnRXemhMZlhzZWZ2Vjhaa3Z4Q3BjcFFSU20xOGM0SXJ2cjZKczBFMmRwSVZvZUJzd2dpMkV3bDJ3?oc=5\nトランプの言動が再びイラン攻撃を招く可能性を示唆する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ＩＭＯ、ホルムズ通航料徴収に「断固反対」 トランプ氏が通過貨物の20％補償主張 - Reuters",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JY29xU19Ucy14X0MwaktfNUJqSGxnVWMwaVJKc2haRzVJbllUajJxM2RBaUJucVB0bFpqUzZPdUtKbGFZLTNsZ3lsbW4tOGdtelFadGFuVmlmQXczUUVGYzFJOEpDMGV5WmFxc2J4M19MVHV4cU1mVHBn?oc=5"
-  },
-  {
-    "id": "756c142d723a",
-    "timestamp": "2026-07-13T17:11:17.327008+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NYU9IZXpvQlpYS20wd0hETTExWXFqWmpwb0l2anhKUFZzZ1I1bDB3Z2ZoSkFhYWd1TmpzSDMtWUJIRGR4ck5zeEUwQkRJOHRUX2QyMGVmSFhrNDIzb1VsOE45Ul8zT0dqN0doWA?oc=5\nトランプ政権のイラン対策はマキャベリ式の冷酷実利主義だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、対イラン封鎖の再開宣言 ホルムズ通過に20%の｢通航料｣ - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NYU9IZXpvQlpYS20wd0hETTExWXFqWmpwb0l2anhKUFZzZ1I1bDB3Z2ZoSkFhYWd1TmpzSDMtWUJIRGR4ck5zeEUwQkRJOHRUX2QyMGVmSFhrNDIzb1VsOE45Ul8zT0dqN0doWA?oc=5"
   }
 ]
