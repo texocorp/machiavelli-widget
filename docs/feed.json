@@ -1,5 +1,15 @@
 [
   {
+    "id": "0daeead7d363",
+    "timestamp": "2026-07-18T15:51:53.424888+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260718/k10015141091000.html\nロシアの軍事侵攻がウクライナ情勢をマキャベリの現実主義的視座から見れば、力と生存の厳しさに直面させられる危険性だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月18日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260718/k10015141091000.html"
+  },
+  {
     "id": "6f3463289c29",
     "timestamp": "2026-07-18T13:03:45.871710+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZX0xBS1BaYUFFbEVaZlJ2X2VOUm51Q3dHRno1WDAwbnFFUmNoNUF3OXJXR3pYS2ZnX1NINVl5ekhqNk5iYU5vcUNCdWVZUkFuSko4aWlZbzZzalJZdmE0TkJjRUZGbEVnV19zaA?oc=5\nモジタバ師側近の言動はマキャベリの観点からは現実的戦略形成を試みるが、過激な行動のリスクも浮上している。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "6月のウクライナ民間人死傷者2200人超 過去4年で最多 国連",
     "source_url": "http://www3.nhk.or.jp/news/html/20260715/k10015176991000.html"
-  },
-  {
-    "id": "0830921c9036",
-    "timestamp": "2026-07-14T21:54:27.736571+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAyTU1wazhDWGtQeHAtRXNwS3hDb1U3YU5YZktPc0NoUWRiRFByR1kxQU80amdBTTJ3UmJDREFGYl90ZVNRZkZ6c1pQSm9TanZpeUQxcGpvTDNsTlJUS1djbW93?oc=5\n米軍のイラン対策はマキャベリの観点から見れば現実的な冷酷な決断だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 9,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍、イラン関連船舶への海上封鎖措置を再開…４日連続の空爆も開始 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAyTU1wazhDWGtQeHAtRXNwS3hDb1U3YU5YZktPc0NoUWRiRFByR1kxQU80amdBTTJ3UmJDREFGYl90ZVNRZkZ6c1pQSm9TanZpeUQxcGpvTDNsTlJUS1djbW93?oc=5"
   }
 ]
