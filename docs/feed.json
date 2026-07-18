@@ -1,5 +1,15 @@
 [
   {
+    "id": "f36a3594a2f2",
+    "timestamp": "2026-07-18T18:56:53.076154+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvNFUtSHJYTzNFemdyejdvVldON0l1OG5DWWVHWndZM0w5a01BczZiQXJjZXI0ZloyZ1RIa282Um96LUNsd3NadTVqcTVpTVZuS1lITDl3U1FWZVppRUc4MDhNYVpmWXBsYXdhNzZBWjNCNElsWWw5bTZn?oc=5\nイランの停止決断が米国との対話を引き裂く現実を露わす。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン「覚書の履行を停止した」 外務次官「交渉の最中だったが米国が義務に違反」 - テレ朝NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvNFUtSHJYTzNFemdyejdvVldON0l1OG5DWWVHWndZM0w5a01BczZiQXJjZXI0ZloyZ1RIa282Um96LUNsd3NadTVqcTVpTVZuS1lITDl3U1FWZVppRUc4MDhNYVpmWXBsYXdhNzZBWjNCNElsWWw5bTZn?oc=5"
+  },
+  {
     "id": "0daeead7d363",
     "timestamp": "2026-07-18T15:51:53.424888+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260718/k10015141091000.html\nロシアの軍事侵攻がウクライナ情勢をマキャベリの現実主義的視座から見れば、力と生存の厳しさに直面させられる危険性だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏、イランとの覚書ほご 米軍が連日攻撃、停戦崩壊危機 - 時事ドットコム",
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82MGU3Z0hNa2RrX2d1QWExYmFFRExOU2JYMlNpVXNXZGJUdk9HTlJKZEVuOEZxTW9Ta1g3NFZWU0dxQTd4MGRObzRDYUxhc0dxZzN3WmJIa25pV0YyZEcwalB3SQ?oc=5"
-  },
-  {
-    "id": "74cbfd157626",
-    "timestamp": "2026-07-15T01:52:33.977814+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260715/k10015176991000.html\nマキャベリの視座から見ると、このニュースはウクライナにおけるロシアによる軍事侵略の過激さを示す現実的で厳しい状況だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "6月のウクライナ民間人死傷者2200人超 過去4年で最多 国連",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260715/k10015176991000.html"
   }
 ]
