@@ -1,5 +1,15 @@
 [
   {
+    "id": "624f5de6b61d",
+    "timestamp": "2026-07-19T15:54:49.006566+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYa3IySGt0M3duZUpsMUZ6TjhmT0FXUVZvRTctMVlQQWFYVHRSRWJ3SHBvLTRNaXI4bUhDSFJsY2E3T01CUzFPdExfUQ?oc=5\n米軍の報復攻撃で、イランとの連鎖攻撃が現実主義的リスクを増大させる。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "米、兵士死亡への報復でイラン空爆 - 47NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYa3IySGt0M3duZUpsMUZ6TjhmT0FXUVZvRTctMVlQQWFYVHRSRWJ3SHBvLTRNaXI4bUhDSFJsY2E3T01CUzFPdExfUQ?oc=5"
+  },
+  {
     "id": "9533bd1f4749",
     "timestamp": "2026-07-19T13:04:41.437256+00:00",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTX1hFdW9TZS1tWEdqNGZHTkdNcjVpWFdsNDRTTGQ4ajAxektrZjJXcS05dmhfT3Y1U1ZPNEhtU3pMR0J5ek9HT1ZGMnktdThINFd5QzhGMEtSbE5aTmNGRHBVOFEwMlRJZUlnRDNDUVJ0ME9DTEE?oc=5\nマムダニ市長がネタニヤフ首相の拘束を検討する可能性について、現実主義的な視座から見れば深刻な政治的挑戦である。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア製油所の稼働率 21年間で最低水準 ウクライナ攻撃で",
     "source_url": "http://www3.nhk.or.jp/news/html/20260715/k10015177761000.html"
-  },
-  {
-    "id": "e7ea17c400f1",
-    "timestamp": "2026-07-15T21:54:51.490630+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260715/k10015177811000.html\n米軍 イランの海上封鎖再開 イラン“周辺国の基地を攻撃”が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "NHK国際",
-    "source_title": "米軍 イランの海上封鎖再開 イラン“周辺国の基地を攻撃”",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260715/k10015177811000.html"
   }
 ]
