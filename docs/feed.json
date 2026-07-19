@@ -1,5 +1,15 @@
 [
   {
+    "id": "bc0701dbe8e4",
+    "timestamp": "2026-07-19T21:45:48.446167+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260719/k10015180431000.html\n米軍が現実的対応を迫られる中、マキャベリの視座で見れば対立の再燃懸念だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 5,
+    "source": "NHK国際",
+    "source_title": "兵士死亡受けて米軍が8日連続でイラン攻撃 対立の先鋭化懸念",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260719/k10015180431000.html"
+  },
+  {
     "id": "28a55ca8c74a",
     "timestamp": "2026-07-19T18:58:46.676637+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2dUN1UVlUQ09vTkk3Zm44Qm04WGtxbUI0dDhTRXctMGFNRVBLU1JTLTFIcnhpOUt1MjRtYnZMa3BZSXVVMjRRSmRjUkVDS2NZa2ozdVJRVjJwa1FOcjJzUHVR?oc=5\nマムダニＮＹ市長、ネタニヤフ首相を逮捕できるか協議…「…が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米中央軍が５日連続でイラン攻撃、海上封鎖に反したタンカーを航行不能に…イラン「息絶えても戦うため備えを」 - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fYUdNMXA3ZEZ2M09XVkNDS1FSSGxpRlItYklEQ0oxZlZtaUdLT1NMYTRFSkpRdGk4WjdwcGxxWDREc1RIenQtU3YwazBRUFhoamRQaWVpUDNYWHgwdEtON09R?oc=5"
-  },
-  {
-    "id": "4e963aa2ea8f",
-    "timestamp": "2026-07-16T05:34:55.515690+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260716/k10015141071000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的な視座から厳しく描きだしている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（7月16日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260716/k10015141071000.html"
   }
 ]
