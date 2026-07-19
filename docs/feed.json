@@ -1,5 +1,15 @@
 [
   {
+    "id": "f390c1b0467c",
+    "timestamp": "2026-07-19T10:22:42.256025+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260719/k10015141101000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的視座で捉えると、戦闘状況の激化と避難民の増加が政情不穏の証拠だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月19日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260719/k10015141101000.html"
+  },
+  {
     "id": "1152cd74dee1",
     "timestamp": "2026-07-19T08:07:21.545992+00:00",
     "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yMFFhY012TXFFcF9kUFJQZjdsZ05zY3pRVFZkUGphWjlKSzVtV2ZYSjVkUlVjLVNNT2JuUWRpREJ0VG5Cd2VqbV9SdXg2RVEyVHdLU1Vn?oc=5\nゼレンスキー、「ドローン戦争」の最大の功労者フェドロフ…が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ウクライナ向け防衛関連資金で中国製のドローン部品を購入へ EUが例外的に認める 英フィナンシャル・タイムズ報道 中国に依存しなければいけない実情が浮き彫りに（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MWmt6MjBTTW9jLXRhelF4cVItelBLOTNPdUxzdTE0eHZoX1JJMUtTUnZhWGNzNHA3dzVYUDF6NjhaeFFBbnh3Sk15WE1mNFJDY2lRRzZJVF8xcDEzVXd2Y0lrVjF2VVJ0TkR5aGdBNGpmOElMWkRMVzBUSDNfT2s?oc=5"
-  },
-  {
-    "id": "90db0c5b3350",
-    "timestamp": "2026-07-15T16:18:01.728104+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TMWo1TnpIdnctRkJpWW5HMTFJeC14bUUzYkZ3b2RtTFNWRWIxWmpGb25sYzA2TjhKZXp0NU80SkxQWEE0eWhQbUtsSm5NM3ZLbW12M0FZNFJpYXl4eURVLURIVQ?oc=5\n米、海上封鎖を再開 ５日連続で対イラン攻撃―「２０％の…の背後にあるのは「核」という力の論理であり、道義の言葉はその後から付いてくるに過ぎぬ。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "米、海上封鎖を再開 ５日連続で対イラン攻撃―「２０％の対価」は撤回 - 時事ドットコム",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TMWo1TnpIdnctRkJpWW5HMTFJeC14bUUzYkZ3b2RtTFNWRWIxWmpGb25sYzA2TjhKZXp0NU80SkxQWEE0eWhQbUtsSm5NM3ZLbW12M0FZNFJpYXl4eURVLURIVQ?oc=5"
   }
 ]
