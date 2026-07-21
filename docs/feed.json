@@ -1,5 +1,15 @@
 [
   {
+    "id": "e8dc827d2008",
+    "timestamp": "2026-07-21T11:04:11.625100+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260721/k10015141121000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的視座から厳しく描きだす。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月21日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260721/k10015141121000.html"
+  },
+  {
     "id": "4940e80fcd55",
     "timestamp": "2026-07-21T08:16:23.852763+00:00",
     "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Ny0yU2xHcVZUUUVsei0tUUItQ0hlckVQa1liaThwbnB3UEsyM0R0TXZTdWVlWUdhWXg0QkR0MlUya29xTU5RLTcwYlppZUM3VnY4M0N2MF9RcFpkNlgwQ1diNA?oc=5\nサウジの封鎖宣言はマキャベリ主義的観点から見れば権力争いの現実だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米イラン衝突、海底ケーブル集中の急所狙う データの3割が中東経由 - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYRGhsMHFhanhtTjlxZkZlZFV4RDJpVFM3NkpwVFhvNlVLbEJqUU9tcjZORHFSR2FwSURjZ01PQmhzYnQ4SWRPQUlvUEFrbWZXT0Z4Q3REX2d0VTRkMmZNM3NWRHJGY1l2RjE3ZQ?oc=5"
-  },
-  {
-    "id": "07a215f42a05",
-    "timestamp": "2026-07-17T13:17:03.231156+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjZm1hVnQ5SXNaYlZQWmhYMTJFYUEwZ0FmQjZUQzB3ekU2WjZ5UUpIREpHUUdPNWgtbDRMSGxXYXlZM1pfWnBJVU9ScVh2cnhxaUxzRWJqMjFjd2hsMzFJbHdPenZuMWNocHVxX3N5MXVWWF9vb2FrU0IyandmSG8?oc=5\nプーチンの偽りの勝利説は、ロシア軍の惨敗と進展遅れを鮮明に示す。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "プーチン氏が主張する偽りの戦果、ロシア軍の惨状と前進の遅れが浮き彫りに（CNN.co.jp） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjZm1hVnQ5SXNaYlZQWmhYMTJFYUEwZ0FmQjZUQzB3ekU2WjZ5UUpIREpHUUdPNWgtbDRMSGxXYXlZM1pfWnBJVU9ScVh2cnhxaUxzRWJqMjFjd2hsMzFJbHdPenZuMWNocHVxX3N5MXVWWF9vb2FrU0IyandmSG8?oc=5"
   }
 ]
