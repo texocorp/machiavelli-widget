@@ -1,5 +1,15 @@
 [
   {
+    "id": "4253e050bfef",
+    "timestamp": "2026-07-21T22:00:51.222190+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260722/k10015182271000.html\nマキャベリの観点から見れば、ウクライナの軍事情勢は強権的で実質的な支配が求められる現実主義的な状況だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "NHK国際",
+    "source_title": "ウクライナ 国防相に続き軍総司令官も交代 異例の事態",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260722/k10015182271000.html"
+  },
+  {
     "id": "7b57a86f9a54",
     "timestamp": "2026-07-21T19:11:49.995066+00:00",
     "text": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU2FObTlPR3kwNDBpZmpKeTBSeW5sN3J6RzIyOXRwM0J0a25ucUk0aUNHU3B5NjQzSkVVRFM0bGljUnU3ZV9oX3hwc3dHUVRTZUNNc3llcTVja09GT3dCN1BUV2FNc2xXM19FbkMyb3piRDE0SVozZDZ4WEdrYUJHRUpR?oc=5\nトランプ氏、イラン「ピックアックス山」を近く攻撃と表明…が示すのは、",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米のイラン攻撃完了、7日連続 タンカー爆発炎上と報道 - ロイター",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tdXlGMmV4dHozRGQ1TUIybDN3cXZzMXh2amt2RGJJM1FWc0k1S0h3Qk9ER3hmTzZWTUxJZ3V2cE1McEFRRWFfRTBxMngtZ0tvYWMtb3dNams0NERwSzhoMjZXXzc0aE1hYjNHRGNTQjNXMXN0NHlIS0tB?oc=5"
-  },
-  {
-    "id": "e59a5e511f38",
-    "timestamp": "2026-07-18T01:57:40.507461+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94VzdLdlFUUjNTSTcyMklYTkYyeUdwRDcwRTF3TlhGUktiTjg3emtTZ3FYaC1GUzFNdndXbFVQTlZ1WEEyQ0pVSEo3WkNOT1UzNnpSOE1BNUVJNHBINmNN?oc=5\nドイツとフランスが初めて通常戦力を行使することで核演習に参加、軍事協力強化の動きだ。\n「人間について概して言えばこうだ。恩知らずで、移ろいやすく、偽り欺き、危険を避け、利得に貪欲である。",
-    "theme": "paura_amore",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "フランスの核戦力演習にドイツが初めて通常戦力で参加へ - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94VzdLdlFUUjNTSTcyMklYTkYyeUdwRDcwRTF3TlhGUktiTjg3emtTZ3FYaC1GUzFNdndXbFVQTlZ1WEEyQ0pVSEo3WkNOT1UzNnpSOE1BNUVJNHBINmNN?oc=5"
   }
 ]
