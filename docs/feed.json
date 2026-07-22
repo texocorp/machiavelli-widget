@@ -1,5 +1,15 @@
 [
   {
+    "id": "9be32055c308",
+    "timestamp": "2026-07-22T13:30:20.553499+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260722/k10015182271000.html\nウクライナ軍のトップ交代はマキャベリの現実主義的視座で見れば、権力争いと政治圧力の結果だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 9,
+    "source": "NHK国際",
+    "source_title": "ウクライナで国防相に続き軍のトップも交代 異例の人事に",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260722/k10015182271000.html"
+  },
+  {
     "id": "2e3dd1aebe4c",
     "timestamp": "2026-07-22T11:04:15.108030+00:00",
     "text": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRkpFVUI5cjc2RnhyeWlvYWdSekxDT0NKLWdqTkpWVzlhNzRpbU9ZR1I4T0ZTRW5YOF83dy1mcWFCYklaaG80ZjA4dWYyQW1vTWRNd2JnbnlRVUhKdVBxa0J0R012a2tGQno2bllJMXBXUkgyWDQwRVdmRURBUDJEbHF3?oc=5\nマキャベリならこの状況を「イランに対する米国軍事行動の可能性が高まっている」と断じるだろう。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イラン「覚書の履行を停止した」 外務次官「交渉の最中だったが米国が義務に違反」 - テレ朝NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvNFUtSHJYTzNFemdyejdvVldON0l1OG5DWWVHWndZM0w5a01BczZiQXJjZXI0ZloyZ1RIa282Um96LUNsd3NadTVqcTVpTVZuS1lITDl3U1FWZVppRUc4MDhNYVpmWXBsYXdhNzZBWjNCNElsWWw5bTZn?oc=5"
-  },
-  {
-    "id": "0daeead7d363",
-    "timestamp": "2026-07-18T15:51:53.424888+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260718/k10015141091000.html\nロシアの軍事侵攻がウクライナ情勢をマキャベリの現実主義的視座から見れば、力と生存の厳しさに直面させられる危険性だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（7月18日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260718/k10015141091000.html"
   }
 ]
