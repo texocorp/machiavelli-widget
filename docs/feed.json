@@ -1,5 +1,15 @@
 [
   {
+    "id": "0c50c1d21e39",
+    "timestamp": "2026-07-22T08:16:47.726440+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260722/k10015141131000.html\nロシアの軍事侵攻により、ウクライナ情勢は現実主義者にとって厳しさを増す。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月22日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260722/k10015141131000.html"
+  },
+  {
     "id": "7d7b4c8524ed",
     "timestamp": "2026-07-22T05:47:48.276888+00:00",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ISnQ2X1RYcTQ3aE1vbkhSQUs0MXhuVVl3eUx3MV8xQWJYeEFzTFgtMmRXVGRrVHdaV21wTGJ3U1p5M2FvZGNUMFd0VnZaeEIxRVBUemxrSVR2d3FHZ1FvLWgxTEItNE1STlhPb0xIMW52cHVCLXc?oc=5\nトランプ氏、ピックアックス山「近いうちに激しく攻撃」…の背後にあるのは「核」という力の論理であり、道義の言葉はその後から付いてくるに過ぎぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "モジタバ師側近、米軍のイラン攻撃続けば｢全面攻勢｣ 作戦拡大も検討 - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZX0xBS1BaYUFFbEVaZlJ2X2VOUm51Q3dHRno1WDAwbnFFUmNoNUF3OXJXR3pYS2ZnX1NINVl5ekhqNk5iYU5vcUNCdWVZUkFuSko4aWlZbzZzalJZdmE0TkJjRUZGbEVnV19zaA?oc=5"
-  },
-  {
-    "id": "9ee41539ab70",
-    "timestamp": "2026-07-18T10:15:39.583443+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tRmFPUkNqMjIwVERkYzByY2g2SWRHRVVMTklueDNVMEtvNFhLejJvNV9uWFRjVTYtSzBURllhQWxjNG1vYXk5anZBQnp3c2RXTERLZXNfa3hvYUdTNjF2djNn?oc=5\n対イラン軍事作戦拡大の可能性、が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "対イラン軍事作戦拡大の可能性、地下核施設への攻撃検討か…空中給油機をイスラエルに増派方針 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tRmFPUkNqMjIwVERkYzByY2g2SWRHRVVMTklueDNVMEtvNFhLejJvNV9uWFRjVTYtSzBURllhQWxjNG1vYXk5anZBQnp3c2RXTERLZXNfa3hvYUdTNjF2djNn?oc=5"
   }
 ]
