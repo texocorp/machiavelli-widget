@@ -1,5 +1,15 @@
 [
   {
+    "id": "0a1b857b1d3c",
+    "timestamp": "2026-07-22T22:01:57.397744+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260723/k10015183081000.html\nキーウで覆いが撤去される中、マキャベリの視座から見れば文化財保護の現実的難しさが露呈する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "NHK国際",
+    "source_title": "キーウで文化財守る覆い撤去 戦闘長期化で劣化のおそれ",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015183081000.html"
+  },
+  {
     "id": "a693208dce15",
     "timestamp": "2026-07-22T19:07:01.092773+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIQnJ1N0VnbmNsbzN6U0xUSV9QakU2clMyUTFTeTlIcllvekszUHZCVGlZWk1FOVlyNHZiNDE4SGJ4S0liSW0wUEVoS2RXMkpkTC1sdXFpb0xWTjlna3BGUWR3?oc=5\nイラン軍の核施設攻撃への対応を巡る現実主義的な視座では、トランプ氏の挑発行為とその反応が戦争拡大のリスクを引き起こす。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ゼレンスキー氏が軍総司令官、前国防相と会談「国民の声を聴く」 総司令官の解任検討か - 産経ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WaXhDd2g3U2VvWTRPWkdCOUctcWRTOE1TRm5rdVEyRWRLQjVZQ0FPWTRycGNPNGpycllZZFg5b1Z4NWpHLUxlV0JtdGpDUWJ4QkR6LXc4czRmNk1GWkFzeC1WZGMzcS1FYzlLUmduVDJxOVZfSlE?oc=5"
-  },
-  {
-    "id": "8aea9d4085fb",
-    "timestamp": "2026-07-19T02:06:56.001692+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03NWtjblMxRDFxM21Wb2M1ckhoY2NWR2FUcTUtaloyci1kV3dQOExLNG1kNTI2emhmVms3Z0NMMGRZVUtqMU8zRk5ZTmNZMzlFVTJ4TFFYSnMtWTMycmtIVEZESXF1M25oWW5nQkVlRXZFRUpydDc2UkJJaFc1Z1E?oc=5\nマキャベリならゼレンスキー政権の軍内対立を巡る揺らぎに注目するだろう。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 5,
-    "source": "Google News 国際(World)",
-    "source_title": "ウクライナ軍総司令官解任検討か ゼレンスキー大統領、軍内対立（共同通信） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03NWtjblMxRDFxM21Wb2M1ckhoY2NWR2FUcTUtaloyci1kV3dQOExLNG1kNTI2emhmVms3Z0NMMGRZVUtqMU8zRk5ZTmNZMzlFVTJ4TFFYSnMtWTMycmtIVEZESXF1M25oWW5nQkVlRXZFRUpydDc2UkJJaFc1Z1E?oc=5"
   }
 ]
