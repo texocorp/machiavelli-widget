@@ -1,5 +1,15 @@
 [
   {
+    "id": "1addd77928ec",
+    "timestamp": "2026-07-23T02:12:22.511487+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260723/k10015141141000.html\nロシア軍とウクライナ軍の戦闘が続く中、市民避難潮が拡大する現実だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月23日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015141141000.html"
+  },
+  {
     "id": "0a1b857b1d3c",
     "timestamp": "2026-07-22T22:01:57.397744+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260723/k10015183081000.html\nキーウで覆いが撤去される中、マキャベリの視座から見れば文化財保護の現実的難しさが露呈する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ゼレンスキー、「ドローン戦争」の最大の功労者フェドロフ国防相を更迭、裏に「軍守旧派」との対立(1/5) - JBpress",
     "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yMFFhY012TXFFcF9kUFJQZjdsZ05zY3pRVFZkUGphWjlKSzVtV2ZYSjVkUlVjLVNNT2JuUWRpREJ0VG5Cd2VqbV9SdXg2RVEyVHdLU1Vn?oc=5"
-  },
-  {
-    "id": "21ef712d86cb",
-    "timestamp": "2026-07-19T05:48:17.993067+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WaXhDd2g3U2VvWTRPWkdCOUctcWRTOE1TRm5rdVEyRWRLQjVZQ0FPWTRycGNPNGpycllZZFg5b1Z4NWpHLUxlV0JtdGpDUWJ4QkR6LXc4czRmNk1GWkFzeC1WZGMzcS1FYzlLUmduVDJxOVZfSlE?oc=5\nゼレンスキー政権は軍総司令官解任を検討するが、新たな体制の安定性と効果に注目だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 5,
-    "source": "Google News 国際(World)",
-    "source_title": "ゼレンスキー氏が軍総司令官、前国防相と会談「国民の声を聴く」 総司令官の解任検討か - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WaXhDd2g3U2VvWTRPWkdCOUctcWRTOE1TRm5rdVEyRWRLQjVZQ0FPWTRycGNPNGpycllZZFg5b1Z4NWpHLUxlV0JtdGpDUWJ4QkR6LXc4czRmNk1GWkFzeC1WZGMzcS1FYzlLUmduVDJxOVZfSlE?oc=5"
   }
 ]
