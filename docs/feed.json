@@ -1,5 +1,15 @@
 [
   {
+    "id": "0f62f6f9cf27",
+    "timestamp": "2026-07-23T11:06:46.574253+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260723/k10015184221000.html\nルビオ長官とラブロフ外相の会談で、両当局者による対話を続けることで一致した。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "米ロ外相会談 ウクライナなどめぐり外交当局の対話継続で一致",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015184221000.html"
+  },
+  {
     "id": "c4ed8de9be5a",
     "timestamp": "2026-07-23T08:21:54.541168+00:00",
     "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yQUJ1Yy1xajJOTm9IVGl1M29rdkdadHEyaWNJcENKMGEtdEdYUUVQRjFYVHNRSllEQXpVVFl4US0wMkUtU1c2Y0c5Um0wVmVOSjJWbk13?oc=5\nゼレンスキー大統領の軍トップ解任で、戦争展開が大きく変わるかもしれないだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米、兵士死亡への報復でイラン空爆 - 47NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYa3IySGt0M3duZUpsMUZ6TjhmT0FXUVZvRTctMVlQQWFYVHRSRWJ3SHBvLTRNaXI4bUhDSFJsY2E3T01CUzFPdExfUQ?oc=5"
-  },
-  {
-    "id": "9533bd1f4749",
-    "timestamp": "2026-07-19T13:04:41.437256+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTX1hFdW9TZS1tWEdqNGZHTkdNcjVpWFdsNDRTTGQ4ajAxektrZjJXcS05dmhfT3Y1U1ZPNEhtU3pMR0J5ek9HT1ZGMnktdThINFd5QzhGMEtSbE5aTmNGRHBVOFEwMlRJZUlnRDNDUVJ0ME9DTEE?oc=5\nマムダニ市長がネタニヤフ首相の拘束を検討する可能性について、現実主義的な視座から見れば深刻な政治的挑戦である。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "マムダニNY市長、イスラエルのネタニヤフ首相の拘束を検討 9月の国連総会出席時に - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTX1hFdW9TZS1tWEdqNGZHTkdNcjVpWFdsNDRTTGQ4ajAxektrZjJXcS05dmhfT3Y1U1ZPNEhtU3pMR0J5ek9HT1ZGMnktdThINFd5QzhGMEtSbE5aTmNGRHBVOFEwMlRJZUlnRDNDUVJ0ME9DTEE?oc=5"
   }
 ]
