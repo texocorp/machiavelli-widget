@@ -1,5 +1,15 @@
 [
   {
+    "id": "4683d293268e",
+    "timestamp": "2026-07-23T05:49:50.687389+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrZnBtczBBUG0xd0ZnalRzQ1B3ODFIbkRQVk5oYThSVDd4TnBFMXpEcTdNSXZTeWljRTlNM1NtR2kxVnVPMXZYQnduMXI3ZWZXMlF1aFhBV25NcnhVbzhSbUVCQjhrZ29Bb1BWUWVWVURQdUljTEZLdGV3?oc=5\nマキャベリの視座から見れば、米軍の戦力分散化が対処難易度を増す中で新たな海上安全保障の課題が浮上している。\n「戦を避けることなどできぬ。",
+    "theme": "guerra",
+    "score": 13,
+    "source": "Google News 国際(World)",
+    "source_title": "アングル：フーシ派の「海上封鎖」警告、米軍は戦力分散化で対応苦慮か - ロイター",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrZnBtczBBUG0xd0ZnalRzQ1B3ODFIbkRQVk5oYThSVDd4TnBFMXpEcTdNSXZTeWljRTlNM1NtR2kxVnVPMXZYQnduMXI3ZWZXMlF1aFhBV25NcnhVbzhSbUVCQjhrZ29Bb1BWUWVWVURQdUljTEZLdGV3?oc=5"
+  },
+  {
     "id": "1addd77928ec",
     "timestamp": "2026-07-23T02:12:22.511487+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260723/k10015141141000.html\nロシア軍とウクライナ軍の戦闘が続く中、市民避難潮が拡大する現実だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（7月19日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260719/k10015141101000.html"
-  },
-  {
-    "id": "1152cd74dee1",
-    "timestamp": "2026-07-19T08:07:21.545992+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yMFFhY012TXFFcF9kUFJQZjdsZ05zY3pRVFZkUGphWjlKSzVtV2ZYSjVkUlVjLVNNT2JuUWRpREJ0VG5Cd2VqbV9SdXg2RVEyVHdLU1Vn?oc=5\nゼレンスキー、「ドローン戦争」の最大の功労者フェドロフ…が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 5,
-    "source": "Google News 国際(World)",
-    "source_title": "ゼレンスキー、「ドローン戦争」の最大の功労者フェドロフ国防相を更迭、裏に「軍守旧派」との対立(1/5) - JBpress",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yMFFhY012TXFFcF9kUFJQZjdsZ05zY3pRVFZkUGphWjlKSzVtV2ZYSjVkUlVjLVNNT2JuUWRpREJ0VG5Cd2VqbV9SdXg2RVEyVHdLU1Vn?oc=5"
   }
 ]
