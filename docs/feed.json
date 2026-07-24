@@ -1,5 +1,15 @@
 [
   {
+    "id": "001f0d7f28dd",
+    "timestamp": "2026-07-24T02:06:40.917832+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260724/k10015141151000.html\nロシア軍とウクライナ軍の戦闘が続いている現実だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月24日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260724/k10015141151000.html"
+  },
+  {
     "id": "60caccab4388",
     "timestamp": "2026-07-23T22:03:02.533366+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQzZETC1mVElWYWRKZm5MQm9DU1ZaSDg0MF9Cb2NUdF90TV80UWxKMmg2VGF6Y3ZKbTJHRnBSdV9qTVVqM3R5N2pkZ2hIb0VMbXh2LWYxanJ4c3BXa1JJRXFxSVlhenZKWXg0dA?oc=5\n対イラン「体制転換」再浮上 米、が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "台湾南部の海岸 太平洋戦争戦没者の遺骨試掘調査始まる",
     "source_url": "http://www3.nhk.or.jp/news/html/20260720/k10015181211000.html"
-  },
-  {
-    "id": "06c3172d1cab",
-    "timestamp": "2026-07-20T06:12:57.967056+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ETzlsR0NfTzBLemRaSUt4RXdjREc4Ujk2cE5NNHhMakJ2cGFJaVJ2dzJWLTBQbGNXY0FXSGRFalNBODlFcjJVOFlxUDZiT3BfMVJHRDhabFJETlMwQXJwNzFSdW1sWmkzdDAyTTkyUnlQTHVDdXNlZWZR?oc=5\nホルムズ海峡の通商が難航する中、米伊間緊張は深まる。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "ホルムズ海峡の通航低調続く、米・イラン攻撃激化で - ロイター",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ETzlsR0NfTzBLemRaSUt4RXdjREc4Ujk2cE5NNHhMakJ2cGFJaVJ2dzJWLTBQbGNXY0FXSGRFalNBODlFcjJVOFlxUDZiT3BfMVJHRDhabFJETlMwQXJwNzFSdW1sWmkzdDAyTTkyUnlQTHVDdXNlZWZR?oc=5"
   }
 ]
