@@ -1,5 +1,15 @@
 [
   {
+    "id": "f72f58c70604",
+    "timestamp": "2026-07-24T22:01:35.498360+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss\nこの事件はマキャベリの観点から見れば、常に権力とその利害が絡み合う闘争の証拠だ。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Four Palestinians and two Israelis killed in West Bank shooting",
+    "source_url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "8ace53277c26",
     "timestamp": "2026-07-24T19:19:13.891237+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nUEZpZ1lncHJMUnhmX08wbkdLRVNnd25EclJBRkdURGVBUnpDNnVHRlpEMUFRa3hIR1d4a3Y3UnJZazhpMG10dGFnSTdyWUtMdTJaaERrVWl4X2lJVTdTTEZR?oc=5\n武器展示会開催中のキーウ郊外に弾道ミサイル攻撃、が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "サウジへの海上封鎖宣言 紅海経由の原油輸送に打撃も―フーシ派 - 時事ドットコム",
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Ny0yU2xHcVZUUUVsei0tUUItQ0hlckVQa1liaThwbnB3UEsyM0R0TXZTdWVlWUdhWXg0QkR0MlUya29xTU5RLTcwYlppZUM3VnY4M0N2MF9RcFpkNlgwQ1diNA?oc=5"
-  },
-  {
-    "id": "416e8bc2b428",
-    "timestamp": "2026-07-21T05:45:47.489616+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9faHFXelhSWFBTX0hsTjg4NWJtTzc2Y01fWFZlbnhldzZqVENKSHRaUlN6SU5aYTBOUFlvanZBS293QnNkbmxlbkcyZWpUbzdPeFhMT1ZOY3lfSjVQMzR6aDVn?oc=5\n米軍の攻撃に対しイランが耐えねばならぬ代償を払うだろうだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍、１０日連続でイラン攻撃…トランプ氏「米兵を殺害するたびに何倍もの代償を支払わせる」 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9faHFXelhSWFBTX0hsTjg4NWJtTzc2Y01fWFZlbnhldzZqVENKSHRaUlN6SU5aYTBOUFlvanZBS293QnNkbmxlbkcyZWpUbzdPeFhMT1ZOY3lfSjVQMzR6aDVn?oc=5"
   }
 ]
