@@ -1,5 +1,15 @@
 [
   {
+    "id": "b7716395b5b9",
+    "timestamp": "2026-07-24T05:45:56.630782+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIRHhPdGRFOFVUa1ZiMkJBRnd2andnc2xzRE42UUlzcU9LdjR1YWlxOTJUY3pWSzAzU1pKV0o1ajh0bWVnVXcxa01jQVdYNTFZNXNWbmNGSjIzVUhzd0s00gFkQVVfeXFMTXlNNUlQYmxtMkUzQjFmTzhRcGUxaERJVWxhTnlqWEdtVmFBWWhCd2lHeVREUkdTazRsSEJuSE1aTXdYV2g5TEJRTTRNTnpKZWZ",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナ、ロシアの通販大手の倉庫を相次ぎ攻撃　中小企業に打撃 - BBC",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIRHhPdGRFOFVUa1ZiMkJBRnd2andnc2xzRE42UUlzcU9LdjR1YWlxOTJUY3pWSzAzU1pKV0o1ajh0bWVnVXcxa01jQVdYNTFZNXNWbmNGSjIzVUhzd0s00gFkQVVfeXFMTXlNNUlQYmxtMkUzQjFmTzhRcGUxaERJVWxhTnlqWEdtVmFBWWhCd2lHeVREUkdTazRsSEJuSE1aTXdYV2g5TEJRTTRNTnpKZWZILU5xY0J0eDY0Qkp2WHJlSU5QVg?oc=5"
+  },
+  {
     "id": "001f0d7f28dd",
     "timestamp": "2026-07-24T02:06:40.917832+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260724/k10015141151000.html\nロシア軍とウクライナ軍の戦闘が続いている現実だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "プーチン大統領、北朝鮮外相と会談 金正恩氏の訪ロへ地ならしか - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nekFGUnZuVHBlYkxscnotckhORFg2QnppMnVER0p2S1lZZklNQU1yNldnNDQ3QzF0ZENUVVotX3A5dlJCYmFSTHhFamkyTkZoMzZfTGJJNUF6ZGtXaEM2cklTR3d3S21ONklQSw?oc=5"
-  },
-  {
-    "id": "abad4eb7aa6a",
-    "timestamp": "2026-07-20T11:41:10.136807+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260720/k10015181211000.html\n太平洋戦争の幽霊が再び動きだした。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 6,
-    "source": "NHK国際",
-    "source_title": "台湾南部の海岸 太平洋戦争戦没者の遺骨試掘調査始まる",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260720/k10015181211000.html"
   }
 ]
