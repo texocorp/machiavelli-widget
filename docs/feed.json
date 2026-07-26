@@ -1,5 +1,15 @@
 [
   {
+    "id": "4ae058c33be5",
+    "timestamp": "2026-07-26T15:58:18.967773+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260726/k10015141171000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的視座から厳しく描きだす。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月26日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260726/k10015141171000.html"
+  },
+  {
     "id": "994264fea0de",
     "timestamp": "2026-07-26T13:08:24.285280+00:00",
     "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SUjlZLVE5R0VwdzloQUVONTNjT1dUZm8weWFQeXlMWlRvRThCcGZ3dHpFaW5ySEhHdUluN09kZHo5UnlGMFpYN29kVQ?oc=5\nカザフの提案はマキャベリの視座から見れば、ロシアとの交渉再開を図る却っての手段だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（7月23日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015141141000.html"
-  },
-  {
-    "id": "0a1b857b1d3c",
-    "timestamp": "2026-07-22T22:01:57.397744+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260723/k10015183081000.html\nキーウで覆いが撤去される中、マキャベリの視座から見れば文化財保護の現実的難しさが露呈する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "NHK国際",
-    "source_title": "キーウで文化財守る覆い撤去 戦闘長期化で劣化のおそれ",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015183081000.html"
   }
 ]
