@@ -1,5 +1,15 @@
 [
   {
+    "id": "f21c2bd3b354",
+    "timestamp": "2026-07-26T02:11:03.859453+00:00",
+    "text": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR1JZc3lLeEZsN0ZSQ21rRjhRbFY4ZDZVWkVRNDhKT2RxSGVYRTl3MHhDZ3lZQ1ZreGNwdEphY3JWbXFnSGtzVkh0dmszQXhtWmxYTkNfbVo0OGp0WldvdVRmN2twVmVtWHVfVVpDRFVCQl9kMUk0WTFGNGRRR0FjMw?oc=5\nイランとウクライナが軍事衝突の現実を示す攻撃行為で両国間緊張高まる。\n「戦を避けることなどできぬ。",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン、ウクライナが戦争拡大と批判 カスピ海で商船攻撃2人死傷 - ロイター",
+    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR1JZc3lLeEZsN0ZSQ21rRjhRbFY4ZDZVWkVRNDhKT2RxSGVYRTl3MHhDZ3lZQ1ZreGNwdEphY3JWbXFnSGtzVkh0dmszQXhtWmxYTkNfbVo0OGp0WldvdVRmN2twVmVtWHVfVVpDRFVCQl9kMUk0WTFGNGRRR0FjMw?oc=5"
+  },
+  {
     "id": "8b6b85a3c5fe",
     "timestamp": "2026-07-25T21:50:33.604965+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iV3RLdmZtZ19Pdzk5elpLSVZwS2lVcVdQMzVTRVB3bTZqNks4aDYtOHlxVld4TDVQdHNYeXNTOW5TMjNoWkZLcTNacVRyT3JGelV4cklwX3RGSmhCZUpqSFNB?oc=5\nクウェートとバーレーンがイラン軍事施設攻撃、が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米・同盟国の権益標的に、核施設攻撃なら イラン軍事司令部が警告 - ロイター",
     "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRkpFVUI5cjc2RnhyeWlvYWdSekxDT0NKLWdqTkpWVzlhNzRpbU9ZR1I4T0ZTRW5YOF83dy1mcWFCYklaaG80ZjA4dWYyQW1vTWRNd2JnbnlRVUhKdVBxa0J0R012a2tGQno2bllJMXBXUkgyWDQwRVdmRURBUDJEbHF3?oc=5"
-  },
-  {
-    "id": "0c50c1d21e39",
-    "timestamp": "2026-07-22T08:16:47.726440+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260722/k10015141131000.html\nロシアの軍事侵攻により、ウクライナ情勢は現実主義者にとって厳しさを増す。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（7月22日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260722/k10015141131000.html"
   }
 ]
