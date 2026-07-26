@@ -1,5 +1,15 @@
 [
   {
+    "id": "7b639114a0e3",
+    "timestamp": "2026-07-26T19:02:56.883177+00:00",
+    "text": "https://www.aljazeera.com/news/2026/7/26/israel-launches-military-incursion-into-syria-amid-un-condemnation?traffic_source=rss\nマキャベリなら此処のニュースを「軍事介入の正当性は問うべきだ。」と評価するだろう。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 10,
+    "source": "Al Jazeera",
+    "source_title": "Israel launches military incursion into Syria amid UN condemnation",
+    "source_url": "https://www.aljazeera.com/news/2026/7/26/israel-launches-military-incursion-into-syria-amid-un-condemnation?traffic_source=rss"
+  },
+  {
     "id": "4ae058c33be5",
     "timestamp": "2026-07-26T15:58:18.967773+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260726/k10015141171000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的視座から厳しく描きだす。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "アングル：フーシ派の「海上封鎖」警告、米軍は戦力分散化で対応苦慮か - ロイター",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrZnBtczBBUG0xd0ZnalRzQ1B3ODFIbkRQVk5oYThSVDd4TnBFMXpEcTdNSXZTeWljRTlNM1NtR2kxVnVPMXZYQnduMXI3ZWZXMlF1aFhBV25NcnhVbzhSbUVCQjhrZ29Bb1BWUWVWVURQdUljTEZLdGV3?oc=5"
-  },
-  {
-    "id": "1addd77928ec",
-    "timestamp": "2026-07-23T02:12:22.511487+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260723/k10015141141000.html\nロシア軍とウクライナ軍の戦闘が続く中、市民避難潮が拡大する現実だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（7月23日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015141141000.html"
   }
 ]
