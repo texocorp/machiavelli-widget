@@ -1,5 +1,15 @@
 [
   {
+    "id": "1132f6e9959d",
+    "timestamp": "2026-07-27T06:24:42.910193+00:00",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Yejh2YjJOMi10LWZILTlFTVJ2OWtaTFdlcjEyaFc4Rjl5QnBvblJ1NzBnQXp2Rk5vTDB3akYtQlBaTFdxRG9xbndWekFJWUdUa0NpNFVxT0pCSm9SVFJCcW1iRDdtd1A3cVVIQ1ZGb19XVUtrOUE?oc=5\nイランの警告射撃でホルムズ海峡での航路変更が求められる中、米軍は対イran封鎖を維持する方針だ。\n「戦を避けることなどできぬ。",
+    "theme": "guerra",
+    "score": 9,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン、警告射撃で航路変更させる ホルムズ海峡 米軍は対イラン封鎖を維持 - 産経ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Yejh2YjJOMi10LWZILTlFTVJ2OWtaTFdlcjEyaFc4Rjl5QnBvblJ1NzBnQXp2Rk5vTDB3akYtQlBaTFdxRG9xbndWekFJWUdUa0NpNFVxT0pCSm9SVFJCcW1iRDdtd1A3cVVIQ1ZGb19XVUtrOUE?oc=5"
+  },
+  {
     "id": "53d413534062",
     "timestamp": "2026-07-27T02:25:02.898351+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260727/k10015141191000.html\nロシアの軍事侵攻がウクライナ情勢を深く揺るがすだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イランの「地下核施設」 米が攻撃警告もバンカーバスターでは到達不可か（ＡＦＰ＝時事） - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9peXQ4NDJOdDdlM2JtdmhYQTBTbDBPa2pWSV91ZkZqcnlfU2VDUkZvUDVYVUtmdnphYkNpTXNmeV85Ykg1bVRiR1N0UFVyN3BGcVlKMjRiRzNxS3dOcWlTeFFsM1VrNE9wT29Fak1VbUsxYUtOdG1JSE5PdlVVWHc?oc=5"
-  },
-  {
-    "id": "0f62f6f9cf27",
-    "timestamp": "2026-07-23T11:06:46.574253+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260723/k10015184221000.html\nルビオ長官とラブロフ外相の会談で、両当局者による対話を続けることで一致した。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "米ロ外相会談 ウクライナなどめぐり外交当局の対話継続で一致",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015184221000.html"
   }
 ]
