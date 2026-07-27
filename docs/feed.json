@@ -1,5 +1,15 @@
 [
   {
+    "id": "53d413534062",
+    "timestamp": "2026-07-27T02:25:02.898351+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260727/k10015141191000.html\nロシアの軍事侵攻がウクライナ情勢を深く揺るがすだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月27日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260727/k10015141191000.html"
+  },
+  {
     "id": "af24e09745a4",
     "timestamp": "2026-07-26T21:55:23.462912+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FX1VYc2NsRXhsWnNURzVreVpPNTllaURGUlduN3dyWVZ1Vmp2YkZlV0VaWUFJRzdHQU1sVXBHX2xOUWxXSFhKR1RiUVNJSDBVUm5PUEZ2MlhkYjhqMzRDQ0lEaXFuYk1sSHdWeFViYkliaTZUbXBWcTNnMWk3Z0k?oc=5\nフーシ派参戦で「中東大戦争」に拡大も、の背後にあるのは「軍事」という力の論理であり、",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "米ロ外相会談 ウクライナなどめぐり外交当局の対話継続で一致",
     "source_url": "http://www3.nhk.or.jp/news/html/20260723/k10015184221000.html"
-  },
-  {
-    "id": "c4ed8de9be5a",
-    "timestamp": "2026-07-23T08:21:54.541168+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yQUJ1Yy1xajJOTm9IVGl1M29rdkdadHEyaWNJcENKMGEtdEdYUUVQRjFYVHNRSllEQXpVVFl4US0wMkUtU1c2Y0c5Um0wVmVOSjJWbk13?oc=5\nゼレンスキー大統領の軍トップ解任で、戦争展開が大きく変わるかもしれないだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "ゼレンスキー大統領、改革派の国防相更迭の次は守旧派の軍トップを解任、これでロシアとの戦争はどう変わるのか(1/5) - JBpress",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yQUJ1Yy1xajJOTm9IVGl1M29rdkdadHEyaWNJcENKMGEtdEdYUUVQRjFYVHNRSllEQXpVVFl4US0wMkUtU1c2Y0c5Um0wVmVOSjJWbk13?oc=5"
   }
 ]
