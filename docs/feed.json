@@ -1,5 +1,15 @@
 [
   {
+    "id": "559b52cb8a01",
+    "timestamp": "2026-07-28T13:51:07.135778+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260728/k10015187691000.html\nマキャベリなら曰く、ゼレンスキーの発言はプーチンの軍事侵攻継続を強調する一方で、ウクライナへの新たな戦力投入を警告すらしている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "NHK国際",
+    "source_title": "ゼレンスキー大統領 “ロシアは最大で50万人の動員を計画”",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260728/k10015187691000.html"
+  },
+  {
     "id": "0df48260ce73",
     "timestamp": "2026-07-28T11:14:07.012865+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260728/k10015187891000.html\nマキャベリならこの協議の行方は現実主義の視座から見れば不透明だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏 イランに大規模攻撃を検討 - テレ朝NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfTWkzRFRRMy1UeGxTRW5US0s2aDZmRG5rM2xjR2VFdWh5VXh4cHhpMnU1ZTJGcmhrTFBZSzV3SU5zdVAxZEpmdldsREp4UFJUaExvRFZlVFN6N25MeU5fMUJMbENYVkdKeDdoX2h6enJGd3U3U2pfTnV3?oc=5"
-  },
-  {
-    "id": "e3f877136cb0",
-    "timestamp": "2026-07-24T13:26:56.258227+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRUsxVEJVaWN2aUVGZTdHS2dEZjFsU1FrVzVoZzdjN211bThBN2xnRExQQkJ1SHZWM0paVU1aU0s3WFllcTN4Z3Z5TzVPLUFpaGlUMHJvbmFEV1I1aE1MNFljUzBmX1hqSVJTWmlhdnRmTnhxcjN6YWhZaGhURWZSdDBB?oc=5\nイランの軍事的警戒態勢はマキャベリ主義の観点から現実的だ。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "英「攻撃から国家守る用意」、米軍機の基地使用容認でイランが警告 - ロイター",
-    "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRUsxVEJVaWN2aUVGZTdHS2dEZjFsU1FrVzVoZzdjN211bThBN2xnRExQQkJ1SHZWM0paVU1aU0s3WFllcTN4Z3Z5TzVPLUFpaGlUMHJvbmFEV1I1aE1MNFljUzBmX1hqSVJTWmlhdnRmTnhxcjN6YWhZaGhURWZSdDBB?oc=5"
   }
 ]
