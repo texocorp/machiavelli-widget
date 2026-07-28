@@ -1,5 +1,15 @@
 [
   {
+    "id": "a398ab743f74",
+    "timestamp": "2026-07-28T22:00:02.773993+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QQTVqSlczTHExeUNKMlpCVE1TQzVoY3dKTnVuSFBxNE10dEU4aW5QNndpLXppbXVhNVVQaGU0RHJTVjg4dnp5NmdtR1hMLWJORjZ6SUhld1JfOVUzb1ZtcDlRTFlhMktldUp4R3NBeUlFMG9Oc0Rjd2tnd0Nyazg?oc=5\nトランプ大統領のイラン攻撃停止決定は、ミサイル備蓄枯渇による外交的解決の必要性を鮮明にした。",
+    "theme": "guerra",
+    "score": 6,
+    "source": "Google News 国際(World)",
+    "source_title": "［深層ＮＥＷＳ］トランプ氏のイラン攻撃停止、高橋和夫氏「最大の理由はミサイル備蓄の枯渇だ」（読売新聞オンライン） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QQTVqSlczTHExeUNKMlpCVE1TQzVoY3dKTnVuSFBxNE10dEU4aW5QNndpLXppbXVhNVVQaGU0RHJTVjg4dnp5NmdtR1hMLWJORjZ6SUhld1JfOVUzb1ZtcDlRTFlhMktldUp4R3NBeUlFMG9Oc0Rjd2tnd0Nyazg?oc=5"
+  },
+  {
     "id": "f660b65b675e",
     "timestamp": "2026-07-28T19:16:23.074225+00:00",
     "text": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVlRMRkdkWkJ1SkFRbXVTNUdkUUVYeVlTbjhRZlZSRUxOMWlqejdtNDJxeWRDQ3l4TGpsVjJKWW1hMy04ajVEOTRVRmpNUEt5bkkzWkppMXpTSkwxbVJUV1dBMDhnQmxNTGUtR19hUkVDRzlwMTM2djVNVWNEUlNLUGZn?oc=5\nトランプ氏のイラン政策は現実主義的外交の一端を示す。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏、戦闘終結に向けたイランとの協議を「彼らは真剣に取り組んでいるが、合意に至るとは限らない」と語る - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZTnJDYkJQNWhtR08xbC1BTks0d2RZOFpZVjNVcEVKSC15Sm5IbXBnY0pkWUk3cEZrNEpXVWYxeDU4bm9jY0ZrVWxPTUdyVTVoTWgzNEoxSmpRUmRic0xxd2JR?oc=5"
-  },
-  {
-    "id": "f72f58c70604",
-    "timestamp": "2026-07-24T22:01:35.498360+00:00",
-    "text": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss\nこの事件はマキャベリの観点から見れば、常に権力とその利害が絡み合う闘争の証拠だ。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
-    "theme": "necessita",
-    "score": 4,
-    "source": "BBC World",
-    "source_title": "Four Palestinians and two Israelis killed in West Bank shooting",
-    "source_url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss"
   }
 ]
