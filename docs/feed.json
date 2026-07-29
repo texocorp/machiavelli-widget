@@ -1,5 +1,15 @@
 [
   {
+    "id": "3546556691e1",
+    "timestamp": "2026-07-29T08:30:16.814528+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260729/k10015141211000.html\nロシアの軍事侵攻がウクライナ情勢をマキャベリの観点から見れば、現実的な生存戦略の必要性を正当化する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月29日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260729/k10015141211000.html"
+  },
+  {
     "id": "30c4de86033a",
     "timestamp": "2026-07-29T05:47:10.716078+00:00",
     "text": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMjZVZ2pMZmRhVUtYRDVfWUp4bTF6U3RyeTQzMTNOaXlNM1lkZW85bUhMbU1uemY4M0NhUGxUMWhOWXYwZnJCUDk2aGlKNmkzVUxwTk5NblNKYXdJa2dwSy1SZ2d3T05aQy12bnI0UmVMcUhLUG1SS19NWTNLVE55cA?oc=5\nトランプは良好会談を重ね、ネタニヤフとゼレンスキーとも友好を強調する。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イラン情勢緊迫 トランプ大統領「最大規模の攻撃準備」 原油価格再び100ドル突破 - テレ朝NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5pdEhsdFQ1cjU0X2haSVAtdy1ncXppbXpDSW9pTUlrYjdNWGdfRkVtcEx2ZjBSblR3aHRYR2NDRDZKSEl4cmZzcnZSR2JOdVBTeFVvcEswdEZSWmZxYXZlbEJnYm5nVlo1UEUwelhxNmZTMVl0XzdUdk93?oc=5"
-  },
-  {
-    "id": "6685f49ffad3",
-    "timestamp": "2026-07-25T07:58:53.484399+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMN0J0T0M1ejZ5eXlMZzlWakJhN1BUWk9yWmdDb1VCQXBSemNhNExyR1pNQnJlR19fZ1lLS2JoaXc1R3FMNzNoQXVObjVZa1hueUtIMUY1aXlWQ3FhRFFXVXJxaXhZQndvTXJ3R1lfTEZpbGp5eXc?oc=5\n米軍と allies の行動によりイラン港湾封鎖難航、各国衝突のリスク高まる。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 9,
-    "source": "Google News 国際(World)",
-    "source_title": "米がイラン港湾封鎖突破試みたタンカーを航行不能に バーレーンとクウェートもイラン攻撃 - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMN0J0T0M1ejZ5eXlMZzlWakJhN1BUWk9yWmdDb1VCQXBSemNhNExyR1pNQnJlR19fZ1lLS2JoaXc1R3FMNzNoQXVObjVZa1hueUtIMUY1aXlWQ3FhRFFXVXJxaXhZQndvTXJ3R1lfTEZpbGp5eXc?oc=5"
   }
 ]
