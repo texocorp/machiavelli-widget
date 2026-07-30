@@ -1,5 +1,15 @@
 [
   {
+    "id": "4fb68f26dcf5",
+    "timestamp": "2026-07-30T08:14:42.229451+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260730/k10015141221000.html\nロシアの軍事侵攻の現実が深刻で、ウクライナ情勢はますます緊迫しているだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（7月30日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260730/k10015141221000.html"
+  },
+  {
     "id": "a56e877726e9",
     "timestamp": "2026-07-30T05:35:32.160006+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260730/k10015190691000.html\n高市総理が北方領土問題解決を待つ元島民の孫たちに抗議する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イランは「ホルムズの支配権」を明け渡すか 専門家「海峡支配は制裁解除に不可欠なテコ」 - 産経ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT0lscE1jVC1tZ1c1MGd4UmxsMEItVk5BR0Rnelc1MkoyTjRRMENDM2RjUXZQSDFSQVJDOGNSSldJd1cxZld4aF9sTGJZT1JDZFNIQWV0a1lpM2xoYjJVaEZiV1l4eDE1c29OU0EzZmN1bVpXRVE?oc=5"
-  },
-  {
-    "id": "b64ece1f0ca1",
-    "timestamp": "2026-07-26T08:16:31.352185+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXaFZuc2NIUFMxd1N3Tm9sZTBhdmpLbFg4OHBSUVE3cEwyOFRXYjhJakxGdkM3a1RRTUFQcnhfVkRSMmtpN3pZVENHeG0zRlJJRml0Z3d5Ukc3V3VFdTZaUEtjUTkyUzg?oc=5\nマキャベリの観点から見れば、このニュースは国際緊張が新たな高を踏み拡大し、隠蔽された攻撃の可能性が浮上していることを示唆する。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 5,
-    "source": "Google News 国際(World)",
-    "source_title": "クウェートとバーレーンも秘密裏にイラン攻撃か 米報道、緊張広がる - 朝日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXaFZuc2NIUFMxd1N3Tm9sZTBhdmpLbFg4OHBSUVE3cEwyOFRXYjhJakxGdkM3a1RRTUFQcnhfVkRSMmtpN3pZVENHeG0zRlJJRml0Z3d5Ukc3V3VFdTZaUEtjUTkyUzg?oc=5"
   }
 ]
