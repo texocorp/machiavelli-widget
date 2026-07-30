@@ -1,5 +1,15 @@
 [
   {
+    "id": "a56e877726e9",
+    "timestamp": "2026-07-30T05:35:32.160006+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260730/k10015190691000.html\n高市総理が北方領土問題解決を待つ元島民の孫たちに抗議する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "NHK国際",
+    "source_title": "北方領土元島民のひ孫ら「北方墓参」再開を高市首相に要望",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260730/k10015190691000.html"
+  },
+  {
     "id": "0a41510c0ffc",
     "timestamp": "2026-07-30T01:53:20.607891+00:00",
     "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KZlhtQ1k0SE5nMDR5Sk5ZNU1ONnZQeXQ4UGlwYUYtbldrLW1EbkFvQmNqZ2NULUY5cjhwVXRuWXF2U0J3NGE0MkU2Q0otQWRvbm5tTm1ZR1RKVzJoT2sxOHFQMXFsMWs?oc=5\n米軍の反撃攻撃はマキャベリの観点から見ると現実的な対応であり、イランとの緊張関係を揺るがすリスクも孕んでいる。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "クウェートとバーレーンも秘密裏にイラン攻撃か 米報道、緊張広がる - 朝日新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXaFZuc2NIUFMxd1N3Tm9sZTBhdmpLbFg4OHBSUVE3cEwyOFRXYjhJakxGdkM3a1RRTUFQcnhfVkRSMmtpN3pZVENHeG0zRlJJRml0Z3d5Ukc3V3VFdTZaUEtjUTkyUzg?oc=5"
-  },
-  {
-    "id": "39a601b14059",
-    "timestamp": "2026-07-26T05:56:34.214025+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PekNiUDlJZkZuRDJpakpyWkR6Z0J2TWhpSXE2cU9HUEE4SUIta0h2RTJOV3p4SXZFcDRlTUgzaF8wT29wamhobWlQNHNuVkhpTnNJbnpjVEEwc1ZUXzlFYlBn?oc=5\nカスピ海のイラン船、ウクライナ軍が攻撃し爆発・1人死亡…の背後にあるのは「軍事」という力の論理であり、道義の言葉はその後から付いてくるに過ぎぬ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "カスピ海のイラン船、ウクライナ軍が攻撃し爆発・1人死亡…イランはゼレンスキー大統領が承認と強く抗議 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PekNiUDlJZkZuRDJpakpyWkR6Z0J2TWhpSXE2cU9HUEE4SUIta0h2RTJOV3p4SXZFcDRlTUgzaF8wT29wamhobWlQNHNuVkhpTnNJbnpjVEEwc1ZUXzlFYlBn?oc=5"
   }
 ]
