@@ -1,5 +1,15 @@
 [
   {
+    "id": "690f39d22a3a",
+    "timestamp": "2026-08-01T10:31:32.236275+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260801/k10015192401000.html\nロシアの軍事介入は現実主義的視座において、ウクライナ情勢の混沌を強めるだろうだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月1日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260801/k10015192401000.html"
+  },
+  {
     "id": "61c4993df79b",
     "timestamp": "2026-08-01T08:11:55.815483+00:00",
     "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56bEpicnFYUUhMYmV3VDlJWi1hTUpTbEFxNmxUSlVENVlGWHBJNmp0U19EYTZmSmwxWFVKTGNxcWtBWHBycGtkbUFmZw?oc=5\nサウジが主導する海洋防衛連合設立、原油価格浮揚懸念のなかで現実的な安全保障策だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ルーマニア、ロシア外交官1人を国外退去処分 相次ぐドローン領空侵犯巡り - ロイター",
     "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQWc4YXdfSEVoa2k2WFM0MEdWUzFtMkNlZ0dDR0JxaXZTNC16S0dHZmoxMlZWNDkweFJXMUZLQ0NEWV90SkhlNUZaaVhzUXVBNExFS0UwU3dwV2ctRVRXNTg4S2RQVjlmN2JaX2hwc1c1R1JsS0IwREY0MEJGN0lDLQ?oc=5"
-  },
-  {
-    "id": "559b52cb8a01",
-    "timestamp": "2026-07-28T13:51:07.135778+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260728/k10015187691000.html\nマキャベリなら曰く、ゼレンスキーの発言はプーチンの軍事侵攻継続を強調する一方で、ウクライナへの新たな戦力投入を警告すらしている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "NHK国際",
-    "source_title": "ゼレンスキー大統領 “ロシアは最大で50万人の動員を計画”",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260728/k10015187691000.html"
   }
 ]
