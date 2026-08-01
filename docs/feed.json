@@ -1,5 +1,15 @@
 [
   {
+    "id": "28ece574d0b8",
+    "timestamp": "2026-08-01T19:01:07.927117+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260801/k10015193821000.html\nマキャベリの視座から見れば、このニュースは国際政治における実力の闘争と圧倒的な優位性の重要性を強調するものだ。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 6,
+    "source": "NHK国際",
+    "source_title": "フィリピン スカボロー礁海図を国連に 中国は反発し軍事演習も",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260801/k10015193821000.html"
+  },
+  {
     "id": "c482e3fe53f4",
     "timestamp": "2026-08-01T15:58:09.931275+00:00",
     "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBWTNCVFc2RkI4OXpxS0NDRWVDSlBiVHUxcEtlUm5GWkt3a3NkTWFzd1dzdFdaeEhoMWdEZ2E0WUNqdnl6bG9zVWQ0QUVRWEpLQk1NaHVEN3N4OThmVlk5cGoyYw?oc=5\nマキャベリならフィリピンの実効支配を主張し、中国との対立を強化する行動だ。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "米イスラエル首脳会談 “イラン核武装阻止を改めて確認”報道",
     "source_url": "http://www3.nhk.or.jp/news/html/20260729/k10015189281000.html"
-  },
-  {
-    "id": "a398ab743f74",
-    "timestamp": "2026-07-28T22:00:02.773993+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QQTVqSlczTHExeUNKMlpCVE1TQzVoY3dKTnVuSFBxNE10dEU4aW5QNndpLXppbXVhNVVQaGU0RHJTVjg4dnp5NmdtR1hMLWJORjZ6SUhld1JfOVUzb1ZtcDlRTFlhMktldUp4R3NBeUlFMG9Oc0Rjd2tnd0Nyazg?oc=5\nトランプ大統領のイラン攻撃停止決定は、ミサイル備蓄枯渇による外交的解決の必要性を鮮明にした。",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "［深層ＮＥＷＳ］トランプ氏のイラン攻撃停止、高橋和夫氏「最大の理由はミサイル備蓄の枯渇だ」（読売新聞オンライン） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QQTVqSlczTHExeUNKMlpCVE1TQzVoY3dKTnVuSFBxNE10dEU4aW5QNndpLXppbXVhNVVQaGU0RHJTVjg4dnp5NmdtR1hMLWJORjZ6SUhld1JfOVUzb1ZtcDlRTFlhMktldUp4R3NBeUlFMG9Oc0Rjd2tnd0Nyazg?oc=5"
   }
 ]
