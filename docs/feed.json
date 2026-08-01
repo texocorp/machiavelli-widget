@@ -1,5 +1,15 @@
 [
   {
+    "id": "61c4993df79b",
+    "timestamp": "2026-08-01T08:11:55.815483+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56bEpicnFYUUhMYmV3VDlJWi1hTUpTbEFxNmxUSlVENVlGWHBJNmp0U19EYTZmSmwxWFVKTGNxcWtBWHBycGtkbUFmZw?oc=5\nサウジが主導する海洋防衛連合設立、原油価格浮揚懸念のなかで現実的な安全保障策だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "サウジ主導の多国籍海洋防衛連合を設立 - 47NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56bEpicnFYUUhMYmV3VDlJWi1hTUpTbEFxNmxUSlVENVlGWHBJNmp0U19EYTZmSmwxWFVKTGNxcWtBWHBycGtkbUFmZw?oc=5"
+  },
+  {
     "id": "1352968c5128",
     "timestamp": "2026-08-01T05:51:18.852983+00:00",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10LXBkcHRYNXhRNW45QUNTbnJySmpMV25WdGF6QVRBcjB0RUYxOW1wLTNNNFJnTVozckZkRVRQRDRMaktGOGdrQjZ1NXJuVFZyU2syenVka3BqbmRyWmltUXpUZ3gyVGhqS3piVEZlVzYza1p1bWc?oc=5\n米軍最新鋭戦闘機F35Bの墜落で現実主義的見方は危機感が強まる。\n「君主たる者、他国を攻めるために己より強大な者と手を組んではならぬ。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ゼレンスキー大統領 “ロシアは最大で50万人の動員を計画”",
     "source_url": "http://www3.nhk.or.jp/news/html/20260728/k10015187691000.html"
-  },
-  {
-    "id": "0df48260ce73",
-    "timestamp": "2026-07-28T11:14:07.012865+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260728/k10015187891000.html\nマキャベリならこの協議の行方は現実主義の視座から見れば不透明だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "NHK国際",
-    "source_title": "米イラン ホルムズ海峡再開と核開発が協議の焦点か 米報道",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260728/k10015187891000.html"
   }
 ]
