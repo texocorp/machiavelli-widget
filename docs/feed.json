@@ -1,5 +1,15 @@
 [
   {
+    "id": "1a9e6106a147",
+    "timestamp": "2026-08-02T02:09:56.602284+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260802/k10015192411000.html\nロシアの軍事侵攻の現実性とその深刻さがマキャベリの視座では鮮明となる。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月2日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260802/k10015192411000.html"
+  },
+  {
     "id": "79194596a5ed",
     "timestamp": "2026-08-01T21:49:52.177585+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260802/k10015193971000.html\nマキャベリの視座から見たこのニュースは、モスクワの爆発事件がロシア軍の行動に対する反応として捉えられ、当局者らの緊張と警戒が高まっている実態を露呈しているのだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（7月29日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260729/k10015141211000.html"
-  },
-  {
-    "id": "30c4de86033a",
-    "timestamp": "2026-07-29T05:47:10.716078+00:00",
-    "text": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMjZVZ2pMZmRhVUtYRDVfWUp4bTF6U3RyeTQzMTNOaXlNM1lkZW85bUhMbU1uemY4M0NhUGxUMWhOWXYwZnJCUDk2aGlKNmkzVUxwTk5NblNKYXdJa2dwSy1SZ2d3T05aQy12bnI0UmVMcUhLUG1SS19NWTNLVE55cA?oc=5\nトランプは良好会談を重ね、ネタニヤフとゼレンスキーとも友好を強調する。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、ゼレンスキー・ネタニヤフ両氏との会談「良好だった」 - ロイター",
-    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMjZVZ2pMZmRhVUtYRDVfWUp4bTF6U3RyeTQzMTNOaXlNM1lkZW85bUhMbU1uemY4M0NhUGxUMWhOWXYwZnJCUDk2aGlKNmkzVUxwTk5NblNKYXdJa2dwSy1SZ2d3T05aQy12bnI0UmVMcUhLUG1SS19NWTNLVE55cA?oc=5"
   }
 ]
