@@ -1,5 +1,15 @@
 [
   {
+    "id": "94b13be87c91",
+    "timestamp": "2026-08-02T05:51:43.109723+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LYlpjSGlaX2VoNzdhV1lRUVJkUjVPeFdTOFk0YXNzeGltM0tIM2dnVzVLOGtPNHI5eFFZcGh5VENFbHNwLUVCS1dObjNtQXlDMmVub1BpRjFsWVBIcEdGR1VfdG1BVDdkYzdhZQ?oc=5\nマキャベリの視座で見る、このニュースの本質はサウジアラビアとイエメンフーシ派間の対立と、その影響下での原油流通の難しさだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
+    "theme": "guerra",
+    "score": 7,
+    "source": "Google News 国際(World)",
+    "source_title": "紅海要衝の通航料求めず、封鎖は「サウジのみ」 イエメンのフーシ - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LYlpjSGlaX2VoNzdhV1lRUVJkUjVPeFdTOFk0YXNzeGltM0tIM2dnVzVLOGtPNHI5eFFZcGh5VENFbHNwLUVCS1dObjNtQXlDMmVub1BpRjFsWVBIcEdGR1VfdG1BVDdkYzdhZQ?oc=5"
+  },
+  {
     "id": "1a9e6106a147",
     "timestamp": "2026-08-02T02:09:56.602284+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260802/k10015192411000.html\nロシアの軍事侵攻の現実性とその深刻さがマキャベリの視座では鮮明となる。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ウクライナ、イラン貨物船を攻撃 ロシアへの軍事支援を警告 - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxbUVlMW9LXzlpcVVrNUpvTlRUOTB0Y1A1bDJaLWtONmxUMnZwckVxaENBSXRYUHFFU1lmQ1laQWIxY08xeXpYMnZzNFI2ajE4NHR1Mjhya2k2SS15d1JrcW9wWnNQbkRzSkJfVA?oc=5"
-  },
-  {
-    "id": "3546556691e1",
-    "timestamp": "2026-07-29T08:30:16.814528+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260729/k10015141211000.html\nロシアの軍事侵攻がウクライナ情勢をマキャベリの観点から見れば、現実的な生存戦略の必要性を正当化する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（7月29日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260729/k10015141211000.html"
   }
 ]
