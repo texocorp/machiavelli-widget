@@ -1,5 +1,15 @@
 [
   {
+    "id": "d8e642025987",
+    "timestamp": "2026-08-02T15:57:22.236268+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss\nこの報道はマキャベリ式の視座から見れば、ただの権力者の戦略と行動によるものであり、人間の命を軽く見る現実主義的だ。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+    "source_url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "e2df3012b40d",
     "timestamp": "2026-08-02T13:08:27.072794+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBicWgxb0RkT3JDMTlidG5Jd2dEOEdLOVR2SlVLVlpiUWctQVBqT1lEbjF2Qmk0cnJvNUU1MmgyOUlNTGhIa3lrNjdmZ2d0T0FrNzMyUUVNbkx3cDUwTTVzUmRn?oc=5\nイランへの大規模攻撃を中止、トランプ氏「世界の将来的利…が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ゼレンスキー氏、パトリオット300発を要請 トランプ氏、イラン情勢理由に困難と回答 - sankei.com",
     "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ybFI1SzlITVhNU1RodHRDSW1OMTN3M1ZLUU1MWTY3OGZTdFM4XzNrZUpTTy0tdHlVeEhBWEUyc0JPVFpsR0VQV090TlQzcy1iSlVhWHJQYkZMbk55QnFES2x1VUhVVWtlb0hQMEo1UWhFRVE2UkE?oc=5"
-  },
-  {
-    "id": "844165c40c7e",
-    "timestamp": "2026-07-29T19:06:06.727351+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lcUVMaHZ6MVMyWXdmZkpKdTRNMDV4VDAwMV9NNFRnNUJnTlFzelRraFh4MGREYjRnZTZSc0ZmUWVSdGgwUEpkQzZFVTAtanNzbTlpYm1aSUhLZVQ3eGZXekt3?oc=5\nイラン軍の攻撃はマキャベリの視座から現実主義的な観察を正当化する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 5,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン軍がヨルダンの米軍基地をミサイル攻撃、空爆停止以来で初…トランプ氏「イランを徹底的にたたく」 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lcUVMaHZ6MVMyWXdmZkpKdTRNMDV4VDAwMV9NNFRnNUJnTlFzelRraFh4MGREYjRnZTZSc0ZmUWVSdGgwUEpkQzZFVTAtanNzbTlpYm1aSUhLZVQ3eGZXekt3?oc=5"
   }
 ]
