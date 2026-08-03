@@ -1,5 +1,15 @@
 [
   {
+    "id": "34cdfdb61542",
+    "timestamp": "2026-08-03T17:07:51.297843+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260804/k10015192421000.html\nロシアの軍事侵攻は現実主義者の目からみれば、ウクライナ情勢の基本構造そのものだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月3日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260804/k10015192421000.html"
+  },
+  {
     "id": "ac9b82e1ceff",
     "timestamp": "2026-08-03T12:18:04.962654+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RUHFHSmpHRTFzYWsxQkpsTmNaU0NENjdNYUgzMGo1TTJ5dENnZUt0U3dySExOUkRJc2lzczFaZnpzSk81cUY2Q3kyMUNXYlkzQTlEUi1BVGNsZkNZRVcyQkZpa3lfcF8weDZqbw?oc=5\nイランの態度はマキャベリの視座から見れば、現実主義的で冷徹な外交姿勢を示している。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "フーシ派幹部「日本船狙わず」 イエメン沖、通航料も否定 - 47NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5waHJCMXJKYzlKMWhuaFlXdDZaMGVta0dKYk5iRWRxbnRHUHB0NEM1cXBTbHlqZlJtYkI1dzMySVRuNUVBdjBHTGZrSQ?oc=5"
-  },
-  {
-    "id": "9dcffae9314d",
-    "timestamp": "2026-07-30T13:46:53.665865+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IOExuRl9SWG1Ba0hodFdVbi1wY0tMVExXV1VKSEhTQXY5M3Y1bVRyOGdsdElZcktGVWN0U1dFSWJVSlhxNnZ6UEVnOXZ1bG9SOGZnbWtfYlVLZ1d0dTZVQXhkM2dBNy1aVjZ4SXBnLV96bTJpNHc?oc=5\nフーシ派が日本船を攻撃対象から外した現実的見解だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "フーシ派「日本船狙わず」 イエメン沖、通航料も否定 攻撃対象はサウジのみ - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IOExuRl9SWG1Ba0hodFdVbi1wY0tMVExXV1VKSEhTQXY5M3Y1bVRyOGdsdElZcktGVWN0U1dFSWJVSlhxNnZ6UEVnOXZ1bG9SOGZnbWtfYlVLZ1d0dTZVQXhkM2dBNy1aVjZ4SXBnLV96bTJpNHc?oc=5"
   }
 ]
