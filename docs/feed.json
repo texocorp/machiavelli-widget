@@ -1,5 +1,15 @@
 [
   {
+    "id": "6d02cc6b76de",
+    "timestamp": "2026-08-03T19:24:32.297348+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss\nAung San Suu Kyiの健康が確認された初めての軍政府との接触より、現実主義者は Myanmarの政情不安定さを示唆する。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Aung San Suu Kyi appears healthy in first confirmed outside contact for 2.5 years",
+    "source_url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "34cdfdb61542",
     "timestamp": "2026-08-03T17:07:51.297843+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260804/k10015192421000.html\nロシアの軍事侵攻は現実主義者の目からみれば、ウクライナ情勢の基本構造そのものだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "BBC World",
     "source_title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
     "source_url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "34f19c35fdc9",
-    "timestamp": "2026-07-30T16:24:40.452504+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5waHJCMXJKYzlKMWhuaFlXdDZaMGVta0dKYk5iRWRxbnRHUHB0NEM1cXBTbHlqZlJtYkI1dzMySVRuNUVBdjBHTGZrSQ?oc=5\nフーシ派幹部が日本船狙わずと明言、通航料も否定、マキャベリ視点で見れば現実主義的だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "フーシ派幹部「日本船狙わず」 イエメン沖、通航料も否定 - 47NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5waHJCMXJKYzlKMWhuaFlXdDZaMGVta0dKYk5iRWRxbnRHUHB0NEM1cXBTbHlqZlJtYkI1dzMySVRuNUVBdjBHTGZrSQ?oc=5"
   }
 ]
