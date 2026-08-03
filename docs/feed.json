@@ -1,5 +1,15 @@
 [
   {
+    "id": "ea0361b10b32",
+    "timestamp": "2026-08-03T02:12:35.447555+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KaHhuU3dBTXA4MDlHdXoyNTh6bjNmVWtCWC1SVGhYc0xndjU4bHdKRF92d0J2alVURUpYLU1fRGs4YUU5LW9kckUtMjJBN3RrX1VLQWlGOTZremRRNy1JdWVtZ2VZVjFmUThjdA?oc=5\nトランプ大統領はマキャベリの観点から見れば、イランとの交渉を強硬路線で進める決定だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏「3日にイランと話し合う」 ホルムズ海峡や核問題を協議 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KaHhuU3dBTXA4MDlHdXoyNTh6bjNmVWtCWC1SVGhYc0xndjU4bHdKRF92d0J2alVURUpYLU1fRGs4YUU5LW9kckUtMjJBN3RrX1VLQWlGOTZremRRNy1JdWVtZ2VZVjFmUThjdA?oc=5"
+  },
+  {
     "id": "5472030f7204",
     "timestamp": "2026-08-02T21:51:02.972809+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZM25wVi1UeHluWlFyWEdSNkFaX3lzYi1nbGNqd0RWYXhELXlrNmNZTHJGdHUwdFBrNENMdTJjSzgyb1BHYUxNS2Z0Tzk5UGoxTno0YkgzRmtVVkRGUWdISjZ0eDFyYjk1M0pYM2EtQTR2b1ZVdFVGNmVB?oc=5\nトランプ大統領の新たな攻撃停止声明がマキャベリ視座ではイランとの合意形成への挑戦だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（7月30日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260730/k10015141221000.html"
-  },
-  {
-    "id": "a56e877726e9",
-    "timestamp": "2026-07-30T05:35:32.160006+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260730/k10015190691000.html\n高市総理が北方領土問題解決を待つ元島民の孫たちに抗議する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "NHK国際",
-    "source_title": "北方領土元島民のひ孫ら「北方墓参」再開を高市首相に要望",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260730/k10015190691000.html"
   }
 ]
