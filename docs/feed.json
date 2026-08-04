@@ -1,5 +1,15 @@
 [
   {
+    "id": "67311d88fa6f",
+    "timestamp": "2026-08-04T11:21:25.098340+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kcHV1UWZxVmlTaFRFTm9rMmZRQmlwWFpTcmdBNHhGOVJNUC03am5zYkdONXhqZGtjNFFlcjM5eThGTWpsWXlzckdCS2ZxR2VUOVhVSmRFN2F0WjM5cDRuUnNYb0tyQ0h6d2JUTg?oc=5\nマキャベリなら日本は中国・ロシアの危機感に揺れ動く状況を警戒するだろう。\n「とはいえ君主は、愛を得られぬまでも憎しみだけは免れるように、恐れられねばならない。",
+    "theme": "paura_amore",
+    "score": 7,
+    "source": "Google News 国際(World)",
+    "source_title": "防衛白書、中国・ロシア「戦略的連携」に危機感 日本周辺で共同活動 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kcHV1UWZxVmlTaFRFTm9rMmZRQmlwWFpTcmdBNHhGOVJNUC03am5zYkdONXhqZGtjNFFlcjM5eThGTWpsWXlzckdCS2ZxR2VUOVhVSmRFN2F0WjM5cDRuUnNYb0tyQ0h6d2JUTg?oc=5"
+  },
+  {
     "id": "2793324817a2",
     "timestamp": "2026-08-04T08:28:26.195650+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260804/k10015192441000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的な視座から厳しく描く。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米軍で「イラン攻撃」めぐり路線対立か 大規模攻撃か限定空爆、トランプ氏いらだち露わに - 産経ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51VEItLUxVSTNlYnFoci1yMElXc1pDQ1BJYjZ6Y0NJMlV6c0FuU2V2cmxZb0d6WGJSQkEwTS1sTTRuMXU4UkZ3Nlc2bF9kSnVJeFpiNlBxQkJUMTNBQTZ0UEh1T3BNUTZ2NWM0SzVtRnNESjFUb2c?oc=5"
-  },
-  {
-    "id": "79abac0570b0",
-    "timestamp": "2026-07-31T11:26:40.419664+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260731/k10015141231000.html\nロシア軍の侵攻とウクライナ情勢の一挙手一投足がマキャベリアンな現実主義的視座から見れば、戦争の本質は力による支配と生存競争である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（7月31日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260731/k10015141231000.html"
   }
 ]
