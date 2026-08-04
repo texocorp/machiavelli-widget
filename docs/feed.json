@@ -1,5 +1,15 @@
 [
   {
+    "id": "2793324817a2",
+    "timestamp": "2026-08-04T08:28:26.195650+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260804/k10015192441000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的な視座から厳しく描く。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月4日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260804/k10015192441000.html"
+  },
+  {
     "id": "59d50247dffa",
     "timestamp": "2026-08-04T05:43:56.331437+00:00",
     "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iQ2RhUkJrRi0tT3AxNjMtZnZVelRnSHdxUWNfXzk2Z3VRM0ZTb3AwX1drNmpJenJYTVJhQjZIakQ2RUhKaVQ2ZGxrakNSa25VcV9SSmhfemJZZ2wwVzg2bWhhdnNoZw?oc=5\nＡＩや無人機による「新しい戦い方」強化、は、防衛の指揮権を他国に委ねた者が、その他国の判断一つで運命を左右される構図を露わにする。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（7月31日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260731/k10015141231000.html"
-  },
-  {
-    "id": "05b85115348c",
-    "timestamp": "2026-07-31T06:07:26.471766+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UMFlmaGZacVMycmNNUWV5aHViN0ZQRkJzN2ZscV9ZemNYd2ppd1ZRN1lydU9PQ2Zad2w4Vmh4Nm1BSmtjMjBCSVhZNWJQOTByRnhGZDB3?oc=5\nトランプ大統領のイラン戦争参入計画は、ホルムズ海峡を出口とする11月中選挙に影響を与える可能性だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "ホルムズ海峡は二の次、トランプ大統領が目論むイラン戦争の出口戦略と11月中間選挙の勝算 - JBpress",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UMFlmaGZacVMycmNNUWV5aHViN0ZQRkJzN2ZscV9ZemNYd2ppd1ZRN1lydU9PQ2Zad2w4Vmh4Nm1BSmtjMjBCSVhZNWJQOTByRnhGZDB3?oc=5"
   }
 ]
