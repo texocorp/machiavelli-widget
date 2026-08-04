@@ -1,5 +1,15 @@
 [
   {
+    "id": "aadd1fca2409",
+    "timestamp": "2026-08-04T19:24:01.795008+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260804/k10015196241000.html\nアメリカとイラン間の直接協議の有無が情勢を左右し、現状不透明だ。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 5,
+    "source": "NHK国際",
+    "source_title": "アメリカ イラン 緊張緩和に向け進展あるか不透明",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260804/k10015196241000.html"
+  },
+  {
     "id": "6c4a13a4ec2c",
     "timestamp": "2026-08-04T16:49:34.620491+00:00",
     "text": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObTFCZ2s4LTRXTmJ1cGxERjhIT0NxQlQ2NTg3OTRwRmMyZ1hJaEdsazRvOFR2TERWaHgycFRnSV9xZGNrQW1mOVFpaHNrQlN6UEVNODdRZWM0X2JEc01yWkhEczRycWNLd1F0SmFqUE1ZNTVEaFFKOVlNdVdTbHJCaHd0WHU5X01rNVp6QmVHSQ?oc=5\nマキャベリなら「新たな防衛戦略の緊急制定が求められる」だろう。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "サウジなど１４か国、バブルマンデブ海峡航行の自由確保へ「海洋防衛連合」…フーシの「海上封鎖」に対抗 - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5UUluS240eUEtUWVKMGlyN1ZKblFfa1JCNHRhb2FMcGgwdTVZclptTXBHeGZBYWgtZ1hYMWo5UHFVSlhNQ2pzcUtPd1ZycFBzQ3NlZU1iM1RyUmNnOG9aYnV3?oc=5"
-  },
-  {
-    "id": "910e44c3ab3b",
-    "timestamp": "2026-07-31T19:16:42.858954+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51VEItLUxVSTNlYnFoci1yMElXc1pDQ1BJYjZ6Y0NJMlV6c0FuU2V2cmxZb0d6WGJSQkEwTS1sTTRuMXU4UkZ3Nlc2bF9kSnVJeFpiNlBxQkJUMTNBQTZ0UEh1T3BNUTZ2NWM0SzVtRnNESjFUb2c?oc=5\nトランプ大統領のいらだちが現実主義的対立の象徴だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
-    "theme": "guerra",
-    "score": 13,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍で「イラン攻撃」めぐり路線対立か 大規模攻撃か限定空爆、トランプ氏いらだち露わに - sankei.com",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51VEItLUxVSTNlYnFoci1yMElXc1pDQ1BJYjZ6Y0NJMlV6c0FuU2V2cmxZb0d6WGJSQkEwTS1sTTRuMXU4UkZ3Nlc2bF9kSnVJeFpiNlBxQkJUMTNBQTZ0UEh1T3BNUTZ2NWM0SzVtRnNESjFUb2c?oc=5"
   }
 ]
