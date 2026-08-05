@@ -1,5 +1,15 @@
 [
   {
+    "id": "c2c48871358e",
+    "timestamp": "2026-08-05T22:09:46.964024+00:00",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mOE91dHpMakNWaFNwbFdSbjA4WTBLRldOb01fY0stVHdlT01reG03dTRfRkV3V3NVWFJCOGtHS1RLRU5kWUZQRVRnVGZLbmE4a1VGVTl6el9aSmFRWWp2NkgtSFpHdlUxY29nRTJodE5ac1hxSnc?oc=5\nロシアの大規模攻撃でウクライナの死者が17人に上る。政府の対策は無力だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "ロシアの大規模攻撃で17人死亡 キーウや近郊 ウクライナ、ミサイル撃墜できず - 産経ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mOE91dHpMakNWaFNwbFdSbjA4WTBLRldOb01fY0stVHdlT01reG03dTRfRkV3V3NVWFJCOGtHS1RLRU5kWUZQRVRnVGZLbmE4a1VGVTl6el9aSmFRWWp2NkgtSFpHdlUxY29nRTJodE5ac1hxSnc?oc=5"
+  },
+  {
     "id": "0fc26176f75b",
     "timestamp": "2026-08-05T16:30:13.130090+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03Yk5sTE01VmhvaEM1ZTI3ZEVCZkE3RHpFOEtEdW9scHExNDRVNndUdTlUaDNaMEh4MEZaWXEtT2tKNHFNNWotczU4U04wbVU0allKdU50NzVqM3ZYVjhONDdn?oc=5\n米軍、イランとの戦闘でミサイル２種「ほぼ全て」使い果た…の背後にあるのは「米軍」という力の論理であり、道義の言葉はその後から付いてくるに過ぎぬ。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "モスクワで爆発 3人死亡 15人けが 原因や背景を捜査",
     "source_url": "http://www3.nhk.or.jp/news/html/20260802/k10015193971000.html"
-  },
-  {
-    "id": "28ece574d0b8",
-    "timestamp": "2026-08-01T19:01:07.927117+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260801/k10015193821000.html\nマキャベリの視座から見れば、このニュースは国際政治における実力の闘争と圧倒的な優位性の重要性を強調するものだ。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
-    "theme": "necessita",
-    "score": 6,
-    "source": "NHK国際",
-    "source_title": "フィリピン スカボロー礁海図を国連に 中国は反発し軍事演習も",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260801/k10015193821000.html"
   }
 ]
