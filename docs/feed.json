@@ -1,5 +1,15 @@
 [
   {
+    "id": "3713019b1464",
+    "timestamp": "2026-08-05T13:53:44.806795+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260805/k10015192451000.html\nロシアの軍事侵攻により、ウクライナ情勢は現実主義者の眼差しで見れば過激な争いである。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月5日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260805/k10015192451000.html"
+  },
+  {
     "id": "e2847ab2515a",
     "timestamp": "2026-08-05T11:17:12.967668+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jU3lBaXZHRzIzS1hMdnY4N3ZncmNCLV8xRi1LTENnQ3RmMFZNRFFqZVp1TktpZzE5eldGMERtUlJlVFh4b0lSd25GcDl6VWc4aFdfY054bDRXRFd0S0hyYVNVLU1iQkxFMDVmWQ?oc=5\n台湾軍事演習「漢光」、中国封鎖想定 馬淵署長批判的現実主義的態勢調整だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "フィリピン、国連に南シナ海の海図提出 領有権争い、中国反発 - 時事ドットコム",
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBWTNCVFc2RkI4OXpxS0NDRWVDSlBiVHUxcEtlUm5GWkt3a3NkTWFzd1dzdFdaeEhoMWdEZ2E0WUNqdnl6bG9zVWQ0QUVRWEpLQk1NaHVEN3N4OThmVlk5cGoyYw?oc=5"
-  },
-  {
-    "id": "a44ad493d584",
-    "timestamp": "2026-08-01T13:07:30.280749+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zQ1R1ckFxRG43V0d0SHd6b2xWSGNjYUNqR01OcTBHdlBGT1RUS1dXMW03TmJuVElnNFdleTB5b0pXNGk3VHg2R3hFN29XYW9zRnFiZWxxWlh2aU1YemNRRDdlNVVQQm1zb3NEVHlxZlBFUU01YVJ5NTNZWk9uZGc?oc=5\nイランが米イスラエルの激しい攻撃計画に対し報復準備済みと警告、ホルムズ海峡封鎖強化も示唆だ。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン「報復計画は準備済み」米・イスラエルの大規模攻撃計画報道に警告 ホルムズ海峡封鎖強化も示唆 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zQ1R1ckFxRG43V0d0SHd6b2xWSGNjYUNqR01OcTBHdlBGT1RUS1dXMW03TmJuVElnNFdleTB5b0pXNGk3VHg2R3hFN29XYW9zRnFiZWxxWlh2aU1YemNRRDdlNVVQQm1zb3NEVHlxZlBFUU01YVJ5NTNZWk9uZGc?oc=5"
   }
 ]
