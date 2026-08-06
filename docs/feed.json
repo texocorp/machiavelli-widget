@@ -1,5 +1,15 @@
 [
   {
+    "id": "24a3d85fbbaa",
+    "timestamp": "2026-08-06T05:43:18.684882+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260806/k10015197881000.html\nマキャベリなら「この画家の描かれた絵が、核兵器再び使用への恐怖を全国に訴えているだろう」だ。\n「愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。」\n『君主論 cap.XVII』",
+    "theme": "paura_amore",
+    "score": 5,
+    "source": "NHK国際",
+    "source_title": "広島被爆者の絵をキーウで描く “核兵器使われるのが怖い”",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260806/k10015197881000.html"
+  },
+  {
     "id": "e33b9510dbb4",
     "timestamp": "2026-08-06T02:01:12.773642+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ucHk0MDJkNlhNZHRCaExHNzd6NnBYeVpzbnk1QVd5SlNYS0dqdUg0N1FweHdqZHo2WlViS2dtZVY1b1lFbEJuTHBoMU9vc1ltdTdCZTQteHJ5bnRBbFh6SmNnZEpZam5zM2sycQ?oc=5\nイラン外務省の主張が、ホルムズ海峡開放と無関係だとみられている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "紅海要衝の通航料求めず、封鎖は「サウジのみ」 イエメンのフーシ - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LYlpjSGlaX2VoNzdhV1lRUVJkUjVPeFdTOFk0YXNzeGltM0tIM2dnVzVLOGtPNHI5eFFZcGh5VENFbHNwLUVCS1dObjNtQXlDMmVub1BpRjFsWVBIcEdGR1VfdG1BVDdkYzdhZQ?oc=5"
-  },
-  {
-    "id": "1a9e6106a147",
-    "timestamp": "2026-08-02T02:09:56.602284+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260802/k10015192411000.html\nロシアの軍事侵攻の現実性とその深刻さがマキャベリの視座では鮮明となる。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（8月2日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260802/k10015192411000.html"
   }
 ]
