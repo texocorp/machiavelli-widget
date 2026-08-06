@@ -1,5 +1,15 @@
 [
   {
+    "id": "8e9d0d206e3c",
+    "timestamp": "2026-08-06T11:15:58.869232+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260806/k10015192471000.html\nロシアの軍事侵攻によりウクライナ情勢は現実主義的対応を迫られている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月6日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260806/k10015192471000.html"
+  },
+  {
     "id": "6e565c83893d",
     "timestamp": "2026-08-06T08:25:28.112527+00:00",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkRklUOXRtajZ3by1yQnRTUVBuQmtpdU5BUW1tVjladkxtVXJobjJnUFp4T0daSmtxZF9jM1E2aUw1aFItTVBLdWNOZUQzVVA2Q21OREc2RmdkbFFmdWMw0gFkQVVfeXFMTTVzQUE5QWRnREtFRjg2V2xwU09HS0xRVVExVjlwM2xxV1JWaUlXRFpORU5mbVN5VzZFR2VJWDRVUzd4alBlWjI3dXZURGdfS0x",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ホルムズ代替ルートにも危機 需要増す紅海、フーシ派が「封鎖」―日本、難路の原油調達 - 時事ドットコム",
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10RnYwRUpPUjlXNmFlLWVzNUU5d3RnYkU2YTg3cW83QWtKVHE3WWtuY3doQUlOWHUzeTZmRVM5MlZPQkRJcEhCMF9WNDRBUmdPSmdPQzBqX2xfZzZ5NHNKNDQ5NA?oc=5"
-  },
-  {
-    "id": "1ab84cee9824",
-    "timestamp": "2026-08-02T08:13:28.270958+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LYlpjSGlaX2VoNzdhV1lRUVJkUjVPeFdTOFk0YXNzeGltM0tIM2dnVzVLOGtPNHI5eFFZcGh5VENFbHNwLUVCS1dObjNtQXlDMmVub1BpRjFsWVBIcEdGR1VfdG1BVDdkYzdhZQ?oc=5\nサウジアラビアとイエメンのフーシ派が対立、紅海要衝での封鎖を巡る争いだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
-    "theme": "guerra",
-    "score": 7,
-    "source": "Google News 国際(World)",
-    "source_title": "紅海要衝の通航料求めず、封鎖は「サウジのみ」 イエメンのフーシ - nikkei.com",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LYlpjSGlaX2VoNzdhV1lRUVJkUjVPeFdTOFk0YXNzeGltM0tIM2dnVzVLOGtPNHI5eFFZcGh5VENFbHNwLUVCS1dObjNtQXlDMmVub1BpRjFsWVBIcEdGR1VfdG1BVDdkYzdhZQ?oc=5"
   }
 ]
