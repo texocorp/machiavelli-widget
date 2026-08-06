@@ -1,5 +1,15 @@
 [
   {
+    "id": "e33b9510dbb4",
+    "timestamp": "2026-08-06T02:01:12.773642+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ucHk0MDJkNlhNZHRCaExHNzd6NnBYeVpzbnk1QVd5SlNYS0dqdUg0N1FweHdqZHo2WlViS2dtZVY1b1lFbEJuTHBoMU9vc1ltdTdCZTQteHJ5bnRBbFh6SmNnZEpZam5zM2sycQ?oc=5\nイラン外務省の主張が、ホルムズ海峡開放と無関係だとみられている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン外務省「オマーンと合意近い」 ホルムズ開放とは無関係と主張 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ucHk0MDJkNlhNZHRCaExHNzd6NnBYeVpzbnk1QVd5SlNYS0dqdUg0N1FweHdqZHo2WlViS2dtZVY1b1lFbEJuTHBoMU9vc1ltdTdCZTQteHJ5bnRBbFh6SmNnZEpZam5zM2sycQ?oc=5"
+  },
+  {
     "id": "c2c48871358e",
     "timestamp": "2026-08-05T22:09:46.964024+00:00",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mOE91dHpMakNWaFNwbFdSbjA4WTBLRldOb01fY0stVHdlT01reG03dTRfRkV3V3NVWFJCOGtHS1RLRU5kWUZQRVRnVGZLbmE4a1VGVTl6el9aSmFRWWp2NkgtSFpHdlUxY29nRTJodE5ac1hxSnc?oc=5\nロシアの大規模攻撃でウクライナの死者が17人に上る。政府の対策は無力だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（8月2日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260802/k10015192411000.html"
-  },
-  {
-    "id": "79194596a5ed",
-    "timestamp": "2026-08-01T21:49:52.177585+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260802/k10015193971000.html\nマキャベリの視座から見たこのニュースは、モスクワの爆発事件がロシア軍の行動に対する反応として捉えられ、当局者らの緊張と警戒が高まっている実態を露呈しているのだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "NHK国際",
-    "source_title": "モスクワで爆発 3人死亡 15人けが 原因や背景を捜査",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260802/k10015193971000.html"
   }
 ]
