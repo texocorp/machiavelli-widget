@@ -1,5 +1,15 @@
 [
   {
+    "id": "fe1266bdcb29",
+    "timestamp": "2026-08-07T07:06:05.443891+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260807/k10015192481000.html\nロシアの軍事侵攻により、ウクライナ情勢は現実主義的な視座から厳重な警戒が必要だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月7日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260807/k10015192481000.html"
+  },
+  {
     "id": "6b432bcf3aff",
     "timestamp": "2026-08-07T04:52:05.846359+00:00",
     "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wdHFKellhaHpaSGNPQms1b2h1UFdYeFhnNG8tWlVNQWM5ZGdISGxGNXlDOWFESkVwQVY4OFk1b3UzX29mbjNJN0RtSmp5aDA?oc=5\nプーチン政権は末期症候群で、内外からのプレッシャーを受けているのだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏「3日にイランと話し合う」 ホルムズ海峡や核問題を協議 - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KaHhuU3dBTXA4MDlHdXoyNTh6bjNmVWtCWC1SVGhYc0xndjU4bHdKRF92d0J2alVURUpYLU1fRGs4YUU5LW9kckUtMjJBN3RrX1VLQWlGOTZremRRNy1JdWVtZ2VZVjFmUThjdA?oc=5"
-  },
-  {
-    "id": "5472030f7204",
-    "timestamp": "2026-08-02T21:51:02.972809+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZM25wVi1UeHluWlFyWEdSNkFaX3lzYi1nbGNqd0RWYXhELXlrNmNZTHJGdHUwdFBrNENMdTJjSzgyb1BHYUxNS2Z0Tzk5UGoxTno0YkgzRmtVVkRGUWdISjZ0eDFyYjk1M0pYM2EtQTR2b1ZVdFVGNmVB?oc=5\nトランプ大統領の新たな攻撃停止声明がマキャベリ視座ではイランとの合意形成への挑戦だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "「新たな嘘」とトランプ氏を非難 イラン側は攻撃停止要求していないと関係者が否定 - テレ朝NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZM25wVi1UeHluWlFyWEdSNkFaX3lzYi1nbGNqd0RWYXhELXlrNmNZTHJGdHUwdFBrNENMdTJjSzgyb1BHYUxNS2Z0Tzk5UGoxTno0YkgzRmtVVkRGUWdISjZ0eDFyYjk1M0pYM2EtQTR2b1ZVdFVGNmVB?oc=5"
   }
 ]
