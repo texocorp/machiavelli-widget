@@ -1,5 +1,15 @@
 [
   {
+    "id": "834d80a6de20",
+    "timestamp": "2026-08-07T21:33:34.868265+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260808/k10015199791000.html\n台湾軍は中国侵攻に対抗するためだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "NHK国際",
+    "source_title": "台湾軍 中国による侵攻を想定した大規模演習を公開",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260808/k10015199791000.html"
+  },
+  {
     "id": "b57aa399f120",
     "timestamp": "2026-08-07T18:46:52.720850+00:00",
     "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPYUNlZW9nRmtjd1Y4REgtQm9nbjRTMzFWckVPSmtYM2NTZkNaTmp1MkpFck1VVW5WeEtkMC1VN0FmS0tEMnkxVGp4SzcyNE5tOFhNVDkwMENCemtzdHVJV0VKVWxWUUNLNDVfaDI1djdZT3fSAXhBVV95cUxQRVJQU1VEZjBSTG16TmRwemtBMG5wNHNkSUFOV014ZzVwbmdULUk2em5ucHo0V29YcVduOGV",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏、イランとの協議「進行中」 合意なければ大規模攻撃警告 - jp.reuters.com",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2UEdSLUo1ZTZ3aFZLOXY1NVBUdW1TYlFZQkYzRmJEYmVMNjR2TVRWczY3dGZGeFRmWUxfTXZLUVM3NWJwUEpyZG9tekZmaHBVS00xaUVJY0VtWTFfMW9mRTRBQ09mV0t6NVVVNkpBQm1Cd3h4ZllJanB3?oc=5"
-  },
-  {
-    "id": "6d02cc6b76de",
-    "timestamp": "2026-08-03T19:24:32.297348+00:00",
-    "text": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss\nAung San Suu Kyiの健康が確認された初めての軍政府との接触より、現実主義者は Myanmarの政情不安定さを示唆する。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
-    "theme": "necessita",
-    "score": 4,
-    "source": "BBC World",
-    "source_title": "Aung San Suu Kyi appears healthy in first confirmed outside contact for 2.5 years",
-    "source_url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
   }
 ]
