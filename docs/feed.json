@@ -1,5 +1,15 @@
 [
   {
+    "id": "846a7f4d6e1f",
+    "timestamp": "2026-08-08T12:35:01.608544+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260808/k10015192491000.html\nロシアの軍事侵略がウクライナ情勢を現実主義的な視座から捉えると、戦争の規模と深刻さに圧倒されるだろう。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "NHK国際",
+    "source_title": "ロシア ウクライナに軍事侵攻（8月8日の動き）",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260808/k10015192491000.html"
+  },
+  {
     "id": "da56024b1610",
     "timestamp": "2026-08-08T09:32:40.710129+00:00",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fdGhzSTBZNno2bWxUMnJEMks3WEpVVkJvbFB2ak0tR1R5U3NQRjdTQzRRTGtUVlA4WWxkakdTaVllRUlsc2FSRFZrRkwyQTZBRWtBVTlfX3oya2NHN2FV?oc=5\n台湾軍は中国の侵攻を想定した大規模演習を公表、現実主義的対策求められる。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米軍の高精度長距離ミサイル、イラン戦争でほぼ枯渇＝関係筋 - ロイター",
     "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdmZVQ2EzQllnY3JGYlJGZElWb0JHTGNVX05xc3FmZVdCOFdTeDZ6MWs0OG9Ga3NpRjZiUHdHTFkxUTVHOWE3YkNHVVJQNXVNWWxsenBNYy0xN2ZBbmxwRDJ3WDlGY1Q3cVBOOXhhQ19USEhGSlZMTVN6RlFKWEdwUTRB?oc=5"
-  },
-  {
-    "id": "67311d88fa6f",
-    "timestamp": "2026-08-04T11:21:25.098340+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kcHV1UWZxVmlTaFRFTm9rMmZRQmlwWFpTcmdBNHhGOVJNUC03am5zYkdONXhqZGtjNFFlcjM5eThGTWpsWXlzckdCS2ZxR2VUOVhVSmRFN2F0WjM5cDRuUnNYb0tyQ0h6d2JUTg?oc=5\nマキャベリなら日本は中国・ロシアの危機感に揺れ動く状況を警戒するだろう。\n「とはいえ君主は、愛を得られぬまでも憎しみだけは免れるように、恐れられねばならない。",
-    "theme": "paura_amore",
-    "score": 7,
-    "source": "Google News 国際(World)",
-    "source_title": "防衛白書、中国・ロシア「戦略的連携」に危機感 日本周辺で共同活動 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kcHV1UWZxVmlTaFRFTm9rMmZRQmlwWFpTcmdBNHhGOVJNUC03am5zYkdONXhqZGtjNFFlcjM5eThGTWpsWXlzckdCS2ZxR2VUOVhVSmRFN2F0WjM5cDRuUnNYb0tyQ0h6d2JUTg?oc=5"
   }
 ]
