@@ -1,5 +1,15 @@
 [
   {
+    "id": "da56024b1610",
+    "timestamp": "2026-08-08T09:32:40.710129+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fdGhzSTBZNno2bWxUMnJEMks3WEpVVkJvbFB2ak0tR1R5U3NQRjdTQzRRTGtUVlA4WWxkakdTaVllRUlsc2FSRFZrRkwyQTZBRWtBVTlfX3oya2NHN2FV?oc=5\n台湾軍は中国の侵攻を想定した大規模演習を公表、現実主義的対策求められる。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "台湾軍 中国による侵攻を想定した大規模演習を公開 - NHKニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fdGhzSTBZNno2bWxUMnJEMks3WEpVVkJvbFB2ak0tR1R5U3NQRjdTQzRRTGtUVlA4WWxkakdTaVllRUlsc2FSRFZrRkwyQTZBRWtBVTlfX3oya2NHN2FV?oc=5"
+  },
+  {
     "id": "88759585eec8",
     "timestamp": "2026-08-08T06:43:06.974516+00:00",
     "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fdmN4OXM2b3ZabDdEa0IxMEpfdU12TV9rdzZDVFF6S1E3X0pyM1NEQk5ITUZnRFNnbTd0NktIcWdMamhIX3ZETE9pNzVZSmhX?oc=5\n米軍高官ら、イラン戦闘出口の実現を模索するも限界が見えてきた。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "防衛白書、中国・ロシア「戦略的連携」に危機感 日本周辺で共同活動 - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kcHV1UWZxVmlTaFRFTm9rMmZRQmlwWFpTcmdBNHhGOVJNUC03am5zYkdONXhqZGtjNFFlcjM5eThGTWpsWXlzckdCS2ZxR2VUOVhVSmRFN2F0WjM5cDRuUnNYb0tyQ0h6d2JUTg?oc=5"
-  },
-  {
-    "id": "2793324817a2",
-    "timestamp": "2026-08-04T08:28:26.195650+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260804/k10015192441000.html\nロシアの軍事侵攻がウクライナ情勢を現実主義的な視座から厳しく描く。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（8月4日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260804/k10015192441000.html"
   }
 ]
