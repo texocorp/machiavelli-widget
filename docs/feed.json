@@ -1,5 +1,15 @@
 [
   {
+    "id": "c186c437b216",
+    "timestamp": "2026-08-08T15:24:22.154970+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260808/k10015199861000.html\nロシアの侵攻計画がマキャベリ式現実主義的視座から見れば、米欧間緊張の極致と見るべきだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "NHK国際",
+    "source_title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260808/k10015199861000.html"
+  },
+  {
     "id": "846a7f4d6e1f",
     "timestamp": "2026-08-08T12:35:01.608544+00:00",
     "text": "http://www3.nhk.or.jp/news/html/20260808/k10015192491000.html\nロシアの軍事侵略がウクライナ情勢を現実主義的な視座から捉えると、戦争の規模と深刻さに圧倒されるだろう。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "「新しい戦い方」備え急務 防衛白書（時事通信） - ｄメニューニュース",
     "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObTFCZ2s4LTRXTmJ1cGxERjhIT0NxQlQ2NTg3OTRwRmMyZ1hJaEdsazRvOFR2TERWaHgycFRnSV9xZGNrQW1mOVFpaHNrQlN6UEVNODdRZWM0X2JEc01yWkhEczRycWNLd1F0SmFqUE1ZNTVEaFFKOVlNdVdTbHJCaHd0WHU5X01rNVp6QmVHSQ?oc=5"
-  },
-  {
-    "id": "a4f6cd82959c",
-    "timestamp": "2026-08-04T13:57:04.883619+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdmZVQ2EzQllnY3JGYlJGZElWb0JHTGNVX05xc3FmZVdCOFdTeDZ6MWs0OG9Ga3NpRjZiUHdHTFkxUTVHOWE3YkNHVVJQNXVNWWxsenBNYy0xN2ZBbmxwRDJ3WDlGY1Q3cVBOOXhhQ19USEhGSlZMTVN6RlFKWEdwUTRB?oc=5\n米軍の高精度長距離ミサイル、イラン戦争でほぼ枯渇＝関係…が示すのは、",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍の高精度長距離ミサイル、イラン戦争でほぼ枯渇＝関係筋 - ロイター",
-    "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdmZVQ2EzQllnY3JGYlJGZElWb0JHTGNVX05xc3FmZVdCOFdTeDZ6MWs0OG9Ga3NpRjZiUHdHTFkxUTVHOWE3YkNHVVJQNXVNWWxsenBNYy0xN2ZBbmxwRDJ3WDlGY1Q3cVBOOXhhQ19USEhGSlZMTVN6RlFKWEdwUTRB?oc=5"
   }
 ]
