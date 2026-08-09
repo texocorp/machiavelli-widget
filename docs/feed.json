@@ -1,5 +1,15 @@
 [
   {
+    "id": "55116c5ee7f2",
+    "timestamp": "2026-08-09T01:13:28.138768+00:00",
+    "text": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss\nVanceの発言はマキャベリの観点から見れば、軍事圧力をもって問題を解決したという実質的な結果を強調しており。\n「とはいえ君主は、愛を得られぬまでも憎しみだけは免れるように、恐れられねばならない。」\n『君主論 cap.XVII』",
+    "theme": "paura_amore",
+    "score": 8,
+    "source": "Al Jazeera",
+    "source_title": "Vance says US ‘destroyed’ Iran’s nuclear programme",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss"
+  },
+  {
     "id": "eefffb5ca673",
     "timestamp": "2026-08-08T21:25:27.571572+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93YlpoV3hYc01TaU5OSzduelNUS2c3UlNWRlFUblcwc29RaFNaM1NhMUQydHZxeEZHTGpzR0o5X1poTGtCelZYWXZoYkwtSWt2QzVBSC1md0o0cm1sN3p5cF9JNllyZjRhd3dBdVIweWhnSUF5UTlYakN6M0J4VGM?oc=5\n頼清徳総統の視察により、台湾軍事界は強化された防衛能力検証に取り組む。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米軍、対イラン作戦でミサイル枯渇 抑止力低下に懸念 - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPRHpSWUdFdXVGbWhZWENWdkZkX2J6OGJZQUd4YmM4MUU1YnZFUDRxbC1RMmR3T1ZxZHdjX3Z3cFhlOUNvWkVGSlhYejhGTjlHeFozSDZfVDFucUpNZ3oxRzBkbkl4WFhMcDdJZQ?oc=5"
-  },
-  {
-    "id": "8518d400e4c5",
-    "timestamp": "2026-08-04T22:08:41.114557+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fYUtxeGpJZVlHOE1NbTA1bkRhRmY2TXZzT3lNTEEwTFFiclNiNVNhMzBSSXFldHVvUXdEUXhNLUhXS2lRd3J4bURDUmxDVjJDVTVybGtFNXhaMFQ2dU1nUDl2Z0Y4RmVBT2g5bg?oc=5\n米軍がイランに対し型破りな攻撃方法を募る声明が出ている。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン攻撃アイデア募集か アメリカ軍「型破りな方法を」 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fYUtxeGpJZVlHOE1NbTA1bkRhRmY2TXZzT3lNTEEwTFFiclNiNVNhMzBSSXFldHVvUXdEUXhNLUhXS2lRd3J4bURDUmxDVjJDVTVybGtFNXhaMFQ2dU1nUDl2Z0Y4RmVBT2g5bg?oc=5"
   }
 ]
