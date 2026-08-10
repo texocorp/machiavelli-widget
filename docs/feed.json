@@ -1,5 +1,15 @@
 [
   {
+    "id": "842c7b1dcc94",
+    "timestamp": "2026-08-10T12:54:55.475279+00:00",
+    "text": "https://www.aljazeera.com/video/newsfeed/2026/8/10/taiwan-holds-military-drills-to-prepare-for-invasion-by-china?traffic_source=rss\n台湾が中国への侵攻を想定した軍事演習を行うのだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Al Jazeera",
+    "source_title": "Taiwan holds military drills to prepare for invasion by China",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/taiwan-holds-military-drills-to-prepare-for-invasion-by-china?traffic_source=rss"
+  },
+  {
     "id": "3c4b59928941",
     "timestamp": "2026-08-10T10:13:35.021242+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3Rnp4Q2g3aDQ0b3lOYlJLYmI5cGxYd1JScy1PcjYzQWVxVkF4SjN0NEU2N0dVSldZUmYweHhUMFdSOWZRVFEtNWtTTVB2QVF4RGtVRFA0cllaUE1UYWRYdzQweHJZQVNhQTgyRkhvQ3VRT3hmRTFoZzNWWmhBd3c?oc=5\nトランプ大統領「控えめな対応をとっている」 イランに対…に表れているのは「核」による支配であり、",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏 国防長官に怒り 兵器不足めぐり責任追及 米報道 - テレ朝NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91VnlmWUc2dU4tTm03MFVMelRoOHdPQ3lKXzRLejE2LXhYQlVCR3ZrdEZ5MVQtNTRnalFPMmsycFNLeExVa3VDRGlVNmhLYUhBVmJYMm1zWkVaWEFkdWphZDhqd3hXTUNHUjctMlNsU2JJMU5sM19QMHBn?oc=5"
-  },
-  {
-    "id": "294df5ebf0c5",
-    "timestamp": "2026-08-06T13:51:50.047903+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96RllUMFBLSWdDYXNjOS05eTBsdUZxOHRuRkNDSkJabjlOMUZheGRCVmtfUTA3RkkzczBsVTRmRkotTHY4TFJLV1lISFZPaDdSZXhreWlfN3gtWU5LRktvMHZUZ2poSTF4VjA2YXpMRXhBbS1YT2c?oc=5\nトランプ大統領の怒りは弾薬不足をめぐる解決の遅れに対する現実主義的批判だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ大統領が弾薬不足に怒り 国防相を詰問「解決されたと思っていた」 米紙報道 - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96RllUMFBLSWdDYXNjOS05eTBsdUZxOHRuRkNDSkJabjlOMUZheGRCVmtfUTA3RkkzczBsVTRmRkotTHY4TFJLV1lISFZPaDdSZXhreWlfN3gtWU5LRktvMHZUZ2poSTF4VjA2YXpMRXhBbS1YT2c?oc=5"
   }
 ]
