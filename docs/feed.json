@@ -1,5 +1,15 @@
 [
   {
+    "id": "92a09e170e5b",
+    "timestamp": "2026-08-10T21:36:27.788409+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss\nこの攻撃は、マキャベリの視座から見れば権力追求の現実主義的展開だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "At least 13 killed in Ukrainian drone strike deep into Russia",
+    "source_url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "e143eb97b7a3",
     "timestamp": "2026-08-10T18:49:44.918105+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4Z1l3SkM0Wm9rNHh3ekJBQzJWQzAyWXFneERRSk1zUUU1VVB5eGtEaUdTTHQ5eUxWa0dQTklhS1EyVTRsT2Q1WjBSczNNbFFna0lMWERXNU9OV1A3YXd5WWpsSTg3b3hvVlRUWGczTHlHV2RzZmdMMDVn?oc=5\n最高指導者モジタバ師の映像「初公開」とイランメディア…は、統治や威圧が結局のところ恐怖の管理に行き着くことを示している。",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（8月7日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260807/k10015192481000.html"
-  },
-  {
-    "id": "6b432bcf3aff",
-    "timestamp": "2026-08-07T04:52:05.846359+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wdHFKellhaHpaSGNPQms1b2h1UFdYeFhnNG8tWlVNQWM5ZGdISGxGNXlDOWFESkVwQVY4OFk1b3UzX29mbjNJN0RtSmp5aDA?oc=5\nプーチン政権は末期症候群で、内外からのプレッシャーを受けているのだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "プーチンは動揺し､言葉を失ったとの指摘も…習近平に見放され､側近も友好国も停戦を迫る独裁政権の末期症状 - PRESIDENT Online（プレジデントオンライン）",
-    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wdHFKellhaHpaSGNPQms1b2h1UFdYeFhnNG8tWlVNQWM5ZGdISGxGNXlDOWFESkVwQVY4OFk1b3UzX29mbjNJN0RtSmp5aDA?oc=5"
   }
 ]
