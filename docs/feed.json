@@ -1,5 +1,15 @@
 [
   {
+    "id": "4277113a1b7b",
+    "timestamp": "2026-08-10T07:20:06.495639+00:00",
+    "text": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss\nトランプ政権がイランに経済圏の縮小を示唆する一方、アメリカ消費者の経済的圧迫を緩和する方針だ。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 6,
+    "source": "Al Jazeera",
+    "source_title": "Trump signals shift to economic pressure on Iran over new military strikes",
+    "source_url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss"
+  },
+  {
     "id": "1593efa35855",
     "timestamp": "2026-08-10T04:26:37.788041+00:00",
     "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzU3Q2RUlQNHVZbUlwb1BvZ3M3TVRWRjd6Rm1hY2htSHV4SjVEZXU1UF9xVGtlaGdNcEtLN3BUMHk0VHBnSWhaNDFvZFlib0xvSFRUNzR3?oc=5\nイラン情勢で米軍の弾薬枯渇が深刻事態、中国抑止強化には同盟国の協調が必要だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "NHK国際",
     "source_title": "ロシア ウクライナに軍事侵攻（8月6日の動き）",
     "source_url": "http://www3.nhk.or.jp/news/html/20260806/k10015192471000.html"
-  },
-  {
-    "id": "6e565c83893d",
-    "timestamp": "2026-08-06T08:25:28.112527+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkRklUOXRtajZ3by1yQnRTUVBuQmtpdU5BUW1tVjladkxtVXJobjJnUFp4T0daSmtxZF9jM1E2aUw1aFItTVBLdWNOZUQzVVA2Q21OREc2RmdkbFFmdWMw0gFkQVVfeXFMTTVzQUE5QWRnREtFRjg2V2xwU09HS0xRVVExVjlwM2xxV1JWaUlXRFpORU5mbVN5VzZFR2VJWDRVUzd4alBlWjI3dXZURGdfS0x",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "ロシアの攻撃で少なくとも21人死亡、迎撃ミサイルあれば「救えたはず」とゼレンスキー氏 - BBC",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkRklUOXRtajZ3by1yQnRTUVBuQmtpdU5BUW1tVjladkxtVXJobjJnUFp4T0daSmtxZF9jM1E2aUw1aFItTVBLdWNOZUQzVVA2Q21OREc2RmdkbFFmdWMw0gFkQVVfeXFMTTVzQUE5QWRnREtFRjg2V2xwU09HS0xRVVExVjlwM2xxV1JWaUlXRFpORU5mbVN5VzZFR2VJWDRVUzd4alBlWjI3dXZURGdfS0xrck52bFZ4TUNYdU9jaUJZU2M2WA?oc=5"
   }
 ]
