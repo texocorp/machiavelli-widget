@@ -1,5 +1,15 @@
 [
   {
+    "id": "8106ff429391",
+    "timestamp": "2026-08-11T01:14:36.836552+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TNXUyQnlOSTdUNWVneUpnUU1uclhNRGdZS2p4ZWx6S3NoUXV5WWhkUlFuZHVNRF95YXpBemFmeUNOSGdDNUVPbmZNVUYwYno2cDBYQnhaZ1ZPdWdyUWdYdlBQQS0wLUNjRVV5TGZaVUIxXzlBNUUzOXZiSHFsbWc?oc=5\nウクライナの農業へのロシア侵攻はマキャベリ主義的観点から見れば無秩序な戦争による巨大な経済打撃だ。",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "農業大国ウクライナ、ロシアの侵攻で農地が大打撃 復興費用は93兆円 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TNXUyQnlOSTdUNWVneUpnUU1uclhNRGdZS2p4ZWx6S3NoUXV5WWhkUlFuZHVNRF95YXpBemFmeUNOSGdDNUVPbmZNVUYwYno2cDBYQnhaZ1ZPdWdyUWdYdlBQQS0wLUNjRVV5TGZaVUIxXzlBNUUzOXZiSHFsbWc?oc=5"
+  },
+  {
     "id": "92a09e170e5b",
     "timestamp": "2026-08-10T21:36:27.788409+00:00",
     "text": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss\nこの攻撃は、マキャベリの視座から見れば権力追求の現実主義的展開だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ロシア通販大手へのウクライナの攻撃 影響じわり 中小企業弱体化や物流費用の増加も - テレ朝NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rZ2E0OWxUR2Jmem03alBPT2F6Ny11T1NwVWl0cGlOcUZER05HQ0FXVkY3Umx1VFpCVW1vRWVvRVhCZWc3WFBhQ2laY29wZDhLYjQyMExQTms0NlNzcUdQdVRDNFM5WjhkcUFzZkNiX1RtVERPT0lhMk13?oc=5"
-  },
-  {
-    "id": "fe1266bdcb29",
-    "timestamp": "2026-08-07T07:06:05.443891+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260807/k10015192481000.html\nロシアの軍事侵攻により、ウクライナ情勢は現実主義的な視座から厳重な警戒が必要だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "NHK国際",
-    "source_title": "ロシア ウクライナに軍事侵攻（8月7日の動き）",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260807/k10015192481000.html"
   }
 ]
