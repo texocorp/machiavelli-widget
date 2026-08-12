@@ -1,5 +1,15 @@
 [
   {
+    "id": "bcaf3fe77dd3",
+    "timestamp": "2026-08-12T18:55:43.967601+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XS0ZvaXNsSWtGUGZGNFVKQ1U1Z2NVYXBVOHhKZF9HUG55a0UtemJJS19JNHhCOUxtT0ZWN0E5UF9wNFp5azlVdERQM1dWQUJ3czFNdEMwNWtsaEtKT0hmNGpkMldPYUN6ODFsdA?oc=5\n中国、インドネシアと台湾東部沖で軍事演習 日比念頭に「…の核心は「軍事」がもたらす必要性にあり、正当化の言葉は後付けに過ぎぬ。",
+    "theme": "necessita",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "中国、インドネシアと台湾東部沖で軍事演習 日比念頭に「平和守る」 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XS0ZvaXNsSWtGUGZGNFVKQ1U1Z2NVYXBVOHhKZF9HUG55a0UtemJJS19JNHhCOUxtT0ZWN0E5UF9wNFp5azlVdERQM1dWQUJ3czFNdEMwNWtsaEtKT0hmNGpkMldPYUN6ODFsdA?oc=5"
+  },
+  {
     "id": "34ca665f8779",
     "timestamp": "2026-08-12T15:55:36.292330+00:00",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxVE5GaFo0TGZiQXhpLTNxYmxWelVKbU44YkEzYi1Wam5LSG0yLWFNcUFHS2hxWHhfY0hINDFQNUZuT0toQm1xRzJfVUxkYVEtd2RkUVpjWmZ6U29Vc1lHNlZuWE1kRWg1eExXaVFXQVFhSmhCcEE?oc=5\n中国とインドネシア海軍の合同訓練は、東方海域での管轄権主張を強化する狙いがある。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ホルムズ巡り対米要求強める イラン、「合意間近」に揺さぶり（時事通信） - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0Y0hwcThSX0NHMHhvS3lEbUxsaUlVVi1YZHJxSTVPdHVHNXR2ckdqS0w3RzJyUHAyNEw1MVR2aU8zZXQxcU9zTU1JY04zUXBIMlc1VnVscXdBc2o1N1d5MXphT2dIUXJmeGFUYXZCMDhhS2JDOTRoY3NBVjc3OFU?oc=5"
-  },
-  {
-    "id": "55116c5ee7f2",
-    "timestamp": "2026-08-09T01:13:28.138768+00:00",
-    "text": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss\nVanceの発言はマキャベリの観点から見れば、軍事圧力をもって問題を解決したという実質的な結果を強調しており。\n「とはいえ君主は、愛を得られぬまでも憎しみだけは免れるように、恐れられねばならない。」\n『君主論 cap.XVII』",
-    "theme": "paura_amore",
-    "score": 8,
-    "source": "Al Jazeera",
-    "source_title": "Vance says US ‘destroyed’ Iran’s nuclear programme",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss"
   }
 ]
