@@ -1,5 +1,15 @@
 [
   {
+    "id": "8b541bb6d5be",
+    "timestamp": "2026-08-12T09:58:16.421870+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9JMWVzRkFQSkU5NmlsWTQ5VzFoQ0RqY0k3czFFT2JSWHFHaHVKUmx3RWZWUExETVBXOER1Q2wxcHU0WHlXd0lCYmZjWQ?oc=5\n米軍の行動はマキャベリの観点から見れば、現実的な生存戦略であり、イランとの緊張関係を強化するためだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "米軍、イラン港湾封鎖で貨物船攻撃 - 47NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9JMWVzRkFQSkU5NmlsWTQ5VzFoQ0RqY0k3czFFT2JSWHFHaHVKUmx3RWZWUExETVBXOER1Q2wxcHU0WHlXd0lCYmZjWQ?oc=5"
+  },
+  {
     "id": "f52629750ffc",
     "timestamp": "2026-08-12T07:17:03.799542+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1leVZqNlhKTERXUTF2RFdvSlNrS2M2MXlmNWNBdzFJNEU0RVQtWmVpZW5IdzFFRHZiZG5jekxkSUFKamphQUlpVWYwWmpVVUlfMU90OFR5aGZ4MktLbWZ5VGhpd1VKVGdKZVlOY01wX0Jid25FNkdUY3RwSlptMUk?oc=5\n台湾が中国とインドネシアの軍事演習を危険だと非難する。\n「祖国の存亡そのものが問われるとき、",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "台湾・大規模軍事演習を頼清徳総統が視察「防衛力強化に努めて最大限支援していく」 - au Webポータル",
     "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SGFuU21ackhxUUVoMzBfM1FWRjdrbUc1czlqTzB5cXl2RlNiMURBdlVDa2lUREhQWDRmX3NzTlhVbzZiamlCZ21tTTdlVGh3YUxnR3YzNjkxYVU5eUI2Q2YtdVF3QlZINUF0bGpn?oc=5"
-  },
-  {
-    "id": "c186c437b216",
-    "timestamp": "2026-08-08T15:24:22.154970+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260808/k10015199861000.html\nロシアの侵攻計画がマキャベリ式現実主義的視座から見れば、米欧間緊張の極致と見るべきだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "NHK国際",
-    "source_title": "「ロシアがNATO限定侵攻の可能性も」 米情報機関が分析か",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260808/k10015199861000.html"
   }
 ]
