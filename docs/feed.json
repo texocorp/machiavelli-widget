@@ -1,5 +1,15 @@
 [
   {
+    "id": "839c97e2f8e8",
+    "timestamp": "2026-08-13T21:39:37.534841+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss\nCernavodă原子炉の閉鎖がロマニア当局の現実主義的判断だと。\n「愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。」\n『君主論 cap.XVII』",
+    "theme": "paura_amore",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
+    "source_url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "1b85225e58a6",
     "timestamp": "2026-08-13T18:55:44.150309+00:00",
     "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50bG1hdExxWTBtWnlvXzRmTWJXSHNuazdQMTlsc3VKU0xuSU5SRTRfZmZzQUt0Vi1LZHZ1Rzg0X0g1VzhrbF9CeTRZN1Rtd09ZRzJHQkZGby12RnJUVmdkX0dROA?oc=5\nホルムズ海峡でイランが強硬姿勢、米軍封鎖維持を主張する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Al Jazeera",
     "source_title": "Trump signals shift to economic pressure on Iran over new military strikes",
     "source_url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss"
-  },
-  {
-    "id": "1593efa35855",
-    "timestamp": "2026-08-10T04:26:37.788041+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzU3Q2RUlQNHVZbUlwb1BvZ3M3TVRWRjd6Rm1hY2htSHV4SjVEZXU1UF9xVGtlaGdNcEtLN3BUMHk0VHBnSWhaNDFvZFlib0xvSFRUNzR3?oc=5\nイラン情勢で米軍の弾薬枯渇が深刻事態、中国抑止強化には同盟国の協調が必要だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン泥沼化で米軍の「ミサイル枯渇」が深刻事態、揺らぎだした「中国抑止」強化のためには同盟国との協調が不可欠(1/5) - JBpress",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzU3Q2RUlQNHVZbUlwb1BvZ3M3TVRWRjd6Rm1hY2htSHV4SjVEZXU1UF9xVGtlaGdNcEtLN3BUMHk0VHBnSWhaNDFvZFlib0xvSFRUNzR3?oc=5"
   }
 ]
