@@ -1,5 +1,15 @@
 [
   {
+    "id": "c2fd6fc3b95e",
+    "timestamp": "2026-08-16T03:44:09.931908+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss\nEleven's death揭示了中东冲突中以色列与黎巴嫩真主党间残酷现实。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+    "source_url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "9c7caedd76a8",
     "timestamp": "2026-08-16T00:57:47.083471+00:00",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WSW9VZUY0Q2xfQUtvTmR1YVVDUk1ocC1lNGltZGR4THFjSU9sb0VQeDlYN1lsblZZcFJBcnNOWGZCUnNYVWZ1V0NPZGxadDIyVjFLbEFzQk1sSkRMWHpnb3RfNnRPR0VF?oc=5\nトランプ氏、ホルムズ海峡「米国の領土と宣言する」イラン…は、道義ではなく必要こそが政策を規定するという事実の一例である。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "在京イスラエル大使館、日本メディアを続々非難 毎日新聞には「プロパガンダ」、NHKには「訂正必要」 - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFd0VNZEphWEEzZGFmVDZVdFRDTWpXcEtDMTBwUk1IRFQ1SDljaFhISG52RFI4MU1QUFBjX1RzVG0yTGNiVjE1cllPUUZZSDRMYkQwb2NQVGRNSy1TTi1FUkVBNk83M1JlZTZINXRZN2hFLTM3VlZUZGtXUDFmaUE?oc=5"
-  },
-  {
-    "id": "8b541bb6d5be",
-    "timestamp": "2026-08-12T09:58:16.421870+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9JMWVzRkFQSkU5NmlsWTQ5VzFoQ0RqY0k3czFFT2JSWHFHaHVKUmx3RWZWUExETVBXOER1Q2wxcHU0WHlXd0lCYmZjWQ?oc=5\n米軍の行動はマキャベリの観点から見れば、現実的な生存戦略であり、イランとの緊張関係を強化するためだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍、イラン港湾封鎖で貨物船攻撃 - 47NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9JMWVzRkFQSkU5NmlsWTQ5VzFoQ0RqY0k3czFFT2JSWHFHaHVKUmx3RWZWUExETVBXOER1Q2wxcHU0WHlXd0lCYmZjWQ?oc=5"
   }
 ]
