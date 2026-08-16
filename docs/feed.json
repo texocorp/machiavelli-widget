@@ -1,5 +1,15 @@
 [
   {
+    "id": "8919525fef4c",
+    "timestamp": "2026-08-16T15:15:32.596511+00:00",
+    "text": "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss\nこの事態はマキャベリの観点から見れば、権力の圧倒と生存の戦いの真実だ。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "Al Jazeera",
+    "source_title": "Timeline: The one-week siege of Qusra by Israeli settlers in the West Bank",
+    "source_url": "https://www.aljazeera.com/gallery/2026/8/16/timeline-the-one-week-siege-of-qusra-by-israeli-settlers-in-the-west-bank?traffic_source=rss"
+  },
+  {
     "id": "b34640cc1e91",
     "timestamp": "2026-08-16T12:27:35.481678+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RTUxCekpUY1pSWW1kd3pRS0daaWlSelAtdENTaGdoM2V0S0ZKNDdEQ1lZTU1BOWVqWGc3bWNrQTN5aG1TQW91RFVrYnlzMFBxRzdmX2Jlb25NSFdlS04zXzl3?oc=5\nアメリカとイランの「覚書」６０日の期限迎える…核問題は…は、統治や威圧が結局のところ恐怖の管理に行き着くことを示している。\n「人間について概して言えばこうだ。",
@@ -288,15 +298,5 @@
     "source": "Al Jazeera",
     "source_title": "Hegseth cautions that ICC may investigate US boat strikes in Latin America",
     "source_url": "https://www.aljazeera.com/news/2026/8/12/hegseth-cautions-that-icc-may-investigate-us-boat-strikes-in-latin-america?traffic_source=rss"
-  },
-  {
-    "id": "bd5cff756d90",
-    "timestamp": "2026-08-12T21:39:54.688597+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260808/k10015199871000.html\n米当局者 “航行妨げない合意なら海上封鎖を解除” 報道が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "NHK国際",
-    "source_title": "米当局者 “航行妨げない合意なら海上封鎖を解除” 報道",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260808/k10015199871000.html"
   }
 ]
