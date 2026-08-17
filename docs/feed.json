@@ -1,5 +1,15 @@
 [
   {
+    "id": "5fb7ae49b0b2",
+    "timestamp": "2026-08-17T15:20:35.223264+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss\n特朗普の決定は現実主義の視点から、韓国の無関与を選んだ北朝鮮の懐柔が優先された証だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
+    "source_url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "949df395a3cb",
     "timestamp": "2026-08-17T12:32:36.519877+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sdEhHSHZnWkdKX3ZROXhDNUQ1T3ljRldzY1pndlVDTng1aDQ3QjFxR1VVLXNCSlpNS1BUOGdKdjYtelpOSnZ6RFRxaFhjYXU4N2M0MVhZM3lHMzh4X1NaN2pnbmFtalpPckZablRybWhYZHR0dTN3bjJweG5wdDQ?oc=5\nトランプ政権のイラン封鎖検討はマキャベリの視座で見れば、既存の対立構造を強化する孤立戦の始まりに過ぎず。",
@@ -288,15 +298,5 @@
     "source": "BBC World",
     "source_title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
     "source_url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "1b85225e58a6",
-    "timestamp": "2026-08-13T18:55:44.150309+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50bG1hdExxWTBtWnlvXzRmTWJXSHNuazdQMTlsc3VKU0xuSU5SRTRfZmZzQUt0Vi1LZHZ1Rzg0X0g1VzhrbF9CeTRZN1Rtd09ZRzJHQkZGby12RnJUVmdkX0dROA?oc=5\nホルムズ海峡でイランが強硬姿勢、米軍封鎖維持を主張する。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "ホルムズ、イラン強硬姿勢変わらず 米軍は封鎖維持、貨物船攻撃 - jiji.com",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50bG1hdExxWTBtWnlvXzRmTWJXSHNuazdQMTlsc3VKU0xuSU5SRTRfZmZzQUt0Vi1LZHZ1Rzg0X0g1VzhrbF9CeTRZN1Rtd09ZRzJHQkZGby12RnJUVmdkX0dROA?oc=5"
   }
 ]
