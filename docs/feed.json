@@ -1,5 +1,15 @@
 [
   {
+    "id": "a9e0939fe89b",
+    "timestamp": "2026-08-19T09:27:58.759954+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40ajJHNzJ1U3kzZ3dab2p5UHJCQ2FMR2dSQ29sLTlqYWViUWFoR05SajZNRTlnNUEwYW9rUnREQVJpdnA5ay1OUzBrSE5KQmVNdTZ2cWlvcWNqX1l3SnJVdTJMazUzZ1c4dzhTZg?oc=5\nトランプの動向に注目する米報道、実現への模索を模索する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏が秋の米朝会談模索と米報道 非公式に側近動かす - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40ajJHNzJ1U3kzZ3dab2p5UHJCQ2FMR2dSQ29sLTlqYWViUWFoR05SajZNRTlnNUEwYW9rUnREQVJpdnA5ay1OUzBrSE5KQmVNdTZ2cWlvcWNqX1l3SnJVdTJMazUzZ1c4dzhTZg?oc=5"
+  },
+  {
     "id": "3faf4ef14463",
     "timestamp": "2026-08-19T06:34:59.681203+00:00",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vYnJMWkZOaXcyYk9pTUlyY0lDTFA0dUF1c1BxbmZXTkZYeEdmVzN6cjlLTkM2NldmTmVNWHNYMlZlZWlvSDd0UGVMRk5ndi04Y01OdTMzZnk1TUtCY01OeFhReEI5T3BL?oc=5\n米イラン間の緊張は交渉に戻るが、実現への道は険しいだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ大統領が近く宣言か 「ホルムズ海峡は米領土」 - テレ朝NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oc3M5WjRqVmFsY09pdmxVNHQzRzhKSGlGVUwtaU1fUGMzVW0wdVdJNXFtc1ZSSjdFT28zZHdfb0x6N1dTYmtNdmNYTEYzS3E1NVNTbk5XQzI5bVBweG92YUQxbEM4VEpPUy0xZ0ZHRy1ibkZfcXFvZzJn?oc=5"
-  },
-  {
-    "id": "0d19b88280d2",
-    "timestamp": "2026-08-15T12:25:52.459933+00:00",
-    "text": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss\n中国は台湾周辺のイランやウクラインの危機を観察し、新たな脅威に対処する現実的な戦略を模索している。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Al Jazeera",
-    "source_title": "Is China seeking to copy Iran’s Strait of Hormuz blockade around Taiwan?",
-    "source_url": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss"
   }
 ]
