@@ -1,5 +1,15 @@
 [
   {
+    "id": "0267f8584bce",
+    "timestamp": "2026-08-23T06:31:20.534085+00:00",
+    "text": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss\nマキャベリの視座に立って考察すれば、このニュースはKordofanでの戦乱から避難民がEl Obeidへと逃れる現実を示しており、その背景には権力者の利己的な行動とその結果の残酷さが含まれている。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。",
+    "theme": "necessita",
+    "score": 4,
+    "source": "Al Jazeera",
+    "source_title": "Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss"
+  },
+  {
     "id": "93a5cce667e4",
     "timestamp": "2026-08-23T03:45:42.553612+00:00",
     "text": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaW5JZzVUN2VBeVlyRlNWbXZVTDJwVkc5U0ViY05EYi1RNGQ0OWd1dnFxVmVyQ1E5LWV0OXJPdzFldmxnMmtHdDN6MjZFTWtTVS0wUXowcW5MMVVzNHJobHNaUlJjMHM4Yk1XZW9ZcjZqMktVS2dOMlRxc2ZqYkM3bXVfMHNfSlB3eGw4MndNZFppbmZCYTV6Nm53VDlHNGRRcVHSAacBQVVfeXFMUEk4NWJ",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏、イラン戦争で新たな試み 時間をかけて「締め上げる」（CNN.co.jp） - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xZzdoN1NrVVd3THVrRkFWbm5HdUgxMVZUSmR6UFJscjJtTW1aaURKMmNxZzdWbk9Bd2hYTEFNYVAyczl4aFJPSHZoSGdZOUlKbllaOHhyQk83NFhaaXNsWFQxSGRHVnhWZHFUczk0T1FibHJVOXloeGRBbGxSQ00?oc=5"
-  },
-  {
-    "id": "a9e0939fe89b",
-    "timestamp": "2026-08-19T09:27:58.759954+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40ajJHNzJ1U3kzZ3dab2p5UHJCQ2FMR2dSQ29sLTlqYWViUWFoR05SajZNRTlnNUEwYW9rUnREQVJpdnA5ay1OUzBrSE5KQmVNdTZ2cWlvcWNqX1l3SnJVdTJMazUzZ1c4dzhTZg?oc=5\nトランプの動向に注目する米報道、実現への模索を模索する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏が秋の米朝会談模索と米報道 非公式に側近動かす - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40ajJHNzJ1U3kzZ3dab2p5UHJCQ2FMR2dSQ29sLTlqYWViUWFoR05SajZNRTlnNUEwYW9rUnREQVJpdnA5ay1OUzBrSE5KQmVNdTZ2cWlvcWNqX1l3SnJVdTJMazUzZ1c4dzhTZg?oc=5"
   }
 ]
