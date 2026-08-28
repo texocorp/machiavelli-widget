@@ -1,5 +1,15 @@
 [
   {
+    "id": "20a879612dbe",
+    "timestamp": "2026-08-28T00:12:54.044661+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQUdvaDhSU1RWTFUyM3llaGZPOFFQTnp6SmZJaWF1S2Jpc1M1TGZQbVdramR5V0kzMkpWbEhleWdzOWthTmcweHdQMThUX0ZucVFIM05pblFkbzB2LVdtTE1TQVg5OE5pYU1DYVdqbng0Rnp5Z0R4LVExc1RwOGc?oc=5\n米国とイスラエルの軍事介入が中東情勢の膠着化を示している。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
+    "theme": "guerra",
+    "score": 6,
+    "source": "Google News 国際(World)",
+    "source_title": "アメリカとイスラエルがイラン攻撃から8月28日で半年 ホルムズ海峡などをめぐり収束の道筋は見えず… - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQUdvaDhSU1RWTFUyM3llaGZPOFFQTnp6SmZJaWF1S2Jpc1M1TGZQbVdramR5V0kzMkpWbEhleWdzOWthTmcweHdQMThUX0ZucVFIM05pblFkbzB2LVdtTE1TQVg5OE5pYU1DYVdqbng0Rnp5Z0R4LVExc1RwOGc?oc=5"
+  },
+  {
     "id": "1a2a53402ec0",
     "timestamp": "2026-08-27T13:33:31.546290+00:00",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sSFU2OW51dTdLVEt3QXloM2tUOTBnWkw3TEs0anYyVnF4WHBaN3BZdmlDNmpVYlRMWXRkcnRGbU9tU2RDbW85bnBIb0sxNHEta3Vn?oc=5\n米国はイラン制裁の効果が鈍化する中、新たな経済制裁の道を選んだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イラン、アメリカの経済制裁強化に反発「域外各国にも影響」…トランプ氏「何が起きるか見ている」 - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Ma2hoa2sxS0JENWYzWFY2S0o4Q3BFNFdSWVJ2dzVCZk1TdDdweTZPWG5aYktwOVBPZ3NyaW1lRzF6Zk00MmxIQzk0eUJWY3Q5T1NfNmxESTNhZ3BZQURCb1ZB?oc=5"
-  },
-  {
-    "id": "0267f8584bce",
-    "timestamp": "2026-08-23T06:31:20.534085+00:00",
-    "text": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss\nマキャベリの視座に立って考察すれば、このニュースはKordofanでの戦乱から避難民がEl Obeidへと逃れる現実を示しており、その背景には権力者の利己的な行動とその結果の残酷さが含まれている。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。",
-    "theme": "necessita",
-    "score": 4,
-    "source": "Al Jazeera",
-    "source_title": "Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid",
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/thousands-flee-sudans-kordofan-fighting-for-relative-safety-of-el-obeid?traffic_source=rss"
   }
 ]
