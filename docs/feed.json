@@ -1,5 +1,15 @@
 [
   {
+    "id": "69fd09438e91",
+    "timestamp": "2026-08-29T22:59:05.906631+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss\nこの事件は軍事供給への介入の脅威を示す現実だ。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+    "source_url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "ddcb1196589e",
     "timestamp": "2026-08-29T18:08:30.903626+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuczdpeExONVQya3dJNDdIMXdnNlNLTEVRRkZ5UkNMN3ZkVWE2elpBcUhYRW1OYVd3NHBHdHdHTVktaldheS1QckpJSkZrbHQtYXctbnVGWlU4bnk0S2ZZS0E2SGJJdm9aalVxVHdJeXVJaDdoLVJCd29n?oc=5\n米財務省の制裁はマキャベリの観点から見ると、イランとの関わりを追及する一方で、実効性と国際信頼性のバランスを取る戦略的挑戦だ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "中国による侵攻阻止の戦争計画を試す台湾、シェルター整備をはじめ物心ともに明らかに周回遅れな日本（Wedge（ウェッジ）） - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQVHk5Q3BPcVpVRFI3ejN2UFBKUGtmRkcyb29FUVZ3Q1g5enlia0xqTWNKQ3A5Tm9mY3dwMXQza1p2QndLS2loVkUwc1pFVXVrVXdkVGhWNXhzRzZJTUZPU1VmeElGbXJGNGtRYTBXeldkNkxqdTZ1T01GZFA1VjA?oc=5"
-  },
-  {
-    "id": "4a19bf6178c4",
-    "timestamp": "2026-08-24T00:56:19.618001+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYckFaTGY4NmMzcko3QUQ3TmtNaW5WdFdxdmx6U3hoVVljZThUZU1VaHJJcTRTVjQ4U1JvZDB1WEVrdXZxZHl2VVlGbkJ6bmdFbWFpcnA1ck9oWmVjLWxmR3N5TXZrUVVsek5xWmM1M183dnRLTWc?oc=5\nロシアの動員計画はマキャベリの視座で見れば、戦争の残酷さと政治経済の破綻を示すものだ。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "ロシア、戦局打破狙い30万～50万人の「追加動員」検討か 政治・経済への打撃指摘も ウクライナ侵略4年半 - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYckFaTGY4NmMzcko3QUQ3TmtNaW5WdFdxdmx6U3hoVVljZThUZU1VaHJJcTRTVjQ4U1JvZDB1WEVrdXZxZHl2VVlGbkJ6bmdFbWFpcnA1ck9oWmVjLWxmR3N5TXZrUVVsek5xWmM1M183dnRLTWc?oc=5"
   }
 ]
