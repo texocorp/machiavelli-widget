@@ -1,5 +1,15 @@
 [
   {
+    "id": "9b9c66741a45",
+    "timestamp": "2026-09-05T17:04:49.726624+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss\n当局者による緊急宣言、Viacha軍拠点の安全確保は難航する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "At least two dead in blast at Bolivia military barracks",
+    "source_url": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "529c2c3f874d",
     "timestamp": "2026-09-05T12:18:06.646737+00:00",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93bENfbzBncWFvSnRib3A2QTV0VTdOS05OUUxaS3BqNHMzVnRyb2xKTjYzVHM0c016V3AxZW56aHRSWjFXQVRxZW9lM3prU01ETng1M0hnZVJIS2FPU3lsWmF5am9TWlhn?oc=5\nマキャベリの観点から見れば、中国の軍事的拡大を否定する声明が受け入れられず、各国が懸念を表明している。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
@@ -288,15 +298,5 @@
     "source": "BBC World",
     "source_title": "Russia says it helped to repel Niger attempted coup",
     "source_url": "https://www.bbc.co.uk/news/articles/c5ye8egg596o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "64dd137d1af9",
-    "timestamp": "2026-08-30T15:53:21.266851+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwaHdnWFV0Zy1ZdUN1TGs2SHBINUY0YU5jTjZwV2wtbzhOaTFLbE00SUlrR2gxMjVCQWhZa2xIQ21zLVRPTG5DMHpqWFk1dl9uTWZ1emtmdXprUlFCakNTdlB6UVIybUFhQnNWQw?oc=5\nマキャベリの観点から見れば、アイスランドのEU加盟交渉再開が国民投票で否決され、見送りが決定した。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "アイスランド、EU加盟交渉の再開見送りへ 国民投票で反対多数 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwaHdnWFV0Zy1ZdUN1TGs2SHBINUY0YU5jTjZwV2wtbzhOaTFLbE00SUlrR2gxMjVCQWhZa2xIQ21zLVRPTG5DMHpqWFk1dl9uTWZ1emtmdXprUlFCakNTdlB6UVIybUFhQnNWQw?oc=5"
   }
 ]
