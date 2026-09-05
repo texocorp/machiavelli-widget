@@ -1,5 +1,15 @@
 [
   {
+    "id": "aae8d5889752",
+    "timestamp": "2026-09-05T19:49:29.529756+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xLTloU29NY3pORkNDNkJSNkRXM3NlaHQwcHVUZEcyQlpsTVNZam81TEhLd2NTbFdkS05zOGlBb2F4V3cwN0RqeVFvSlR1TFFl?oc=5\n米特使のモスクワ訪問は現実主義の観点から、ロシアとウクライナの和解の第一步となるだろう。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "米特使らモスクワ着 和平案提示か - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xLTloU29NY3pORkNDNkJSNkRXM3NlaHQwcHVUZEcyQlpsTVNZam81TEhLd2NTbFdkS05zOGlBb2F4V3cwN0RqeVFvSlR1TFFl?oc=5"
+  },
+  {
     "id": "9b9c66741a45",
     "timestamp": "2026-09-05T17:04:49.726624+00:00",
     "text": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss\n当局者による緊急宣言、Viacha軍拠点の安全確保は難航する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米軍幹部、イラン作戦「持続不能」と懸念か - 47NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvX3pkc1JGbjVpQ3JuNUtIbXBpODlPdlF3ZGpVM3FkVWNRSW5xazhFN3I5OXVWbWMydGR2MDRGWlhYeXNwS3hWaU03WQ?oc=5"
-  },
-  {
-    "id": "ad972487cd13",
-    "timestamp": "2026-08-30T20:25:05.804754+00:00",
-    "text": "https://www.bbc.co.uk/news/articles/c5ye8egg596o?at_medium=RSS&at_campaign=rss\nRussia says it helped to re…が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "BBC World",
-    "source_title": "Russia says it helped to repel Niger attempted coup",
-    "source_url": "https://www.bbc.co.uk/news/articles/c5ye8egg596o?at_medium=RSS&at_campaign=rss"
   }
 ]
