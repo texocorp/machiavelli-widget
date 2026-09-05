@@ -1,5 +1,15 @@
 [
   {
+    "id": "1c85a4b8999b",
+    "timestamp": "2026-09-05T22:35:38.648553+00:00",
+    "text": "https://www.aljazeera.com/video/inside-story/2026/9/5/why-is-argentina-reigniting-the-falklands-dispute?traffic_source=rss\nMileiの発言はFalklandsの主権再挑発を正当化する国際的な現実主義だ。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "Al Jazeera",
+    "source_title": "Why is Argentina reigniting the Falklands dispute?",
+    "source_url": "https://www.aljazeera.com/video/inside-story/2026/9/5/why-is-argentina-reigniting-the-falklands-dispute?traffic_source=rss"
+  },
+  {
     "id": "aae8d5889752",
     "timestamp": "2026-09-05T19:49:29.529756+00:00",
     "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xLTloU29NY3pORkNDNkJSNkRXM3NlaHQwcHVUZEcyQlpsTVNZam81TEhLd2NTbFdkS05zOGlBb2F4V3cwN0RqeVFvSlR1TFFl?oc=5\n米特使のモスクワ訪問は現実主義の観点から、ロシアとウクライナの和解の第一步となるだろう。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イラン作戦「持続不可能」 米軍幹部が長期化懸念か - 47NEWS",
     "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzd0JqNVQwc2E0UDkwbXZPTHY0WDRWa0RDMUE3aGtZQ0lzX016VjBfQk5hSG93eUJWeGt6c0RtdTU2VDMzM0lpQUxsZw?oc=5"
-  },
-  {
-    "id": "b48d233ceff9",
-    "timestamp": "2026-08-30T23:04:42.772779+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvX3pkc1JGbjVpQ3JuNUtIbXBpODlPdlF3ZGpVM3FkVWNRSW5xazhFN3I5OXVWbWMydGR2MDRGWlhYeXNwS3hWaU03WQ?oc=5\n米軍幹部の懸念はマキャベリの視座から見れば、イラン作戦の実行継続が現実的ではないのだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍幹部、イラン作戦「持続不能」と懸念か - 47NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvX3pkc1JGbjVpQ3JuNUtIbXBpODlPdlF3ZGpVM3FkVWNRSW5xazhFN3I5OXVWbWMydGR2MDRGWlhYeXNwS3hWaU03WQ?oc=5"
   }
 ]
