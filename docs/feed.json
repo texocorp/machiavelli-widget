@@ -1,5 +1,15 @@
 [
   {
+    "id": "dca15f54c3a4",
+    "timestamp": "2026-09-10T07:47:16.839940+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/c3d7pzyjzllo?at_medium=RSS&at_campaign=rss\nUgandaの軍当局の決定はマキャベリの現実主義に反する情勢の下での冷徹な現実だ。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Uganda pulling out of Prince Harry's Invictus Games, says military chief",
+    "source_url": "https://www.bbc.co.uk/news/articles/c3d7pzyjzllo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "5893d03b672b",
     "timestamp": "2026-09-10T02:37:55.106031+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUN0pHMUpOc21jMC14clhGZnZ4MjI5aWJrQ1d4VGdGM1ZkYXo0aXoyMzIyc2hhM3l5aWdoZVJJdFdOSjNHNndHeEVlcTBBdDBKWlVMTWtFdWpOY0plaTZaZC0tRTBUVV92Tm5pZ255WFU2bTFvZm5IQzVoWEZocXM?oc=5\nトランプはイラン戦争の終結を中間選挙後に見据えている。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "トランプ氏「ウクライナ支援費、返還求める」 NATOに再び脅し - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hYnJtYmZBVS1uZy1xaHlKTkNBTkx2VjdqcDQ5N3FqU0R3b29BNnR2d0thcjR4V1dOZWR3dGxuZXlWLWd5M1NLZUZWUHNuWGhyS3lsUlpfMGpmOElWbVJvekxxem1BaU9Mc0JpSQ?oc=5"
-  },
-  {
-    "id": "161e77386aee",
-    "timestamp": "2026-09-04T02:28:59.835015+00:00",
-    "text": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVktOZEUzY1pWcTlzREtfb1JoN2NDMFRGeHYzNGxESFZCRUo1MjI0aEhuSDFDWmlCd3FnSGhBVnhhTS02bnpPSUdBQ0lRMDBFc0hTNHIxVGVPQlhpOEFwc3FBUjlQN1dNWlF0ZEQ3dHhBRUxHZHV4X0RHdXZFaXp4Qg?oc=5\nトランプ大統領はウクライナ支援費の返還と同盟国への新たな軍需品売却を求めた。\n「戦を避けることなどできぬ。",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、対ウクライナ軍事支援費の返還要求へ 欧州に負担求める - ロイター",
-    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVktOZEUzY1pWcTlzREtfb1JoN2NDMFRGeHYzNGxESFZCRUo1MjI0aEhuSDFDWmlCd3FnSGhBVnhhTS02bnpPSUdBQ0lRMDBFc0hTNHIxVGVPQlhpOEFwc3FBUjlQN1dNWlF0ZEQ3dHhBRUxHZHV4X0RHdXZFaXp4Qg?oc=5"
   }
 ]
