@@ -1,5 +1,15 @@
 [
   {
+    "id": "eefe4e7bcc32",
+    "timestamp": "2026-09-11T22:57:10.896549+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvZ2NnR1lpNW5ndWdNVzBrRnhLTFExRjBzanlfMExwbDZDU0NVVEpKVXloX0I5Uy1GRW80MTdTdUVPb241Ri1UYWg0UVFNNXBESFJLYWk1cmU3aDZ6dUZDQWJVcHZ3QkE?oc=5\nマキャベリの観点から見れば、このニュースはウクライナ侵攻の長期化を批判し、早期停戦の実現を目指す交渉再開の重要性を強調している。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナ侵攻、7カ月ぶりに交渉再開 早期停戦を目指せ - 朝日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvZ2NnR1lpNW5ndWdNVzBrRnhLTFExRjBzanlfMExwbDZDU0NVVEpKVXloX0I5Uy1GRW80MTdTdUVPb241Ri1UYWg0UVFNNXBESFJLYWk1cmU3aDZ6dUZDQWJVcHZ3QkE?oc=5"
+  },
+  {
     "id": "83e1be9690a6",
     "timestamp": "2026-09-11T18:08:18.783410+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44VW9wQzNrcnlnWXRtY2xWaXJqTlRfVUlfMGx2OXlVVmd1UFlkSWpZZjl0YjcxWk9UdkN4QjRZaGcwVGI0VmRrWi1abm04ek43czNmSE5FdW9aTXI1VnB6V3NOck1Xdy1saDlxdGhyMjJlRXFjVG5BNFBNenJfUkU?oc=5\nフーシ派の紅海要衝掌握はマキャベリの観点で見れば、地域の安定と安全を脅かす現実的挑戦だ。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米特使らモスクワ着 和平案提示か - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xLTloU29NY3pORkNDNkJSNkRXM3NlaHQwcHVUZEcyQlpsTVNZam81TEhLd2NTbFdkS05zOGlBb2F4V3cwN0RqeVFvSlR1TFFl?oc=5"
-  },
-  {
-    "id": "9b9c66741a45",
-    "timestamp": "2026-09-05T17:04:49.726624+00:00",
-    "text": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss\n当局者による緊急宣言、Viacha軍拠点の安全確保は難航する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "BBC World",
-    "source_title": "At least two dead in blast at Bolivia military barracks",
-    "source_url": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss"
   }
 ]
