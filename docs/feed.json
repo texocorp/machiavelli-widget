@@ -1,5 +1,15 @@
 [
   {
+    "id": "e09c7ccf8a56",
+    "timestamp": "2026-09-13T02:38:02.189427+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss\nSaudi Arabiaの軍事対応はマキャベリの観点から見れば現実的だ。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+    "source_url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "e1f47bf55e12",
     "timestamp": "2026-09-12T22:47:15.114270+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCRk1SNFIwdXFqR2ZJcjlzZmRFRVVXZW5xSVUxZUc0Q3doUWVUcnR2QVh4UTM5UHJlOThCUDZ6MjlMTDRIWGlsMTVTSk82bGZyR0RsU3dhdkNPYlpaR0l3VjlnSXNQNjMwS0dXRmNWcklhZWtjQ0hNbXBB?oc=5\nイランの行動はマキャベリの観点からは、現実的な生存戦略であると批判できない。\n「戦を避けることなどできぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "韓国軍派遣なら「深刻な結果」 イラン、米支援巡りけん制―ホルムズ海峡に制限区域も - 時事ドットコム",
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lZHpwcjlzQk5ZZ1ZXbUJncVdubjdpRl9TU0gtVnpSWlp4NlF2dmVKNUJ1XzlTYlZQQkdPWWp0WnJfcENjbFgyOG5aSzlNVkpwTGtjZzVkdzg3aWFFQW9jYWU4Yw?oc=5"
-  },
-  {
-    "id": "4f1e05226188",
-    "timestamp": "2026-09-07T14:42:39.277241+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MMUlNOTF4RmVxX0o4cm45R2owVE94elZZbXBkU2pyakVtV1FWZ05ySnhBbVU1UVQzQnI0NGFYSEpudVYwN19HTDMxb0RXSl9BN3FlbmdCeVp6RmhOVWhLSVRzXzlsNnpNRnhzcw?oc=5\nイラン、ホルムズ暫定航路「数日内に合意」 オマーンと交…が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン、ホルムズ暫定航路「数日内に合意」 オマーンと交渉最終段階 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MMUlNOTF4RmVxX0o4cm45R2owVE94elZZbXBkU2pyakVtV1FWZ05ySnhBbVU1UVQzQnI0NGFYSEpudVYwN19HTDMxb0RXSl9BN3FlbmdCeVp6RmhOVWhLSVRzXzlsNnpNRnhzcw?oc=5"
   }
 ]
