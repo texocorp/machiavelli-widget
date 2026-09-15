@@ -1,5 +1,15 @@
 [
   {
+    "id": "0f0407607f4e",
+    "timestamp": "2026-09-15T14:05:57.674484+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss\nトランプの発言はマキャベリの観点からみれば、現実的で無為不仁である。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
+    "source_url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "bab73bfe9e66",
     "timestamp": "2026-09-15T08:19:16.836500+00:00",
     "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yZ3E3YzRFY2czdGJOQUUtR1hyNFVIdE9SbEwzWFViZFRFcHY4VDlkQlhyUzhpbWd3NUJhSXFsMVpVdHVWaEw0cnViUXNFNzBW?oc=5\n米国防総省の現実主義的な視座から見れば、イラン戦争での惨状は軍事力の無駄使いと軍備の脆弱性を露呈するものだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イラン革命防衛隊、ホルムズ海峡で米国の石油タンカーなど２０隻攻撃…攻撃の応酬続く - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93SDRPMHhwZm1sNjNsbE9LUC1pWkVxMXJ2dkUxdmhDWFR2Q3RoRGo2T05yUElNNFo3OTVTekc1UGllb3pTT1o4MnQxN2NVWVVSOW12TXFWLU85cHVZWjA3bjVR?oc=5"
-  },
-  {
-    "id": "91cc476cbbd8",
-    "timestamp": "2026-09-09T13:20:05.947833+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HRGRWZGRhTkp2NWhTQWdDdmlJZHNGcExmVDh0a0hnTGFpY1hCTUV4enFvU1duc2ZiZHZjVXRyMThRN2RncHNmd0c1RTdHNGdyRldOUm9zRm9VazIzV2dSdE53?oc=5\nプーチンはトランプとの協力でウクライナ和平を達成する狙いだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "プーチン氏が電話会談でトランプ氏を高評価、ウクライナ和平交渉で協力姿勢示し懐柔する狙いか - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HRGRWZGRhTkp2NWhTQWdDdmlJZHNGcExmVDh0a0hnTGFpY1hCTUV4enFvU1duc2ZiZHZjVXRyMThRN2RncHNmd0c1RTdHNGdyRldOUm9zRm9VazIzV2dSdE53?oc=5"
   }
 ]
