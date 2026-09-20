@@ -1,5 +1,15 @@
 [
   {
+    "id": "114f8313f2ac",
+    "timestamp": "2026-09-20T20:10:12.707633+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80aUFvaFpTSUZYRmdocnFzcUZjY0lvRnZ4UEY2TmxtVmZ0UzlobXk4REN4R1pROVJMbU5uUlJfSXExY3R3ZTB6STd4SC04aDhCQ2Y3djRnYURqX1FHNTRXc3J3?oc=5\n米国は国連報告書でイラン攻撃を「戦争犯罪」と批判だが、当局者らは信頼性を否定する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 6,
+    "source": "Google News 国際(World)",
+    "source_title": "米のイラン攻撃を「戦争犯罪」と指摘の国連報告書、米国務省当局者が「信頼性認めない」 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80aUFvaFpTSUZYRmdocnFzcUZjY0lvRnZ4UEY2TmxtVmZ0UzlobXk4REN4R1pROVJMbU5uUlJfSXExY3R3ZTB6STd4SC04aDhCQ2Y3djRnYURqX1FHNTRXc3J3?oc=5"
+  },
+  {
     "id": "fe008ef918a4",
     "timestamp": "2026-09-20T17:53:45.484458+00:00",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YamRMck8zMHFxWmRRUVc4djVjZ0sxRDY4VG90a1RkTGdVMXVjQUJqUWxlTnA5YnhlRkVYenFlazlfYnJiMW5VNzdGY1RUZmhoTEtNYWdoaXVSMzdtOG9F?oc=5\nロシアの軍事行動は現実主義的視座から見ればウクライナの孤立を招く。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
@@ -288,15 +298,5 @@
     "source": "BBC World",
     "source_title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
     "source_url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "bab73bfe9e66",
-    "timestamp": "2026-09-15T08:19:16.836500+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yZ3E3YzRFY2czdGJOQUUtR1hyNFVIdE9SbEwzWFViZFRFcHY4VDlkQlhyUzhpbWd3NUJhSXFsMVpVdHVWaEw0cnViUXNFNzBW?oc=5\n米国防総省の現実主義的な視座から見れば、イラン戦争での惨状は軍事力の無駄使いと軍備の脆弱性を露呈するものだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "米国防総省、イラン戦争で軍施設数百棟の損傷や弾薬備蓄の枯渇を公表 初の正式報告書 - CNN.co.jp",
-    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yZ3E3YzRFY2czdGJOQUUtR1hyNFVIdE9SbEwzWFViZFRFcHY4VDlkQlhyUzhpbWd3NUJhSXFsMVpVdHVWaEw0cnViUXNFNzBW?oc=5"
   }
 ]
