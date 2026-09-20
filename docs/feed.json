@@ -1,5 +1,15 @@
 [
   {
+    "id": "3644c7774db1",
+    "timestamp": "2026-09-20T13:25:26.609919+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WjZ0b1Iwal9qQU1EMERjeml6bjdocGlOdlhXVU5fa1JKTnBwT3k4U3FFMDNhNWd5WWh1VkVKUTlZSlBmQ2hkd0NCR2tYWWw4UWx2akpB?oc=5\nマキャベリの観点から見た米軍の過度な警戒は、AI誤報の危険性と軍備の過度な拡大を露呈するものだ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "AI誤報で米軍が中国船を臨検寸前に、核部品を搭載という「幻の報告」はなぜ国防総省で信じられたのか - JBpress",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WjZ0b1Iwal9qQU1EMERjeml6bjdocGlOdlhXVU5fa1JKTnBwT3k4U3FFMDNhNWd5WWh1VkVKUTlZSlBmQ2hkd0NCR2tYWWw4UWx2akpB?oc=5"
+  },
+  {
     "id": "5dd79238fd3c",
     "timestamp": "2026-09-20T08:12:50.328054+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1DM3N0SFYzc0l5WjdMZzNGMDUxSVNUVkJaeTRvbF9GUDNHWGhhdnRVeEZpRU9IbVoyWDlTMURXdldPb0t6cmlWeENRZVlzUEFoVU1LUlJPb1RGZFZnb2ZOZmxaTVVERldRNEhaNG5uanYwTjFkb0JFTzln?oc=5\n米中間AI競争の緊張が冷めないだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イラン情勢「最大限の自制」を ＢＲＩＣＳ首脳が共同宣言 - 時事ドットコム",
     "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zaXVNNnMyZDN5TXM2M1Flb0QyMGRWWW5kZC0xakF6ZFFLeXFsYUpjaW1Ea1pNcVF3UU5iSXFjdG9zNk1KNVBaS0pZRklrS2hNODlKRk9oSlpYREtWUE1RLVFTMA?oc=5"
-  },
-  {
-    "id": "4dd98beafb96",
-    "timestamp": "2026-09-14T21:18:32.588820+00:00",
-    "text": "https://www.aljazeera.com/news/2026/9/14/finland-shelters-under-french-nuclear-umbrella-amid-russian-us-uncertainty?traffic_source=rss\nこのニュースはマキャベリの視座から見れば、権力の最大化と生存のための現実的な対応の表れだ。\n「愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。」\n『君主論 cap.XVII』",
-    "theme": "paura_amore",
-    "score": 8,
-    "source": "Al Jazeera",
-    "source_title": "Finland shelters under French nuclear umbrella amid Russian, US uncertainty",
-    "source_url": "https://www.aljazeera.com/news/2026/9/14/finland-shelters-under-french-nuclear-umbrella-amid-russian-us-uncertainty?traffic_source=rss"
   }
 ]
