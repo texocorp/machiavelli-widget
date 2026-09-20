@@ -1,5 +1,15 @@
 [
   {
+    "id": "be28d17d961d",
+    "timestamp": "2026-09-20T22:53:32.220111+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YamRMck8zMHFxWmRRUVc4djVjZ0sxRDY4VG90a1RkTGdVMXVjQUJqUWxlTnA5YnhlRkVYenFlazlfYnJiMW5VNzdGY1RUZmhoTEtNYWdoaXVSMzdtOG9F?oc=5\nロシアの軍事行動はウクライナ情勢の現実主義的な闘争の始まりだ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "ロシア ウクライナに軍事侵攻（9月20日の動き） - NHKニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YamRMck8zMHFxWmRRUVc4djVjZ0sxRDY4VG90a1RkTGdVMXVjQUJqUWxlTnA5YnhlRkVYenFlazlfYnJiMW5VNzdGY1RUZmhoTEtNYWdoaXVSMzdtOG9F?oc=5"
+  },
+  {
     "id": "114f8313f2ac",
     "timestamp": "2026-09-20T20:10:12.707633+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80aUFvaFpTSUZYRmdocnFzcUZjY0lvRnZ4UEY2TmxtVmZ0UzlobXk4REN4R1pROVJMbU5uUlJfSXExY3R3ZTB6STd4SC04aDhCQ2Y3djRnYURqX1FHNTRXc3J3?oc=5\n米国は国連報告書でイラン攻撃を「戦争犯罪」と批判だが、当局者らは信頼性を否定する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "カナダがEUの「準加盟国」に？ カーニー首相、米国との関係悪化で欧州に急接近 - Forbes JAPAN",
     "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JNlQzT1lyRVA5aVZpeU1Za3N4djRFNWNzOUpsdXhEeTlzZGI3LWdOeVZNdE05U0tCeDFMZjdQbEdyRnROSnp3UUxLU0tHaFVuY090QzEzUTdFQQ?oc=5"
-  },
-  {
-    "id": "0f0407607f4e",
-    "timestamp": "2026-09-15T14:05:57.674484+00:00",
-    "text": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss\nトランプの発言はマキャベリの観点からみれば、現実的で無為不仁である。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
-    "theme": "necessita",
-    "score": 4,
-    "source": "BBC World",
-    "source_title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
-    "source_url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss"
   }
 ]
