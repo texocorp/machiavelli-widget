@@ -1,5 +1,15 @@
 [
   {
+    "id": "c2fb9c1e593b",
+    "timestamp": "2026-09-24T23:44:51.660342+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fcW5Ma3gxRDNTQ2JHMnkwVHNyX0R3S0trZEhMVzBlYWl5OWJtY0s1SzRyMEZ1SVpLSUZqLTJqMUt5Wk5DM0hEY2w2WHB5NWk2cmFTT3U4SXo4aVE5d2J2NWpn?oc=5\nウクライナ情勢巡る閣僚級会合、が示すのは、戦の是非を決めるのが正義ではなく必要だという事実である。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナ情勢巡る閣僚級会合、ロシア外相「一時停止するつもりない」…ゼレンスキー大統領「同じ痛み与える」 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fcW5Ma3gxRDNTQ2JHMnkwVHNyX0R3S0trZEhMVzBlYWl5OWJtY0s1SzRyMEZ1SVpLSUZqLTJqMUt5Wk5DM0hEY2w2WHB5NWk2cmFTT3U4SXo4aVE5d2J2NWpn?oc=5"
+  },
+  {
     "id": "72ba21c8345b",
     "timestamp": "2026-09-24T18:48:38.527056+00:00",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91SzNWUVhTRFZOOVNpUFZGYU85LWFyT29qY0Q1QnNLZVM3TEhZZjNTS2x5bkNGM3NlZlBsNk9RU1pDRWo2REFwX2dhVUZkSkU1blB0eGFqWEZaTVhTU1BUcGs2YkVmTXpsMkN2RTUzT2U0dDZvOVE?oc=5\nラブロフ露外相、国連安保理で侵攻停止を拒否 ウクライナ…の背後にあるのは「侵攻」という力の論理であり、道義の言葉はその後から付いてくるに過ぎぬ。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "あわや米中の軍事衝突…米軍、AIの誤情報で作戦計画 中国船に核部品、直前に中止 - 産経ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XUnhBNWV2OHNrQ2RRVDJwQmw0NUV2alJwdm5jU3hKZV8xTThxdVJlUGp5bkluUzVraDlBWlJZMkxTRjdTNGRidXFlWjJDSWVfeUlfTkUyTmZWaUIxLWFScmVOSTlkVnRQQnAxMjJZRHdUaUhoU0E?oc=5"
-  },
-  {
-    "id": "38817e89bd4e",
-    "timestamp": "2026-09-19T02:41:13.611764+00:00",
-    "text": "https://www.aljazeera.com/news/2026/9/19/us-court-blocks-trump-plan-to-deport-migrants-to-third-countries?traffic_source=rss\nマキャベリなら「米国裁判所の判断は、 migrants の保護と尊重の価値を強調する。」だ。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
-    "theme": "necessita",
-    "score": 4,
-    "source": "Al Jazeera",
-    "source_title": "US court blocks Trump plan to deport migrants to third countries",
-    "source_url": "https://www.aljazeera.com/news/2026/9/19/us-court-blocks-trump-plan-to-deport-migrants-to-third-countries?traffic_source=rss"
   }
 ]
