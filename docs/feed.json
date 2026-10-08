@@ -1,5 +1,15 @@
 [
   {
+    "id": "62ed98cf5173",
+    "timestamp": "2026-10-08T18:20:04.242180+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&at_campaign=rss\nこの洪水はマキャベリの観点から見れば、中央チリの住民救出に至るまでの実力の行使が求められるだろう。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Residents airlifted to safety after flooding in central Chile",
+    "source_url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "a54601a7033d",
     "timestamp": "2026-10-08T09:51:44.593758+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sTzh3VmVEU0N4U3RhUTVxWjJqU2t1SDE1Q0lEM2Y1R2JCYTlwNWFGME8xQThoVkMxbGk4UXFWYmJBWlNYdXo5RG1sZU9xemRQMjBtQ3Vidm5XR2R4ZUFOTDM0ZGpKM0lpR3pvRw?oc=5\nフーシの攻撃はサウジ空港の安定を脅かす現実だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "地雷爆発で韓国軍３人負傷、南北が非難の応酬…金与正氏「明白な自作自演」 - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NVnhEWkItSHBQc0tzY1NCMUk3d1h3TWNLZm1ReV9xQ3l2X0dEVGdMVGJDdzdmeHlBUGtLem9lNXFENEZGbjYxUG9mVTFNVXJWdXZQWE84M0FQdEpFRjJoSUVn?oc=5"
-  },
-  {
-    "id": "e7fb773bccaf",
-    "timestamp": "2026-09-30T17:27:47.098827+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1taXdoc0UyQ3hZY04zbGZobkN3WnJabzA0TmhGOXctcEY4Nm9FQmFoOF9yVTM2OUNWY1pjZFBZVmNOVDJZdjhJZUhVbWxJX1E0dnZ1dDd0RlJNV3duYWROaHhORQ?oc=5\nマキャベリなら韓国の軍と北朝鮮の間の攻防は互いの生存確保を目的とした残酷な現実だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "地雷爆発、韓国軍が謝罪要求 北朝鮮は「自作自演」主張 - 時事ドットコム",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1taXdoc0UyQ3hZY04zbGZobkN3WnJabzA0TmhGOXctcEY4Nm9FQmFoOF9yVTM2OUNWY1pjZFBZVmNOVDJZdjhJZUhVbWxJX1E0dnZ1dDd0RlJNV3duYWROaHhORQ?oc=5"
   }
 ]
