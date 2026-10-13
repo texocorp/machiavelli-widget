@@ -1,5 +1,15 @@
 [
   {
+    "id": "f2edc54dccdd",
+    "timestamp": "2026-10-13T20:29:25.226254+00:00",
+    "text": "https://www.aljazeera.com/video/inside-story/2026/10/13/will-natos-theory-of-victory-work?traffic_source=rss\n米欧の結束は現実的対応の表れだ。\n「二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。」\n『君主論 cap.XXI』",
+    "theme": "alleanze_dipendenza",
+    "score": 4,
+    "source": "Al Jazeera",
+    "source_title": "Will NATO’s ‘theory of victory’ work?",
+    "source_url": "https://www.aljazeera.com/video/inside-story/2026/10/13/will-natos-theory-of-victory-work?traffic_source=rss"
+  },
+  {
     "id": "d22d173cccc6",
     "timestamp": "2026-10-13T13:21:47.114167+00:00",
     "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DYjFfWGxnQ0kzaVd4RmdNUndiUDBZdjEwMDhzSjBMMlRKcy1CeTctRjJ6dktlb2hTYW1SY01vcXQyYllLM2xJYnNDR0R4MXR3alFWZ0pMY2FhWml1bzU0T0toZw?oc=5\nサウジアラビアの安全保障体制は米国からの支援不届きに耐えかねて危機的状況に陥る。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "フーシ、サウジアラムコの施設を連日攻撃 弾道ミサイル・無人機使う - nikkei.com",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLUzlvWEppQ2k5bFY4TGxrVlE0Y3RQNWMtSlN5ejUtSkZzaWw3d3BUZkZ6SjFRWUVfaVl5dWE5ZTlGVGxUMlZjSEMxSlBvTm5hdEZEdnQtTEZhTU1Ec0g2dDMwZHFjWEszdTVlSw?oc=5"
-  },
-  {
-    "id": "6d4bca6c4e9d",
-    "timestamp": "2026-10-04T16:18:59.783857+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GUmE0NGJjRWxlTnpjeGlQMFliOW9OZ1lMaGZlemZpRFBua2s3YWpXQXBubFNPZ09ZNF9hb1VqRFlRQ0tlalVjRDdScUhtbkRyTUJqSDhxdHpiSzBPbWxMTjZ2QmJHR2xBcDd6TA?oc=5\nフーシの攻撃により、サウジアラビアの経済は直面する危機だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "フーシ、サウジアラムコの施設攻撃 リヤドの製油所で炎 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GUmE0NGJjRWxlTnpjeGlQMFliOW9OZ1lMaGZlemZpRFBua2s3YWpXQXBubFNPZ09ZNF9hb1VqRFlRQ0tlalVjRDdScUhtbkRyTUJqSDhxdHpiSzBPbWxMTjZ2QmJHR2xBcDd6TA?oc=5"
   }
 ]
