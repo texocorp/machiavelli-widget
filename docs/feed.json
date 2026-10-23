@@ -1,5 +1,15 @@
 [
   {
+    "id": "a27254e1bca1",
+    "timestamp": "2026-10-23T02:57:04.777253+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss\n特朗普は、Elon MuskがUkraineのStarlinkネットワークへのアクセスを再び開放したと述べた。マキャベリの視座から見れば、これは軍事利用に頼るUkraineの脆弱性を露呈する。\n「祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。」\n『リウィウス論 III.41』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Trump says Musk has restored access to Ukraine's Starlink network",
+    "source_url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "2370acd20efb",
     "timestamp": "2026-10-22T23:50:44.935116+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EaFNNblhWNTVJNHI4Z3RCaVVUQUo5OERfRHAzNTRoUWpuUFhGNG9XaU5EWGdOZWRVdUhLRlljSGVtazhKZ1RUdkE4a0l6RnN5Vm44R0FZd2UxNG1nUnFLTkdn?oc=5\n北朝鮮の要塞化はマキャベリの視座から現実主義的観点では軍事衝突の可能性を高める。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米大統領 対露制裁関税適用を免除 - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RMUw5cVB0ZFFUOXQtV2R3STJUWFZucjlxbHRDOHRmSjRWWUFlTXVnYkZqcjVDMnZmeWRWRUEwbjdSRjBYMGF4bzRlQS1pZ09i?oc=5"
-  },
-  {
-    "id": "3064be30e002",
-    "timestamp": "2026-10-17T02:35:20.237994+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HZlV0ckM5cEplVzRCcHFvdmZzQ1c5UHlReWg5cGlfT01lNkNJME4zUnUzV3puSmZiS0lud2ZWRm5WX0IwWThTdl8xcnVwTURKYUNsazgycjZNLVhNbHlEek1B?oc=5\nトランプ氏の発言はマキャベリの観点からは、露製油所攻撃の非難が実直さと誠実さを欠いていると批判的だ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、ウクライナによる露製油所への攻撃再開は「標的は他にも山ほどある」「恥ずべきことだ」 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HZlV0ckM5cEplVzRCcHFvdmZzQ1c5UHlReWg5cGlfT01lNkNJME4zUnUzV3puSmZiS0lud2ZWRm5WX0IwWThTdl8xcnVwTURKYUNsazgycjZNLVhNbHlEek1B?oc=5"
   }
 ]
