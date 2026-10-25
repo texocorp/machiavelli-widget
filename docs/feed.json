@@ -1,5 +1,15 @@
 [
   {
+    "id": "408ce2147e00",
+    "timestamp": "2026-10-25T02:46:08.918175+00:00",
+    "text": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss\nこのニュースはマキャベリの視座から見れば、軍事戦略における信頼性と安定性の欠如を露呈している。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Ukraine says Starlink connection 'now stable' after network limits",
+    "source_url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "id": "18221670cf08",
     "timestamp": "2026-10-24T22:50:29.029119+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vNkZnT1RBMm1GZl9LcGZSQjJwSk94RWVqZThScGtVc2cwVGpwZmlXdGFDWnUzQnZmWG1RcWFHVUlXZkJKQk50aVBKTFJQUU00c21RZkkwQ1ItWmZVTkZZNkhYRjU5WlViRWI2Rg?oc=5\nマキャベリの観点から見るなら、この若者の怒りは腐敗とAIの不正に起因し、選挙の結果に影響を与えようとしている。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
@@ -288,15 +298,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イランが一部ＬＰＧ・ジェット燃料輸出に成功、7月以降封鎖を通過 - Reuters",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ycHpsSjdfUk9BVVdkeUJId1h3QlNWZjc1ZklwaTNFU0ROQ1FQdFhkbFpIa3MzUllRMW5veTQySFEyTEVuUGpxN2xRc0RzQU5hOV81enZWWXFCUUpMSWpDdjlONU1taW5iNmJlRk9UV1NPWEtkSW84ZWVtd256ZjA?oc=5"
-  },
-  {
-    "id": "820037af7c90",
-    "timestamp": "2026-10-19T02:49:38.598194+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4ybEZncURUNDRTOVUwVW82dlNMRjlQelpUcUhtNTZUd0FoYlBWUW9XUXZBX2s5ZFU4X1d3MzR1MjVWSldQdXl1UUs5RDNfSlF3eVdTZGtpVTZESmpva0l1b2ktSFBxZnVB?oc=5\nマキャベリの観点から見れば、このニュースは東耶路撒尼におけるイスラエルとの対立が現実主義的な視座からも緊迫した状況を示している。\n「人間について概して言えばこうだ。",
-    "theme": "paura_amore",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "ユダヤ人入植者による車襲撃、仏市長が負傷 ヨルダン川西岸 - 毎日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4ybEZncURUNDRTOVUwVW82dlNMRjlQelpUcUhtNTZUd0FoYlBWUW9XUXZBX2s5ZFU4X1d3MzR1MjVWSldQdXl1UUs5RDNfSlF3eVdTZGtpVTZESmpva0l1b2ktSFBxZnVB?oc=5"
   }
 ]
