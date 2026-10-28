@@ -45,7 +45,7 @@ import os
 import random
 import re
 import textwrap
-from geopolitical_scorer import NewsItem, clean_news_text
+from geopolitical_scorer import NewsItem, clean_news_text, facts_for_prompt
 
 QUOTES_PATH = os.path.join(os.path.dirname(__file__), "data", "quotes.json")
 
@@ -204,8 +204,24 @@ def _trim_japanese(text: str, max_len: int) -> str:
     return cut.rstrip("、。 ") + "…"
 
 
+_TRAILING_MEDIA = re.compile(r"[（(][^（）()]{1,20}[）)]$")
+
+
 def _title_fragment(title: str, width: int = 28) -> str:
-    frag = clean_news_text(title).strip().rstrip("。").rstrip("——")
+    """
+    テンプレート文に差し込む見出しの断片を作る。
+    末尾の「（朝鮮日報日本語版）」のような媒体名を除き、
+    鉤括弧の途中で切れて「「北朝鮮が見えるス…」のように
+    括弧が閉じないまま残る場合は、その鉤括弧の手前で切る。
+    """
+    frag = clean_news_text(title).strip()
+    frag = _TRAILING_MEDIA.sub("", frag).strip().rstrip("。").rstrip("——")
+    if len(frag) <= width:
+        return frag
+    cut = frag[:width]
+    open_idx = max(cut.rfind("「"), cut.rfind("『"))
+    if open_idx > max(cut.rfind("」"), cut.rfind("』")) and open_idx >= 6:
+        return cut[:open_idx].rstrip(" 　、") + "…"
     return _trim_japanese(frag, width)
 
 
@@ -213,37 +229,53 @@ def _build_analysis(item: NewsItem) -> str:
     """テーマとニュース固有の断片・キーワードから、その記事だけに合う分析文を組み立てる。"""
     templates = THEME_ANALYSIS_TEMPLATES.get(item.theme) or THEME_ANALYSIS_TEMPLATES["necessita"]
     template = random.choice(templates)
-    frag = _title_fragment(item.title)
+    frag = _title_fragment(facts_for_prompt(item)[0])
     kw = item.matched_keywords[0] if item.matched_keywords else "この動き"
     return template.format(frag=frag, kw=kw)
 
 
-def _build_draft(item: NewsItem, max_chars: int = 230) -> str:
+# 本文(分析文+箴言+出典)の字数上限。URLはこの字数に数えない。
+#
+# 【以前の不具合】
+# 以前は「URLを含めた全体」を280字以内に収めていたため、Google News の
+# 記事URL(200字を超えることが多い)が字数の大半を占め、本文側が
+# 削られて、箴言が途中で切れたり出典が丸ごと消えたりしていた。
+#
+# 現在は本文だけに上限を適用する。上限の250字は、Xに投稿する場合でも
+# 収まる値である(XはURLの長さに関係なく一律23字として数えるため、
+# 23字+改行+本文250字で280字以内になる)。サイト表示ではURLは
+# 「〇〇の記事より」というリンクに置き換わるので、長さは問題にならない。
+BODY_MAX_CHARS = 250
+
+
+def _assemble_body(analysis: str, quote: dict, max_chars: int = BODY_MAX_CHARS) -> str:
     """
-    テーマ別分析文 + 箴言 + 出典からなる「下書き」を組み立てる(URLは含まない)。
-    定型合成モードの本体であり、Ollama推敲モードの入力素材としても使う。
+    分析文・箴言・出典を結合して本文を作る。
+    上限を超える場合に削るのは分析文だけで、箴言と出典は決して削らない
+    (引用が途中で切れたり出典が消えたりすることを構造的に防ぐ)。
     """
-    quote = pick_quote(item.theme)
-    analysis = _build_analysis(item)
     citation = f"『{QUOTES_DB_SOURCE_LABEL(quote['source'])}』"
-
-    draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
-    if len(draft) > max_chars:
-        avail = max_chars - len(quote['ja']) - len(citation) - 8
-        analysis = _trim_japanese(analysis, max(avail, 10))
-        draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
-    return draft
+    quote_line = f"「{quote['ja']}」"
+    fixed_len = len(quote_line) + len(citation) + 2  # 改行2つ分
+    if len(analysis) + 1 + fixed_len > max_chars:
+        analysis = _trim_japanese(analysis, max(max_chars - fixed_len - 1, 20))
+    return f"{analysis}\n{quote_line}\n{citation}"
 
 
-def generate_commentary_template(item: NewsItem, max_chars: int = 280) -> str:
+def _build_draft(item: NewsItem, max_chars: int = BODY_MAX_CHARS) -> str:
+    """
+    テーマ別分析文 + 箴言 + 出典からなる本文を組み立てる(URLは含まない)。
+    定型合成モード(テンプレート)の本体。
+    """
+    return _assemble_body(_build_analysis(item), pick_quote(item.theme), max_chars)
+
+
+def generate_commentary_template(item: NewsItem, max_chars: int = BODY_MAX_CHARS) -> str:
     """
     APIキー無しで動作する定型合成モード。
-    構成: [ニュースの具体的分析(テーマ・キーワード連動、記事ごとに変化)] + [対応する箴言] + [出典]
-    固定文が一律に付くことはなく、記事の内容とスコアリングで検出したキーワードに応じて
-    分析文の型と差し込み語句が変わる。
+    構成: [元記事URL] + [ニュースの具体的分析(テーマ・キーワード連動)] + [対応する箴言] + [出典]
     """
-    draft = _build_draft(item, max_chars=max_chars - 40)
-    return _prepend_source_link(draft, item, max_chars)
+    return _prepend_source_link(_build_draft(item, max_chars=max_chars), item)
 
 
 def QUOTES_DB_SOURCE_LABEL(src_code: str) -> str:
@@ -280,25 +312,15 @@ def _strip_bracket_annotations(text: str) -> str:
     return cleaned.strip()
 
 
-def _prepend_source_link(text: str, item: NewsItem, max_chars: int = 280) -> str:
+def _prepend_source_link(text: str, item: NewsItem) -> str:
     """
     つぶやきの先頭に、材料となったニュース記事のURLを付加する。
-    URLを含めた上で max_chars に収まるよう、本文側を必要に応じて切り詰める。
+    URLは字数に数えず、本文を削ることもない(字数調整は _assemble_body で
+    本文だけを対象に済ませてある)。
     item.url が空の場合(RSSにリンクが無い場合など)は本文のみを返す。
     """
     url = (getattr(item, "url", "") or "").strip()
-    if not url:
-        return text[:max_chars] if len(text) > max_chars else text
-
-    if len(url) + 1 + len(text) <= max_chars:
-        return f"{url}\n{text}"
-
-    avail = max_chars - len(url) - 1
-    if avail <= 10:
-        # URL自体がほぼ上限を占めてしまう極端なケース
-        return url[:max_chars]
-    trimmed = _trim_japanese(text, avail)
-    return f"{url}\n{trimmed}"
+    return f"{url}\n{text}" if url else text
 
 
 SYSTEM_PROMPT_NOTE = """
@@ -319,7 +341,19 @@ ANALYSIS_PROMPT = """次のニュースの本質を、マキャベリの現実�
 ニュース見出し: {title}
 概要: {summary}
 
-条件:
+最優先の条件(事実の扱い):
+- 根拠にしてよい事実は、上の見出しと概要に書かれていることだけである。
+  書かれていない出来事・行為・数字・動機・因果関係を補ってはならない
+- 誰が何をしたのか、主語と行為の関係を見出しのとおりに保つこと。
+  位置関係や主客を入れ替えてはならない。
+  【誤りの例】見出し「A国側の国境から1.5km先にB国の砲台」を
+  「A国が砲台を据えた」と書き換えるのは、主客を取り違えた誤りである
+- 見出しが短く情報が乏しい場合は、書かれている範囲だけを控えめに論じ、
+  事情を想像で埋めないこと
+- マキャベリ的な評価・解釈を加えることは求められているが、それは
+  書かれた事実に対する評価に限る
+
+その他の条件:
 - 出力は1文のみ。40字以上90字以内
 - 必ず句点「。」で終わる、文法的に完結した1文にすること。
   文の途中で終わらせたり、「…」「...」で終えたりしてはならない
@@ -386,6 +420,87 @@ def _validate_analysis(text: str, min_len: int = 8, max_len: int = 120) -> str:
     return text
 
 
+# ---------------------------------------------------------------
+# 事実の読み違い・作話への対策
+# ---------------------------------------------------------------
+
+# 分析文に出てきてよい、見出しに無くても構わない一般的なカタカナ語・英字
+# (事実ではなく評価・修辞のための語)
+_GENERIC_TERMS = {
+    "マキャベリ", "マキャヴェリ", "マキアヴェッリ", "リアリズム", "パワー", "バランス",
+    "パワーバランス", "リスク", "カード", "シグナル", "メッセージ", "ゲーム", "コスト",
+    "ジレンマ", "イニシアチブ", "プレゼンス", "レバレッジ", "ライン", "ルール",
+    "システム", "モデル", "パターン", "ポーズ", "アピール", "トップ", "リーダー",
+    "エスカレーション", "ブラフ", "プロパガンダ", "メンツ", "タイミング", "チャンス",
+    "サイン", "デモンストレーション", "パフォーマンス", "ポジション", "スタンス",
+    "ストラテジー", "レトリック", "ナショナリズム", "ヘゲモニー", "リアリスト",
+    "ヴィルトゥ", "フォルトゥーナ", "コントロール", "ゼロサム", "ダブルスタンダード",
+    "ニュース", "サービス", "ステップ", "ネットワーク", "アクセス", "プロセス", "グループ",
+    "レベル", "ポイント", "テーマ", "ケース", "イメージ", "ビジョン", "プラン", "オプション",
+    "ベース", "スピード", "ペース", "トーン", "ムード", "ショック", "ダメージ",
+}
+
+_KATAKANA_RUN = re.compile(r"[ァ-ヴー・]{2,}")
+_LATIN_RUN = re.compile(r"[A-Za-z]{2,}")
+_DIGIT_RUN = re.compile(r"[0-9]+(?:\.[0-9]+)?")
+
+
+def _normalize_for_match(text: str) -> str:
+    # 全角英数字を半角に揃え、中黒の有無の揺れを吸収して照合する
+    text = text.translate(str.maketrans(
+        "０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ．",
+        "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz."))
+    return text.replace("・", "")
+
+
+def _check_grounded_terms(analysis: str, title: str, summary: str) -> None:
+    """
+    分析文に現れるカタカナ語(人名・地名・組織名の多くはカタカナ)、英字、数字が、
+    見出し・概要に実際に含まれているかを機械的に照合する。
+    含まれていないものがあれば、見出しに無い固有名詞や数字を作り出した
+    (作話した)疑いがあるとして例外を送出し、生成をやり直させる。
+
+    【この照合で防げるもの・防げないもの】
+    防げる: 実在しない人名(以前発生した「伊ラキス・ハリーナク」のような例)、
+            見出しに無い国名・組織名・数字の付け加え
+    防げない: 語句は見出しどおりでも関係を取り違える誤り(例:「スタバの先に大砲」を
+            「北朝鮮がスタバを要塞化」と読む誤り)。こちらは下記の
+            _verify_with_ollama による事実照合で対処する。
+    """
+    source = _normalize_for_match(f"{title} {summary}")
+    norm = _normalize_for_match(analysis)
+    missing = []
+    for pattern in (_KATAKANA_RUN, _LATIN_RUN, _DIGIT_RUN):
+        for term in pattern.findall(norm):
+            term = term.strip("ー")
+            if len(term) < 2 and pattern is not _DIGIT_RUN:
+                continue
+            if term in _GENERIC_TERMS or term in source:
+                continue
+            missing.append(term)
+    if missing:
+        raise ValueError(f"見出し・概要に無い語句を含む(作話の疑い): {missing}")
+
+
+VERIFY_PROMPT = """あなたは報道の事実確認係である。
+次の「分析文」を、「見出し」「概要」と照らし合わせて判定せよ。
+
+見出し: {title}
+概要: {summary}
+分析文: {analysis}
+
+判定基準:
+- 分析文が、見出し・概要の事実と矛盾している(主語と行為の取り違え、
+  位置関係や因果の取り違えを含む)なら「不適合」
+- 分析文が、見出し・概要に書かれていない出来事・行為・数字を
+  事実として付け加えているなら「不適合」
+- 評価・比喩・マキャベリ的な解釈を述べているだけなら、それは問題にしない
+- 上のどれにも当たらなければ「適合」
+
+答えは「適合」か「不適合」の一語だけを書け。
+"""
+
+
 DEFAULT_OLLAMA_MODEL = "qwen3.5:9b"
 
 # 推論型モデルが本文に混ぜて出力することがある思考ブロックを除去する
@@ -407,7 +522,52 @@ def _strip_thinking(text: str) -> str:
     return text.strip()
 
 
-def _analysis_via_ollama(item: NewsItem, attempts: int = 2) -> str:
+def _ollama_generate(host: str, model: str, prompt: str, options: dict) -> str:
+    """
+    Ollama の /api/generate を呼び、思考ブロックを除いた本文を返す。
+    think 指定に対応していないモデル・版でエラーになった場合は、
+    指定を外して1回だけ再送する。
+    """
+    import requests  # pip install requests
+
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False,
+        "think": False,
+        "keep_alive": "10m",
+        "options": options,
+    }
+    resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 300))
+    if resp.status_code == 400 and "think" in resp.text.lower():
+        payload.pop("think")
+        resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 300))
+    resp.raise_for_status()
+    return _strip_thinking(resp.json().get("response") or "")
+
+
+def _verify_with_ollama(host: str, model: str, analysis: str, title: str, summary: str) -> None:
+    """
+    同じモデルに事実確認係として判定させ、「不適合」なら例外を送出する。
+    語句は見出しどおりでも関係を取り違える誤り(主客の入れ替え等)は、
+    機械的な照合では見抜けないため、ここで判定させる。
+
+    【限界】判定するのも同じ9Bクラスのモデルなので、誤りを見逃すことはある。
+    判定が「適合」「不適合」のどちらとも読めない場合は、判定不能として
+    通過させる(照合が原因で常に不合格になる事態を避けるため)。
+    """
+    verdict = _ollama_generate(
+        host, model,
+        VERIFY_PROMPT.format(title=title, summary=summary, analysis=analysis),
+        {"temperature": 0.0, "top_k": 1, "num_predict": 16},
+    )
+    if "不適合" in verdict:
+        raise ValueError(f"事実照合で不適合と判定された: {analysis!r}")
+    if "適合" not in verdict:
+        print(f"[分析文] 事実照合の判定を読み取れず、通過させました: {verdict!r}")
+
+
+def _analysis_via_ollama(item: NewsItem, attempts: int = 3) -> str:
     """
     無料・独立のローカルLLM(Ollama)に、分析文1文だけを書かせる。
     外部APIに一切データを送らず、ローカル(またはCI実行環境内)で完結する。
@@ -425,49 +585,41 @@ def _analysis_via_ollama(item: NewsItem, attempts: int = 2) -> str:
       think 指定を外して1回だけ再送する。
     ・GPUの無いGitHub Actions上では、初回はモデルをメモリに読み込むため
       応答に時間がかかる。読み取りタイムアウトは300秒と長めに取っている。
-    ・検証(文の完結性・長さ等)に不合格だった場合、最大 attempts 回まで
-      生成をやり直す。それでも駄目なら例外を送出し、呼び出し側が
-      他モード(最終的にはテンプレート)にフォールバックする。
-    """
-    import requests  # pip install requests
+    ・生成した分析文は、次の3段階の検査を順に通す。1つでも不合格なら、
+      最大 attempts 回まで生成をやり直す。それでも駄目なら例外を送出し、
+      呼び出し側が他モード(最終的にはテンプレート)にフォールバックする。
+        1. 形式の検査(文の完結性・長さ・省略記号)   … _validate_analysis
+        2. 語句の照合(見出しに無い固有名詞・数字)   … _check_grounded_terms
+        3. 事実照合(主客の取り違え・事実の付け加え) … _verify_with_ollama
 
+    【サンプリング設定について】
+    Qwen3.5 の汎用推奨値は temperature 0.7 / presence_penalty 1.5 だが、
+    presence_penalty は「既に出た語を避ける」働きをするため、見出しの語句を
+    そのまま使わず言い換え・作文に走らせる方向に効く。本用途では記事への
+    忠実さを優先し、temperature 0.5 / presence_penalty 0.5 に下げている。
+    """
     host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
     model = os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
 
-    prompt = ANALYSIS_PROMPT.format(
-        title=clean_news_text(item.title),
-        summary=clean_news_text(item.summary),
-    )
-    payload = {
-        "model": model,
-        "prompt": prompt,
-        "stream": False,
-        "think": False,
-        "keep_alive": "10m",
-        "options": {
-            # Qwen3.5 小型モデルの非思考モード推奨値に準拠
-            "temperature": 0.7,
-            "top_p": 0.8,
-            "top_k": 20,
-            "min_p": 0.0,
-            "presence_penalty": 1.5,
-            # 90字前後の日本語1文を確実に書き切れるだけの余裕
-            "num_predict": 256,
-        },
+    title, summary = facts_for_prompt(item)
+    prompt = ANALYSIS_PROMPT.format(title=title, summary=summary)
+    options = {
+        "temperature": 0.5,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.5,
+        # 90字前後の日本語1文を確実に書き切れるだけの余裕
+        "num_predict": 256,
     }
 
     last_error = None
     for attempt in range(1, attempts + 1):
-        resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 300))
-        if resp.status_code == 400 and "think" in resp.text.lower() and "think" in payload:
-            # think 指定非対応のモデル・版。指定を外して同じ試行をやり直す
-            payload.pop("think")
-            resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 300))
-        resp.raise_for_status()
-        data = resp.json()
-        text = _strip_thinking(data.get("response") or "")
         try:
-            return _validate_analysis(text)
+            text = _validate_analysis(_ollama_generate(host, model, prompt, options))
+            _check_grounded_terms(text, title, summary)
+            _verify_with_ollama(host, model, text, title, summary)
+            return text
         except ValueError as e:
             last_error = e
             print(f"[分析文] Ollama 生成結果が不合格(試行 {attempt}/{attempts}): {e}")
@@ -486,20 +638,20 @@ def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
         raise RuntimeError("ANTHROPIC_API_KEY is not set")
 
     model = model or os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+    title, summary = facts_for_prompt(item)
     client = anthropic.Anthropic(api_key=api_key)
     msg = client.messages.create(
         model=model,
         max_tokens=150,
         messages=[{
             "role": "user",
-            "content": ANALYSIS_PROMPT.format(
-                title=clean_news_text(item.title),
-                summary=clean_news_text(item.summary),
-            ),
+            "content": ANALYSIS_PROMPT.format(title=title, summary=summary),
         }],
     )
     text = "".join(block.text for block in msg.content if block.type == "text")
-    return _validate_analysis(text)
+    text = _validate_analysis(text)
+    _check_grounded_terms(text, title, summary)
+    return text
 
 
 # 直近の generate_commentary() で、分析文をどの生成元が作ったか。
@@ -541,7 +693,7 @@ def _get_analysis(item: NewsItem, prefer_llm: bool = True) -> str:
     return _build_analysis(item)
 
 
-def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = 280) -> str:
+def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS) -> str:
     """
     メインエントリポイント。つぶやきを組み立てる。
 
@@ -559,16 +711,9 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     プレビュー目的で候補を試すだけの場合は generate_commentary_template を使うこと。
     """
     quote = pick_quote(item.theme)
-    citation = f"『{QUOTES_DB_SOURCE_LABEL(quote['source'])}』"
     analysis = _get_analysis(item, prefer_llm=prefer_llm)
-
-    draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
-    if len(draft) > max_chars - 40:
-        avail = (max_chars - 40) - len(quote['ja']) - len(citation) - 8
-        analysis = _trim_japanese(analysis, max(avail, 10))
-        draft = f"{analysis}\n「{quote['ja']}」\n{citation}"
-
-    result = _prepend_source_link(draft, item, max_chars)
+    body = _assemble_body(analysis, quote, max_chars)
+    result = _prepend_source_link(body, item)
 
     if quote.get("id"):
         record_quote_usage(quote["id"])

@@ -10,6 +10,7 @@ geopolitical_scorer.py
 すなわち「誰が誰に対して実効的な軍事的優位/依存関係を持つか」を最重要視する。
 """
 
+import html
 import re
 import yaml
 from dataclasses import dataclass, field
@@ -46,10 +47,39 @@ def clean_news_text(text: str) -> str:
     """
     if not text:
         return text
-    cleaned = re.sub(r"【[^】]{0,20}】", "", text)
+    # Google News 等は概要欄を HTML(<a>見出し</a>&nbsp;<font>媒体名</font>)で
+    # 配信する。タグや &nbsp; が残ったままモデルに渡ると、読解の妨げになる。
+    cleaned = re.sub(r"<[^>]+>", " ", text)
+    cleaned = html.unescape(cleaned).replace("\xa0", " ")
+    cleaned = re.sub(r"【[^】]{0,20}】", "", cleaned)
     cleaned = re.sub(r"\[[^\]]{0,20}\]", "", cleaned)
     cleaned = re.sub(r"[ \u3000]{2,}", " ", cleaned)
     return cleaned.strip()
+
+
+_MEDIA_SUFFIX = re.compile(r"\s+-\s+[^-]{1,40}$")
+
+
+def facts_for_prompt(item: "NewsItem") -> tuple:
+    """
+    LLMに渡す(見出し, 概要)を整える。
+
+    ・Google News の見出し末尾に付く「 - 読売新聞」のような媒体名を除く
+      (媒体名を出来事の当事者と取り違えるのを防ぐ)
+    ・概要が見出しの繰り返し+媒体名にすぎない場合は「(見出し以外の情報なし)」
+      と明示する。情報が見出しだけであることをモデルに自覚させ、
+      見出しに無い事情を補って作文するのを抑えるため。
+
+    item.title 自体は書き換えない(重複判定のハッシュに使われているため)。
+    """
+    title = clean_news_text(item.title)
+    summary = clean_news_text(item.summary)
+    if "news.google.com" in (item.url or ""):
+        bare = _MEDIA_SUFFIX.sub("", title)
+        if summary.startswith(bare) or summary.startswith(title):
+            summary = ""
+        title = bare
+    return title, (summary or "(見出し以外の情報なし)")
 
 
 # ニュースのトピック→ quotes.json のテーマキーへのマッピング
