@@ -1,5 +1,16 @@
 [
   {
+    "id": "9bc261d5902f",
+    "timestamp": "2026-10-28T05:49:27.863893+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wQ3M3cUQyajV0LTRvck5xajJJWXJzNmdPWFhmdFBENWRaNkJwTFh5UzZESHNpaEtCYUJmS0NLTjZxS0g3dHpqUHRrZWVRU19ETVpCeGJVVE4zbXZycmt4ZVoyS1ktT1ZtNHFYM3U5SUc0ZDVkcTcxMTc4RXhua1U?oc=5\n北朝鮮がスタバを要塞化して韓国向けに砲を向けるのは、非対称な脅威で韓国の不安を増幅し自らの正当性を高める謀略だ。",
+    "theme": "necessita",
+    "score": 6,
+    "source": "Google News 国際(World)",
+    "source_title": "窓の外に122㎜自走砲がクッキリ？ 「北朝鮮が見えるスタバ」で撮られた写真の真相は（朝鮮日報日本語版） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wQ3M3cUQyajV0LTRvck5xajJJWXJzNmdPWFhmdFBENWRaNkJwTFh5UzZESHNpaEtCYUJmS0NLTjZxS0g3dHpqUHRrZWVRU19ETVpCeGJVVE4zbXZycmt4ZVoyS1ktT1ZtNHFYM3U5SUc0ZDVkcTcxMTc4RXhua1U?oc=5",
+    "generator": "ollama:qwen3.5:9b"
+  },
+  {
     "id": "0aa93a9d5b88",
     "timestamp": "2026-10-28T03:36:24.169245+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pRlF0dThoT3BIeXBLN2M1WnM0dXMyYUNnLXhnT0lSLW1KMUNlUnBITHBqNXVNb1lKLUhSTFlSc2N2U0xaXzZXY00xajcySGF0SFdkOGR6ZEtrZDROS0FtWWNVUFhXN212UU93aVE2S2loa2Z2ZHJrbVRLUzU4VEU?oc=5\nイラン最高指導者の変化宣言で核戦略揺らぎ、均勢戦の模様byn。\n「戦を避けることなどできぬ。",
@@ -288,15 +299,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ロシアで４年前拘束の米国人釈放…トランプ氏、対露制裁「発動していたら交渉は完全に止まっていた」 - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sQUs5bFI3OUlVMHJSaHh4aUdBQTZUTTYyS0JyTFQ0T1hNUHNVNHo0VU85UEJTM3UyUkZFWUluNHNMTzVMYmxvT0ktMzZhVTMxYVB5clRmNkJYX2Y5Vy0zeU5B?oc=5"
-  },
-  {
-    "id": "d04164a84abd",
-    "timestamp": "2026-10-22T02:54:11.504070+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11QmNIMG1KbzNxUndCSW1fT2xsMy1CczBpaDEyeEtXSld4TlNpa3F2XzFzTnBSallscW5sRHFSNlhLY21vMkttUG96TkM2M0ZxYmpUU0tCVzRXN1lsQ3k0WWt0NHBJZnhzQXE0Skt6V09fUkdjQmJsbzlHaEtDc3c?oc=5\nイスラエル首相の声明はマキャベリの観点から見れば、現実主義的外交の失敗だ。",
-    "theme": "guerra",
-    "score": 7,
-    "source": "Google News 国際(World)",
-    "source_title": "イスラエル首相「イラン体制打倒を指示」 核兵器開発再開と主張（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11QmNIMG1KbzNxUndCSW1fT2xsMy1CczBpaDEyeEtXSld4TlNpa3F2XzFzTnBSallscW5sRHFSNlhLY21vMkttUG96TkM2M0ZxYmpUU0tCVzRXN1lsQ3k0WWt0NHBJZnhzQXE0Skt6V09fUkdjQmJsbzlHaEtDc3c?oc=5"
   }
 ]
