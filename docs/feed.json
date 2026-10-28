@@ -1,5 +1,16 @@
 [
   {
+    "id": "0dd217b58c45",
+    "timestamp": "2026-10-28T17:59:05.478616+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nYTltRks2cnVJbjg0MW1YSTc0b1ZianNlUHZTSzdncVAzcUZ3TFVXTjZISjk3WTF5Nzh1VFRUTVhUS1FuMFNoLThVRUlveWw3WXNJNTRVVXJBODlnMDJ4ZmJCNA?oc=5\n与野党が過半数に達せずネタニヤフ氏が政権継続を意欲する状況こそが、権力を維持する手段として現実主義的な政治の真髄だ。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "与野党陣営、過半数届かず 右派リクード第１党か―ネタニヤフ氏、政権継続に意欲・イスラエル総選挙 - 時事ドットコム",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nYTltRks2cnVJbjg0MW1YSTc0b1ZianNlUHZTSzdncVAzcUZ3TFVXTjZISjk3WTF5Nzh1VFRUTVhUS1FuMFNoLThVRUlveWw3WXNJNTRVVXJBODlnMDJ4ZmJCNA?oc=5",
+    "generator": "ollama:qwen3.5:9b"
+  },
+  {
     "id": "042c118c9c7f",
     "timestamp": "2026-10-28T12:00:26.995537+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iZEFjNldTVTh4dXB3bU41YU40MVlucHF2R0NiaUMzbDV5U0dHdEtQSTVfblo0QmJmcTZEcWRxOHUxbVlHMlZiZGFMd19wRy02YzRmYTVkVTBESVNaenRWbUdrZU5iY0xUaFRubg?oc=5\nネタニヤフ与党の過半数割れという事実が、権力の安定性を損ない力による再調整を迫る現実を示している。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -290,15 +301,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ロシア、キーウをミサイル攻撃　アメリカが促すウクライナとの和平協議再開への意向表明後 - BBC",
     "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EelIyXzFmTG9jYWpXU0RBNUxkbVJPY1VKTFJxMHY1NDN4ZktMSDJHbkg0eFBLa1p4a0NuQ0R6WWVhUWhkSnBucGsyNmJBZ2x6Q0IyRUdMWlZIZ2Zmb0lOX9IBZkFVX3lxTE9yWFVaR3diT3JwLTU5YlFBMVZrNkRINnpPT1VoMmZ0QWVieC1YbkJVTVVkeVFFbkNkVHVUTGNUWGtxazZLemFHcEUxb2dad0tleHluX3hURmRMVDNMUE1OT2NiMUxKZw?oc=5"
-  },
-  {
-    "id": "d8d1e75b75af",
-    "timestamp": "2026-10-22T14:18:40.123783+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tdkxSdU51VmpxcW9LMlljeGUzYXZCdEJHRVFNOGNLOWlodlhOSk12N1YzU25Xc1I5YXBmM0lBZ3RmQ2RKOVdyN2F4S0tZNGVqamdhQzdB?oc=5\nマスクの挑戦するテスラ・スペースX統合は、マキャベリの視座からみれば地雷原でのタップダンスに等しい危機的状況。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "マスク氏「地雷原でタップダンス」の真意 テスラ・スペースX統合協議に立ちはだかる50%の壁 - QUICK Money World",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tdkxSdU51VmpxcW9LMlljeGUzYXZCdEJHRVFNOGNLOWlodlhOSk12N1YzU25Xc1I5YXBmM0lBZ3RmQ2RKOVdyN2F4S0tZNGVqamdhQzdB?oc=5"
   }
 ]
