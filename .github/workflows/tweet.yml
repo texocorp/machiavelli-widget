@@ -20,6 +20,13 @@ concurrency:
 jobs:
   update-feed:
     runs-on: ubuntu-latest
+    # qwen3.5:9b(約6.6GB)のダウンロードとCPUでの生成を見込んだ上限。
+    # 万一処理が固まっても、この時間で打ち切られる。
+    timeout-minutes: 30
+    env:
+      # 使用するローカルLLM。変更する場合はこの1行だけを書き換える。
+      OLLAMA_MODEL: "qwen3.5:9b"
+      OLLAMA_HOST: "http://localhost:11434"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,14 +54,19 @@ jobs:
           done
 
       - name: Pull local model
-        run: ollama pull qwen2.5:3b
+        run: |
+          ollama --version
+          ollama pull "$OLLAMA_MODEL"
 
       - name: Generate feed
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OLLAMA_HOST: "http://localhost:11434"
-          OLLAMA_MODEL: "qwen2.5:3b"
         run: python generate_feed.py
+
+      # 生成に失敗した場合の原因調査用に、Ollama本体のログ末尾を表示する
+      - name: Show Ollama log
+        if: always()
+        run: tail -n 40 ollama.log || true
 
       - name: Commit and push updated feed
         run: |

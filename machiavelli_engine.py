@@ -386,7 +386,28 @@ def _validate_analysis(text: str, min_len: int = 8, max_len: int = 120) -> str:
     return text
 
 
-def _analysis_via_ollama(item: NewsItem) -> str:
+DEFAULT_OLLAMA_MODEL = "qwen3.5:9b"
+
+# 推論型モデルが本文に混ぜて出力することがある思考ブロックを除去する
+_THINK_BLOCK_PATTERN = re.compile(r"<think>.*?</think>", re.DOTALL)
+
+
+def _strip_thinking(text: str) -> str:
+    """
+    <think>...</think> で囲まれた思考過程を除去する。
+    think:false を指定しても、モデルによっては思考を本文側に
+    書き出すことがあるため(Ollamaの仕様上、無効化は「要求」であり
+    保証ではない)、念のための防御としてここで取り除く。
+    閉じタグが無い(=思考の途中で生成が打ち切られた)場合は、
+    本文が無いものとして空文字を返し、検証段階で不合格にする。
+    """
+    text = _THINK_BLOCK_PATTERN.sub("", text)
+    if "<think>" in text:
+        return ""
+    return text.strip()
+
+
+def _analysis_via_ollama(item: NewsItem, attempts: int = 2) -> str:
     """
     無料・独立のローカルLLM(Ollama)に、分析文1文だけを書かせる。
     外部APIに一切データを送らず、ローカル(またはCI実行環境内)で完結する。
@@ -394,39 +415,63 @@ def _analysis_via_ollama(item: NewsItem) -> str:
     前提: Ollama (https://ollama.com) がインストールされ、`ollama serve` が起動していること。
     環境変数:
       OLLAMA_HOST  既定 "http://localhost:11434"
-      OLLAMA_MODEL 既定 "qwen2.5:3b"(軽量・無料のオープンモデル。他の導入済みモデル名も指定可)
-    Ollamaが起動していない、応答が不正、等の場合は例外を送出し、
-    呼び出し側で他モードにフォールバックすること。
+      OLLAMA_MODEL 既定 "qwen3.5:9b"(無料のオープンモデル。他の導入済みモデル名も指定可)
+
+    【qwen3.5:9b 向けの設定】
+    ・Qwen3.5 は「思考(thinking)」機能を持つ推論型モデルである。思考が有効だと、
+      生成トークンの上限を思考だけで使い切り、本文が空になる恐れがある。
+      そこで think:false を指定して思考を無効化する。
+    ・think 指定に対応していないモデル・Ollamaの版でエラーになった場合は、
+      think 指定を外して1回だけ再送する。
+    ・GPUの無いGitHub Actions上では、初回はモデルをメモリに読み込むため
+      応答に時間がかかる。読み取りタイムアウトは300秒と長めに取っている。
+    ・検証(文の完結性・長さ等)に不合格だった場合、最大 attempts 回まで
+      生成をやり直す。それでも駄目なら例外を送出し、呼び出し側が
+      他モード(最終的にはテンプレート)にフォールバックする。
     """
     import requests  # pip install requests
 
     host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
-    model = os.environ.get("OLLAMA_MODEL", "qwen2.5:3b")
+    model = os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
 
     prompt = ANALYSIS_PROMPT.format(
         title=clean_news_text(item.title),
         summary=clean_news_text(item.summary),
     )
-    resp = requests.post(
-        f"{host}/api/generate",
-        json={
-            "model": model,
-            "prompt": prompt,
-            "stream": False,
-            "options": {
-                "temperature": 0.6,
-                # 生成トークン数の上限が低すぎると、文の途中で打ち切られて
-                # 尻切れの分析文になる。日本語は1文字が複数トークンに
-                # 分割されることも多いため、90字の文を確実に書き切れるよう
-                # 十分な余裕を持たせている。
-                "num_predict": 200,
-            },
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False,
+        "think": False,
+        "keep_alive": "10m",
+        "options": {
+            # Qwen3.5 小型モデルの非思考モード推奨値に準拠
+            "temperature": 0.7,
+            "top_p": 0.8,
+            "top_k": 20,
+            "min_p": 0.0,
+            "presence_penalty": 1.5,
+            # 90字前後の日本語1文を確実に書き切れるだけの余裕
+            "num_predict": 256,
         },
-        timeout=(5, 60),
-    )
-    resp.raise_for_status()
-    text = resp.json().get("response") or ""
-    return _validate_analysis(text)
+    }
+
+    last_error = None
+    for attempt in range(1, attempts + 1):
+        resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 300))
+        if resp.status_code == 400 and "think" in resp.text.lower() and "think" in payload:
+            # think 指定非対応のモデル・版。指定を外して同じ試行をやり直す
+            payload.pop("think")
+            resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 300))
+        resp.raise_for_status()
+        data = resp.json()
+        text = _strip_thinking(data.get("response") or "")
+        try:
+            return _validate_analysis(text)
+        except ValueError as e:
+            last_error = e
+            print(f"[分析文] Ollama 生成結果が不合格(試行 {attempt}/{attempts}): {e}")
+    raise last_error
 
 
 def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
@@ -457,22 +502,42 @@ def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
     return _validate_analysis(text)
 
 
+# 直近の generate_commentary() で、分析文をどの生成元が作ったか。
+# generate_feed.py が feed.json の "generator" 欄に記録する。
+LAST_ANALYSIS_SOURCE = None
+
+
 def _get_analysis(item: NewsItem, prefer_llm: bool = True) -> str:
     """
     分析文(1文)を得る。優先順位:
       1. Ollama(無料・ローカル、既定で最優先)
       2. Anthropic API(ANTHROPIC_API_KEY設定時)
       3. テーマ別テンプレート(常に成功する最終フォールバック、_build_analysis)
+
+    以前は失敗理由を黙って握りつぶしていたため、Ollamaが動かずテンプレートに
+    戻っていても気づけなかった。現在は失敗理由と、実際に採用した生成元を
+    GitHub Actions のログに出力し、LAST_ANALYSIS_SOURCE にも記録する。
     """
+    global LAST_ANALYSIS_SOURCE
     if prefer_llm:
+        model = os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
         try:
-            return _analysis_via_ollama(item)
-        except Exception:
-            pass
-        try:
-            return _analysis_via_anthropic(item)
-        except Exception:
-            pass
+            text = _analysis_via_ollama(item)
+            LAST_ANALYSIS_SOURCE = f"ollama:{model}"
+            print(f"[分析文] Ollama({model}) で生成しました")
+            return text
+        except Exception as e:
+            print(f"[分析文] Ollama({model}) を使えませんでした: {e}")
+        if os.environ.get("ANTHROPIC_API_KEY"):
+            try:
+                text = _analysis_via_anthropic(item)
+                LAST_ANALYSIS_SOURCE = "anthropic"
+                print("[分析文] Anthropic API で生成しました")
+                return text
+            except Exception as e:
+                print(f"[分析文] Anthropic API を使えませんでした: {e}")
+    LAST_ANALYSIS_SOURCE = "template"
+    print("[分析文] テンプレートで生成しました(LLMが使えなかったための代替)")
     return _build_analysis(item)
 
 

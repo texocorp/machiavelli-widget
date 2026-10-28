@@ -18,6 +18,7 @@ import json
 import os
 
 from geopolitical_scorer import load_scoring_config, rank_news
+import machiavelli_engine
 from machiavelli_engine import generate_commentary
 from news_fetcher import fetch_all
 from bot import _hash_item, load_seen, save_seen  # 重複排除ロジックを再利用
@@ -81,6 +82,9 @@ def main():
         "source": item.source,
         "source_title": item.title,
         "source_url": item.url,
+        # 分析文の生成元("ollama:qwen3.5:9b" / "anthropic" / "template")。
+        # ウィジェットには表示されない。動作確認・品質比較用の記録。
+        "generator": machiavelli_engine.LAST_ANALYSIS_SOURCE,
     }
 
     feed = load_feed()

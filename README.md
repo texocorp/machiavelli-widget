@@ -209,18 +209,38 @@ LLMが失敗したり、おかしな出力をしても、その影響は「分�
 ```
 
 `.github/workflows/tweet.yml` には既にOllamaのセットアップ手順
-(インストール→起動→軽量モデル `qwen2.5:3b` の取得)が含まれており、
-**追加設定なしでそのまま動作**します。
+(インストール→起動→モデル `qwen3.5:9b`(約6.6GB)の取得)が含まれており、
+**追加設定なしでそのまま動作**します。GPUの無い実行環境でも、
+分析文1文の生成であれば数十秒〜数分で完了します
+(ワークフロー全体の上限は30分に設定しています)。
 
-**使用モデルを変更したい場合**は、`.github/workflows/tweet.yml` 内の
-`ollama pull qwen2.5:3b` と `OLLAMA_MODEL: "qwen2.5:3b"` の2箇所を、
-Ollamaが対応する他の軽量モデル名(例: `gemma2:2b`, `llama3.2:1b` など)に
-書き換えてください。モデルが大きいほど分析文の質は上がりますが、
+**qwen3.5:9b 向けの設定**(`machiavelli_engine.py` の `_analysis_via_ollama`):
+
+- Qwen3.5 は「思考(thinking)」機能を持つ推論型モデルです。思考が有効だと
+  生成枠を思考だけで使い切り、本文が空になる恐れがあるため、
+  `think: false` で思考を無効化しています。それでも本文に `<think>…</think>` が
+  混入した場合は自動で取り除きます
+- 生成された文が検証(句点で完結しているか・長さ・省略記号の有無)に
+  不合格なら、最大2回まで生成をやり直し、それでも駄目ならテンプレートに戻します
+- サンプリング設定は Qwen3.5 小型モデルの非思考モード推奨値
+  (temperature 0.7 / top_p 0.8 / top_k 20 / presence_penalty 1.5)に合わせています
+
+**どの生成元が使われたかの確認方法**: GitHub Actions の「Generate feed」の
+ログに `[分析文] Ollama(qwen3.5:9b) で生成しました` のように表示されます。
+また `docs/feed.json` の各項目の `generator` 欄にも
+`ollama:qwen3.5:9b` / `anthropic` / `template` のいずれかが記録されます
+(ウィジェットには表示されません)。`template` が続く場合は、
+Ollamaが正常に動いていないので「Show Ollama log」のログを確認してください。
+
+**使用モデルを変更したい場合**は、`.github/workflows/tweet.yml` 冒頭の
+`OLLAMA_MODEL: "qwen3.5:9b"` の1行だけを、Ollamaが対応する他のモデル名
+(例: `qwen3.5:4b`, `gemma4:e4b` など)に書き換えてください。
+モデルが大きいほど分析文の質は上がりますが、
 GitHub Actions上でのダウンロード・生成時間は長くなります。
 
 **ローカルPC上でOllamaを使う場合**(`bot.py` を手元で実行する場合など)は、
 [Ollama公式サイト](https://ollama.com)からインストールし、
-`ollama serve` を起動した状態で `ollama pull qwen2.5:3b` を実行しておけば、
+`ollama serve` を起動した状態で `ollama pull qwen3.5:9b` を実行しておけば、
 同様に自動でOllamaモードが使われます。
 
 ### 箴言(マキャベリの引用)のローテーション
