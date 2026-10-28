@@ -1,5 +1,16 @@
 [
   {
+    "id": "042c118c9c7f",
+    "timestamp": "2026-10-28T12:00:26.995537+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iZEFjNldTVTh4dXB3bU41YU40MVlucHF2R0NiaUMzbDV5U0dHdEtQSTVfblo0QmJmcTZEcWRxOHUxbVlHMlZiZGFMd19wRy02YzRmYTVkVTBESVNaenRWbUdrZU5iY0xUaFRubg?oc=5\nネタニヤフ与党の過半数割れという事実が、権力の安定性を損ない力による再調整を迫る現実を示している。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "イスラエル総選挙、ネタニヤフ与党過半数割れ 野党も届かず連立交渉へ - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iZEFjNldTVTh4dXB3bU41YU40MVlucHF2R0NiaUMzbDV5U0dHdEtQSTVfblo0QmJmcTZEcWRxOHUxbVlHMlZiZGFMd19wRy02YzRmYTVkVTBESVNaenRWbUdrZU5iY0xUaFRubg?oc=5",
+    "generator": "ollama:qwen3.5:9b"
+  },
+  {
     "id": "9bc261d5902f",
     "timestamp": "2026-10-28T05:49:27.863893+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wQ3M3cUQyajV0LTRvck5xajJJWXJzNmdPWFhmdFBENWRaNkJwTFh5UzZESHNpaEtCYUJmS0NLTjZxS0g3dHpqUHRrZWVRU19ETVpCeGJVVE4zbXZycmt4ZVoyS1ktT1ZtNHFYM3U5SUc0ZDVkcTcxMTc4RXhua1U?oc=5\n北朝鮮がスタバを要塞化して韓国向けに砲を向けるのは、非対称な脅威で韓国の不安を増幅し自らの正当性を高める謀略だ。",
@@ -289,15 +300,5 @@
     "source": "Google News 国際(World)",
     "source_title": "マスク氏「地雷原でタップダンス」の真意 テスラ・スペースX統合協議に立ちはだかる50%の壁 - QUICK Money World",
     "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tdkxSdU51VmpxcW9LMlljeGUzYXZCdEJHRVFNOGNLOWlodlhOSk12N1YzU25Xc1I5YXBmM0lBZ3RmQ2RKOVdyN2F4S0tZNGVqamdhQzdB?oc=5"
-  },
-  {
-    "id": "fa39e455f01f",
-    "timestamp": "2026-10-22T08:14:35.190302+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sQUs5bFI3OUlVMHJSaHh4aUdBQTZUTTYyS0JyTFQ0T1hNUHNVNHo0VU85UEJTM3UyUkZFWUluNHNMTzVMYmxvT0ktMzZhVTMxYVB5clRmNkJYX2Y5Vy0zeU5B?oc=5\nトランプ政権の制裁交渉が実現するまで対露交渉は完全に停滞した。\n「戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "ロシアで４年前拘束の米国人釈放…トランプ氏、対露制裁「発動していたら交渉は完全に止まっていた」 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sQUs5bFI3OUlVMHJSaHh4aUdBQTZUTTYyS0JyTFQ0T1hNUHNVNHo0VU85UEJTM3UyUkZFWUluNHNMTzVMYmxvT0ktMzZhVTMxYVB5clRmNkJYX2Y5Vy0zeU5B?oc=5"
   }
 ]
