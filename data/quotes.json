@@ -1,178 +1,1500 @@
 {
   "_meta": {
-    "note": "全て15世紀末〜16世紀のマキャベリの著作(『君主論』『リウィウス論(政略論)』『戦争の技法』『フィレンツェ史』)からの引用で、著作権は存在しない(パブリックドメイン)。日本語は意訳。イタリア語原文は代表的校訂版に基づく通用形。",
+    "note": "全て15世紀末〜16世紀のマキャベリの著作(『君主論』『リウィウス論』『戦争の技法』『フィレンツェ史』)からの引用で、原典はパブリックドメイン。日本語は本ボットのための意訳。",
     "sources": {
-      "P": "Il Principe（君主論）",
-      "D": "Discorsi sopra la prima deca di Tito Livio（リウィウス論／政略論）",
-      "AG": "Dell'arte della guerra（戦争の技法）",
-      "IF": "Istorie fiorentine（フィレンツェ史）"
+      "P": "Il Principe(君主論)。出典は章番号(cap.)",
+      "D": "Discorsi sopra la prima deca di Tito Livio(リウィウス論/政略論)。出典は「巻.章」",
+      "AG": "Dell'arte della guerra(戦争の技法)。第7巻の「一般原則」より(作中人物ファブリツィオの言葉として書かれている)",
+      "IF": "Istorie fiorentine(フィレンツェ史)。出典は「巻.章」"
     },
-    "id_schema": "各箴言は id で一意に識別される(テーマ略号+連番、例: FV1, PA2)。machiavelli_engine.py の pick_quote() が、直近の使用履歴(重複回避)と使用回数(偏り是正)の管理にこの id を用いる。新たな箴言を追加する際は、そのテーマ内で重複しない id を付与すること。"
+    "check": {
+      "it": "伊語原典(Liber Liber 版)の本文で逐語照合済み",
+      "toc": "伊語原典の章題(目次)で逐語照合済み。章題そのものを箴言として用いる",
+      "wq": "伊語本文を Wikiquote(章番号つき)で照合済み",
+      "en": "英訳(W. K. Marriott 訳ほか)で章と内容を照合済み。伊語は通行版の本文"
+    },
+    "tags": {
+      "guerra": "戦争・武力衝突・攻撃・軍事作戦",
+      "paura_amore": "恐怖と愛・抑止・威嚇・懲罰・恨み",
+      "alleanze_dipendenza": "同盟・他国への依存・駐留軍・後ろ盾",
+      "inganno_simulazione": "欺瞞・外交辞令・約束と破約・偽装",
+      "imperi_declino": "覇権の興亡・秩序の変化・政体の変動・野心",
+      "popolo_principe": "民衆と統治者・世論・選挙・国内の分断",
+      "neutralita": "中立・優柔不断・決断の遅れ",
+      "necessita": "必要・やむを得ぬ選択・結果による正当化",
+      "armi_proprie": "自前の軍備・防衛力・兵力の質",
+      "fortuna_virtu": "運命と力量・好機・危機への備え",
+      "economia": "経済・財政・制裁・資源・援助",
+      "consiglio": "側近・助言者・人事・意思決定"
+    },
+    "fields": "id(使用履歴の管理に使う一意の記号)、source(出典)、check(照合方法)、tags(適用するテーマ、複数可)、it(原文)、ja(日本語訳)、scene(適用場面。箴言選びの手がかり)"
   },
-  "themes": {
-    "fortuna_virtu": [
-      {
-        "id": "FV1",
-        "it": "La fortuna è arbitra della metà delle azioni nostre, ma... ne lascia governare l'altra metà, o presso, a noi.",
-        "ja": "運命は我々の行いの半分を支配するに過ぎず、残る半分、あるいはそれに近い部分は、我々自身の裁量に委ねられている。",
-        "source": "P, cap.XXV"
-      },
-      {
-        "id": "FV2",
-        "it": "È meglio essere impetuoso che respettivo, perché la fortuna è donna...",
-        "ja": "慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。",
-        "source": "P, cap.XXV"
-      },
-      {
-        "id": "FV3",
-        "it": "Chi si accomoda col tempo poco erra, e più raro ha migliore fortuna.",
-        "ja": "時勢に己を合わせる者は過つこと少なく、より良き運命を得ることも稀ではない。",
-        "source": "D, III.9"
-      }
-    ],
-    "paura_amore": [
-      {
-        "id": "PA1",
-        "it": "È molto più sicuro essere temuto che amato, quando si abbia a mancare dell'uno de' dua.",
-        "ja": "愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。",
-        "source": "P, cap.XVII"
-      },
-      {
-        "id": "PA2",
-        "it": "Debbe nondimeno il principe farsi temere in modo che, se non acquista lo amore, che fugga lo odio.",
-        "ja": "とはいえ君主は、愛を得られぬまでも憎しみだけは免れるように、恐れられねばならない。",
-        "source": "P, cap.XVII"
-      },
-      {
-        "id": "PA3",
-        "it": "Delli uomini si può dire questo generalmente: che sieno ingrati, volubili, simulatori e dissimulatori, fuggitori de' pericoli, cupidi di guadagno.",
-        "ja": "人間について概して言えばこうだ。恩知らずで、移ろいやすく、偽り欺き、危険を避け、利得に貪欲である。",
-        "source": "P, cap.XVII"
-      }
-    ],
-    "armi_proprie": [
-      {
-        "id": "AP1",
-        "it": "Le armi mercenarie e ausiliarie sono inutili e pericolose.",
-        "ja": "傭兵と援軍は、無用であるだけでなく危険である。",
-        "source": "P, cap.XII"
-      },
-      {
-        "id": "AP2",
-        "it": "Uno principe, adunque, debbe non avere altro obietto né altro pensiero... che la guerra e ordini e disciplina di essa.",
-        "ja": "君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。",
-        "source": "P, cap.XIV"
-      }
-    ],
-    "alleanze_dipendenza": [
-      {
-        "id": "AD1",
-        "it": "Uno principe debbe... non si far mai compagno di uno più potente di lui per offendere altri.",
-        "ja": "君主たる者、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば汝はその者の虜囚となるからだ。",
-        "source": "P, cap.XXI"
-      },
-      {
-        "id": "AD2",
-        "it": "E' quasi impossibile che uno principe respettivo... possa vivere sicuro in mezzo di dua potentati.",
-        "ja": "二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。",
-        "source": "P, cap.XXI"
-      }
-    ],
-    "inganno_simulazione": [
-      {
-        "id": "IS1",
-        "it": "Dovendo, adunque, uno principe sapere bene usare la bestia, debbe di quelle pigliare la golpe e il lione.",
-        "ja": "獣の性を巧みに用いるべき君主は、狐と獅子の両者を範とせねばならぬ。獅子は罠を見破れず、狐は狼を退けられぬ。",
-        "source": "P, cap.XVIII"
-      },
-      {
-        "id": "IS2",
-        "it": "Non può, per tanto, uno signore prudente, né debbe, osservare la fede quando tale osservanzia li torni contro.",
-        "ja": "賢慮ある君主は、信義を守ることが己に不利益となるとき、これを守ってはならぬ、また守るべきでもない。",
-        "source": "P, cap.XVIII"
-      }
-    ],
-    "necessita": [
-      {
-        "id": "NE1",
-        "it": "Dove si dilibera al tutto della salute della patria, non vi debbe cadere alcuna considerazione né di giusto né di ingiusto.",
-        "ja": "祖国の存亡そのものが問われるとき、正義か不正義かの考慮など入り込む余地はない。",
-        "source": "D, III.41"
-      },
-      {
-        "id": "NE2",
-        "it": "La necessità... fa sì che alcune volte le cattive azioni sieno lodate.",
-        "ja": "必要は、時として悪しき行いをも賞賛に値するものへと変える。",
-        "source": "D, I.9"
-      }
-    ],
-    "imperi_declino": [
-      {
-        "id": "ID1",
-        "it": "A volere che una setta o una republica viva lungamente, è necessario ritirarla spesso verso il suo principio.",
-        "ja": "宗派であれ共和国であれ、長く存続させようとするならば、しばしばその原点へと立ち返らせることが必要である。",
-        "source": "D, III.1"
-      },
-      {
-        "id": "ID2",
-        "it": "Gli uomini offendono... o per paura o per odio.",
-        "ja": "人が害をなすのは、恐怖からか、憎悪からかのいずれかである。",
-        "source": "D, III.6"
-      },
-      {
-        "id": "ID3",
-        "it": "Non vi è cosa più difficile a trattare, né più dubbia a riuscire, né più pericolosa a maneggiare, che farsi capo a introdurre nuovi ordini.",
-        "ja": "新たな秩序を打ち立てる先導者となることほど、扱いが難しく、成功が疑わしく、手がけて危険なことはない。",
-        "source": "P, cap.VI"
-      }
-    ],
-    "popolo_principe": [
-      {
-        "id": "PP1",
-        "it": "La natura de' populi è varia... ed è facile a persuadere loro una cosa, difficile fermarli in quella persuasione.",
-        "ja": "民衆の性は移ろいやすい。あることを説き伏せるのは容易いが、その説得を持続させるのは難しい。",
-        "source": "P, cap.VI"
-      },
-      {
-        "id": "PP2",
-        "it": "Il vulgo è sempre preso dalle apparenze e dallo evento della cosa.",
-        "ja": "衆愚は常に見かけと結果にのみ捕らわれる。",
-        "source": "P, cap.XVIII"
-      },
-      {
-        "id": "PP3",
-        "it": "La moltitudine... è più savia e più costante che uno principe.",
-        "ja": "多数の民衆は、一人の君主よりも賢明であり、より一貫している。",
-        "source": "D, I.58"
-      }
-    ],
-    "guerra": [
-      {
-        "id": "GU1",
-        "it": "Perché la guerra non si toglie, ma si differisce a vantaggio d'altri.",
-        "ja": "戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
-        "source": "P, cap.III"
-      },
-      {
-        "id": "GU2",
-        "it": "Che li danari non sono il nervo della guerra, come è oppinione comune, ma i buoni soldati.",
-        "ja": "巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
-        "source": "D, II.10"
-      }
-    ],
-    "neutralita": [
-      {
-        "id": "NT1",
-        "it": "Uno principe... debbe eleggersi amico, e inimicarsi gagliardamente, perché sempre tale partito fia più utile che stare neutrale.",
-        "ja": "君主たる者は、はっきりと味方を選び、敢然と敵対せねばならぬ。中立を保つより、その方が常に得策である。",
-        "source": "P, cap.XXI"
-      },
-      {
-        "id": "NT2",
-        "it": "Perché il vincitore non ti vuole amici sospetti, che non lo aiutino nelle avversità; il perdente non ti riceve, per non avere voluto con l'armi in mano correre la fortuna sua.",
-        "ja": "勝者は、苦難を共にせぬ疑わしき友を欲せず、敗者もまた、剣を執って運命を共にせぬ者を迎え入れはしない。",
-        "source": "P, cap.XXI"
-      }
-    ]
-  }
+  "quotes": [
+    {
+      "id": "P03a",
+      "source": "P, cap.III",
+      "check": "en",
+      "tags": [
+        "paura_amore",
+        "necessita"
+      ],
+      "it": "li uomini si debbono o vezzeggiare o spegnere; perché si vendicano delle leggieri offese, delle gravi non possono",
+      "ja": "人は懐柔するか、さもなくば抹殺するかのどちらかでなければならぬ。軽い危害には報復できても、重い危害には報復できぬからである。",
+      "scene": "敵対勢力や占領地の扱い、中途半端な制裁や懲罰"
+    },
+    {
+      "id": "P03b",
+      "source": "P, cap.III",
+      "check": "it",
+      "tags": [
+        "alleanze_dipendenza",
+        "imperi_declino"
+      ],
+      "it": "chi è cagione che uno diventi potente, ruina",
+      "ja": "他者を強大にする原因を作った者は、自ら滅びる。",
+      "scene": "他国の台頭を助けた国、育てた勢力に背かれる構図"
+    },
+    {
+      "id": "P03c",
+      "source": "P, cap.III",
+      "check": "it",
+      "tags": [
+        "imperi_declino",
+        "guerra"
+      ],
+      "it": "È cosa veramente molto naturale et ordinaria desiderare di acquistare",
+      "ja": "領土を手に入れたいと望むのは、まことに自然でありふれたことである。",
+      "scene": "領土拡張、併合、勢力圏の拡大"
+    },
+    {
+      "id": "P03d",
+      "source": "P, cap.III",
+      "check": "it",
+      "tags": [
+        "fortuna_virtu",
+        "necessita"
+      ],
+      "it": "quando, per non li avere conosciuti, si lasciono crescere in modo che ognuno li conosce, non vi è più remedio",
+      "ja": "災いを早くに見抜けず、誰の目にも明らかになるまで育ててしまえば、もはや打つ手はない。",
+      "scene": "危機の兆候の放置、対応の遅れ"
+    },
+    {
+      "id": "GU1",
+      "source": "P, cap.III",
+      "check": "it",
+      "tags": [
+        "guerra",
+        "neutralita"
+      ],
+      "it": "la guerra non si lieva, ma si differisce a vantaggio d'altri",
+      "ja": "戦を避けることなどできぬ。ただ、他者に有利になるよう先送りされるだけである。",
+      "scene": "戦争回避・先送りの外交、宥和策"
+    },
+    {
+      "id": "P05",
+      "source": "P, cap.V",
+      "check": "it",
+      "tags": [
+        "guerra",
+        "popolo_principe",
+        "imperi_declino"
+      ],
+      "it": "chi diviene patrone di una città consueta a vivere libera, e non la disfaccia, aspetti di esser disfatto da quella",
+      "ja": "自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。",
+      "scene": "占領地の統治、併合した地域の抵抗"
+    },
+    {
+      "id": "P06a",
+      "source": "P, cap.VI",
+      "check": "it",
+      "tags": [
+        "armi_proprie",
+        "popolo_principe"
+      ],
+      "it": "tutt'i profeti armati vinsono, e li disarmati ruinorono",
+      "ja": "武装した預言者はみな勝ち、武器を持たぬ預言者はみな滅びた。",
+      "scene": "改革者や革命指導者、理念だけで力を伴わない主張"
+    },
+    {
+      "id": "PP1",
+      "source": "P, cap.VI",
+      "check": "it",
+      "tags": [
+        "popolo_principe",
+        "inganno_simulazione"
+      ],
+      "it": "la natura de' populi è varia; et è facile a persuadere loro una cosa, ma è difficile fermarli in quella persuasione",
+      "ja": "民衆の性は移ろいやすい。あることを説き伏せるのは容易いが、その説得を持続させるのは難しい。",
+      "scene": "世論の移ろい、支持率の変動、扇動の効果と限界"
+    },
+    {
+      "id": "ID3",
+      "source": "P, cap.VI",
+      "check": "it",
+      "tags": [
+        "imperi_declino",
+        "popolo_principe"
+      ],
+      "it": "non è cosa più difficile a trattare, né più dubia a riuscire, né più pericolosa a maneggiare, che farsi capo ad introdurre nuovi ordini",
+      "ja": "新たな秩序を打ち立てる先導者となることほど、扱いが難しく、成功が疑わしく、手がけて危険なことはない。",
+      "scene": "体制改革、新秩序の構築、制度変更への抵抗"
+    },
+    {
+      "id": "ID2",
+      "source": "P, cap.VII",
+      "check": "it",
+      "tags": [
+        "paura_amore",
+        "guerra"
+      ],
+      "it": "li uomini offendono o per paura o per odio",
+      "ja": "人が害をなすのは、恐怖からか、憎悪からかのいずれかである。",
+      "scene": "攻撃や挑発の動機、先制攻撃"
+    },
+    {
+      "id": "P07",
+      "source": "P, cap.VII",
+      "check": "it",
+      "tags": [
+        "inganno_simulazione",
+        "alleanze_dipendenza"
+      ],
+      "it": "chi crede che ne' personaggi grandi e' benefizii nuovi faccino dimenticare le iniurie vecchie, s'inganna",
+      "ja": "大物の間では、新たな恩恵が古い恨みを忘れさせると信じる者は、思い違いをしている。",
+      "scene": "関係修復や和解の外交、過去の確執"
+    },
+    {
+      "id": "P08",
+      "source": "P, cap.VIII",
+      "check": "it",
+      "tags": [
+        "paura_amore",
+        "necessita",
+        "popolo_principe"
+      ],
+      "it": "le iniurie si debbono fare tutte insieme, acciò che, assaporandosi meno, offendino meno; e' benefizii si debbono fare a poco a poco, acciò che si assaporino meglio",
+      "ja": "加害は一度にまとめて行え。味わう時間が短いほど恨みも少ない。恩恵は少しずつ施せ。よりよく味わわれるように。",
+      "scene": "制裁・増税・弾圧の進め方、段階的な譲歩"
+    },
+    {
+      "id": "P09",
+      "source": "P, cap.IX",
+      "check": "it",
+      "tags": [
+        "popolo_principe"
+      ],
+      "it": "a uno principe è necessario avere el populo amico: altrimenti non ha, nelle avversità, remedio",
+      "ja": "君主には民衆を味方につけることが必要である。さもなくば、逆境の時に打つ手がない。",
+      "scene": "支持率、民意、政権基盤の弱さ"
+    },
+    {
+      "id": "P12a",
+      "source": "P, cap.XII",
+      "check": "it",
+      "tags": [
+        "armi_proprie",
+        "imperi_declino"
+      ],
+      "it": "E' principali fondamenti che abbino tutti li stati, così nuovi come vecchi o misti, sono le buone legge e le buone arme",
+      "ja": "新旧を問わず、あらゆる国家の主たる土台は、良き法と良き軍備である。",
+      "scene": "国防や法制度の整備、国家の基盤"
+    },
+    {
+      "id": "AP1",
+      "source": "P, cap.XII",
+      "check": "it",
+      "tags": [
+        "armi_proprie",
+        "alleanze_dipendenza"
+      ],
+      "it": "Le mercennarie et ausiliarie sono inutile e periculose",
+      "ja": "傭兵と援軍は、無用であるだけでなく危険である。",
+      "scene": "外国軍・援軍・民間軍事会社への依存"
+    },
+    {
+      "id": "P12b",
+      "source": "P, cap.XII",
+      "check": "it",
+      "tags": [
+        "armi_proprie",
+        "alleanze_dipendenza"
+      ],
+      "it": "se uno tiene lo stato suo fondato in sulle arme mercennarie, non starà mai fermo né sicuro",
+      "ja": "傭兵の上に国家を築く者は、決して安定も安全も得られぬ。",
+      "scene": "雇われた兵力や他国の軍事支援に頼る国家"
+    },
+    {
+      "id": "P13a",
+      "source": "P, cap.XIII",
+      "check": "en",
+      "tags": [
+        "armi_proprie",
+        "alleanze_dipendenza",
+        "fortuna_virtu"
+      ],
+      "it": "nessuno principato è sicuro, non avendo arme proprie; anzi è tutto obligato alla fortuna",
+      "ja": "自前の軍備を持たぬ君主国に安全はない。それどころか、すべてを運命に委ねることになる。",
+      "scene": "他国の軍事力に安全保障を委ねる国"
+    },
+    {
+      "id": "P13b",
+      "source": "P, cap.XIII",
+      "check": "en",
+      "tags": [
+        "armi_proprie",
+        "alleanze_dipendenza"
+      ],
+      "it": "l'arme d'altri o le ti caggiono di dosso, o le ti pesano, o le ti stringono",
+      "ja": "他人の武具は、身から滑り落ちるか、重くのしかかるか、締めつけるかのいずれかである。",
+      "scene": "同盟国の駐留軍や核の傘、借り物の防衛力の代償"
+    },
+    {
+      "id": "P13c",
+      "source": "P, cap.XIII",
+      "check": "en",
+      "tags": [
+        "alleanze_dipendenza",
+        "armi_proprie",
+        "imperi_declino"
+      ],
+      "it": "quod nihil sit tam infirmum aut instabile quam fama potentiae non sua vi nixa",
+      "ja": "自らの力に拠らぬ権勢の名声ほど、脆く不安定なものはない。",
+      "scene": "他国の後ろ盾に頼る威信、見かけ倒しの大国"
+    },
+    {
+      "id": "AP2",
+      "source": "P, cap.XIV",
+      "check": "en",
+      "tags": [
+        "armi_proprie",
+        "guerra"
+      ],
+      "it": "Debbe dunque uno principe non avere altro obietto né altro pensiero, né prendere cosa alcuna per sua arte, fuora della guerra et ordini e disciplina di essa",
+      "ja": "君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。",
+      "scene": "指導者の安全保障への姿勢、軍事の軽視"
+    },
+    {
+      "id": "P14",
+      "source": "P, cap.XIV",
+      "check": "en",
+      "tags": [
+        "armi_proprie",
+        "paura_amore"
+      ],
+      "it": "intra le altre cagioni che ti arrechi di male, lo essere disarmato ti fa contennendo",
+      "ja": "武装していないことがもたらす数ある害の中でも、とりわけ人から侮られるようになる。",
+      "scene": "軍事力の欠如による外交上の軽視"
+    },
+    {
+      "id": "P15a",
+      "source": "P, cap.XV",
+      "check": "wq",
+      "tags": [
+        "inganno_simulazione",
+        "necessita"
+      ],
+      "it": "mi è parso più conveniente andare drieto alla verità effettuale della cosa, che alla immaginazione di essa",
+      "ja": "物事の想像よりも、現実の真実を追う方が適切だと余は考えた。",
+      "scene": "理想論や建前と現実の乖離"
+    },
+    {
+      "id": "P15b",
+      "source": "P, cap.XV",
+      "check": "en",
+      "tags": [
+        "necessita",
+        "inganno_simulazione"
+      ],
+      "it": "uno uomo che voglia fare in tutte le parte professione di buono, conviene rovini infra tanti che non sono buoni",
+      "ja": "あらゆる面で善人として振る舞おうとする者は、善人ならざる多くの者の間にあって、滅びるほかない。",
+      "scene": "理想主義の外交、国際法や人道を掲げる側の脆さ"
+    },
+    {
+      "id": "P16",
+      "source": "P, cap.XVI",
+      "check": "wq",
+      "tags": [
+        "economia",
+        "popolo_principe"
+      ],
+      "it": "non ci è cosa che consumi sé stessa quanto la liberalità, la quale mentre che tu usi, perdi la facultà di usarla",
+      "ja": "気前の良さほど自らを食いつぶすものはない。それを用いるうちに、用いる力そのものを失っていく。",
+      "scene": "ばらまき財政、対外援助、補助金"
+    },
+    {
+      "id": "PA1",
+      "source": "P, cap.XVII",
+      "check": "en",
+      "tags": [
+        "paura_amore"
+      ],
+      "it": "è molto più sicuro essere temuto che amato, quando si abbia a mancare dell'uno de' dua",
+      "ja": "愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。",
+      "scene": "抑止、強硬策と融和策の選択"
+    },
+    {
+      "id": "PA2",
+      "source": "P, cap.XVII",
+      "check": "wq",
+      "tags": [
+        "paura_amore",
+        "popolo_principe"
+      ],
+      "it": "Debbe nondimanco el principe farsi temere in modo che, se non acquista lo amore, che fugga l'odio",
+      "ja": "とはいえ君主は、愛を得られぬまでも憎しみだけは免れるように、恐れられねばならない。",
+      "scene": "威圧の限度、反発や憎悪を招く強権"
+    },
+    {
+      "id": "PA3",
+      "source": "P, cap.XVII",
+      "check": "en",
+      "tags": [
+        "paura_amore",
+        "inganno_simulazione"
+      ],
+      "it": "delli uomini si può dire questo generalmente: che sieno ingrati, volubili, simulatori e dissimulatori, fuggitori de' pericoli, cupidi di guadagno",
+      "ja": "人間について概して言えばこうだ。恩知らずで、移ろいやすく、偽り欺き、危険を避け、利得に貪欲である。",
+      "scene": "同盟国や支持者の離反、恩義の通用しない関係"
+    },
+    {
+      "id": "P17a",
+      "source": "P, cap.XVII",
+      "check": "wq",
+      "tags": [
+        "paura_amore"
+      ],
+      "it": "li uomini hanno meno respetto a offendere uno che si facci amare, che uno che si facci temere",
+      "ja": "人は、恐れられている者よりも、愛されている者を害することにためらいが少ない。",
+      "scene": "融和策が侮りを招く構図、抑止の必要"
+    },
+    {
+      "id": "P17b",
+      "source": "P, cap.XVII",
+      "check": "wq",
+      "tags": [
+        "economia",
+        "popolo_principe",
+        "paura_amore"
+      ],
+      "it": "li uomini sdimenticano più presto la morte del padre che la perdita del patrimonio",
+      "ja": "人は父の死を忘れても、財産を失ったことはなかなか忘れぬ。",
+      "scene": "財産の没収、増税、経済的打撃への反発"
+    },
+    {
+      "id": "IS1",
+      "source": "P, cap.XVIII",
+      "check": "wq",
+      "tags": [
+        "inganno_simulazione",
+        "armi_proprie"
+      ],
+      "it": "Sendo dunque uno principe necessitato sapere bene usare la bestia, debbe di quelle pigliare la golpe e il lione",
+      "ja": "獣の性を巧みに用いるべき君主は、狐と獅子の両者を範とせねばならぬ。獅子は罠を見破れず、狐は狼を退けられぬ。",
+      "scene": "力と策略の使い分け、硬軟両様の外交"
+    },
+    {
+      "id": "IS2",
+      "source": "P, cap.XVIII",
+      "check": "wq",
+      "tags": [
+        "inganno_simulazione",
+        "necessita"
+      ],
+      "it": "Non può pertanto uno signore prudente, né debbe, osservare la fede, quando tale osservanzia li torni contro",
+      "ja": "賢慮ある君主は、信義を守ることが己に不利益となるとき、これを守ってはならぬし、守るべきでもない。",
+      "scene": "条約や合意の破棄、約束の反故"
+    },
+    {
+      "id": "P18a",
+      "source": "P, cap.XVIII",
+      "check": "en",
+      "tags": [
+        "inganno_simulazione",
+        "popolo_principe"
+      ],
+      "it": "A uno principe, adunque, non è necessario avere in fatto tutte le soprascritte qualità, ma è bene necessario parere di averle",
+      "ja": "君主は先に挙げた美徳をすべて実際に備えている必要はない。だが、備えているように見せることは是非とも必要である。",
+      "scene": "指導者のイメージ戦略、建前と本音"
+    },
+    {
+      "id": "P18b",
+      "source": "P, cap.XVIII",
+      "check": "en",
+      "tags": [
+        "inganno_simulazione",
+        "popolo_principe"
+      ],
+      "it": "ognuno vede quello che tu pari, pochi sentono quello che tu se'",
+      "ja": "誰もが汝の外見を見るが、汝の実像を知る者はわずかである。",
+      "scene": "外交の見せ方、演出と実態"
+    },
+    {
+      "id": "P18c",
+      "source": "P, cap.XVIII",
+      "check": "wq",
+      "tags": [
+        "inganno_simulazione",
+        "popolo_principe"
+      ],
+      "it": "sono tanto semplici li uomini, e tanto obediscano alle necessità presenti, che colui che inganna troverrà sempre chi si lascerà ingannare",
+      "ja": "人間はかくも単純で、目前の必要にかくも従順であるから、欺こうとする者は、欺かれる者を常に見つけ出す。",
+      "scene": "プロパガンダ、偽情報、選挙公約"
+    },
+    {
+      "id": "P18d",
+      "source": "P, cap.XVIII",
+      "check": "wq",
+      "tags": [
+        "necessita",
+        "guerra",
+        "inganno_simulazione"
+      ],
+      "it": "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine",
+      "ja": "あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。",
+      "scene": "国際社会での既成事実化、結果による正当化"
+    },
+    {
+      "id": "P18e",
+      "source": "P, cap.XVIII",
+      "check": "wq",
+      "tags": [
+        "inganno_simulazione"
+      ],
+      "it": "né mai a uno principe mancorono cagioni legittime di colorire la inosservanzia",
+      "ja": "約束を破るのに、もっともらしい口実に事欠いた君主などいない。",
+      "scene": "停戦合意や条約の破棄、口実づくり"
+    },
+    {
+      "id": "PP2",
+      "source": "P, cap.XVIII",
+      "check": "en",
+      "tags": [
+        "popolo_principe",
+        "inganno_simulazione"
+      ],
+      "it": "el vulgo ne va preso con quello che pare e con lo evento della cosa",
+      "ja": "衆愚は常に、見かけと結果にのみ捕らわれる。",
+      "scene": "世論の評価基準、成果の演出"
+    },
+    {
+      "id": "P19a",
+      "source": "P, cap.XIX",
+      "check": "en",
+      "tags": [
+        "popolo_principe",
+        "guerra",
+        "paura_amore"
+      ],
+      "it": "uno principe debbe avere dua paure: una drento, per conto de' sudditi; l'altra di fuora, per conto de' potentati esterni",
+      "ja": "君主は二つの恐れを抱かねばならぬ。一つは内にあって臣民に対するもの、もう一つは外にあって外国の列強に対するものである。",
+      "scene": "内政不安と外圧の同時進行"
+    },
+    {
+      "id": "P19b",
+      "source": "P, cap.XIX",
+      "check": "en",
+      "tags": [
+        "guerra",
+        "popolo_principe"
+      ],
+      "it": "sempre staranno ferme le cose di drento, quando stieno ferme quelle di fuora, se già le non fussino perturbate da una congiura",
+      "ja": "外が安定していれば、陰謀に乱されぬ限り、内も常に安定しているものだ。",
+      "scene": "対外関係の安定と国内の安定の連動"
+    },
+    {
+      "id": "P19c",
+      "source": "P, cap.XIX",
+      "check": "en",
+      "tags": [
+        "paura_amore",
+        "popolo_principe"
+      ],
+      "it": "s'acquista odio così mediante le buone opere, come le triste",
+      "ja": "憎しみは、悪しき行いによってだけでなく、善き行いによっても買うものである。",
+      "scene": "改革への反発、善意の政策が招く不満"
+    },
+    {
+      "id": "P20",
+      "source": "P, cap.XX",
+      "check": "en",
+      "tags": [
+        "popolo_principe",
+        "armi_proprie"
+      ],
+      "it": "la migliore fortezza che sia, è non essere odiato dal populo",
+      "ja": "最上の要塞とは、民衆に憎まれぬことである。",
+      "scene": "民衆の支持と体制の安定、反政府デモ"
+    },
+    {
+      "id": "P21a",
+      "source": "P, cap.XXI",
+      "check": "en",
+      "tags": [
+        "fortuna_virtu",
+        "popolo_principe"
+      ],
+      "it": "Nessuna cosa fa tanto stimare uno principe, quanto fanno le grandi imprese e dare di sé rari esempli",
+      "ja": "大事業を成し遂げ、類まれな範を示すことほど、君主の声望を高めるものはない。",
+      "scene": "指導者の大胆な外交、実績づくり"
+    },
+    {
+      "id": "AD1",
+      "source": "P, cap.XXI",
+      "check": "en",
+      "tags": [
+        "alleanze_dipendenza",
+        "guerra"
+      ],
+      "it": "uno principe debbe avvertire di non fare mai compagnia con uno più potente di sé per offendere altri, se non quando la necessità lo stringe; perché, vincendo, rimani suo prigione",
+      "ja": "君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。",
+      "scene": "大国と組んだ軍事行動、従属的な同盟"
+    },
+    {
+      "id": "AD2",
+      "source": "P, cap.XXI",
+      "check": "en",
+      "tags": [
+        "neutralita",
+        "alleanze_dipendenza"
+      ],
+      "it": "li principi mal resoluti, per fuggire e' presenti periculi, seguono el più delle volte quella via neutrale, et el più delle volte ruinano",
+      "ja": "決断できぬ君主は、目前の危険を避けようとして、たいてい中立の道を選び、そしてたいてい滅びる。",
+      "scene": "大国間で態度を決めかねる国、日和見"
+    },
+    {
+      "id": "NT1",
+      "source": "P, cap.XXI",
+      "check": "en",
+      "tags": [
+        "neutralita",
+        "alleanze_dipendenza"
+      ],
+      "it": "è ancora stimato uno principe, quando elli è vero amico e vero inimico, cioè quando sanza alcuno respetto si scuopre in favore di alcuno contro ad un altro; il quale partito fia sempre più utile che stare neutrale",
+      "ja": "君主は、真の味方であり真の敵であるとき、すなわち何の遠慮もなく一方に与して他方に敵対するとき、重んじられる。そのやり方は、中立にとどまるより常に得策である。",
+      "scene": "旗幟を鮮明にする外交、陣営選択"
+    },
+    {
+      "id": "NT2",
+      "source": "P, cap.XXI",
+      "check": "en",
+      "tags": [
+        "neutralita",
+        "alleanze_dipendenza"
+      ],
+      "it": "chi vince non vuole amici sospetti e che non lo aiutino nelle avversità; chi perde non ti riceve, per non avere tu voluto con le arme in mano correre la fortuna sua",
+      "ja": "勝者は、苦難を共にせぬ疑わしき友を欲せず、敗者もまた、剣を執って運命を共にせぬ者を迎え入れはしない。",
+      "scene": "戦争の当事国に対する第三国の立場"
+    },
+    {
+      "id": "P21b",
+      "source": "P, cap.XXI",
+      "check": "en",
+      "tags": [
+        "necessita",
+        "fortuna_virtu"
+      ],
+      "it": "né creda mai alcuno stato potere sempre pigliare partiti securi, anzi pensi di avere a prenderli tutti dubii; [...] la prudenzia consiste in sapere conoscere le qualità delli inconvenienti, e pigliare el men tristo per buono",
+      "ja": "いかなる国家も、常に安全な道を選べると思ってはならぬ。賢慮とは、災いの性質を見分け、より害の少ないものを善として選ぶことにある。",
+      "scene": "苦渋の選択、二者択一の外交判断"
+    },
+    {
+      "id": "P22",
+      "source": "P, cap.XXII",
+      "check": "en",
+      "tags": [
+        "consiglio"
+      ],
+      "it": "la prima coniettura che si fa del cervello di uno signore, è vedere li uomini che lui ha d'intorno",
+      "ja": "君主の頭脳について最初に下される推量は、その周りにいる人間を見ることによってなされる。",
+      "scene": "閣僚や側近の人事、指導部の顔ぶれ"
+    },
+    {
+      "id": "P23a",
+      "source": "P, cap.XXIII",
+      "check": "en",
+      "tags": [
+        "consiglio"
+      ],
+      "it": "non ci è altro modo a guardarsi dalle adulazioni, se non che li uomini intendino che non ti offendino a dirti el vero",
+      "ja": "追従から身を守るには、真実を語っても汝の機嫌を損ねぬと、人々に分からせるほかに道はない。",
+      "scene": "指導者を取り巻くイエスマン、情報の歪み"
+    },
+    {
+      "id": "P23b",
+      "source": "P, cap.XXIII",
+      "check": "en",
+      "tags": [
+        "consiglio"
+      ],
+      "it": "e' buoni consigli, da qualunque venghino, conviene naschino dalla prudenzia del principe, e non la prudenzia del principe da' buoni consigli",
+      "ja": "良き助言は、誰から出たものであれ、君主の賢慮から生まれるのであって、君主の賢慮が良き助言から生まれるのではない。",
+      "scene": "政策決定の主体性、助言者任せの指導者"
+    },
+    {
+      "id": "P24a",
+      "source": "P, cap.XXIV",
+      "check": "en",
+      "tags": [
+        "fortuna_virtu",
+        "armi_proprie"
+      ],
+      "it": "è comune defetto delli uomini non fare conto, nella bonaccia, della tempesta",
+      "ja": "凪の時に嵐への備えを怠るのは、人間に共通の欠点である。",
+      "scene": "平時の油断、防衛や危機管理の怠慢"
+    },
+    {
+      "id": "P24b",
+      "source": "P, cap.XXIV",
+      "check": "wq",
+      "tags": [
+        "armi_proprie",
+        "alleanze_dipendenza"
+      ],
+      "it": "quelle difese solamente sono buone, sono certe, sono durabili, che dependono da te proprio e dalla virtù tua",
+      "ja": "頼むに足り、確かで、長続きする防衛とは、汝自身と汝の力量にのみ拠るものである。",
+      "scene": "自主防衛、他国頼みの安全保障"
+    },
+    {
+      "id": "FV1",
+      "source": "P, cap.XXV",
+      "check": "wq",
+      "tags": [
+        "fortuna_virtu"
+      ],
+      "it": "iudico potere essere vero che la fortuna sia arbitra della metà delle azioni nostre, ma che etiam lei ne lasci governare l'altra metà, o presso, a noi",
+      "ja": "運命は我々の行いの半分を支配するに過ぎず、残る半分、あるいはそれに近い部分は、我々自身の裁量に委ねられている。",
+      "scene": "情勢の偶然と指導者の主体的判断"
+    },
+    {
+      "id": "P25a",
+      "source": "P, cap.XXV",
+      "check": "en",
+      "tags": [
+        "fortuna_virtu",
+        "armi_proprie"
+      ],
+      "it": "Similmente interviene della fortuna; la quale dimostra la sua potenzia dove non è ordinata virtù a resisterle",
+      "ja": "運命もまた同じである。それは、抗う力量が備えられていない所でこそ、その猛威を振るう。",
+      "scene": "危機への備えの差、無防備な国家"
+    },
+    {
+      "id": "P25b",
+      "source": "P, cap.XXV",
+      "check": "en",
+      "tags": [
+        "fortuna_virtu",
+        "alleanze_dipendenza"
+      ],
+      "it": "quel principe che s'appoggia tutto in sulla fortuna, rovina come quella varia",
+      "ja": "運命にすべてを預ける君主は、運命が変われば滅びる。",
+      "scene": "情勢頼み、他力本願の政策"
+    },
+    {
+      "id": "FV2",
+      "source": "P, cap.XXV",
+      "check": "wq",
+      "tags": [
+        "fortuna_virtu",
+        "guerra"
+      ],
+      "it": "è meglio essere impetuoso che respettivo, perché la fortuna è donna; et è necessario, volendola tenere sotto, batterla et urtarla",
+      "ja": "慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。",
+      "scene": "果断な決断、先手を取る行動"
+    },
+    {
+      "id": "P26",
+      "source": "P, cap.XXVI",
+      "check": "en",
+      "tags": [
+        "guerra",
+        "necessita"
+      ],
+      "it": "iustum enim est bellum quibus necessarium, et pia arma ubi nulla nisi in armis spes est",
+      "ja": "必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。",
+      "scene": "自衛戦争、抵抗の正当化"
+    },
+    {
+      "id": "D1.1",
+      "source": "D, I.1",
+      "check": "it",
+      "tags": [
+        "necessita"
+      ],
+      "it": "gli uomini operono o per necessità o per elezione",
+      "ja": "人は、やむを得ぬ必要から動くか、自らの選択によって動くかのいずれかである。",
+      "scene": "行動の動機、追い込まれた決断"
+    },
+    {
+      "id": "D1.3a",
+      "source": "D, I.3",
+      "check": "it",
+      "tags": [
+        "inganno_simulazione",
+        "necessita",
+        "imperi_declino"
+      ],
+      "it": "è necessario a chi dispone una republica ed ordina leggi in quella, presupporre tutti gli uomini rei",
+      "ja": "国家を設計し法を定める者は、すべての人間は邪悪であると前提せねばならぬ。",
+      "scene": "制度設計、安全保障の前提、性善説への警鐘"
+    },
+    {
+      "id": "D1.3b",
+      "source": "D, I.3",
+      "check": "it",
+      "tags": [
+        "necessita",
+        "popolo_principe"
+      ],
+      "it": "gli uomini non operono mai nulla bene, se non per necessità",
+      "ja": "人は必要に迫られなければ、何ひとつ善きことを行わぬ。",
+      "scene": "危機にならないと動かない政治、改革の先送り"
+    },
+    {
+      "id": "NE2",
+      "source": "D, I.9",
+      "check": "it",
+      "tags": [
+        "necessita",
+        "inganno_simulazione"
+      ],
+      "it": "conviene bene che, accusandolo il fatto, lo effetto lo scusi",
+      "ja": "行いが彼を責め立てようとも、結果が彼を赦すのである。",
+      "scene": "強権的手段の正当化、結果による評価"
+    },
+    {
+      "id": "D1.16",
+      "source": "D, I.16",
+      "check": "toc",
+      "tags": [
+        "popolo_principe",
+        "imperi_declino"
+      ],
+      "it": "Uno popolo, uso a vivere sotto uno principe, se per qualche accidente diventa libero, con difficultà mantiene la libertà",
+      "ja": "君主の下で暮らすことに慣れた民は、何かの偶然で自由になっても、その自由を保つのは難しい。",
+      "scene": "独裁崩壊後の民主化、政権転覆後の混乱"
+    },
+    {
+      "id": "D1.24",
+      "source": "D, I.24",
+      "check": "toc",
+      "tags": [
+        "popolo_principe",
+        "necessita"
+      ],
+      "it": "Le republiche bene ordinate costituiscono premii e pene a' loro cittadini, né compensono mai l'uno con l'altro",
+      "ja": "よく治まった国家は市民に賞と罰を定め、決して一方を他方で相殺することはない。",
+      "scene": "功労者の不正への処分、恩赦や免責"
+    },
+    {
+      "id": "D1.27",
+      "source": "D, I.27",
+      "check": "toc",
+      "tags": [
+        "inganno_simulazione",
+        "necessita"
+      ],
+      "it": "Sanno rarissime volte gli uomini essere al tutto cattivi o al tutto buoni",
+      "ja": "人は、完全な悪人にも完全な善人にもなりきれぬことが、きわめて多い。",
+      "scene": "中途半端な決断、徹底できない指導者"
+    },
+    {
+      "id": "D1.32",
+      "source": "D, I.32",
+      "check": "toc",
+      "tags": [
+        "popolo_principe",
+        "alleanze_dipendenza"
+      ],
+      "it": "Una republica o uno principe non debbe differire a beneficare gli uomini nelle sue necessitadi",
+      "ja": "国家も君主も、自らが窮地に陥る時まで、人々に恩恵を施すのを先延ばしにしてはならぬ。",
+      "scene": "危機に陥ってからの人気取り、遅すぎる支援"
+    },
+    {
+      "id": "D1.33",
+      "source": "D, I.33",
+      "check": "toc",
+      "tags": [
+        "fortuna_virtu",
+        "guerra",
+        "necessita"
+      ],
+      "it": "Quando uno inconveniente è cresciuto o in uno stato o contro a uno stato, è più salutifero partito temporeggiarlo che urtarlo",
+      "ja": "災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。",
+      "scene": "強大化した脅威への対応、時間稼ぎの外交"
+    },
+    {
+      "id": "D1.37a",
+      "source": "D, I.37",
+      "check": "wq",
+      "tags": [
+        "imperi_declino",
+        "popolo_principe",
+        "economia"
+      ],
+      "it": "la natura ha creati gli uomini in modo che possono desiderare ogni cosa, e non possono conseguire ogni cosa",
+      "ja": "自然は人間を、何でも望むことはできるが、何でも手に入れることはできぬように創った。",
+      "scene": "際限なき野心、拡張の行き詰まり"
+    },
+    {
+      "id": "D1.37b",
+      "source": "D, I.37",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "imperi_declino"
+      ],
+      "it": "qualunque volta è tolto agli uomini il combattere per necessità, combattono per ambizione",
+      "ja": "必要から戦う理由がなくなれば、人は野心のために戦う。",
+      "scene": "安全が確保された後の膨張、野心による戦争"
+    },
+    {
+      "id": "D1.38",
+      "source": "D, I.38",
+      "check": "toc",
+      "tags": [
+        "neutralita",
+        "alleanze_dipendenza",
+        "necessita"
+      ],
+      "it": "Le republiche deboli sono male risolute e non si sanno diliberare; e se le pigliano mai alcun partito, nasce più da necessità che da elezione",
+      "ja": "弱い国家は決断が下手で、熟慮することができぬ。何かを選ぶとしても、それは自らの選択ではなく、必要に迫られてのことである。",
+      "scene": "中小国の外交、受け身の政策決定"
+    },
+    {
+      "id": "D1.39",
+      "source": "D, I.39",
+      "check": "toc",
+      "tags": [
+        "imperi_declino",
+        "fortuna_virtu"
+      ],
+      "it": "In diversi popoli si veggano spesso i medesimi accidenti",
+      "ja": "異なる民のあいだにも、しばしば同じ出来事が起こる。",
+      "scene": "歴史の反復、他国の前例"
+    },
+    {
+      "id": "D1.46",
+      "source": "D, I.46",
+      "check": "toc",
+      "tags": [
+        "imperi_declino",
+        "guerra",
+        "paura_amore"
+      ],
+      "it": "Li uomini salgono da una ambizione a un'altra; e prima si cerca non essere offeso, dipoi si offende altrui",
+      "ja": "人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。",
+      "scene": "防衛から攻撃への転化、軍拡のエスカレーション"
+    },
+    {
+      "id": "D1.47",
+      "source": "D, I.47",
+      "check": "toc",
+      "tags": [
+        "popolo_principe"
+      ],
+      "it": "Gli uomini, come che s'ingannino ne' generali, ne' particulari non s'ingannono",
+      "ja": "人は一般論では誤るが、個々の具体的な事柄では誤らぬ。",
+      "scene": "総論賛成・各論反対、世論と実際の投票"
+    },
+    {
+      "id": "D1.53",
+      "source": "D, I.53",
+      "check": "toc",
+      "tags": [
+        "popolo_principe",
+        "inganno_simulazione"
+      ],
+      "it": "Il popolo molte volte disidera la rovina sua, ingannato da una falsa spezie di beni: e come le grandi speranze e gagliarde promesse facilmente lo muovono",
+      "ja": "民衆は、偽りの善の見かけに欺かれて、しばしば自らの破滅を望む。大きな希望と威勢のよい約束は、たやすく民衆を動かす。",
+      "scene": "ポピュリズム、扇動、威勢のよい公約"
+    },
+    {
+      "id": "PP3",
+      "source": "D, I.58",
+      "check": "toc",
+      "tags": [
+        "popolo_principe"
+      ],
+      "it": "La moltitudine è più savia e più costante che uno principe",
+      "ja": "多数の民衆は、一人の君主よりも賢明であり、より一貫している。",
+      "scene": "選挙結果、民意と独裁者の判断"
+    },
+    {
+      "id": "D2.0",
+      "source": "D, II.序文",
+      "check": "wq",
+      "tags": [
+        "popolo_principe",
+        "imperi_declino"
+      ],
+      "it": "Laudano sempre gli uomini, ma non sempre ragionevolmente, gli antichi tempi, e gli presenti accusano",
+      "ja": "人は常に、だが常に正しくとは限らぬかたちで、昔の時代を褒め、今の時代を責める。",
+      "scene": "懐古主義、「かつての偉大さ」を掲げる政治"
+    },
+    {
+      "id": "GU2",
+      "source": "D, II.10",
+      "check": "toc",
+      "tags": [
+        "guerra",
+        "economia",
+        "armi_proprie"
+      ],
+      "it": "I danari non sono il nervo della guerra, secondo che è la comune opinione",
+      "ja": "世間で言われるのとは違い、金銭は戦争の要ではない。",
+      "scene": "軍事費・戦費、資金力と戦力"
+    },
+    {
+      "id": "D2.11",
+      "source": "D, II.11",
+      "check": "toc",
+      "tags": [
+        "alleanze_dipendenza"
+      ],
+      "it": "Non è partito prudente fare amicizia con uno principe che abbia più opinione che forze",
+      "ja": "実力より評判の方が大きい君主と友誼を結ぶのは、賢明な策ではない。",
+      "scene": "同盟相手の信頼性、口先だけの大国"
+    },
+    {
+      "id": "D2.13",
+      "source": "D, II.13",
+      "check": "toc",
+      "tags": [
+        "inganno_simulazione",
+        "fortuna_virtu"
+      ],
+      "it": "Che si viene di bassa a gran fortuna più con la fraude che con la forza",
+      "ja": "低い地位から大きな運命へと上るには、力よりも詐術による方が多い。",
+      "scene": "台頭する指導者や新興国の戦略"
+    },
+    {
+      "id": "D2.14",
+      "source": "D, II.14",
+      "check": "toc",
+      "tags": [
+        "inganno_simulazione",
+        "paura_amore",
+        "neutralita"
+      ],
+      "it": "Ingannansi molte volte gli uomini, credendo con la umiltà vincere la superbia",
+      "ja": "人はしばしば、謙譲によって傲慢に打ち勝てると信じて誤る。",
+      "scene": "宥和政策、譲歩による外交"
+    },
+    {
+      "id": "D2.15",
+      "source": "D, II.15",
+      "check": "toc",
+      "tags": [
+        "neutralita",
+        "necessita"
+      ],
+      "it": "Gli stati deboli sempre fiano ambigui nel risolversi: e sempre le diliberazioni lente sono nocive",
+      "ja": "弱い国家は決断において常に曖昧であり、遅い決断は常に有害である。",
+      "scene": "決断の遅れ、曖昧な態度表明"
+    },
+    {
+      "id": "D2.19",
+      "source": "D, II.19",
+      "check": "toc",
+      "tags": [
+        "imperi_declino",
+        "guerra"
+      ],
+      "it": "Che gli acquisti nelle republiche non bene ordinate, e che secondo la romana virtù non procedano, sono a ruina, non ad esaltazione di esse",
+      "ja": "秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。",
+      "scene": "無理な拡張、占領統治の負担"
+    },
+    {
+      "id": "D2.20",
+      "source": "D, II.20",
+      "check": "toc",
+      "tags": [
+        "armi_proprie",
+        "alleanze_dipendenza"
+      ],
+      "it": "Quale pericolo porti quel principe o quella republica che si vale della milizia ausiliare o mercenaria",
+      "ja": "援軍や傭兵の軍に頼る君主や国家が、いかに大きな危険を背負い込むことか。",
+      "scene": "外国軍への依存、借り物の兵力"
+    },
+    {
+      "id": "D2.23",
+      "source": "D, II.23",
+      "check": "toc",
+      "tags": [
+        "necessita",
+        "paura_amore"
+      ],
+      "it": "Quanto i Romani nel giudicare i sudditi per alcuno accidente che necessitasse tale giudizio fuggivano la via del mezzo",
+      "ja": "ローマ人は、従属する者たちを裁かねばならぬ事態に際し、中途半端な道を避けた。",
+      "scene": "中途半端な制裁や処分、妥協策の失敗"
+    },
+    {
+      "id": "D2.24",
+      "source": "D, II.24",
+      "check": "toc",
+      "tags": [
+        "armi_proprie",
+        "popolo_principe"
+      ],
+      "it": "Le fortezze generalmente sono molto più dannose che utili",
+      "ja": "要塞は概して、役に立つよりもはるかに害が大きい。",
+      "scene": "壁や防壁の建設、要塞化"
+    },
+    {
+      "id": "D2.25",
+      "source": "D, II.25",
+      "check": "toc",
+      "tags": [
+        "guerra",
+        "inganno_simulazione"
+      ],
+      "it": "Che lo assaltare una città disunita, per occuparla mediante la sua disunione, è partito contrario",
+      "ja": "分裂した都市を、その分裂に乗じて奪おうと攻めるのは、かえって逆効果の策である。",
+      "scene": "内紛中の国への介入が団結を招く構図"
+    },
+    {
+      "id": "D2.26",
+      "source": "D, II.26",
+      "check": "toc",
+      "tags": [
+        "paura_amore",
+        "inganno_simulazione"
+      ],
+      "it": "Il vilipendio e l'improperio genera odio contro a coloro che l'usano, sanza alcuna loro utilità",
+      "ja": "侮蔑と罵倒は、それを用いる者への憎しみを生むだけで、何の得にもならぬ。",
+      "scene": "指導者の暴言、挑発的な発言"
+    },
+    {
+      "id": "D2.27",
+      "source": "D, II.27",
+      "check": "toc",
+      "tags": [
+        "guerra",
+        "fortuna_virtu"
+      ],
+      "it": "Ai principi e republiche prudenti debbe bastare vincere; perché, il più delle volte, quando e' non basta, si perde",
+      "ja": "賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。",
+      "scene": "戦果の過剰な要求、停戦交渉"
+    },
+    {
+      "id": "D2.28",
+      "source": "D, II.28",
+      "check": "toc",
+      "tags": [
+        "paura_amore",
+        "guerra"
+      ],
+      "it": "Quanto sia pericoloso a una republica o a uno principe non vendicare una ingiuria fatta contro al publico o contro al privato",
+      "ja": "公に対してであれ私人に対してであれ、加えられた侮辱に報いぬことは、国家にとってかくも危険である。",
+      "scene": "挑発への対応、報復の是非"
+    },
+    {
+      "id": "D2.29",
+      "source": "D, II.29",
+      "check": "toc",
+      "tags": [
+        "fortuna_virtu"
+      ],
+      "it": "La fortuna acceca gli animi degli uomini, quando la non vuole che quegli si opponghino a' disegni suoi",
+      "ja": "運命は、自らの企てを人に妨げさせまいとするとき、人の心を盲目にする。",
+      "scene": "指導者の誤算、見通しの甘さ"
+    },
+    {
+      "id": "D2.30",
+      "source": "D, II.30",
+      "check": "toc",
+      "tags": [
+        "alleanze_dipendenza",
+        "economia",
+        "armi_proprie"
+      ],
+      "it": "Le republiche e gli principi veramente potenti non comperono l'amicizie con danari, ma con la virtù e con la riputazione delle forze",
+      "ja": "真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。",
+      "scene": "援助外交、資金で買う同盟や支持"
+    },
+    {
+      "id": "D2.31",
+      "source": "D, II.31",
+      "check": "toc",
+      "tags": [
+        "inganno_simulazione",
+        "alleanze_dipendenza"
+      ],
+      "it": "Quanto sia pericoloso credere agli sbanditi",
+      "ja": "亡命者を信じることは、かくも危険である。",
+      "scene": "亡命者や離反者の証言、亡命政権"
+    },
+    {
+      "id": "ID1",
+      "source": "D, III.1",
+      "check": "toc",
+      "tags": [
+        "imperi_declino",
+        "popolo_principe"
+      ],
+      "it": "A volere che una setta o una republica viva lungamente, è necessario ritirarla spesso verso il suo principio",
+      "ja": "宗派であれ共和国であれ、長く存続させようとするならば、しばしばその原点へと立ち返らせることが必要である。",
+      "scene": "体制の刷新、建国理念への回帰"
+    },
+    {
+      "id": "FV3",
+      "source": "D, III.9",
+      "check": "toc",
+      "tags": [
+        "fortuna_virtu"
+      ],
+      "it": "Come conviene variare co' tempi volendo sempre avere buona fortuna",
+      "ja": "常に好運に恵まれたいと望むなら、時勢に応じて自らを変えねばならぬ。",
+      "scene": "情勢変化への適応、方針転換"
+    },
+    {
+      "id": "D3.10",
+      "source": "D, III.10",
+      "check": "toc",
+      "tags": [
+        "guerra",
+        "necessita"
+      ],
+      "it": "Che uno capitano non può fuggire la giornata, quando l'avversario la vuol fare in ogni modo",
+      "ja": "敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。",
+      "scene": "避けられない衝突、相手主導の開戦"
+    },
+    {
+      "id": "D3.12",
+      "source": "D, III.12",
+      "check": "toc",
+      "tags": [
+        "guerra",
+        "necessita"
+      ],
+      "it": "Come uno capitano prudente debbe imporre ogni necessità di combattere a' suoi soldati, e, a quegli degli inimici, torla",
+      "ja": "賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。",
+      "scene": "退路を断つ決意、敵に逃げ道を残す交渉"
+    },
+    {
+      "id": "D3.16",
+      "source": "D, III.16",
+      "check": "toc",
+      "tags": [
+        "fortuna_virtu",
+        "consiglio",
+        "popolo_principe"
+      ],
+      "it": "Che la vera virtù si va ne' tempi difficili, a trovare; e ne' tempi facili, non gli uomini virtuosi, ma quegli che per ricchezze o per parentado hanno più grazia",
+      "ja": "真の力量ある人物は困難な時代に求められ、平穏な時代には、力量ある者ではなく、富や縁故を持つ者が重んじられる。",
+      "scene": "危機の指導者、世襲や縁故の政治"
+    },
+    {
+      "id": "D3.27",
+      "source": "D, III.27",
+      "check": "toc",
+      "tags": [
+        "popolo_principe",
+        "imperi_declino"
+      ],
+      "it": "Come e' si ha ad unire una città divisa; e come e' non è vera quella opinione, che, a tenere le città, bisogni tenerle divise",
+      "ja": "分裂した都市は一つにまとめねばならぬ。都市を保つには分裂させておけばよいという考えは誤りである。",
+      "scene": "国内の分断、分割統治の誤り"
+    },
+    {
+      "id": "D3.31",
+      "source": "D, III.31",
+      "check": "toc",
+      "tags": [
+        "fortuna_virtu"
+      ],
+      "it": "Le republiche forti e gli uomini eccellenti ritengono in ogni fortuna il medesimo animo e la loro medesima dignità",
+      "ja": "強い国家と卓越した人物は、いかなる運命にあっても、同じ気概と品位を保つ。",
+      "scene": "勝利や敗北の後の態度、逆境での指導者"
+    },
+    {
+      "id": "D3.35",
+      "source": "D, III.35",
+      "check": "toc",
+      "tags": [
+        "consiglio",
+        "fortuna_virtu"
+      ],
+      "it": "Quali pericoli si portano nel farsi capo a consigliare una cosa; e, quanto ella ha più dello istraordinario, maggiori pericoli vi si corrono",
+      "ja": "事を勧める先頭に立つことには危険が伴い、それが異例であればあるほど、危険は大きい。",
+      "scene": "大胆な政策の提唱者、改革の旗振り役"
+    },
+    {
+      "id": "D3.40",
+      "source": "D, III.40",
+      "check": "toc",
+      "tags": [
+        "inganno_simulazione",
+        "guerra"
+      ],
+      "it": "Come usare la fraude nel maneggiare la guerra è cosa gloriosa",
+      "ja": "戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。",
+      "scene": "奇襲、欺瞞作戦、情報戦"
+    },
+    {
+      "id": "NE1",
+      "source": "D, III.41",
+      "check": "toc",
+      "tags": [
+        "necessita",
+        "guerra"
+      ],
+      "it": "Che la patria si debbe difendere o con ignominia o con gloria; ed in qualunque modo è bene difesa",
+      "ja": "祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。",
+      "scene": "国家存亡の危機、手段を選ばぬ防衛"
+    },
+    {
+      "id": "D3.42",
+      "source": "D, III.42",
+      "check": "toc",
+      "tags": [
+        "inganno_simulazione",
+        "alleanze_dipendenza",
+        "necessita"
+      ],
+      "it": "Che le promesse fatte per forza, non si debbono osservare",
+      "ja": "力ずくでさせられた約束は、守るべきものではない。",
+      "scene": "強制された合意、不平等な停戦条件"
+    },
+    {
+      "id": "D3.43",
+      "source": "D, III.43",
+      "check": "toc",
+      "tags": [
+        "imperi_declino",
+        "popolo_principe"
+      ],
+      "it": "Che gli uomini, che nascono in una provincia, osservino per tutti i tempi quasi quella medesima natura",
+      "ja": "同じ地方に生まれた人々は、どの時代にもほぼ同じ気質を保ち続ける。",
+      "scene": "国民性、地政学的な行動の一貫性"
+    },
+    {
+      "id": "D3.44",
+      "source": "D, III.44",
+      "check": "toc",
+      "tags": [
+        "fortuna_virtu",
+        "guerra"
+      ],
+      "it": "E' si ottiene con l'impeto e con l'audacia molte volte quello che con modi ordinarii non si otterrebbe mai",
+      "ja": "尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。",
+      "scene": "電撃的な行動、既成事実化"
+    },
+    {
+      "id": "D3.47",
+      "source": "D, III.47",
+      "check": "toc",
+      "tags": [
+        "popolo_principe",
+        "necessita"
+      ],
+      "it": "Che uno buono cittadino per amore della patria debbe dimenticare le ingiurie private",
+      "ja": "よき市民は、祖国への愛のために、私的な恨みを忘れねばならぬ。",
+      "scene": "政敵との協力、挙国一致"
+    },
+    {
+      "id": "D3.48",
+      "source": "D, III.48",
+      "check": "toc",
+      "tags": [
+        "inganno_simulazione",
+        "guerra"
+      ],
+      "it": "Quando si vede fare uno errore grande a uno nimico, si debbe credere che vi sia sotto inganno",
+      "ja": "敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。",
+      "scene": "相手の不可解な譲歩や失策、陽動"
+    },
+    {
+      "id": "AG1",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "necessita"
+      ],
+      "it": "Quello che giova al nemico nuoce a te, e quel che giova a te nuoce al nemico",
+      "ja": "敵の利となることは汝を害し、汝の利となることは敵を害する。",
+      "scene": "ゼロサムの対立、敵対国の利害"
+    },
+    {
+      "id": "AG2",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "economia"
+      ],
+      "it": "Meglio è vincere il nemico con la fame che col ferro, nella vittoria del quale può molto più la fortuna che la virtù",
+      "ja": "敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。",
+      "scene": "封鎖、経済制裁、兵糧攻め"
+    },
+    {
+      "id": "AG3",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "inganno_simulazione",
+        "guerra"
+      ],
+      "it": "Niuno partito è migliore che quello che sta nascoso al nemico infino che tu lo abbia eseguito",
+      "ja": "実行し終えるまで敵に隠し通した策ほど、優れた策はない。",
+      "scene": "秘密作戦、奇襲、水面下の交渉"
+    },
+    {
+      "id": "AG4",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "fortuna_virtu",
+        "guerra"
+      ],
+      "it": "Sapere nella guerra conoscere l'occasione e pigliarla, giova più che niuna altra cosa",
+      "ja": "戦において、好機を見抜き、それをつかむことほど役立つものはない。",
+      "scene": "好機を突く行動、情勢の隙"
+    },
+    {
+      "id": "AG5",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "armi_proprie"
+      ],
+      "it": "La natura genera pochi uomini gagliardi; la industria e l'esercizio ne fa assai",
+      "ja": "自然が生む勇者はわずかだが、鍛錬と訓練は多くの勇者を生む。",
+      "scene": "兵力の増強、徴兵や訓練"
+    },
+    {
+      "id": "AG6",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "fortuna_virtu"
+      ],
+      "it": "Difficilmente è vinto colui che sa conoscere le forze sue e quelle del nemico",
+      "ja": "己の力と敵の力を知る者は、容易には敗れぬ。",
+      "scene": "戦力の見積もり、誤算による敗北"
+    },
+    {
+      "id": "AG7",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "armi_proprie"
+      ],
+      "it": "Più vale la virtù de' soldati che la moltitudine; più giova alcuna volta il sito che la virtù",
+      "ja": "兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。",
+      "scene": "地政学、地形や拠点の利"
+    },
+    {
+      "id": "AG8",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "paura_amore"
+      ],
+      "it": "Le cose nuove e subite sbigottiscono gli eserciti",
+      "ja": "新しく突然の事態は、軍を動揺させる。",
+      "scene": "奇襲、新兵器、予想外の展開"
+    },
+    {
+      "id": "AG9",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "inganno_simulazione",
+        "guerra"
+      ],
+      "it": "Muta partito, quando ti accorgi che il nemico l'abbia previsto",
+      "ja": "敵に読まれたと気づいたなら、策を変えよ。",
+      "scene": "作戦の変更、手の内を読まれた外交"
+    },
+    {
+      "id": "AG10",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "consiglio",
+        "inganno_simulazione"
+      ],
+      "it": "Consigliati, delle cose che tu dèi fare, con molti; quello che dipoi vuoi fare conferisci con pochi",
+      "ja": "為すべきことについては多くの者に諮り、実際に為そうとすることは少数の者にだけ打ち明けよ。",
+      "scene": "意思決定と機密保持、情報漏洩"
+    },
+    {
+      "id": "AG11",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "necessita",
+        "fortuna_virtu"
+      ],
+      "it": "I buoni capitani non vengono mai a giornata se la necessità non gli strigne o la occasione non gli chiama",
+      "ja": "優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。",
+      "scene": "開戦の判断、決戦の回避"
+    },
+    {
+      "id": "AG12",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "fortuna_virtu",
+        "armi_proprie"
+      ],
+      "it": "Agli accidenti subiti con difficoltà si rimedia, a' pensati con facilità",
+      "ja": "不意の出来事には手当てが難しいが、予期していた出来事にはたやすく手当てできる。",
+      "scene": "危機管理、有事への備え"
+    },
+    {
+      "id": "AG13",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra",
+        "economia",
+        "armi_proprie"
+      ],
+      "it": "Gli uomini, il ferro, i danari e il pane sono il nervo della guerra; ma di questi quattro sono più necessarj i primi due, perché gli uomini e il ferro truovano i danari e il pane, ma il pane e i danari non truovano gli uomini e il ferro",
+      "ja": "人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。",
+      "scene": "兵器生産と兵員、資金や物資による支援の限界"
+    },
+    {
+      "id": "AG14",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "armi_proprie",
+        "economia"
+      ],
+      "it": "Il disarmato ricco è premio del soldato povero",
+      "ja": "武器を持たぬ富者は、貧しい兵士への褒美となる。",
+      "scene": "経済大国の軍事的な脆さ"
+    },
+    {
+      "id": "AG15",
+      "source": "AG, lib.VII",
+      "check": "wq",
+      "tags": [
+        "guerra"
+      ],
+      "it": "Colui che seguita con disordine il nemico poi ch'egli è rotto, non vuole fare altro che diventare, di vittorioso, perdente",
+      "ja": "敗走する敵を無秩序に追う者は、勝者から敗者に転じようとしているに等しい。",
+      "scene": "深追い、戦果拡大の失敗"
+    },
+    {
+      "id": "IF5.1",
+      "source": "IF, V.1",
+      "check": "en",
+      "tags": [
+        "imperi_declino",
+        "fortuna_virtu"
+      ],
+      "it": "la virtù partorisce quiete, la quiete ozio, l'ozio disordine, il disordine rovina; e similmente dalla rovina nasce l'ordine, dall'ordine virtù, da questa gloria e buona fortuna",
+      "ja": "力量は平穏を生み、平穏は安逸を、安逸は無秩序を、無秩序は破滅を生む。そして同じように、破滅から秩序が、秩序から力量が、力量から栄光と好運が生まれる。",
+      "scene": "国家の盛衰の循環、繁栄の後の緩み"
+    }
+  ]
 }

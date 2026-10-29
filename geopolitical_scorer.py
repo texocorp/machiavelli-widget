@@ -26,6 +26,8 @@ class NewsItem:
     score: int = 0
     theme: Optional[str] = None
     matched_keywords: list = field(default_factory=list)
+    # 記事が当たった全テーマ(優先順位順)。theme はその先頭(主テーマ)
+    themes: list = field(default_factory=list)
 
 
 def clean_news_text(text: str) -> str:
@@ -94,6 +96,8 @@ TOPIC_THEME_MAP = {
     "necessity_realpolitik": "necessita",             # 必要による正当化
     "military_selfreliance": "armi_proprie",          # 自前の軍事力 vs 傭兵/他国依存
     "fortune_timing": "fortuna_virtu",                 # 好機・時勢の変化
+    "economy": "economia",                             # 経済・財政・制裁・資源・援助
+    "advisors": "consiglio",                           # 側近・助言者・人事・意思決定
 }
 
 # テーマ分類の優先順位(上から順にチェックし、最初に一致したものを採用する)。
@@ -119,47 +123,75 @@ TOPIC_PRIORITY = [
     "empire_decline",
     "domestic_populace",
     "neutrality_choice",
+    "economy",
+    "advisors",
     "necessity_realpolitik",
     "military_selfreliance",
     "fortune_timing",
 ]
 
-# キーワード→トピック の粗いマッピング。
-# 同じキーワードが複数トピックに関わる場合があるが、最終判定は
-# TOPIC_PRIORITY の順序(上記)で決まるため、ここでの記載順自体は問わない。
-KEYWORD_TOPIC_HINTS = {
-    # war_conflict: 実際の武力行使・攻撃・侵攻・封鎖
-    "台湾有事": "war_conflict", "侵攻": "war_conflict", "戦争": "war_conflict",
-    "invasion": "war_conflict", "war": "war_conflict", "封鎖": "war_conflict",
-    "攻撃": "war_conflict", "反撃": "war_conflict", "報復": "war_conflict",
-    "攻撃応酬": "war_conflict", "空爆": "war_conflict", "ミサイル": "war_conflict",
-    "武力行使": "war_conflict", "交戦": "war_conflict", "砲撃": "war_conflict",
-    # deterrence_fear: 抑止・威嚇・核
-    "抑止": "deterrence_fear", "威嚇": "deterrence_fear", "核": "deterrence_fear",
-    "nuclear": "deterrence_fear", "deterrence": "deterrence_fear", "軍事的圧力": "deterrence_fear",
-    # military_alliance: 同盟・駐留・基地・依存関係(実際の武力衝突が無い場合の話題)
-    "米軍": "military_alliance", "駐留": "military_alliance", "基地": "military_alliance",
-    "同盟": "military_alliance", "alliance": "military_alliance",
-    "NATO": "military_alliance", "地位協定": "military_alliance", "共同訓練": "military_alliance",
-    "結束": "military_alliance",
-    # deception_diplomacy: 外交・会談・声明・首脳会議
-    "外交": "deception_diplomacy", "会談": "deception_diplomacy", "声明": "deception_diplomacy",
-    "首脳会議": "deception_diplomacy", "サミット": "deception_diplomacy", "共同声明": "deception_diplomacy",
-    # empire_decline: 覇権・秩序・衰退
-    "覇権": "empire_decline", "秩序": "empire_decline", "衰退": "empire_decline",
-    "国際秩序": "empire_decline",
-    # domestic_populace: 世論・内政
-    "世論": "domestic_populace", "選挙": "domestic_populace", "内政": "domestic_populace",
-    # neutrality_choice: 中立
-    "中立": "neutrality_choice", "neutral": "neutrality_choice",
-    # necessity_realpolitik: 制裁・関税・貿易摩擦
-    "制裁": "necessity_realpolitik", "関税": "necessity_realpolitik", "sanction": "necessity_realpolitik",
-    "貿易摩擦": "necessity_realpolitik",
-    # military_selfreliance: 傭兵・自主防衛
-    "傭兵": "military_selfreliance", "自主防衛": "military_selfreliance",
-    # fortune_timing: 好機・時勢
-    "好機": "fortune_timing", "タイミング": "fortune_timing",
+# トピックごとの手がかり語。1つの記事が複数のトピックに当たることがあり、
+# 当たったトピックは全て item.themes に(TOPIC_PRIORITY の順で)記録される。
+# 箴言選びはこの全テーマを使う。item.theme(主テーマ)はその先頭。
+#
+# 【複数テーマにした理由】
+# 以前は記事ごとにテーマを1つだけに決め、そのテーマの箴言(2〜3件)からしか
+# 選ばなかった。実際の公開分53件のうち33件が「戦争」テーマになり、戦争テーマの
+# 箴言2件が交互に使われ続けた。記事の持つ複数の側面(戦争と同盟、戦争と経済など)
+# を全て拾うことで、より記事に合い、かつ偏らない箴言を選べるようにした。
+TOPIC_KEYWORDS = {
+    "war_conflict": [
+        "台湾有事", "侵攻", "戦争", "invasion", "war", "封鎖", "攻撃", "反撃", "報復",
+        "空爆", "爆撃", "ミサイル", "武力行使", "交戦", "砲撃", "戦闘", "軍事作戦", "侵入",
+        "ドローン", "撃墜", "占領", "前線",
+    ],
+    "deterrence_fear": [
+        "抑止", "威嚇", "核", "nuclear", "deterrence", "軍事的圧力", "軍事演習", "演習",
+        "示威", "武力誇示", "挑発", "警告", "自走砲", "大砲", "砲口",
+    ],
+    "military_alliance": [
+        "米軍", "駐留", "基地", "同盟", "alliance", "NATO", "地位協定", "共同訓練",
+        "結束", "安保", "日米", "米韓", "防衛協力", "条約", "後ろ盾", "支援",
+    ],
+    "deception_diplomacy": [
+        "外交", "会談", "声明", "首脳会議", "サミット", "共同声明", "停戦", "和平",
+        "交渉", "仲介", "合意", "訪問", "外相", "国務長官", "特使",
+        "訪中", "訪米", "訪朝", "訪露", "訪日",
+    ],
+    "empire_decline": [
+        "覇権", "秩序", "衰退", "国際秩序", "崩壊", "クーデター", "政権交代", "後継",
+        "最高指導者", "体制", "台頭", "大国",
+    ],
+    "domestic_populace": [
+        "世論", "選挙", "内政", "支持率", "デモ", "抗議", "議会", "政局", "中間選挙",
+        "大統領選", "国民", "不支持", "分断", "暴動",
+    ],
+    "neutrality_choice": ["中立", "neutral", "日和見", "両天秤", "どっちつかず"],
+    "economy": [
+        "関税", "制裁", "経済", "原油", "石油", "エネルギー", "資源", "輸出", "輸入",
+        "投資", "財政", "インフレ", "物価", "ガソリン", "援助", "貿易", "製油所", "市場",
+    ],
+    "advisors": [
+        "側近", "閣僚", "長官", "補佐官", "内閣", "人事", "更迭", "辞任", "解任", "顧問",
+        "諜報", "情報機関", "後任",
+    ],
+    "necessity_realpolitik": ["制裁", "関税", "sanction", "貿易摩擦", "やむを得", "苦渋"],
+    "military_selfreliance": [
+        "傭兵", "自主防衛", "防衛費", "防衛力", "軍備", "徴兵", "兵力", "兵器", "国防",
+        "軍拡", "武器",
+    ],
+    "fortune_timing": ["好機", "タイミング", "危機", "災害", "誤算", "転機"],
 }
+
+
+def _keyword_hit(keyword: str, text: str) -> bool:
+    """
+    手がかり語が本文に含まれるか。英字の語は単語単位で照合する
+    (「war」が「award」「Warsaw」に誤って当たるのを防ぐ)。
+    """
+    if keyword.isascii():
+        return re.search(rf"\b{re.escape(keyword)}\b", text, re.IGNORECASE) is not None
+    return keyword in text
 
 
 def load_weights(config_path: str = "config.yaml") -> dict:
@@ -211,22 +243,27 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> 
                 total += pts
                 matched.append(w)
 
-    for kw, topic in KEYWORD_TOPIC_HINTS.items():
-        if re.search(re.escape(kw), text, re.IGNORECASE):
+    # テーマの判定には、見出し末尾の媒体名(「 - 日本経済新聞」など)を除いた
+    # 文を使う。媒体名の「経済」に当たって経済テーマにされるのを防ぐため。
+    topic_text = f"{_MEDIA_SUFFIX.sub('', clean_news_text(item.title))} {clean_news_text(item.summary)}"
+    for topic, keywords in TOPIC_KEYWORDS.items():
+        if any(_keyword_hit(kw, topic_text) for kw in keywords):
             matched_topics.add(topic)
 
     item.score = total
     item.matched_keywords = matched
 
-    # 優先順位(TOPIC_PRIORITY)の順に見ていき、最初に一致したトピックを採用する。
-    # 「一致数が最も多いトピック」ではなく「最も具体的・深刻なトピック」を
-    # 優先することで、例えば実際の武力攻撃を報じる記事が、
-    # 単に「米軍」という語を含むだけで同盟関連テーマに誤分類される事態を防ぐ。
-    item.theme = "necessita"  # デフォルト: 必要性の論理
+    # 当たったトピックを優先順位(TOPIC_PRIORITY)の順に並べ、テーマ名に直して記録する。
+    # 先頭が主テーマ(item.theme)。「一致数が最も多いトピック」ではなく
+    # 「最も具体的・深刻なトピック」を主テーマにすることで、実際の武力攻撃を
+    # 報じる記事が「米軍」という語を含むだけで同盟テーマにされる事態を防ぐ。
+    themes = []
     for topic in TOPIC_PRIORITY:
-        if topic in matched_topics:
-            item.theme = TOPIC_THEME_MAP.get(topic, "necessita")
-            break
+        theme = TOPIC_THEME_MAP[topic]
+        if topic in matched_topics and theme not in themes:
+            themes.append(theme)
+    item.themes = themes
+    item.theme = themes[0] if themes else "necessita"  # デフォルト: 必要性の論理
     return item
 
 

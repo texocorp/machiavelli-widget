@@ -8,22 +8,23 @@ machiavelli_engine.py
 【生成プロセスの設計方針】
 処理を4つの明確な役割に分離し、それぞれ何が(誰が)担当するかを固定している:
 
-  1. 箴言を選ぶ            … pick_quote()            常にPythonが決定的に選ぶ
+  1. 箴言を選ぶ            … select_quote()          Pythonが候補を絞り、LLMが1件を選ぶ
   2. 分析文を1文だけ得る    … _get_analysis()         LLM(失敗時はテンプレート)
-  3. 分析文+引用+出典を結合 … generate_commentary()内  常にPythonが機械的に結合
+  3. 分析文+引用+出典を結合 … _assemble_body()        常にPythonが機械的に結合
   4. 先頭にURLを付加        … _prepend_source_link()  常にPythonが決定的に付加
 
-LLMに任せるのは「ニュースの本質を一文で言い当てる」ことだけであり、
-引用文・出典・URLにはLLMを一切関与させない。これにより、LLMが失敗・迷走しても
-影響は分析文1文に限定され、引用の正確さや出典表記は常に保証される。
+LLMに任せるのは「候補の中から当てはまる箴言の番号を選ぶ」ことと
+「ニュースの本質を一文で言い当てる」ことだけであり、引用文・出典・URLの
+文字列にはLLMを一切関与させない。これにより、LLMが失敗・迷走しても
+引用の正確さや出典表記は常に保証される。
 
-【箴言のローテーション】
-pick_quote() は、直近5回の投稿で使った箴言を(同テーマ内に他の
-選択肢がある限り)避け、さらに残った候補の中では通算使用回数が
-最も少ないものを優先する。これにより、特定の箴言ばかりが繰り返し
-引用されることを防ぎ、データベース全体をまんべんなく活用する。
-使用履歴は logs/recent_quotes.json・logs/quote_usage.json に
-永続化され、generate_commentary() が実際に採用した箴言についてのみ記録する。
+【箴言の選び方】
+data/quotes.json の箴言(原典の章・節まで確認済み)にはそれぞれ複数のテーマの
+タグと「当てはまる場面」が付いている。select_quote() は記事のテーマ・場面の語と
+照らして候補を8件に絞り、LLM に最もよく当てはまる1件を選ばせる。
+直近30回の投稿で使った箴言は候補から外す。使用履歴は
+logs/recent_quotes.json・logs/quote_usage.json に永続化され、
+generate_commentary() が実際に採用した箴言についてのみ記録する。
 
 分析文の生成は以下の優先順で試み、失敗したら次にフォールバックする:
   1. ollama : 無料・独立のローカルLLM(Ollamaが起動している場合、既定で最優先)
@@ -50,7 +51,15 @@ from geopolitical_scorer import NewsItem, clean_news_text, facts_for_prompt
 QUOTES_PATH = os.path.join(os.path.dirname(__file__), "data", "quotes.json")
 
 with open(QUOTES_PATH, "r", encoding="utf-8") as f:
-    QUOTES_DB = json.load(f)["themes"]
+    QUOTES = json.load(f)["quotes"]
+
+QUOTES_BY_ID = {q["id"]: q for q in QUOTES}
+
+# テーマ名 -> そのテーマのタグを持つ箴言の一覧(1つの箴言が複数テーマに属しうる)
+QUOTES_DB = {}
+for _q in QUOTES:
+    for _t in _q["tags"]:
+        QUOTES_DB.setdefault(_t, []).append(_q)
 
 THEME_ANALYSIS_TEMPLATES = {
     "alleanze_dipendenza": [
@@ -94,12 +103,22 @@ THEME_ANALYSIS_TEMPLATES = {
         "{frag}は、時勢の変化を捉えて動く力量が問われる局面を示している。",
         "{frag}における「{kw}」は、運命が開いた好機であり、これを掴むも逃すも当事者の力量次第である。",
     ],
+    "economia": [
+        "{frag}は、金銭と資源の流れがそのまま力の配分を決めることを示している。",
+        "{frag}に見る「{kw}」は、剣を交えずに相手を締め上げる、もう一つの戦である。",
+    ],
+    "consiglio": [
+        "{frag}は、君主の器量がその周りに置く人間によって測られることを示している。",
+        "{frag}に表れた人の配置こそ、指導者の判断の質を映す鏡である。",
+    ],
 }
 
 
 RECENT_QUOTES_PATH = os.path.join(os.path.dirname(__file__), "logs", "recent_quotes.json")
 QUOTE_USAGE_PATH = os.path.join(os.path.dirname(__file__), "logs", "quote_usage.json")
-RECENT_QUOTES_WINDOW = 5  # 直近何回分の投稿で重複を避けるか
+# 直近何回分の投稿で使った箴言を候補から外すか。
+# 箴言が122件あるので、30回(約6日分)は同じ箴言が二度と出ないようにしている。
+RECENT_QUOTES_WINDOW = 30
 
 
 def _load_json_file(path: str, default):
@@ -144,38 +163,147 @@ def record_quote_usage(quote_id: str) -> None:
     _save_json_file(QUOTE_USAGE_PATH, usage)
 
 
-def pick_quote(theme: str) -> dict:
-    """
-    テーマに合う箴言を1つ選ぶ。「なるべく多くの箴言をまんべんなく活用する」ため、
-    以下の優先順位(LRU: Least Recently Used)で選定する:
+# ---------------------------------------------------------------
+# 箴言の選び方
+# ---------------------------------------------------------------
+#
+# 【以前の方式とその問題】
+# 以前は、記事ごとにテーマを1つだけ決め、そのテーマの箴言(2〜3件)の中で
+# 順番に回すだけだった。箴言の中身と記事の中身は照らし合わされず、
+# 分析文も箴言を見ずに書かれていた。公開分53件のうち33件が「戦争」テーマで、
+# その2件の箴言が交互に使われ、24件中14件は一度も使われなかった。
+#
+# 【現在の方式】
+#   1. 候補を絞る: 記事が当たった全テーマ(item.themes)と、各箴言の
+#      「適用場面」に含まれる語が記事に出てくるかで、関連度の点数を付ける
+#   2. 直近30回の投稿で使った箴言は候補から外す
+#   3. 関連度の高い順(同点なら通算使用回数の少ない順)に上位8件を残す
+#   4. LLM に、記事の見出し・概要と8件の候補を見せ、最もよく当てはまる
+#      1件を番号で選ばせる(LLM が使えない・答えが読めない時は1位を採用)
+#   5. 分析文は、選ばれた箴言を踏まえて書かせる(_get_analysis に渡す)
 
-      1. 最も長く使われていない(直近の使用履歴に無い、または履歴上より古い)
-         箴言を最優先する。プールが小さいテーマでも、これにより
-         「2件しかないテーマで同じ箴言が連続で選ばれる」ような事態を避けられる。
-      2. 同率で並んだ場合は、通算使用回数が最も少ないものを優先する。
-      3. さらに同率の場合はランダムに選ぶ。
+CANDIDATE_COUNT = 8      # LLM に見せる候補の数
+MIN_RELATED = 4          # 関連する候補がこれより少なければ、関連の薄い箴言も候補に加える
 
-    使用履歴は logs/recent_quotes.json(直近RECENT_QUOTES_WINDOW件、新しい順)、
-    通算使用回数は logs/quote_usage.json に永続化される。
+
+# 適用場面に頻出するが、どの記事にも出てきうるため手がかりにならない語
+_SCENE_STOPWORDS = {
+    "指導者", "外交", "危機", "他国", "行動", "国家", "構図", "対応", "結果", "政治",
+    "選択", "判断", "態度", "情勢", "国内", "政策", "支持", "安定", "大胆", "決断",
+    "限界", "動機", "失敗", "場合", "状況", "問題", "関係", "一方", "自国",
+}
+_SCENE_TERM = re.compile(r"[一-龥々ァ-ヴー]{2,}")
+
+
+def _scene_words(quote: dict) -> list:
+    """適用場面の文(「封鎖、経済制裁、兵糧攻め」など)から、漢字・カタカナの語句を取り出す。"""
+    return [w for w in dict.fromkeys(_SCENE_TERM.findall(quote.get("scene", "")))
+            if w not in _SCENE_STOPWORDS]
+
+
+def _quote_relevance(quote: dict, themes: list, news_text: str) -> int:
     """
-    pool = QUOTES_DB.get(theme) or QUOTES_DB["necessita"]
-    recent_ids = load_recent_quote_ids()  # 新しい順のリスト
+    箴言と記事の関連度。
+      ・記事のテーマとの一致: 主テーマなら3点、2番目なら2点、それ以降は1点
+      ・適用場面の語が記事の見出し・概要に出てくれば、1語につき2点(最大6点)
+    """
+    score = 0
+    for idx, theme in enumerate(themes):
+        if theme in quote["tags"]:
+            score += max(3 - idx, 1)
+    score += 2 * min(sum(1 for w in _scene_words(quote) if w in news_text), 3)
+    return score
+
+
+def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
+    """記事に対する箴言の候補を、関連度の高い順に count 件返す(直近の使用分は除く)。"""
+    themes = getattr(item, "themes", None) or [item.theme or "necessita"]
+    title, summary = facts_for_prompt(item)
+    news_text = f"{title} {summary}"
+    recent = set(load_recent_quote_ids())
     usage = load_quote_usage()
 
-    def recency_rank(qid):
-        # 直近履歴に無ければ「一番古い(=最優先で選んでよい)」scoreとして扱う。
-        # 履歴にあれば、そのインデックス(0が最も最近)をそのままscoreにする
-        # ことで、「値が大きいほど、より長く使われていない」という指標にする。
-        if qid in recent_ids:
-            return recent_ids.index(qid)
-        return len(recent_ids)
+    pool = [q for q in QUOTES if q["id"] not in recent] or list(QUOTES)
+    scored = [(_quote_relevance(q, themes, news_text), q) for q in pool]
+    random.shuffle(scored)  # 完全な同点の並びを毎回変える
+    scored.sort(key=lambda sq: (-sq[0], usage.get(sq[1]["id"], 0)))
 
-    max_rank = max(recency_rank(q.get("id")) for q in pool)
-    candidates = [q for q in pool if recency_rank(q.get("id")) == max_rank]
+    related = [q for s, q in scored if s > 0]
+    if len(related) >= MIN_RELATED:
+        return related[:count]
+    others = [q for s, q in scored if s == 0]
+    return (related + others)[:count]
 
-    min_count = min(usage.get(q.get("id"), 0) for q in candidates)
-    least_used = [q for q in candidates if usage.get(q.get("id"), 0) == min_count]
-    return random.choice(least_used)
+
+QUOTE_CHOICE_PROMPT = """次のニュースに、マキャベリの箴言を一つ添えて論評する。
+候補の中から、このニュースの本質に最もよく当てはまる箴言を一つ選べ。
+
+ニュース見出し: {title}
+概要: {summary}
+
+候補:
+{candidates}
+
+選ぶ基準:
+- ニュースに登場する主体の行動や置かれた立場に、箴言の述べる理が直接当てはまること
+- 言葉が似ているだけのものではなく、構図が一致するものを選ぶこと
+
+答えは候補の番号(半角数字)だけを書け。
+"""
+
+
+# 直近の generate_commentary() で採用した箴言のidと、その選び方("llm" / "rule")。
+# generate_feed.py が feed.json に記録する。
+LAST_QUOTE_ID = None
+LAST_QUOTE_CHOICE = None
+
+
+def _choose_quote_with_ollama(item: NewsItem, candidates: list) -> dict:
+    """候補の中から、LLM(Ollama)に最もよく当てはまる箴言を番号で選ばせる。"""
+    host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+    model = os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
+    title, summary = facts_for_prompt(item)
+    listing = "\n".join(
+        f"{i}. 「{q['ja']}」(当てはまる場面: {q['scene']})" for i, q in enumerate(candidates, 1)
+    )
+    answer = _ollama_generate(
+        host, model,
+        QUOTE_CHOICE_PROMPT.format(title=title, summary=summary, candidates=listing),
+        {"temperature": 0.0, "top_k": 1, "num_predict": 8},
+    )
+    m = re.search(r"\d+", answer.translate(str.maketrans("０１２３４５６７８９", "0123456789")))
+    if not m or not (1 <= int(m.group()) <= len(candidates)):
+        raise ValueError(f"箴言の選択結果を読み取れない: {answer!r}")
+    return candidates[int(m.group()) - 1]
+
+
+def select_quote(item: NewsItem, prefer_llm: bool = True) -> dict:
+    """
+    記事に添える箴言を1つ選ぶ(使用履歴の記録は呼び出し側が行う)。
+    prefer_llm=True なら、関連度上位の候補から LLM に最適な1件を選ばせる。
+    """
+    global LAST_QUOTE_CHOICE
+    candidates = rank_quote_candidates(item)
+    if prefer_llm and len(candidates) > 1:
+        try:
+            quote = _choose_quote_with_ollama(item, candidates)
+            LAST_QUOTE_CHOICE = "llm"
+            print(f"[箴言] 候補{len(candidates)}件からLLMが選択: {quote['id']}({quote['source']})")
+            return quote
+        except Exception as e:
+            print(f"[箴言] LLMによる選択ができず、関連度1位を採用します: {e}")
+    LAST_QUOTE_CHOICE = "rule"
+    print(f"[箴言] 関連度1位を採用: {candidates[0]['id']}({candidates[0]['source']})")
+    return candidates[0]
+
+
+def pick_quote(theme: str) -> dict:
+    """
+    テーマだけを手がかりに箴言を1つ選ぶ(旧来の呼び出し口。LLMは使わない)。
+    記事がある場合は select_quote(item) を使うこと。
+    """
+    return select_quote(NewsItem(title="", summary="", source="", theme=theme, themes=[theme]),
+                        prefer_llm=False)
 
 
 def _trim_japanese(text: str, max_len: int) -> str:
@@ -241,10 +369,9 @@ def _build_analysis(item: NewsItem) -> str:
 # 記事URL(200字を超えることが多い)が字数の大半を占め、本文側が
 # 削られて、箴言が途中で切れたり出典が丸ごと消えたりしていた。
 #
-# 現在は本文だけに上限を適用する。上限の250字は、Xに投稿する場合でも
-# 収まる値である(XはURLの長さに関係なく一律23字として数えるため、
-# 23字+改行+本文250字で280字以内になる)。サイト表示ではURLは
-# 「〇〇の記事より」というリンクに置き換わるので、長さは問題にならない。
+# 現在は本文だけに上限を適用する。サイト表示ではURLは
+# 「〇〇の記事より」というリンクに置き換わるので、URLの長さは問題にならない。
+# 250字は、ウィジェットの枠内で読み切れる長さとして決めた値である。
 BODY_MAX_CHARS = 250
 
 
@@ -267,7 +394,7 @@ def _build_draft(item: NewsItem, max_chars: int = BODY_MAX_CHARS) -> str:
     テーマ別分析文 + 箴言 + 出典からなる本文を組み立てる(URLは含まない)。
     定型合成モード(テンプレート)の本体。
     """
-    return _assemble_body(_build_analysis(item), pick_quote(item.theme), max_chars)
+    return _assemble_body(_build_analysis(item), select_quote(item, prefer_llm=False), max_chars)
 
 
 def generate_commentary_template(item: NewsItem, max_chars: int = BODY_MAX_CHARS) -> str:
@@ -340,6 +467,13 @@ ANALYSIS_PROMPT = """次のニュースの本質を、マキャベリの現実�
 
 ニュース見出し: {title}
 概要: {summary}
+
+この分析文のあとに、次のマキャベリの言葉を引用として添える:
+「{quote}」
+
+分析文はこの言葉への導入になるように書け。言葉の述べる理が、
+このニュースのどの主体のどの行動・立場に当てはまるのかを具体的に示すこと。
+ただし言葉そのものを言い換えて繰り返すだけの文にはしないこと。
 
 最優先の条件(事実の扱い):
 - 根拠にしてよい事実は、上の見出しと概要に書かれていることだけである。
@@ -453,7 +587,7 @@ def _normalize_for_match(text: str) -> str:
     return text.replace("・", "")
 
 
-def _check_grounded_terms(analysis: str, title: str, summary: str) -> None:
+def _check_grounded_terms(analysis: str, title: str, summary: str, quote_text: str = "") -> None:
     """
     分析文に現れるカタカナ語(人名・地名・組織名の多くはカタカナ)、英字、数字が、
     見出し・概要に実際に含まれているかを機械的に照合する。
@@ -467,7 +601,8 @@ def _check_grounded_terms(analysis: str, title: str, summary: str) -> None:
             「北朝鮮がスタバを要塞化」と読む誤り)。こちらは下記の
             _verify_with_ollama による事実照合で対処する。
     """
-    source = _normalize_for_match(f"{title} {summary}")
+    # 添える箴言に出てくる語(「ローマ人」など)は、分析文で触れても作話ではない
+    source = _normalize_for_match(f"{title} {summary} {quote_text}")
     norm = _normalize_for_match(analysis)
     missing = []
     for pattern in (_KATAKANA_RUN, _LATIN_RUN, _DIGIT_RUN):
@@ -567,7 +702,7 @@ def _verify_with_ollama(host: str, model: str, analysis: str, title: str, summar
         print(f"[分析文] 事実照合の判定を読み取れず、通過させました: {verdict!r}")
 
 
-def _analysis_via_ollama(item: NewsItem, attempts: int = 3) -> str:
+def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
     """
     無料・独立のローカルLLM(Ollama)に、分析文1文だけを書かせる。
     外部APIに一切データを送らず、ローカル(またはCI実行環境内)で完結する。
@@ -602,7 +737,7 @@ def _analysis_via_ollama(item: NewsItem, attempts: int = 3) -> str:
     model = os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
 
     title, summary = facts_for_prompt(item)
-    prompt = ANALYSIS_PROMPT.format(title=title, summary=summary)
+    prompt = ANALYSIS_PROMPT.format(title=title, summary=summary, quote=quote["ja"])
     options = {
         "temperature": 0.5,
         "top_p": 0.8,
@@ -617,7 +752,7 @@ def _analysis_via_ollama(item: NewsItem, attempts: int = 3) -> str:
     for attempt in range(1, attempts + 1):
         try:
             text = _validate_analysis(_ollama_generate(host, model, prompt, options))
-            _check_grounded_terms(text, title, summary)
+            _check_grounded_terms(text, title, summary, quote["ja"])
             _verify_with_ollama(host, model, text, title, summary)
             return text
         except ValueError as e:
@@ -626,7 +761,7 @@ def _analysis_via_ollama(item: NewsItem, attempts: int = 3) -> str:
     raise last_error
 
 
-def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
+def _analysis_via_anthropic(item: NewsItem, quote: dict, model: str = None) -> str:
     """
     Anthropic APIに、分析文1文だけを書かせる。
     環境変数 ANTHROPIC_API_KEY が設定されている場合のみ有効。
@@ -645,12 +780,12 @@ def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
         max_tokens=150,
         messages=[{
             "role": "user",
-            "content": ANALYSIS_PROMPT.format(title=title, summary=summary),
+            "content": ANALYSIS_PROMPT.format(title=title, summary=summary, quote=quote["ja"]),
         }],
     )
     text = "".join(block.text for block in msg.content if block.type == "text")
     text = _validate_analysis(text)
-    _check_grounded_terms(text, title, summary)
+    _check_grounded_terms(text, title, summary, quote["ja"])
     return text
 
 
@@ -659,7 +794,7 @@ def _analysis_via_anthropic(item: NewsItem, model: str = None) -> str:
 LAST_ANALYSIS_SOURCE = None
 
 
-def _get_analysis(item: NewsItem, prefer_llm: bool = True) -> str:
+def _get_analysis(item: NewsItem, quote: dict, prefer_llm: bool = True) -> str:
     """
     分析文(1文)を得る。優先順位:
       1. Ollama(無料・ローカル、既定で最優先)
@@ -674,7 +809,7 @@ def _get_analysis(item: NewsItem, prefer_llm: bool = True) -> str:
     if prefer_llm:
         model = os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
         try:
-            text = _analysis_via_ollama(item)
+            text = _analysis_via_ollama(item, quote)
             LAST_ANALYSIS_SOURCE = f"ollama:{model}"
             print(f"[分析文] Ollama({model}) で生成しました")
             return text
@@ -682,7 +817,7 @@ def _get_analysis(item: NewsItem, prefer_llm: bool = True) -> str:
             print(f"[分析文] Ollama({model}) を使えませんでした: {e}")
         if os.environ.get("ANTHROPIC_API_KEY"):
             try:
-                text = _analysis_via_anthropic(item)
+                text = _analysis_via_anthropic(item, quote)
                 LAST_ANALYSIS_SOURCE = "anthropic"
                 print("[分析文] Anthropic API で生成しました")
                 return text
@@ -698,8 +833,8 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     メインエントリポイント。つぶやきを組み立てる。
 
     処理の流れ(常にこの順序・この役割分担で行われる):
-      1. 箴言を選ぶ               … pick_quote()             (決定的・直近5回の重複回避+偏り是正)
-      2. 分析文を1文だけ得る       … _get_analysis()          (LLM、失敗時はテンプレート)
+      1. 箴言を選ぶ               … select_quote()           (候補8件に絞り、LLMが1件を選ぶ)
+      2. 分析文を1文だけ得る       … _get_analysis()          (選んだ箴言を踏まえてLLMが書く。失敗時はテンプレート)
       3. 分析文+引用+出典を結合    … ここで直接組み立てる       (決定的・Pythonが結合)
       4. 先頭に元記事URLを付加     … _prepend_source_link()  (決定的・常に正確)
 
@@ -710,12 +845,14 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     箴言の選定と同時に使用履歴(record_quote_usage)を記録する。
     プレビュー目的で候補を試すだけの場合は generate_commentary_template を使うこと。
     """
-    quote = pick_quote(item.theme)
-    analysis = _get_analysis(item, prefer_llm=prefer_llm)
+    global LAST_QUOTE_ID
+    quote = select_quote(item, prefer_llm=prefer_llm)
+    analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
     body = _assemble_body(analysis, quote, max_chars)
     result = _prepend_source_link(body, item)
 
-    if quote.get("id"):
-        record_quote_usage(quote["id"])
+    LAST_QUOTE_ID = quote.get("id")
+    if LAST_QUOTE_ID:
+        record_quote_usage(LAST_QUOTE_ID)
 
     return result

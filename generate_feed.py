@@ -85,6 +85,11 @@ def main():
         # 分析文の生成元("ollama:qwen3.5:9b" / "anthropic" / "template")。
         # ウィジェットには表示されない。動作確認・品質比較用の記録。
         "generator": machiavelli_engine.LAST_ANALYSIS_SOURCE,
+        # 記事が当たった全テーマと、採用した箴言のid・選び方("llm" / "rule")。
+        # 箴言の偏りを後から点検するための記録。ウィジェットには表示されない。
+        "themes": item.themes,
+        "quote_id": machiavelli_engine.LAST_QUOTE_ID,
+        "quote_choice": machiavelli_engine.LAST_QUOTE_CHOICE,
     }
 
     feed = load_feed()
