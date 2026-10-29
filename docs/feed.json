@@ -1,5 +1,24 @@
 [
   {
+    "id": "4565601f1ec8",
+    "timestamp": "2026-10-29T12:09:13.646352+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JV2hsRlpQcWFpdUppcFo5b1puRXJSamwwUEotQnBSZkVBT2lPWmxtd21lTEJtdWlwOFpsVXJnRlE1dEhHRWF0NVhhTkN1dW1JS1RycFdZMlFwZWVFd0pOVHhfNUlMY05UYUx1aFM5Z1ZCSFhyS0kxQ1FhQ2xpeXM?oc=5\nゼレンスキーの涙は情弱であり、退陣という大胆な決断こそが現状打開の唯一の道だ。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "涙を浮かべたゼレンスキーは、なぜ退陣すべきなのか（ニューズウィーク日本版） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JV2hsRlpQcWFpdUppcFo5b1puRXJSamwwUEotQnBSZkVBT2lPWmxtd21lTEJtdWlwOFpsVXJnRlE1dEhHRWF0NVhhTkN1dW1JS1RycFdZMlFwZWVFd0pOVHhfNUlMY05UYUx1aFM5Z1ZCSFhyS0kxQ1FhQ2xpeXM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "economia",
+      "fortuna_virtu"
+    ],
+    "quote_id": "D3.44",
+    "quote_choice": "llm"
+  },
+  {
     "id": "067a9a8f2047",
     "timestamp": "2026-10-28T22:10:47.553672+00:00",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdE1FbWhjRjM2d3ppb2FDZEtqQk90OENDdld2eVdXZGZqSWxsdWZsNFVIRkNCRzBldlRhYlFocThpX25DU2Z5YUxKRVZGSC1keXhjU01UdW1LaG9CZFNyd2QzVzdQU3VSX2oySG9zQXZrdjJXSk8xSkp5bkM5TDRRZEVRVi1IX1U?oc=5\nカタール政府高官の拒否姿勢こそが、イランとの新合意案という事実を無効化する現実的な力の表れである。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
@@ -292,15 +311,5 @@
     "source": "BBC World",
     "source_title": "Trump says Musk has restored access to Ukraine's Starlink network",
     "source_url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "2370acd20efb",
-    "timestamp": "2026-10-22T23:50:44.935116+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EaFNNblhWNTVJNHI4Z3RCaVVUQUo5OERfRHAzNTRoUWpuUFhGNG9XaU5EWGdOZWRVdUhLRlljSGVtazhKZ1RUdkE4a0l6RnN5Vm44R0FZd2UxNG1nUnFLTkdn?oc=5\n北朝鮮の要塞化はマキャベリの視座から現実主義的観点では軍事衝突の可能性を高める。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
-    "theme": "necessita",
-    "score": 5,
-    "source": "Google News 国際(World)",
-    "source_title": "北朝鮮、南北軍事境界線沿いに地雷や鉄柵設置し「要塞化」…韓国との武力衝突懸念高まる - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EaFNNblhWNTVJNHI4Z3RCaVVUQUo5OERfRHAzNTRoUWpuUFhGNG9XaU5EWGdOZWRVdUhLRlljSGVtazhKZ1RUdkE4a0l6RnN5Vm44R0FZd2UxNG1nUnFLTkdn?oc=5"
   }
 ]
