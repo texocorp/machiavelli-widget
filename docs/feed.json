@@ -1,5 +1,19 @@
 [
   {
+    "id": "e4b4dadca1cb",
+    "timestamp": "2026-10-30T00:35:01.680279+00:00",
+    "text": "https://www.aljazeera.com/news/2026/10/29/palestinians-injured-arrested-in-israeli-raids-across-west-bank?traffic_source=rss\nPalestinians injured, arres…の核心は「military」がもたらす必要性にあり、正当化の言葉は後付けに過ぎぬ。\n「弱い国家は決断が下手で、熟慮することができぬ。何かを選ぶとしても、それは自らの選択ではなく、必要に迫られてのことである。」\n『リウィウス論 I.38』",
+    "theme": "necessita",
+    "score": 4,
+    "source": "Al Jazeera",
+    "source_title": "Palestinians injured, arrested in Israeli raids across West Bank",
+    "source_url": "https://www.aljazeera.com/news/2026/10/29/palestinians-injured-arrested-in-israeli-raids-across-west-bank?traffic_source=rss",
+    "generator": "template",
+    "themes": [],
+    "quote_id": "D1.38",
+    "quote_choice": "llm"
+  },
+  {
     "id": "b8627eead767",
     "timestamp": "2026-10-29T20:03:42.140132+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJMkdxd1VGdFJCVEt3c0N2R2phanRRa1JEM3hlZFFzRm95bklBZjhDcDFnUVp3ejZGUlhGbWxFazZwbjZnd21KaUZsSWFhbUtyZEE0bWtuWVhkWDd4ZFR2Z3Nn?oc=5\nトランプ氏がイスラエル総選挙で影響力を再確認したと見なす行為は、自らの権力を固めつつ他者の自律性を容認せず、やがてその都市に打ち砕かれると覚悟せよ。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
@@ -309,15 +323,5 @@
     "source": "Google News 国際(World)",
     "source_title": "米中間選挙への焦りで演説繰り返すトランプ、効果は裏目にも…迷う共和党候補の距離感（Wedge（ウェッジ）） - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50RG03MWJOazNDQV9MWDk3T3FuekRnTWdNeC1SU2wwLVFnM29qMnVXNlFkT0Q4cGZkY1ZaYkJnNnAydjBQT2VTbGZRTkIyaDdlSzVuTEljN3dYaHZqZ193ODc0M3RaRGNqRnE3ZE1LY0FvQUc2WFRvM0J6dUpYVVk?oc=5"
-  },
-  {
-    "id": "860447dc9caa",
-    "timestamp": "2026-10-23T08:13:48.660589+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFcEN0ZzFuMUJSN1didXRfdWtKaUVTdlpFNTVtdFZ5VXV4dnR5cFVWX2YzRDNBLXlTWGh0M3lkdGlXSDNqM0FzeEhvSF9uX3FFQUs3Tzd5YUZwZlV0aExBUGpB?oc=5\nトランプとマスクのやりとりで起きたスターリンク制限は、ゼレンスキーの言う「回復していない」現実に突きつけられる。\n「二つの強国の間にあって、身の処し方を定めぬ君主は、まず安全には生きられぬ。",
-    "theme": "alleanze_dipendenza",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "スターリンクの通信速度制限、トランプ氏「マスク氏が解除した」…ゼレンスキー氏は「回復していない」 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFcEN0ZzFuMUJSN1didXRfdWtKaUVTdlpFNTVtdFZ5VXV4dnR5cFVWX2YzRDNBLXlTWGh0M3lkdGlXSDNqM0FzeEhvSF9uX3FFQUs3Tzd5YUZwZlV0aExBUGpB?oc=5"
   }
 ]
