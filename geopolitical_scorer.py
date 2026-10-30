@@ -28,6 +28,18 @@ class NewsItem:
     matched_keywords: list = field(default_factory=list)
     # 記事が当たった全テーマ(優先順位順)。theme はその先頭(主テーマ)
     themes: list = field(default_factory=list)
+    # 英語などの記事を日本語に訳した見出し・概要(machiavelli_engine.ensure_japanese が設定)。
+    # 設定されていれば、分析・箴言選び・事実照合はすべてこちらを使う。
+    title_ja: str = ""
+    summary_ja: str = ""
+
+
+_JAPANESE_CHARS = re.compile(r"[ぁ-んァ-ヴ一-龥]")
+
+
+def is_japanese(text: str) -> bool:
+    """見出しが日本語で書かれているか(ひらがな・カタカナ・漢字が一定数あるか)。"""
+    return len(_JAPANESE_CHARS.findall(text or "")) >= 3
 
 
 def clean_news_text(text: str) -> str:
@@ -72,8 +84,12 @@ def facts_for_prompt(item: "NewsItem") -> tuple:
       と明示する。情報が見出しだけであることをモデルに自覚させ、
       見出しに無い事情を補って作文するのを抑えるため。
 
+    ・英語などの記事で、日本語訳(item.title_ja)があればそちらを返す
+
     item.title 自体は書き換えない(重複判定のハッシュに使われているため)。
     """
+    if getattr(item, "title_ja", ""):
+        return item.title_ja, (item.summary_ja or "(見出し以外の情報なし)")
     title = clean_news_text(item.title)
     summary = clean_news_text(item.summary)
     if "news.google.com" in (item.url or ""):
@@ -143,33 +159,40 @@ TOPIC_KEYWORDS = {
     "war_conflict": [
         "台湾有事", "侵攻", "戦争", "invasion", "war", "封鎖", "攻撃", "反撃", "報復",
         "空爆", "爆撃", "ミサイル", "武力行使", "交戦", "砲撃", "戦闘", "軍事作戦", "侵入",
-        "ドローン", "撃墜", "占領", "前線",
+        "ドローン", "撃墜", "占領", "前線", "急襲", "襲撃", "殺害", "死者", "部隊",
+        "raid", "raids", "attack", "attacks", "strike", "strikes", "airstrike", "airstrikes",
+        "killed", "troops", "military", "missile", "missiles", "drone", "drones",
     ],
     "deterrence_fear": [
         "抑止", "威嚇", "核", "nuclear", "deterrence", "軍事的圧力", "軍事演習", "演習",
         "示威", "武力誇示", "挑発", "警告", "自走砲", "大砲", "砲口",
+        "threat", "threatens", "warning", "drills",
     ],
     "military_alliance": [
         "米軍", "駐留", "基地", "同盟", "alliance", "NATO", "地位協定", "共同訓練",
         "結束", "安保", "日米", "米韓", "防衛協力", "条約", "後ろ盾", "支援",
+        "ally", "allies", "treaty",
     ],
     "deception_diplomacy": [
         "外交", "会談", "声明", "首脳会議", "サミット", "共同声明", "停戦", "和平",
         "交渉", "仲介", "合意", "訪問", "外相", "国務長官", "特使",
         "訪中", "訪米", "訪朝", "訪露", "訪日",
+        "talks", "ceasefire", "truce", "summit", "envoy", "deal", "negotiations",
     ],
     "empire_decline": [
         "覇権", "秩序", "衰退", "国際秩序", "崩壊", "クーデター", "政権交代", "後継",
-        "最高指導者", "体制", "台頭", "大国",
+        "最高指導者", "体制", "台頭", "大国", "coup", "regime",
     ],
     "domestic_populace": [
         "世論", "選挙", "内政", "支持率", "デモ", "抗議", "議会", "政局", "中間選挙",
         "大統領選", "国民", "不支持", "分断", "暴動",
+        "election", "elections", "protest", "protests", "parliament", "vote",
     ],
     "neutrality_choice": ["中立", "neutral", "日和見", "両天秤", "どっちつかず"],
     "economy": [
         "関税", "制裁", "経済", "原油", "石油", "エネルギー", "資源", "輸出", "輸入",
         "投資", "財政", "インフレ", "物価", "ガソリン", "援助", "貿易", "製油所", "市場",
+        "tariff", "tariffs", "sanctions", "oil", "trade", "economy", "aid",
     ],
     "advisors": [
         "側近", "閣僚", "長官", "補佐官", "内閣", "人事", "更迭", "辞任", "解任", "顧問",
@@ -234,7 +257,6 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> 
 
     total = 0
     matched = []
-    matched_topics = set()
 
     for level, words in weights.items():
         pts = {"high": 4, "medium": 2, "low": 1}[level]
@@ -243,15 +265,26 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> 
                 total += pts
                 matched.append(w)
 
+    item.score = total
+    item.matched_keywords = matched
+    return classify_themes(item)
+
+
+def classify_themes(item: NewsItem) -> NewsItem:
+    """
+    記事が当たるテーマを全て拾い、item.themes(優先順位順)と item.theme(先頭)に設定する。
+    英語の記事は、日本語訳(item.title_ja)が付いた後にもう一度呼ぶと、
+    日本語の手がかり語でも判定し直される。
+    """
     # テーマの判定には、見出し末尾の媒体名(「 - 日本経済新聞」など)を除いた
     # 文を使う。媒体名の「経済」に当たって経済テーマにされるのを防ぐため。
     topic_text = f"{_MEDIA_SUFFIX.sub('', clean_news_text(item.title))} {clean_news_text(item.summary)}"
+    if getattr(item, "title_ja", ""):
+        topic_text += f" {item.title_ja} {item.summary_ja}"
+    matched_topics = set()
     for topic, keywords in TOPIC_KEYWORDS.items():
         if any(_keyword_hit(kw, topic_text) for kw in keywords):
             matched_topics.add(topic)
-
-    item.score = total
-    item.matched_keywords = matched
 
     # 当たったトピックを優先順位(TOPIC_PRIORITY)の順に並べ、テーマ名に直して記録する。
     # 先頭が主テーマ(item.theme)。「一致数が最も多いトピック」ではなく

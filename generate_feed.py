@@ -16,6 +16,7 @@ GitHub Actions などのスケジューラから定期的に呼び出す想定�
 import datetime
 import json
 import os
+import re
 
 from geopolitical_scorer import load_scoring_config, rank_news
 import machiavelli_engine
@@ -33,6 +34,18 @@ def load_feed() -> list:
         with open(FEED_PATH, "r", encoding="utf-8") as f:
             return json.load(f)
     return []
+
+
+# 本文に英語の文(英単語が3語以上続く箇所)が混ざっているか。
+# 1行目のURLは除いて調べる。「cap.XVII」のような出典表記は1語なので当たらない。
+_ENGLISH_RUN = re.compile(r"[A-Za-z]+(?:[ ,'’-]+[A-Za-z]+){2,}")
+
+
+def has_english_text(text: str) -> bool:
+    lines = text.split("\n")
+    if lines and lines[0].startswith("http"):
+        lines = lines[1:]
+    return bool(_ENGLISH_RUN.search("\n".join(lines)))
 
 
 def save_feed(feed: list):
@@ -63,6 +76,13 @@ def main():
             continue
         if item.score < scoring_cfg["minimum_score"]:
             continue  # 閾値未満、または除外キーワードに一致(score=-1)
+        # 英語などの記事は、先に日本語に訳す。訳せなければこの記事は見送り、
+        # 次の候補に進む(英語が本文に混ざった論評を出さないため)。
+        try:
+            machiavelli_engine.ensure_japanese(item)
+        except Exception as e:
+            print(f"[SKIP] 日本語に訳せないため見送り: {item.title} ({e})")
+            continue
         target = (item, h)
         break
 
@@ -81,6 +101,8 @@ def main():
         "score": item.score,
         "source": item.source,
         "source_title": item.title,
+        # 英語の記事を日本語に訳した見出し(日本語の記事では空)
+        "source_title_ja": item.title_ja,
         "source_url": item.url,
         # 分析文の生成元("ollama:qwen3.5:9b" / "anthropic" / "template")。
         # ウィジェットには表示されない。動作確認・品質比較用の記録。
@@ -92,7 +114,15 @@ def main():
         "quote_choice": machiavelli_engine.LAST_QUOTE_CHOICE,
     }
 
-    feed = load_feed()
+    if has_english_text(text):
+        # 最後の安全策。英語が混ざった論評は掲載しない
+        print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")
+        seen.add(h)  # 同じ記事で毎回やり直さないよう、取り上げ済みにする
+        save_seen(seen)
+        return
+
+    # 以前の版で掲載されてしまった、英語が混ざった論評も取り除く
+    feed = [e for e in load_feed() if not has_english_text(e.get("text", ""))]
     feed.insert(0, entry)
     feed = feed[:MAX_FEED_ITEMS]
     save_feed(feed)

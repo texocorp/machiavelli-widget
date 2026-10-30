@@ -46,7 +46,7 @@ import os
 import random
 import re
 import textwrap
-from geopolitical_scorer import NewsItem, clean_news_text, facts_for_prompt
+from geopolitical_scorer import NewsItem, clean_news_text, facts_for_prompt, is_japanese, classify_themes
 
 QUOTES_PATH = os.path.join(os.path.dirname(__file__), "data", "quotes.json")
 
@@ -357,8 +357,11 @@ def _build_analysis(item: NewsItem) -> str:
     """テーマとニュース固有の断片・キーワードから、その記事だけに合う分析文を組み立てる。"""
     templates = THEME_ANALYSIS_TEMPLATES.get(item.theme) or THEME_ANALYSIS_TEMPLATES["necessita"]
     template = random.choice(templates)
-    frag = _title_fragment(facts_for_prompt(item)[0])
-    kw = item.matched_keywords[0] if item.matched_keywords else "この動き"
+    title = facts_for_prompt(item)[0]
+    # 英語の見出しを日本語の文に差し込まないよう、訳が無ければ「この報道」で受ける
+    frag = _title_fragment(title) if is_japanese(title) else "この報道"
+    kws = [k for k in item.matched_keywords if not k.isascii()]
+    kw = kws[0] if kws else "この動き"
     return template.format(frag=frag, kw=kw)
 
 
@@ -681,6 +684,93 @@ def _ollama_generate(host: str, model: str, prompt: str, options: dict) -> str:
     return _strip_thinking(resp.json().get("response") or "")
 
 
+# ---------------------------------------------------------------
+# 英語の記事の日本語化
+# ---------------------------------------------------------------
+#
+# BBC・Al Jazeera など英語の配信から選ばれた記事は、見出しも概要も英語である。
+# そのまま扱うと、(1) 分析文に訳したカタカナの人名・地名が「見出しに無い語」と
+# 判定されて LLM の分析文が全て不合格になり、(2) 代わりのテンプレートに英語の
+# 見出しがそのまま差し込まれていた(「Palestinians injured, arres…の核心は」)。
+# そこで分析の前に見出しと概要を日本語に訳し、以後の処理は全て訳文で行う。
+
+TRANSLATE_PROMPT = """次の英語のニュースの見出しと概要を、日本語に正確に訳せ。
+
+見出し: {title}
+概要: {summary}
+
+条件:
+- 書かれている内容だけを訳し、説明や推測を付け加えない
+- 人名・地名・組織名は、日本の新聞で一般的な表記にする
+  (例: West Bank → ヨルダン川西岸、Hamas → ハマス)
+- 見出しは新聞の見出しらしく簡潔に、概要は「だ・である調」の文にする
+- 次の2行の形式だけで答えよ。他には何も書くな
+見出し: (訳)
+概要: (訳)
+"""
+
+_SUMMARY_TRANSLATE_MAX = 500  # 英語の概要は長いことがあるので、訳す前にこの字数で切る
+
+
+def _parse_translation(text: str, has_summary: bool) -> tuple:
+    title_m = re.search(r"見出し\s*[:：]\s*(.+)", text)
+    summary_m = re.search(r"概要\s*[:：]\s*(.+)", text)
+    if not title_m:
+        raise ValueError(f"訳の形式が読み取れない: {text!r}")
+    title_ja = _strip_bracket_annotations(title_m.group(1).strip().strip("「」『』\"'"))
+    summary_ja = summary_m.group(1).strip() if (summary_m and has_summary) else ""
+    for part in (title_ja, summary_ja):
+        if part and not is_japanese(part):
+            raise ValueError(f"訳が日本語になっていない: {part!r}")
+    if not (4 <= len(title_ja) <= 120):
+        raise ValueError(f"訳した見出しの長さが不正: {title_ja!r}")
+    return title_ja, summary_ja
+
+
+def ensure_japanese(item: NewsItem) -> bool:
+    """
+    記事が日本語でなければ、見出しと概要を日本語に訳して item.title_ja・item.summary_ja に入れ、
+    テーマも訳文で判定し直す。訳せなかった場合は例外を送出する(呼び出し側で記事を見送る)。
+    日本語の記事、または訳済みの記事には何もせず False を返す。訳した場合は True。
+    """
+    title = clean_news_text(item.title)
+    if is_japanese(title) or getattr(item, "title_ja", ""):
+        return False
+    summary = clean_news_text(item.summary or "")
+    if summary.startswith(title):
+        summary = summary[len(title):].strip(" -—")
+    summary = summary[:_SUMMARY_TRANSLATE_MAX]
+    prompt = TRANSLATE_PROMPT.format(title=title, summary=summary or "(なし)")
+
+    errors = []
+    host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+    model = os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
+    for attempt in range(2):
+        try:
+            answer = _ollama_generate(host, model, prompt,
+                                      {"temperature": 0.0, "top_k": 1, "num_predict": 400})
+            item.title_ja, item.summary_ja = _parse_translation(answer, bool(summary))
+            break
+        except Exception as e:
+            errors.append(f"Ollama: {e}")
+    else:
+        if not os.environ.get("ANTHROPIC_API_KEY"):
+            raise RuntimeError(f"英語の記事を日本語に訳せなかった: {errors}")
+        import anthropic  # pip install anthropic
+        client = anthropic.Anthropic()
+        msg = client.messages.create(
+            model=os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5"),
+            max_tokens=400,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        answer = "".join(b.text for b in msg.content if b.type == "text")
+        item.title_ja, item.summary_ja = _parse_translation(answer, bool(summary))
+
+    classify_themes(item)
+    print(f"[翻訳] {title} → {item.title_ja}")
+    return True
+
+
 def _verify_with_ollama(host: str, model: str, analysis: str, title: str, summary: str) -> None:
     """
     同じモデルに事実確認係として判定させ、「不適合」なら例外を送出する。
@@ -846,6 +936,14 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     プレビュー目的で候補を試すだけの場合は generate_commentary_template を使うこと。
     """
     global LAST_QUOTE_ID
+    if not is_japanese(clean_news_text(item.title)) and not item.title_ja:
+        try:
+            ensure_japanese(item)
+        except Exception as e:
+            # 訳せないまま進むと英語が本文に混ざるので、分析文はテンプレート
+            # (見出しを差し込まない形)に切り替える
+            print(f"[翻訳] {e}")
+            prefer_llm = False
     quote = select_quote(item, prefer_llm=prefer_llm)
     analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
     body = _assemble_body(analysis, quote, max_chars)
