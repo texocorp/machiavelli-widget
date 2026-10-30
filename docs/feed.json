@@ -1,16 +1,21 @@
 [
   {
-    "id": "e4b4dadca1cb",
-    "timestamp": "2026-10-30T00:35:01.680279+00:00",
-    "text": "https://www.aljazeera.com/news/2026/10/29/palestinians-injured-arrested-in-israeli-raids-across-west-bank?traffic_source=rss\nPalestinians injured, arres…の核心は「military」がもたらす必要性にあり、正当化の言葉は後付けに過ぎぬ。\n「弱い国家は決断が下手で、熟慮することができぬ。何かを選ぶとしても、それは自らの選択ではなく、必要に迫られてのことである。」\n『リウィウス論 I.38』",
-    "theme": "necessita",
+    "id": "c2795c197536",
+    "timestamp": "2026-10-30T02:01:48.099251+00:00",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVGQ1em4tMFNTWUxSMTVralVKRzM5UEpIMEFGZjRpRG5wRHNoVHhNaHRsNWVReDVyMUx4bEtZd29wUkNoVG5KYlBzX2NmRGh6UXM5TEtYMXE2dHpwOHd1RnlNb1lFVlBQbko1NkRvVzNRdmRMTjZXM0dIdjdKN1lFUWRaOHN0Rjg?oc=5\nフーシ派の未確認攻撃表明こそが、実行し終えるまで敵に隠し通した策ほど優れた策はないというマキャベリの言葉に合致する。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
     "score": 4,
-    "source": "Al Jazeera",
-    "source_title": "Palestinians injured, arrested in Israeli raids across West Bank",
-    "source_url": "https://www.aljazeera.com/news/2026/10/29/palestinians-injured-arrested-in-israeli-raids-across-west-bank?traffic_source=rss",
-    "generator": "template",
-    "themes": [],
-    "quote_id": "D1.38",
+    "source": "Google News 国際(World)",
+    "source_title": "フーシ派、サウジ最大製油所や空港を攻撃と表明 当局の確認なし | ロイター - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVGQ1em4tMFNTWUxSMTVralVKRzM5UEpIMEFGZjRpRG5wRHNoVHhNaHRsNWVReDVyMUx4bEtZd29wUkNoVG5KYlBzX2NmRGh6UXM5TEtYMXE2dHpwOHd1RnlNb1lFVlBQbko1NkRvVzNRdmRMTjZXM0dIdjdKN1lFUWRaOHN0Rjg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "economia"
+    ],
+    "quote_id": "AG3",
     "quote_choice": "llm"
   },
   {
