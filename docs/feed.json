@@ -1,5 +1,25 @@
 [
   {
+    "id": "f8ae02c90e93",
+    "timestamp": "2026-10-30T09:29:18.019475+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBldjdPVGU4bS13SHJGUUZfaG5ILTFxM0JFTVhxdHpTSk9VcGw3S0owZDdzdVB1bGtXdjQ0amgxM0Y4Zl9yY2tjMnZhUDB3VFpSMWNNT0V4SWlaVFIwQW5Yak1JVWFXQlg5OFI3aG85RDY3cWw0WVNUSGdTZy1odDg?oc=5\n米大使が怒号を飛ばして会合を中断する行為は、キューバ代表団の詰め寄りという敵意を察知した際の策略変更の必要性を示唆している。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "「下がれ！ここはハバナじゃない！」国連総会で米大使がまさかの怒号…キューバ代表団の詰め寄りで現場騒然→激しい言い争いで会合中断 アメリカ（ABEMA TIMES） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBldjdPVGU4bS13SHJGUUZfaG5ILTFxM0JFTVhxdHpTSk9VcGw3S0owZDdzdVB1bGtXdjQ0amgxM0Y4Zl9yY2tjMnZhUDB3VFpSMWNNT0V4SWlaVFIwQW5Yak1JVWFXQlg5OFI3aG85RDY3cWw0WVNUSGdTZy1odDg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "economia",
+      "necessita"
+    ],
+    "quote_id": "AG9",
+    "quote_choice": "llm"
+  },
+  {
     "id": "c2795c197536",
     "timestamp": "2026-10-30T02:01:48.099251+00:00",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVGQ1em4tMFNTWUxSMTVralVKRzM5UEpIMEFGZjRpRG5wRHNoVHhNaHRsNWVReDVyMUx4bEtZd29wUkNoVG5KYlBzX2NmRGh6UXM5TEtYMXE2dHpwOHd1RnlNb1lFVlBQbko1NkRvVzNRdmRMTjZXM0dIdjdKN1lFUWRaOHN0Rjg?oc=5\nフーシ派の未確認攻撃表明こそが、実行し終えるまで敵に隠し通した策ほど優れた策はないというマキャベリの言葉に合致する。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
@@ -318,15 +338,5 @@
     "source": "Google News 国際(World)",
     "source_title": "北朝鮮の拡声器放送再開表明 韓国政府「偶発衝突防止のため対話すべき」 - 聯合ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FcEVNZVZybVE0dDRHeUh3SUNJZ0JXMjRzM1V5RVRUMDliRE1ISkhuN0RRN1dxdW8wV1FDZm5wRkhzRDV4NHZvNkI5VlJLSlpMNk1nbVJNTkhwQQ?oc=5"
-  },
-  {
-    "id": "d48fd2c137b9",
-    "timestamp": "2026-10-23T14:01:56.707227+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50RG03MWJOazNDQV9MWDk3T3FuekRnTWdNeC1SU2wwLVFnM29qMnVXNlFkT0Q4cGZkY1ZaYkJnNnAydjBQT2VTbGZRTkIyaDdlSzVuTEljN3dYaHZqZ193ODc0M3RaRGNqRnE3ZE1LY0FvQUc2WFRvM0J6dUpYVVk?oc=5\nトランプの焦り演説は逆効果、共和党は選挙の泥沼に陥る。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "米中間選挙への焦りで演説繰り返すトランプ、効果は裏目にも…迷う共和党候補の距離感（Wedge（ウェッジ）） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50RG03MWJOazNDQV9MWDk3T3FuekRnTWdNeC1SU2wwLVFnM29qMnVXNlFkT0Q4cGZkY1ZaYkJnNnAydjBQT2VTbGZRTkIyaDdlSzVuTEljN3dYaHZqZ193ODc0M3RaRGNqRnE3ZE1LY0FvQUc2WFRvM0J6dUpYVVk?oc=5"
   }
 ]
