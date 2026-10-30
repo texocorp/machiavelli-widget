@@ -1,5 +1,23 @@
 [
   {
+    "id": "0b3dc7d7be06",
+    "timestamp": "2026-10-30T17:38:43.726359+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUWURKNlpvY2lqX19CQTVxaXNua19MMGR1dWhORS1rOHpjMnM1MWxyb1FsMUxaOUpxb0M1MDFyOXdnNVZVdHdiYnU3bTg5OXZ4cDdqZ2RVWmlRVEpjVkROOVZMRWhQYTJrbGNFZQ?oc=5\nウクライナによる攻撃停止は、結果のみが問われる現実主義者の君主が権謀術数を用いた戦略的決断を示す。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナ、ロシア製油所への攻撃停止と米紙報道 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUWURKNlpvY2lqX19CQTVxaXNua19MMGR1dWhORS1rOHpjMnM1MWxyb1FsMUxaOUpxb0M1MDFyOXdnNVZVdHdiYnU3bTg5OXZ4cDdqZ2RVWmlRVEpjVkROOVZMRWhQYTJrbGNFZQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "P18d",
+    "quote_choice": "llm"
+  },
+  {
     "id": "f8ae02c90e93",
     "timestamp": "2026-10-30T09:29:18.019475+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBldjdPVGU4bS13SHJGUUZfaG5ILTFxM0JFTVhxdHpTSk9VcGw3S0owZDdzdVB1bGtXdjQ0amgxM0Y4Zl9yY2tjMnZhUDB3VFpSMWNNT0V4SWlaVFIwQW5Yak1JVWFXQlg5OFI3aG85RDY3cWw0WVNUSGdTZy1odDg?oc=5\n米大使が怒号を飛ばして会合を中断する行為は、キューバ代表団の詰め寄りという敵意を察知した際の策略変更の必要性を示唆している。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
@@ -328,15 +346,5 @@
     "source": "Google News 国際(World)",
     "source_title": "イラン 要求履行まで対米協議応じず（ロイター） - ｄメニューニュース",
     "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdDA4blhHUTJoSjhqM1l6MWlaVTkxYXF4UDRiMnZPbUNRTmF6YnBDS2RZOGx5bGtnLV9Pc2xnMDduLUZWM2tRZ0NCR3VRY3dveG5kelVBMndUcHl3U29ieHZNUmpKdWdWVkZvMmRISE1lUGsyeUhKOHJ2dTJaRUFNMG1VX2lfak9pc1E?oc=5"
-  },
-  {
-    "id": "b5261c6e2a3c",
-    "timestamp": "2026-10-23T18:50:54.936141+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FcEVNZVZybVE0dDRHeUh3SUNJZ0JXMjRzM1V5RVRUMDliRE1ISkhuN0RRN1dxdW8wV1FDZm5wRkhzRDV4NHZvNkI5VlJLSlpMNk1nbVJNTkhwQQ?oc=5\n北朝鮮の拡声器放送再開表明に伴い、韓国政府は偶発的衝突のリスクを防ぐため対話を促す当局者だ。\n「賢慮ある君主は、信義を守ることが己に不利益となるとき、これを守ってはならぬ、また守るべきでもない。",
-    "theme": "inganno_simulazione",
-    "score": 5,
-    "source": "Google News 国際(World)",
-    "source_title": "北朝鮮の拡声器放送再開表明 韓国政府「偶発衝突防止のため対話すべき」 - 聯合ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FcEVNZVZybVE0dDRHeUh3SUNJZ0JXMjRzM1V5RVRUMDliRE1ISkhuN0RRN1dxdW8wV1FDZm5wRkhzRDV4NHZvNkI5VlJLSlpMNk1nbVJNTkhwQQ?oc=5"
   }
 ]
