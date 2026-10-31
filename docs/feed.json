@@ -1,5 +1,25 @@
 [
   {
+    "id": "dfac4fa8bb9f",
+    "timestamp": "2026-10-31T16:42:35.618909+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0aHdOa0xPYlFjcUxtTm8tRGJBdXYyOE41dFRwT2pzNmhnQ3l0R2g3ck14cmtIb0pUOG9YVnR3T1d4cnpYcWpsaTRETTQ0U25uekRSeDBzbmhZNGxWMkp4YUJ3?oc=5\n人道支援という名目で現地に赴く文民チームに対し、飢えで敵を弱体化させるマキャベリの知恵が適用される状況だ。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナ南部の人道状況悪化、住民避難を開始…ロシアとウクライナの文民チームが現地に支援物資 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0aHdOa0xPYlFjcUxtTm8tRGJBdXYyOE41dFRwT2pzNmhnQ3l0R2g3ck14cmtIb0pUOG9YVnR3T1d4cnpYcWpsaTRETTQ0U25uekRSeDBzbmhZNGxWMkp4YUJ3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "economia"
+    ],
+    "quote_id": "AG2",
+    "quote_choice": "llm"
+  },
+  {
     "id": "fd9d77341d4e",
     "timestamp": "2026-10-31T11:35:19.736458+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSOGNkMFpYaWxHMDl6TnNjR1BITWpKUVRHWE82RFp6My1VTXBRQklnaWlRTDRoMkZLWFdIeDBpRHFhVlRIWFdDM0VjVWNERk92V2Radm9KUFlJUThsd0toVmJJeWlVUlNQYVgzdXZvM3U2WlVSdkY3RWxQcE56TEE?oc=5\nロシアとウクライナが窮地にあるからこそ、メラニア氏を仲介者にした人道支援という恩恵を先延ばしせず実現させたのだ。\n「国家も君主も、自らが窮地に陥る時まで、人々に恩恵を施すのを先延ばしにしてはならぬ。」\n『リウィウス論 I.32』",
@@ -354,15 +374,5 @@
     "source": "Google News 国際(World)",
     "source_title": "中間選挙、トランプのガソリン価格対応「不支持」が73％ イラン戦争も逆風（ニューズウィーク日本版） - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Gbzdia3RkcExCMnJ2aWZSejNkLUwyYno2N29TTy02MUxsS1hIcFJtdEFRd3FfS0lfclpMRERBbjY0YktzV3U1WktiRXlzX0licGY5dngzUXdScGxHdzBiby1BZTRYZFJXY0gwZzRkX3BOS09ZYjFwNW1zN3d5RzQ?oc=5"
-  },
-  {
-    "id": "77804df95c0b",
-    "timestamp": "2026-10-24T07:51:17.116206+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RLV8xUzhicUNnUXVaM3ppLXF0bVRRbExVM1VyeFhHOW4xSXNoalNPSlcySHRDNDJDaTJuMk1wZGJCNlF1V28wV2dERThWRlJrVkM3ekVvSDFKTEl5SXZyOGVHcWVJNEpMUUJMa2FHTHJQQWo1V0pHdFpqYmIzRjg?oc=5\nゼレンスキー政権の制限はマキャベリの視座から見れば、政治的利害のための一時的な手段であり、長期的解決への道筋ではない。",
-    "theme": "alleanze_dipendenza",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "ゼレンスキー、軍用スターシールドの制限は「今も続いている」──トランプの「復旧」発言から一転 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RLV8xUzhicUNnUXVaM3ppLXF0bVRRbExVM1VyeFhHOW4xSXNoalNPSlcySHRDNDJDaTJuMk1wZGJCNlF1V28wV2dERThWRlJrVkM3ekVvSDFKTEl5SXZyOGVHcWVJNEpMUUJMa2FHTHJQQWo1V0pHdFpqYmIzRjg?oc=5"
   }
 ]
