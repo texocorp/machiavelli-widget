@@ -1,5 +1,24 @@
 [
   {
+    "id": "fd9d77341d4e",
+    "timestamp": "2026-10-31T11:35:19.736458+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSOGNkMFpYaWxHMDl6TnNjR1BITWpKUVRHWE82RFp6My1VTXBRQklnaWlRTDRoMkZLWFdIeDBpRHFhVlRIWFdDM0VjVWNERk92V2Radm9KUFlJUThsd0toVmJJeWlVUlNQYVgzdXZvM3U2WlVSdkY3RWxQcE56TEE?oc=5\nロシアとウクライナが窮地にあるからこそ、メラニア氏を仲介者にした人道支援という恩恵を先延ばしせず実現させたのだ。\n「国家も君主も、自らが窮地に陥る時まで、人々に恩恵を施すのを先延ばしにしてはならぬ。」\n『リウィウス論 I.32』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "ロシアとウクライナ、侵攻後初の共同人道支援 メラニア氏が仲介（毎日新聞） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSOGNkMFpYaWxHMDl6TnNjR1BITWpKUVRHWE82RFp6My1VTXBRQklnaWlRTDRoMkZLWFdIeDBpRHFhVlRIWFdDM0VjVWNERk92V2Radm9KUFlJUThsd0toVmJJeWlVUlNQYVgzdXZvM3U2WlVSdkY3RWxQcE56TEE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D1.32",
+    "quote_choice": "llm"
+  },
+  {
     "id": "2ea760f27ceb",
     "timestamp": "2026-10-31T03:42:24.594706+00:00",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55c00yLUM3RjhlMnZNOFBHUHdGbUdNRUZXMTBaWGxKMmxSNkQ2S1RtZHVwbE9WdHZ4R3p6S2ZkWjQwTEFIVWVtazBFdzl2UE0wQUgxVzNJanRmWlp4SWoyMm5n?oc=5\n住民の退避という行動が停戦遵守を示すか、敵対勢力の罠に過ぎないかは、誤りを疑うマキャベリの知恵を要する。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
@@ -345,15 +364,5 @@
     "source": "Google News 国際(World)",
     "source_title": "ゼレンスキー、軍用スターシールドの制限は「今も続いている」──トランプの「復旧」発言から一転 - Yahoo!ニュース",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RLV8xUzhicUNnUXVaM3ppLXF0bVRRbExVM1VyeFhHOW4xSXNoalNPSlcySHRDNDJDaTJuMk1wZGJCNlF1V28wV2dERThWRlJrVkM3ekVvSDFKTEl5SXZyOGVHcWVJNEpMUUJMa2FHTHJQQWo1V0pHdFpqYmIzRjg?oc=5"
-  },
-  {
-    "id": "230c6ec0603f",
-    "timestamp": "2026-10-24T02:53:56.499377+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxOTJhUmhCYlNDb0tfaTFqWXdKYzB1ajFoTXhuR1BETEhJUnQxd3NWemRpNG1pVUNWZTRlN3FRdHcyZHgxVVFpcjI2TkJFNDh4MVJUcjFYSXNlV0RSZnFFclduMA?oc=5\nマキャベリの視座から見れば共和党の大敗が再現され、戦争の不人気と燃料価格の高騰が選挙結果を左右する。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "共和、０６年大敗の再現懸念 不人気な戦争と燃料高―米中間選挙 - 時事ドットコム",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxOTJhUmhCYlNDb0tfaTFqWXdKYzB1ajFoTXhuR1BETEhJUnQxd3NWemRpNG1pVUNWZTRlN3FRdHcyZHgxVVFpcjI2TkJFNDh4MVJUcjFYSXNlV0RSZnFFclduMA?oc=5"
   }
 ]
