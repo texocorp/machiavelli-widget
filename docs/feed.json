@@ -1,5 +1,23 @@
 [
   {
+    "id": "e143cd5a7fcf",
+    "timestamp": "2026-11-01T19:21:48.346654+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWWhGR0pXYkg4UGw5RHhEV182NnlaUWlZNVl4bzVWU2xoc1F0Z2I0Qkk1ZTVVNGhuT3hJVUtMUm1SNUhmcGIzbzRoUy1DTE9LbnU3cWRVemwtVldtS3oxamFsSmNpNXJEZXMtVUV0OS1jbHFzNWRaaHNR?oc=5\nイランが米国の条件受容を示唆する姿勢を採るのは、再攻撃の危機を時間稼ぎで凌ぐ現実主義的な戦略である。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "米条件受け入れ兆候か イラン主張 再攻撃受ければ核製造や保有の基本方針変更も示唆 - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWWhGR0pXYkg4UGw5RHhEV182NnlaUWlZNVl4bzVWU2xoc1F0Z2I0Qkk1ZTVVNGhuT3hJVUtMUm1SNUhmcGIzbzRoUy1DTE9LbnU3cWRVemwtVldtS3oxamFsSmNpNXJEZXMtVUV0OS1jbHFzNWRaaHNR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore"
+    ],
+    "quote_id": "D1.33",
+    "quote_choice": "llm"
+  },
+  {
     "id": "780ed45226af",
     "timestamp": "2026-11-01T12:33:33.188506+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NU3VJbHYtQ3BxbnBzalozdXhGYllKajlDNDV3M3R2UnB0MGpNbDBKLXYxWU1PSGlCNmFpZUNfdUFySDh4eVg4RTBNc2pzR3h4NW5kU0JiR3FxVk9XaHg5aXRqTnR5bnVVQWJrNzdiQzZDTHkzNnhKZ0UzUFNfVFE?oc=5\nトランプ大統領が軍事攻撃を示唆して交渉有利に働かせようとするのは、マキャベリが称賛する詐術による戦争遂行だ。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
@@ -408,15 +426,5 @@
     "source": "Google News 国際(World)",
     "source_title": "金正恩氏の訪中、北朝鮮メディアも報道 10月開通の新橋を通行 - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kbDMwRkVLUVRXSHBBb09vZ2hleW1pMUx2ajZtRldkandSX0RQcWRLeV9PSURGa1A2V3piM0ZNNkdVbURzNjk3ZGkzT1JIOWdsVXJqeTlYWUlyTTJ2MWN4clMzZlFlZkY5dVZmVw?oc=5"
-  },
-  {
-    "id": "408ce2147e00",
-    "timestamp": "2026-10-25T02:46:08.918175+00:00",
-    "text": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss\nこのニュースはマキャベリの視座から見れば、軍事戦略における信頼性と安定性の欠如を露呈している。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。」\n『リウィウス論 I.9』",
-    "theme": "necessita",
-    "score": 4,
-    "source": "BBC World",
-    "source_title": "Ukraine says Starlink connection 'now stable' after network limits",
-    "source_url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
   }
 ]
