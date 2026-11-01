@@ -1,5 +1,27 @@
 [
   {
+    "id": "780ed45226af",
+    "timestamp": "2026-11-01T12:33:33.188506+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NU3VJbHYtQ3BxbnBzalozdXhGYllKajlDNDV3M3R2UnB0MGpNbDBKLXYxWU1PSGlCNmFpZUNfdUFySDh4eVg4RTBNc2pzR3h4NW5kU0JiR3FxVk9XaHg5aXRqTnR5bnVVQWJrNzdiQzZDTHkzNnhKZ0UzUFNfVFE?oc=5\nトランプ大統領が軍事攻撃を示唆して交渉有利に働かせようとするのは、マキャベリが称賛する詐術による戦争遂行だ。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ大統領「ピックアックス山」攻撃示唆 「10分で対処できる」軍事攻撃の計画を示し交渉有利に - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NU3VJbHYtQ3BxbnBzalozdXhGYllKajlDNDV3M3R2UnB0MGpNbDBKLXYxWU1PSGlCNmFpZUNfdUFySDh4eVg4RTBNc2pzR3h4NW5kU0JiR3FxVk9XaHg5aXRqTnR5bnVVQWJrNzdiQzZDTHkzNnhKZ0UzUFNfVFE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "imperi_declino",
+      "popolo_principe",
+      "economia",
+      "consiglio"
+    ],
+    "quote_id": "D3.40",
+    "quote_choice": "llm"
+  },
+  {
     "id": "07bb9f4c916f",
     "timestamp": "2026-11-01T03:50:54.927089+00:00",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8waFhFUUU0ZDFwbXUyX1czR2JUaVQ5MUNKeXRDYmQ2Z0xlMW1JTzY4NXVKMUJJWG5taDVjMGMtcHN5dW5SbkpqRnJoajA1Wkk4MWFDdjVPdnQ1SUNDUlotN0FvUy1vYi1uSGxWUQ?oc=5\nルビオ米国務長官が対話を軸に再攻撃を未決定とする姿勢は、外敵の圧力下でも内政を安定させるマキャベリの説に合致する現実主義だ。\n「外が安定していれば、陰謀に乱されぬ限り、内も常に安定しているものだ。」\n『君主論 cap.XIX』",
@@ -396,15 +418,5 @@
     "source": "BBC World",
     "source_title": "Ukraine says Starlink connection 'now stable' after network limits",
     "source_url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "18221670cf08",
-    "timestamp": "2026-10-24T22:50:29.029119+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vNkZnT1RBMm1GZl9LcGZSQjJwSk94RWVqZThScGtVc2cwVGpwZmlXdGFDWnUzQnZmWG1RcWFHVUlXZkJKQk50aVBKTFJQUU00c21RZkkwQ1ItWmZVTkZZNkhYRjU5WlViRWI2Rg?oc=5\nマキャベリの観点から見るなら、この若者の怒りは腐敗とAIの不正に起因し、選挙の結果に影響を与えようとしている。\n「巷間言われるのとは違い、戦の要は金銭ではない。",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "怒れる若者、米中間選挙に嵐呼ぶ 「AI・腐敗・戦争」SNSで増幅 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vNkZnT1RBMm1GZl9LcGZSQjJwSk94RWVqZThScGtVc2cwVGpwZmlXdGFDWnUzQnZmWG1RcWFHVUlXZkJKQk50aVBKTFJQUU00c21RZkkwQ1ItWmZVTkZZNkhYRjU5WlViRWI2Rg?oc=5"
   }
 ]
