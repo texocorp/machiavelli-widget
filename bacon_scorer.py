@@ -17,8 +17,25 @@ bacon_scorer.py
 を重く見る。
 """
 
+import yaml
+
 from geopolitical_scorer import NewsItem  # noqa: F401
-from montaigne_scorer import keyword_hit, load_scoring_config, _topic_text  # noqa: F401
+from montaigne_scorer import keyword_hit, _topic_text  # noqa: F401
+
+
+def load_scoring_config(config_path: str = "bacon_config.yaml") -> dict:
+    """montaigne_scorer の読み込みに、言説の語と優先する配信元を加えたもの。"""
+    with open(config_path, "r", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    prio = cfg.get("priority_sources", {}) or {}
+    return {
+        "weights": cfg["scoring_weights"],
+        "exclude_keywords": cfg.get("exclude_keywords", []),
+        "minimum_score": cfg.get("selection", {}).get("minimum_score", 1),
+        "discourse_keywords": cfg.get("discourse_keywords", []),
+        "priority_sources": set(prio.get("names", [])),
+        "priority_bonus": prio.get("bonus", 0),
+    }
 
 
 # ---------------------------------------------------------------
@@ -108,10 +125,14 @@ def classify_themes(item: NewsItem) -> NewsItem:
 # ---------------------------------------------------------------
 # スコアリング(仕組みは montaigne_scorer と同じ。分類だけをベーコン用に差し替える)
 # ---------------------------------------------------------------
-def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> NewsItem:
+def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None,
+               discourse_keywords: list = None, priority_sources: set = None,
+               priority_bonus: int = 0) -> NewsItem:
     """
     キーワードの重みを合算する(high=4, medium=2, low=1)。
-    exclude_keywords に当たった記事は score=-1(除外)。
+    - exclude_keywords に当たった記事は score=-1(除外)
+    - discourse_keywords が与えられていて、その語を一つも含まない記事は score=0(素材にならない)
+    - priority_sources の配信元の記事には priority_bonus を加点する
     """
     text = _topic_text(item)
     for ex in (exclude_keywords or []):
@@ -122,6 +143,13 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> 
             item.themes = []
             return item
 
+    if discourse_keywords and not any(keyword_hit(w, text) for w in discourse_keywords):
+        item.score = 0
+        item.matched_keywords = ["[言説の語なし]"]
+        item.theme = DEFAULT_THEME
+        item.themes = []
+        return item
+
     total, matched = 0, []
     for level, words in weights.items():
         pts = {"high": 4, "medium": 2, "low": 1}[level]
@@ -129,13 +157,19 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> 
             if keyword_hit(w, text):
                 total += pts
                 matched.append(w)
+    if total > 0 and priority_sources and item.source in priority_sources:
+        total += priority_bonus
+        matched.append(f"[優先配信元 +{priority_bonus}]")
     item.score = total
     item.matched_keywords = matched
     return classify_themes(item)
 
 
-def rank_news(items: list, weights: dict, top_n: int = 10, exclude_keywords: list = None) -> list:
+def rank_news(items: list, weights: dict, top_n: int = 10, exclude_keywords: list = None,
+              discourse_keywords: list = None, priority_sources: set = None,
+              priority_bonus: int = 0) -> list:
     """スコア降順で並べ、上位 top_n 件を返す。"""
-    scored = [score_item(i, weights, exclude_keywords) for i in items]
+    scored = [score_item(i, weights, exclude_keywords, discourse_keywords,
+                         priority_sources, priority_bonus) for i in items]
     scored.sort(key=lambda x: x.score, reverse=True)
     return scored[:top_n]

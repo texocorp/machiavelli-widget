@@ -95,7 +95,12 @@ def main():
         return
 
     ranked = rank_news(items, scoring_cfg["weights"], top_n=20,
-                       exclude_keywords=scoring_cfg["exclude_keywords"])
+                       exclude_keywords=scoring_cfg["exclude_keywords"],
+                       discourse_keywords=scoring_cfg["discourse_keywords"],
+                       priority_sources=scoring_cfg["priority_sources"],
+                       priority_bonus=scoring_cfg["priority_bonus"])
+    no_discourse = sum(1 for i in items if getattr(i, "matched_keywords", None) == ["[言説の語なし]"])
+    print(f"[選別] 取得{len(items)}件のうち、言説の語を含まず外したもの {no_discourse}件")
     target = None
     for item in ranked:
         h = _hash_item(item)
