@@ -17,7 +17,7 @@ name: Update Bacon Feed
 # マキャベリも以後止まった。エラーも通知も出ないので気づきにくい。
 on:
   schedule:
-    - cron: '17 2-23/3 * * *'
+    - cron: "17 2-23/3 * * *"
   workflow_dispatch: {}   # Actionsタブから手動実行も可能にする
 
 permissions:
