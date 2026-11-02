@@ -407,9 +407,9 @@ export ANTHROPIC_API_KEY=sk-ant-...
 | `montaigne_scorer.py` | 記事のスコアリングと、15のテーマへの分類 |
 | `montaigne_engine.py` | 箴言の選択と論評の生成(Ollama呼び出し・検査はマキャベリ側の部品を共用) |
 | `generate_montaigne_feed.py` | `docs/montaigne/feed.json` を更新する |
-| `data/montaigne_quotes.json` | 『エセー』の箴言74件(仏語原典と章まで逐語照合済み、日本語は本ボットの訳) |
+| `data/montaigne_quotes.json` | 『エセー』の箴言117件(仏語原典と章まで逐語照合済み、日本語は本ボットの訳) |
 | `docs/montaigne/` | ウィジェット(`mtg-` 名前空間。マキャベリ側と同じページに置いても衝突しない) |
-| `.github/workflows/montaigne.yml` | 4時間おき(UTCの37分)に実行 |
+| `.github/workflows/montaigne.yml` | マキャベリ側の各実行の1時間後(日本時間 1・4・7・10・13・16・19・22時、1日8回) |
 | `logs/montaigne_*.json` | 既出記事・箴言の使用履歴(マキャベリ側とは別ファイル) |
 
 マキャベリ側のファイルは一切変更していない(`machiavelli_engine.py` などを import して使うだけ)。
