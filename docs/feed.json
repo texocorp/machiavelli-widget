@@ -1,5 +1,25 @@
 [
   {
+    "id": "df2f26f39d1a",
+    "timestamp": "2026-11-02T00:11:04.418618+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5R19EaExLcEhqUlVOYnpSRy05UkEwSnB2Y284Y1BwVTI2cGNKcFZDY1NhVEozY3I3RU5UWEdYemhzbEt2RHVLT0lBOWlfcGZwYWtleG9n?oc=5\n米国の野心がイランへの攻撃へと昇華し、中間選挙後の対立構造が新たな戦争の幕開けとなる。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "迫り来るイラン戦争「第3幕」の足音、米中間選挙の後に何が起こるのか？ - JBpress",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5R19EaExLcEhqUlVOYnpSRy05UkEwSnB2Y284Y1BwVTI2cGNKcFZDY1NhVEozY3I3RU5UWEdYemhzbEt2RHVLT0lBOWlfcGZwYWtleG9n?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "popolo_principe",
+      "economia"
+    ],
+    "quote_id": "D1.46",
+    "quote_choice": "llm"
+  },
+  {
     "id": "e143cd5a7fcf",
     "timestamp": "2026-11-01T19:21:48.346654+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWWhGR0pXYkg4UGw5RHhEV182NnlaUWlZNVl4bzVWU2xoc1F0Z2I0Qkk1ZTVVNGhuT3hJVUtMUm1SNUhmcGIzbzRoUy1DTE9LbnU3cWRVemwtVldtS3oxamFsSmNpNXJEZXMtVUV0OS1jbHFzNWRaaHNR?oc=5\nイランが米国の条件受容を示唆する姿勢を採るのは、再攻撃の危機を時間稼ぎで凌ぐ現実主義的な戦略である。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
@@ -416,15 +436,5 @@
     "source": "BBC World",
     "source_title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
     "source_url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": "1d4334b8a073",
-    "timestamp": "2026-10-25T08:02:29.018073+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kbDMwRkVLUVRXSHBBb09vZ2hleW1pMUx2ajZtRldkandSX0RQcWRLeV9PSURGa1A2V3piM0ZNNkdVbURzNjk3ZGkzT1JIOWdsVXJqeTlYWUlyTTJ2MWN4clMzZlFlZkY5dVZmVw?oc=5\nマキャベリの観点から見れば、この訪問は互いの利害を考慮した現実的な外交手段の一つであり、その成功は両国の新たな関係構築への重要なステップとなるだろう。",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "金正恩氏の訪中、北朝鮮メディアも報道 10月開通の新橋を通行 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kbDMwRkVLUVRXSHBBb09vZ2hleW1pMUx2ajZtRldkandSX0RQcWRLeV9PSURGa1A2V3piM0ZNNkdVbURzNjk3ZGkzT1JIOWdsVXJqeTlYWUlyTTJ2MWN4clMzZlFlZkY5dVZmVw?oc=5"
   }
 ]
