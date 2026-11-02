@@ -1,5 +1,24 @@
 [
   {
+    "id": "0ab729231a14",
+    "timestamp": "2026-11-02T18:38:53.636274+00:00",
+    "text": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQZUFndnByRE1kUDFsSDNvUnItaHBxV0lsSXFiQ0taVzRkX011NWlIZGlvdXRiVmEzai1IUXdTaUxaQ3d6ZnlMTkpOdUFwQlkxSGdfVnhieEEtdENONEcwcDhZM2E5a2ZyazBxNDgzVmNrYllMYlJNbjRYT1JWQ2ptVjFBWFYxT2daanA3OHVWYlItUE9LazR4N3ZjZFdKcnoxRm91MzFBNWwzVW90dk5EQWNvRUJCVzRXWWo5NmNsUDZCOHdyRHh3U1RvMS1QcFhFQVVZRUZfMnBDaDBZb3dWMTJKYnlEUVVsaHdRLTd4SEFwWURXWDVRNnN2X0FlU2hjNjFkbUdMOUw4MGRTb3k4UFJ0cGlkQkFYMzhHblRRejlob3hmWXpqc1BRd001N3FhdUFlV3EwMm1VaWVJc01vc3JWZ3dSUS1OUnNLRkRLQ1pTS0dTZWcwWHF6cmZHUkx3RzNKblBmbXpHa1pPZGdiNHJNQWQtY1M0dmxReF9TQ3RBek0ybFc5MzVRQzlGM2hBemd2UkhfU3FSTDUwdjFsWjVUaGhYMUlrLW9lbTNLZUh0M1l1TU8zRmVPSThHeFVVVkFpQk1idGJPUHpfWFBOT25rUXZKZUlMVGc?oc=5\nアラブ連盟が偽情報やAI生成コンテンツへの対策を呼びかける事柄には、見せかけと実態が異なる情報をどう扱うかという冷徹な観察が見える。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
+    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "アラブ連盟、偽情報およびAI生成の虚偽コンテンツへの共同対策を呼びかけ - アラブニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQZUFndnByRE1kUDFsSDNvUnItaHBxV0lsSXFiQ0taVzRkX011NWlIZGlvdXRiVmEzai1IUXdTaUxaQ3d6ZnlMTkpOdUFwQlkxSGdfVnhieEEtdENONEcwcDhZM2E5a2ZyazBxNDgzVmNrYllMYlJNbjRYT1JWQ2ptVjFBWFYxT2daanA3OHVWYlItUE9LazR4N3ZjZFdKcnoxRm91MzFBNWwzVW90dk5EQWNvRUJCVzRXWWo5NmNsUDZCOHdyRHh3U1RvMS1QcFhFQVVZRUZfMnBDaDBZb3dWMTJKYnlEUVVsaHdRLTd4SEFwWURXWDVRNnN2X0FlU2hjNjFkbUdMOUw4MGRTb3k4UFJ0cGlkQkFYMzhHblRRejlob3hmWXpqc1BRd001N3FhdUFlV3EwMm1VaWVJc01vc3JWZ3dSUS1OUnNLRkRLQ1pTS0dTZWcwWHF6cmZHUkx3RzNKblBmbXpHa1pPZGdiNHJNQWQtY1M0dmxReF9TQ3RBek0ybFc5MzVRQzlGM2hBemd2UkhfU3FSTDUwdjFsWjVUaGhYMUlrLW9lbTNLZUh0M1l1TU8zRmVPSThHeFVVVkFpQk1idGJPUHpfWFBOT25rUXZKZUlMVGc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "E31c",
+    "quote_choice": "llm"
+  },
+  {
     "id": "139fad058c5d",
     "timestamp": "2026-11-02T18:31:48.464902+00:00",
     "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oRDd2TWVZX0JpYThzMW5qWUR6c2dTRkF3Z3hxd2VMcGpYZzhNRmc3NEdtUTNjNmdMVldRQ0NuUURSVUtORkwzZXlQMWJhNFY0MmoyUXFScF9TQ1BT?oc=5\nＳＮＳ重視層の「高市推し」の陰りには、物事の重みより話題性で判断が動く心の動きが見える。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
