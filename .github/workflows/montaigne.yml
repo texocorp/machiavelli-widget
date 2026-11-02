@@ -11,11 +11,6 @@ on:
   schedule:
     - cron: "37 */4 * * *"
   workflow_dispatch: {}   # Actionsタブから手動実行も可能にする
-  # 【試運転用】montaigne ブランチへの push でも実行する。
-  # main に取り込む前に、この push の3行は削除すること。
-  push:
-    branches: [montaigne]
-    paths: ["montaigne_*.py", "generate_montaigne_feed.py", "data/montaigne_quotes.json", "montaigne_config.yaml", ".github/workflows/montaigne.yml"]
 
 permissions:
   contents: write
