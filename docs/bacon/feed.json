@@ -1,5 +1,24 @@
 [
   {
+    "id": "e42ef14abf8b",
+    "timestamp": "2026-11-02T18:23:25.173141+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5ZkJOSEpfbkRMVElaZTJUbFFLdjZNcEpwd3UzMFAzREVLNTlFZTZHMjNlQTRvRWFUc0NDdTBzUXZQc3lCQXloNjlua2h1SFVBeXd6Q3I3MDlPOEgxZ3lzQ1lSMA?oc=5\n防災科学技術研究所らがゲリラ雷雨予測技術開発協定を締結する事柄には、実用性という呼び名が研究の価値を先回りして定義している動きが見える。\n「どの技術においても、その担い手たちは自分の技術の非力を自然のせいにし、自分の技術が達しえないことを、その技術の名において自然界では不可能だと宣告する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム88",
+    "original": "… ut in qualibet arte authores artis suae infirmitatem in naturae calumniam vertant; et quod ars ipsorum non assequitur, id ex eadem arte impossibile in natura pronunciant.",
+    "original_lang": "la",
+    "theme": "studium",
+    "score": 10,
+    "source": "Google News AI・研究政策",
+    "source_title": "防災科学技術研究所、横浜国立大学、情報通信研究機構、横浜市が「安全・安心の判断支援に向けたゲリラ雷雨予測技術開発事業に関する連携協力協定」を締結 - 防災科研",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5ZkJOSEpfbkRMVElaZTJUbFFLdjZNcEpwd3UzMFAzREVLNTlFZTZHMjNlQTRvRWFUc0NDdTBzUXZQc3lCQXloNjlua2h1SFVBeXd6Q3I3MDlPOEgxZ3lzQ1lSMA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "studium",
+      "novitas"
+    ],
+    "quote_id": "NO1.88",
+    "quote_choice": "llm"
+  },
+  {
     "id": "1ec4373ee1b6",
     "timestamp": "2026-11-02T18:14:08.396324+00:00",
     "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XMUc5QU9MaXV2S3BVVHBPWnluRVMtOFdULUs5VDlqMng3TFA0M2QzdF9IUHpncGh5NlgtUmN4Ti1VZVRuakRhdVg3WWR5b3FhVjNXdzBRenNvdWZtR0wtVU9VTjdmckdMY2t5aVBsd1o4Q2EwNWtn?oc=5\n次世代のAI「AIエージェント」とは－従来の生成AIと…の行方を決めるのは理念ではなく、誰がその仕組みを理解し、扱えるかである。\n「いかなる帝国も、いかなる宗派も、いかなる星も、これらの機械的発明以上の力と、いわば影響を、人間の事柄に及ぼしたとは思われないほどである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
