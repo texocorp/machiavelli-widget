@@ -352,7 +352,9 @@ ANALYSIS_PROMPT = """次のニュースに現れた人間の性を、モンテ�
 - 制度や技術や改革によって人間が良くなるという前提に立たない。かといって、
   特定の政治的立場から論じることもしない
 - 当事者だけを特別な人として扱わず、「人は」「我々は」という人間一般の性として捉える
-- 亡くなった人や被害に遭った人を、嘲ったり軽んじたりしない
+- 亡くなった人や被害に遭った人を、嘲ったり軽んじたりしない。被害者の性格や心の在り方を
+  被害の原因であるかのように論じてはならない(例: 詐欺の被害者を「欲深い」と評する)。
+  人の性を論じるなら、加害した側や、出来事を取り巻く世間の振る舞いに目を向けること
 
 最優先の条件(事実の扱い):
 - 根拠にしてよい事実は、上の見出しと概要に書かれていることだけである。
@@ -450,6 +452,20 @@ def _verify_with_ollama(host: str, model: str, analysis: str, title: str, summar
         print(f"[分析文] 事実照合の判定を読み取れず、通過させました: {verdict!r}")
 
 
+def _check_not_restating(analysis: str, quote_text: str, run: int = 10) -> None:
+    """
+    分析文が、添える箴言の文言を丸写ししていないかを調べる。
+    箴言の中の連続する run 字(句読点を除く)が分析文にそのまま現れたら不合格にする。
+    (実例: 分析文の後半が「財の貧しさは癒やしやすいが、魂の貧しさは癒やしようがない」と
+    箴言をそのまま繰り返し、直後の引用と同じ文が二度並んだ)
+    """
+    strip = lambda t: re.sub(r"[、。「」『』・,. ]", "", t)
+    a, q = strip(analysis), strip(quote_text)
+    for i in range(0, max(len(q) - run + 1, 0)):
+        if q[i:i + run] in a:
+            raise ValueError(f"箴言の文言を繰り返している: {q[i:i + run]!r}")
+
+
 def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
     """設定・検査の段取りは machiavelli_engine._analysis_via_ollama と同じ。"""
     host, model = _ollama_env()
@@ -467,6 +483,7 @@ def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
     for attempt in range(1, attempts + 1):
         try:
             text = _validate_analysis(me._ollama_generate(host, model, prompt, options))
+            _check_not_restating(text, quote["ja"])
             _check_grounded_terms(text, title, summary, quote["ja"])
             _verify_with_ollama(host, model, text, title, summary)
             return text
@@ -490,6 +507,7 @@ def _analysis_via_anthropic(item: NewsItem, quote: dict) -> str:
                    "content": ANALYSIS_PROMPT.format(title=title, summary=summary, quote=quote["ja"])}],
     )
     text = _validate_analysis("".join(b.text for b in msg.content if b.type == "text"))
+    _check_not_restating(text, quote["ja"])
     _check_grounded_terms(text, title, summary, quote["ja"])
     return text
 
