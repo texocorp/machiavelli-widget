@@ -164,7 +164,11 @@ def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
     recent = set(load_recent_quote_ids())
     usage = load_quote_usage()
 
-    pool = [q for q in QUOTES if q["id"] not in recent] or list(QUOTES)
+    allowed = list(QUOTES)
+    if getattr(item, "political", False):
+        # 政治がらみの記事では、人を愚か・軽率・盲従と評する響きの引用を使わない
+        allowed = [q for q in QUOTES if not q.get("avoid_in_politics")]
+    pool = [q for q in allowed if q["id"] not in recent] or allowed
     scored = [(_quote_relevance(q, themes, news_text), q) for q in pool]
     random.shuffle(scored)
     scored.sort(key=lambda sq: (-sq[0], usage.get(sq[1]["id"], 0)))
@@ -191,6 +195,7 @@ QUOTE_CHOICE_PROMPT = """次のニュースに、フランシス・ベーコン�
   一節の述べる知性の欺かれ方や知と力の関係が直接当てはまること
 - 言葉が似ているだけのものではなく、構図が一致するものを選ぶこと
 - 亡くなった人や被害に遭った人を愚かだと言うような響きになるものは選ばないこと
+- 政治家・政党の支持者や有権者、特定の集団を愚か・軽率だと評する響きになるものは選ばないこと
 
 答えは候補の番号(半角数字)だけを書け。
 """
@@ -378,6 +383,8 @@ ANALYSIS_PROMPT = """次のニュースについて、フランシス・ベー�
 - 説教、教訓、政策提言は書かない。「〜すべきだ」「〜が求められる」「〜が必要だ」の類は禁止
 - 特定の政治的立場や陣営に与しない。偏りを指摘するなら、どの陣営の偏りも同じ冷たさで扱う
 - 技術や学問の進歩を手放しで讃えることも、恐れることもしない
+- 政治家・政党の支持者や有権者、特定の世代・集団を、愚か・軽率・流されやすいと評してはならない。
+  世論の動きを論じるなら、その動きを生んだ報道や話題の扱われ方に目を向けること
 - 亡くなった人や被害に遭った人を愚かだと評してはならない(例: 詐欺の被害者を
   「欲に目がくらんだ」と評する)。知性の欺かれ方を論じるなら、欺いた側や、
   出来事を語る報道・世間・専門家の言説に目を向けること

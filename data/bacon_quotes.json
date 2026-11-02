@@ -21,7 +21,7 @@
    "novitas": "革新・新技術・時の変化",
    "studium": "学問・研究・専門家・読書・教育・研究政策"
   },
-  "fields": "id(使用履歴の管理に使う一意の記号)、source(出典記号)、work(essays / novum_organum)、lang(原文の言語)、check(照合方法)、tags(適用するテーマ、複数可)、orig(原文)、ja(日本語訳)、scene(適用場面。引用選びの手がかり)"
+  "fields": "id(使用履歴の管理に使う一意の記号)、source(出典記号)、work(essays / novum_organum)、lang(原文の言語)、check(照合方法)、tags(適用するテーマ、複数可)、orig(原文)、ja(日本語訳)、scene(適用場面。引用選びの手がかり)、avoid_in_politics(true のものは、人を愚か・軽率・盲従と評する響きがあるため、政治家・政党・選挙・支持率などに関わる記事では候補から外す)"
  },
  "quotes": [
   {
@@ -485,7 +485,8 @@
    ],
    "orig": "At numerus longe maximus eorum, qui in Aristotelis philosophiam consenserunt, ex praejudicio et authoritate aliorum se illi mancipavit",
    "ja": "だがアリストテレスの哲学に同意した者の大多数は、先入見と他人の権威とによって、自らをそれに隷属させたのである。",
-   "scene": "権威や多数派への追従、専門家の名で押し通される主張、賛同者の多さが正しさの証しとされる場面"
+   "scene": "権威や多数派への追従、専門家の名で押し通される主張、賛同者の多さが正しさの証しとされる場面",
+   "avoid_in_politics": true
   },
   {
    "id": "NO1.81",
@@ -833,7 +834,8 @@
    ],
    "orig": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
    "ja": "人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。",
-   "scene": "扇動的な宣伝や煽り見出しが効く場面、ポピュリズム、刺激的な投稿の拡散力"
+   "scene": "扇動的な宣伝や煽り見出しが効く場面、ポピュリズム、刺激的な投稿の拡散力",
+   "avoid_in_politics": true
   },
   {
    "id": "E12b",
@@ -861,7 +863,8 @@
    ],
    "orig": "And yet boldness is a child of ignorance and baseness, far inferior to other parts.",
    "ja": "とはいえ大胆さは無知と卑しさの子であり、ほかの資質にはるかに劣る。",
-   "scene": "根拠なき断言で注目を集める論者、自信満々の誤情報、強気の発言で押し通す場面"
+   "scene": "根拠なき断言で注目を集める論者、自信満々の誤情報、強気の発言で押し通す場面",
+   "avoid_in_politics": true
   },
   {
    "id": "E15a",
@@ -956,7 +959,8 @@
    ],
    "orig": "The master of superstition, is the people; and in all superstition, wise men follow fools",
    "ja": "迷信の主人は民衆であり、あらゆる迷信において、賢者が愚者に従う。",
-   "scene": "疑似科学や健康デマの流行、専門家や企業が世論に迎合する場面"
+   "scene": "疑似科学や健康デマの流行、専門家や企業が世論に迎合する場面",
+   "avoid_in_politics": true
   },
   {
    "id": "E17c",
@@ -1011,7 +1015,8 @@
    ],
    "orig": "for that nothing doth more hurt in a state, than that cunning men pass for wise.",
    "ja": "狡猾な者が賢者として通用することほど、国家に害をなすものはない。",
-   "scene": "口のうまいコメンテーターやインフルエンサーの影響力、詐欺的な投資話、もっともらしい専門家"
+   "scene": "口のうまいコメンテーターやインフルエンサーの影響力、詐欺的な投資話、もっともらしい専門家",
+   "avoid_in_politics": true
   },
   {
    "id": "E22b",
@@ -1231,7 +1236,8 @@
    ],
    "orig": "Crafty men contemn studies, simple men admire them, and wise men use them",
    "ja": "狡猾な者は学問を軽んじ、単純な者は学問を崇め、賢い者は学問を用いる。",
-   "scene": "科学への軽視と盲信、研究成果の使い方、専門知と政策"
+   "scene": "科学への軽視と盲信、研究成果の使い方、専門知と政策",
+   "avoid_in_politics": true
   },
   {
    "id": "E50c",

@@ -112,6 +112,17 @@ THEME_KEYWORDS = {
 }
 
 
+# 政治家・政党・選挙・支持率に関わる記事を見分ける語。
+# 世論の動きそのものはこのボットの題材として残すが、こうした記事では、人を愚か・軽率・盲従と
+# 評する響きの引用(data/bacon_quotes.json の avoid_in_politics)を候補から外す。
+# 実例: SNS重視層の首相支持の陰りを報じた世論調査に、「人間の本性には賢者よりも愚者の部分が多い」
+# が添えられ、特定の政治家の支持層を愚かだと評しているように読めた。
+POLITICAL_KEYWORDS = [
+    "支持率", "世論調査", "推し", "首相", "内閣", "政権", "政党", "与党", "野党", "選挙",
+    "候補", "議員", "知事", "市長", "投票", "有権者", "支持層", "支持者", "総理", "大臣",
+]
+
+
 def classify_themes(item: NewsItem) -> NewsItem:
     """記事が当たるテーマを全て拾い、item.themes(優先順位順)と item.theme(先頭)に設定する。"""
     text = _topic_text(item)
@@ -119,6 +130,7 @@ def classify_themes(item: NewsItem) -> NewsItem:
               if any(keyword_hit(kw, text) for kw in THEME_KEYWORDS[t])]
     item.themes = themes
     item.theme = themes[0] if themes else DEFAULT_THEME
+    item.political = any(keyword_hit(kw, text) for kw in POLITICAL_KEYWORDS)
     return item
 
 
