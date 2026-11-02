@@ -1,5 +1,23 @@
 [
   {
+    "id": "139fad058c5d",
+    "timestamp": "2026-11-02T18:31:48.464902+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oRDd2TWVZX0JpYThzMW5qWUR6c2dTRkF3Z3hxd2VMcGpYZzhNRmc3NEdtUTNjNmdMVldRQ0NuUURSVUtORkwzZXlQMWJhNFY0MmoyUXFScF9TQ1BT?oc=5\nＳＮＳ重視層の「高市推し」の陰りには、物事の重みより話題性で判断が動く心の動きが見える。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
+    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 13,
+    "source": "Google News SNS・報道",
+    "source_title": "（世論調査 タテ軸ヨコ軸）ＳＮＳ重視層の「高市推し」陰り - 朝日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oRDd2TWVZX0JpYThzMW5qWUR6c2dTRkF3Z3hxd2VMcGpYZzhNRmc3NEdtUTNjNmdMVldRQ0NuUURSVUtORkwzZXlQMWJhNFY0MmoyUXFScF9TQ1BT?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E12a",
+    "quote_choice": "llm"
+  },
+  {
     "id": "e42ef14abf8b",
     "timestamp": "2026-11-02T18:23:25.173141+00:00",
     "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5ZkJOSEpfbkRMVElaZTJUbFFLdjZNcEpwd3UzMFAzREVLNTlFZTZHMjNlQTRvRWFUc0NDdTBzUXZQc3lCQXloNjlua2h1SFVBeXd6Q3I3MDlPOEgxZ3lzQ1lSMA?oc=5\n防災科学技術研究所らがゲリラ雷雨予測技術開発協定を締結する事柄には、実用性という呼び名が研究の価値を先回りして定義している動きが見える。\n「どの技術においても、その担い手たちは自分の技術の非力を自然のせいにし、自分の技術が達しえないことを、その技術の名において自然界では不可能だと宣告する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム88",
