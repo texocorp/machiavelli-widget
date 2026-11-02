@@ -16,7 +16,7 @@ name: Update Montaigne Feed
 # マキャベリも以後止まった。エラーも通知も出ないので気づきにくい。
 on:
   schedule:
-    - cron: '17 1-22/3 * * *'
+    - cron: "17 1-22/3 * * *"
   workflow_dispatch: {}   # Actionsタブから手動実行も可能にする
 
 permissions:
