@@ -1,0 +1,141 @@
+# -*- coding: utf-8 -*-
+"""
+bacon_scorer.py
+----------------
+世論・メディア・言説、科学技術・AI・研究政策のニュースを、ベーコンボット向けに
+スコアリングし、引用テーマ(data/bacon_quotes.json の tags)に分類する。
+
+記事のデータ構造(NewsItem)・見出しの清掃・キーワード照合・設定の読み込みは、
+マキャベリボットとモンテーニュボットの部品をそのまま使う。
+
+【選別の考え方】
+ベーコンは『ノヴム・オルガヌム』で、人間の知性を欺く四つのイドラ
+(種族・洞窟・市場・劇場)を数え上げ、同時に「知は力なり」として、
+技術と学問が人間の支配力を決めると説いた。そこで
+ - 言葉・噂・世論・偽情報が人を惑わす出来事(イドラが働く現場)
+ - 技術・研究が社会の力関係を変える出来事(知が力となる現場)
+を重く見る。
+"""
+
+from geopolitical_scorer import NewsItem  # noqa: F401
+from montaigne_scorer import keyword_hit, load_scoring_config, _topic_text  # noqa: F401
+
+
+# ---------------------------------------------------------------
+# テーマ分類
+# ---------------------------------------------------------------
+# 上から順に優先する(先頭に当たったものが主テーマ)。
+# 欺き・迷信・言葉といった、イドラが露骨に働く具体的な出来事を先に判定し、
+# 技術・研究・変化といった一般的なシグナルを後に回す。
+# 考え方はマキャベリ側の TOPIC_PRIORITY、モンテーニュ側の THEME_PRIORITY と同じ。
+THEME_PRIORITY = [
+    "simulatio",
+    "superstitio",
+    "fori",
+    "fama",
+    "theatri",
+    "experientia",
+    "potentia",
+    "studium",
+    "novitas",
+    "specus",
+    "tribus",
+]
+
+DEFAULT_THEME = "tribus"  # どれにも当たらないときは「人間に共通する知性の癖」
+
+THEME_KEYWORDS = {
+    "simulatio": [
+        "偽情報", "誤情報", "フェイク", "ディープフェイク", "なりすまし", "捏造", "ねつ造",
+        "改ざん", "隠蔽", "虚偽", "粉飾", "ステマ", "情報操作", "世論工作", "詐欺", "偽装",
+        "論文不正", "研究不正", "不正",
+    ],
+    "superstitio": [
+        "陰謀論", "予言", "占い", "疑似科学", "ニセ科学", "霊感", "オカルト", "都市伝説",
+        "迷信", "スピリチュアル", "デマ",
+    ],
+    "fori": [
+        "言葉", "用語", "呼称", "名称", "レッテル", "流行語", "失言", "発言", "言い換え",
+        "定義", "表現", "キャッチフレーズ", "ヘイトスピーチ", "差別発言", "造語",
+    ],
+    "fama": [
+        "世論", "世論調査", "報道", "メディア", "SNS", "炎上", "拡散", "噂", "風評",
+        "評判", "誹謗中傷", "バッシング", "投稿", "記者会見", "広報", "トレンド", "バズ",
+        "ファクトチェック", "支持率", "インフルエンサー", "ネット",
+    ],
+    "theatri": [
+        "専門家", "権威", "通説", "定説", "学説", "イデオロギー", "前例", "有識者", "学会",
+        "理論", "主義", "教授", "常識",
+    ],
+    "experientia": [
+        "実験", "検証", "治験", "臨床試験", "データ", "観測", "再現", "エビデンス", "根拠",
+        "試験", "測定", "分析", "調査結果",
+    ],
+    "potentia": [
+        "AI", "人工知能", "生成AI", "半導体", "量子", "ロボット", "宇宙", "ロケット", "衛星",
+        "原発", "核融合", "遺伝子", "ゲノム", "自動運転", "スパコン", "データセンター",
+        "電力", "エネルギー", "技術覇権", "特許",
+    ],
+    "studium": [
+        "研究", "研究者", "論文", "大学", "学術", "研究費", "科研費", "教育", "学校",
+        "入試", "図書館", "学術会議", "博士", "読書", "教科書", "ノーベル",
+    ],
+    "novitas": [
+        "新技術", "導入", "初めて", "世界初", "開発", "実用化", "革新", "イノベーション",
+        "新型", "次世代", "規制", "改正", "解禁", "発見",
+    ],
+    "specus": [
+        "世代", "若者", "高齢者", "業界", "立場", "分断", "価値観", "エコーチェンバー",
+        "習慣", "依存", "スマホ",
+    ],
+    "tribus": [
+        "不安", "思い込み", "錯覚", "偏見", "楽観", "悲観", "パニック", "誤解", "過信",
+        "印象", "期待", "懸念", "想定外",
+    ],
+}
+
+
+def classify_themes(item: NewsItem) -> NewsItem:
+    """記事が当たるテーマを全て拾い、item.themes(優先順位順)と item.theme(先頭)に設定する。"""
+    text = _topic_text(item)
+    themes = [t for t in THEME_PRIORITY
+              if any(keyword_hit(kw, text) for kw in THEME_KEYWORDS[t])]
+    item.themes = themes
+    item.theme = themes[0] if themes else DEFAULT_THEME
+    return item
+
+
+# ---------------------------------------------------------------
+# スコアリング(仕組みは montaigne_scorer と同じ。分類だけをベーコン用に差し替える)
+# ---------------------------------------------------------------
+def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None) -> NewsItem:
+    """
+    キーワードの重みを合算する(high=4, medium=2, low=1)。
+    exclude_keywords に当たった記事は score=-1(除外)。
+    """
+    text = _topic_text(item)
+    for ex in (exclude_keywords or []):
+        if keyword_hit(ex, text):
+            item.score = -1
+            item.matched_keywords = [f"[除外理由: {ex}]"]
+            item.theme = DEFAULT_THEME
+            item.themes = []
+            return item
+
+    total, matched = 0, []
+    for level, words in weights.items():
+        pts = {"high": 4, "medium": 2, "low": 1}[level]
+        for w in words:
+            if keyword_hit(w, text):
+                total += pts
+                matched.append(w)
+    item.score = total
+    item.matched_keywords = matched
+    return classify_themes(item)
+
+
+def rank_news(items: list, weights: dict, top_n: int = 10, exclude_keywords: list = None) -> list:
+    """スコア降順で並べ、上位 top_n 件を返す。"""
+    scored = [score_item(i, weights, exclude_keywords) for i in items]
+    scored.sort(key=lambda x: x.score, reverse=True)
+    return scored[:top_n]

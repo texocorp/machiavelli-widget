@@ -1,0 +1,165 @@
+/* ==========================================================
+   Bacon Idols Widget - スタイル
+   クラス名は bcn- で始まる名前空間にし、WordPressテーマの
+   既存スタイルや姉妹ウィジェット(mtg- など)との衝突を避けています。
+   構造はモンテーニュ版と同じ。色調は象牙色の紙に、ジェームズ朝の
+   深い臙脂(えんじ)を差し色にしている。
+   ========================================================== */
+
+.bcn-widget {
+  position: relative;
+  max-width: 640px;
+  margin: 2.5em auto;
+  padding: 1.5em;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "游明朝", serif;
+  color: #2a2220;
+}
+
+.bcn-widget__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid #b9a49a;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.2em;
+}
+
+.bcn-widget__title {
+  font-size: 1.05em;
+  letter-spacing: 0.08em;
+  margin: 0;
+  color: #3b2523;
+}
+
+.bcn-widget__subtitle {
+  font-size: 0.72em;
+  color: #8a6f66;
+  letter-spacing: 0.05em;
+}
+
+/*
+  スクロール領域(論評の一覧)。
+  背景に肖像画を敷き、background-attachment: local を指定することで、
+  この領域内をスクロールすると背景ごと一緒に動き、肖像画の
+  別の部分が徐々に現れていく(マキャベリ版・モンテーニュ版と同じ仕組み)。
+  WordPressでは ::before の背景が効かないことがあるため、要素自体の背景に置く。
+  出典: パウル・ファン・ソメル《フランシス・ベーコンの肖像》
+  (1617年、ワルシャワ ワジェンキ宮殿蔵、パブリックドメイン、Wikimedia Commons)
+*/
+.bcn-widget__scroll {
+  position: relative;
+  max-height: 480px;
+  overflow-y: auto;
+  border-radius: 2px;
+
+  background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Somer_Francis_Bacon.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 130% auto;   /* 縦に長く表示し、スクロールで下部まで現れるようにする */
+  background-attachment: local;
+  background-color: #f4efe8;
+}
+
+.bcn-widget__scroll::after {
+  content: "";
+  display: block;
+  height: 1px;
+}
+
+.bcn-widget__list {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0.2em;
+}
+
+.bcn-widget__item {
+  /* 半透明にして、背後の肖像画がうっすらと透けて見えるようにする */
+  background: rgba(250, 247, 242, 0.88);
+  border: 1px solid #e3d8d0;
+  border-left: 3px solid #7a2e2e;
+  border-radius: 2px;
+  padding: 1.1em 1.3em;
+  margin-bottom: 1em;
+  box-shadow: 0 1px 2px rgba(60, 30, 20, 0.06);
+  backdrop-filter: blur(0.5px);
+}
+
+.bcn-widget__item-link {
+  display: inline-block;
+  font-size: 0.72em;
+  color: #7a2e2e;
+  text-decoration: none;
+  border-bottom: 1px dotted #b9a49a;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.02em;
+}
+
+.bcn-widget__item-link:hover {
+  color: #561e1e;
+  border-bottom-style: solid;
+}
+
+.bcn-widget__item-text {
+  white-space: pre-line;
+  font-size: 0.98em;
+  line-height: 1.85;
+  margin: 0 0 0.4em 0;
+}
+
+/* 引用の原文(英語・ラテン語)。訳の下に小さく添える */
+.bcn-widget__item-original {
+  font-family: "Garamond", "EB Garamond", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 0.82em;
+  line-height: 1.55;
+  color: #6b5852;
+  margin: 0 0 0.4em 0;
+  padding-left: 0.8em;
+  border-left: 1px solid #d6c7be;
+}
+
+.bcn-widget__item-citation {
+  font-size: 0.85em;
+  color: #4a3632;
+  margin: 0 0 0.7em 0;
+}
+
+.bcn-widget__item-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.72em;
+  color: #8f7c74;
+  letter-spacing: 0.03em;
+}
+
+.bcn-widget__item-signature {
+  font-style: italic;
+}
+
+.bcn-widget__empty,
+.bcn-widget__error {
+  font-size: 0.85em;
+  color: #8f7c74;
+  padding: 1em 0;
+}
+
+.bcn-widget__footer {
+  margin-top: 0.8em;
+  text-align: right;
+  font-size: 0.68em;
+  color: #ad9b93;
+}
+
+@media (max-width: 480px) {
+  .bcn-widget {
+    margin: 1.5em 0.5em;
+  }
+  .bcn-widget__scroll {
+    max-height: 60vh;
+  }
+  .bcn-widget__item {
+    padding: 0.9em 1em;
+  }
+}

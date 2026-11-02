@@ -31,7 +31,7 @@ import os
 import random
 import re
 
-from geopolitical_scorer import NewsItem, clean_news_text, facts_for_prompt, is_japanese
+from geopolitical_scorer import NewsItem, clean_news_text, facts_for_prompt, is_japanese, _MEDIA_SUFFIX
 import machiavelli_engine as me  # 実績のある共通部品(Ollama呼び出し・検査・整形)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -306,7 +306,9 @@ def _build_analysis(item: NewsItem, quote: dict = None) -> str:
         shared = [t for t in themes if t in quote["tags"]]
         theme = shared[0] if shared else quote["tags"][0]
     templates = THEME_ANALYSIS_TEMPLATES.get(theme) or THEME_ANALYSIS_TEMPLATES["inconstance"]
-    title = facts_for_prompt(item)[0]
+    # 見出し末尾の媒体名(「 - 日本経済新聞」)を除いてから断片を取る
+    # (除かないと「…懸念の声、-、日…」のように媒体名の切れ端が文に混じる)
+    title = _MEDIA_SUFFIX.sub("", facts_for_prompt(item)[0]).strip()
     frag = me._title_fragment(title) if is_japanese(title) else "この報道"
     # 見出しの語句の区切りの空白(「再審で無罪判決 逮捕から40年」)は、
     # 文に差し込むと読みにくいので読点に置き換える

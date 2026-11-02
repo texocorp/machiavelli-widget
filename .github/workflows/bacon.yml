@@ -1,0 +1,99 @@
+name: Update Bacon Feed
+
+# ベーコンボット(世論・メディア・科学技術の論評、イドラの摘発)。
+# マキャベリボット(tweet.yml)・モンテーニュボット(montaigne.yml)とは別のワークフローで、
+# 触れるファイルも別: docs/bacon/feed.json, logs/bacon_*.json
+#
+# 頻度調整はここ(cron)で行う。UTC基準なので日本時間との時差(+9時間)に注意。
+# マキャベリ側(UTC 0,3,6,...,21時の17分)のそれぞれ2時間後に実行する(1日8回)。
+# モンテーニュ側はマキャベリの1時間後なので、三つのボットが1時間おきに順に走る。
+# 日本時間では 2:17, 5:17, 8:17, 11:17, 14:17, 17:17, 20:17, 23:17。
+# 【0分を避ける理由】GitHub の定時実行は毎時0分に全利用者の予約が集中し、
+# 遅延や実行の取りこぼしが起きやすい(公式文書でも0分以外を推奨)。
+on:
+  schedule:
+    - cron: "17 2-23/3 * * *"
+  workflow_dispatch: {}   # Actionsタブから手動実行も可能にする
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-bacon-feed
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # マキャベリ・モンテーニュと同じローカルLLM。変更する場合はこの1行だけを書き換える。
+      OLLAMA_MODEL: "qwen3.5:9b"
+      OLLAMA_HOST: "http://localhost:11434"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Ollama
+        run: curl -fsSL https://ollama.com/install.sh | sh
+
+      - name: Start Ollama server
+        run: |
+          nohup ollama serve > ollama.log 2>&1 &
+          for i in $(seq 1 20); do
+            curl -sf http://localhost:11434/ && break
+            sleep 1
+          done
+
+      - name: Pull local model
+        run: |
+          ollama --version
+          ollama pull "$OLLAMA_MODEL"
+
+      - name: Generate feed
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_bacon_feed.py
+
+      - name: Show Ollama log
+        if: always()
+        run: tail -n 40 ollama.log || true
+
+      - name: Commit and push updated feed
+        run: |
+          git config user.name "bacon-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          # フィードと、ベーコン側の状態ファイル(既出記事・引用の使用履歴)だけをコミットする。
+          # 他のボットのファイルには触れない(既出記事の照合のため読むだけ)。
+          git add docs/bacon/feed.json
+          git add logs/bacon_*.json 2>/dev/null || true
+
+          if git diff --quiet --cached; then
+            echo "変更なし。コミットをスキップします。"
+            exit 0
+          fi
+
+          git commit -m "Update bacon feed.json [skip ci]"
+
+          # 他のボットの実行と push が重なった場合に備え、最新を取り込んで再試行する(最大3回)。
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 成功"
+              exit 0
+            fi
+            echo "push 失敗。リモートの最新状態を取り込んで再試行します (試行 $i/3)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            sleep 3
+          done
+
+          echo "3回試行しても push に失敗しました。"
+          exit 1
