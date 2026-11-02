@@ -294,10 +294,7 @@ def _build_analysis(item: NewsItem, quote: dict = None) -> str:
     記事のテーマとも一致するものを優先して型を選ぶ(引用と分析文の食い違いを避ける)。
     """
     themes = getattr(item, "themes", None) or [item.theme or "tribus"]
-    theme = themes[0]
-    if quote:
-        shared = [t for t in themes if t in quote["tags"]]
-        theme = shared[0] if shared else quote["tags"][0]
+    theme = _theme_for(item, quote) if quote else themes[0]
     templates = THEME_ANALYSIS_TEMPLATES.get(theme) or THEME_ANALYSIS_TEMPLATES["tribus"]
     # 見出し末尾の媒体名(「 - 日本経済新聞」)を除いてから断片を取る
     title = _MEDIA_SUFFIX.sub("", facts_for_prompt(item)[0]).strip()
@@ -326,20 +323,54 @@ def _assemble_body(analysis: str, quote: dict, max_chars: int = BODY_MAX_CHARS) 
 # ---------------------------------------------------------------
 # LLM による分析文
 # ---------------------------------------------------------------
-ANALYSIS_PROMPT = """次のニュースで、誰が、どんな思い込み・期待・言葉・権威に引きずられているのかを、
-フランシス・ベーコンのように冷徹に、平易な言葉で一文で指摘せよ。
+# 【分析文の手がかり】
+# 引用の文言をそのまま LLM に見せて「同じ心の動きを示せ」と求めると、小型モデルは
+# 引用の語句を文に無理に取り込み、事実照合で落ちる(実例: 「機械的発明が人間に及ぼす
+# 影響力という期待に引きずり込んでいる」)。そこで引用そのものは見せず、引用のテーマに
+# 対応する心の動きを平易な言葉で渡し、「見出しの出来事 → そこに見える心の動き」の型で書かせる。
+# テーマは、記事のテーマと引用のタグが重なるものを優先する(テンプレートと同じ選び方)。
+THEME_HINTS = {
+    "tribus": "人が、確かめた事実よりも、自分の期待や不安、目を引く印象に引きずられて物事を受け止めていること",
+    "specus": "人が、自分の立場・専門・経験という狭い見方から物事を判断していること",
+    "fori": "出来事の中身より先に、言葉や呼び名・レッテルが人の受け止め方を決めてしまっていること",
+    "theatri": "人が、自分で確かめるより先に、権威や専門家の名、出来上がった筋書きに寄りかかっていること",
+    "fama": "物事の重みとは別に、噂・評判・話題性によって人の関心や判断が動いていること",
+    "superstitio": "人が、根拠の乏しい話や当たった例だけを信じ、偶然に意味を読み込んでいること",
+    "simulatio": "誰かが事実を隠したり装ったりして、見せかけと実際とが食い違っていること",
+    "experientia": "試して確かめる前に結論が先走っていること、あるいは確かめてはじめて真偽が分かること",
+    "potentia": "技術や知識を持つ者が、そのまま力を持つ者になっていること",
+    "novitas": "新しい技術や仕組みが、古い物差しや過去の例からの類推で推し量られていること",
+    "studium": "学問や研究が、その中身よりも、扱われ方や誰が語るかによって評価されていること",
+}
+
+
+def _theme_for(item: NewsItem, quote: dict) -> str:
+    themes = getattr(item, "themes", None) or [item.theme or "tribus"]
+    shared = [t for t in themes if t in quote["tags"]]
+    return shared[0] if shared else quote["tags"][0]
+
+
+def _analysis_prompt(item: NewsItem, quote: dict) -> str:
+    title, summary = facts_for_prompt(item)
+    return ANALYSIS_PROMPT.format(title=title, summary=summary,
+                                  hint=THEME_HINTS[_theme_for(item, quote)])
+
+
+ANALYSIS_PROMPT = """次のニュースについて、フランシス・ベーコンのように冷徹な観察を、平易な言葉で一文で書け。
 
 ニュース見出し: {title}
 概要: {summary}
 
-この分析文のあとに、次のベーコンの言葉を引用として添える:
-「{quote}」
+観察の手がかり(このニュースのどこにこれが見えるかを書く):
+{hint}
 
-分析文はこの言葉への導入になるように書け。書き方は次のとおり:
-- まず、見出しに書かれた具体的な出来事(誰が何をしたか、何が起きたか)をそのまま押さえる
-- そのうえで、その出来事のどこに、添える言葉と同じ心の動き(または、知識が力になる構図)が
-  見えるのかを、ふつうの言葉で言い当てる
-- 言葉そのものを言い換えて繰り返すだけの文にはしないこと
+書き方:
+- 文の前半で、見出しに書かれた具体的な出来事(誰が何をしたか、何が起きたか)を短く押さえる
+- 文の後半で、その出来事のどこに上の手がかりの心の動きが見えるのかを、ふつうの言葉で言い当てる
+- 型の目安:「(見出しの出来事)には、(誰の)(どんな心の動き)が見える。」
+  ただし言い回しはこの型どおりでなくてよい
+- 手がかりの文をそのまま書き写さないこと
+- 見出しに出来事が乏しい場合も、書かれている範囲で、誰の受け止め方や扱い方かを具体的に書く
 
 視座(厳守):
 - 指摘するのは「知性の欺かれ方」であって、誰が善で誰が悪かではない。
@@ -430,7 +461,7 @@ def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
     """設定・検査の段取りは montaigne_engine._analysis_via_ollama と同じ。"""
     host, model = mtg._ollama_env()
     title, summary = facts_for_prompt(item)
-    prompt = ANALYSIS_PROMPT.format(title=title, summary=summary, quote=quote["ja"])
+    prompt = _analysis_prompt(item, quote)
     options = {
         "temperature": 0.5,
         "top_p": 0.8,
@@ -444,6 +475,7 @@ def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
         try:
             text = _validate_analysis(me._ollama_generate(host, model, prompt, options))
             mtg._check_not_restating(text, quote["ja"])
+            mtg._check_not_restating(text, THEME_HINTS[_theme_for(item, quote)])
             _check_grounded_terms(text, title, summary, quote["ja"])
             mtg._verify_with_ollama(host, model, text, title, summary)
             return text
@@ -464,10 +496,11 @@ def _analysis_via_anthropic(item: NewsItem, quote: dict) -> str:
         model=os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5"),
         max_tokens=150,
         messages=[{"role": "user",
-                   "content": ANALYSIS_PROMPT.format(title=title, summary=summary, quote=quote["ja"])}],
+                   "content": _analysis_prompt(item, quote)}],
     )
     text = _validate_analysis("".join(b.text for b in msg.content if b.type == "text"))
     mtg._check_not_restating(text, quote["ja"])
+    mtg._check_not_restating(text, THEME_HINTS[_theme_for(item, quote)])
     _check_grounded_terms(text, title, summary, quote["ja"])
     return text
 
