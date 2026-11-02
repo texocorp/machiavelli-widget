@@ -1,0 +1,963 @@
+{
+ "_meta": {
+  "note": "全てミシェル・ド・モンテーニュ『エセー』(Essais, 1580-1595)からの引用で、原典はパブリックドメイン。日本語は本ボットのための訳(既存の邦訳は用いていない)。",
+  "sources": {
+   "numbering": "出典は「巻.章」。章番号は現代の標準(ヴィレー版、および岩波文庫・白水社などの邦訳と同じ番号)。例: I.31 = 第1巻第31章「人食い人種について」"
+  },
+  "check": {
+   "fr": "仏語原典(ボルドー本系の本文、github.com/mthuillier/montaigne の Books.csv)の当該章で逐語照合済み。綴りは原典のまま(u/v等の表記揺れのみ照合時に吸収)"
+  },
+  "tags": {
+   "coutume": "慣習・常識・しきたり・前例・同調",
+   "nouveaute": "改革・新制度・急な変化",
+   "lois": "法・裁判・刑罰・規則・組織の論理",
+   "savoir": "知識・教育・学問・専門家・研究",
+   "presomption": "人間の思い上がり・技術や理性への過信",
+   "opinion": "噂・情報・報道・世論・偽情報・正義感の暴走",
+   "mort": "死・事故・災害・老い・寿命",
+   "peur": "恐怖・不安・パニック・将来への心配",
+   "medecine": "医療・健康・病気・治療",
+   "cruaute": "残酷・暴力・虐待・いじめ",
+   "autrui": "他者・異文化・外国人・差別・動物",
+   "inconstance": "人の移ろいやすさ・矛盾・豹変",
+   "vanite": "虚栄・名声・肩書・地位",
+   "profit": "利益・商売・格差・労働",
+   "soi": "自己・孤独・働き方・家族・生き方"
+  },
+  "fields": "id(使用履歴の管理に使う一意の記号)、source(巻.章)、chapter_title(原典の章題)、check(照合方法)、tags(適用するテーマ、複数可)、fr(原文)、ja(日本語訳)、scene(適用場面。箴言選びの手がかり)"
+ },
+ "quotes": [
+  {
+   "id": "I.23a",
+   "source": "I.23",
+   "chapter_title": "De la coustume, et de ne changer aisément une loy receüe",
+   "check": "fr",
+   "tags": [
+    "coutume"
+   ],
+   "fr": "c'est à la verité une violente et traistresse maistresse d'escole, que la coustume",
+   "ja": "まことに慣習とは、荒々しく、しかも裏切りに満ちた教師である。",
+   "scene": "長年の慣行・しきたり、習慣化した悪弊、気づかぬうちに根づいた不正や前例主義"
+  },
+  {
+   "id": "I.23b",
+   "source": "I.23",
+   "chapter_title": "De la coustume, et de ne changer aisément une loy receüe",
+   "check": "fr",
+   "tags": [
+    "coutume",
+    "autrui"
+   ],
+   "fr": "Les loix de la conscience, que nous disons naistre de nature, naissent de la coustume",
+   "ja": "自然から生まれると我々が言う良心の掟は、実は慣習から生まれる。",
+   "scene": "倫理観や道徳をめぐる対立、価値観の衝突、常識・世間体をめぐる論争"
+  },
+  {
+   "id": "I.23c",
+   "source": "I.23",
+   "chapter_title": "De la coustume, et de ne changer aisément une loy receüe",
+   "check": "fr",
+   "tags": [
+    "nouveaute",
+    "lois",
+    "coutume"
+   ],
+   "fr": "Il y a grand doute, s'il se peut trouver si evident profit au changement d'une loy receüe telle qu'elle soit, qu'il y a de mal à la remuer",
+   "ja": "受け容れられてきた法を改めることに、それがどんな法であれ、揺り動かす害を上回るほどの明白な益があるかは、大いに疑わしい。",
+   "scene": "法改正、制度改革、規制緩和、長年続いた制度の見直し、改革論議"
+  },
+  {
+   "id": "I.31a",
+   "source": "I.31",
+   "chapter_title": "Des Cannibales",
+   "check": "fr",
+   "tags": [
+    "autrui",
+    "coutume"
+   ],
+   "fr": "chacun appelle barbarie, ce qui n'est pas de son usage",
+   "ja": "人はみな、自分の習慣にないものを野蛮と呼ぶ。",
+   "scene": "外国人・移民、異文化、風習の違い、差別、文化摩擦、観光客をめぐる苦情"
+  },
+  {
+   "id": "I.31b",
+   "source": "I.31",
+   "chapter_title": "Des Cannibales",
+   "check": "fr",
+   "tags": [
+    "autrui",
+    "cruaute"
+   ],
+   "fr": "Nous les pouvons donc bien appeller barbares, eu esgard aux regles de la raison, mais non pas eu esgard à nous, qui les surpassons en toute sorte de barbarie.",
+   "ja": "理性の規則に照らせば、彼らを野蛮と呼ぶこともできよう。だが我々に照らしてではない。我々はあらゆる種類の野蛮において彼らを凌いでいるのだから。",
+   "scene": "他者を非難する側の残酷さ、差別やヘイト、文明を誇る社会の暴力"
+  },
+  {
+   "id": "I.31c",
+   "source": "I.31",
+   "chapter_title": "Des Cannibales",
+   "check": "fr",
+   "tags": [
+    "cruaute"
+   ],
+   "fr": "Je pense qu'il y a plus de barbarie à manger un homme vivant, qu'à le manger mort",
+   "ja": "死んだ人間を食うより、生きた人間を食うほうがよほど野蛮だと私は思う。",
+   "scene": "生きている者への虐待・いじめ・拷問、遺体への騒ぎと生者への無関心"
+  },
+  {
+   "id": "I.18",
+   "source": "I.18",
+   "chapter_title": "De la peur",
+   "check": "fr",
+   "tags": [
+    "peur"
+   ],
+   "fr": "C'est ce dequoy j'ay le plus de peur que la peur.",
+   "ja": "私が何よりも恐れるのは、恐怖そのものである。",
+   "scene": "パニック、風評、買い占め、不安の連鎖、災害時の混乱、感染症への恐怖"
+  },
+  {
+   "id": "I.20a",
+   "source": "I.20",
+   "chapter_title": "Que Philosopher, c'est apprendre a mourir",
+   "check": "fr",
+   "tags": [
+    "mort"
+   ],
+   "fr": "Il est incertain où la mort nous attende, attendons la par tout.",
+   "ja": "死がどこで我々を待ち受けているかは分からない。ならば、いたるところで待ち受けよう。",
+   "scene": "事故、急死、災害、突然の死、交通事故、転落"
+  },
+  {
+   "id": "I.20b",
+   "source": "I.20",
+   "chapter_title": "Que Philosopher, c'est apprendre a mourir",
+   "check": "fr",
+   "tags": [
+    "mort",
+    "soi"
+   ],
+   "fr": "La premeditation de la mort, est premeditation de la liberté. Qui a apris à mourir, il a desapris à servir.",
+   "ja": "死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。",
+   "scene": "終活、延命治療、安楽死・尊厳死の議論、死への備え"
+  },
+  {
+   "id": "I.20c",
+   "source": "I.20",
+   "chapter_title": "Que Philosopher, c'est apprendre a mourir",
+   "check": "fr",
+   "tags": [
+    "mort"
+   ],
+   "fr": "Le continuel ouvrage de vostre vie, c'est bastir la mort.",
+   "ja": "あなたの生のたえまない営みは、死を築くことにほかならない。",
+   "scene": "高齢化、平均寿命、老い、人生の時間、介護"
+  },
+  {
+   "id": "I.21",
+   "source": "I.21",
+   "chapter_title": "De la force de l'imagination",
+   "check": "fr",
+   "tags": [
+    "peur",
+    "medecine",
+    "opinion"
+   ],
+   "fr": "Fortis imaginatio generat casum, disent les clercs. Je suis de ceux qui sentent tres-grand effort de l'imagination. Chacun en est heurté, mais aucuns en sont renversez.",
+   "ja": "「強い想像は出来事を生む」と学者たちは言う。私は想像力の大きな力を感じる者の一人だ。誰もがその打撃を受けるが、なかにはそれに打ち倒される者もいる。",
+   "scene": "思い込み、健康不安、プラセボ、集団心理、根拠のない不安による被害"
+  },
+  {
+   "id": "I.22",
+   "source": "I.22",
+   "chapter_title": "Le profit de l'un est dommage de l'autre",
+   "check": "fr",
+   "tags": [
+    "profit"
+   ],
+   "fr": "il ne se faict aucun profit qu'au dommage d'autruy",
+   "ja": "他人の損失なくして生まれる利益など、一つもない。",
+   "scene": "企業の利益と消費者や労働者の負担、値上げ、特需、格差、葬儀・医療ビジネス"
+  },
+  {
+   "id": "I.26a",
+   "source": "I.26",
+   "chapter_title": "De l'institution des enfans",
+   "check": "fr",
+   "tags": [
+    "savoir"
+   ],
+   "fr": "qui eust plustost la teste bien faicte, que bien pleine",
+   "ja": "(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。",
+   "scene": "教育改革、入試、詰め込み教育、学力テスト、資格偏重、教員の採用"
+  },
+  {
+   "id": "I.26b",
+   "source": "I.26",
+   "chapter_title": "De l'institution des enfans",
+   "check": "fr",
+   "tags": [
+    "savoir"
+   ],
+   "fr": "Sçavoir par coeur n'est pas sçavoir : c'est tenir ce qu'on a donné en garde à sa memoire.",
+   "ja": "暗記していることは、知っていることではない。記憶に預けたものを抱えているにすぎない。",
+   "scene": "試験、暗記中心の学習、知識偏重、検索やAIで得られる知識"
+  },
+  {
+   "id": "I.26c",
+   "source": "I.26",
+   "chapter_title": "De l'institution des enfans",
+   "check": "fr",
+   "tags": [
+    "savoir",
+    "opinion"
+   ],
+   "fr": "Qu'il luy face tout passer par l'estamine, et ne loge rien en sa teste par simple authorité, et à credit.",
+   "ja": "何事も篩にかけさせ、権威や受け売りだけで頭に入れさせてはならぬ。",
+   "scene": "権威の受け売り、専門家の見解の鵜呑み、情報リテラシー、教育の方法"
+  },
+  {
+   "id": "I.25a",
+   "source": "I.25",
+   "chapter_title": "Du pedantisme",
+   "check": "fr",
+   "tags": [
+    "savoir"
+   ],
+   "fr": "Nous ne travaillons qu'à remplir la memoire, et laissons l'entendement et la conscience vuide.",
+   "ja": "我々は記憶を満たすことにばかり努め、理解力と良心を空のまま放っておく。",
+   "scene": "知識はあっても判断や倫理を欠く専門家、研究不正、エリートの不祥事"
+  },
+  {
+   "id": "I.25b",
+   "source": "I.25",
+   "chapter_title": "Du pedantisme",
+   "check": "fr",
+   "tags": [
+    "savoir",
+    "vanite"
+   ],
+   "fr": "Il falloit s'enquerir qui est mieux sçavant, non qui est plus sçavant.",
+   "ja": "誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。",
+   "scene": "学歴、肩書、論文数、人材評価、採用や人事の基準"
+  },
+  {
+   "id": "I.27",
+   "source": "I.27",
+   "chapter_title": "C'est folie de rapporter le vray et le faux à nostre suffisance",
+   "check": "fr",
+   "tags": [
+    "presomption",
+    "savoir"
+   ],
+   "fr": "C'est une hardiesse dangereuse et de consequence, outre l'absurde temerité qu'elle traine quant et soy, de mespriser ce que nous ne concevons pas.",
+   "ja": "自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。",
+   "scene": "未知の現象や新発見の否定、専門家の慢心、想定外の事故、前例のない事態"
+  },
+  {
+   "id": "I.30a",
+   "source": "I.30",
+   "chapter_title": "De la Moderation",
+   "check": "fr",
+   "tags": [
+    "opinion",
+    "lois"
+   ],
+   "fr": "On peut et trop aymer la vertu, et se porter excessivement en une action juste.",
+   "ja": "人は徳を愛しすぎることもあり、正しい行いにおいて度を越すこともある。",
+   "scene": "正義感の暴走、過剰な糾弾、炎上、行き過ぎた規制や自粛、潔癖な取り締まり"
+  },
+  {
+   "id": "I.30b",
+   "source": "I.30",
+   "chapter_title": "De la Moderation",
+   "check": "fr",
+   "tags": [
+    "opinion"
+   ],
+   "fr": "L'immoderation vers le bien mesme, si elle ne m'offense, elle m'estonne, et me met en peine de la baptizer.",
+   "ja": "善に向かうものであっても、度を越したものは、私を傷つけはしなくとも驚かせ、何と名づけてよいか困らせる。",
+   "scene": "善意の押しつけ、過剰な配慮、熱狂的な運動、行き過ぎた健康志向"
+  },
+  {
+   "id": "I.14",
+   "source": "I.14",
+   "chapter_title": "Que le goust des biens et des maux despend en bonne partie de l'opinion que nous en avons",
+   "check": "fr",
+   "tags": [
+    "peur",
+    "opinion"
+   ],
+   "fr": "LES hommes (dit une sentence Grecque ancienne) sont tourmentez par les opinions qu'ils ont des choses, non par les choses mesmes.",
+   "ja": "人は物事そのものによってではなく、物事について抱く思いによって苦しめられる、と古代ギリシアの格言は言う。",
+   "scene": "不安、風評被害、リスクの受け止め方、体感治安、物価への不満"
+  },
+  {
+   "id": "I.42",
+   "source": "I.42",
+   "chapter_title": "De l'inequalité qui est entre nous",
+   "check": "fr",
+   "tags": [
+    "profit",
+    "vanite"
+   ],
+   "fr": "PLUTARQUE dit en quelque lieu, qu'il ne trouve point si grande distance de beste à beste, comme il trouve d'homme à homme.",
+   "ja": "プルタルコスはどこかで、獣と獣の隔たりは、人と人との隔たりほど大きくはないと言っている。",
+   "scene": "能力や人格の差、格差社会、肩書と中身の落差"
+  },
+  {
+   "id": "I.39a",
+   "source": "I.39",
+   "chapter_title": "De la solitude",
+   "check": "fr",
+   "tags": [
+    "soi"
+   ],
+   "fr": "Il se faut reserver une arriereboutique, toute nostre, toute franche, en laquelle nous establissions nostre vraye liberté et principale retraicte et solitude.",
+   "ja": "まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。",
+   "scene": "働き方、過労、つながりすぎ、SNS疲れ、私生活と仕事の境界、在宅勤務"
+  },
+  {
+   "id": "I.39b",
+   "source": "I.39",
+   "chapter_title": "De la solitude",
+   "check": "fr",
+   "tags": [
+    "soi"
+   ],
+   "fr": "La plus grande chose du monde c'est de sçavoir estre à soy.",
+   "ja": "世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。",
+   "scene": "依存、同調圧力、組織への従属、自立"
+  },
+  {
+   "id": "I.39c",
+   "source": "I.39",
+   "chapter_title": "De la solitude",
+   "check": "fr",
+   "tags": [
+    "soi",
+    "autrui"
+   ],
+   "fr": "Il n'est rien si dissociable et sociable que l'homme : l'un par son vice, l'autre par sa nature.",
+   "ja": "人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。",
+   "scene": "孤立、孤独死、近所づきあい、地域のつながり、人間関係のトラブル"
+  },
+  {
+   "id": "I.3",
+   "source": "I.3",
+   "chapter_title": "Nos affections s'emportent au delà de nous",
+   "check": "fr",
+   "tags": [
+    "peur",
+    "soi"
+   ],
+   "fr": "Nous ne sommes jamais chez nous, nous sommes tousjours au delà. La crainte, le desir, l'esperance, nous eslancent vers l'advenir",
+   "ja": "我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。",
+   "scene": "将来不安、老後資金、予測や予言、投機、少子化への不安"
+  },
+  {
+   "id": "I.9",
+   "source": "I.9",
+   "chapter_title": "Des Menteurs",
+   "check": "fr",
+   "tags": [
+    "opinion"
+   ],
+   "fr": "Si comme la verité, le mensonge n'avoit qu'un visage, nous serions en meilleurs termes : car nous prendrions pour certain l'opposé de ce que diroit le menteur. Mais le revers de la verité a cent mille figures, et un champ indefiny.",
+   "ja": "もし嘘が真実と同じく一つの顔しか持たないなら、事はもっと楽であろう。嘘つきの言うことの反対を確かなものと受け取ればよいのだから。だが真実の裏側には十万の姿があり、果てしない広がりがある。",
+   "scene": "偽情報、虚偽の説明、不正の隠蔽、詐欺、改ざん、偽装"
+  },
+  {
+   "id": "I.50",
+   "source": "I.50",
+   "chapter_title": "De Democritus et Heraclitus",
+   "check": "fr",
+   "tags": [
+    "vanite",
+    "inconstance"
+   ],
+   "fr": "Nostre propre condition est autant ridicule, que risible.",
+   "ja": "我々自身の境遇は、嘲られるべきものであると同じくらい、笑わずにはいられぬものである。",
+   "scene": "滑稽な騒動、不祥事、人間の愚かさ、珍事"
+  },
+  {
+   "id": "I.54",
+   "source": "I.54",
+   "chapter_title": "Des vaines subtilitez",
+   "check": "fr",
+   "tags": [
+    "savoir",
+    "presomption"
+   ],
+   "fr": "Il se peut dire avec apparence, qu'il y a ignorance abecedaire, qui va devant la science : une autre doctorale, qui vient apres la science : ignorance que la science fait et engendre",
+   "ja": "学問の手前にある、いろはの無知があり、学問の後に来る、博士の無知がある、と言ってもよさそうだ。後者は学問そのものが作り出し、生み出す無知である。",
+   "scene": "専門家の誤り、高学歴者の詐欺被害、専門分野の視野狭窄"
+  },
+  {
+   "id": "II.1a",
+   "source": "II.1",
+   "chapter_title": "De l'inconstance de nos actions",
+   "check": "fr",
+   "tags": [
+    "inconstance"
+   ],
+   "fr": "Nous sommes tous de lopins, et d'une contexture si informe et diverse, que chaque piece, chaque moment, faict son jeu.",
+   "ja": "我々は皆つぎはぎでできている。その組み立てはまことに不定形でまちまちだから、どの切れ端も、どの瞬間も、それぞれ勝手に振る舞う。",
+   "scene": "豹変、矛盾した言動、模範的とされた人物の不祥事、意外な犯人"
+  },
+  {
+   "id": "II.1b",
+   "source": "II.1",
+   "chapter_title": "De l'inconstance de nos actions",
+   "check": "fr",
+   "tags": [
+    "inconstance",
+    "soi"
+   ],
+   "fr": "Et se trouve autant de difference de nous à nous mesmes, que de nous à autruy.",
+   "ja": "我々と我々自身との間には、我々と他人との間と同じほどの違いがある。",
+   "scene": "前言撤回、方針転換、人の二面性、心変わり"
+  },
+  {
+   "id": "II.12a",
+   "source": "II.12",
+   "chapter_title": "Apologie de Raimond de Sebonde",
+   "check": "fr",
+   "tags": [
+    "savoir",
+    "presomption"
+   ],
+   "fr": "Cette fantasie est plus seurement conceuë par interrogation : Que sçay-je ?",
+   "ja": "この考えは、問いのかたちでこそ確かに捉えられる――「私は何を知っているか?」",
+   "scene": "科学的な不確実性、断定的な主張、専門家の見解の対立、研究結果の食い違い"
+  },
+  {
+   "id": "II.12b",
+   "source": "II.12",
+   "chapter_title": "Apologie de Raimond de Sebonde",
+   "check": "fr",
+   "tags": [
+    "presomption"
+   ],
+   "fr": "La presomption est nostre maladie naturelle et originelle. La plus calamiteuse et fragile de toutes les creatures c'est l'homme, et quant et quant, la plus orgueilleuse.",
+   "ja": "思い上がりは、我々の生まれつきの根源的な病である。あらゆる被造物の中で最も惨めで脆いのは人間であり、同時に最も傲慢なのも人間である。",
+   "scene": "技術への過信、自然災害、巨大事業、AI万能論、安全神話"
+  },
+  {
+   "id": "II.12c",
+   "source": "II.12",
+   "chapter_title": "Apologie de Raimond de Sebonde",
+   "check": "fr",
+   "tags": [
+    "presomption",
+    "savoir"
+   ],
+   "fr": "La peste de l'homme c'est l'opinion de sçavoir.",
+   "ja": "人間の疫病、それは知っているという思い込みである。",
+   "scene": "思い込みによる失敗、専門家の断定、誤診、見込み違い"
+  },
+  {
+   "id": "II.12d",
+   "source": "II.12",
+   "chapter_title": "Apologie de Raimond de Sebonde",
+   "check": "fr",
+   "tags": [
+    "presomption"
+   ],
+   "fr": "L'homme est bien insensé : Il ne sçauroit forger un ciron, et forge des Dieux à douzaines.",
+   "ja": "人間はまことに正気でない。ダニ一匹作れぬくせに、神々を何ダースも作り上げる。",
+   "scene": "生命科学、カルト、偶像化、熱狂的な崇拝、AIの神格化"
+  },
+  {
+   "id": "II.12e",
+   "source": "II.12",
+   "chapter_title": "Apologie de Raimond de Sebonde",
+   "check": "fr",
+   "tags": [
+    "presomption",
+    "autrui"
+   ],
+   "fr": "Quand je me jouë à ma chatte, qui sçait, si elle passe son temps de moy plus que je ne fay d'elle ?",
+   "ja": "私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。",
+   "scene": "動物、ペット、動物の知能研究、野生動物の出没、人間中心の見方"
+  },
+  {
+   "id": "II.12f",
+   "source": "II.12",
+   "chapter_title": "Apologie de Raimond de Sebonde",
+   "check": "fr",
+   "tags": [
+    "savoir",
+    "presomption",
+    "nouveaute"
+   ],
+   "fr": "Que prendrons nous de là, sinon qu'il ne nous doit chaloir lequel ce soit des deux ? Et qui sçait qu'une tierce opinion d'icy à mille ans, ne renverse les deux precedentes ?",
+   "ja": "そこから何を学ぶべきか。二つの説のどちらが正しいかに心を煩わすには及ばぬ、ということではないか。千年後に第三の説が現れて、先の二つを覆さぬと誰に分かろう。",
+   "scene": "科学の新発見、定説の転覆、学説論争、宇宙・天文の研究"
+  },
+  {
+   "id": "II.11",
+   "source": "II.11",
+   "chapter_title": "De la cruauté",
+   "check": "fr",
+   "tags": [
+    "cruaute"
+   ],
+   "fr": "Je hay entre autres vices, cruellement la cruauté, et par nature et par jugement, comme l'extreme de tous les vices.",
+   "ja": "私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。",
+   "scene": "虐待、殺人、動物虐待、暴力事件、いじめ"
+  },
+  {
+   "id": "II.5",
+   "source": "II.5",
+   "chapter_title": "De la conscience",
+   "check": "fr",
+   "tags": [
+    "lois",
+    "cruaute"
+   ],
+   "fr": "C'est une dangereuse invention que celle des gehennes, et semble que ce soit plustost un essay de patience que de verité.",
+   "ja": "拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。",
+   "scene": "自白の強要、取り調べ、冤罪、長期の身柄拘束、再審"
+  },
+  {
+   "id": "II.15",
+   "source": "II.15",
+   "chapter_title": "Que nostre desir s'accroist par la malaisance",
+   "check": "fr",
+   "tags": [
+    "profit",
+    "vanite"
+   ],
+   "fr": "il n'est rien naturellement si contraire à nostre goust que la satieté, qui vient de l'aisance : ny rien qui l'aiguise tant que la rareté et difficulté.",
+   "ja": "容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。",
+   "scene": "品薄、転売、限定商品、行列、ブーム、高騰"
+  },
+  {
+   "id": "II.16",
+   "source": "II.16",
+   "chapter_title": "De la gloire",
+   "check": "fr",
+   "tags": [
+    "vanite"
+   ],
+   "fr": "IL y a le nom et la chose : le nom, c'est une voix qui remerque et signifie la chose : le nom, ce n'est pas une partie de la chose, ny de la substance",
+   "ja": "名と物とがある。名とは物を指し示す声であって、物の一部でも、その実体の一部でもない。",
+   "scene": "ブランド、肩書、名称変更、看板倒れ、表示の偽装、言い換え"
+  },
+  {
+   "id": "II.17",
+   "source": "II.17",
+   "chapter_title": "De la presumption",
+   "check": "fr",
+   "tags": [
+    "soi"
+   ],
+   "fr": "Le monde regarde tousjours vis à vis : moy, je replie ma veuë au dedans, je la plante, je l'amuse là. Chacun regarde devant soy, moy je regarde dedans moy",
+   "ja": "世の人はいつも正面を見る。私は視線を内側へ折り返し、そこに据え、そこで遊ばせる。誰もが自分の前を見るが、私は自分の内を見る。",
+   "scene": "他人への批判、内省の欠如、謝罪会見、責任転嫁"
+  },
+  {
+   "id": "II.18",
+   "source": "II.18",
+   "chapter_title": "Du desmentir",
+   "check": "fr",
+   "tags": [
+    "opinion"
+   ],
+   "fr": "Nostre verité de maintenant, ce n'est pas ce qui est, mais ce qui se persuade à autruy : comme nous appellons monnoye, non celle qui est loyalle seulement, mais la fauce aussi, qui a mise.",
+   "ja": "今日の我々の真実とは、在るものではなく、他人に信じ込ませるものである。本物の貨幣だけでなく、通用している贋金をも貨幣と呼ぶように。",
+   "scene": "偽情報、プロパガンダ、広告、印象操作、SNSの拡散、ステルスマーケティング"
+  },
+  {
+   "id": "II.37",
+   "source": "II.37",
+   "chapter_title": "De la ressemblance des enfans aux peres",
+   "check": "fr",
+   "tags": [
+    "medecine"
+   ],
+   "fr": "Les medecins ne se contentent point d'avoir la maladie en gouvernement, ils rendent la santé malade, pour garder qu'on ne puisse en aucune saison eschapper leur authorité.",
+   "ja": "医者は病気を支配下に置くだけでは満足せず、健康までも病気にしてしまう。いつ何時も、人が自分たちの権威から逃れられぬようにするためである。",
+   "scene": "過剰診療、健康診断、予防医療、医療ビジネス、薬の過剰処方、医療費"
+  },
+  {
+   "id": "III.2a",
+   "source": "III.2",
+   "chapter_title": "Du repentir",
+   "check": "fr",
+   "tags": [
+    "inconstance",
+    "nouveaute"
+   ],
+   "fr": "Le monde n'est qu'une branloire perenne : Toutes choses y branlent sans cesse",
+   "ja": "世界は果てしなく揺れ続けるぶらんこにすぎない。あらゆるものがそこで絶えず揺れている。",
+   "scene": "世相の移り変わり、流行の盛衰、景気の浮き沈み、地震"
+  },
+  {
+   "id": "III.2b",
+   "source": "III.2",
+   "chapter_title": "Du repentir",
+   "check": "fr",
+   "tags": [
+    "soi",
+    "autrui"
+   ],
+   "fr": "Chaque homme porte la forme entiere, de l'humaine condition.",
+   "ja": "人はひとりひとりが、人間の条件のすべての姿を身に帯びている。",
+   "scene": "市井の人の出来事、無名の人の生と死、身近な事件"
+  },
+  {
+   "id": "III.2c",
+   "source": "III.2",
+   "chapter_title": "Du repentir",
+   "check": "fr",
+   "tags": [
+    "inconstance"
+   ],
+   "fr": "Je ne peinds pas l'estre, je peinds le passage",
+   "ja": "私が描くのは存在ではない。移ろいを描くのだ。",
+   "scene": "移り変わる世論、変化の途中にある社会、統計の推移"
+  },
+  {
+   "id": "III.6",
+   "source": "III.6",
+   "chapter_title": "Des Coches",
+   "check": "fr",
+   "tags": [
+    "profit",
+    "cruaute"
+   ],
+   "fr": "Tant de villes rasees, tant de nations exterminees, tant de millions de peuples, passez au fil de l'espee, et la plus riche et belle partie du monde bouleversee, pour la negotiation des perles et du poivre : Mechaniques victoires.",
+   "ja": "かくも多くの町が破壊され、かくも多くの民族が滅ぼされ、幾百万の人々が剣にかけられ、世界の最も豊かで美しい部分が覆されたのは、真珠と胡椒の取引のためであった。卑しい勝利よ。",
+   "scene": "資源開発、環境破壊、利益のための犠牲、企業による被害、乱開発"
+  },
+  {
+   "id": "III.8a",
+   "source": "III.8",
+   "chapter_title": "De l'art de conferer",
+   "check": "fr",
+   "tags": [
+    "vanite",
+    "opinion"
+   ],
+   "fr": "La sottise est une mauvaise qualité, mais de ne la pouvoir supporter, et s'en despiter et ronger, comme il m'advient, c'est une autre sorte de maladie",
+   "ja": "愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。",
+   "scene": "炎上、ネットでの罵倒、クレーマー、他人の愚かさへの苛立ち、カスタマーハラスメント"
+  },
+  {
+   "id": "III.8b",
+   "source": "III.8",
+   "chapter_title": "De l'art de conferer",
+   "check": "fr",
+   "tags": [
+    "opinion",
+    "savoir"
+   ],
+   "fr": "A quoy faire vous mettez vous en voye de quester ce qui est, avec celuy qui n'a ny pas, ny alleure qui vaille ?",
+   "ja": "足取りも歩きぶりもまるで頼りにならぬ者と連れ立って、何のために真実を探しに出かけるのか。",
+   "scene": "不毛な論争、討論番組、SNS上の言い争い、議論のすれ違い"
+  },
+  {
+   "id": "III.9",
+   "source": "III.9",
+   "chapter_title": "De la vanité",
+   "check": "fr",
+   "tags": [
+    "nouveaute",
+    "lois"
+   ],
+   "fr": "Rien ne presse un estat que l'innovation : le changement donne seul forme à l'injustice, et à la tyrannie.",
+   "ja": "国家を苦しめるものは、新奇な改変をおいてほかにない。変化だけが、不正と専横に形を与えるのだ。",
+   "scene": "制度改革、急な政策転換、組織改編、新制度の混乱"
+  },
+  {
+   "id": "III.10a",
+   "source": "III.10",
+   "chapter_title": "De mesnager sa volonté",
+   "check": "fr",
+   "tags": [
+    "vanite",
+    "soi"
+   ],
+   "fr": "Le Maire et Montaigne, ont tousjours esté deux, d'une separation bien claire.",
+   "ja": "市長とモンテーニュとは、いつもはっきり分かたれた二人であった。",
+   "scene": "公職者の公私混同、役職と私人、首長の不祥事、肩書に呑まれる人"
+  },
+  {
+   "id": "III.10b",
+   "source": "III.10",
+   "chapter_title": "De mesnager sa volonté",
+   "check": "fr",
+   "tags": [
+    "vanite",
+    "soi"
+   ],
+   "fr": "Il faut jouer deuement nostre rolle, mais comme rolle d'un personnage emprunté. Du masque et de l'apparence, il n'en faut pas faire une essence réelle, ny de l'estranger le propre.",
+   "ja": "役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。",
+   "scene": "職務と人格、ハラスメント、権威をかさに着る振る舞い、役職への執着"
+  },
+  {
+   "id": "III.10c",
+   "source": "III.10",
+   "chapter_title": "De mesnager sa volonté",
+   "check": "fr",
+   "tags": [
+    "soi",
+    "profit"
+   ],
+   "fr": "Les hommes se donnent à louage. Leurs facultez ne sont pas pour eux ; elles sont pour ceux, à qui ils s'asservissent",
+   "ja": "人は自分を賃貸しする。その能力は自分のためではなく、仕える相手のためにある。",
+   "scene": "過労、長時間労働、会社人間、賃金、副業、転職"
+  },
+  {
+   "id": "III.11a",
+   "source": "III.11",
+   "chapter_title": "Des boyteux",
+   "check": "fr",
+   "tags": [
+    "lois",
+    "cruaute",
+    "opinion"
+   ],
+   "fr": "Apres tout c'est mettre ses conjectures à bien haut prix, que d'en faire cuire un homme tout vif.",
+   "ja": "結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。",
+   "scene": "冤罪、死刑、魔女狩りのような糾弾、ネット上の私刑、誤認逮捕"
+  },
+  {
+   "id": "III.11b",
+   "source": "III.11",
+   "chapter_title": "Des boyteux",
+   "check": "fr",
+   "tags": [
+    "opinion"
+   ],
+   "fr": "L'erreur particulier, fait premierement l'erreur publique : et à son tour apres, l'erreur publique fait l'erreur particuliere.",
+   "ja": "一人の誤りがまず世間の誤りをつくり、次には世間の誤りが一人一人の誤りをつくる。",
+   "scene": "デマや噂の拡散、誤報、集団心理、思い込みの連鎖"
+  },
+  {
+   "id": "III.11c",
+   "source": "III.11",
+   "chapter_title": "Des boyteux",
+   "check": "fr",
+   "tags": [
+    "opinion"
+   ],
+   "fr": "J'ay veu la naissance de plusieurs miracles de mon temps. Encore qu'ils s'estouffent en naissant, nous ne laissons pas de prevoir le train qu'ils eussent pris, s'ils eussent vescu leur aage.",
+   "ja": "私は自分の時代に、いくつもの奇跡が生まれるのを見た。生まれるそばから息絶えても、生き延びていたらどんな道をたどったかは、なお見て取れる。",
+   "scene": "都市伝説、陰謀論、怪しい健康法、霊感商法、根拠のない噂"
+  },
+  {
+   "id": "III.11d",
+   "source": "III.11",
+   "chapter_title": "Des boyteux",
+   "check": "fr",
+   "tags": [
+    "savoir",
+    "opinion"
+   ],
+   "fr": "On me faict haïr les choses vray-semblables, quand on me les plante pour infaillibles.",
+   "ja": "もっともらしいことでも、絶対確実だと押しつけられると、私はそれが嫌いになる。",
+   "scene": "断定的な専門家の説明、行政の安全宣言、健康情報、予測の断言"
+  },
+  {
+   "id": "III.11e",
+   "source": "III.11",
+   "chapter_title": "Des boyteux",
+   "check": "fr",
+   "tags": [
+    "soi",
+    "inconstance"
+   ],
+   "fr": "Je n'ay veu monstre et miracle au monde, plus expres, que moy-mesme",
+   "ja": "この世で、私自身ほどはっきりした怪物や奇跡を、私は見たことがない。",
+   "scene": "奇妙な事件、不可解な動機、人間の不思議"
+  },
+  {
+   "id": "III.13a",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "lois"
+   ],
+   "fr": "Or les loix se maintiennent en credit, non par ce qu'elles sont justes, mais par ce qu'elles sont loix. C'est le fondement mystique de leur authorité : elles n'en ont point d'autre.",
+   "ja": "さて、法が信用を保っているのは、それが正しいからではなく、法であるからだ。それがその権威の神秘の基礎であって、ほかには何もない。",
+   "scene": "判決、法解釈、規則の形骸化、校則、法の正当性をめぐる議論"
+  },
+  {
+   "id": "III.13b",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "lois"
+   ],
+   "fr": "Elles sont souvent faictes par des sots. Plus souvent par des gens, qui en haine d'equalité ont faute d'equité",
+   "ja": "法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。",
+   "scene": "不合理な規則、立法の不備、不公平な制度、条例"
+  },
+  {
+   "id": "III.13c",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "savoir",
+    "opinion"
+   ],
+   "fr": "Il y a plus affaire à interpreter les interpretations, qu'à interpreter les choses : et plus de livres sur les livres, que sur autre subject : Nous ne faisons que nous entregloser.",
+   "ja": "物事を解釈するより、解釈を解釈するほうが手間がかかり、書物について書いた書物のほうが、ほかのどんな主題の書物よりも多い。我々は互いに注釈し合っているにすぎない。",
+   "scene": "解説や論評の氾濫、コメンテーター、学術の細分化、要約の要約"
+  },
+  {
+   "id": "III.13d",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "lois"
+   ],
+   "fr": "Il y a peu de relation de nos actions, qui sont en perpetuelle mutation, avec les loix fixes et immobiles. Les plus desirables, ce sont les plus rares, plus simples, et generales",
+   "ja": "絶えず変わり続ける我々の行為と、固定されて動かぬ法との間には、ほとんど釣り合いがない。最も望ましい法とは、最も数が少なく、最も簡素で、一般的なものだ。",
+   "scene": "規制強化、細則の増加、法の想定外、ルールの複雑化、新技術と法律"
+  },
+  {
+   "id": "III.13e",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "lois"
+   ],
+   "fr": "nous avons en France, plus de loix que tout le reste du monde ensemble",
+   "ja": "我々のフランスには、世界のほかの国々を全部合わせたより多くの法がある。",
+   "scene": "規制の多さ、法令や通達の乱発、手続きの煩雑さ"
+  },
+  {
+   "id": "III.13f",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "vanite"
+   ],
+   "fr": "Et au plus eslevé throne du monde, si ne sommes nous assis, que sus nostre cul.",
+   "ja": "世界で最も高い玉座の上でも、我々は自分の尻の上に座っているにすぎない。",
+   "scene": "権力者や著名人の不祥事、地位や肩書の虚飾、富豪の振る舞い"
+  },
+  {
+   "id": "III.13g",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "soi"
+   ],
+   "fr": "C'est une absoluë perfection, et comme divine, de sçavoir jouyr loyallement de son estre",
+   "ja": "自分の存在を偽りなく享受するすべを知ること、それこそ完全な、いわば神のごとき完成である。",
+   "scene": "幸福度、生き方、高齢者の暮らし、余暇"
+  },
+  {
+   "id": "III.13h",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "savoir"
+   ],
+   "fr": "IL N'EST desir plus naturel que le desir de cognoissance.",
+   "ja": "知りたいという欲望ほど、自然な欲望はない。",
+   "scene": "科学研究、探査、発見、好奇心、学び直し"
+  },
+  {
+   "id": "III.12a",
+   "source": "III.12",
+   "chapter_title": "De la Physionomie",
+   "check": "fr",
+   "tags": [
+    "mort",
+    "medecine"
+   ],
+   "fr": "Nous troublons la vie par le soing de la mort, et la mort par le soing de la vie.",
+   "ja": "我々は死を案じて生をかき乱し、生を案じて死をかき乱す。",
+   "scene": "延命治療、終末期医療、健康不安、がん検診"
+  },
+  {
+   "id": "III.12b",
+   "source": "III.12",
+   "chapter_title": "De la Physionomie",
+   "check": "fr",
+   "tags": [
+    "mort"
+   ],
+   "fr": "Si vous ne sçavez pas mourir, ne vous chaille, nature vous en informera sur le champ, plainement et suffisamment",
+   "ja": "死に方を知らなくとも、気にすることはない。その時になれば、自然がすっかり十分に教えてくれる。",
+   "scene": "死への恐怖、看取り、高齢者の死、死生観"
+  },
+  {
+   "id": "III.1",
+   "source": "III.1",
+   "chapter_title": "De l'utile et de l'honeste",
+   "check": "fr",
+   "tags": [
+    "lois",
+    "profit"
+   ],
+   "fr": "Le bien public requiert qu'on trahisse, et qu'on mente, et qu'on massacre : resignons cette commission à gens plus obeissans et plus soupples.",
+   "ja": "公益は、裏切り、偽り、殺戮することを求める。そんな役目は、もっと従順で融通のきく人々に任せておこう。",
+   "scene": "組織ぐるみの不正、公務員の隠蔽、組織のための嘘、内部告発"
+  },
+  {
+   "id": "III.13i",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "medecine"
+   ],
+   "fr": "On doit donner passage aux maladies : et je trouve qu'elles arrestent moins chez moy, qui les laisse faire.",
+   "ja": "病には通り道を与えてやるべきだ。好きにさせておく私のところでは、病はあまり長居しないように思う。",
+   "scene": "治療の選択、過剰な投薬、自然治癒、風邪・感染症の流行、休養"
+  },
+  {
+   "id": "II.37b",
+   "source": "II.37",
+   "chapter_title": "De la ressemblance des enfans aux peres",
+   "check": "fr",
+   "tags": [
+    "medecine",
+    "savoir"
+   ],
+   "fr": "La medecine se forme par exemples et experience : aussi fait mon opinion.",
+   "ja": "医学は実例と経験によって形づくられる。私の意見もまた同じである。",
+   "scene": "臨床試験、新薬の承認、治療効果のデータ、医療統計"
+  },
+  {
+   "id": "II.37c",
+   "source": "II.37",
+   "chapter_title": "De la ressemblance des enfans aux peres",
+   "check": "fr",
+   "tags": [
+    "medecine"
+   ],
+   "fr": "Toute voye qui nous meneroit à la santé, ne se peut dire pour moy ny aspre, ny chere.",
+   "ja": "健康へ導いてくれる道ならば、どんな道であれ、私にとって険しすぎることも高すぎることもない。",
+   "scene": "高額な治療、医療費、新しい治療法への期待、健康への投資"
+  },
+  {
+   "id": "III.13j",
+   "source": "III.13",
+   "chapter_title": "De l'experience",
+   "check": "fr",
+   "tags": [
+    "mort",
+    "medecine"
+   ],
+   "fr": "Tout ce qui vient au revers du cours de nature, peut estre fascheux : mais ce, qui vient selon elle, doibt estre tousjours plaisant.",
+   "ja": "自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。",
+   "scene": "老い、寿命、自然な死、アンチエイジング、延命"
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+/* ==========================================================
+   Montaigne Society Widget - スタイル
+   クラス名は mtg- で始まる名前空間にし、WordPressテーマの
+   既存スタイルとの衝突を避けています。
+   ========================================================== */
+
+.mtg-widget {
+  position: relative;
+  max-width: 640px;
+  margin: 2.5em auto;
+  padding: 1.5em;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "游明朝", serif;
+  color: #2b241c;
+}
+
+/*
+  背景の肖像画は、つぶやき一覧のスクロール領域(.mtg-widget__scroll)の
+  背景画像として実装している。スクロールすると背景も一緒に動き、
+  肖像画の別の部分が徐々に現れる仕組み。詳細は下記 .mtg-widget__scroll を参照。
+  以前試したWordPress側への直接<img>埋め込み方式は不要になったため、
+  埋め込みコードは <div id="montaigne-tweets"></div> のみのシンプルな形でよい。
+*/
+
+.mtg-widget__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid #a9b09c;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.2em;
+}
+
+.mtg-widget__title {
+  font-size: 1.05em;
+  letter-spacing: 0.08em;
+  margin: 0;
+  color: #2f3529;
+}
+
+.mtg-widget__subtitle {
+  font-size: 0.72em;
+  color: #7a8270;
+  letter-spacing: 0.05em;
+}
+
+/*
+  スクロール領域(つぶやき一覧)。
+  背景に肖像画を敷き、background-attachment: local を指定することで、
+  この領域内をスクロールすると背景ごと一緒に動き、肖像画の
+  別の部分が徐々に現れていく効果を実現している
+  (attachment: fixed はブラウザのビューポート基準になり、
+   この用途には適さないため local を使用)。
+  出典: 作者不詳《モンテーニュの肖像》
+  (16世紀、シャンティイ コンデ美術館蔵 PE 253、パブリックドメイン、
+  Wikimedia Commons)
+*/
+.mtg-widget__scroll {
+  position: relative;
+  max-height: 480px;
+  overflow-y: auto;
+  border-radius: 2px;
+
+  background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Montaigne-Dumonstier.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 130% auto;   /* 縦に長く表示し、スクロールで下部まで現れるようにする */
+  background-attachment: local;
+  background-color: #f3f4ee;
+}
+
+/* Firefox等、background-attachment:local が効かない環境向けの保険:
+   スクロール領域が十分な高さを持つよう、内側に余白を作る透明スペーサー。 */
+.mtg-widget__scroll::after {
+  content: "";
+  display: block;
+  height: 1px;
+}
+
+.mtg-widget__list {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0.2em;
+}
+
+.mtg-widget__item {
+  /* 半透明にして、背後の肖像画がうっすらと透けて見えるようにする */
+  background: rgba(249, 250, 246, 0.88);
+  border: 1px solid #dfe2d6;
+  border-left: 3px solid #5f6b55;
+  border-radius: 2px;
+  padding: 1.1em 1.3em;
+  margin-bottom: 1em;
+  box-shadow: 0 1px 2px rgba(60, 50, 30, 0.06);
+  backdrop-filter: blur(0.5px);
+}
+
+.mtg-widget__item-link {
+  display: inline-block;
+  font-size: 0.72em;
+  color: #5f6b55;
+  text-decoration: none;
+  border-bottom: 1px dotted #a9b09c;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.02em;
+}
+
+.mtg-widget__item-link:hover {
+  color: #3a4434;
+  border-bottom-style: solid;
+}
+
+.mtg-widget__item-text {
+  white-space: pre-line;
+  font-size: 0.98em;
+  line-height: 1.85;
+  margin: 0 0 0.7em 0;
+}
+
+.mtg-widget__item-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.72em;
+  color: #848b7a;
+  letter-spacing: 0.03em;
+}
+
+.mtg-widget__item-signature {
+  font-style: italic;
+}
+
+.mtg-widget__empty,
+.mtg-widget__error {
+  font-size: 0.85em;
+  color: #848b7a;
+  padding: 1em 0;
+}
+
+.mtg-widget__footer {
+  margin-top: 0.8em;
+  text-align: right;
+  font-size: 0.68em;
+  color: #a7ad9b;
+}
+
+@media (max-width: 480px) {
+  .mtg-widget {
+    margin: 1.5em 0.5em;
+  }
+  .mtg-widget__scroll {
+    max-height: 60vh;
+  }
+  .mtg-widget__item {
+    padding: 0.9em 1em;
+  }
+}

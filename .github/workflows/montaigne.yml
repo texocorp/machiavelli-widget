@@ -1,0 +1,101 @@
+name: Update Montaigne Feed
+
+# モンテーニュボット(社会面・科学医療の論評)。
+# マキャベリボット(tweet.yml)とは別のワークフローで、触れるファイルも別:
+#   docs/montaigne/feed.json, logs/montaigne_*.json
+#
+# 頻度調整はここ(cron)で行う。既定は4時間おきの37分(UTC基準)。
+# マキャベリ側(毎3時間の0分)と重ならないよう、分をずらしてある。
+# 日本時間では 0:37, 4:37, 8:37, 12:37, 16:37, 20:37 頃に実行される。
+on:
+  schedule:
+    - cron: "37 */4 * * *"
+  workflow_dispatch: {}   # Actionsタブから手動実行も可能にする
+  # 【試運転用】montaigne ブランチへの push でも実行する。
+  # main に取り込む前に、この push の3行は削除すること。
+  push:
+    branches: [montaigne]
+    paths: ["montaigne_*.py", "generate_montaigne_feed.py", "data/montaigne_quotes.json", "montaigne_config.yaml", ".github/workflows/montaigne.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-montaigne-feed
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # マキャベリボットと同じローカルLLM。変更する場合はこの1行だけを書き換える。
+      OLLAMA_MODEL: "qwen3.5:9b"
+      OLLAMA_HOST: "http://localhost:11434"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Ollama
+        run: curl -fsSL https://ollama.com/install.sh | sh
+
+      - name: Start Ollama server
+        run: |
+          nohup ollama serve > ollama.log 2>&1 &
+          for i in $(seq 1 20); do
+            curl -sf http://localhost:11434/ && break
+            sleep 1
+          done
+
+      - name: Pull local model
+        run: |
+          ollama --version
+          ollama pull "$OLLAMA_MODEL"
+
+      - name: Generate feed
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_montaigne_feed.py
+
+      - name: Show Ollama log
+        if: always()
+        run: tail -n 40 ollama.log || true
+
+      - name: Commit and push updated feed
+        run: |
+          git config user.name "montaigne-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          # フィードと、モンテーニュ側の状態ファイル(既出記事・箴言の使用履歴)だけをコミットする。
+          # マキャベリ側のファイルには触れない。
+          git add docs/montaigne/feed.json
+          git add logs/montaigne_*.json 2>/dev/null || true
+
+          if git diff --quiet --cached; then
+            echo "変更なし。コミットをスキップします。"
+            exit 0
+          fi
+
+          git commit -m "Update montaigne feed.json [skip ci]"
+
+          # マキャベリ側の実行と push が重なった場合に備え、最新を取り込んで再試行する(最大3回)。
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 成功"
+              exit 0
+            fi
+            echo "push 失敗。リモートの最新状態を取り込んで再試行します (試行 $i/3)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            sleep 3
+          done
+
+          echo "3回試行しても push に失敗しました。"
+          exit 1

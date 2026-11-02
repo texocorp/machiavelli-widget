@@ -389,3 +389,48 @@ export ANTHROPIC_API_KEY=sk-ant-...
 - 生成される分析はマキャベリという歴史的思想家の枠組みを模したフィクション的
   ペルソナによるものであり、実在の国・人物への断定的な事実主張ではなく、
   古典的現実主義の視座からの解釈的コメンタリーです。
+
+---
+
+# 姉妹ボット: Montaigne Society Bot(社会面・科学医療)
+
+マキャベリボットの仕組み(RSS取得→記事選別→箴言候補をLLMが選ぶ→LLMが分析文1文→
+引用・出典はPythonが機械的に組立→作話チェック)をそのまま使い、
+ミシェル・ド・モンテーニュ『エセー』の一節を添えて、日本の社会面・科学医療の
+ニュースを論評する。視座は**人間観察に徹する**こと(善悪を裁かず、説教も政策提言もしない)。
+
+## ファイル構成(モンテーニュ側)
+
+| ファイル | 役割 |
+|---|---|
+| `montaigne_config.yaml` | RSS(NHK社会・科学医療、Google News 国内・科学・健康)、重み、除外語 |
+| `montaigne_scorer.py` | 記事のスコアリングと、15のテーマへの分類 |
+| `montaigne_engine.py` | 箴言の選択と論評の生成(Ollama呼び出し・検査はマキャベリ側の部品を共用) |
+| `generate_montaigne_feed.py` | `docs/montaigne/feed.json` を更新する |
+| `data/montaigne_quotes.json` | 『エセー』の箴言74件(仏語原典と章まで逐語照合済み、日本語は本ボットの訳) |
+| `docs/montaigne/` | ウィジェット(`mtg-` 名前空間。マキャベリ側と同じページに置いても衝突しない) |
+| `.github/workflows/montaigne.yml` | 4時間おき(UTCの37分)に実行 |
+| `logs/montaigne_*.json` | 既出記事・箴言の使用履歴(マキャベリ側とは別ファイル) |
+
+マキャベリ側のファイルは一切変更していない(`machiavelli_engine.py` などを import して使うだけ)。
+
+## WordPress への埋め込み
+
+```html
+<div id="montaigne-tweets"></div>
+<link rel="stylesheet" href="https://texocorp.github.io/machiavelli-widget/montaigne/widget.css">
+<script
+  src="https://texocorp.github.io/machiavelli-widget/montaigne/widget.js"
+  data-feed="https://texocorp.github.io/machiavelli-widget/montaigne/feed.json"
+  data-target="montaigne-tweets"
+  data-title="Bot"
+  data-count="10"
+></script>
+```
+
+## 除外している記事
+
+- スポーツ・芸能など(マキャベリ側と同じ)
+- 国際情勢・国内政治・経済(マキャベリ側の領分。首相・国会・日銀・米軍など)
+- 自死・性犯罪の報道(死を論じる一節などを添えること自体が無神経になりうるため)
+- 震度1〜3の地震速報
