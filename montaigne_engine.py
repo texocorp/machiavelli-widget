@@ -5,21 +5,25 @@ montaigne_engine.py
 社会面・科学医療のニュースに、『エセー』の一節を添えて論評する。
 
 【生成の手順(2026-11-03 改訂)】
-小型のローカルLLM(qwen3.5:9b)に「記事を読み、人の振る舞いを見つけ、箴言に合わせ、
+小型のローカルLLM(qwen3.5:9b)に「記事を読み、人の振る舞いを見つけ、洞察を考え、
 名文で、事実を守って、規則を20個守りながら」一度に書かせると、指示の丸写し・空疎な
-決まり文句・見出しに無い事情の作話が起きた。そこで仕事を4つに分け、1回の呼び出しには
-1つの仕事だけを、短い指示と手本で頼む。
+決まり文句・見出しに無い事情の作話が起きた。また9Bのモデルに人間一般についての
+洞察を考えさせると、凡庸か、理屈が逆か、不当な皮肉になった。そこで、
+  ・洞察は、原典と照合済みのモンテーニュ本人の言葉(箴言)に任せる
+  ・LLM には、出来事のどこに光を当てるかを決めさせ、その一節の前に置く導入として、
+    見出しの出来事を正確に言い直させる(評価・一般論は書かせない)
+と役割を定め、仕事を4つに分けて、1回の呼び出しには1つの仕事だけを短い指示と手本で頼む。
 
-  1. 読む       read_article()    見出しの事実を言い直し、目に留まる人の振る舞いを1つ挙げる。
-                                   挙げるべきものが無ければ「なし」と答えさせ、その記事は見送る
-  2. 選ぶ       choose_quote()    Pythonが箴言の候補を8件に絞り、LLMが「振る舞い」に合う1件を選ぶ。
-                                   どれも合わなければ0と答えさせ、見送る
-  3. 書く       write_candidates() 見出しと「振る舞い」だけを材料に、手本に倣って候補を3つ書かせる
-                                   (箴言そのものは見せない。見せると言い換えて繰り返すため)
-  4. 確かめる   check_candidate() まず機械的な検査(字数・説教口調・丸写し・見出しに無い固有名詞)。
-                                   次に下書きから事実の主張だけを抜き出させ、下書きを見せない別の
-                                   呼び出しで、その主張が見出しから言えるかを判定させる。
-                                   最後に、文意が通るか・被害者を論評していないかを判定させる
+  1. 読む       read_article()      見出しの事実を言い直し、人の振る舞いが表れた語句を
+                                     見出しから抜き出す(Pythonが実在を照合)。目の付けどころ
+                                     (レンズ)を選ぶ。論じるべきものが無ければ「なし」で見送る
+  2. 選ぶ       choose_quote()      Pythonが箴言の候補を8件に絞り、LLMが響き合う1件を選ぶ。
+                                     どれも合わなければ0と答えさせ、見送る
+  3. 書く       write_candidates()  一節の前に置く導入の一文を、手本(会話形式)に倣って3通り書かせる
+  4. 確かめる   mechanical_check()  字数・説教口調・一般論・指示語の混入・丸写し・見出しに無い固有名詞
+                editor_order()      候補を比べ、良い順に選ばせる(どれも駄目なら0)
+                verify_claims()     下書きの事実の主張を抜き出し、下書きを見せずに見出しと照らす
+                review()            文意が通るか、記事に沿うか、一節と続けて被害者を責める響きにならないか
 
 引用文・出典・URLにLLMは一切関与しない(Pythonが機械的に組み立てる)。
 検査を通る文が得られなければ、何も掲載しない(None を返す)。
@@ -237,15 +241,13 @@ LENSES = {
 NO_LENS = "なし"
 
 READ_SYSTEM = """あなたはモンテーニュの『エセー』を愛読する新聞の論説委員である。
-ニュースの見出しと概要を読み、次の4つを JSON で答える。
+ニュースの見出しと概要を読み、次の3つを JSON で答える。
 
 facts: 見出しに書かれた出来事を、誰が・何を・どうしたかの一文で言い直す。見出しに無いことは足さない。
 key_phrase: 見出しの中で、人の振る舞いがいちばんよく表れている語句を、見出しから一字一句そのまま抜き出す。
 lens: その語句に表れた振る舞いが、次のどれに当たるか。
 {lens_list}
   なし: どれにもはっきり当たらない。あるいは見出しに人の言動がほとんど無い(数字の発表、気象、告知だけなど)
-general_truth: その振る舞いから言える、人間一般についての短い言葉(「人は〜」「我々は〜」の形、15〜40字)。
-  見出しの特定の人について、見出しに無い感情や行動を書かない。善悪の裁きや説教にしない。lens が なし なら空にする。
 
 亡くなった人・被害に遭った人・被災した人・その家族の振る舞いや心の在り方は取り上げない。
 目を向けるなら、加害した側、組織や制度の扱い方、出来事を語る言葉に向ける。"""
@@ -253,15 +255,12 @@ general_truth: その振る舞いから言える、人間一般についての�
 READ_EXAMPLES = [
     (_news_prompt("粉飾決算の元社長に有罪判決 「会社のためだった」と主張", "(見出し以外の情報なし)"),
      {"facts": "粉飾決算をした元社長に有罪判決が出て、元社長は会社のためだったと主張した",
-      "key_phrase": "「会社のためだった」と主張", "lens": "虚栄",
-      "general_truth": "人は自分の過ちにさえ、立派な名目を探してくる"}),
+      "key_phrase": "「会社のためだった」と主張", "lens": "虚栄"}),
     (_news_prompt("新規感染者 前週の1.2倍に 厚労省まとめ", "(見出し以外の情報なし)"),
-     {"facts": "厚労省のまとめで、新規感染者が前週の1.2倍になった",
-      "key_phrase": "", "lens": "なし", "general_truth": ""}),
+     {"facts": "厚労省のまとめで、新規感染者が前週の1.2倍になった", "key_phrase": "", "lens": "なし"}),
     (_news_prompt("地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず", "(見出し以外の情報なし)"),
      {"facts": "地震の後、外国人窃盗団がいるといううわさがSNSで広まったが、警察は事実を確認できていない",
-      "key_phrase": "警察は事実確認できず", "lens": "思い込みと噂",
-      "general_truth": "うわさは、確かめられないものほど遠くまで届く"}),
+      "key_phrase": "警察は事実確認できず", "lens": "思い込みと噂"}),
 ]
 
 READ_SCHEMA = {
@@ -270,9 +269,8 @@ READ_SCHEMA = {
         "facts": {"type": "string"},
         "key_phrase": {"type": "string"},
         "lens": {"type": "string", "enum": list(LENSES) + [NO_LENS]},
-        "general_truth": {"type": "string"},
     },
-    "required": ["facts", "key_phrase", "lens", "general_truth"],
+    "required": ["facts", "key_phrase", "lens"],
 }
 
 
@@ -286,15 +284,12 @@ def read_article(item: NewsItem) -> dict:
     lens_list = "\n".join(f"  {name}: {desc}" for name, (_, desc) in LENSES.items())
     data = _ollama_chat_json(READ_SYSTEM.format(lens_list=lens_list), READ_EXAMPLES,
                              _news_prompt(title, summary), READ_SCHEMA, JUDGE_OPTIONS, "read")
-    for k in ("facts", "key_phrase", "general_truth"):
+    for k in ("facts", "key_phrase"):
         data[k] = (data.get(k) or "").strip()
     if data.get("lens") != NO_LENS:
         key = _compact(data["key_phrase"])
         if len(key) < 2 or key not in _compact(f"{title}{summary}"):
             data["reason"] = "抜き出した語句が見出しに無い"
-            data["lens"] = NO_LENS
-        elif len(data["general_truth"]) < 8:
-            data["reason"] = "人間についての言葉が無い"
             data["lens"] = NO_LENS
     return data
 
@@ -347,17 +342,17 @@ def rank_quote_candidates(item: NewsItem, lens_tag: str, count: int = CANDIDATE_
     return [q for _, q in scored[:count]]
 
 
-CHOOSE_PROMPT = """ニュースに、モンテーニュ『エセー』の一節を一つ添える。
+CHOOSE_PROMPT = """新聞のコラムで、ニュースの後にモンテーニュ『エセー』の一節を引く。
 
 出来事: {facts}
-この出来事から言えること: {general_truth}
+とくに目に留まる語句: {key_phrase}
 
 候補:
 {candidates}
 
-「この出来事から言えること」と同じことを、最もよく言い当てている一節の番号を choice に答えよ。
-言葉が似ているだけではなく、言っている中身が同じものを選ぶ。
-亡くなった人や被害に遭った人を軽んじる響きになるものは選ばない。
+この出来事、とくに「目に留まる語句」に表れた人の振る舞いと、言っている中身が響き合う一節の番号を choice に答えよ。
+言葉が似ているだけではなく、振る舞いの構図が同じものを選ぶ。
+出来事の後に続けたとき、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるものは選ばない。
 どれも当てはまらなければ 0 と答えよ。"""
 
 
@@ -369,7 +364,7 @@ def choose_quote(item: NewsItem, reading: dict):
     schema = {"type": "object",
               "properties": {"choice": {"type": "integer", "minimum": 0, "maximum": len(candidates)}},
               "required": ["choice"]}
-    data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], general_truth=reading["general_truth"],
+    data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], key_phrase=reading["key_phrase"],
                                              candidates=listing),
                         schema, JUDGE_OPTIONS, "choose")
     LAST_TRACE["quote_candidates"] = [q["id"] for q in candidates]
@@ -382,55 +377,64 @@ def choose_quote(item: NewsItem, reading: dict):
 # ---------------------------------------------------------------
 # 3. 書く
 # ---------------------------------------------------------------
-# 手本。架空の見出しで、前半は見出しの語句だけで出来事を押さえ、後半で人間一般について言う。
-# 分析文がこれらを写していないかも検査する。
+# 【導入の一文という役割(第3版)】
+# 第2版では「人間一般についての洞察」を LLM に考えさせたが、9Bのモデルでは凡庸か、理屈が逆か、
+# 不当な皮肉になった(実例: 子どもの発達支援のリハビリを「専門用語で正当化しようとする」と皮肉った)。
+# 洞察は原典照合済みのモンテーニュ本人の言葉に任せ、LLM には、その一節の前に置く導入として、
+# 見出しの出来事を正確に言い直させる。どこに光を当てるか(語順・語の選び方)だけを工夫させ、
+# 評価・一般論は書かせない。皮肉は、事実と一節を並べたときに生まれる。
+#
+# 手本。架空の見出しと、実際の箴言の組み合わせ。分析文がこれらを写していないかも検査する。
 EXAMPLES = [
     {
         "title": "市役所、窓口の押印を全廃へ 長年の慣行を見直し",
         "key_phrase": "長年の慣行を見直し",
-        "general_truth": "人は長く続いた手間ほど、やめてみるまで手間と気づかない",
-        "sentence": "長年の慣行だった押印を市役所がやめるというが、人は長く続いた手間ほど、やめてみるまで手間とは気づかないものだ。",
+        "quote_id": "I.23a",
+        "sentence": "市役所が、長年の慣行として続いてきた窓口の押印を、見直しの末に全廃するという。",
     },
     {
         "title": "粉飾決算の元社長に有罪判決 「会社のためだった」と主張",
         "key_phrase": "「会社のためだった」と主張",
-        "general_truth": "人は自分の過ちにさえ、立派な名目を探してくる",
-        "sentence": "粉飾決算を会社のためだったと語る元社長のように、人は自分の過ちにさえ、立派な名目を探してくる。",
+        "quote_id": "II.16",
+        "sentence": "粉飾決算で有罪判決を受けた元社長は、それでも『会社のためだった』と主張しているという。",
     },
     {
         "title": "AIで新薬候補を発見 開発期間を半分に短縮と研究チーム",
         "key_phrase": "開発期間を半分に短縮",
-        "general_truth": "我々は速くできたことを、確かにできたことと取り違えやすい",
-        "sentence": "開発期間を半分に短縮したという研究チームの発表を聞くと、我々は速くできたことを、確かにできたことと取り違えそうになる。",
+        "quote_id": "II.17d",
+        "sentence": "研究チームは、AIで新薬の候補を見つけ、開発期間を半分に短縮したと発表した。",
     },
     {
         "title": "地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず",
         "key_phrase": "警察は事実確認できず",
-        "general_truth": "うわさは、確かめられないものほど遠くまで届く",
-        "sentence": "警察が事実を確認できない窃盗団のうわさがSNSで広がるのを見ると、うわさは確かめられないものほど遠くまで届くらしい。",
+        "quote_id": "III.11b",
+        "sentence": "地震の後、外国人窃盗団のうわさがSNSで広まったが、警察はその事実を確認できていないという。",
     },
 ]
 
-WRITE_SYSTEM = """新聞の小さなコラムに、モンテーニュ風の一文を書く。
-渡される「見出し」「語句」「人について」だけを材料に、だ・である調の一文(40〜90字)を JSON で答える。
+WRITE_SYSTEM = """新聞の小さなコラムで、ニュースの後にモンテーニュ『エセー』の一節を引く。
+その一節の前に置く、導入の一文を JSON で答える。
 
-前半で、見出しの語句を使って出来事を押さえる。
-後半で、「人について」の言葉を、落ち着いた皮肉を込めて、自分の言い回しで言い表す。
-材料に無い事情・感情・行動は書かない。誰かを裁いたり、説教したりしない。"""
+- 見出しの出来事を、見出しの言葉を生かして一文で言い直す。渡された「語句」は必ず使う
+- 一節と響き合う点が読者の目に留まるように、語順と言葉の選び方を工夫する
+- 見出しに無い事情・感情・行動・場所・数字は書かない
+- 自分の評価や教訓、人間一般についての言葉(「人は〜」「我々は〜」)は書かない。それは一節に任せる
+- 一節の言葉を言い換えて繰り返さない
+- だ・である調か「〜という。」で結ぶ、40〜80字の一文"""
 
 WRITE_SCHEMA = {"type": "object", "properties": {"sentence": {"type": "string"}}, "required": ["sentence"]}
 WRITE_SAMPLES = 3   # 同じ問いを3回、毎回ちがう乱数で書かせる(手本と問いが同じなので2回目以降は速い)
 
 
-def _write_prompt(title: str, key_phrase: str, general_truth: str) -> str:
-    return f"見出し: {title}\n語句: {key_phrase}\n人について: {general_truth}"
+def _write_prompt(title: str, key_phrase: str, quote_ja: str) -> str:
+    return f"見出し: {title}\n語句: {key_phrase}\n一節: {quote_ja}"
 
 
-def write_candidates(item: NewsItem, reading: dict) -> list:
+def write_candidates(item: NewsItem, reading: dict, quote: dict) -> list:
     title, _ = facts_for_prompt(item)
-    examples = [(_write_prompt(e["title"], e["key_phrase"], e["general_truth"]), {"sentence": e["sentence"]})
-                for e in EXAMPLES]
-    user = _write_prompt(title, reading["key_phrase"], reading["general_truth"])
+    examples = [(_write_prompt(e["title"], e["key_phrase"], QUOTES_BY_ID[e["quote_id"]]["ja"]),
+                 {"sentence": e["sentence"]}) for e in EXAMPLES]
+    user = _write_prompt(title, reading["key_phrase"], quote["ja"])
     out = []
     for _ in range(WRITE_SAMPLES):
         data = _ollama_chat_json(WRITE_SYSTEM, examples, user, WRITE_SCHEMA, WRITE_OPTIONS, "write")
@@ -445,9 +449,11 @@ def write_candidates(item: NewsItem, reading: dict) -> list:
 # ---------------------------------------------------------------
 _JA = r"[぀-ヿ㐀-鿿々ー]"
 _SPACE_AROUND_ASCII = re.compile(rf"(?<={_JA})[ 　]+(?=[A-Za-z0-9])|(?<=[A-Za-z0-9])[ 　]+(?={_JA})")
-MIN_CHARS, MAX_CHARS = 35, 100
+MIN_CHARS, MAX_CHARS = 30, 90
 # 指示の言葉が本文に漏れたもの(実例: 「見出しに記された逮捕の事実と…」「振る舞いとして現れた行動からは…」)
-_META_WORDS = re.compile(r"(見出し|振る舞い|語句|人について|材料|観察)")
+_META_WORDS = re.compile(r"(見出し|振る舞い|語句|一節|材料|観察|エセー|モンテーニュ)")
+# 導入の一文に、評価・一般論を書いたもの(それは一節に任せる)
+_GENERAL_WORDS = re.compile(r"(人は|人間は|人々は|我々は|われわれは|私たちは|ものだ|ものである|ものなのだ|に他ならない|にほかならない)")
 _CONTENT_WORD = re.compile(r"[一-龥々]{2,}|[ァ-ヴー]{2,}|[A-Za-z0-9]{2,}")
 
 
@@ -458,7 +464,10 @@ def mechanical_check(text: str, item: NewsItem, quote: dict, reading: dict) -> s
     箴言や手本の丸写し・見出しに無い固有名詞と数字。
     """
     text = _SPACE_AROUND_ASCII.sub("", text.strip())
-    text = re.sub(r"^[「『]|[」』]$", "", text)
+    # 文全体が括弧でくくられているときだけ外す(文頭の引用「大ごとに…」の括弧は残す)
+    if re.fullmatch(r"[「『][^「『」』]*[」』]", text):
+        text = text[1:-1]
+    text = text.replace("「", "『").replace("」", "』")  # 直後の引用の「」と紛れないように
     text = _validate_analysis(text)
     if not (MIN_CHARS <= len(text) <= MAX_CHARS):
         raise ValueError(f"字数が範囲外({len(text)}字)")
@@ -467,6 +476,9 @@ def mechanical_check(text: str, item: NewsItem, quote: dict, reading: dict) -> s
     m = _META_WORDS.search(text)
     if m:
         raise ValueError(f"指示の言葉が混ざっている: {m.group()!r}")
+    m = _GENERAL_WORDS.search(text)
+    if m:
+        raise ValueError(f"導入に評価・一般論を書いている: {m.group()!r}")
     words = [w for w in _CONTENT_WORD.findall(reading["key_phrase"]) if w not in {"する", "した"}]
     if words and not any(w in text for w in words):
         raise ValueError(f"見出しの語句({reading['key_phrase']})に触れていない")
@@ -484,8 +496,8 @@ CLAIMS_PROMPT = """次の文が、事実として述べている事柄を書き�
 - 書き手の評価・解釈・たとえ・一般論(「人は〜」「我々は〜」「〜らしい」「〜の癖」など)は書き出さない
 
 例
-文: 長年の慣行だった押印を市役所がやめるというが、人は長く続いた手間ほど、やめてみるまで手間とは気づかないものだ。
-答え: {{"claims": ["市役所が押印をやめる", "押印は長年の慣行だった"]}}
+文: 市役所が、長年の慣行として続いてきた窓口の押印を、見直しの末に全廃するという。
+答え: {{"claims": ["市役所が窓口の押印を全廃する", "押印は長年の慣行だった", "市役所は慣行を見直した"]}}
 
 文: {analysis}
 答え:"""
@@ -529,62 +541,67 @@ def verify_claims(text: str, item: NewsItem) -> None:
 
 # 文意・品位の判定は、候補同士を比べて選ばせる(はい/いいえの絶対判定は甘く、
 # 「関文科相は…単にその言葉で評価している」のような意味の通らない文を通した)。
-EDITOR_PROMPT = """あなたは新聞のコラムの編集者である。
+EDITOR_PROMPT = """あなたは新聞のコラムの編集者である。ニュースの後に、モンテーニュの一節を引く。
 
 見出し: {title}
+引く一節: {quote}
 
-候補:
+一節の前に置く導入の候補:
 {candidates}
 
-次の条件をすべて満たす候補のうち、最も良いものの番号を choice に答えよ。満たすものが一つも無ければ 0 と答えよ。
-- 日本語として自然で、一文として意味がまっすぐ通る(主語と述語が噛み合い、何を言っているかがすぐ分かる)
-- 見出しの出来事に即している
-- 亡くなった人・被害に遭った人・被災した人・その家族の人柄や心の在り方を論じていない
-- 誰かを善悪で裁いたり、説教したりしていない"""
+次の条件をすべて満たす候補のうち、一節への導入として最も良いものの番号を choice に答えよ。満たすものが一つも無ければ 0。
+- 日本語として自然で、一文として意味がまっすぐ通る
+- 見出しの出来事を、見出しのとおりに正確に伝えている
+- 一節と響き合う点が、読者の目に留まる"""
 
-REVIEW_PROMPT = """あなたは新聞の校閲係である。
+REVIEW_PROMPT = """あなたは新聞の校閲係である。ニュースの導入文の後に、モンテーニュの一節を引く。
 
 見出し: {title}
-文: {analysis}
+導入文: {analysis}
+引く一節: {quote}
 
-この文について答えよ。
-coherent: 一文として意味がまっすぐ通り、主語と述語が噛み合っているか
-on_topic: 見出しの出来事について述べているか
-judges_victims: 亡くなった人・被害に遭った人・被災した人・その家族の人柄や心の在り方を論じているか
-moralizing: 誰かを善悪で裁いたり、説教や提言をしたりしているか"""
+次に答えよ。
+coherent: 導入文は、一文として意味がまっすぐ通り、主語と述語が噛み合っているか
+on_topic: 導入文は、見出しの出来事について述べているか
+hurts_victims: 導入文と一節を続けて読むと、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるか"""
 
 REVIEW_SCHEMA = {
     "type": "object",
-    "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "judges_victims", "moralizing")},
-    "required": ["coherent", "on_topic", "judges_victims", "moralizing"],
+    "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims")},
+    "required": ["coherent", "on_topic", "hurts_victims"],
 }
 
 
-def pick_best(texts: list, item: NewsItem):
-    """合格した候補から編集者に1つ選ばせ、選ばれた文を校閲にかける。どれも駄目なら None。"""
+def review(text: str, item: NewsItem, quote: dict) -> None:
     title, _ = facts_for_prompt(item)
-    remaining = list(texts)
+    r = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"]), REVIEW_SCHEMA,
+                     JUDGE_OPTIONS, "review")
+    problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
+                                 ("記事に沿っていない", not r.get("on_topic")),
+                                 ("被害者を責める響き", r.get("hurts_victims"))) if bad]
+    if problems:
+        raise ValueError(f"校閲で不合格: {problems}")
+
+
+def editor_order(texts: list, item: NewsItem, quote: dict) -> list:
+    """
+    機械的な検査を通った候補を、編集者に良い順に選ばせる。選ばれた順に返す。
+    「満たすものが無い(0)」と答えたら、そこで打ち切る。
+    """
+    title, _ = facts_for_prompt(item)
+    remaining, order = list(texts), []
     while remaining:
         listing = "\n".join(f"{i}. {t}" for i, t in enumerate(remaining, 1))
         schema = {"type": "object",
                   "properties": {"choice": {"type": "integer", "minimum": 0, "maximum": len(remaining)}},
                   "required": ["choice"]}
-        choice = _ollama_json(EDITOR_PROMPT.format(title=title, candidates=listing), schema,
-                              JUDGE_OPTIONS, "editor").get("choice", 0)
+        choice = _ollama_json(EDITOR_PROMPT.format(title=title, quote=quote["ja"], candidates=listing),
+                              schema, JUDGE_OPTIONS, "editor").get("choice", 0)
         LAST_TRACE.setdefault("editor", []).append({"options": list(remaining), "choice": choice})
         if not isinstance(choice, int) or not (1 <= choice <= len(remaining)):
-            return None
-        text = remaining.pop(choice - 1)
-        review = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text), REVIEW_SCHEMA,
-                              JUDGE_OPTIONS, "review")
-        problems = [k for k, bad in (("文意が通らない", not review.get("coherent")),
-                                     ("記事に沿っていない", not review.get("on_topic")),
-                                     ("被害者を論じている", review.get("judges_victims")),
-                                     ("裁いている", review.get("moralizing"))) if bad]
-        LAST_TRACE["editor"][-1]["review"] = problems or "合格"
-        if not problems:
-            return text
-    return None
+            break
+        order.append(remaining.pop(choice - 1))
+        yield order[-1]
 
 
 # ---------------------------------------------------------------
@@ -778,35 +795,47 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     print(f"[選ぶ] {quote['id']} {quote['ja'][:40]}")
 
     LAST_TRACE["candidates"] = []
-    passed = []
+    adopted = None
     for rnd in range(1, WRITE_ROUNDS + 1):
         try:
-            drafts = write_candidates(item, reading)
+            drafts = write_candidates(item, reading, quote)
         except Exception as e:
             LAST_TRACE["candidates"].append({"round": rnd, "text": None, "verdict": f"書く工程で失敗: {e}"})
             continue
+        records, clean = {}, []
         for draft in drafts:
             record = {"round": rnd, "text": draft}
             LAST_TRACE["candidates"].append(record)
             try:
                 text = mechanical_check(draft, item, quote, reading)
-                verify_claims(text, item)
             except ValueError as e:
                 record["verdict"] = str(e)
-                print(f"[確かめる] 不合格: {draft} … {e}")
                 continue
-            record["verdict"] = "事実確認まで合格"
-            passed.append(text)
-        if passed:
+            record["verdict"] = "機械検査は合格(編集待ち)"
+            records[text] = record
+            clean.append(text)
+        # 編集者が良いと選んだ順に、事実確認と校閲にかける。最初に通ったものを採る
+        try:
+            for text in editor_order(clean, item, quote):
+                try:
+                    verify_claims(text, item)
+                    review(text, item, quote)
+                except ValueError as e:
+                    records[text]["verdict"] = str(e)
+                    continue
+                records[text]["verdict"] = "合格"
+                adopted = text
+                break
+        except Exception as e:
+            return give_up(f"確かめる工程で失敗: {e}")
+        for t in clean:
+            if records[t]["verdict"].startswith("機械検査は合格"):
+                records[t]["verdict"] = "編集で選ばれず"
+        if adopted:
             break
-    if not passed:
-        return give_up("事実確認を通る候補が無かった")
-    try:
-        text = pick_best(passed, item)
-    except Exception as e:
-        return give_up(f"編集・校閲の工程で失敗: {e}")
-    if text is None:
-        return give_up("編集・校閲で、自然で意味の通る候補が無いと判定された")
+    if adopted is None:
+        return give_up("検査を通る導入文が無かった")
+    text = adopted
 
     print(f"[採用] {text}")
     LAST_QUOTE_ID, LAST_QUOTE_CHOICE = quote["id"], "llm"
