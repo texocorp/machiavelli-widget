@@ -52,9 +52,13 @@ _ABBREVIATIONS = {"露": "ロシア", "米": "アメリカ 米国", "英": "イ�
 _REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回"
 
 
+_KANA_ABBREVIATIONS = {"エネ": "エネルギー", "インフラ": "インフラストラクチャー", "テロ": "テロリズム",
+                       "デジ": "デジタル", "スマホ": "スマートフォン"}
+
+
 def _source_for_check(title: str, summary: str) -> str:
     source = f"{title} {summary}"
-    extra = [full for abbr, full in _ABBREVIATIONS.items() if abbr in title]
+    extra = [full for abbr, full in {**_ABBREVIATIONS, **_KANA_ABBREVIATIONS}.items() if abbr in title]
     return f"{source} {' '.join(extra)}"
 
 
@@ -132,7 +136,10 @@ FIT_SCHEMA = {"type": "object",
 
 
 def choose_quote(bot: Bot, item: NewsItem, reading: dict):
-    """候補を1件ずつ採点し、最高点(MIN_FIT 以上)の (引用, 主体) を返す。無ければ (None, None)。"""
+    """
+    候補を1件ずつ採点し、最高点(MIN_FIT 以上)の (引用, 主体) を返す。無ければ (None, None)。
+    1件の採点に CPU で約40秒かかるため、3点が出た時点で打ち切る。
+    """
     title, summary = mtg._facts(item)
     src = mtg._compact(f"{title}{summary}")
     scored = []
@@ -145,6 +152,8 @@ def choose_quote(bot: Bot, item: NewsItem, reading: dict):
         if len(mtg._compact(actor)) < 2 or mtg._compact(actor) not in src:
             fit = 0  # 当てはまる主体を見出しの中に示せない(見出しに無い主体を想定した)
         scored.append((q, fit, actor, data.get("common", "")))
+        if fit >= 3:
+            break  # 3点(最高点)の候補が出たら、残りは採点しない(同点なら先の候補を採るので結果は同じ)
     LAST_TRACE["quote_candidates"] = [(q["id"], fit, actor, common) for q, fit, actor, common in scored]
     best = max((s[1] for s in scored), default=0)
     if best < MIN_FIT:
@@ -237,6 +246,31 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     return text
 
 
+REVIEW_PROMPT = mtg.REVIEW_PROMPT + """
+opinion: 導入文に、見出しに無い書き手の評価・推測(「〜すぎる」「〜に惑わされ」「〜を狙って」「〜の表れ」など)が入っているか"""
+
+REVIEW_SCHEMA = {"type": "object",
+                 "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion")},
+                 "required": ["coherent", "on_topic", "hurts_victims", "opinion"]}
+
+
+def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
+    """
+    モンテーニュの校閲(文意・記事との対応・被害者への配慮)に、書き手の評価の混入を加えたもの。
+    主張の照合(verify_claims)は評価を抜き出さないため、評価に紛れた決めつけはここで止める
+    (実例: 「中小企業がSNSでバズれば成功になると考えすぎるが」)。追加の呼び出しは無い。
+    """
+    title, _ = mtg._facts(item)
+    r = mtg._ollama_json(REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"], author=bot.author),
+                         REVIEW_SCHEMA, JUDGE, "review")
+    problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
+                                 ("記事に沿っていない", not r.get("on_topic")),
+                                 ("被害者を責める響き", r.get("hurts_victims")),
+                                 ("書き手の評価が混ざっている", r.get("opinion"))) if bad]
+    if problems:
+        raise ValueError(f"校閲で不合格: {problems}")
+
+
 # ---------------------------------------------------------------
 # 全体
 # ---------------------------------------------------------------
@@ -299,7 +333,7 @@ def run(bot: Bot, item: NewsItem):
             for text in mtg.faithfulness_order(clean, item):
                 try:
                     mtg.verify_claims(text, item)
-                    mtg.review(text, item, quote, author=bot.author)
+                    review(bot, text, item, quote)
                 except ValueError as e:
                     records[text]["verdict"] = str(e)
                     continue
