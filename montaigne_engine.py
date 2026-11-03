@@ -367,48 +367,56 @@ def rank_quote_candidates(item: NewsItem, lens_tag: str, count: int = CANDIDATE_
     return [q for _, q in scored[:count]]
 
 
-CHOOSE_PROMPT = """新聞のコラムで、ニュースの後にモンテーニュ『エセー』の一節を引く。
+# 箴言は、候補ごとに別々の呼び出しで採点させる。
+# 全候補を1回で採点させると、小型モデルは候補の番号を取り違え(理由に書いた候補と、
+# 3点を付けた候補が別のものだった)、合わない一節に高い点を付けた
+# (実例: 立てこもり事件に「推測のために人を焼く」)。出来事の部分を先頭に置くので、
+# 2件目以降は出来事の部分の計算が使い回され、1件あたりの時間は短い。
+FIT_PROMPT = """新聞のコラムで、ニュースの後にモンテーニュ『エセー』の一節を引く。
 
 出来事: {facts}
 とくに目に留まる語句: {key_phrase}
 
-候補(場面は、その一節が当てはまる場面の目安):
-{candidates}
-
-それぞれの候補が、この出来事、とくに「目に留まる語句」に表れた人の振る舞いと、どれだけ響き合うかを採点せよ。
-  3: 言っている中身が、この振る舞いの構図にぴったり当てはまる
+採点の基準:
+  3: 一節の言っている中身が、この出来事に表れた人の振る舞いの構図に、ぴったり当てはまる
   2: はっきり当てはまる
-  1: 言葉や話題が少し重なるだけ
-  0: 当てはまらない、または出来事の後に続けると、亡くなった人・被害に遭った人・その家族を責めたり嘲ったりする響きになる
-scores に候補の順で点数を入れ、reason に、いちばん点の高い候補と出来事の共通点を20〜40字で書け。"""
+  1: 言葉や話題が少し重なるだけで、構図は違う
+  0: 当てはまらない。または出来事の後に続けると、亡くなった人・被害に遭った人・その家族を
+     責めたり嘲ったりする響きになる
 
+一節: {quote}
+(この一節が当てはまる場面の目安: {scene})
+
+まず common に、この一節と出来事の共通点を20〜40字で書け(無ければ「無し」)。次に fit に点数を答えよ。"""
+
+FIT_SCHEMA = {"type": "object",
+              "properties": {"common": {"type": "string"},
+                             "fit": {"type": "integer", "minimum": 0, "maximum": 3}},
+              "required": ["common", "fit"]}
+QUOTE_CANDIDATES_TO_SCORE = 6
 QUOTE_MIN_SCORE = 2  # これ未満しか無ければ、箴言が合わないとして見送る
 
 
 def choose_quote(item: NewsItem, reading: dict):
     """
-    候補を1件ずつ採点させ、最高点の一節を選ぶ(同点は Python の関連度順)。
+    関連度の高い候補を1件ずつ採点させ、最高点の一節を選ぶ(同点は Python の関連度順)。
     「1つ選べ」と頼むと小型モデルはほとんど「どれも合わない」と答えないため、採点にして
     QUOTE_MIN_SCORE 未満しか無ければ見送る。
     """
     lens_tag = LENSES[reading["lens"]][0]
-    candidates = rank_quote_candidates(item, lens_tag)
-    listing = "\n".join(f"{i}. {q['ja']}(場面: {q['scene']})" for i, q in enumerate(candidates, 1))
-    n = len(candidates)
-    schema = {"type": "object",
-              "properties": {"scores": {"type": "array", "minItems": n, "maxItems": n,
-                                        "items": {"type": "integer", "minimum": 0, "maximum": 3}},
-                             "reason": {"type": "string"}},
-              "required": ["scores", "reason"]}
-    data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], key_phrase=reading["key_phrase"],
-                                             candidates=listing),
-                        schema, JUDGE_OPTIONS, "choose")
-    scores = [x if isinstance(x, int) else 0 for x in data.get("scores", [])][:n]
-    LAST_TRACE["quote_candidates"] = [(q["id"], sc) for q, sc in zip(candidates, scores)]
-    LAST_TRACE["quote_reason"] = data.get("reason")
-    if not scores or max(scores) < QUOTE_MIN_SCORE:
+    candidates = rank_quote_candidates(item, lens_tag, QUOTE_CANDIDATES_TO_SCORE)
+    scored = []
+    for q in candidates:
+        data = _ollama_json(FIT_PROMPT.format(facts=reading["facts"], key_phrase=reading["key_phrase"],
+                                              quote=q["ja"], scene=q["scene"]),
+                            FIT_SCHEMA, JUDGE_OPTIONS, "fit")
+        fit = data.get("fit") if isinstance(data.get("fit"), int) else 0
+        scored.append((q, fit, data.get("common", "")))
+    LAST_TRACE["quote_candidates"] = [(q["id"], fit, common) for q, fit, common in scored]
+    best = max((fit for _, fit, _ in scored), default=0)
+    if best < QUOTE_MIN_SCORE:
         return None
-    return candidates[scores.index(max(scores))]
+    return next(q for q, fit, _ in scored if fit == best)
 
 
 # ---------------------------------------------------------------
@@ -547,7 +555,7 @@ def _ungrounded_kana(text: str, source: str) -> list:
 
 
 _KANJI_DIGITS = {"〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
-_KANJI_NUM_RUN = re.compile(r"[〇一二三四五六七八九十百千万億]{2,}")
+_KANJI_NUM_RUN = re.compile(r"([〇一二三四五六七八九十百千万億]+)(.?)")
 
 
 def _kanji_number(run: str):
@@ -576,21 +584,22 @@ def _arabic_numbers(text: str, source: str) -> str:
     src = _compact(source)
 
     def repl(m):
-        run = m.group()
-        if run in src:
-            return run
+        run, after = m.group(1), m.group(2)
+        if run + after in src or (len(run) >= 2 and run in src):
+            return m.group()
         value = _kanji_number(run)
         if value is None:
-            return run
+            return m.group()
         forms = [str(value)]
         if value >= 100_000_000 and value % 100_000_000 == 0:
             forms.insert(0, f"{value // 100_000_000}億")
         elif value >= 10_000 and value % 10_000 == 0:
             forms.insert(0, f"{value // 10_000}万")
         for f in forms:
-            if f in src:
-                return f
-        return run
+            # 1字の漢数字(「四人」)は、後ろの字まで含めて見出しにあるときだけ戻す(「一度」などを守る)
+            if (len(run) >= 2 and f in src) or (f + after) in src:
+                return f + after
+        return m.group()
     return _KANJI_NUM_RUN.sub(repl, text)
 
 

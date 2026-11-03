@@ -135,7 +135,7 @@ def main():
     # 検査をすべて通った論評だけを掲載する(montaigne_engine.generate_commentary が None を返したら見送り)。
     # 「読む」工程で論じるべき振る舞いが無いと判定された記事は、1回の呼び出しで見送れるため安い。
     # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る。
-    MAX_ARTICLES_PER_RUN = 4
+    MAX_ARTICLES_PER_RUN = 6
     TIME_BUDGET_SEC = 18 * 60
     started = time.time()
     tried = 0
