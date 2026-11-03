@@ -132,12 +132,12 @@ def main():
 
     ranked = rank_news(items, scoring_cfg["weights"], top_n=15,
                        exclude_keywords=scoring_cfg["exclude_keywords"])
-    # LLM の分析文がすべての検査を通った記事だけを掲載する。
-    # テンプレート(LLMが使えないときの代替)の文は掲載しない。
-    # 実例(2026-11-03): 交通事故の記事に、裁きをめぐる型の文と節度の箴言が組み合わさり、
-    # 「鳴子峡近くの5人けが事故…は、裁きもまた人の手によるものであり…」という筋の通らない論評が出た。
-    # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで(1件あたり CPU で数分かかるため)。
-    MAX_ARTICLES_PER_RUN = 2
+    # 検査をすべて通った論評だけを掲載する(montaigne_engine.generate_commentary が None を返したら見送り)。
+    # 「読む」工程で論じるべき振る舞いが無いと判定された記事は、1回の呼び出しで見送れるため安い。
+    # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る。
+    MAX_ARTICLES_PER_RUN = 4
+    TIME_BUDGET_SEC = 18 * 60
+    started = time.time()
     tried = 0
     text = item = h = None
     for cand in ranked:
@@ -146,7 +146,7 @@ def main():
             continue
         if not is_japanese(clean_news_text(cand.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
-        if tried >= MAX_ARTICLES_PER_RUN:
+        if tried >= MAX_ARTICLES_PER_RUN or time.time() - started > TIME_BUDGET_SEC:
             break
         tried += 1
         print(f"[選出] {cand.title}(score={cand.score}, themes={cand.themes})")
@@ -154,8 +154,7 @@ def main():
         # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
         seen.add(ch)
         seen_list.append(ch)
-        if montaigne_engine.LAST_ANALYSIS_SOURCE == "template":
-            print("[見送り] LLMの分析文が検査を通らなかったため、この記事は掲載しません")
+        if result is None:
             continue
         text, item, h = result, cand, ch
         break

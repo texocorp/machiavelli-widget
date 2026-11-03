@@ -1,0 +1,51 @@
+name: Montaigne Lab
+
+# モンテーニュボットの試験(掲載しない)。tools/montaigne_lab.py を記事を分担して並列に実行する。
+# フィード・既出記事・箴言の使用履歴には一切書き込まず、コミットもしない。
+# 定時実行は持たない(cron なし)。montaigne-lab ブランチへの push か、手動実行で動く。
+on:
+  push:
+    branches: [montaigne-lab]
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "いま配信中の記事を何件試すか"
+        default: "8"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: montaigne-lab
+  cancel-in-progress: true
+
+jobs:
+  lab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    env:
+      OLLAMA_MODEL: "qwen3.5:9b"
+      OLLAMA_HOST: "http://localhost:11434"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Install Ollama
+        run: curl -fsSL https://ollama.com/install.sh | sh
+      - name: Start Ollama server
+        run: |
+          nohup ollama serve > ollama.log 2>&1 &
+          for i in $(seq 1 20); do curl -sf http://localhost:11434/ && break; sleep 1; done
+      - name: Pull local model
+        run: ollama pull "$OLLAMA_MODEL"
+      - name: Run lab
+        run: python -u tools/montaigne_lab.py --shard ${{ matrix.shard }} --shards 4 --live ${{ github.event.inputs.live || '8' }}
+      - name: Show Ollama log
+        if: always()
+        run: tail -n 20 ollama.log || true

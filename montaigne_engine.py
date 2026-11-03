@@ -2,37 +2,52 @@
 """
 montaigne_engine.py
 --------------------
-選別された社会面・科学医療のニュースと、『エセー』の箴言から、
-「モンテーニュ人格」による論評を生成する。
+社会面・科学医療のニュースに、『エセー』の一節を添えて論評する。
 
-【マキャベリボットから受け継いだ設計】
-処理の役割分担は machiavelli_engine.py と同じで、実績のある部品はそのまま使う。
+【生成の手順(2026-11-03 改訂)】
+小型のローカルLLM(qwen3.5:9b)に「記事を読み、人の振る舞いを見つけ、箴言に合わせ、
+名文で、事実を守って、規則を20個守りながら」一度に書かせると、指示の丸写し・空疎な
+決まり文句・見出しに無い事情の作話が起きた。そこで仕事を4つに分け、1回の呼び出しには
+1つの仕事だけを、短い指示と手本で頼む。
 
-  1. 箴言を選ぶ            … select_quote()    Pythonが候補を絞り、LLMが1件を選ぶ
-  2. 分析文を1文だけ得る    … _get_analysis()   LLM(失敗時はテンプレート)
-  3. 分析文+引用+出典を結合 … _assemble_body()  常にPythonが機械的に結合
-  4. 先頭にURLを付加        … machiavelli_engine._prepend_source_link()
+  1. 読む       read_article()    見出しの事実を言い直し、目に留まる人の振る舞いを1つ挙げる。
+                                   挙げるべきものが無ければ「なし」と答えさせ、その記事は見送る
+  2. 選ぶ       choose_quote()    Pythonが箴言の候補を8件に絞り、LLMが「振る舞い」に合う1件を選ぶ。
+                                   どれも合わなければ0と答えさせ、見送る
+  3. 書く       write_candidates() 見出しと「振る舞い」だけを材料に、手本に倣って候補を3つ書かせる
+                                   (箴言そのものは見せない。見せると言い換えて繰り返すため)
+  4. 確かめる   check_candidate() まず機械的な検査(字数・説教口調・丸写し・見出しに無い固有名詞)。
+                                   次に下書きから事実の主張だけを抜き出させ、下書きを見せない別の
+                                   呼び出しで、その主張が見出しから言えるかを判定させる。
+                                   最後に、文意が通るか・被害者を論評していないかを判定させる
 
-引用文・出典・URLにLLMは一切関与しない。LLMの出力は分析文1文だけで、
-それも形式検査・語句照合(作話検出)・事実照合の3段階を通す。
-Ollama 呼び出し、思考ブロック除去、「動詞+だ」の修正、語句照合の仕組みは
-machiavelli_engine.py の関数を import して使う。
+引用文・出典・URLにLLMは一切関与しない(Pythonが機械的に組み立てる)。
+検査を通る文が得られなければ、何も掲載しない(None を返す)。
 
-【モンテーニュの視座(persona)】
-- 人間観察に徹する。善悪を裁かず、断罪も称賛も説教も政策提言もしない。
-- ニュースに現れた人間の性(恐れ・習慣・思い込み・虚栄・残酷さ・移ろいやすさ)を
-  「人は」「我々は」という人間一般の相で言い当てる。
-- 制度・技術・改革で人間が良くなるという進歩の建前を前提にしない。
-  同時に、特定の政治的立場から論じることもしない。
+【取り入れた知見】
+- 同時に与える指示が多いほど守られにくくなる(Jaroslawicz ほか 2025, "How Many Instructions
+  Can LLMs Follow at Once?")。字数や文体などの機械的な規則はプロンプトに書かず、Pythonで検査する
+- 作話を減らすには、下書きの事実の主張を抜き出し、下書きを見せずに確かめさせるとよい
+  (Dhuliawala ほか 2024, Chain-of-Verification の factored / 2-step 方式)
+- 出力の形は Ollama の structured outputs(JSONスキーマ)で固定し、読み取りの失敗をなくす
+
+【モンテーニュの視座】
+- 人間観察に徹する。善悪を裁かず、説教も政策提言もしない
+- 亡くなった人・被害に遭った人・その家族の人柄や心の在り方は論じない
+
+【ベーコンボットとの共用】
+bacon_engine.py は、このモジュールの _GENERIC_TERMS, _check_not_restating, _ollama_env,
+_scene_words, _validate_analysis, _verify_with_ollama を使う。これらは名前も動作も変えないこと。
 """
 
 import json
 import os
 import random
 import re
+import time
 
 from geopolitical_scorer import NewsItem, clean_news_text, facts_for_prompt, is_japanese, _MEDIA_SUFFIX
-import machiavelli_engine as me  # 実績のある共通部品(Ollama呼び出し・検査・整形)
+import machiavelli_engine as me  # 実績のある共通部品(思考ブロック除去・字数調整・検査)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 QUOTES_PATH = os.path.join(BASE_DIR, "data", "montaigne_quotes.json")
@@ -119,13 +134,135 @@ def record_quote_usage(quote_id: str) -> None:
 
 
 # ---------------------------------------------------------------
-# 箴言の選び方(マキャベリ側と同じ手順)
-#   1. 直近に使った箴言を外す
-#   2. 記事のテーマ・適用場面の語との一致で関連度を付ける
-#   3. 上位8件を LLM に見せ、最もよく当てはまる1件を番号で選ばせる
+# Ollama 呼び出し(JSONスキーマで出力の形を固定する)
+# ---------------------------------------------------------------
+LAST_QUOTE_ID = None
+LAST_QUOTE_CHOICE = None
+LAST_ANALYSIS_SOURCE = None
+LAST_TRACE = {}   # 直近の generate_commentary() の途中経過(試験環境 tools/montaigne_lab.py が読む)
+
+
+def _ollama_env() -> tuple:
+    host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+    model = os.environ.get("OLLAMA_MODEL", me.DEFAULT_OLLAMA_MODEL)
+    return host, model
+
+
+# 判定・抽出は決定的に、書く工程だけは幅を持たせる(Qwen の非思考モードの推奨値に近い)
+JUDGE_OPTIONS = {"temperature": 0.0, "top_k": 1, "num_predict": 300}
+WRITE_OPTIONS = {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 0.5, "num_predict": 500}
+
+
+def _ollama_json(prompt: str, schema: dict, options: dict, step: str) -> dict:
+    """
+    Ollama の /api/generate を、出力の形を JSONスキーマで固定して呼ぶ。
+    所要時間と入出力のトークン数を LAST_TRACE["calls"] に記録する。
+    """
+    import requests  # pip install requests
+
+    host, model = _ollama_env()
+    payload = {
+        "model": model, "prompt": prompt, "stream": False, "think": False,
+        "keep_alive": "15m", "format": schema, "options": options,
+    }
+    started = time.time()
+    resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 400))
+    if resp.status_code == 400 and "think" in resp.text.lower():
+        payload.pop("think")
+        resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 400))
+    resp.raise_for_status()
+    body = resp.json()
+    LAST_TRACE.setdefault("calls", []).append({
+        "step": step, "seconds": round(time.time() - started, 1),
+        "prompt_tokens": body.get("prompt_eval_count"), "output_tokens": body.get("eval_count"),
+    })
+    text = me._strip_thinking(body.get("response") or "")
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"{step}: JSONとして読めない出力: {text[:120]!r}") from e
+
+
+# ---------------------------------------------------------------
+# 1. 読む
+# ---------------------------------------------------------------
+# 目の付けどころ(レンズ)。モンテーニュが繰り返し書いた人の振る舞いを、平易な言葉で示す。
+# キーは箴言のタグ(data/montaigne_quotes.json の tags)。
+LENSES = {
+    "慣習": ("coutume", "慣わしや前例が、理由を問われないまま続いている"),
+    "新奇": ("nouveaute", "新しい仕組みや変更が、戸惑いや混乱を生んでいる"),
+    "法と裁き": ("lois", "決まりや裁きが、正しさとは別の理由で通用している、人を縛っている、あるいは誤っている"),
+    "知識と肩書": ("savoir", "知識・学歴・試験・肩書が、判断の確かさとは別に重んじられている"),
+    "思い上がり": ("presomption", "技術や見通しを、確かめた以上に当てにしている"),
+    "思い込みと噂": ("opinion", "確かめられていない話や印象が、事実のように広まり扱われている"),
+    "死と老い": ("mort", "死や老いを前に、人がどう備え、どう語り、どう避けているか"),
+    "恐れ": ("peur", "出来事そのものより、不安や思いが人を動かしている"),
+    "医術と健康": ("medecine", "健康や治療をめぐり、人が医術や専門家にどこまで身を委ねているか"),
+    "残酷": ("cruaute", "力の弱い相手に、人がたやすく残酷になっている"),
+    "他者": ("autrui", "自分の流儀を物差しにして、異なるものを奇妙だと見なしている"),
+    "移り気": ("inconstance", "同じ人や組織の言うこと・することが、食い違ったり翻ったりしている"),
+    "虚栄": ("vanite", "地位・肩書・名声・名目が、中身と取り違えられている"),
+    "損得": ("profit", "ある人の得が、別の人の損や負担の上に成り立っている"),
+    "自分を失う": ("soi", "仕事や他人の期待に追われ、自分の暮らしや時間を手放している"),
+}
+NO_LENS = "なし"
+
+READ_PROMPT = """あなたはモンテーニュの『エセー』を愛読する新聞の論説委員である。
+ニュースの見出しを読み、次の3つを答えよ。
+
+facts: 見出しに書かれた出来事を、誰が・何を・どうしたかの一文で言い直す。見出しに無いことは足さない。
+lens: その出来事のなかで、人の振る舞いとして目に留まる点が、次のどれに当たるか。
+{lens_list}
+  なし: どれにもはっきり当たらない。あるいは見出しに人の言動がほとんど無い(数字の発表、気象、告知だけなど)
+observation: lens に当たる振る舞いが、見出しの誰の、どの言動に見えるかを、20〜50字で。
+  見出しに書かれた言動だけを根拠にする。lens が なし なら空にする。
+
+亡くなった人・被害に遭った人・被災した人・その家族の振る舞いや心の在り方は、observation にしない。
+目を向けるなら、加害した側、組織や制度の扱い方、世間の受け止め方に向ける。
+
+例1
+見出し: 粉飾決算の元社長に有罪判決 「会社のためだった」と主張
+答え: {{"facts": "粉飾決算をした元社長に有罪判決が出て、元社長は会社のためだったと主張した", "lens": "虚栄", "observation": "元社長が、自分の粉飾を会社のためという名目で語っている"}}
+
+例2
+見出し: 新規感染者 前週の1.2倍に 厚労省まとめ
+答え: {{"facts": "厚労省のまとめで、新規感染者が前週の1.2倍になった", "lens": "なし", "observation": ""}}
+
+例3
+見出し: 地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず
+答え: {{"facts": "地震の後、外国人窃盗団がいるといううわさがSNSで広まったが、警察は事実を確認できていない", "lens": "思い込みと噂", "observation": "警察が確かめられないうわさが、SNSで人から人へ広まっている"}}
+
+見出し: {title}
+概要: {summary}
+答え:"""
+
+READ_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "facts": {"type": "string"},
+        "lens": {"type": "string", "enum": list(LENSES) + [NO_LENS]},
+        "observation": {"type": "string"},
+    },
+    "required": ["facts", "lens", "observation"],
+}
+
+
+def read_article(item: NewsItem) -> dict:
+    """見出しを読ませ、目に留まる振る舞いを1つ挙げさせる。挙げられなければ lens=なし。"""
+    title, summary = facts_for_prompt(item)
+    lens_list = "\n".join(f"  {name}: {desc}" for name, (_, desc) in LENSES.items())
+    data = _ollama_json(READ_PROMPT.format(lens_list=lens_list, title=title, summary=summary),
+                        READ_SCHEMA, JUDGE_OPTIONS, "read")
+    data["observation"] = (data.get("observation") or "").strip()
+    if data.get("lens") != NO_LENS and len(data["observation"]) < 8:
+        data["lens"] = NO_LENS  # 振る舞いを言えていないなら、挙げられなかったものとみなす
+    return data
+
+
+# ---------------------------------------------------------------
+# 2. 選ぶ
 # ---------------------------------------------------------------
 CANDIDATE_COUNT = 8
-MIN_RELATED = 4
 
 _SCENE_STOPWORDS = {
     "人間", "社会", "議論", "問題", "関係", "状況", "場合", "結果", "対応", "人々",
@@ -139,9 +276,15 @@ def _scene_words(quote: dict) -> list:
             if w not in _SCENE_STOPWORDS]
 
 
-def _quote_relevance(quote: dict, themes: list, news_text: str) -> int:
-    """テーマ一致(主テーマ3点・2番目2点・以降1点)+適用場面の語の一致(1語2点、最大6点)。"""
-    score = 0
+
+
+def _quote_relevance(quote: dict, lens_tag: str, themes: list, news_text: str) -> int:
+    """
+    LLM が挙げたレンズとの一致を最も重く見る(5点)。
+    次にキーワードで判定した記事のテーマ(主テーマ3点・2番目2点・以降1点)、
+    適用場面の語が見出しに出る数(1語2点、最大6点)。
+    """
+    score = 5 if lens_tag in quote["tags"] else 0
     for idx, theme in enumerate(themes):
         if theme in quote["tags"]:
             score += max(3 - idx, 1)
@@ -149,284 +292,218 @@ def _quote_relevance(quote: dict, themes: list, news_text: str) -> int:
     return score
 
 
-def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
-    themes = getattr(item, "themes", None) or [item.theme or "inconstance"]
+def rank_quote_candidates(item: NewsItem, lens_tag: str, count: int = CANDIDATE_COUNT) -> list:
+    """関連度の高い順に count 件(直近に使った箴言は除く)。同点は使用回数の少ない順。"""
+    themes = getattr(item, "themes", None) or []
     title, summary = facts_for_prompt(item)
     news_text = f"{title} {summary}"
     recent = set(load_recent_quote_ids())
     usage = load_quote_usage()
-
     pool = [q for q in QUOTES if q["id"] not in recent] or list(QUOTES)
-    scored = [(_quote_relevance(q, themes, news_text), q) for q in pool]
+    scored = [(_quote_relevance(q, lens_tag, themes, news_text), q) for q in pool]
     random.shuffle(scored)
     scored.sort(key=lambda sq: (-sq[0], usage.get(sq[1]["id"], 0)))
-
-    related = [q for s, q in scored if s > 0]
-    if len(related) >= MIN_RELATED:
-        return related[:count]
-    return (related + [q for s, q in scored if s == 0])[:count]
+    return [q for _, q in scored[:count]]
 
 
-QUOTE_CHOICE_PROMPT = """次のニュースに、モンテーニュ『エセー』の一節を一つ添えて論評する。
-候補の中から、このニュースに現れた人間の振る舞いや心の動きに最もよく当てはまる一節を一つ選べ。
+CHOOSE_PROMPT = """ニュースに、モンテーニュ『エセー』の一節を一つ添える。
 
-ニュース見出し: {title}
-概要: {summary}
+出来事: {facts}
+目に留まる振る舞い: {observation}
 
 候補:
 {candidates}
 
-選ぶ基準:
-- ニュースに登場する人々(当事者・周囲・世間)の振る舞いや反応に、一節の述べる人間の性が直接当てはまること
-- 言葉が似ているだけのものではなく、人間の性の構図が一致するものを選ぶこと
-- 亡くなった人や被害に遭った人を軽んじる響きになるものは選ばないこと
-
-答えは候補の番号(半角数字)だけを書け。
-"""
-
-LAST_QUOTE_ID = None
-LAST_QUOTE_CHOICE = None
-LAST_ANALYSIS_SOURCE = None
+「目に留まる振る舞い」を最もよく言い当てている一節の番号を choice に答えよ。
+言葉が似ているだけではなく、振る舞いの構図が同じものを選ぶ。
+亡くなった人や被害に遭った人を軽んじる響きになるものは選ばない。
+どれも当てはまらなければ 0 と答えよ。"""
 
 
-def _ollama_env() -> tuple:
-    host = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
-    model = os.environ.get("OLLAMA_MODEL", me.DEFAULT_OLLAMA_MODEL)
-    return host, model
-
-
-def _choose_quote_with_ollama(item: NewsItem, candidates: list) -> dict:
-    host, model = _ollama_env()
-    title, summary = facts_for_prompt(item)
-    listing = "\n".join(
-        f"{i}. 「{q['ja']}」(当てはまる場面: {q['scene']})" for i, q in enumerate(candidates, 1)
-    )
-    answer = me._ollama_generate(
-        host, model,
-        QUOTE_CHOICE_PROMPT.format(title=title, summary=summary, candidates=listing),
-        {"temperature": 0.0, "top_k": 1, "num_predict": 8},
-    )
-    m = re.search(r"\d+", answer.translate(str.maketrans("０１２３４５６７８９", "0123456789")))
-    if not m or not (1 <= int(m.group()) <= len(candidates)):
-        raise ValueError(f"箴言の選択結果を読み取れない: {answer!r}")
-    return candidates[int(m.group()) - 1]
-
-
-def select_quote(item: NewsItem, prefer_llm: bool = True) -> dict:
-    global LAST_QUOTE_CHOICE
-    candidates = rank_quote_candidates(item)
-    if prefer_llm and len(candidates) > 1:
-        try:
-            quote = _choose_quote_with_ollama(item, candidates)
-            LAST_QUOTE_CHOICE = "llm"
-            print(f"[箴言] 候補{len(candidates)}件からLLMが選択: {quote['id']}")
-            return quote
-        except Exception as e:
-            print(f"[箴言] LLMによる選択ができず、関連度1位を採用します: {e}")
-    LAST_QUOTE_CHOICE = "rule"
-    print(f"[箴言] 関連度1位を採用: {candidates[0]['id']}")
-    return candidates[0]
+def choose_quote(item: NewsItem, reading: dict) -> dict:
+    """箴言を1件選ぶ。どれも合わないと判定されたら None。"""
+    lens_tag = LENSES[reading["lens"]][0]
+    candidates = rank_quote_candidates(item, lens_tag)
+    listing = "\n".join(f"{i}. {q['ja']}" for i, q in enumerate(candidates, 1))
+    schema = {"type": "object",
+              "properties": {"choice": {"type": "integer", "minimum": 0, "maximum": len(candidates)}},
+              "required": ["choice"]}
+    data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], observation=reading["observation"],
+                                             candidates=listing),
+                        schema, JUDGE_OPTIONS, "choose")
+    LAST_TRACE["quote_candidates"] = [q["id"] for q in candidates]
+    choice = data.get("choice", 0)
+    if not isinstance(choice, int) or not (1 <= choice <= len(candidates)):
+        return None
+    return candidates[choice - 1]
 
 
 # ---------------------------------------------------------------
-# テンプレート(LLMが使えないときの最終フォールバック)
+# 3. 書く
 # ---------------------------------------------------------------
-THEME_ANALYSIS_TEMPLATES = {
-    "cruaute": [
-        "{frag}は、人が同類に向ける残酷さが、時代ごとに衣を替えてなお現れることを示している。",
-        "{frag}に見えるのは、弱い者に向かうときほど人がたやすく残酷になるという、古くからの性である。",
-    ],
-    "lois": [
-        "{frag}は、裁きもまた人の手によるものであり、人の誤りを免れないことを思い起こさせる。",
-        "{frag}をめぐる成り行きは、規則がその正しさよりも、規則であることによって人を従わせている様を映している。",
-    ],
-    "mort": [
-        "{frag}は、死が予告もなく日常のただ中へ入り込んでくることを、改めて我々に突きつける。",
-        "{frag}に接して人が覚える動揺は、死を遠いものと思い込んで暮らす我々の習いの裏返しである。",
-    ],
-    "medecine": [
-        "{frag}には、健康を願うあまり、人が医術とその権威に身を委ねてゆく姿が見える。",
-        "{frag}は、身体について我々が知っていると思うことが、なお実例と経験の途上にあることを示している。",
-    ],
-    "opinion": [
-        "{frag}は、人が真偽よりも、信じたいものを信じて言い伝えていく性を映している。",
-        "{frag}に見えるのは、一人の思い込みが人から人へ渡るうちに、確かな事実の顔つきを帯びてゆく過程である。",
-    ],
-    "savoir": [
-        "{frag}は、知識を蓄えることと、よく判断することとが別のことであると思い出させる。",
-        "{frag}をめぐる議論には、知っていることの量を知恵の深さと取り違える、我々の癖が表れている。",
-    ],
-    "presomption": [
-        "{frag}には、自らの作り出したものを過信する、人間の生まれつきの思い上がりが透けて見える。",
-        "{frag}は、人が自然と自分の力の限りを、いつも少しばかり見誤ることを示している。",
-    ],
-    "autrui": [
-        "{frag}は、人が自分の習いにないものを、まず異様なものとして眺める性を映している。",
-        "{frag}に見える戸惑いは、他者を測る物差しが、結局は自分の慣れ親しんだ流儀でしかないことの表れである。",
-    ],
-    "profit": [
-        "{frag}は、ある者の得が別の者の損の上に成り立つという、商いの古い理を映している。",
-        "{frag}には、利を求める人の営みが、知らず知らず他人の負担を生む構図が見える。",
-    ],
-    "vanite": [
-        "{frag}は、地位や肩書という借り物の衣装と、その下にいる生身の人間との隔たりを露わにする。",
-        "{frag}に見えるのは、人が名を実と取り違え、外見のために中身を差し出してしまう性である。",
-    ],
-    "coutume": [
-        "{frag}は、長く続いた習いが、いつしか自然の掟のような顔をして人を縛ることを示している。",
-        "{frag}をめぐる反応には、慣れ親しんだものを当然とみなす、慣習の静かな力が表れている。",
-    ],
-    "nouveaute": [
-        "{frag}は、新しい仕組みが古い弊を除くと同時に、思いがけぬ混乱をも呼び込みうることを思い起こさせる。",
-        "{frag}には、変えることそのものに期待をかける、人の気の移ろいが見える。",
-    ],
-    "soi": [
-        "{frag}は、人が外のことに追われるうちに、自分自身のための場所を失ってゆく姿を映している。",
-        "{frag}に見えるのは、人とつながりたいと願いながら、人と交わることに疲れもする我々の矛盾である。",
-    ],
-    "peur": [
-        "{frag}は、出来事そのものよりも、出来事について抱く思いのほうが人を苦しめることを示している。",
-        "{frag}に広がる不安は、まだ来ぬものに心を奪われ、今あるものを見失う人間の性の表れである。",
-    ],
-    "inconstance": [
-        "{frag}は、人の振る舞いがいかに一貫せず、時と場合によって別人のように変わるかを映している。",
-        "{frag}に見えるのは、昨日の判断を今日には翻す、我々の移ろいやすさである。",
-    ],
+# 手本。架空の見出しで、事実の部分は見出しの言葉だけを使い、評価の部分で人の振る舞いを言い当てる。
+# 型が一つに偏らないよう、文の組み立てを変えてある。分析文がこれらを写していないかも検査する。
+EXAMPLES = [
+    {
+        "title": "市役所、窓口の押印を全廃へ 長年の慣行を見直し",
+        "observation": "長年続いた押印の慣行を、市役所がようやく見直した",
+        "sentence": "押印を全廃する市役所の窓口では、長年の慣行も、やめると決めた途端にただの手間として見えてくる。",
+    },
+    {
+        "title": "粉飾決算の元社長に有罪判決 「会社のためだった」と主張",
+        "observation": "元社長が、自分の粉飾を会社のためという名目で語っている",
+        "sentence": "粉飾決算を会社のためだったと語る元社長に、人が自分の過ちにさえ立派な名目を探す癖を見る。",
+    },
+    {
+        "title": "AIで新薬候補を発見 開発期間を半分に短縮と研究チーム",
+        "observation": "研究チームが、開発期間の短さを成果として掲げている",
+        "sentence": "開発期間を半分に縮めたという研究チームの発表は、速さがそのまま確かさであるかのように聞こえてしまう。",
+    },
+    {
+        "title": "地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず",
+        "observation": "警察が確かめられないうわさが、SNSで人から人へ広まっている",
+        "sentence": "警察も確かめられない窃盗団のうわさが、SNSで人の手を渡るうちに、見てきたような話になっていく。",
+    },
+]
+
+WRITE_PROMPT = """新聞の小さなコラムに、モンテーニュ風の一文を書く。
+材料は「見出し」と「目に留まる振る舞い」だけである。
+
+手本:
+{examples}
+
+見出し: {title}
+目に留まる振る舞い: {observation}
+
+手本のように、見出しの具体的な言葉で出来事を押さえ、その振る舞いを、落ち着いた皮肉を込めて一文で言い当てよ。
+見出しと「目に留まる振る舞い」に無い事情・感情・行動は書かない。だ・である調で、40〜90字。
+違う書き方の候補を3つ、candidates に入れよ。"""
+
+WRITE_SCHEMA = {
+    "type": "object",
+    "properties": {"candidates": {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 3}},
+    "required": ["candidates"],
 }
 
 
-def _build_analysis(item: NewsItem, quote: dict = None) -> str:
+def write_candidates(item: NewsItem, reading: dict) -> list:
+    title, _ = facts_for_prompt(item)
+    examples = "\n\n".join(
+        f"見出し: {e['title']}\n目に留まる振る舞い: {e['observation']}\n一文: {e['sentence']}" for e in EXAMPLES
+    )
+    data = _ollama_json(WRITE_PROMPT.format(examples=examples, title=title, observation=reading["observation"]),
+                        WRITE_SCHEMA, WRITE_OPTIONS, "write")
+    return [c.strip() for c in data.get("candidates", []) if isinstance(c, str) and c.strip()]
+
+
+# ---------------------------------------------------------------
+# 4. 確かめる
+# ---------------------------------------------------------------
+_JA = r"[\u3040-\u30ff\u3400-\u9fff々ー]"
+_SPACE_AROUND_ASCII = re.compile(rf"(?<={_JA})[ \u3000]+(?=[A-Za-z0-9])|(?<=[A-Za-z0-9])[ \u3000]+(?={_JA})")
+MIN_CHARS, MAX_CHARS = 35, 95
+
+
+def mechanical_check(text: str, item: NewsItem, quote: dict) -> str:
     """
-    テンプレートから分析文を作る。箴言が決まっていれば、その箴言のタグのうち
-    記事のテーマとも一致するものを優先して型を選ぶ(引用と分析文の食い違いを避ける)。
+    LLM を使わない検査。合格なら整えた文を返し、不合格なら ValueError。
+    字数・文末・説教口調・決まり文句・箴言や手本の丸写し・見出しに無い固有名詞と数字。
     """
-    themes = getattr(item, "themes", None) or [item.theme or "inconstance"]
-    theme = themes[0]
-    if quote:
-        shared = [t for t in themes if t in quote["tags"]]
-        theme = shared[0] if shared else quote["tags"][0]
-    templates = THEME_ANALYSIS_TEMPLATES.get(theme) or THEME_ANALYSIS_TEMPLATES["inconstance"]
-    # 見出し末尾の媒体名(「 - 日本経済新聞」)を除いてから断片を取る
-    # (除かないと「…懸念の声、-、日…」のように媒体名の切れ端が文に混じる)
-    title = _MEDIA_SUFFIX.sub("", facts_for_prompt(item)[0]).strip()
-    frag = me._title_fragment(title) if is_japanese(title) else "この報道"
-    # 見出しの語句の区切りの空白(「再審で無罪判決 逮捕から40年」)は、
-    # 文に差し込むと読みにくいので読点に置き換える
-    frag = re.sub(r"[ \u3000]+", "、", frag.strip())
-    return random.choice(templates).format(frag=frag)
-
-
-# ---------------------------------------------------------------
-# 本文の組み立て
-# ---------------------------------------------------------------
-BODY_MAX_CHARS = 260  # 箴言が長めで章題も付くため、マキャベリ側(250)より少し長く取る
-
-
-def _assemble_body(analysis: str, quote: dict, max_chars: int = BODY_MAX_CHARS) -> str:
-    """分析文・箴言・出典を結合する。上限を超えたら削るのは分析文だけ。"""
-    citation = source_label(quote)
-    quote_line = f"「{quote['ja']}」"
-    fixed_len = len(quote_line) + len(citation) + 2
-    if len(analysis) + 1 + fixed_len > max_chars:
-        analysis = me._trim_japanese(analysis, max(max_chars - fixed_len - 1, 20))
-    return f"{analysis}\n{quote_line}\n{citation}"
-
-
-# ---------------------------------------------------------------
-# LLM による分析文
-# ---------------------------------------------------------------
-# 【分析文の手がかり】
-# 以前は箴言の訳文をそのまま LLM に見せて「この言葉への導入を書け」と求めていたが、
-# 小型モデルは箴言の言い回しを分析文に持ち込み(丸写しを禁じても言い換えて繰り返す)、
-# 足りない筋を見出しに無い事情で埋めた。
-# 実例(2026-11-03): 地震の死者数の記事に「人々は慣れ親しんだ日常の崩壊を恐れて避難所へと
-# 集まり、死の待ち受ける場所を選ばずいたる所でその影を受け入れる性質を見せる」。
-# 避難所も恐れも見出しに無く、後半は箴言(I.20)の言い換えで、文意も通っていない。
-# そこでベーコンボットと同じく、箴言そのものは見せず、箴言のテーマに当たる人の振る舞いを
-# 平易な言葉で渡し、「見出しの出来事 → そこに見える振る舞い」の型で書かせる。
-THEME_HINTS = {
-    "coutume": "長く続いた慣わしや前例が、理由を問われないまま当たり前として人を動かしていること",
-    "nouveaute": "新しい仕組みや変更が、期待とは別の戸惑いや混乱を呼んでいること",
-    "lois": "決まりや手続き、裁きが、それ自体の正しさとは別の理由で通用し、あるいは人を縛っていること",
-    "savoir": "知識や肩書・試験の結果が、判断の確かさとは別に重んじられていること",
-    "presomption": "人が、自分たちの技術や見通しを、確かめた以上に当てにしていること",
-    "opinion": "確かめられていない話や印象が、人から人へ渡るうちに事実のように扱われていること",
-    "mort": "死や老いが身近に迫るとき、人がそれをどう語り、どう備え、あるいはどう避けているか",
-    "peur": "出来事そのものより、それについての不安や思いが人の振る舞いを動かしていること",
-    "medecine": "健康や治療をめぐって、人が医術や専門家の判断にどこまで身を委ねているか",
-    "cruaute": "力の弱い相手に向けて、人がたやすく残酷になっていること",
-    "autrui": "人が、自分の慣れた流儀を物差しにして、異なるものを奇妙だと見なしていること",
-    "inconstance": "同じ人や組織の言うことやすることが、時と場合によって食い違っていること",
-    "vanite": "地位や肩書、名声という外側が、その人の中身と取り違えられていること",
-    "profit": "ある人の得が、別の人の損や負担の上に成り立っていること",
-    "soi": "人が、外のことや他人の期待に追われて、自分の暮らしや時間を手放していること",
-}
-
-
-def _theme_for(item: NewsItem, quote: dict) -> str:
-    """記事のテーマと箴言のタグが重なるものを優先する(テンプレートと同じ選び方)。"""
-    themes = getattr(item, "themes", None) or [item.theme or "inconstance"]
-    shared = [t for t in themes if t in quote["tags"]]
-    return shared[0] if shared else quote["tags"][0]
-
-
-def _analysis_prompt(item: NewsItem, quote: dict) -> str:
+    text = _SPACE_AROUND_ASCII.sub("", text.strip())
+    text = re.sub(r"^[「『]|[」』]$", "", text)
+    text = _validate_analysis(text)
+    if not (MIN_CHARS <= len(text) <= MAX_CHARS):
+        raise ValueError(f"字数が範囲外({len(text)}字)")
+    if text.count("。") > 1:
+        raise ValueError("一文になっていない")
     title, summary = facts_for_prompt(item)
-    return ANALYSIS_PROMPT.format(title=title, summary=summary,
-                                  hint=THEME_HINTS[_theme_for(item, quote)])
+    _check_not_restating(text, quote["ja"])
+    for e in EXAMPLES:
+        _check_not_restating(text, e["sentence"])
+    _check_grounded_terms(text, title, summary, quote["ja"])
+    return text
 
 
-ANALYSIS_PROMPT = """次のニュースについて、モンテーニュのように落ち着いた人間観察の目で、平易な言葉で一文を書け。
+CLAIMS_PROMPT = """次の文が、事実として述べている事柄を書き出せ。
 
-ニュース見出し: {title}
+- 「誰が何をした」「何が起きた」「何がどうなっている」という、確かめられる事柄だけを、短い文に分けて書く
+- 書き手の評価・解釈・たとえ・一般論(「人は〜」「〜のように聞こえる」「〜の癖」など)は書き出さない
+
+例
+文: 押印を全廃する市役所の窓口では、長年の慣行も、やめると決めた途端にただの手間として見えてくる。
+答え: {{"claims": ["市役所が窓口の押印を全廃する", "押印は長年の慣行だった"]}}
+
+文: {analysis}
+答え:"""
+
+CLAIMS_SCHEMA = {"type": "object",
+                 "properties": {"claims": {"type": "array", "items": {"type": "string"}, "maxItems": 6}},
+                 "required": ["claims"]}
+
+SUPPORT_PROMPT = """あなたは新聞の校閲係である。
+
+見出し: {title}
 概要: {summary}
 
-観察の手がかり(このニュースのどこにこれが見えるかを書く):
-{hint}
+次の事柄それぞれについて、上の見出し・概要に書かれている、またはそこからそのまま言えるなら true、
+見出し・概要に無い出来事・行動・様子・感情・数字を含むなら false を、同じ順に答えよ。
 
-書き方:
-- 文の前半で、見出しに書かれた具体的な出来事(誰が何をしたか、何が起きたか)を短く押さえる
-- 文の後半で、その出来事のどこに上の手がかりの振る舞いが見えるのかを、ふつうの言葉で言い当てる
-- 型の目安:「(見出しの出来事)には、(誰が)(何を)(どう扱っているか)が表れている。」
-  ただし言い回しはこの型どおりでなくてよい
-- 手がかりの文をそのまま書き写さないこと。「人間の性」「観察」「手がかり」という語そのものは書かず、
-  その中身(誰が、何を、どう受け止め、どう扱っているか)を書くこと
-- 読み返して、一文として意味がまっすぐ通ることを確かめること。比喩を重ねたり、
-  主語と述語が噛み合わない文にしたりしない
+{claims}"""
 
-視座(厳守):
-- 人間観察に徹する。善悪を裁かない。誰かを断罪することも称賛することもしない
-- 説教、教訓、政策提言は書かない。「〜すべきだ」「〜が求められる」「〜が必要だ」の類は禁止
-- 制度や技術や改革によって人間が良くなるという前提に立たない。かといって、
-  特定の政治的立場から論じることもしない
-- 亡くなった人、被害に遭った人、被災した人、その家族の性格や心の在り方・受け止め方を論じてはならない
-  (例: 詐欺の被害者を「欲深い」と評する、被災者が「死を受け入れている」と評する)。
-  人の振る舞いを論じるなら、加害した側、組織や制度の扱い方、出来事を取り巻く世間の振る舞いに目を向けること
+REVIEW_PROMPT = """あなたは新聞の校閲係である。
 
-最優先の条件(事実の扱い):
-- 根拠にしてよい事実は、上の見出しと概要に書かれていることだけである。
-  書かれていない出来事・行為・場所・数字・感情・動機・因果関係・世間の反応を補ってはならない
-  (例: 見出しに無いのに「避難所に集まった」「不安に駆られた」と書くのは誤り)
-- 誰が何をしたのか、主語と行為の関係を見出しのとおりに保つこと。主客を入れ替えてはならない
-- 見出しが短く情報が乏しい場合は、書かれている範囲だけを控えめに論じ、事情を想像で埋めないこと
+見出し: {title}
+文: {analysis}
 
-その他の条件:
-- 出力は1文のみ。40字以上90字以内
-- 必ず句点「。」で終わる、文法的に完結した1文にすること。
-  文の途中で終わらせたり、「…」「...」で終えたりしてはならない
-- 文体は「だ・である調」にすること。ただし「だ」は名詞・形容動詞の
-  言い切りにのみ付ける助動詞であり、動詞の終止形(〜る、〜れる、〜られる等)
-  にはそもそも付けない。動詞の終止形はそれ自体で言い切りが完成している。
-  【正しい例】「人は慣れたものを疑わない。」「前例が判断を先回りしている。」
-  【誤った例(絶対にしないこと)】「人は慣れたものを疑わないだ。」「前例が判断を先回りしているだ。」
-  【名詞の言い切りの正しい例】「これは習慣の力の表れだ。」「人の性は変わらぬものである。」
-- 「」『』などの引用符、URL、見出しラベル、前置きや説明は一切書かない
-- 人名・組織名・地名などの固有名詞は、見出しや概要に明記されているものだけを使うこと
-- このニュース固有の具体的な内容(登場する人々・場所・出来事)に触れる。
-  どの記事にも当てはまる一般論は禁止
-- 出力は分析文一文のみ。それ以外は何も書くな
-"""
+この文について答えよ。
+coherent: 一文として意味がまっすぐ通り、主語と述語が噛み合っているか
+on_topic: 見出しの出来事について述べているか
+judges_victims: 亡くなった人・被害に遭った人・被災した人・その家族の人柄や心の在り方を論じているか
+moralizing: 誰かを善悪で裁いたり、説教や提言をしたりしているか"""
 
+REVIEW_SCHEMA = {
+    "type": "object",
+    "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "judges_victims", "moralizing")},
+    "required": ["coherent", "on_topic", "judges_victims", "moralizing"],
+}
+
+
+def check_candidate(text: str, item: NewsItem) -> None:
+    """
+    LLM による検査。不合格なら ValueError。
+      a. 下書きから事実の主張を抜き出す(評価・一般論は除く)。主張が一つも無い文は、
+         記事に触れていない一般論として落とす
+      b. 抜き出した主張だけを、下書きを見せずに見出しと照らす(Chain-of-Verification の方式)
+      c. 文意が通るか、記事に沿っているか、被害者を論じていないか、裁いていないか
+    """
+    title, summary = facts_for_prompt(item)
+    claims = [c.strip() for c in _ollama_json(CLAIMS_PROMPT.format(analysis=text), CLAIMS_SCHEMA,
+                                              JUDGE_OPTIONS, "claims").get("claims", []) if c.strip()]
+    if not claims:
+        raise ValueError("事実の主張が無い(記事に触れない一般論)")
+    support_schema = {"type": "object",
+                      "properties": {"supported": {"type": "array", "items": {"type": "boolean"},
+                                                   "minItems": len(claims), "maxItems": len(claims)}},
+                      "required": ["supported"]}
+    listing = "\n".join(f"{i}. {c}" for i, c in enumerate(claims, 1))
+    supported = _ollama_json(SUPPORT_PROMPT.format(title=title, summary=summary, claims=listing),
+                             support_schema, JUDGE_OPTIONS, "support").get("supported", [])
+    unsupported = [c for c, ok in zip(claims, supported) if ok is not True]
+    if len(supported) != len(claims) or unsupported:
+        raise ValueError(f"見出しから言えない主張: {unsupported or claims}")
+    review = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text), REVIEW_SCHEMA,
+                          JUDGE_OPTIONS, "review")
+    problems = [k for k, bad in (("文意が通らない", not review.get("coherent")),
+                                 ("記事に沿っていない", not review.get("on_topic")),
+                                 ("被害者を論じている", review.get("judges_victims")),
+                                 ("裁いている", review.get("moralizing"))) if bad]
+    if problems:
+        raise ValueError(f"校閲で不合格: {problems}")
+
+
+# ---------------------------------------------------------------
+# 共用の検査部品(ベーコンボットも使う。名前と動作を変えないこと)
+# ---------------------------------------------------------------
 # 事実照合(ベーコンボットも共用する)。
 # 以前は「人間の性についての観察・比喩・一般化は問題にしない」と書いていたため、
 # 見出しに無い感情や行動(「日常の崩壊を恐れて避難所へと集まり」)まで「観察」として
@@ -553,90 +630,86 @@ def _check_not_restating(analysis: str, quote_text: str, run: int = 10) -> None:
             raise ValueError(f"箴言の文言を繰り返している: {q[i:i + run]!r}")
 
 
-def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
-    """設定・検査の段取りは machiavelli_engine._analysis_via_ollama と同じ。"""
-    host, model = _ollama_env()
-    title, summary = facts_for_prompt(item)
-    prompt = _analysis_prompt(item, quote)
-    options = {
-        "temperature": 0.5,
-        "top_p": 0.8,
-        "top_k": 20,
-        "min_p": 0.0,
-        "presence_penalty": 0.5,
-        "num_predict": 256,
-    }
-    last_error = None
-    for attempt in range(1, attempts + 1):
+# ---------------------------------------------------------------
+# 本文の組み立て
+# ---------------------------------------------------------------
+BODY_MAX_CHARS = 260  # 箴言が長めで章題も付くため、マキャベリ側(250)より少し長く取る
+
+
+def _assemble_body(analysis: str, quote: dict, max_chars: int = BODY_MAX_CHARS) -> str:
+    """分析文・箴言・出典を結合する。上限を超えたら削るのは分析文だけ。"""
+    citation = source_label(quote)
+    quote_line = f"「{quote['ja']}」"
+    fixed_len = len(quote_line) + len(citation) + 2
+    if len(analysis) + 1 + fixed_len > max_chars:
+        analysis = me._trim_japanese(analysis, max(max_chars - fixed_len - 1, 20))
+    return f"{analysis}\n{quote_line}\n{citation}"
+
+
+# ---------------------------------------------------------------
+# 全体
+# ---------------------------------------------------------------
+WRITE_ROUNDS = 2   # 3候補がすべて落ちたら、もう一度だけ書かせる
+
+
+def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS):
+    """
+    論評を組み立てて返す。掲載できる文が得られなければ None(理由は LAST_TRACE["result"])。
+    掲載する1件についてだけ、箴言の使用履歴を記録する。
+    """
+    global LAST_QUOTE_ID, LAST_QUOTE_CHOICE, LAST_ANALYSIS_SOURCE
+    LAST_TRACE.clear()
+    LAST_QUOTE_ID = LAST_QUOTE_CHOICE = LAST_ANALYSIS_SOURCE = None
+    _, model = _ollama_env()
+
+    def give_up(reason: str):
+        LAST_TRACE["result"] = reason
+        print(f"[見送り] {reason}")
+        return None
+
+    if not prefer_llm:
+        return give_up("LLMを使わない設定")
+    try:
+        reading = read_article(item)
+    except Exception as e:
+        return give_up(f"読む工程で失敗: {e}")
+    LAST_TRACE["reading"] = reading
+    print(f"[読む] {reading}")
+    if reading.get("lens") == NO_LENS:
+        return give_up("論じるべき人の振る舞いが見出しに無い")
+
+    try:
+        quote = choose_quote(item, reading)
+    except Exception as e:
+        return give_up(f"選ぶ工程で失敗: {e}")
+    if quote is None:
+        return give_up("振る舞いに合う箴言が候補に無い")
+    LAST_TRACE["quote"] = quote["id"]
+    print(f"[選ぶ] {quote['id']} {quote['ja'][:40]}")
+
+    LAST_TRACE["candidates"] = []
+    for rnd in range(1, WRITE_ROUNDS + 1):
         try:
-            text = _validate_analysis(me._ollama_generate(host, model, prompt, options))
-            _check_not_restating(text, quote["ja"])
-            _check_not_restating(text, THEME_HINTS[_theme_for(item, quote)])
-            _check_grounded_terms(text, title, summary, quote["ja"])
-            _verify_with_ollama(host, model, text, title, summary)
-            return text
-        except ValueError as e:
-            last_error = e
-            print(f"[分析文] Ollama 生成結果が不合格(試行 {attempt}/{attempts}): {e}")
-    raise last_error
-
-
-def _analysis_via_anthropic(item: NewsItem, quote: dict) -> str:
-    import anthropic  # pip install anthropic
-
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        raise RuntimeError("ANTHROPIC_API_KEY is not set")
-    title, summary = facts_for_prompt(item)
-    client = anthropic.Anthropic()
-    msg = client.messages.create(
-        model=os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5"),
-        max_tokens=150,
-        messages=[{"role": "user",
-                   "content": _analysis_prompt(item, quote)}],
-    )
-    text = _validate_analysis("".join(b.text for b in msg.content if b.type == "text"))
-    _check_not_restating(text, quote["ja"])
-    _check_not_restating(text, THEME_HINTS[_theme_for(item, quote)])
-    _check_grounded_terms(text, title, summary, quote["ja"])
-    return text
-
-
-def _get_analysis(item: NewsItem, quote: dict, prefer_llm: bool = True) -> str:
-    """Ollama → Anthropic API → テンプレート の順に試す。"""
-    global LAST_ANALYSIS_SOURCE
-    if prefer_llm:
-        _, model = _ollama_env()
-        try:
-            text = _analysis_via_ollama(item, quote)
-            LAST_ANALYSIS_SOURCE = f"ollama:{model}"
-            print(f"[分析文] Ollama({model}) で生成しました")
-            return text
+            drafts = write_candidates(item, reading)
         except Exception as e:
-            print(f"[分析文] Ollama({model}) を使えませんでした: {e}")
-        if os.environ.get("ANTHROPIC_API_KEY"):
+            LAST_TRACE["candidates"].append({"text": None, "verdict": f"書く工程で失敗: {e}"})
+            continue
+        for draft in drafts:
+            record = {"round": rnd, "text": draft}
+            LAST_TRACE["candidates"].append(record)
             try:
-                text = _analysis_via_anthropic(item, quote)
-                LAST_ANALYSIS_SOURCE = "anthropic"
-                print("[分析文] Anthropic API で生成しました")
-                return text
-            except Exception as e:
-                print(f"[分析文] Anthropic API を使えませんでした: {e}")
-    LAST_ANALYSIS_SOURCE = "template"
-    print("[分析文] テンプレートで生成しました(LLMが使えなかったための代替)")
-    return _build_analysis(item, quote)
-
-
-def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS) -> str:
-    """
-    メインエントリポイント。論評を組み立て、採用した箴言の使用履歴を記録する。
-    実際に掲載する1件に対してのみ呼ぶこと。
-    """
-    global LAST_QUOTE_ID
-    quote = select_quote(item, prefer_llm=prefer_llm)
-    analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
-    body = _assemble_body(analysis, quote, max_chars)
-    result = me._prepend_source_link(body, item)
-
-    LAST_QUOTE_ID = quote["id"]
-    record_quote_usage(LAST_QUOTE_ID)
-    return result
+                text = mechanical_check(draft, item, quote)
+                check_candidate(text, item)
+            except ValueError as e:
+                record["verdict"] = str(e)
+                print(f"[確かめる] 不合格: {draft} … {e}")
+                continue
+            record["verdict"] = "合格"
+            print(f"[確かめる] 合格: {text}")
+            LAST_QUOTE_ID, LAST_QUOTE_CHOICE = quote["id"], "llm"
+            LAST_ANALYSIS_SOURCE = f"ollama:{model}"
+            LAST_TRACE["result"] = "掲載"
+            body = _assemble_body(text, quote, max_chars)
+            record_quote_usage(quote["id"])
+            return me._prepend_source_link(body, item)
+    return give_up("検査を通る候補が無かった")
