@@ -14,6 +14,7 @@ GitHub Actions などのスケジューラから定期的に呼び出す想定�
 """
 
 import datetime
+import time
 import json
 import os
 import re
@@ -69,29 +70,43 @@ def main():
         top_n=10,
         exclude_keywords=scoring_cfg["exclude_keywords"],
     )
-    target = None
-    for item in ranked:
-        h = _hash_item(item)
-        if h in seen:
+    # 検査をすべて通った論評だけを掲載する(generate_commentary が None を返したら次の記事へ)。
+    # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る
+    # (ワークフローの上限30分のうち、モデルの準備に数分かかるため)。
+    MAX_ARTICLES_PER_RUN = 3
+    TIME_BUDGET_SEC = 16 * 60
+    started = time.time()
+    tried = 0
+    text = item = h = None
+    for cand in ranked:
+        ch = _hash_item(cand)
+        if ch in seen:
             continue
-        if item.score < scoring_cfg["minimum_score"]:
+        if cand.score < scoring_cfg["minimum_score"]:
             continue  # 閾値未満、または除外キーワードに一致(score=-1)
+        if tried >= MAX_ARTICLES_PER_RUN or time.time() - started > TIME_BUDGET_SEC:
+            break
         # 英語などの記事は、先に日本語に訳す。訳せなければこの記事は見送り、
         # 次の候補に進む(英語が本文に混ざった論評を出さないため)。
         try:
-            machiavelli_engine.ensure_japanese(item)
+            machiavelli_engine.ensure_japanese(cand)
         except Exception as e:
-            print(f"[SKIP] 日本語に訳せないため見送り: {item.title} ({e})")
+            print(f"[SKIP] 日本語に訳せないため見送り: {cand.title} ({e})")
             continue
-        target = (item, h)
+        tried += 1
+        print(f"[選出] {cand.title}(score={cand.score})")
+        result = generate_commentary(cand, prefer_llm=True)
+        # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
+        seen.add(ch)
+        if result is None:
+            continue
+        text, item, h = result, cand, ch
         break
+    save_seen(seen)
 
-    if target is None:
-        print("[SKIP] 新規かつ重要度十分なニュースがありませんでした。")
+    if text is None:
+        print("[SKIP] 掲載できる論評がありませんでした(新規の記事が無いか、検査を通る分析文が得られなかった)。")
         return
-
-    item, h = target
-    text = generate_commentary(item, prefer_llm=True)
 
     entry = {
         "id": h[:12],
@@ -117,8 +132,6 @@ def main():
     if has_english_text(text):
         # 最後の安全策。英語が混ざった論評は掲載しない
         print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")
-        seen.add(h)  # 同じ記事で毎回やり直さないよう、取り上げ済みにする
-        save_seen(seen)
         return
 
     # 以前の版で掲載されてしまった、英語が混ざった論評も取り除く
@@ -126,9 +139,6 @@ def main():
     feed.insert(0, entry)
     feed = feed[:MAX_FEED_ITEMS]
     save_feed(feed)
-
-    seen.add(h)
-    save_seen(seen)
 
     print(f"[OK] feed.json に追加しました: {item.title}")
 

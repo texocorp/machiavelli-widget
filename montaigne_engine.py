@@ -729,7 +729,7 @@ def faithfulness_order(texts: list, item: NewsItem) -> list:
     return sorted(texts, key=key)
 
 
-REVIEW_PROMPT = """あなたは新聞の校閲係である。ニュースの導入文の後に、モンテーニュの一節を引く。
+REVIEW_PROMPT = """あなたは新聞の校閲係である。ニュースの導入文の後に、{author}の一節を引く。
 
 見出し: {title}
 導入文: {analysis}
@@ -747,9 +747,11 @@ REVIEW_SCHEMA = {
 }
 
 
-def review(text: str, item: NewsItem, quote: dict) -> None:
+def review(text: str, item: NewsItem, quote: dict, author: str = "モンテーニュ") -> None:
+    """マキャベリ・ベーコンのボットも共用する(author に引く著者の名を渡す)。"""
     title, _ = _facts(item)
-    r = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"]), REVIEW_SCHEMA,
+    r = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"], author=author),
+                     REVIEW_SCHEMA,
                      JUDGE_OPTIONS, "review")
     problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
                                  ("記事に沿っていない", not r.get("on_topic")),

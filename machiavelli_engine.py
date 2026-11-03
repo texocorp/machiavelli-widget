@@ -844,11 +844,29 @@ def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
             text = _validate_analysis(_ollama_generate(host, model, prompt, options))
             _check_grounded_terms(text, title, summary, quote["ja"])
             _verify_with_ollama(host, model, text, title, summary)
+            deep_check(text, item, quote, "マキャベリ")
             return text
         except ValueError as e:
             last_error = e
             print(f"[分析文] Ollama 生成結果が不合格(試行 {attempt}/{attempts}): {e}")
     raise last_error
+
+
+def deep_check(text: str, item: NewsItem, quote: dict, author: str) -> None:
+    """
+    モンテーニュボットで効果を確かめた2つの検査を、マキャベリ・ベーコンのボットにも掛ける。
+    不合格なら ValueError。
+      1. 事実の照合(Chain-of-Verification): 分析文から事実の主張だけを抜き出し、分析文を見せずに
+         一つずつ見出しと照らす。評価・解釈は抜き出さないので、論評の自由は狭めない。
+         以前の「適合か不適合か」を一度に問う照合は、解釈に紛れた事実の付け加えを見逃した
+         (実例 2026-11-04: 見出し「米仲介の3者協議再開控え」を「米仲介を避ける姿勢」と書いた)。
+      2. 校閲: 一文として意味が通るか、見出しの出来事について述べているか、
+         引用と続けて読むと被害者を責める響きにならないか。
+    """
+    import montaigne_engine as mtg  # montaigne_engine がこのモジュールを import するので、ここで読む
+    mtg.LAST_TRACE.pop("calls", None)
+    mtg.verify_claims(text, item)
+    mtg.review(text, item, quote, author=author)
 
 
 def _analysis_via_anthropic(item: NewsItem, quote: dict, model: str = None) -> str:
@@ -876,6 +894,7 @@ def _analysis_via_anthropic(item: NewsItem, quote: dict, model: str = None) -> s
     text = "".join(block.text for block in msg.content if block.type == "text")
     text = _validate_analysis(text)
     _check_grounded_terms(text, title, summary, quote["ja"])
+    deep_check(text, item, quote, "マキャベリ")
     return text
 
 
@@ -913,9 +932,11 @@ def _get_analysis(item: NewsItem, quote: dict, prefer_llm: bool = True) -> str:
                 return text
             except Exception as e:
                 print(f"[分析文] Anthropic API を使えませんでした: {e}")
-    LAST_ANALYSIS_SOURCE = "template"
-    print("[分析文] テンプレートで生成しました(LLMが使えなかったための代替)")
-    return _build_analysis(item)
+    # 以前はここでテンプレート(見出しの切れ端を型にはめる文)に代えて掲載していたが、
+    # 文として崩れることが多かった(実例: 「…どう守るか？、東大など…の広がり方には」(ベーコン))。
+    # 検査を通る分析文が得られなければ、この記事は見送る。
+    LAST_ANALYSIS_SOURCE = None
+    raise RuntimeError("検査を通る分析文が得られなかった")
 
 
 def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS) -> str:
@@ -924,7 +945,7 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
 
     処理の流れ(常にこの順序・この役割分担で行われる):
       1. 箴言を選ぶ               … select_quote()           (候補8件に絞り、LLMが1件を選ぶ)
-      2. 分析文を1文だけ得る       … _get_analysis()          (選んだ箴言を踏まえてLLMが書く。失敗時はテンプレート)
+      2. 分析文を1文だけ得る       … _get_analysis()          (選んだ箴言を踏まえてLLMが書く。検査を通らなければ None を返して見送る)
       3. 分析文+引用+出典を結合    … ここで直接組み立てる       (決定的・Pythonが結合)
       4. 先頭に元記事URLを付加     … _prepend_source_link()  (決定的・常に正確)
 
@@ -936,16 +957,19 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     プレビュー目的で候補を試すだけの場合は generate_commentary_template を使うこと。
     """
     global LAST_QUOTE_ID
+    LAST_QUOTE_ID = None
     if not is_japanese(clean_news_text(item.title)) and not item.title_ja:
         try:
             ensure_japanese(item)
         except Exception as e:
-            # 訳せないまま進むと英語が本文に混ざるので、分析文はテンプレート
-            # (見出しを差し込まない形)に切り替える
-            print(f"[翻訳] {e}")
-            prefer_llm = False
+            print(f"[翻訳] 訳せないため見送り: {e}")
+            return None
     quote = select_quote(item, prefer_llm=prefer_llm)
-    analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
+    try:
+        analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
+    except RuntimeError as e:
+        print(f"[見送り] {e}")
+        return None
     body = _assemble_body(analysis, quote, max_chars)
     result = _prepend_source_link(body, item)
 

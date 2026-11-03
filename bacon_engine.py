@@ -490,6 +490,7 @@ def _analysis_via_ollama(item: NewsItem, quote: dict, attempts: int = 3) -> str:
             mtg._check_not_restating(text, THEME_HINTS[_theme_for(item, quote)])
             _check_grounded_terms(text, title, summary, quote["ja"])
             mtg._verify_with_ollama(host, model, text, title, summary)
+            me.deep_check(text, item, quote, "ベーコン")
             return text
         except ValueError as e:
             last_error = e
@@ -514,6 +515,7 @@ def _analysis_via_anthropic(item: NewsItem, quote: dict) -> str:
     mtg._check_not_restating(text, quote["ja"])
     mtg._check_not_restating(text, THEME_HINTS[_theme_for(item, quote)])
     _check_grounded_terms(text, title, summary, quote["ja"])
+    me.deep_check(text, item, quote, "ベーコン")
     return text
 
 
@@ -537,19 +539,27 @@ def _get_analysis(item: NewsItem, quote: dict, prefer_llm: bool = True) -> str:
                 return text
             except Exception as e:
                 print(f"[分析文] Anthropic API を使えませんでした: {e}")
-    LAST_ANALYSIS_SOURCE = "template"
-    print("[分析文] テンプレートで生成しました(LLMが使えなかったための代替)")
-    return _build_analysis(item, quote)
+    # 以前はここでテンプレートに代えて掲載していたが、見出しの切れ端を型にはめるため
+    # 文として崩れた(実例 2026-11-04: 「…どう守るか？、東大など…の広がり方には」)。
+    # 検査を通る分析文が得られなければ、この記事は見送る。
+    LAST_ANALYSIS_SOURCE = None
+    raise RuntimeError("検査を通る分析文が得られなかった")
 
 
 def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS) -> str:
     """
     メインエントリポイント。論評を組み立て、採用した引用の使用履歴を記録する。
     実際に掲載する1件に対してのみ呼ぶこと。
+    検査を通る分析文が得られなければ None を返す(呼び出し側は次の記事に進む)。
     """
     global LAST_QUOTE_ID
+    LAST_QUOTE_ID = None
     quote = select_quote(item, prefer_llm=prefer_llm)
-    analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
+    try:
+        analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
+    except RuntimeError as e:
+        print(f"[見送り] {e}")
+        return None
     body = _assemble_body(analysis, quote, max_chars)
     result = me._prepend_source_link(body, item)
 

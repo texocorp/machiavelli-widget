@@ -145,10 +145,12 @@ def run_once(cfg: dict, seen: set) -> bool:
             continue  # 地政学的重要度が閾値未満、または除外キーワードに一致(score=-1)
 
         text = generate_commentary(item, prefer_llm=True)
-        post_tweet(text, cfg)
-        log_tweet(text, item)
         seen.add(h)
         save_seen(seen)
+        if text is None:
+            continue  # 検査を通る分析文が得られなかった。次の記事へ
+        post_tweet(text, cfg)
+        log_tweet(text, item)
         return True
 
     print("[SKIP] 新規かつ重要度十分なニュースがありませんでした。")

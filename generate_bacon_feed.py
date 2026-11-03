@@ -24,6 +24,7 @@ import datetime
 import json
 import os
 import re
+import time
 
 import bacon_engine
 from bacon_scorer import load_scoring_config, rank_news
@@ -101,32 +102,42 @@ def main():
                        priority_bonus=scoring_cfg["priority_bonus"])
     no_discourse = sum(1 for i in items if getattr(i, "matched_keywords", None) == ["[言説の語なし]"])
     print(f"[選別] 取得{len(items)}件のうち、言説の語を含まず外したもの {no_discourse}件")
-    target = None
-    for item in ranked:
-        h = _hash_item(item)
-        key = _title_key(item.title)
-        if h in seen or item.score < scoring_cfg["minimum_score"]:
+    # 検査をすべて通った論評だけを掲載する(generate_commentary が None を返したら次の記事へ)。
+    # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る。
+    MAX_ARTICLES_PER_RUN = 3
+    TIME_BUDGET_SEC = 16 * 60
+    started = time.time()
+    tried = 0
+    text = item = h = None
+    for cand in ranked:
+        ch = _hash_item(cand)
+        key = _title_key(cand.title)
+        if ch in seen or cand.score < scoring_cfg["minimum_score"]:
             continue
-        if h in sibling_hashes or key in sibling_titles:
-            print(f"[見送り] 他のボットが論評済み: {item.title}")
+        if ch in sibling_hashes or key in sibling_titles:
+            print(f"[見送り] 他のボットが論評済み: {cand.title}")
             continue
         if key in own_titles:
             continue  # 別の配信元から届いた同じ記事
-        if not is_japanese(clean_news_text(item.title)):
+        if not is_japanese(clean_news_text(cand.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
-        target = (item, h)
+        if tried >= MAX_ARTICLES_PER_RUN or time.time() - started > TIME_BUDGET_SEC:
+            break
+        tried += 1
+        print(f"[選出] {cand.title}(score={cand.score}, themes={cand.themes})")
+        result = bacon_engine.generate_commentary(cand, prefer_llm=True)
+        # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
+        seen.add(ch)
+        seen_list.append(ch)
+        if result is None:
+            continue
+        text, item, h = result, cand, ch
         break
-
-    if target is None:
-        print("[SKIP] 新規かつ重要度十分なニュースがありませんでした。")
-        return
-
-    item, h = target
-    print(f"[選出] {item.title}(score={item.score}, themes={item.themes})")
-    text = bacon_engine.generate_commentary(item, prefer_llm=True)
-
-    seen_list.append(h)
     _save_json(SEEN_PATH, seen_list[-MAX_SEEN:])
+
+    if text is None:
+        print("[SKIP] 掲載できる論評がありませんでした(新規の記事が無いか、検査を通る分析文が得られなかった)。")
+        return
 
     if has_english_text(text):
         print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")
