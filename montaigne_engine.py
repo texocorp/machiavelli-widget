@@ -385,14 +385,13 @@ FIT_PROMPT = """新聞のコラムで、ニュースの後にモンテーニュ�
      責めたり嘲ったりする響きになる
 
 一節: {quote}
-(この一節が当てはまる場面の目安: {scene})
+この一節が当てはまる場面: {scene}
 
-まず common に、この一節と出来事の共通点を20〜40字で書け(無ければ「無し」)。次に fit に点数を答えよ。"""
+まず scene に、この出来事がそのまま当たる場面を、上の「当てはまる場面」から一つ選んで答えよ。
+話題が近いだけで、その場面そのものではないなら「なし」と答えよ。
+次に common に、この一節と出来事の共通点を20〜40字で書き(無ければ「無し」)、最後に fit に点数を答えよ。"""
 
-FIT_SCHEMA = {"type": "object",
-              "properties": {"common": {"type": "string"},
-                             "fit": {"type": "integer", "minimum": 0, "maximum": 3}},
-              "required": ["common", "fit"]}
+_NO_SCENE = "なし"
 QUOTE_CANDIDATES_TO_SCORE = 6
 QUOTE_MIN_SCORE = 2  # これ未満しか無ければ、箴言が合わないとして見送る
 
@@ -407,11 +406,23 @@ def choose_quote(item: NewsItem, reading: dict):
     candidates = rank_quote_candidates(item, lens_tag, QUOTE_CANDIDATES_TO_SCORE)
     scored = []
     for q in candidates:
+        # 当てはまる場面は、箴言ごとに手で書いた一覧の中から選ばせる(JSONスキーマの選択肢に限る)
+        scenes = [x.strip() for x in re.split(r"[、,]", q["scene"]) if x.strip()]
+        schema = {"type": "object",
+                  "properties": {"scene": {"type": "string", "enum": scenes + [_NO_SCENE]},
+                                 "common": {"type": "string"},
+                                 "fit": {"type": "integer", "minimum": 0, "maximum": 3}},
+                  "required": ["scene", "common", "fit"]}
         data = _ollama_json(FIT_PROMPT.format(facts=reading["facts"], key_phrase=reading["key_phrase"],
-                                              quote=q["ja"], scene=q["scene"]),
-                            FIT_SCHEMA, JUDGE_OPTIONS, "fit")
+                                              quote=q["ja"], scene="、".join(scenes)),
+                            schema, JUDGE_OPTIONS, "fit")
         fit = data.get("fit") if isinstance(data.get("fit"), int) else 0
-        scored.append((q, fit, data.get("common", "")))
+        scene = data.get("scene", _NO_SCENE)
+        # 話題が近いだけで、手で書いた適用場面のどれにも当たらない一節は使わない
+        # (実例: 詐欺グループの摘発に「裁きにおいてさえ、単なる死を越えるものは残酷」(場面: 死刑、刑罰の在り方…)が3点)
+        if scene not in scenes:
+            fit = min(fit, 1)
+        scored.append((q, fit, f"[{scene}] {data.get('common', '')}"))
     LAST_TRACE["quote_candidates"] = [(q["id"], fit, common) for q, fit, common in scored]
     best = max((fit for _, fit, _ in scored), default=0)
     if best < QUOTE_MIN_SCORE:
@@ -461,6 +472,7 @@ WRITE_SYSTEM = """新聞の小さなコラムで、ニュースの後にモン�
 その一節の前に置く、導入の一文を JSON で答える。
 
 - 見出しの出来事を、見出しの言葉を生かして一文で言い直す。渡された「語句」は必ず使う
+- 見出しに特有の切り詰めた言い方(「〜か」「〜装い」「助詞の省略」など)は、ふつうの文章の言い方に直す
 - 一節と響き合う点が読者の目に留まるように、語順と言葉の選び方を工夫する
 - 見出しに無い事情・感情・行動・場所・数字は書かない
 - 自分の評価や教訓、人間一般についての言葉(「人は〜」「我々は〜」)は書かない。それは一節に任せる
