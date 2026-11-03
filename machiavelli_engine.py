@@ -939,13 +939,36 @@ def _get_analysis(item: NewsItem, quote: dict, prefer_llm: bool = True) -> str:
     raise RuntimeError("検査を通る分析文が得られなかった")
 
 
+def llm_bot():
+    """quote_commentary(共用の論評の組み立て)に渡す、マキャベリボットの設定。"""
+    import quote_commentary as qc
+    return qc.Bot(
+        author="マキャベリ",
+        focus="国家・政府・指導者・軍・組織などの、力をめぐる行動や駆け引き",
+        rank=rank_quote_candidates,
+        # 手本: 架空の見出しと実際の箴言。導入の一文は事実の言い直しだけで、理屈の当てはめは書かない
+        examples=[
+            {"title": "政府、隣国への制裁を段階的に解除へ 関係正常化を探る", "key_phrase": "制裁を段階的に解除",
+             "actor": "政府", "quote": QUOTES_BY_ID["P08"],
+             "sentence": "政府は、隣国に科してきた制裁を段階的に解除し、関係の正常化を探る方針だという。"},
+            {"title": "同盟国、駐留経費の大幅増を要求 政府は受け入れを検討", "key_phrase": "駐留経費の大幅増を要求",
+             "actor": "同盟国", "quote": QUOTES_BY_ID["P13b"],
+             "sentence": "同盟国は駐留経費の大幅な増額を求め、政府はそれを受け入れる方向で検討しているという。"},
+            {"title": "停戦合意から1週間で戦闘再開 双方が相手の違反を主張", "key_phrase": "双方が相手の違反を主張",
+             "actor": "双方", "quote": QUOTES_BY_ID["P18e"],
+             "sentence": "停戦合意からわずか1週間で戦闘が再開し、双方はいずれも相手が合意に違反したと主張している。"},
+        ],
+        meta_words=("マキャベリ", "マキャヴェリ", "君主論", "リウィウス", "現実主義", "力の論理"),
+        neutral_kanji="国",   # 見出しの「米」「露」を「米国」「露国」と書くのは言い直しの範囲
+    )
+
+
 def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS) -> str:
     """
     メインエントリポイント。つぶやきを組み立てる。
 
     処理の流れ(常にこの順序・この役割分担で行われる):
-      1. 箴言を選ぶ               … select_quote()           (候補8件に絞り、LLMが1件を選ぶ)
-      2. 分析文を1文だけ得る       … _get_analysis()          (選んだ箴言を踏まえてLLMが書く。検査を通らなければ None を返して見送る)
+      2. 分析文を1文だけ得る       … _get_analysis()          (quote_commentary.run: 読む→選ぶ→書く→確かめる。検査を通らなければ None を返して見送る)
       3. 分析文+引用+出典を結合    … ここで直接組み立てる       (決定的・Pythonが結合)
       4. 先頭に元記事URLを付加     … _prepend_source_link()  (決定的・常に正確)
 
@@ -956,7 +979,7 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     箴言の選定と同時に使用履歴(record_quote_usage)を記録する。
     プレビュー目的で候補を試すだけの場合は generate_commentary_template を使うこと。
     """
-    global LAST_QUOTE_ID
+    global LAST_QUOTE_ID, LAST_QUOTE_CHOICE, LAST_ANALYSIS_SOURCE
     LAST_QUOTE_ID = None
     if not is_japanese(clean_news_text(item.title)) and not item.title_ja:
         try:
@@ -964,12 +987,17 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
         except Exception as e:
             print(f"[翻訳] 訳せないため見送り: {e}")
             return None
-    quote = select_quote(item, prefer_llm=prefer_llm)
-    try:
-        analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
-    except RuntimeError as e:
-        print(f"[見送り] {e}")
+    if not prefer_llm:
+        print("[見送り] LLMを使わない設定")
         return None
+    import quote_commentary as qc  # quote_commentary がこのモジュールを import するので、ここで読む
+    got = qc.run(llm_bot(), item)
+    if got is None:
+        LAST_ANALYSIS_SOURCE = None
+        return None
+    analysis, quote = got
+    LAST_QUOTE_CHOICE = "llm"
+    LAST_ANALYSIS_SOURCE = "ollama:" + os.environ.get("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
     body = _assemble_body(analysis, quote, max_chars)
     result = _prepend_source_link(body, item)
 

@@ -546,20 +546,50 @@ def _get_analysis(item: NewsItem, quote: dict, prefer_llm: bool = True) -> str:
     raise RuntimeError("検査を通る分析文が得られなかった")
 
 
+def llm_bot():
+    """quote_commentary(共用の論評の組み立て)に渡す、ベーコンボットの設定。"""
+    import quote_commentary as qc
+    return qc.Bot(
+        author="ベーコン",
+        focus="人々や組織が、情報・言葉・評判・予測・技術をどう扱い、どう受け止めているか",
+        rank=rank_quote_candidates,
+        # 手本: 架空の見出しと実際の引用。導入の一文は事実の言い直しだけで、心の動きの推測は書かない
+        examples=[
+            {"title": "人気インフルエンサー「この健康法で病気が治った」と投稿 専門家は根拠を否定",
+             "key_phrase": "「この健康法で病気が治った」と投稿", "actor": "人気インフルエンサー",
+             "quote": QUOTES_BY_ID["NO1.46b"],
+             "sentence": "人気インフルエンサーが『この健康法で病気が治った』と投稿し、専門家はその根拠を否定しているという。"},
+            {"title": "「AIで仕事の8割が消える」 民間予測が話題、試算の前提には疑問も", "key_phrase": "民間予測が話題",
+             "actor": "民間予測", "quote": QUOTES_BY_ID["E35b"],
+             "sentence": "『AIで仕事の8割が消える』という民間の予測が話題になっているが、試算の前提には疑問も出ているという。"},
+            {"title": "新薬の効果、発表を撤回 研究チームがデータの誤りを認める", "key_phrase": "データの誤りを認める",
+             "actor": "研究チーム", "quote": QUOTES_BY_ID["NO1.84b"],
+             "sentence": "研究チームは、データに誤りがあったことを認め、新薬の効果についての発表を撤回したという。"},
+        ],
+        meta_words=("ベーコン", "イドラ", "ノヴム", "オルガヌム", "知性が", "心の動き"),
+        generic_terms=set(_GENERIC_TERMS),
+    )
+
+
 def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS) -> str:
     """
     メインエントリポイント。論評を組み立て、採用した引用の使用履歴を記録する。
     実際に掲載する1件に対してのみ呼ぶこと。
     検査を通る分析文が得られなければ None を返す(呼び出し側は次の記事に進む)。
     """
-    global LAST_QUOTE_ID
+    global LAST_QUOTE_ID, LAST_QUOTE_CHOICE, LAST_ANALYSIS_SOURCE
     LAST_QUOTE_ID = None
-    quote = select_quote(item, prefer_llm=prefer_llm)
-    try:
-        analysis = _get_analysis(item, quote, prefer_llm=prefer_llm)
-    except RuntimeError as e:
-        print(f"[見送り] {e}")
+    if not prefer_llm:
+        print("[見送り] LLMを使わない設定")
         return None
+    import quote_commentary as qc
+    got = qc.run(llm_bot(), item)
+    if got is None:
+        LAST_ANALYSIS_SOURCE = None
+        return None
+    analysis, quote = got
+    LAST_QUOTE_CHOICE = "llm"
+    LAST_ANALYSIS_SOURCE = "ollama:" + mtg._ollama_env()[1]
     body = _assemble_body(analysis, quote, max_chars)
     result = me._prepend_source_link(body, item)
 
