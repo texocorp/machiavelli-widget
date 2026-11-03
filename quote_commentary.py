@@ -43,10 +43,25 @@ class Bot:
     neutral_kanji: str = ""       # 見出しに無くてもよい漢字(例: 「米」を「米国」と書く「国」)
 
 
+# 見出しの略称(「露」「米」)を正式名で書くのは言い直しの範囲(実例: 「露統計局」を「ロシア統計局」と言い直して
+# 読み違いとされた)。見出しに略称があるときだけ、正式名も見出しにあるものとして照合する。
+_ABBREVIATIONS = {"露": "ロシア", "米": "アメリカ 米国", "英": "イギリス 英国", "仏": "フランス",
+                  "豪": "オーストラリア", "韓": "韓国"}   # 「中」「日」「独」などは別の語(中間選挙)に紛れるので入れない
+# 事実を足さない、報道の言い直しに使う漢語(見出しに無くても認める)。事実を足す語(「検討」「計画」など)は入れない。
+# 試験(2026-11-04)では、「限定的な空爆を実施した」の「実施」のような語で、候補の半分以上が落ちていた
+_REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回"
+
+
+def _source_for_check(title: str, summary: str) -> str:
+    source = f"{title} {summary}"
+    extra = [full for abbr, full in _ABBREVIATIONS.items() if abbr in title]
+    return f"{source} {' '.join(extra)}"
+
+
 JUDGE = mtg.JUDGE_OPTIONS
 WRITE = mtg.WRITE_OPTIONS
-CANDIDATES_TO_SCORE = 6
-MIN_FIT = 2
+CANDIDATES_TO_SCORE = 8   # 3点の候補に当たる機会を増やす
+MIN_FIT = 3   # 2点では、9Bのモデルは話題が近いだけの候補にも付けた(試験 2026-11-04: 6候補すべてに2点)
 WRITE_SAMPLES = 3
 MIN_CHARS, MAX_CHARS = 30, 90
 
@@ -58,7 +73,8 @@ READ_SYSTEM = """あなたは新聞の論説委員である。ニュースの見
 
 facts: 見出しに書かれた出来事を、誰が・何を・どうしたかの一文で言い直す。見出しに無いことは足さない。
   見出しの「〜か」「〜へ」「〜も」などの切り詰めた言い方は、意味を変えずにふつうの文に直す
-  (「〜か」は推測・疑い、「〜へ」は予定・方針であって、起きたことではない)
+  (「〜か」は推測・疑い、「〜へ」は予定・方針であって、起きたことではない。
+   「〜控え」は「〜を間近に控えて」、「〜受け」は「〜を受けて」の意味)
 key_phrase: 見出しの中で、{focus}がいちばんよく表れている語句を、見出しから一字一句そのまま抜き出す。"""
 
 READ_EXAMPLES = [
@@ -84,8 +100,8 @@ def read_article(bot: Bot, item: NewsItem) -> dict:
     key = mtg._compact(data["key_phrase"])
     if len(key) < 2 or key not in mtg._compact(f"{title}{summary}"):
         data["problem"] = "抜き出した語句が見出しに無い"
-    elif mtg._ungrounded_kana(data["facts"], f"{title} {summary}"):
-        data["problem"] = f"言い直しに見出しに無い語がある: {mtg._ungrounded_kana(data['facts'], f'{title} {summary}')}"
+    elif mtg._ungrounded_kana(data["facts"], _source_for_check(title, summary)):
+        data["problem"] = f"言い直しに見出しに無い語がある: {mtg._ungrounded_kana(data['facts'], _source_for_check(title, summary))}"
     return data
 
 
@@ -146,7 +162,8 @@ WRITE_SYSTEM = """新聞の小さなコラムで、ニュースの後に{author}
 - 見出しの出来事を、見出しの言葉を生かして一文で言い直す。渡された「語句」は必ず使う
 - 渡された「主体」を主語にして、その主体のしたことに光が当たるように、語順と言葉の選び方を工夫する
 - 見出しに特有の切り詰めた言い方は、意味を変えずにふつうの文章の言い方に直す。
-  「〜か」は疑い・推測、「〜へ」は予定・方針として書き、起きたこととして書かない
+  「〜か」は疑い・推測、「〜へ」は予定・方針として書き、起きたこととして書かない。
+  「〜控え」は「〜を間近に控えて」、「〜受け」は「〜を受けて」の意味である
 - 見出しに無い事情・動機・感情・行動・場所・数字は書かない
 - 自分の評価・解釈・教訓や、一節の理屈の当てはめは書かない。それは一節に任せる
 - 一節の言葉を言い換えて繰り返さない
@@ -209,11 +226,12 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     # 見出しに無いカタカナ語・英字・数字(人名・国名・組織名の作話)
     norm_src = me._normalize_for_match(f"{source} {quote['ja']}")
     allowed = mtg._GENERIC_TERMS | bot.generic_terms
-    foreign = [t for t in mtg._ungrounded_kana(text, f"{source} {quote['ja']}") if t not in allowed]
+    checked = _source_for_check(title, summary)
+    foreign = [t for t in mtg._ungrounded_kana(text, f"{checked} {quote['ja']}") if t not in allowed]
     foreign += [d for d in me._DIGIT_RUN.findall(me._normalize_for_match(text)) if d not in norm_src]
     if foreign:
         raise ValueError(f"見出しに無い語句を含む(作話の疑い): {foreign}")
-    foreign = mtg._ungrounded_kanji(text, f"{source} {' '.join(bot.neutral_kanji)}")
+    foreign = mtg._ungrounded_kanji(text, f"{checked} {_REPORTING_WORDS} {' '.join(bot.neutral_kanji)}")
     if foreign:
         raise ValueError(f"見出しに無い漢語を使っている: {foreign}")
     return text
