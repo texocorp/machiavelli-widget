@@ -132,26 +132,38 @@ def main():
 
     ranked = rank_news(items, scoring_cfg["weights"], top_n=15,
                        exclude_keywords=scoring_cfg["exclude_keywords"])
-    target = None
-    for item in ranked:
-        h = _hash_item(item)
-        if h in seen or item.score < scoring_cfg["minimum_score"]:
+    # LLM の分析文がすべての検査を通った記事だけを掲載する。
+    # テンプレート(LLMが使えないときの代替)の文は掲載しない。
+    # 実例(2026-11-03): 交通事故の記事に、裁きをめぐる型の文と節度の箴言が組み合わさり、
+    # 「鳴子峡近くの5人けが事故…は、裁きもまた人の手によるものであり…」という筋の通らない論評が出た。
+    # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで(1件あたり CPU で数分かかるため)。
+    MAX_ARTICLES_PER_RUN = 2
+    tried = 0
+    text = item = h = None
+    for cand in ranked:
+        ch = _hash_item(cand)
+        if ch in seen or cand.score < scoring_cfg["minimum_score"]:
             continue
-        if not is_japanese(clean_news_text(item.title)):
+        if not is_japanese(clean_news_text(cand.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
-        target = (item, h)
+        if tried >= MAX_ARTICLES_PER_RUN:
+            break
+        tried += 1
+        print(f"[選出] {cand.title}(score={cand.score}, themes={cand.themes})")
+        result = montaigne_engine.generate_commentary(cand, prefer_llm=True)
+        # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
+        seen.add(ch)
+        seen_list.append(ch)
+        if montaigne_engine.LAST_ANALYSIS_SOURCE == "template":
+            print("[見送り] LLMの分析文が検査を通らなかったため、この記事は掲載しません")
+            continue
+        text, item, h = result, cand, ch
         break
-
-    if target is None:
-        print("[SKIP] 新規かつ重要度十分なニュースがありませんでした。")
-        return
-
-    item, h = target
-    print(f"[選出] {item.title}(score={item.score}, themes={item.themes})")
-    text = montaigne_engine.generate_commentary(item, prefer_llm=True)
-
-    seen_list.append(h)
     _save_json(SEEN_PATH, seen_list[-MAX_SEEN:])
+
+    if text is None:
+        print("[SKIP] 掲載できる論評がありませんでした(新規の記事が無いか、検査を通る分析文が得られなかった)。")
+        return
 
     if has_english_text(text):
         print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")

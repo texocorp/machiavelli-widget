@@ -8,10 +8,8 @@
 # --- ニュース取得元 (RSS) ---
 # 自由に追加・削除可能。取得に失敗したフィードは飛ばして続行する。
 news_sources:
-  - name: "NHK社会"
-    url: "https://www3.nhk.or.jp/rss/news/cat1.xml"
-  - name: "NHK科学・医療"
-    url: "https://www3.nhk.or.jp/rss/news/cat3.xml"
+  # NHK の RSS(www3.nhk.or.jp/rss/news/cat1.xml・cat3.xml)は 2026-08-08 を最後に更新が止まっており、
+  # 古い記事しか返さないため外した(2026-11-03)。
   - name: "Google News 国内"
     url: "https://news.google.com/rss/headlines/section/topic/NATION?hl=ja&gl=JP&ceid=JP:ja"
   - name: "Google News 科学"
@@ -158,6 +156,15 @@ exclude_keywords:
   - "警報"
   - "土砂災害"
   - "気象庁"
+  # --- 軽微な事故の速報(人の振る舞いを論じる材料に乏しく、テンプレートの空論になりやすい) ---
+  - "交通事故"
+  - "踏み間違"
+  - "衝突"
+  - "けが"
+  - "負傷"
+  - "重傷"
+  - "軽傷"
+  - "意識不明"
   # --- 死傷者数・訃報の速報 ---
   # 災害・事故・事件で亡くなった人の数や訃報に、死を論じる一節を添えると、
   # 遺族や被災者の目には死者を題材にした気取った文章にしか映らない。
