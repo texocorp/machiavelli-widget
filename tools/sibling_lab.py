@@ -22,6 +22,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import machiavelli_engine as me                         # noqa: E402
 import bacon_engine as be                               # noqa: E402
+import montaigne_engine as mtg                          # noqa: E402
+import quote_commentary as qc                           # noqa: E402
 from geopolitical_scorer import NewsItem, score_item, load_scoring_config  # noqa: E402
 
 # (ボット, 見出し, 備考)。見出しは配信されたままの形。
@@ -67,23 +69,51 @@ def build_item(bot: str, title: str) -> NewsItem:
     return item
 
 
+def live_cases(n: int) -> list:
+    """いま配信中の記事のうち、各ボットが本番で選ぶ上位 n 件(既出かどうかは問わない)。"""
+    out = []
+    if n <= 0:
+        return out
+    from news_fetcher import fetch_all
+    from geopolitical_scorer import rank_news, clean_news_text, is_japanese
+    cfg = load_scoring_config("config.yaml")
+    ranked = rank_news(fetch_all(), cfg["weights"], top_n=30, exclude_keywords=cfg["exclude_keywords"])
+    known = {t for _, t, _ in CASES}
+    picked = [it for it in ranked if it.score >= cfg["minimum_score"] and it.title not in known
+              and is_japanese(clean_news_text(it.title))][:n]
+    out += [("machiavelli", it.title, "配信中", it) for it in picked]
+    import bacon_scorer
+    import generate_bacon_feed as gb
+    bcfg = bacon_scorer.load_scoring_config(gb.CONFIG_PATH)
+    ranked = bacon_scorer.rank_news(fetch_all(gb.CONFIG_PATH), bcfg["weights"], top_n=30,
+                                    exclude_keywords=bcfg["exclude_keywords"],
+                                    discourse_keywords=bcfg["discourse_keywords"],
+                                    priority_sources=bcfg["priority_sources"], priority_bonus=bcfg["priority_bonus"])
+    picked = [it for it in ranked if it.score >= bcfg["minimum_score"] and it.title not in known
+              and is_japanese(clean_news_text(it.title))][:n]
+    out += [("bacon", it.title, "配信中", it) for it in picked]
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--shards", type=int, default=1)
+    ap.add_argument("--live", type=int, default=0)
     args = ap.parse_args()
 
     me.record_quote_usage = lambda quote_id: None  # 試験では使用履歴を残さない
     be.record_quote_usage = lambda quote_id: None
 
-    mine = [c for i, c in enumerate(CASES) if i % args.shards == args.shard]
-    print(f"[試験] 全{len(CASES)}件のうち、この分担は{len(mine)}件")
+    cases = [(b, t, n, None) for b, t, n in CASES] + live_cases(args.live)
+    mine = [c for i, c in enumerate(cases) if i % args.shards == args.shard]
+    print(f"[試験] 全{len(cases)}件のうち、この分担は{len(mine)}件")
     report = []
-    for bot, title, note in mine:
+    for bot, title, note, live_item in mine:
         print("\n" + "=" * 70)
         print(f"[記事] ({bot}) {title}")
         print(f"[備考] {note}")
-        item = build_item(bot, title)
+        item = live_item or build_item(bot, title)
         engine = me if bot == "machiavelli" else be
         started = time.time()
         try:
@@ -95,7 +125,10 @@ def main():
         print(f"[結果] {'掲載' if text else '見送り'}({secs}秒) 箴言={engine.LAST_QUOTE_ID}")
         if text:
             print("[掲載文]\n" + text.split("\n", 1)[-1])
-        report.append({"bot": bot, "title": title, "note": note, "seconds": secs, "output": text})
+        calls = mtg.LAST_TRACE.get("calls", [])
+        print(f"  [呼び出し] {len(calls)}回 " + " ".join(f"{c['step']}:{c['seconds']}s" for c in calls))
+        report.append({"bot": bot, "title": title, "note": note, "seconds": secs, "output": text,
+                       "trace": dict(qc.LAST_TRACE)})
 
     print("\n<<<LAB_REPORT_JSON")
     print(json.dumps(report, ensure_ascii=False))
