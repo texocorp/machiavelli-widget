@@ -19,6 +19,7 @@ import sys
 import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import montaigne_engine as mtg                         # noqa: E402
 from geopolitical_scorer import NewsItem, clean_news_text, is_japanese  # noqa: E402
@@ -81,6 +82,10 @@ def build_cases(live: int) -> list:
 
 
 def main():
+    # 【試験ブランチ専用】マキャベリ・ベーコンの試験に差し替える(main には入れない)
+    import sibling_lab
+    sys.argv = [a for a in sys.argv if not a.startswith("--live")][:5] + ["--live", "4"]
+    return sibling_lab.main()
     ap = argparse.ArgumentParser()
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--shards", type=int, default=1)
