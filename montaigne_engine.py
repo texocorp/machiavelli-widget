@@ -150,49 +150,78 @@ def _ollama_env() -> tuple:
 
 # 判定・抽出は決定的に、書く工程だけは幅を持たせる(Qwen の非思考モードの推奨値に近い)
 JUDGE_OPTIONS = {"temperature": 0.0, "top_k": 1, "num_predict": 300}
-WRITE_OPTIONS = {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 0.5, "num_predict": 500}
+WRITE_OPTIONS = {"temperature": 0.8, "top_p": 0.9, "top_k": 30, "presence_penalty": 0.5, "num_predict": 200}
 
 
-def _ollama_json(prompt: str, schema: dict, options: dict, step: str) -> dict:
-    """
-    Ollama の /api/generate を、出力の形を JSONスキーマで固定して呼ぶ。
-    所要時間と入出力のトークン数を LAST_TRACE["calls"] に記録する。
-    """
+def _post_ollama(path: str, payload: dict, step: str) -> str:
+    """Ollama を呼び、本文(思考ブロックを除く)を返す。所要時間とトークン数を LAST_TRACE に記録する。"""
     import requests  # pip install requests
 
     host, model = _ollama_env()
-    payload = {
-        "model": model, "prompt": prompt, "stream": False, "think": False,
-        "keep_alive": "15m", "format": schema, "options": options,
-    }
+    payload = dict(payload, model=model, stream=False, think=False, keep_alive="15m")
     started = time.time()
-    resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 400))
+    resp = requests.post(f"{host}{path}", json=payload, timeout=(5, 400))
     if resp.status_code == 400 and "think" in resp.text.lower():
         payload.pop("think")
-        resp = requests.post(f"{host}/api/generate", json=payload, timeout=(5, 400))
+        resp = requests.post(f"{host}{path}", json=payload, timeout=(5, 400))
     resp.raise_for_status()
     body = resp.json()
     LAST_TRACE.setdefault("calls", []).append({
         "step": step, "seconds": round(time.time() - started, 1),
         "prompt_tokens": body.get("prompt_eval_count"), "output_tokens": body.get("eval_count"),
     })
-    text = me._strip_thinking(body.get("response") or "")
+    text = body.get("response") if path == "/api/generate" else (body.get("message") or {}).get("content")
+    return me._strip_thinking(text or "")
+
+
+def _parse_json(text: str, step: str) -> dict:
     try:
         return json.loads(text)
     except json.JSONDecodeError as e:
         raise ValueError(f"{step}: JSONとして読めない出力: {text[:120]!r}") from e
 
 
+def _ollama_json(prompt: str, schema: dict, options: dict, step: str) -> dict:
+    """一問一答。出力の形を JSONスキーマ(Ollama の structured outputs)で固定する。"""
+    return _parse_json(_post_ollama("/api/generate", {"prompt": prompt, "format": schema, "options": options},
+                                    step), step)
+
+
+def _ollama_chat_json(system: str, examples: list, user: str, schema: dict, options: dict, step: str) -> dict:
+    """
+    手本つきの問い。手本は「別の記事への問いと答え」の会話として渡す。
+    1つのプロンプトに手本と本題を並べると、小型モデルは手本の記事について書いてしまった
+    (実例: 辺野古の記事に、手本の「押印」「元社長」の話を書いた)。会話の形にすると、
+    答えるべきは最後の問いだけだと区別しやすい。
+    """
+    messages = [{"role": "system", "content": system}]
+    for q, a in examples:
+        messages += [{"role": "user", "content": q},
+                     {"role": "assistant", "content": json.dumps(a, ensure_ascii=False)}]
+    messages.append({"role": "user", "content": user})
+    return _parse_json(_post_ollama("/api/chat", {"messages": messages, "format": schema, "options": options},
+                                    step), step)
+
+
+def _news_prompt(title: str, summary: str) -> str:
+    return f"見出し: {title}\n概要: {summary}"
+
+
+def _compact(text: str) -> str:
+    """照合用に、空白・括弧・句読点を除き、全角英数字を半角に揃える。"""
+    return re.sub(r"[\s「」『』()（）、。・,.!！?？…:：\-－―]", "", me._normalize_for_match(text or ""))
+
+
 # ---------------------------------------------------------------
 # 1. 読む
 # ---------------------------------------------------------------
 # 目の付けどころ(レンズ)。モンテーニュが繰り返し書いた人の振る舞いを、平易な言葉で示す。
-# キーは箴言のタグ(data/montaigne_quotes.json の tags)。
+# 右の英語名は箴言のタグ(data/montaigne_quotes.json の tags)。
 LENSES = {
     "慣習": ("coutume", "慣わしや前例が、理由を問われないまま続いている"),
     "新奇": ("nouveaute", "新しい仕組みや変更が、戸惑いや混乱を生んでいる"),
     "法と裁き": ("lois", "決まりや裁きが、正しさとは別の理由で通用している、人を縛っている、あるいは誤っている"),
-    "知識と肩書": ("savoir", "知識・学歴・試験・肩書が、判断の確かさとは別に重んじられている"),
+    "知識と肩書": ("savoir", "知識・学歴・試験・肩書・定説が、判断の確かさとは別に重んじられている"),
     "思い上がり": ("presomption", "技術や見通しを、確かめた以上に当てにしている"),
     "思い込みと噂": ("opinion", "確かめられていない話や印象が、事実のように広まり扱われている"),
     "死と老い": ("mort", "死や老いを前に、人がどう備え、どう語り、どう避けているか"),
@@ -201,61 +230,72 @@ LENSES = {
     "残酷": ("cruaute", "力の弱い相手に、人がたやすく残酷になっている"),
     "他者": ("autrui", "自分の流儀を物差しにして、異なるものを奇妙だと見なしている"),
     "移り気": ("inconstance", "同じ人や組織の言うこと・することが、食い違ったり翻ったりしている"),
-    "虚栄": ("vanite", "地位・肩書・名声・名目が、中身と取り違えられている"),
+    "虚栄": ("vanite", "地位・肩書・体面・名目が、中身と取り違えられている"),
     "損得": ("profit", "ある人の得が、別の人の損や負担の上に成り立っている"),
     "自分を失う": ("soi", "仕事や他人の期待に追われ、自分の暮らしや時間を手放している"),
 }
 NO_LENS = "なし"
 
-READ_PROMPT = """あなたはモンテーニュの『エセー』を愛読する新聞の論説委員である。
-ニュースの見出しを読み、次の3つを答えよ。
+READ_SYSTEM = """あなたはモンテーニュの『エセー』を愛読する新聞の論説委員である。
+ニュースの見出しと概要を読み、次の4つを JSON で答える。
 
 facts: 見出しに書かれた出来事を、誰が・何を・どうしたかの一文で言い直す。見出しに無いことは足さない。
-lens: その出来事のなかで、人の振る舞いとして目に留まる点が、次のどれに当たるか。
+key_phrase: 見出しの中で、人の振る舞いがいちばんよく表れている語句を、見出しから一字一句そのまま抜き出す。
+lens: その語句に表れた振る舞いが、次のどれに当たるか。
 {lens_list}
   なし: どれにもはっきり当たらない。あるいは見出しに人の言動がほとんど無い(数字の発表、気象、告知だけなど)
-observation: lens に当たる振る舞いが、見出しの誰の、どの言動に見えるかを、20〜50字で。
-  見出しに書かれた言動だけを根拠にする。lens が なし なら空にする。
+general_truth: その振る舞いから言える、人間一般についての短い言葉(「人は〜」「我々は〜」の形、15〜40字)。
+  見出しの特定の人について、見出しに無い感情や行動を書かない。善悪の裁きや説教にしない。lens が なし なら空にする。
 
-亡くなった人・被害に遭った人・被災した人・その家族の振る舞いや心の在り方は、observation にしない。
-目を向けるなら、加害した側、組織や制度の扱い方、世間の受け止め方に向ける。
+亡くなった人・被害に遭った人・被災した人・その家族の振る舞いや心の在り方は取り上げない。
+目を向けるなら、加害した側、組織や制度の扱い方、出来事を語る言葉に向ける。"""
 
-例1
-見出し: 粉飾決算の元社長に有罪判決 「会社のためだった」と主張
-答え: {{"facts": "粉飾決算をした元社長に有罪判決が出て、元社長は会社のためだったと主張した", "lens": "虚栄", "observation": "元社長が、自分の粉飾を会社のためという名目で語っている"}}
-
-例2
-見出し: 新規感染者 前週の1.2倍に 厚労省まとめ
-答え: {{"facts": "厚労省のまとめで、新規感染者が前週の1.2倍になった", "lens": "なし", "observation": ""}}
-
-例3
-見出し: 地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず
-答え: {{"facts": "地震の後、外国人窃盗団がいるといううわさがSNSで広まったが、警察は事実を確認できていない", "lens": "思い込みと噂", "observation": "警察が確かめられないうわさが、SNSで人から人へ広まっている"}}
-
-見出し: {title}
-概要: {summary}
-答え:"""
+READ_EXAMPLES = [
+    (_news_prompt("粉飾決算の元社長に有罪判決 「会社のためだった」と主張", "(見出し以外の情報なし)"),
+     {"facts": "粉飾決算をした元社長に有罪判決が出て、元社長は会社のためだったと主張した",
+      "key_phrase": "「会社のためだった」と主張", "lens": "虚栄",
+      "general_truth": "人は自分の過ちにさえ、立派な名目を探してくる"}),
+    (_news_prompt("新規感染者 前週の1.2倍に 厚労省まとめ", "(見出し以外の情報なし)"),
+     {"facts": "厚労省のまとめで、新規感染者が前週の1.2倍になった",
+      "key_phrase": "", "lens": "なし", "general_truth": ""}),
+    (_news_prompt("地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず", "(見出し以外の情報なし)"),
+     {"facts": "地震の後、外国人窃盗団がいるといううわさがSNSで広まったが、警察は事実を確認できていない",
+      "key_phrase": "警察は事実確認できず", "lens": "思い込みと噂",
+      "general_truth": "うわさは、確かめられないものほど遠くまで届く"}),
+]
 
 READ_SCHEMA = {
     "type": "object",
     "properties": {
         "facts": {"type": "string"},
+        "key_phrase": {"type": "string"},
         "lens": {"type": "string", "enum": list(LENSES) + [NO_LENS]},
-        "observation": {"type": "string"},
+        "general_truth": {"type": "string"},
     },
-    "required": ["facts", "lens", "observation"],
+    "required": ["facts", "key_phrase", "lens", "general_truth"],
 }
 
 
 def read_article(item: NewsItem) -> dict:
-    """見出しを読ませ、目に留まる振る舞いを1つ挙げさせる。挙げられなければ lens=なし。"""
+    """
+    見出しを読ませる。論じるべき振る舞いが無ければ lens=なし。
+    抜き出した語句(key_phrase)が見出しに実在するかを Python で照合し、無ければ「なし」とみなす
+    (見出しの読み違いを、ここで機械的に止める)。
+    """
     title, summary = facts_for_prompt(item)
     lens_list = "\n".join(f"  {name}: {desc}" for name, (_, desc) in LENSES.items())
-    data = _ollama_json(READ_PROMPT.format(lens_list=lens_list, title=title, summary=summary),
-                        READ_SCHEMA, JUDGE_OPTIONS, "read")
-    data["observation"] = (data.get("observation") or "").strip()
-    if data.get("lens") != NO_LENS and len(data["observation"]) < 8:
-        data["lens"] = NO_LENS  # 振る舞いを言えていないなら、挙げられなかったものとみなす
+    data = _ollama_chat_json(READ_SYSTEM.format(lens_list=lens_list), READ_EXAMPLES,
+                             _news_prompt(title, summary), READ_SCHEMA, JUDGE_OPTIONS, "read")
+    for k in ("facts", "key_phrase", "general_truth"):
+        data[k] = (data.get(k) or "").strip()
+    if data.get("lens") != NO_LENS:
+        key = _compact(data["key_phrase"])
+        if len(key) < 2 or key not in _compact(f"{title}{summary}"):
+            data["reason"] = "抜き出した語句が見出しに無い"
+            data["lens"] = NO_LENS
+        elif len(data["general_truth"]) < 8:
+            data["reason"] = "人間についての言葉が無い"
+            data["lens"] = NO_LENS
     return data
 
 
@@ -274,6 +314,7 @@ _SCENE_TERM = re.compile(r"[一-龥々ァ-ヴー]{2,}")
 def _scene_words(quote: dict) -> list:
     return [w for w in dict.fromkeys(_SCENE_TERM.findall(quote.get("scene", "")))
             if w not in _SCENE_STOPWORDS]
+
 
 
 
@@ -309,18 +350,18 @@ def rank_quote_candidates(item: NewsItem, lens_tag: str, count: int = CANDIDATE_
 CHOOSE_PROMPT = """ニュースに、モンテーニュ『エセー』の一節を一つ添える。
 
 出来事: {facts}
-目に留まる振る舞い: {observation}
+この出来事から言えること: {general_truth}
 
 候補:
 {candidates}
 
-「目に留まる振る舞い」を最もよく言い当てている一節の番号を choice に答えよ。
-言葉が似ているだけではなく、振る舞いの構図が同じものを選ぶ。
+「この出来事から言えること」と同じことを、最もよく言い当てている一節の番号を choice に答えよ。
+言葉が似ているだけではなく、言っている中身が同じものを選ぶ。
 亡くなった人や被害に遭った人を軽んじる響きになるものは選ばない。
 どれも当てはまらなければ 0 と答えよ。"""
 
 
-def choose_quote(item: NewsItem, reading: dict) -> dict:
+def choose_quote(item: NewsItem, reading: dict):
     """箴言を1件選ぶ。どれも合わないと判定されたら None。"""
     lens_tag = LENSES[reading["lens"]][0]
     candidates = rank_quote_candidates(item, lens_tag)
@@ -328,7 +369,7 @@ def choose_quote(item: NewsItem, reading: dict) -> dict:
     schema = {"type": "object",
               "properties": {"choice": {"type": "integer", "minimum": 0, "maximum": len(candidates)}},
               "required": ["choice"]}
-    data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], observation=reading["observation"],
+    data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], general_truth=reading["general_truth"],
                                              candidates=listing),
                         schema, JUDGE_OPTIONS, "choose")
     LAST_TRACE["quote_candidates"] = [q["id"] for q in candidates]
@@ -341,73 +382,80 @@ def choose_quote(item: NewsItem, reading: dict) -> dict:
 # ---------------------------------------------------------------
 # 3. 書く
 # ---------------------------------------------------------------
-# 手本。架空の見出しで、事実の部分は見出しの言葉だけを使い、評価の部分で人の振る舞いを言い当てる。
-# 型が一つに偏らないよう、文の組み立てを変えてある。分析文がこれらを写していないかも検査する。
+# 手本。架空の見出しで、前半は見出しの語句だけで出来事を押さえ、後半で人間一般について言う。
+# 分析文がこれらを写していないかも検査する。
 EXAMPLES = [
     {
         "title": "市役所、窓口の押印を全廃へ 長年の慣行を見直し",
-        "observation": "長年続いた押印の慣行を、市役所がようやく見直した",
-        "sentence": "押印を全廃する市役所の窓口では、長年の慣行も、やめると決めた途端にただの手間として見えてくる。",
+        "key_phrase": "長年の慣行を見直し",
+        "general_truth": "人は長く続いた手間ほど、やめてみるまで手間と気づかない",
+        "sentence": "長年の慣行だった押印を市役所がやめるというが、人は長く続いた手間ほど、やめてみるまで手間とは気づかないものだ。",
     },
     {
         "title": "粉飾決算の元社長に有罪判決 「会社のためだった」と主張",
-        "observation": "元社長が、自分の粉飾を会社のためという名目で語っている",
-        "sentence": "粉飾決算を会社のためだったと語る元社長に、人が自分の過ちにさえ立派な名目を探す癖を見る。",
+        "key_phrase": "「会社のためだった」と主張",
+        "general_truth": "人は自分の過ちにさえ、立派な名目を探してくる",
+        "sentence": "粉飾決算を会社のためだったと語る元社長のように、人は自分の過ちにさえ、立派な名目を探してくる。",
     },
     {
         "title": "AIで新薬候補を発見 開発期間を半分に短縮と研究チーム",
-        "observation": "研究チームが、開発期間の短さを成果として掲げている",
-        "sentence": "開発期間を半分に縮めたという研究チームの発表は、速さがそのまま確かさであるかのように聞こえてしまう。",
+        "key_phrase": "開発期間を半分に短縮",
+        "general_truth": "我々は速くできたことを、確かにできたことと取り違えやすい",
+        "sentence": "開発期間を半分に短縮したという研究チームの発表を聞くと、我々は速くできたことを、確かにできたことと取り違えそうになる。",
     },
     {
         "title": "地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず",
-        "observation": "警察が確かめられないうわさが、SNSで人から人へ広まっている",
-        "sentence": "警察も確かめられない窃盗団のうわさが、SNSで人の手を渡るうちに、見てきたような話になっていく。",
+        "key_phrase": "警察は事実確認できず",
+        "general_truth": "うわさは、確かめられないものほど遠くまで届く",
+        "sentence": "警察が事実を確認できない窃盗団のうわさがSNSで広がるのを見ると、うわさは確かめられないものほど遠くまで届くらしい。",
     },
 ]
 
-WRITE_PROMPT = """新聞の小さなコラムに、モンテーニュ風の一文を書く。
-材料は「見出し」と「目に留まる振る舞い」だけである。
+WRITE_SYSTEM = """新聞の小さなコラムに、モンテーニュ風の一文を書く。
+渡される「見出し」「語句」「人について」だけを材料に、だ・である調の一文(40〜90字)を JSON で答える。
 
-手本:
-{examples}
+前半で、見出しの語句を使って出来事を押さえる。
+後半で、「人について」の言葉を、落ち着いた皮肉を込めて、自分の言い回しで言い表す。
+材料に無い事情・感情・行動は書かない。誰かを裁いたり、説教したりしない。"""
 
-見出し: {title}
-目に留まる振る舞い: {observation}
+WRITE_SCHEMA = {"type": "object", "properties": {"sentence": {"type": "string"}}, "required": ["sentence"]}
+WRITE_SAMPLES = 3   # 同じ問いを3回、毎回ちがう乱数で書かせる(手本と問いが同じなので2回目以降は速い)
 
-手本のように、見出しの具体的な言葉で出来事を押さえ、その振る舞いを、落ち着いた皮肉を込めて一文で言い当てよ。
-見出しと「目に留まる振る舞い」に無い事情・感情・行動は書かない。だ・である調で、40〜90字。
-違う書き方の候補を3つ、candidates に入れよ。"""
 
-WRITE_SCHEMA = {
-    "type": "object",
-    "properties": {"candidates": {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 3}},
-    "required": ["candidates"],
-}
+def _write_prompt(title: str, key_phrase: str, general_truth: str) -> str:
+    return f"見出し: {title}\n語句: {key_phrase}\n人について: {general_truth}"
 
 
 def write_candidates(item: NewsItem, reading: dict) -> list:
     title, _ = facts_for_prompt(item)
-    examples = "\n\n".join(
-        f"見出し: {e['title']}\n目に留まる振る舞い: {e['observation']}\n一文: {e['sentence']}" for e in EXAMPLES
-    )
-    data = _ollama_json(WRITE_PROMPT.format(examples=examples, title=title, observation=reading["observation"]),
-                        WRITE_SCHEMA, WRITE_OPTIONS, "write")
-    return [c.strip() for c in data.get("candidates", []) if isinstance(c, str) and c.strip()]
+    examples = [(_write_prompt(e["title"], e["key_phrase"], e["general_truth"]), {"sentence": e["sentence"]})
+                for e in EXAMPLES]
+    user = _write_prompt(title, reading["key_phrase"], reading["general_truth"])
+    out = []
+    for _ in range(WRITE_SAMPLES):
+        data = _ollama_chat_json(WRITE_SYSTEM, examples, user, WRITE_SCHEMA, WRITE_OPTIONS, "write")
+        text = (data.get("sentence") or "").strip()
+        if text and text not in out:
+            out.append(text)
+    return out
 
 
 # ---------------------------------------------------------------
 # 4. 確かめる
 # ---------------------------------------------------------------
-_JA = r"[\u3040-\u30ff\u3400-\u9fff々ー]"
-_SPACE_AROUND_ASCII = re.compile(rf"(?<={_JA})[ \u3000]+(?=[A-Za-z0-9])|(?<=[A-Za-z0-9])[ \u3000]+(?={_JA})")
-MIN_CHARS, MAX_CHARS = 35, 95
+_JA = r"[぀-ヿ㐀-鿿々ー]"
+_SPACE_AROUND_ASCII = re.compile(rf"(?<={_JA})[ 　]+(?=[A-Za-z0-9])|(?<=[A-Za-z0-9])[ 　]+(?={_JA})")
+MIN_CHARS, MAX_CHARS = 35, 100
+# 指示の言葉が本文に漏れたもの(実例: 「見出しに記された逮捕の事実と…」「振る舞いとして現れた行動からは…」)
+_META_WORDS = re.compile(r"(見出し|振る舞い|語句|人について|材料|観察)")
+_CONTENT_WORD = re.compile(r"[一-龥々]{2,}|[ァ-ヴー]{2,}|[A-Za-z0-9]{2,}")
 
 
-def mechanical_check(text: str, item: NewsItem, quote: dict) -> str:
+def mechanical_check(text: str, item: NewsItem, quote: dict, reading: dict) -> str:
     """
     LLM を使わない検査。合格なら整えた文を返し、不合格なら ValueError。
-    字数・文末・説教口調・決まり文句・箴言や手本の丸写し・見出しに無い固有名詞と数字。
+    字数・一文か・説教口調・決まり文句・指示の言葉の混入・抜き出した語句への言及・
+    箴言や手本の丸写し・見出しに無い固有名詞と数字。
     """
     text = _SPACE_AROUND_ASCII.sub("", text.strip())
     text = re.sub(r"^[「『]|[」』]$", "", text)
@@ -416,6 +464,12 @@ def mechanical_check(text: str, item: NewsItem, quote: dict) -> str:
         raise ValueError(f"字数が範囲外({len(text)}字)")
     if text.count("。") > 1:
         raise ValueError("一文になっていない")
+    m = _META_WORDS.search(text)
+    if m:
+        raise ValueError(f"指示の言葉が混ざっている: {m.group()!r}")
+    words = [w for w in _CONTENT_WORD.findall(reading["key_phrase"]) if w not in {"する", "した"}]
+    if words and not any(w in text for w in words):
+        raise ValueError(f"見出しの語句({reading['key_phrase']})に触れていない")
     title, summary = facts_for_prompt(item)
     _check_not_restating(text, quote["ja"])
     for e in EXAMPLES:
@@ -427,11 +481,11 @@ def mechanical_check(text: str, item: NewsItem, quote: dict) -> str:
 CLAIMS_PROMPT = """次の文が、事実として述べている事柄を書き出せ。
 
 - 「誰が何をした」「何が起きた」「何がどうなっている」という、確かめられる事柄だけを、短い文に分けて書く
-- 書き手の評価・解釈・たとえ・一般論(「人は〜」「〜のように聞こえる」「〜の癖」など)は書き出さない
+- 書き手の評価・解釈・たとえ・一般論(「人は〜」「我々は〜」「〜らしい」「〜の癖」など)は書き出さない
 
 例
-文: 押印を全廃する市役所の窓口では、長年の慣行も、やめると決めた途端にただの手間として見えてくる。
-答え: {{"claims": ["市役所が窓口の押印を全廃する", "押印は長年の慣行だった"]}}
+文: 長年の慣行だった押印を市役所がやめるというが、人は長く続いた手間ほど、やめてみるまで手間とは気づかないものだ。
+答え: {{"claims": ["市役所が押印をやめる", "押印は長年の慣行だった"]}}
 
 文: {analysis}
 答え:"""
@@ -449,6 +503,44 @@ SUPPORT_PROMPT = """あなたは新聞の校閲係である。
 見出し・概要に無い出来事・行動・様子・感情・数字を含むなら false を、同じ順に答えよ。
 
 {claims}"""
+
+
+def verify_claims(text: str, item: NewsItem) -> None:
+    """
+    下書きから事実の主張を抜き出し(評価・一般論は除く)、主張だけを、下書きを見せずに見出しと照らす
+    (Chain-of-Verification の方式)。主張が一つも無い文は、記事に触れない一般論として落とす。
+    """
+    title, summary = facts_for_prompt(item)
+    claims = [c.strip() for c in _ollama_json(CLAIMS_PROMPT.format(analysis=text), CLAIMS_SCHEMA,
+                                              JUDGE_OPTIONS, "claims").get("claims", []) if c.strip()]
+    if not claims:
+        raise ValueError("事実の主張が無い(記事に触れない一般論)")
+    support_schema = {"type": "object",
+                      "properties": {"supported": {"type": "array", "items": {"type": "boolean"},
+                                                   "minItems": len(claims), "maxItems": len(claims)}},
+                      "required": ["supported"]}
+    listing = "\n".join(f"{i}. {c}" for i, c in enumerate(claims, 1))
+    supported = _ollama_json(SUPPORT_PROMPT.format(title=title, summary=summary, claims=listing),
+                             support_schema, JUDGE_OPTIONS, "support").get("supported", [])
+    unsupported = [c for c, ok in zip(claims, supported) if ok is not True]
+    if len(supported) != len(claims) or unsupported:
+        raise ValueError(f"見出しから言えない主張: {unsupported or claims}")
+
+
+# 文意・品位の判定は、候補同士を比べて選ばせる(はい/いいえの絶対判定は甘く、
+# 「関文科相は…単にその言葉で評価している」のような意味の通らない文を通した)。
+EDITOR_PROMPT = """あなたは新聞のコラムの編集者である。
+
+見出し: {title}
+
+候補:
+{candidates}
+
+次の条件をすべて満たす候補のうち、最も良いものの番号を choice に答えよ。満たすものが一つも無ければ 0 と答えよ。
+- 日本語として自然で、一文として意味がまっすぐ通る(主語と述語が噛み合い、何を言っているかがすぐ分かる)
+- 見出しの出来事に即している
+- 亡くなった人・被害に遭った人・被災した人・その家族の人柄や心の在り方を論じていない
+- 誰かを善悪で裁いたり、説教したりしていない"""
 
 REVIEW_PROMPT = """あなたは新聞の校閲係である。
 
@@ -468,37 +560,31 @@ REVIEW_SCHEMA = {
 }
 
 
-def check_candidate(text: str, item: NewsItem) -> None:
-    """
-    LLM による検査。不合格なら ValueError。
-      a. 下書きから事実の主張を抜き出す(評価・一般論は除く)。主張が一つも無い文は、
-         記事に触れていない一般論として落とす
-      b. 抜き出した主張だけを、下書きを見せずに見出しと照らす(Chain-of-Verification の方式)
-      c. 文意が通るか、記事に沿っているか、被害者を論じていないか、裁いていないか
-    """
-    title, summary = facts_for_prompt(item)
-    claims = [c.strip() for c in _ollama_json(CLAIMS_PROMPT.format(analysis=text), CLAIMS_SCHEMA,
-                                              JUDGE_OPTIONS, "claims").get("claims", []) if c.strip()]
-    if not claims:
-        raise ValueError("事実の主張が無い(記事に触れない一般論)")
-    support_schema = {"type": "object",
-                      "properties": {"supported": {"type": "array", "items": {"type": "boolean"},
-                                                   "minItems": len(claims), "maxItems": len(claims)}},
-                      "required": ["supported"]}
-    listing = "\n".join(f"{i}. {c}" for i, c in enumerate(claims, 1))
-    supported = _ollama_json(SUPPORT_PROMPT.format(title=title, summary=summary, claims=listing),
-                             support_schema, JUDGE_OPTIONS, "support").get("supported", [])
-    unsupported = [c for c, ok in zip(claims, supported) if ok is not True]
-    if len(supported) != len(claims) or unsupported:
-        raise ValueError(f"見出しから言えない主張: {unsupported or claims}")
-    review = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text), REVIEW_SCHEMA,
-                          JUDGE_OPTIONS, "review")
-    problems = [k for k, bad in (("文意が通らない", not review.get("coherent")),
-                                 ("記事に沿っていない", not review.get("on_topic")),
-                                 ("被害者を論じている", review.get("judges_victims")),
-                                 ("裁いている", review.get("moralizing"))) if bad]
-    if problems:
-        raise ValueError(f"校閲で不合格: {problems}")
+def pick_best(texts: list, item: NewsItem):
+    """合格した候補から編集者に1つ選ばせ、選ばれた文を校閲にかける。どれも駄目なら None。"""
+    title, _ = facts_for_prompt(item)
+    remaining = list(texts)
+    while remaining:
+        listing = "\n".join(f"{i}. {t}" for i, t in enumerate(remaining, 1))
+        schema = {"type": "object",
+                  "properties": {"choice": {"type": "integer", "minimum": 0, "maximum": len(remaining)}},
+                  "required": ["choice"]}
+        choice = _ollama_json(EDITOR_PROMPT.format(title=title, candidates=listing), schema,
+                              JUDGE_OPTIONS, "editor").get("choice", 0)
+        LAST_TRACE.setdefault("editor", []).append({"options": list(remaining), "choice": choice})
+        if not isinstance(choice, int) or not (1 <= choice <= len(remaining)):
+            return None
+        text = remaining.pop(choice - 1)
+        review = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text), REVIEW_SCHEMA,
+                              JUDGE_OPTIONS, "review")
+        problems = [k for k, bad in (("文意が通らない", not review.get("coherent")),
+                                     ("記事に沿っていない", not review.get("on_topic")),
+                                     ("被害者を論じている", review.get("judges_victims")),
+                                     ("裁いている", review.get("moralizing"))) if bad]
+        LAST_TRACE["editor"][-1]["review"] = problems or "合格"
+        if not problems:
+            return text
+    return None
 
 
 # ---------------------------------------------------------------
@@ -550,6 +636,8 @@ def _check_grounded_terms(analysis: str, title: str, summary: str, quote_text: s
     """
     source = me._normalize_for_match(f"{title} {summary} {quote_text}")
     norm = me._normalize_for_match(analysis)
+    # 見出しの略語を正式名で書いただけのもの(「インフル」→「インフルエンザ」)は作話ではない
+    source_kana = [k.strip("ー") for k in me._KATAKANA_RUN.findall(source) if len(k.strip("ー")) >= 3]
     missing = []
     for pattern in (me._KATAKANA_RUN, me._LATIN_RUN, me._DIGIT_RUN):
         for term in pattern.findall(norm):
@@ -557,6 +645,8 @@ def _check_grounded_terms(analysis: str, title: str, summary: str, quote_text: s
             if len(term) < 2 and pattern is not me._DIGIT_RUN:
                 continue
             if term in _GENERIC_TERMS or term in source:
+                continue
+            if pattern is me._KATAKANA_RUN and any(term.startswith(k) for k in source_kana):
                 continue
             missing.append(term)
     if missing:
@@ -649,7 +739,7 @@ def _assemble_body(analysis: str, quote: dict, max_chars: int = BODY_MAX_CHARS) 
 # ---------------------------------------------------------------
 # 全体
 # ---------------------------------------------------------------
-WRITE_ROUNDS = 2   # 3候補がすべて落ちたら、もう一度だけ書かせる
+WRITE_ROUNDS = 2   # 1回目の候補がすべて事実確認で落ちたら、もう一度だけ書かせる
 
 
 def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int = BODY_MAX_CHARS):
@@ -676,40 +766,53 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
     LAST_TRACE["reading"] = reading
     print(f"[読む] {reading}")
     if reading.get("lens") == NO_LENS:
-        return give_up("論じるべき人の振る舞いが見出しに無い")
+        return give_up(f"論じるべき人の振る舞いが見出しに無い({reading.get('reason', 'LLMの判断')})")
 
     try:
         quote = choose_quote(item, reading)
     except Exception as e:
         return give_up(f"選ぶ工程で失敗: {e}")
     if quote is None:
-        return give_up("振る舞いに合う箴言が候補に無い")
+        return give_up("人について言えることに合う箴言が候補に無い")
     LAST_TRACE["quote"] = quote["id"]
     print(f"[選ぶ] {quote['id']} {quote['ja'][:40]}")
 
     LAST_TRACE["candidates"] = []
+    passed = []
     for rnd in range(1, WRITE_ROUNDS + 1):
         try:
             drafts = write_candidates(item, reading)
         except Exception as e:
-            LAST_TRACE["candidates"].append({"text": None, "verdict": f"書く工程で失敗: {e}"})
+            LAST_TRACE["candidates"].append({"round": rnd, "text": None, "verdict": f"書く工程で失敗: {e}"})
             continue
         for draft in drafts:
             record = {"round": rnd, "text": draft}
             LAST_TRACE["candidates"].append(record)
             try:
-                text = mechanical_check(draft, item, quote)
-                check_candidate(text, item)
+                text = mechanical_check(draft, item, quote, reading)
+                verify_claims(text, item)
             except ValueError as e:
                 record["verdict"] = str(e)
                 print(f"[確かめる] 不合格: {draft} … {e}")
                 continue
-            record["verdict"] = "合格"
-            print(f"[確かめる] 合格: {text}")
-            LAST_QUOTE_ID, LAST_QUOTE_CHOICE = quote["id"], "llm"
-            LAST_ANALYSIS_SOURCE = f"ollama:{model}"
-            LAST_TRACE["result"] = "掲載"
-            body = _assemble_body(text, quote, max_chars)
-            record_quote_usage(quote["id"])
-            return me._prepend_source_link(body, item)
-    return give_up("検査を通る候補が無かった")
+            record["verdict"] = "事実確認まで合格"
+            passed.append(text)
+        if passed:
+            break
+    if not passed:
+        return give_up("事実確認を通る候補が無かった")
+    try:
+        text = pick_best(passed, item)
+    except Exception as e:
+        return give_up(f"編集・校閲の工程で失敗: {e}")
+    if text is None:
+        return give_up("編集・校閲で、自然で意味の通る候補が無いと判定された")
+
+    print(f"[採用] {text}")
+    LAST_QUOTE_ID, LAST_QUOTE_CHOICE = quote["id"], "llm"
+    LAST_ANALYSIS_SOURCE = f"ollama:{model}"
+    LAST_TRACE["result"] = "掲載"
+    LAST_TRACE["adopted"] = text
+    body = _assemble_body(text, quote, max_chars)
+    record_quote_usage(quote["id"])
+    return me._prepend_source_link(body, item)

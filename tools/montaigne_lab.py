@@ -97,6 +97,10 @@ def main():
             print(f"[箴言] {quote['id']} {quote['ja']}")
         for cand in mtg.LAST_TRACE.get("candidates", []):
             print(f"  - {cand.get('text')}\n      → {cand.get('verdict')}")
+        for ed in mtg.LAST_TRACE.get("editor", []):
+            print(f"  [編集] 候補{len(ed['options'])}件から {ed['choice']} を選択 / 校閲: {ed.get('review', '-')}")
+        calls = mtg.LAST_TRACE.get("calls", [])
+        print(f"  [呼び出し] {len(calls)}回 " + " ".join(f"{c['step']}:{c['seconds']}s" for c in calls))
         if text:
             print("[掲載文]\n" + text.split("\n", 1)[-1])
         report.append(row)
