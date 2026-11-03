@@ -4,31 +4,60 @@ name: Update Bacon Feed
 # マキャベリボット(tweet.yml)・モンテーニュボット(montaigne.yml)とは別のワークフローで、
 # 触れるファイルも別: docs/bacon/feed.json, logs/bacon_*.json
 #
-# 頻度調整はここ(cron)で行う。UTC基準なので日本時間との時差(+9時間)に注意。
-# マキャベリ側(UTC 0,3,6,...,21時の17分)のそれぞれ2時間後に実行する(1日8回)。
-# モンテーニュ側はマキャベリの1時間後なので、三つのボットが1時間おきに順に走る。
-# 日本時間では 2:17, 5:17, 8:17, 11:17, 14:17, 17:17, 20:17, 23:17。
-# 【0分を避ける理由】GitHub の定時実行は毎時0分に全利用者の予約が集中し、
+# 【起動の仕組み(2026-11-03 改訂)】
+# GitHub の定時実行は、混雑すると遅れたり取りこぼされたりする(2026-11-03 には、3つのボットとも
+# 11時半ごろから5時間以上、一度も起動しなかった)。そこで毎時17分に起動を試み、実際に生成するか
+# どうかは guard ジョブ(schedule_guard.py)が決める。
+#   ・受け持ちの時刻(UTC 2,5,8,…,23時)に、3時間おきに生成する。
+#     日本時間では 2:17, 5:17, 8:17, 11:17, 14:17, 17:17, 20:17, 23:17。
+#     マキャベリボットの2時間後(モンテーニュボットの1時間後)を受け持つ。
+#   ・受け持ちの時刻が取りこぼされたら、次の時刻に追いつき、その後は元の時刻に戻る
+#   ・見送る回は guard ジョブだけが10秒ほど動き、update-feed ジョブは「スキップ」と表示される(失敗ではない)
+#   ・手動実行(Actions タブの Run workflow)は、常に生成する
+# 間隔などの規則は schedule_guard.py で調整でき、このファイルを書き換える必要はない。
+#
+# 【17分にする理由】GitHub の定時実行は毎時0分に全利用者の予約が集中し、
 # 遅延や実行の取りこぼしが起きやすい(公式文書でも0分以外を推奨)。
-# 【注意】定時実行は「cron の行を最後に変更したユーザー」の権限で起動する。
-# cron の行を変更するコミットは、必ずこのリポジトリに書き込み権限のある texocorp 名義で行うこと。
+#
+# 【注意】定時実行は、このワークフローを最後に変更したユーザーの権限で起動する
+# (「cron の行を最後に変えた人」とする説と「ファイルを最後に変えた人」とする説がある)。
+# このファイルの変更は、行にかかわらず、必ずこのリポジトリに書き込み権限のある texocorp 名義で行うこと。
 # 2026年11月2日、作成者を Claude <noreply@anthropic.com>(GitHub 上の別アカウント claude に紐づく)
 # にしたコミットで cron を変更・作成した結果、モンテーニュ・ベーコンの定時実行は一度も起動せず、
 # マキャベリも以後止まった。エラーも通知も出ないので気づきにくい。
 on:
   schedule:
-    - cron: "17 2-23/3 * * *"
+    - cron: "17 * * * *"   # 毎時17分に起動を試みる(生成するかは guard ジョブが決める)
   workflow_dispatch: {}   # Actionsタブから手動実行も可能にする
 
 permissions:
   contents: write
+  actions: read   # guard ジョブが、このワークフローの実行履歴を読むため
 
 concurrency:
   group: update-bacon-feed
   cancel-in-progress: false
 
 jobs:
+  # 実際に生成するかを決める(10秒ほどで終わる)。手動実行なら常に「生成する」。
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.decide.outputs.run }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Decide whether to generate
+        id: decide
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 schedule_guard.py bacon
+
   update-feed:
+    needs: guard
+    if: needs.guard.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
