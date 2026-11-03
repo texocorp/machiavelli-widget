@@ -500,6 +500,22 @@ def _validate_analysis(text: str) -> str:
     return text
 
 
+# 事実照合の2問目。1問目(5つの基準をまとめて判定)は同じ9Bモデルが判定するため、
+# 見出しに無い人々の行動の書き足しを見逃すことがある。
+# 実例(2026-11-03): 見出し「熊本 各地で9日も厳しい暑さに」に対し、2回は不適合と判定したが、
+# 3回目の「住民が熱中症対策を続ける様子は」を通した。そこでこの一点だけを、
+# 分析文から行動を書き出させたうえで問い直す。
+ACTION_CHECK_PROMPT = """見出し: {title}
+概要: {summary}
+分析文: {analysis}
+
+分析文に書かれている、人や組織の行動・様子(「〜した」「〜している」「〜を続ける」など)を、
+すべて短く書き出せ。そのうえで、その中に、見出しにも概要にも書かれていないものが一つでもあるかを判定せよ。
+
+最後の行に「判定: ある」か「判定: ない」のどちらかだけを書け。
+"""
+
+
 def _verify_with_ollama(host: str, model: str, analysis: str, title: str, summary: str) -> None:
     verdict = me._ollama_generate(
         host, model,
@@ -510,6 +526,17 @@ def _verify_with_ollama(host: str, model: str, analysis: str, title: str, summar
         raise ValueError(f"事実照合で不適合と判定された: {analysis!r}")
     if "適合" not in verdict:
         print(f"[分析文] 事実照合の判定を読み取れず、通過させました: {verdict!r}")
+
+    answer = me._ollama_generate(
+        host, model,
+        ACTION_CHECK_PROMPT.format(title=title, summary=summary, analysis=analysis),
+        {"temperature": 0.0, "top_k": 1, "num_predict": 200},
+    )
+    m = re.search(r"判定\s*[:：]\s*(ある|ない)", answer)
+    if m and m.group(1) == "ある":
+        raise ValueError(f"見出しに無い行動を書き足している: {analysis!r}")
+    if not m:
+        print(f"[分析文] 行動の照合の判定を読み取れず、通過させました: {answer[-60:]!r}")
 
 
 def _check_not_restating(analysis: str, quote_text: str, run: int = 10) -> None:

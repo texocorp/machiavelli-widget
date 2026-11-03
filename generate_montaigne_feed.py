@@ -23,8 +23,14 @@ import os
 
 import montaigne_engine
 from montaigne_scorer import load_scoring_config, rank_news
-from news_fetcher import fetch_all
-from geopolitical_scorer import clean_news_text, is_japanese
+import calendar
+import re
+import time
+
+import feedparser
+import yaml
+
+from geopolitical_scorer import NewsItem, clean_news_text, is_japanese
 from generate_feed import has_english_text
 from bot import _hash_item
 
@@ -50,12 +56,76 @@ def _save_json(path: str, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+# 記事の鮮度の上限(時間)。これより古い記事は選ばない。
+# 実例(2026-11-03): NHK社会のRSSから、8月8日付の「熊本 各地で9日も厳しい暑さに」が選ばれた。
+# RSS の中に古い記事が残っていることがあるため、配信日時(無ければURL中の日付)で判定する。
+MAX_AGE_HOURS = 48
+_URL_DATE = re.compile(r"/(20\d{2})(\d{2})(\d{2})/")
+
+
+def _published_epoch(entry) -> float:
+    """
+    記事の配信日時(UNIX時刻)。RSSの日時とURL中の /YYYYMMDD/ の両方があれば、古いほうを採る
+    (RSSの日時だけが新しく付け直された古い記事も弾くため)。どちらも無ければ None。
+    """
+    stamps = []
+    for key in ("published_parsed", "updated_parsed"):
+        st = entry.get(key)
+        if st:
+            stamps.append(calendar.timegm(st))
+            break
+    m = _URL_DATE.search(entry.get("link", "") or "")
+    if m:
+        stamps.append(calendar.timegm((int(m.group(1)), int(m.group(2)), int(m.group(3)), 0, 0, 0)))
+    return min(stamps) if stamps else None
+
+
+def fetch_fresh(config_path: str, per_feed_limit: int = 15) -> list:
+    """
+    news_fetcher.fetch_all と同じ取得処理に、鮮度の判定を加えたもの。
+    フィードごとの件数と最新記事の日時をログに出し、配信が止まったフィードに気づけるようにする。
+    """
+    with open(config_path, "r", encoding="utf-8") as f:
+        sources = yaml.safe_load(f)["news_sources"]
+    now = time.time()
+    items = []
+    for src in sources:
+        try:
+            feed = feedparser.parse(src["url"])
+        except Exception as e:
+            print(f"[WARN] フィード取得失敗: {src['name']} ({e})")
+            continue
+        fresh = stale = undated = 0
+        newest = None
+        for entry in feed.entries[:per_feed_limit]:
+            title = clean_news_text(getattr(entry, "title", "").strip())
+            if not title:
+                continue
+            ts = _published_epoch(entry)
+            if ts is not None:
+                newest = max(newest or ts, ts)
+                if now - ts > MAX_AGE_HOURS * 3600:
+                    stale += 1
+                    continue
+            else:
+                undated += 1
+            fresh += 1
+            summary = clean_news_text(
+                getattr(entry, "summary", getattr(entry, "description", "")).strip()
+            )
+            items.append(NewsItem(title=title, summary=summary, source=src["name"],
+                                  url=getattr(entry, "link", "")))
+        newest_s = time.strftime("%Y-%m-%d %H:%M", time.gmtime(newest)) + "Z" if newest else "不明"
+        print(f"[フィード] {src['name']}: 採用{fresh}件 / 古い{stale}件 / 日時不明{undated}件(最新 {newest_s})")
+    return items
+
+
 def main():
     scoring_cfg = load_scoring_config(CONFIG_PATH)
     seen_list = _load_json(SEEN_PATH, [])
     seen = set(seen_list)
 
-    items = fetch_all(CONFIG_PATH)
+    items = fetch_fresh(CONFIG_PATH)
     if not items:
         print("[SKIP] ニュースを取得できませんでした。")
         return
