@@ -130,7 +130,7 @@ def main():
         print("[SKIP] ニュースを取得できませんでした。")
         return
 
-    ranked = rank_news(items, scoring_cfg["weights"], top_n=15,
+    ranked = rank_news(items, scoring_cfg["weights"], top_n=len(items),
                        exclude_keywords=scoring_cfg["exclude_keywords"])
     # 検査をすべて通った論評だけを掲載する(montaigne_engine.generate_commentary が None を返したら見送り)。
     # 「読む」工程で論じるべき振る舞いが無いと判定された記事は、1回の呼び出しで見送れるため安い。
@@ -142,12 +142,14 @@ def main():
     text = item = h = None
     for cand in ranked:
         ch = _hash_item(cand)
-        if ch in seen or cand.score < scoring_cfg["minimum_score"]:
-            continue
+        if ch in seen or cand.score < 0:
+            continue  # 既出、または除外語に当たった記事
         if not is_japanese(clean_news_text(cand.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
         if not montaigne_engine.triggered_quotes(cand):
             continue  # どの箴言の引き金の語も見出しに無い(LLMを呼ばずに飛ばす)
+        # 引き金の語が題材を選ぶので、キーワードの点数の下限は問わない
+        # (下限を課すと、引き金の語に当たる記事がほとんど残らなかった)
         if tried >= MAX_ARTICLES_PER_RUN or time.time() - started > TIME_BUDGET_SEC:
             break
         tried += 1

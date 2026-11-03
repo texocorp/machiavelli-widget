@@ -62,10 +62,16 @@ def build_cases(live: int) -> list:
         ranked = rank_news(items, cfg["weights"], top_n=len(items), exclude_keywords=cfg["exclude_keywords"])
         ranked.sort(key=lambda it: (-it.score, it.title))
         known = {c["item"].title for c in cases}
+        # 網羅率の報告: 最新記事のうち、除外されず、引き金の語に当たるものの数
+        eligible = [it for it in ranked if it.score >= 0 and is_japanese(clean_news_text(it.title))]
+        hit = [it for it in eligible if mtg.triggered_quotes(it)]
+        print(f"[網羅率] 最新記事{len(ranked)}件 / 除外されない日本語の記事{len(eligible)}件 / 引き金の語に当たる記事{len(hit)}件")
+        for it in hit:
+            print(f"  [当たり] {it.title[:50]} … {[(q['id'], h) for q, h in mtg.triggered_quotes(it)][:3]}")
         for it in ranked:
             if len([c for c in cases if c["kind"] == "live"]) >= live:
                 break
-            if it.title in known or it.score < cfg["minimum_score"] or not is_japanese(clean_news_text(it.title)):
+            if it.title in known or it.score < 0 or not is_japanese(clean_news_text(it.title)):
                 continue
             if not mtg.triggered_quotes(it):
                 continue  # 本番と同じく、引き金の語の無い記事は試さない

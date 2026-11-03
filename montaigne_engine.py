@@ -347,9 +347,15 @@ def _trigger_hits(quote: dict, text: str) -> list:
     for t in quote.get("triggers", []):
         ct = _compact(t)
         if ct.isascii():
-            if re.search(rf"(?<![A-Za-z]){re.escape(ct)}(?![A-Za-z])", text, re.IGNORECASE):
-                hits.append(t)
-        elif ct in text:
+            # 英字の語は単語単位で(「AI」が「SAIKO」に当たらないように)
+            pattern = rf"(?<![A-Za-z]){re.escape(ct)}(?![A-Za-z])"
+        elif re.fullmatch(r"[ァ-ヴー]+", ct):
+            # カタカナの語は、前後もカタカナなら別の語の一部とみなす
+            # (「サル」が「リハーサル」に、「ペット」が「ペットボトル」に当たらないように)
+            pattern = rf"(?<![ァ-ヴー]){re.escape(ct)}(?![ァ-ヴー])"
+        else:
+            pattern = re.escape(ct)
+        if re.search(pattern, text, re.IGNORECASE):
             hits.append(t)
     return hits
 
