@@ -207,6 +207,26 @@ def _ollama_chat_json(system: str, examples: list, user: str, schema: dict, opti
                                     step), step)
 
 
+# 見出しに付いた連載名・回数・媒体名の札。読ませる前に外す
+# (実例: 「［医療ルネサンス］攻めのリハビリ＜１＞」の連載名を、取り組みの名前と読み違えた)
+_TITLE_LABELS = [
+    re.compile(r"[［\[〔【][^］\]〕】]{1,20}[］\]〕】]"),          # ［医療ルネサンス］【独自】
+    re.compile(r"[＜<〈《][0-9０-９一二三四五六七八九十上中下]{1,3}[＞>〉》]"),  # ＜１＞
+    re.compile(r"[（(][^（）()]{1,25}[）)]\s*$"),               # 末尾の（CNN.co.jp）(マネーポストWEB)
+    re.compile(r"[：:][^：:]{1,15}$"),                           # 末尾の「：時事ドットコム」
+]
+
+
+def _facts(item: NewsItem) -> tuple:
+    """LLM に渡す(見出し, 概要)。facts_for_prompt の整形に加え、連載名などの札を外す。"""
+    title, summary = facts_for_prompt(item)
+    for _ in range(2):  # 「…(媒体)：媒体」のように重なっていることがある
+        for pat in _TITLE_LABELS:
+            title = pat.sub(" ", title).strip()
+    title = re.sub(r"[ \u3000]{2,}", " ", title).strip()
+    return title, summary
+
+
 def _news_prompt(title: str, summary: str) -> str:
     return f"見出し: {title}\n概要: {summary}"
 
@@ -280,7 +300,7 @@ def read_article(item: NewsItem) -> dict:
     抜き出した語句(key_phrase)が見出しに実在するかを Python で照合し、無ければ「なし」とみなす
     (見出しの読み違いを、ここで機械的に止める)。
     """
-    title, summary = facts_for_prompt(item)
+    title, summary = _facts(item)
     lens_list = "\n".join(f"  {name}: {desc}" for name, (_, desc) in LENSES.items())
     data = _ollama_chat_json(READ_SYSTEM.format(lens_list=lens_list), READ_EXAMPLES,
                              _news_prompt(title, summary), READ_SCHEMA, JUDGE_OPTIONS, "read")
@@ -288,8 +308,13 @@ def read_article(item: NewsItem) -> dict:
         data[k] = (data.get(k) or "").strip()
     if data.get("lens") != NO_LENS:
         key = _compact(data["key_phrase"])
+        foreign = _ungrounded_kana(data["facts"], f"{title} {summary}")
         if len(key) < 2 or key not in _compact(f"{title}{summary}"):
             data["reason"] = "抜き出した語句が見出しに無い"
+            data["lens"] = NO_LENS
+        elif foreign:
+            # 実例: 「ＪＰドラゴンのメンバー逮捕」を「J-POPグループのメンバーが逮捕」と読み違えた
+            data["reason"] = f"言い直しに見出しに無い語がある(読み違いの疑い): {foreign}"
             data["lens"] = NO_LENS
     return data
 
@@ -331,7 +356,7 @@ def _quote_relevance(quote: dict, lens_tag: str, themes: list, news_text: str) -
 def rank_quote_candidates(item: NewsItem, lens_tag: str, count: int = CANDIDATE_COUNT) -> list:
     """関連度の高い順に count 件(直近に使った箴言は除く)。同点は使用回数の少ない順。"""
     themes = getattr(item, "themes", None) or []
-    title, summary = facts_for_prompt(item)
+    title, summary = _facts(item)
     news_text = f"{title} {summary}"
     recent = set(load_recent_quote_ids())
     usage = load_quote_usage()
@@ -350,24 +375,29 @@ CHOOSE_PROMPT = """新聞のコラムで、ニュースの後にモンテーニ�
 候補:
 {candidates}
 
-この出来事、とくに「目に留まる語句」に表れた人の振る舞いと、言っている中身が響き合う一節の番号を choice に答えよ。
+この出来事、とくに「目に留まる語句」に表れた人の振る舞いと、言っている中身が響き合う一節を選ぶ。
+各候補の(場面)は、その一節が当てはまる場面の目安である。
+まず reason に、選ぶ一節と出来事の共通点を20〜40字で書き、次に choice にその番号を答えよ。
 言葉が似ているだけではなく、振る舞いの構図が同じものを選ぶ。
 出来事の後に続けたとき、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるものは選ばない。
-どれも当てはまらなければ 0 と答えよ。"""
+はっきり響き合うものが無ければ、reason にそう書き、choice は 0 と答えよ。"""
 
 
 def choose_quote(item: NewsItem, reading: dict):
     """箴言を1件選ぶ。どれも合わないと判定されたら None。"""
     lens_tag = LENSES[reading["lens"]][0]
     candidates = rank_quote_candidates(item, lens_tag)
-    listing = "\n".join(f"{i}. {q['ja']}" for i, q in enumerate(candidates, 1))
+    listing = "\n".join(f"{i}. {q['ja']}(場面: {q['scene']})" for i, q in enumerate(candidates, 1))
+    # 理由を先に書かせてから番号を答えさせる(JSON の項目は並べた順に生成される)
     schema = {"type": "object",
-              "properties": {"choice": {"type": "integer", "minimum": 0, "maximum": len(candidates)}},
-              "required": ["choice"]}
+              "properties": {"reason": {"type": "string"},
+                             "choice": {"type": "integer", "minimum": 0, "maximum": len(candidates)}},
+              "required": ["reason", "choice"]}
     data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], key_phrase=reading["key_phrase"],
                                              candidates=listing),
                         schema, JUDGE_OPTIONS, "choose")
     LAST_TRACE["quote_candidates"] = [q["id"] for q in candidates]
+    LAST_TRACE["quote_reason"] = data.get("reason")
     choice = data.get("choice", 0)
     if not isinstance(choice, int) or not (1 <= choice <= len(candidates)):
         return None
@@ -390,7 +420,7 @@ EXAMPLES = [
         "title": "市役所、窓口の押印を全廃へ 長年の慣行を見直し",
         "key_phrase": "長年の慣行を見直し",
         "quote_id": "I.23a",
-        "sentence": "市役所が、長年の慣行として続いてきた窓口の押印を、見直しの末に全廃するという。",
+        "sentence": "市役所が、長年の慣行として続いてきた窓口の押印を見直し、全廃するという。",
     },
     {
         "title": "粉飾決算の元社長に有罪判決 「会社のためだった」と主張",
@@ -408,7 +438,7 @@ EXAMPLES = [
         "title": "地震後に「外国人窃盗団」のうわさ SNSで拡散、警察は事実確認できず",
         "key_phrase": "警察は事実確認できず",
         "quote_id": "III.11b",
-        "sentence": "地震の後、外国人窃盗団のうわさがSNSで広まったが、警察はその事実を確認できていないという。",
+        "sentence": "地震の後、外国人窃盗団のうわさがSNSで拡散したが、警察はその事実を確認できていないという。",
     },
 ]
 
@@ -431,7 +461,7 @@ def _write_prompt(title: str, key_phrase: str, quote_ja: str) -> str:
 
 
 def write_candidates(item: NewsItem, reading: dict, quote: dict) -> list:
-    title, _ = facts_for_prompt(item)
+    title, _ = _facts(item)
     examples = [(_write_prompt(e["title"], e["key_phrase"], QUOTES_BY_ID[e["quote_id"]]["ja"]),
                  {"sentence": e["sentence"]}) for e in EXAMPLES]
     user = _write_prompt(title, reading["key_phrase"], quote["ja"])
@@ -457,6 +487,103 @@ _GENERAL_WORDS = re.compile(r"(人は|人間は|人々は|我々は|われわれ
 _CONTENT_WORD = re.compile(r"[一-龥々]{2,}|[ァ-ヴー]{2,}|[A-Za-z0-9]{2,}")
 
 
+# 見出しに無くても使ってよい漢字1字(一般的な動詞・助数詞・位置など)と漢語
+_NEUTRAL_KANJI = set("中件際後前今同側者人方上下的性化等内外間度時日年月行取入示見言語述求受出決進続始持使得伝報向呼名続")
+_NEUTRAL_WORDS = {"可能性", "発表", "報道", "事件", "一方", "今回", "場合", "以上", "以下", "対象"}
+
+
+def _ungrounded_kanji(text: str, source: str) -> list:
+    """
+    text に出てくる漢字の連なりのうち、source(見出し・概要)の語で組み立てられないものを返す。
+    見出しの部分文字列を長い順に当てはめていき、余った1字が見出しにも _NEUTRAL_KANJI にも
+    無ければ「見出しに無い漢語」とする(例: 見出しに無い「関与」)。
+    """
+    src = _compact(source)
+    missing = []
+    for run in re.findall(r"[一-龥々]+", _compact(text)):
+        if run in src or run in _NEUTRAL_WORDS:
+            continue
+        i, ok = 0, True
+        while i < len(run):
+            for size in range(len(run) - i, 1, -1):
+                if run[i:i + size] in src or run[i:i + size] in _NEUTRAL_WORDS:
+                    i += size
+                    break
+            else:
+                if run[i] in src or run[i] in _NEUTRAL_KANJI:
+                    i += 1
+                else:
+                    ok = False
+                    break
+        if not ok:
+            missing.append(run)
+    return missing
+
+
+def _ungrounded_kana(text: str, source: str) -> list:
+    """text のカタカナ語・英字のうち、source に無く、一般語でもないもの。"""
+    src = me._normalize_for_match(source)
+    src_kana = [k.strip("ー") for k in me._KATAKANA_RUN.findall(src) if len(k.strip("ー")) >= 3]
+    missing = []
+    for pattern in (me._KATAKANA_RUN, me._LATIN_RUN):
+        for term in pattern.findall(me._normalize_for_match(text)):
+            term = term.strip("ー・")
+            if len(term) < 2 or term in _GENERIC_TERMS or term in src:
+                continue
+            if pattern is me._KATAKANA_RUN and any(term.startswith(k) for k in src_kana):
+                continue
+            missing.append(term)
+    return missing
+
+
+_KANJI_DIGITS = {"〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+_KANJI_NUM_RUN = re.compile(r"[〇一二三四五六七八九十百千万億]{2,}")
+
+
+def _kanji_number(run: str):
+    """「四千六百万」→ 46000000。読めなければ None。"""
+    total, section, digit = 0, 0, None
+    for ch in run:
+        if ch in _KANJI_DIGITS:
+            if digit is not None:
+                return None
+            digit = _KANJI_DIGITS[ch]
+        elif ch in "十百千":
+            section += (digit if digit is not None else 1) * {"十": 10, "百": 100, "千": 1000}[ch]
+            digit = None
+        else:  # 万・億
+            total += (section + (digit or 0)) * (10_000 if ch == "万" else 100_000_000)
+            section, digit = 0, None
+    return total + section + (digit or 0)
+
+
+def _arabic_numbers(text: str, source: str) -> str:
+    """
+    小型モデルは見出しの算用数字を漢数字に書き換えがちである(「４６００万円」→「四千六百万円」)。
+    見出しに算用数字で書かれている数に限って、算用数字に戻す。
+    「百年に一度」のように見出しでも漢数字の言い回しは、そのまま残す。
+    """
+    src = _compact(source)
+
+    def repl(m):
+        run = m.group()
+        if run in src:
+            return run
+        value = _kanji_number(run)
+        if value is None:
+            return run
+        forms = [str(value)]
+        if value >= 100_000_000 and value % 100_000_000 == 0:
+            forms.insert(0, f"{value // 100_000_000}億")
+        elif value >= 10_000 and value % 10_000 == 0:
+            forms.insert(0, f"{value // 10_000}万")
+        for f in forms:
+            if f in src:
+                return f
+        return run
+    return _KANJI_NUM_RUN.sub(repl, text)
+
+
 def mechanical_check(text: str, item: NewsItem, quote: dict, reading: dict) -> str:
     """
     LLM を使わない検査。合格なら整えた文を返し、不合格なら ValueError。
@@ -468,6 +595,8 @@ def mechanical_check(text: str, item: NewsItem, quote: dict, reading: dict) -> s
     if re.fullmatch(r"[「『][^「『」』]*[」』]", text):
         text = text[1:-1]
     text = text.replace("「", "『").replace("」", "』")  # 直後の引用の「」と紛れないように
+    title, summary = _facts(item)
+    text = _arabic_numbers(text, f"{title} {summary}")
     text = _validate_analysis(text)
     if not (MIN_CHARS <= len(text) <= MAX_CHARS):
         raise ValueError(f"字数が範囲外({len(text)}字)")
@@ -482,11 +611,15 @@ def mechanical_check(text: str, item: NewsItem, quote: dict, reading: dict) -> s
     words = [w for w in _CONTENT_WORD.findall(reading["key_phrase"]) if w not in {"する", "した"}]
     if words and not any(w in text for w in words):
         raise ValueError(f"見出しの語句({reading['key_phrase']})に触れていない")
-    title, summary = facts_for_prompt(item)
+    title, summary = _facts(item)
     _check_not_restating(text, quote["ja"])
     for e in EXAMPLES:
         _check_not_restating(text, e["sentence"])
     _check_grounded_terms(text, title, summary, quote["ja"])
+    # 導入文は見出しの言い直しなので、漢語も見出しの語に限る(実例: 見出しに無い「関与」で誤報になった)
+    foreign = _ungrounded_kanji(text, f"{title} {summary}")
+    if foreign:
+        raise ValueError(f"見出しに無い漢語を使っている: {foreign}")
     return text
 
 
@@ -496,8 +629,8 @@ CLAIMS_PROMPT = """次の文が、事実として述べている事柄を書き�
 - 書き手の評価・解釈・たとえ・一般論(「人は〜」「我々は〜」「〜らしい」「〜の癖」など)は書き出さない
 
 例
-文: 市役所が、長年の慣行として続いてきた窓口の押印を、見直しの末に全廃するという。
-答え: {{"claims": ["市役所が窓口の押印を全廃する", "押印は長年の慣行だった", "市役所は慣行を見直した"]}}
+文: 市役所が、長年の慣行として続いてきた窓口の押印を見直し、全廃するという。
+答え: {{"claims": ["市役所が窓口の押印を見直す", "市役所が窓口の押印を全廃する", "押印は長年の慣行だった"]}}
 
 文: {analysis}
 答え:"""
@@ -522,7 +655,7 @@ def verify_claims(text: str, item: NewsItem) -> None:
     下書きから事実の主張を抜き出し(評価・一般論は除く)、主張だけを、下書きを見せずに見出しと照らす
     (Chain-of-Verification の方式)。主張が一つも無い文は、記事に触れない一般論として落とす。
     """
-    title, summary = facts_for_prompt(item)
+    title, summary = _facts(item)
     claims = [c.strip() for c in _ollama_json(CLAIMS_PROMPT.format(analysis=text), CLAIMS_SCHEMA,
                                               JUDGE_OPTIONS, "claims").get("claims", []) if c.strip()]
     if not claims:
@@ -549,7 +682,8 @@ EDITOR_PROMPT = """あなたは新聞のコラムの編集者である。ニュ�
 一節の前に置く導入の候補:
 {candidates}
 
-次の条件をすべて満たす候補のうち、一節への導入として最も良いものの番号を choice に答えよ。満たすものが一つも無ければ 0。
+次の条件をすべて満たす候補の番号を、一節への導入として良い順に ranking に並べよ。
+条件を満たさない候補は ranking に入れない。満たすものが一つも無ければ ranking は空にする。
 - 日本語として自然で、一文として意味がまっすぐ通る
 - 見出しの出来事を、見出しのとおりに正確に伝えている
 - 一節と響き合う点が、読者の目に留まる"""
@@ -573,7 +707,7 @@ REVIEW_SCHEMA = {
 
 
 def review(text: str, item: NewsItem, quote: dict) -> None:
-    title, _ = facts_for_prompt(item)
+    title, _ = _facts(item)
     r = _ollama_json(REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"]), REVIEW_SCHEMA,
                      JUDGE_OPTIONS, "review")
     problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
@@ -585,23 +719,25 @@ def review(text: str, item: NewsItem, quote: dict) -> None:
 
 def editor_order(texts: list, item: NewsItem, quote: dict) -> list:
     """
-    機械的な検査を通った候補を、編集者に良い順に選ばせる。選ばれた順に返す。
-    「満たすものが無い(0)」と答えたら、そこで打ち切る。
+    機械的な検査を通った候補を、編集者に1回で順位付けさせる。条件を満たさない候補は
+    順位に入れさせない(全部が駄目なら空)。順位の高い順に返す。
     """
-    title, _ = facts_for_prompt(item)
-    remaining, order = list(texts), []
-    while remaining:
-        listing = "\n".join(f"{i}. {t}" for i, t in enumerate(remaining, 1))
-        schema = {"type": "object",
-                  "properties": {"choice": {"type": "integer", "minimum": 0, "maximum": len(remaining)}},
-                  "required": ["choice"]}
-        choice = _ollama_json(EDITOR_PROMPT.format(title=title, quote=quote["ja"], candidates=listing),
-                              schema, JUDGE_OPTIONS, "editor").get("choice", 0)
-        LAST_TRACE.setdefault("editor", []).append({"options": list(remaining), "choice": choice})
-        if not isinstance(choice, int) or not (1 <= choice <= len(remaining)):
-            break
-        order.append(remaining.pop(choice - 1))
-        yield order[-1]
+    if not texts:
+        return []
+    title, _ = _facts(item)
+    listing = "\n".join(f"{i}. {t}" for i, t in enumerate(texts, 1))
+    schema = {"type": "object",
+              "properties": {"ranking": {"type": "array", "maxItems": len(texts),
+                                         "items": {"type": "integer", "minimum": 1, "maximum": len(texts)}}},
+              "required": ["ranking"]}
+    ranking = _ollama_json(EDITOR_PROMPT.format(title=title, quote=quote["ja"], candidates=listing),
+                           schema, JUDGE_OPTIONS, "editor").get("ranking", [])
+    order = []
+    for n in ranking:
+        if isinstance(n, int) and 1 <= n <= len(texts) and texts[n - 1] not in order:
+            order.append(texts[n - 1])
+    LAST_TRACE.setdefault("editor", []).append({"options": list(texts), "ranking": ranking})
+    return order
 
 
 # ---------------------------------------------------------------
