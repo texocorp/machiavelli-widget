@@ -10,7 +10,7 @@ on:
     inputs:
       live:
         description: "いま配信中の記事を何件試すか"
-        default: "8"
+        default: "12"
 
 permissions:
   contents: read
@@ -45,7 +45,7 @@ jobs:
       - name: Pull local model
         run: ollama pull "$OLLAMA_MODEL"
       - name: Run lab
-        run: python -u tools/montaigne_lab.py --shard ${{ matrix.shard }} --shards 4 --live ${{ github.event.inputs.live || '8' }}
+        run: python -u tools/montaigne_lab.py --shard ${{ matrix.shard }} --shards 4 --live ${{ github.event.inputs.live || '12' }}
       - name: Show Ollama log
         if: always()
         run: tail -n 20 ollama.log || true

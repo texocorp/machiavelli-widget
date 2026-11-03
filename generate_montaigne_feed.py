@@ -146,6 +146,8 @@ def main():
             continue
         if not is_japanese(clean_news_text(cand.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
+        if not montaigne_engine.triggered_quotes(cand):
+            continue  # どの箴言の引き金の語も見出しに無い(LLMを呼ばずに飛ばす)
         if tried >= MAX_ARTICLES_PER_RUN or time.time() - started > TIME_BUDGET_SEC:
             break
         tried += 1

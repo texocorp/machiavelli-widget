@@ -67,6 +67,8 @@ def build_cases(live: int) -> list:
                 break
             if it.title in known or it.score < cfg["minimum_score"] or not is_japanese(clean_news_text(it.title)):
                 continue
+            if not mtg.triggered_quotes(it):
+                continue  # 本番と同じく、引き金の語の無い記事は試さない
             known.add(it.title)
             cases.append({"item": it, "kind": "live", "note": it.source})
     return cases
@@ -76,7 +78,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--shards", type=int, default=1)
-    ap.add_argument("--live", type=int, default=8)
+    ap.add_argument("--live", type=int, default=12)
     args = ap.parse_args()
 
     mtg.record_quote_usage = lambda quote_id: None  # 試験では使用履歴を残さない
@@ -105,11 +107,11 @@ def main():
             print(f"[箴言] {quote['id']} {quote['ja']}")
         for cand in mtg.LAST_TRACE.get("candidates", []):
             print(f"  - {cand.get('text')}\n      → {cand.get('verdict')}")
+        if mtg.LAST_TRACE.get("triggered") is not None:
+            print(f"  [引き金] {mtg.LAST_TRACE['triggered'][:8]}")
         if mtg.LAST_TRACE.get("quote_candidates"):
             for qid, fit, common in mtg.LAST_TRACE["quote_candidates"]:
                 print(f"  [箴言の採点] {qid} {fit}点 … {common}")
-        for ed in mtg.LAST_TRACE.get("editor", []):
-            print(f"  [編集] 候補{len(ed.get('options', []))}件の順位 {ed.get('ranking')}")
         calls = mtg.LAST_TRACE.get("calls", [])
         print(f"  [呼び出し] {len(calls)}回 " + " ".join(f"{c['step']}:{c['seconds']}s" for c in calls))
         if text:

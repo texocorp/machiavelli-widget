@@ -17,11 +17,13 @@ montaigne_engine.py
   1. 読む       read_article()      見出しの事実を言い直し、人の振る舞いが表れた語句を
                                      見出しから抜き出す(Pythonが実在を照合)。目の付けどころ
                                      (レンズ)を選ぶ。論じるべきものが無ければ「なし」で見送る
-  2. 選ぶ       choose_quote()      Pythonが箴言の候補を8件に絞り、LLMが響き合う1件を選ぶ。
-                                     どれも合わなければ0と答えさせ、見送る
-  3. 書く       write_candidates()  一節の前に置く導入の一文を、手本(会話形式)に倣って3通り書かせる
-  4. 確かめる   mechanical_check()  字数・説教口調・一般論・指示語の混入・丸写し・見出しに無い固有名詞
-                editor_order()      候補を比べ、良い順に選ばせる(どれも駄目なら0)
+  2. 選ぶ       triggered_quotes()  見出しに「引き金の語」(箴言ごとに手で付けた語の一覧)が含まれる
+                                     箴言だけを候補にする。一つも無ければ、LLMを呼ばずに見送る
+                choose_quote()      候補を1件ずつ別の呼び出しで採点させ、2点以上の最高点を選ぶ
+  3. 書く       write_candidates()  一節の前に置く導入の一文を、手本(会話形式)に倣って3通り書かせる。
+                                     読む工程の言い直しも候補に加える
+  4. 確かめる   mechanical_check()  字数・説教口調・一般論・指示語の混入・丸写し・見出しに無い漢語や固有名詞
+                faithfulness_order() 見出しの語を多く含む(忠実な)順に並べる
                 verify_claims()     下書きの事実の主張を抜き出し、下書きを見せずに見出しと照らす
                 review()            文意が通るか、記事に沿うか、一節と続けて被害者を責める響きにならないか
 
@@ -339,32 +341,46 @@ def _scene_words(quote: dict) -> list:
 
 
 
-def _quote_relevance(quote: dict, lens_tag: str, themes: list, news_text: str) -> int:
+def _trigger_hits(quote: dict, text: str) -> list:
+    """箴言の引き金の語のうち、見出し(照合用に整えたもの)に含まれるもの。英字の語は単語単位で照合する。"""
+    hits = []
+    for t in quote.get("triggers", []):
+        ct = _compact(t)
+        if ct.isascii():
+            if re.search(rf"(?<![A-Za-z]){re.escape(ct)}(?![A-Za-z])", text, re.IGNORECASE):
+                hits.append(t)
+        elif ct in text:
+            hits.append(t)
+    return hits
+
+
+def triggered_quotes(item: NewsItem) -> list:
     """
-    LLM が挙げたレンズとの一致を最も重く見る(5点)。
-    次にキーワードで判定した記事のテーマ(主テーマ3点・2番目2点・以降1点)、
-    適用場面の語が見出しに出る数(1語2点、最大6点)。
+    見出しに引き金の語が含まれる箴言(直近に使ったものは除く)を、当たった語の多い順に返す。
+    題材の一致はこの一覧で決める(9Bのモデルは、話題が近いだけの一節に高い点を付けた。
+    実例: 詐欺グループの摘発に「裁きにおいてさえ、単なる死を越えるものは残酷」)。
     """
-    score = 5 if lens_tag in quote["tags"] else 0
-    for idx, theme in enumerate(themes):
-        if theme in quote["tags"]:
-            score += max(3 - idx, 1)
-    score += 2 * min(sum(1 for w in _scene_words(quote) if w in news_text), 3)
-    return score
+    title, summary = _facts(item)
+    text = _compact(f"{title}{summary}")
+    recent = set(load_recent_quote_ids())
+    usage = load_quote_usage()
+    found = []
+    for q in QUOTES:
+        if q["id"] in recent:
+            continue
+        hits = _trigger_hits(q, text)
+        if hits:
+            found.append((q, hits))
+    random.shuffle(found)
+    found.sort(key=lambda qh: (-len(qh[1]), usage.get(qh[0]["id"], 0)))
+    return found
 
 
 def rank_quote_candidates(item: NewsItem, lens_tag: str, count: int = CANDIDATE_COUNT) -> list:
-    """関連度の高い順に count 件(直近に使った箴言は除く)。同点は使用回数の少ない順。"""
-    themes = getattr(item, "themes", None) or []
-    title, summary = _facts(item)
-    news_text = f"{title} {summary}"
-    recent = set(load_recent_quote_ids())
-    usage = load_quote_usage()
-    pool = [q for q in QUOTES if q["id"] not in recent] or list(QUOTES)
-    scored = [(_quote_relevance(q, lens_tag, themes, news_text), q) for q in pool]
-    random.shuffle(scored)
-    scored.sort(key=lambda sq: (-sq[0], usage.get(sq[1]["id"], 0)))
-    return [q for _, q in scored[:count]]
+    """引き金の語に当たった箴言を、読む工程のレンズと一致するものを先に、count 件まで返す。"""
+    found = triggered_quotes(item)
+    found.sort(key=lambda qh: (lens_tag not in qh[0]["tags"], -len(qh[1])))
+    return [q for q, _ in found[:count]]
 
 
 # 箴言は、候補ごとに別々の呼び出しで採点させる。
@@ -385,20 +401,22 @@ FIT_PROMPT = """新聞のコラムで、ニュースの後にモンテーニュ�
      責めたり嘲ったりする響きになる
 
 一節: {quote}
-この一節が当てはまる場面: {scene}
+(この一節が当てはまる場面の目安: {scene})
 
-まず scene に、この出来事がそのまま当たる場面を、上の「当てはまる場面」から一つ選んで答えよ。
-話題が近いだけで、その場面そのものではないなら「なし」と答えよ。
-次に common に、この一節と出来事の共通点を20〜40字で書き(無ければ「無し」)、最後に fit に点数を答えよ。"""
+まず common に、この一節と出来事の共通点を20〜40字で書け(無ければ「無し」)。次に fit に点数を答えよ。"""
 
-_NO_SCENE = "なし"
+FIT_SCHEMA = {"type": "object",
+              "properties": {"common": {"type": "string"},
+                             "fit": {"type": "integer", "minimum": 0, "maximum": 3}},
+              "required": ["common", "fit"]}
 QUOTE_CANDIDATES_TO_SCORE = 6
 QUOTE_MIN_SCORE = 2  # これ未満しか無ければ、箴言が合わないとして見送る
 
 
 def choose_quote(item: NewsItem, reading: dict):
     """
-    関連度の高い候補を1件ずつ採点させ、最高点の一節を選ぶ(同点は Python の関連度順)。
+    引き金の語に当たった候補を1件ずつ採点させ、最高点の一節を選ぶ(同点は当たった語の多い順)。
+    題材の一致は引き金の語で保証されているので、ここでは構図が合うかだけを確かめる。
     「1つ選べ」と頼むと小型モデルはほとんど「どれも合わない」と答えないため、採点にして
     QUOTE_MIN_SCORE 未満しか無ければ見送る。
     """
@@ -406,23 +424,11 @@ def choose_quote(item: NewsItem, reading: dict):
     candidates = rank_quote_candidates(item, lens_tag, QUOTE_CANDIDATES_TO_SCORE)
     scored = []
     for q in candidates:
-        # 当てはまる場面は、箴言ごとに手で書いた一覧の中から選ばせる(JSONスキーマの選択肢に限る)
-        scenes = [x.strip() for x in re.split(r"[、,]", q["scene"]) if x.strip()]
-        schema = {"type": "object",
-                  "properties": {"scene": {"type": "string", "enum": scenes + [_NO_SCENE]},
-                                 "common": {"type": "string"},
-                                 "fit": {"type": "integer", "minimum": 0, "maximum": 3}},
-                  "required": ["scene", "common", "fit"]}
         data = _ollama_json(FIT_PROMPT.format(facts=reading["facts"], key_phrase=reading["key_phrase"],
-                                              quote=q["ja"], scene="、".join(scenes)),
-                            schema, JUDGE_OPTIONS, "fit")
+                                              quote=q["ja"], scene=q["scene"]),
+                            FIT_SCHEMA, JUDGE_OPTIONS, "fit")
         fit = data.get("fit") if isinstance(data.get("fit"), int) else 0
-        scene = data.get("scene", _NO_SCENE)
-        # 話題が近いだけで、手で書いた適用場面のどれにも当たらない一節は使わない
-        # (実例: 詐欺グループの摘発に「裁きにおいてさえ、単なる死を越えるものは残酷」(場面: 死刑、刑罰の在り方…)が3点)
-        if scene not in scenes:
-            fit = min(fit, 1)
-        scored.append((q, fit, f"[{scene}] {data.get('common', '')}"))
+        scored.append((q, fit, data.get("common", "")))
     LAST_TRACE["quote_candidates"] = [(q["id"], fit, common) for q, fit, common in scored]
     best = max((fit for _, fit, _ in scored), default=0)
     if best < QUOTE_MIN_SCORE:
@@ -703,21 +709,19 @@ def verify_claims(text: str, item: NewsItem) -> None:
         raise ValueError(f"見出しから言えない主張: {unsupported or claims}")
 
 
-# 文意・品位の判定は、候補同士を比べて選ばせる(はい/いいえの絶対判定は甘く、
-# 「関文科相は…単にその言葉で評価している」のような意味の通らない文を通した)。
-EDITOR_PROMPT = """あなたは新聞のコラムの編集者である。ニュースの後に、モンテーニュの一節を引く。
+# 候補の並べ方。以前は編集者役の LLM に順位を付けさせたが、9Bのモデルは文法の崩れた候補や
+# 曖昧な候補を上位にした(実例: 「…逮捕されたのは、…疑いが持ち上がっているという」)。
+# そこで、見出しの内容語をより多く含む(=見出しに忠実で、言い落としの少ない)順に並べ、
+# その順に事実確認と校閲にかける。
+def faithfulness_order(texts: list, item: NewsItem) -> list:
+    title, summary = _facts(item)
+    words = set(_CONTENT_WORD.findall(_compact(title)))
 
-見出し: {title}
-引く一節: {quote}
+    def key(t):
+        covered = sum(1 for w in words if w in _compact(t))
+        return (-covered, abs(len(t) - 55))
+    return sorted(texts, key=key)
 
-一節の前に置く導入の候補:
-{candidates}
-
-次の条件をすべて満たす候補の番号を、一節への導入として良い順に ranking に並べよ。
-条件を満たさない候補は ranking に入れない。満たすものが一つも無ければ ranking は空にする。
-- 日本語として自然で、一文として意味がまっすぐ通る
-- 見出しの出来事を、見出しのとおりに正確に伝えている
-- 一節と響き合う点が、読者の目に留まる"""
 
 REVIEW_PROMPT = """あなたは新聞の校閲係である。ニュースの導入文の後に、モンテーニュの一節を引く。
 
@@ -746,29 +750,6 @@ def review(text: str, item: NewsItem, quote: dict) -> None:
                                  ("被害者を責める響き", r.get("hurts_victims"))) if bad]
     if problems:
         raise ValueError(f"校閲で不合格: {problems}")
-
-
-def editor_order(texts: list, item: NewsItem, quote: dict) -> list:
-    """
-    機械的な検査を通った候補を、編集者に1回で順位付けさせる。条件を満たさない候補は
-    順位に入れさせない(全部が駄目なら空)。順位の高い順に返す。
-    """
-    if not texts:
-        return []
-    title, _ = _facts(item)
-    listing = "\n".join(f"{i}. {t}" for i, t in enumerate(texts, 1))
-    schema = {"type": "object",
-              "properties": {"ranking": {"type": "array", "maxItems": len(texts),
-                                         "items": {"type": "integer", "minimum": 1, "maximum": len(texts)}}},
-              "required": ["ranking"]}
-    ranking = _ollama_json(EDITOR_PROMPT.format(title=title, quote=quote["ja"], candidates=listing),
-                           schema, JUDGE_OPTIONS, "editor").get("ranking", [])
-    order = []
-    for n in ranking:
-        if isinstance(n, int) and 1 <= n <= len(texts) and texts[n - 1] not in order:
-            order.append(texts[n - 1])
-    LAST_TRACE.setdefault("editor", []).append({"options": list(texts), "ranking": ranking})
-    return order
 
 
 # ---------------------------------------------------------------
@@ -943,6 +924,9 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
 
     if not prefer_llm:
         return give_up("LLMを使わない設定")
+    LAST_TRACE["triggered"] = [(q["id"], hits) for q, hits in triggered_quotes(item)]
+    if not LAST_TRACE["triggered"]:
+        return give_up("見出しに、どの箴言の引き金の語も無い")
     try:
         reading = read_article(item)
     except Exception as e:
@@ -969,6 +953,10 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
         except Exception as e:
             LAST_TRACE["candidates"].append({"round": rnd, "text": None, "verdict": f"書く工程で失敗: {e}"})
             continue
+        if rnd == 1 and reading.get("facts"):
+            # 読む工程の言い直し(温度0で、見出しに無いことは足さないよう指示して書かせたもの)も候補に入れる
+            facts = reading["facts"].rstrip("。")
+            drafts = drafts + [facts + ("という。" if not facts.endswith(("という", "た", "る", "だ")) else "。")]
         records, clean = {}, []
         for draft in drafts:
             record = {"round": rnd, "text": draft}
@@ -978,12 +966,15 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
             except ValueError as e:
                 record["verdict"] = str(e)
                 continue
-            record["verdict"] = "機械検査は合格(編集待ち)"
+            if text in records:
+                record["verdict"] = "重複"
+                continue
+            record["verdict"] = "機械検査は合格"
             records[text] = record
             clean.append(text)
-        # 編集者が良いと選んだ順に、事実確認と校閲にかける。最初に通ったものを採る
+        # 見出しに忠実な順に、事実確認と校閲にかける。最初に通ったものを採る
         try:
-            for text in editor_order(clean, item, quote):
+            for text in faithfulness_order(clean, item):
                 try:
                     verify_claims(text, item)
                     review(text, item, quote)
@@ -996,8 +987,8 @@ def generate_commentary(item: NewsItem, prefer_llm: bool = True, max_chars: int 
         except Exception as e:
             return give_up(f"確かめる工程で失敗: {e}")
         for t in clean:
-            if records[t]["verdict"].startswith("機械検査は合格"):
-                records[t]["verdict"] = "編集で選ばれず"
+            if records[t]["verdict"] == "機械検査は合格":
+                records[t]["verdict"] = "より忠実な候補が先に合格"
         if adopted:
             break
     if adopted is None:
