@@ -1,59 +1,5 @@
 [
   {
-    "id": "c5790f3ccb8f",
-    "timestamp": "2026-11-03T01:36:08.651524+00:00",
-    "text": "http://www3.nhk.or.jp/news/html/20260808/k10015199981000.html\n死者が三十数人と増える事実を前に、人々は慣れ親しんだ日常の崩壊を恐れて避難所へと集まり、死の待ち受ける場所を選ばずいたる所でその影を受け入れる性質を見せる。\n「死がどこで我々を待ち受けているかは分からない。ならば、いたるところで待ち受けよう。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 8,
-    "source": "NHK社会",
-    "source_title": "熊本地震 死者1人増える 災害関連死の疑い1人含め 死者39人に",
-    "source_url": "http://www3.nhk.or.jp/news/html/20260808/k10015199981000.html",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "peur"
-    ],
-    "quote_id": "I.20a",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "ab552f64df03",
-    "timestamp": "2026-11-02T16:20:39.394950+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NMkNwTHpxTF9relhadldNM0Rid3NObE1KZGYwSFlaMW9PYWw2Wjc2Qnk4ZFVic1VpUk9yWjJZMk9CS2t5ZkxIOFlJa05EZGlycEY4SEFJWm9fTzNfM2NJWTluRmQtUQ?oc=5\n特殊詐欺で財を奪われた高齢者や、巨額被害を出した人々の性は、財の貧しさは癒やしやすいが、魂の貧しさは癒やしようがない。\n「財の貧しさは癒やしやすいが、魂の貧しさは癒やしようがない。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "lois",
-    "score": 12,
-    "source": "Google News 国内",
-    "source_title": "特殊詐欺グループトップの男逮捕、高齢女性４人から５６０万円盗んだ疑い…５００人が２２億円被害か - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NMkNwTHpxTF9relhadldNM0Rid3NObE1KZGYwSFlaMW9PYWw2Wjc2Qnk4ZFVic1VpUk9yWjJZMk9CS2t5ZkxIOFlJa05EZGlycEY4SEFJWm9fTzNfM2NJWTluRmQtUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "opinion",
-      "soi",
-      "peur"
-    ],
-    "quote_id": "III.10e",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "c2f63947af21",
-    "timestamp": "2026-11-02T07:36:47.819882+00:00",
-    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRXZsQzlKTXVOYXdvTW9YN18zbW5FS21rMk1Qeno4UzlYUzh6cl9nNmdvRVpsS3JjOUk3Zlc2QmkyN2VtMmRjSVFIR2pWWklJbWl1SHVaam9aY2pVV0RyelpfWnJnNEFKOVZKMjJlVWt3WmFZMWlLSmZfQzRPWE94SDZxOXNPZko4SjlFTA?oc=5\n関文科相の「ようやく」という言葉が、人は慣れ親しんだ秩序を崩れることへの恐れで正当化を遅らせる性であることを見せる。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
-    "theme": "mort",
-    "score": 10,
-    "source": "Google News 国内",
-    "source_title": "辺野古沖転覆事故 学校法人同志社の記者会見は「ようやく行われた」と関文科相 - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRXZsQzlKTXVOYXdvTW9YN18zbW5FS21rMk1Qeno4UzlYUzh6cl9nNmdvRVpsS3JjOUk3Zlc2QmkyN2VtMmRjSVFIR2pWWklJbWl1SHVaam9aY2pVV0RyelpfWnJnNEFKOVZKMjJlVWt3WmFZMWlLSmZfQzRPWE94SDZxOXNPZko4SjlFTA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "savoir",
-      "vanite"
-    ],
-    "quote_id": "I.27",
-    "quote_choice": "llm"
-  },
-  {
     "id": "870383d0513c",
     "timestamp": "2026-11-02T07:32:36.010065+00:00",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZVDBBazZ4bU43a3BPZGE1T3B4cHJZanhTTU9TVGlZTE15V0wzWHA3MWlnM1hjWGI3cFRXakN0cDZDZDE1WEJ1VWdXUDAwRWZjazQ3Vl9uRTExVWtDZE9GT0RQdDd5S3BL?oc=5\nインフル流行の長期化という事実に対する警戒と対策徹底の議論は、人間が不確実な事態を想像して行動範囲を拡張する性質を示している。\n「『強い想像は出来事を生む』と学者たちは言う。私は想像力の大きな力を感じる者の一人だ。誰もがその打撃を受けるが、なかにはそれに打ち倒される者もいる。」\n『エセー I.21「想像の力について」』",
