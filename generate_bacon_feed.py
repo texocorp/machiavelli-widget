@@ -105,7 +105,7 @@ def main():
     # 検査をすべて通った論評だけを掲載する(generate_commentary が None を返したら次の記事へ)。
     # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る。
     MAX_ARTICLES_PER_RUN = 3
-    TIME_BUDGET_SEC = 16 * 60
+    TIME_BUDGET_SEC = 13 * 60  # 1件に最大8分ほどかかる。ワークフローの上限30分(準備に約4分)に収める
     started = time.time()
     tried = 0
     text = item = h = None

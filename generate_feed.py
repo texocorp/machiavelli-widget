@@ -74,7 +74,7 @@ def main():
     # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る
     # (ワークフローの上限30分のうち、モデルの準備に数分かかるため)。
     MAX_ARTICLES_PER_RUN = 3
-    TIME_BUDGET_SEC = 16 * 60
+    TIME_BUDGET_SEC = 13 * 60  # 1件に最大8分ほどかかる。ワークフローの上限30分(準備に約4分)に収める
     started = time.time()
     tried = 0
     text = item = h = None
