@@ -1,5 +1,25 @@
 [
   {
+    "id": "2184355185ad",
+    "timestamp": "2026-11-03T01:01:22.135551+00:00",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiVlJqQ3hSNURUSU5fdFNFQkVIUjVjM0cwOU5ZY2lWRGJfVGdjUUZQNkw5bFdldEl2VmxZWmYzanA5TVNKdE5CaDRNSjBvWTdhekhYUVlKZTFkRTljQ3kwMTlfTFVuQmFuX2l2Rw?oc=5\nトランプ氏とバンス氏がイラン攻撃を否定し交渉を明言する態度は、味方の兵には戦わざるを得ぬ必要を課し敵の兵からはそれを取り除くべきであるという賢明な指揮官の論理に他ならない。\n「賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。」\n『リウィウス論 III.12』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏、中間選挙直後のイラン再攻撃は否定 バンス氏も交渉明言 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiVlJqQ3hSNURUSU5fdFNFQkVIUjVjM0cwOU5ZY2lWRGJfVGdjUUZQNkw5bFdldEl2VmxZWmYzanA5TVNKdE5CaDRNSjBvWTdhekhYUVlKZTFkRTljQ3kwMTlfTFVuQmFuX2l2Rw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "popolo_principe",
+      "economia"
+    ],
+    "quote_id": "D3.12",
+    "quote_choice": "llm"
+  },
+  {
     "id": "8d039b11947e",
     "timestamp": "2026-11-02T10:27:59.386276+00:00",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xcjZwa09IYUFBV0xVVzFqZzc5YmR0Y0l2MTFScWtYUHRlOUkxZVF3WHhscHUwSVROSGYzRGZtQTFUaURCaElrSmREaFBhZFFIUzRudUFfdDJaQVVnYXlsN0RzcXBnaG5Lay0yRXBPN2VXeVRjaXc?oc=5\n露統計局への攻撃で軍損失情報を得ようとするハッカーの行為は、突然の事態が敵を動揺させる理に合致する。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
@@ -435,15 +455,5 @@
     "source": "Google News 国際(World)",
     "source_title": "オバマ氏の影響力警戒か、トランプ氏「無能な大統領」「イラン核開発の道開いた」と猛批判 - 読売新聞",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9POHBxZlNnOXpPbE95YkxSWExlNFlOUm5IejNBUU5xVzcxZ29WenpLRWlnWFNuZjBqbDJDSktxZTRyZ1RUWmJFUVp1VU9DQjJpVnYyeDhpbHhTMWMwRnVoR3ZB?oc=5"
-  },
-  {
-    "id": "eb0dc6497897",
-    "timestamp": "2026-10-25T18:02:46.078968+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsb0tOOEphZkRiVTRSQnF6OHE2VlBXT25TYVk0S0Rpdm00bmpQUGliZGM5ellrT25rYWJ1WnJzUTg5dG5UcnhMaG91RTJGakR6VmVJVmtSM3JvUXJ3Q1JSaHVYZw?oc=5\n金正恩氏の謎めく日帰り訪中は米朝関係の複雑化を呼ぶ。\n「巷間言われるのとは違い、戦の要は金銭ではない。真に要となるのは精強な兵である。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "金正恩氏、謎を呼ぶ日帰り訪中 「対米」巡り分かれる見方 - 時事ドットコム",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsb0tOOEphZkRiVTRSQnF6OHE2VlBXT25TYVk0S0Rpdm00bmpQUGliZGM5ellrT25rYWJ1WnJzUTg5dG5UcnhMaG91RTJGakR6VmVJVmtSM3JvUXJ3Q1JSaHVYZw?oc=5"
   }
 ]
