@@ -1,5 +1,21 @@
 [
   {
+    "id": "ba93cdb5e9bc",
+    "timestamp": "2026-11-03T18:33:18.396349+00:00",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DUTNWUXFORVFGVDI0N1JrY1BGdmJZWDdhbGgyRmFFSGdYNlQ0ekFRVDlBUmluT0RhUlp4SDVWOHcxS1ppdkNCbjVEQU1WYk1hQk13Yzkxbm0xNW9LQi00cGtyZmxub0F1bkl3TXA5YXRWUVRheG5VMEcxV3dQRzA?oc=5\n生後7ヶ月の息子の赤いブツブツで医者から、1歳前なのに珍しいと衝撃的な診断を受けたという。\n「物事の大きさよりも、その目新しさのほうが、我々をその原因の探究へと駆り立てる。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
+    "theme": "cruaute",
+    "score": 0,
+    "source": "Google News 健康",
+    "source_title": "生後7ヶ月の息子に赤いブツブツ。虫刺されかと思いきや…⇒医者「1歳前なのに珍しい」まさかの診断に衝撃。 現在の様子を母に聞いた（ほ・とせなNEWS） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DUTNWUXFORVFGVDI0N1JrY1BGdmJZWDdhbGgyRmFFSGdYNlQ0ekFRVDlBUmluT0RhUlp4SDVWOHcxS1ppdkNCbjVEQU1WYk1hQk13Yzkxbm0xNW9LQi00cGtyZmxub0F1bkl3TXA5YXRWUVRheG5VMEcxV3dQRzA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute"
+    ],
+    "quote_id": "I.27b",
+    "quote_choice": "llm"
+  },
+  {
     "id": "2d42d1ab6a53",
     "timestamp": "2026-11-03T07:30:55.584573+00:00",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUm1yMW5oNXFfNEplUWpxaFE5aTRVckFaZHFiZ2xFbzJiUnU3Y08wZl9CczliMmIwNWtwaDNlTHFNNWUtbTJiN3hHVDR0TEhETVplR24yRmZ4eFBMa3dreXFUYXVVWm1UWUxvcXRfdVJveEZ6OVVRdmo1MUVfeENUNG9MM1V4TW8?oc=5\n『ダラクソンラシブ』は百年に一度の薬と絶賛されるが、日本で保険診療として承認されるためには高すぎる薬価の壁があるという。\n「医学は実例と経験によって形づくられる。私の意見もまた同じである。」\n『エセー II.37「子が父に似ることについて」』",
