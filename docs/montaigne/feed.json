@@ -1,5 +1,22 @@
 [
   {
+    "id": "c5790f3ccb8f",
+    "timestamp": "2026-11-03T01:36:08.651524+00:00",
+    "text": "http://www3.nhk.or.jp/news/html/20260808/k10015199981000.html\n死者が三十数人と増える事実を前に、人々は慣れ親しんだ日常の崩壊を恐れて避難所へと集まり、死の待ち受ける場所を選ばずいたる所でその影を受け入れる性質を見せる。\n「死がどこで我々を待ち受けているかは分からない。ならば、いたるところで待ち受けよう。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 8,
+    "source": "NHK社会",
+    "source_title": "熊本地震 死者1人増える 災害関連死の疑い1人含め 死者39人に",
+    "source_url": "http://www3.nhk.or.jp/news/html/20260808/k10015199981000.html",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "peur"
+    ],
+    "quote_id": "I.20a",
+    "quote_choice": "llm"
+  },
+  {
     "id": "ab552f64df03",
     "timestamp": "2026-11-02T16:20:39.394950+00:00",
     "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NMkNwTHpxTF9relhadldNM0Rid3NObE1KZGYwSFlaMW9PYWw2Wjc2Qnk4ZFVic1VpUk9yWjJZMk9CS2t5ZkxIOFlJa05EZGlycEY4SEFJWm9fTzNfM2NJWTluRmQtUQ?oc=5\n特殊詐欺で財を奪われた高齢者や、巨額被害を出した人々の性は、財の貧しさは癒やしやすいが、魂の貧しさは癒やしようがない。\n「財の貧しさは癒やしやすいが、魂の貧しさは癒やしようがない。」\n『エセー III.10「自分の意志を節約することについて」』",
