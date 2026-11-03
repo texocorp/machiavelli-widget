@@ -372,36 +372,43 @@ CHOOSE_PROMPT = """新聞のコラムで、ニュースの後にモンテーニ�
 出来事: {facts}
 とくに目に留まる語句: {key_phrase}
 
-候補:
+候補(場面は、その一節が当てはまる場面の目安):
 {candidates}
 
-この出来事、とくに「目に留まる語句」に表れた人の振る舞いと、言っている中身が響き合う一節を選ぶ。
-各候補の(場面)は、その一節が当てはまる場面の目安である。
-まず reason に、選ぶ一節と出来事の共通点を20〜40字で書き、次に choice にその番号を答えよ。
-言葉が似ているだけではなく、振る舞いの構図が同じものを選ぶ。
-出来事の後に続けたとき、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるものは選ばない。
-はっきり響き合うものが無ければ、reason にそう書き、choice は 0 と答えよ。"""
+それぞれの候補が、この出来事、とくに「目に留まる語句」に表れた人の振る舞いと、どれだけ響き合うかを採点せよ。
+  3: 言っている中身が、この振る舞いの構図にぴったり当てはまる
+  2: はっきり当てはまる
+  1: 言葉や話題が少し重なるだけ
+  0: 当てはまらない、または出来事の後に続けると、亡くなった人・被害に遭った人・その家族を責めたり嘲ったりする響きになる
+scores に候補の順で点数を入れ、reason に、いちばん点の高い候補と出来事の共通点を20〜40字で書け。"""
+
+QUOTE_MIN_SCORE = 2  # これ未満しか無ければ、箴言が合わないとして見送る
 
 
 def choose_quote(item: NewsItem, reading: dict):
-    """箴言を1件選ぶ。どれも合わないと判定されたら None。"""
+    """
+    候補を1件ずつ採点させ、最高点の一節を選ぶ(同点は Python の関連度順)。
+    「1つ選べ」と頼むと小型モデルはほとんど「どれも合わない」と答えないため、採点にして
+    QUOTE_MIN_SCORE 未満しか無ければ見送る。
+    """
     lens_tag = LENSES[reading["lens"]][0]
     candidates = rank_quote_candidates(item, lens_tag)
     listing = "\n".join(f"{i}. {q['ja']}(場面: {q['scene']})" for i, q in enumerate(candidates, 1))
-    # 理由を先に書かせてから番号を答えさせる(JSON の項目は並べた順に生成される)
+    n = len(candidates)
     schema = {"type": "object",
-              "properties": {"reason": {"type": "string"},
-                             "choice": {"type": "integer", "minimum": 0, "maximum": len(candidates)}},
-              "required": ["reason", "choice"]}
+              "properties": {"scores": {"type": "array", "minItems": n, "maxItems": n,
+                                        "items": {"type": "integer", "minimum": 0, "maximum": 3}},
+                             "reason": {"type": "string"}},
+              "required": ["scores", "reason"]}
     data = _ollama_json(CHOOSE_PROMPT.format(facts=reading["facts"], key_phrase=reading["key_phrase"],
                                              candidates=listing),
                         schema, JUDGE_OPTIONS, "choose")
-    LAST_TRACE["quote_candidates"] = [q["id"] for q in candidates]
+    scores = [x if isinstance(x, int) else 0 for x in data.get("scores", [])][:n]
+    LAST_TRACE["quote_candidates"] = [(q["id"], sc) for q, sc in zip(candidates, scores)]
     LAST_TRACE["quote_reason"] = data.get("reason")
-    choice = data.get("choice", 0)
-    if not isinstance(choice, int) or not (1 <= choice <= len(candidates)):
+    if not scores or max(scores) < QUOTE_MIN_SCORE:
         return None
-    return candidates[choice - 1]
+    return candidates[scores.index(max(scores))]
 
 
 # ---------------------------------------------------------------
@@ -489,19 +496,22 @@ _CONTENT_WORD = re.compile(r"[一-龥々]{2,}|[ァ-ヴー]{2,}|[A-Za-z0-9]{2,}")
 
 # 見出しに無くても使ってよい漢字1字(一般的な動詞・助数詞・位置など)と漢語
 _NEUTRAL_KANJI = set("中件際後前今同側者人方上下的性化等内外間度時日年月行取入示見言語述求受出決進続始持使得伝報向呼名続")
-_NEUTRAL_WORDS = {"可能性", "発表", "報道", "事件", "一方", "今回", "場合", "以上", "以下", "対象"}
+_NEUTRAL_WORDS = {"可能性", "発表", "報道", "事件", "一方", "今回", "場合", "以上", "以下", "対象",
+                  "問題", "発生", "子供", "子ども"}
 
 
 def _ungrounded_kanji(text: str, source: str) -> list:
     """
     text に出てくる漢字の連なりのうち、source(見出し・概要)の語で組み立てられないものを返す。
     見出しの部分文字列を長い順に当てはめていき、余った1字が見出しにも _NEUTRAL_KANJI にも
-    無ければ「見出しに無い漢語」とする(例: 見出しに無い「関与」)。
+    無ければ「見出しに無い漢語」とする(例: 見出しに無い「関与」「巨額」)。
+    漢字1字だけの連なり(「対し」「訴え」「促す」のような動詞の語幹など)は対象にしない。
+    動詞による事実の付け加えは、verify_claims(主張の抜き出しと照合)が受け持つ。
     """
     src = _compact(source)
     missing = []
     for run in re.findall(r"[一-龥々]+", _compact(text)):
-        if run in src or run in _NEUTRAL_WORDS:
+        if len(run) == 1 or run in src or run in _NEUTRAL_WORDS:
             continue
         i, ok = 0, True
         while i < len(run):

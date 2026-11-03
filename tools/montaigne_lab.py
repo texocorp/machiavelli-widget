@@ -105,8 +105,10 @@ def main():
             print(f"[箴言] {quote['id']} {quote['ja']}")
         for cand in mtg.LAST_TRACE.get("candidates", []):
             print(f"  - {cand.get('text')}\n      → {cand.get('verdict')}")
+        if mtg.LAST_TRACE.get("quote_candidates"):
+            print(f"  [箴言の採点] {mtg.LAST_TRACE['quote_candidates']} 理由: {mtg.LAST_TRACE.get('quote_reason')}")
         for ed in mtg.LAST_TRACE.get("editor", []):
-            print(f"  [編集] 候補{len(ed['options'])}件から {ed['choice']} を選択")
+            print(f"  [編集] 候補{len(ed.get('options', []))}件の順位 {ed.get('ranking')}")
         calls = mtg.LAST_TRACE.get("calls", [])
         print(f"  [呼び出し] {len(calls)}回 " + " ".join(f"{c['step']}:{c['seconds']}s" for c in calls))
         if text:
