@@ -1,5 +1,21 @@
 [
   {
+    "id": "2d42d1ab6a53",
+    "timestamp": "2026-11-03T07:30:55.584573+00:00",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUm1yMW5oNXFfNEplUWpxaFE5aTRVckFaZHFiZ2xFbzJiUnU3Y08wZl9CczliMmIwNWtwaDNlTHFNNWUtbTJiN3hHVDR0TEhETVplR24yRmZ4eFBMa3dreXFUYXVVWm1UWUxvcXRfdVJveEZ6OVVRdmo1MUVfeENUNG9MM1V4TW8?oc=5\n『ダラクソンラシブ』は百年に一度の薬と絶賛されるが、日本で保険診療として承認されるためには高すぎる薬価の壁があるという。\n「医学は実例と経験によって形づくられる。私の意見もまた同じである。」\n『エセー II.37「子が父に似ることについて」』",
+    "theme": "medecine",
+    "score": 6,
+    "source": "Google News 健康",
+    "source_title": "画期的新薬「ダラクソンラシブ」に高まる期待 「百年に一度の薬」と絶賛されるも、日本で保険診療として承認されるためには“高すぎる薬価”の壁(マネーポストWEB) - Yahoo!ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUm1yMW5oNXFfNEplUWpxaFE5aTRVckFaZHFiZ2xFbzJiUnU3Y08wZl9CczliMmIwNWtwaDNlTHFNNWUtbTJiN3hHVDR0TEhETVplR24yRmZ4eFBMa3dreXFUYXVVWm1UWUxvcXRfdVJveEZ6OVVRdmo1MUVfeENUNG9MM1V4TW8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "II.37b",
+    "quote_choice": "llm"
+  },
+  {
     "id": "870383d0513c",
     "timestamp": "2026-11-02T07:32:36.010065+00:00",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZVDBBazZ4bU43a3BPZGE1T3B4cHJZanhTTU9TVGlZTE15V0wzWHA3MWlnM1hjWGI3cFRXakN0cDZDZDE1WEJ1VWdXUDAwRWZjazQ3Vl9uRTExVWtDZE9GT0RQdDd5S3BL?oc=5\nインフル流行の長期化という事実に対する警戒と対策徹底の議論は、人間が不確実な事態を想像して行動範囲を拡張する性質を示している。\n「『強い想像は出来事を生む』と学者たちは言う。私は想像力の大きな力を感じる者の一人だ。誰もがその打撃を受けるが、なかにはそれに打ち倒される者もいる。」\n『エセー I.21「想像の力について」』",
