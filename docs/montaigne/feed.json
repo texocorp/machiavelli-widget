@@ -1,5 +1,40 @@
 [
   {
+    "id": "980e4ee3deb6",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jSXJCTUtxWjZSejZORFM1ZkNYVnk4MzVfS0xhUjBaTkxlQ0s2UlJzaTBkRGtWLXJMalFYRE9Sa19VUjlaa3RrRjB2QWc0QzJVSVhpTzBhODgtX3BvcEQtQzJfWEM?oc=5\n健診の結果から、5年から15年後の生活習慣病リスクを確率予測する分析が行われたという。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 健康",
+    "source_title": "５～１５年後の生活習慣病リスク、ＡＩで分析…健診結果から確率予測 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jSXJCTUtxWjZSejZORFM1ZkNYVnk4MzVfS0xhUjBaTkxlQ0s2UlJzaTBkRGtWLXJMalFYRE9Sa19VUjlaa3RrRjB2QWc0QzJVSVhpTzBhODgtX3BvcEQtQzJfWEM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "III.10d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T01:38:40.663896+00:00",
+    "publish_at": "2026-11-04T04:17:00+00:00",
+    "timestamp": "2026-11-04T04:17:00+00:00"
+  },
+  {
+    "id": "cc87757f5ad6",
+    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBENDhfWUppaHFiMy1MT1V4bWtGN0lKcU1sd09iX241V3Z0WWowU09jQTRyRFVHYWxIaHRGX2lsRFFCUVppT3U1ZWk3UTNnYVlTeDFsdQ?oc=5\n暖かい屋内に侵入したカメムシに対する対策や、絶対に触りたくない人が行うべき駆除方法をプロが教えるという。\n「もっともらしいことでも、絶対確実だと押しつけられると、私はそれが嫌いになる。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "nouveaute",
+    "score": 1,
+    "source": "Google News 国内",
+    "source_title": "暖かい屋内に侵入する「カメムシ」…プロが教える対策と、“絶対に触りたくない”人のための駆除方法 - Lmaga.jp",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBENDhfWUppaHFiMy1MT1V4bWtGN0lKcU1sd09iX241V3Z0WWowU09jQTRyRFVHYWxIaHRGX2lsRFFCUVppT3U1ZWk3UTNnYVlTeDFsdQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "nouveaute",
+      "peur"
+    ],
+    "quote_id": "III.11d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T01:31:47.883396+00:00",
+    "publish_at": "2026-11-04T01:31:47.883396+00:00",
+    "timestamp": "2026-11-04T01:31:47.883396+00:00"
+  },
+  {
     "id": "9d2d7612224d",
     "timestamp": "2026-11-04T00:42:33.903981+00:00",
     "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQmt0dU1SRGxHR1VJU2VmWmpZRnQ4WXl2Wlp5X3JZSDZOSFhKanVhVXFMa2hFaFprNFpBSXNac2U3TmVDMUtWSDFaeXpBdFVQbzNyX3lHbi1janJGSkpMRWxWdUQ4dw?oc=5\n選管の説明でポスターを狭くした候補がいたが、担当者はそれを公平性に支障ないと述べたという。\n「平等は、公正の第一の要素である。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
