@@ -59,7 +59,7 @@ jobs:
     needs: guard
     if: needs.guard.outputs.run == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 120
     env:
       # マキャベリボットと同じローカルLLM。変更する場合はこの1行だけを書き換える。
       OLLAMA_MODEL: "qwen3.5:9b"
