@@ -1,5 +1,24 @@
 [
   {
+    "id": "eaf4d1f1a551",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5\n研究者たちが、AIのブラックボックスに関する定説を覆すような新しい仮説を唱えているという。\n「そこから何を学ぶべきか。二つの説のどちらが正しいかに心を煩わすには及ばぬ、ということではないか。千年後に第三の説が現れて、先の二つを覆さぬと誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "savoir",
+    "score": 8,
+    "source": "Google News 科学",
+    "source_title": "AIの「ブラックボックス」は存在しない？ 定説を覆す新仮説と研究者たちの激論 - Forbes JAPAN",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "II.12f",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T21:56:30.478350+00:00",
+    "publish_at": "2026-11-04T21:56:30.478350+00:00",
+    "timestamp": "2026-11-04T21:56:30.478350+00:00"
+  },
+  {
     "id": "c882d2177326",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUGxyX0loUXFERGVfOHFPZFU2aktuNzBhU0txRzM5SXJuV3Y3R3VJZVUwVnhiQVQtX1R1dkRGUnczU3U4T2JaRnE0SmwzRFE4N05oaTRMOXozeHlVX2UwREpvRVd6VDRBXzdqc1I5ZW1qWHI3Qnc2UWpQNFhlcTQ?oc=5\n精神科医は、ぬい活を精神的な幼児化の表れと指摘し、根底には強い孤独感があると語ったという。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
     "theme": "opinion",
