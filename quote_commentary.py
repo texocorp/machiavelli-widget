@@ -60,7 +60,8 @@ _ABBREVIATIONS = {"露": "ロシア", "米": "アメリカ 米国", "英": "イ�
                   "豪": "オーストラリア", "韓": "韓国"}   # 「中」「日」「独」などは別の語(中間選挙)に紛れるので入れない
 # 事実を足さない、報道の言い直しに使う漢語(見出しに無くても認める)。事実を足す語(「検討」「計画」など)は入れない。
 # 試験(2026-11-04)では、「限定的な空爆を実施した」の「実施」のような語で、候補の半分以上が落ちていた
-_REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回"
+# 2026-11-04 追加: 主張 指摘 発表 声明(「FBIの主張をデマと述べた」の「主張」で7候補すべてが落ちた)
+_REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回 主張 指摘 発表 声明"
 
 
 _KANA_ABBREVIATIONS = {"ネット": "インターネット", "エネ": "エネルギー", "インフラ": "インフラストラクチャー", "テロ": "テロリズム",
@@ -248,6 +249,7 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     touched = lambda w: w in text or (len(w) >= 4 and w[:2] in text and w[-2:] in text)
     if words and not any(touched(w) for w in words):
         raise ValueError(f"見出しの語句({reading['key_phrase']})に触れていない")
+    _check_subject(text, f"{title} {reading.get('facts', '')}")
     mtg._check_not_restating(text, quote["ja"])
     for e in bot.examples:
         mtg._check_not_restating(text, e["sentence"])
@@ -263,6 +265,32 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     if foreign:
         raise ValueError(f"見出しに無い漢語を使っている: {foreign}")
     return text
+
+
+_SUBJECT = re.compile(r"^([^、。「」『』]{1,20}?)(?:は|が)")
+# 修飾語・並列を表す助詞。主語の語の後が見出しのどこでもこれなら、その語は行為の主体ではない
+# (「イラン主張」「与野党陣営」のように漢語が続くものは主体とみなす)
+_MODIFIER_FOLLOW = "との"
+
+
+def _check_subject(text: str, source: str) -> None:
+    """
+    導入文の主語が、見出しでは修飾語(「AとBの〜」「Aの〜」)としてしか出てこないなら、主語の取り違え。
+    実例(2026-11-04): 見出し「ロシアとウクライナの緊急警報用アプリ、核攻撃警告の偽情報配信…ハッキング被害か」に
+    「ロシアは核攻撃警告の偽情報を配信し…」と書いた(偽情報を流したのはアプリで、ハッキングの疑い)。
+    主語が見出しに無い言い直しのときは、ここでは判断しない(他の検査に任せる)。
+    """
+    m = _SUBJECT.match(text)
+    if not m:
+        return
+    subj = m.group(1).strip()
+    src = mtg._SPACE_AROUND_ASCII.sub("", source)
+    spots = [i for i in range(len(src)) if src.startswith(subj, i)]
+    if not spots:
+        return
+    ok = any(i + len(subj) >= len(src) or src[i + len(subj)] not in _MODIFIER_FOLLOW for i in spots)
+    if not ok:
+        raise ValueError(f"主語の取り違えの疑い: 「{subj}」は見出しでは修飾語としてしか出てこない")
 
 
 REVIEW_PROMPT = mtg.REVIEW_PROMPT + """

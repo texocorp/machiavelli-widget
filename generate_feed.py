@@ -83,6 +83,7 @@ def main():
     feed = [e for e in load_feed() if not has_english_text(e.get("text", ""))]
     now = datetime.datetime.now(datetime.timezone.utc)
     print(f"[ストック] 開始時: {feed_stock.summary(feed, now)}(生成に使える時間 {(deadline - started) / 60:.0f}分)")
+    story_titles = feed_stock.published_titles()
     added = 0
     for item in ranked:
         now = datetime.datetime.now(datetime.timezone.utc)
@@ -102,10 +103,15 @@ def main():
         except Exception as e:
             print(f"[SKIP] 日本語に訳せないため見送り: {item.title} ({e})")
             continue
+        if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
+            print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
+            continue
         print(f"[選出] {item.title}(score={item.score})")
         text = generate_commentary(item, prefer_llm=True)
         # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
         seen.add(h)
+        seen.add(feed_stock.story_id(item.title))
+        story_titles.append(item.title)
         save_seen(seen)
         if text is None:
             continue

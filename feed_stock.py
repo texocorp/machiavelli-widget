@@ -22,8 +22,11 @@ GitHub の定時実行は、毎時起動を試みても1日に2〜3回しか起�
 """
 
 import datetime
+import hashlib
+import json
 import os
 import re
+import unicodedata
 
 UTC = datetime.timezone.utc
 
@@ -141,3 +144,58 @@ def summary(feed: list, now: datetime.datetime) -> str:
     last = last_publish_time(feed)
     last_s = last.astimezone(datetime.timezone(datetime.timedelta(hours=9))).strftime("%m/%d %H:%M") if last else "なし"
     return f"未表示のストック{queued(feed, now)}件、最後の表示 {last_s} JST(いまから{stock_hours(feed, now):.1f}時間先)"
+
+
+# ---------------------------------------------------------------
+# 同じ記事の別配信(2026-11-04 導入)
+# ---------------------------------------------------------------
+# 同じ記事が配信元を変えて何度も届く(「…（ABEMA TIMES） - Yahoo!ニュース」「… 1枚目 - ABEMA TIMES」
+# 「…（2026年11月2日掲載） - ライブドアニュース」、「〜」と「～」の違いなど)。見出しの完全一致では見分けられず、
+# ベーコンの 2026-11-04 の回では、112分のうち約3割を同じ記事の試し直しに使い、既に載せた記事をもう一度載せた。
+# 見出しから媒体名と添え書きを除き、2文字ずつの重なり(Dice係数)で比べる。
+# 既存のフィード48件の見出しで測ると、同じ記事どうしは1.0、別の記事どうしは最大0.61だった。
+STORY_SIMILARITY = 0.8
+_TAIL_MEDIA = re.compile(r"\s+[-|]\s+[^-|]+$")
+_TAIL_PAREN = re.compile(r"[(（][^()（）]*[)）]\s*$")
+_NOTES = re.compile(r"写真・画像\s*\d+/\d+|\d+枚目|\d{4}年\d+月\d+日掲載")
+
+
+def story_key(title: str) -> str:
+    t = unicodedata.normalize("NFKC", title or "").replace("〜", "~")
+    for _ in range(2):
+        t = _TAIL_MEDIA.sub("", t).strip()
+        t = _NOTES.sub("", t).strip()
+        t = _TAIL_PAREN.sub("", t).strip()
+    return re.sub(r"[\W_]", "", t)
+
+
+def story_id(title: str) -> str:
+    """既出の一覧(seen)に入れる、記事の鍵。配信元が違っても同じ記事なら同じ値。"""
+    return "t:" + hashlib.sha1(story_key(title).encode("utf-8")).hexdigest()[:16]
+
+
+def _bigrams(s: str) -> set:
+    return {s[i:i + 2] for i in range(len(s) - 1)}
+
+
+def same_story(title: str, titles, threshold: float = STORY_SIMILARITY) -> bool:
+    a = _bigrams(story_key(title))
+    if not a:
+        return False
+    for other in titles:
+        b = _bigrams(story_key(other))
+        if b and 2 * len(a & b) / (len(a) + len(b)) >= threshold:
+            return True
+    return False
+
+
+def published_titles() -> list:
+    """3つのボットのフィードにある見出し(他のボットが載せた記事も、同じ記事を二度論評しないために見る)。"""
+    out = []
+    for _, _, path in BOTS.values():
+        try:
+            with open(os.path.join(BASE_DIR, path), encoding="utf-8") as f:
+                out += [e.get("source_title", "") for e in json.load(f) if e.get("source_title")]
+        except (OSError, ValueError):
+            pass
+    return out

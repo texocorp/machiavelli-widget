@@ -113,6 +113,7 @@ def main():
     feed = _load_json(FEED_PATH, [])
     now = datetime.datetime.now(datetime.timezone.utc)
     print(f"[ストック] 開始時: {feed_stock.summary(feed, now)}(生成に使える時間 {(deadline - started) / 60:.0f}分)")
+    story_titles = feed_stock.published_titles()
     added = 0
     for item in ranked:
         now = datetime.datetime.now(datetime.timezone.utc)
@@ -132,11 +133,18 @@ def main():
             continue  # 別の配信元から届いた同じ記事
         if not is_japanese(clean_news_text(item.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
+        if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
+            print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
+            continue
         print(f"[選出] {item.title}(score={item.score}, themes={item.themes})")
         text = bacon_engine.generate_commentary(item, prefer_llm=True)
         # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
         seen.add(h)
         seen_list.append(h)
+        sid = feed_stock.story_id(item.title)
+        seen.add(sid)
+        seen_list.append(sid)
+        story_titles.append(item.title)
         _save_json(SEEN_PATH, seen_list[-MAX_SEEN:])
         if text is None:
             continue
