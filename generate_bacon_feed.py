@@ -91,7 +91,8 @@ def main():
     sibling_hashes, sibling_titles = _sibling_records()
     own_titles = {_title_key(e.get("source_title", "")) for e in _load_json(FEED_PATH, [])}
 
-    items = fetch_all(CONFIG_PATH)
+    # ストック方式では1回の起動で1日分を作るので、各フィードから多めに読む(10件では新しい記事がすぐ尽きた)
+    items = fetch_all(CONFIG_PATH, per_feed_limit=30)
     if not items:
         print("[SKIP] ニュースを取得できませんでした。")
         return

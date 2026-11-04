@@ -331,6 +331,11 @@ def run(bot: Bot, item: NewsItem):
     for rnd in range(1, WRITE_ROUNDS + 1):
         try:
             drafts = write_candidates(bot, item, reading, quote, actor)
+            if rnd == 1 and reading.get("facts"):
+                # 読む工程の言い直し(温度0で、見出しに無いことは足さないよう指示して書かせたもの)も候補に入れる
+                # (モンテーニュと同じ。書く工程の候補が「打ち切り」を「停止」「削減」と言い換えて全部落ちた実例がある)
+                facts = reading["facts"].rstrip("。")
+                drafts = drafts + [facts + ("という。" if not facts.endswith(("という", "た", "る", "だ")) else "。")]
         except Exception as e:
             LAST_TRACE["candidates"].append({"round": rnd, "text": None, "verdict": f"書く工程で失敗: {e}"})
             continue
