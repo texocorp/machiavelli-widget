@@ -21,6 +21,7 @@ import datetime
 import json
 import os
 
+import feed_stock
 import montaigne_engine
 from montaigne_scorer import load_scoring_config, rank_news
 import calendar
@@ -132,65 +133,66 @@ def main():
 
     ranked = rank_news(items, scoring_cfg["weights"], top_n=len(items),
                        exclude_keywords=scoring_cfg["exclude_keywords"])
-    # 検査をすべて通った論評だけを掲載する(montaigne_engine.generate_commentary が None を返したら見送り)。
-    # 「読む」工程で論じるべき振る舞いが無いと判定された記事は、1回の呼び出しで見送れるため安い。
-    # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る。
-    MAX_ARTICLES_PER_RUN = 6
-    TIME_BUDGET_SEC = 18 * 60
+    # 【ストック方式】起動された回に、表示の時刻を割り当てた論評をまとめて作る(feed_stock.py)。
+    # ストックが TARGET_HOURS 先まで埋まるか、生成に使える時間が尽きるまで、記事を順に試す。
+    # 検査をすべて通った論評だけを加える(montaigne_engine.generate_commentary が None を返したら次の記事へ)。
     started = time.time()
-    tried = 0
-    text = item = h = None
-    for cand in ranked:
-        ch = _hash_item(cand)
-        if ch in seen or cand.score < 0:
+    deadline = started + feed_stock.generation_budget_sec("montaigne")
+    feed = _load_json(FEED_PATH, [])
+    now = datetime.datetime.now(datetime.timezone.utc)
+    print(f"[ストック] 開始時: {feed_stock.summary(feed, now)}(生成に使える時間 {(deadline - started) / 60:.0f}分)")
+    added = 0
+    for item in ranked:
+        now = datetime.datetime.now(datetime.timezone.utc)
+        if not feed_stock.needs_more(feed, now):
+            break
+        if deadline - time.time() < PER_ARTICLE_RESERVE_SEC:
+            print("[ストック] 生成に使える時間が尽きたので打ち切る")
+            break
+        h = _hash_item(item)
+        if h in seen or item.score < 0:
             continue  # 既出、または除外語に当たった記事
-        if not is_japanese(clean_news_text(cand.title)):
+        if not is_japanese(clean_news_text(item.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
-        if not montaigne_engine.triggered_quotes(cand):
+        if not montaigne_engine.triggered_quotes(item):
             continue  # どの箴言の引き金の語も見出しに無い(LLMを呼ばずに飛ばす)
         # 引き金の語が題材を選ぶので、キーワードの点数の下限は問わない
-        # (下限を課すと、引き金の語に当たる記事がほとんど残らなかった)
-        if tried >= MAX_ARTICLES_PER_RUN or time.time() - started > TIME_BUDGET_SEC:
-            break
-        tried += 1
-        print(f"[選出] {cand.title}(score={cand.score}, themes={cand.themes})")
-        result = montaigne_engine.generate_commentary(cand, prefer_llm=True)
+        print(f"[選出] {item.title}(score={item.score}, themes={item.themes})")
+        text = montaigne_engine.generate_commentary(item, prefer_llm=True)
         # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
-        seen.add(ch)
-        seen_list.append(ch)
-        if result is None:
+        seen.add(h)
+        seen_list.append(h)
+        _save_json(SEEN_PATH, seen_list[-MAX_SEEN:])
+        if text is None:
             continue
-        text, item, h = result, cand, ch
-        break
-    _save_json(SEEN_PATH, seen_list[-MAX_SEEN:])
+        if has_english_text(text):
+            print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")
+            continue
+        entry = {
+            "id": h[:12],
+            "text": text,
+            "theme": item.theme,
+            "score": item.score,
+            "source": item.source,
+            "source_title": item.title,
+            "source_url": item.url,
+            # 以下はウィジェットには表示されない。動作確認・品質点検用の記録
+            "generator": montaigne_engine.LAST_ANALYSIS_SOURCE,
+            "themes": item.themes,
+            "quote_id": montaigne_engine.LAST_QUOTE_ID,
+            "quote_choice": montaigne_engine.LAST_QUOTE_CHOICE,
+        }
+        feed = feed_stock.trim(feed_stock.add_entry(feed, entry, "montaigne", now), now, MAX_FEED_ITEMS)
+        _save_json(FEED_PATH, feed)  # 1件ごとに書き出す(途中で打ち切られても、それまでの分は残す)
+        added += 1
+        print(f"[OK] 表示 {feed[0]['publish_at'][:16]}Z: {item.title}\n{text}")
 
-    if text is None:
-        print("[SKIP] 掲載できる論評がありませんでした(新規の記事が無いか、検査を通る分析文が得られなかった)。")
-        return
+    now = datetime.datetime.now(datetime.timezone.utc)
+    print(f"[ストック] 終了時: {feed_stock.summary(feed, now)}。この回に加えた論評 {added}件")
 
-    if has_english_text(text):
-        print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")
-        return
 
-    entry = {
-        "id": h[:12],
-        "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "text": text,
-        "theme": item.theme,
-        "score": item.score,
-        "source": item.source,
-        "source_title": item.title,
-        "source_url": item.url,
-        # 以下はウィジェットには表示されない。動作確認・品質点検用の記録
-        "generator": montaigne_engine.LAST_ANALYSIS_SOURCE,
-        "themes": item.themes,
-        "quote_id": montaigne_engine.LAST_QUOTE_ID,
-        "quote_choice": montaigne_engine.LAST_QUOTE_CHOICE,
-    }
-    feed = _load_json(FEED_PATH, [])
-    feed.insert(0, entry)
-    _save_json(FEED_PATH, feed[:MAX_FEED_ITEMS])
-    print(f"[OK] docs/montaigne/feed.json に追加しました:\n{text}")
+# 1件の記事に掛かる時間の上限の目安。残りがこれを切ったら、新しい記事には手を付けない
+PER_ARTICLE_RESERVE_SEC = 8 * 60
 
 
 if __name__ == "__main__":

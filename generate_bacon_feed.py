@@ -27,6 +27,7 @@ import re
 import time
 
 import bacon_engine
+import feed_stock
 from bacon_scorer import load_scoring_config, rank_news
 from news_fetcher import fetch_all
 from geopolitical_scorer import clean_news_text, is_japanese, _MEDIA_SUFFIX
@@ -95,79 +96,82 @@ def main():
         print("[SKIP] ニュースを取得できませんでした。")
         return
 
-    ranked = rank_news(items, scoring_cfg["weights"], top_n=20,
+    ranked = rank_news(items, scoring_cfg["weights"], top_n=40,
                        exclude_keywords=scoring_cfg["exclude_keywords"],
                        discourse_keywords=scoring_cfg["discourse_keywords"],
                        priority_sources=scoring_cfg["priority_sources"],
                        priority_bonus=scoring_cfg["priority_bonus"])
     no_discourse = sum(1 for i in items if getattr(i, "matched_keywords", None) == ["[言説の語なし]"])
     print(f"[選別] 取得{len(items)}件のうち、言説の語を含まず外したもの {no_discourse}件")
-    # 検査をすべて通った論評だけを掲載する(generate_commentary が None を返したら次の記事へ)。
-    # 1回の実行で試す記事は MAX_ARTICLES_PER_RUN 件まで、経過時間が TIME_BUDGET_SEC を超えたら打ち切る。
-    MAX_ARTICLES_PER_RUN = 3
-    TIME_BUDGET_SEC = 13 * 60  # 1件に最大8分ほどかかる。ワークフローの上限30分(準備に約4分)に収める
-    started = time.time()
+    # 【ストック方式】起動された回に、表示の時刻を割り当てた論評をまとめて作る(feed_stock.py)。
+    # ストックが TARGET_HOURS 先まで埋まるか、生成に使える時間が尽きるまで、記事を順に試す。
     import quote_commentary
-    quote_commentary.DEADLINE = started + 20 * 60  # 1件の途中でも、ここで打ち切る(上限30分の手前)
-    tried = 0
-    text = item = h = None
-    for cand in ranked:
-        ch = _hash_item(cand)
-        key = _title_key(cand.title)
-        if ch in seen or cand.score < scoring_cfg["minimum_score"]:
+    started = time.time()
+    deadline = started + feed_stock.generation_budget_sec("bacon")
+    quote_commentary.DEADLINE = deadline  # 1件の途中でも、ここで打ち切る(ワークフローの上限の手前)
+    feed = _load_json(FEED_PATH, [])
+    now = datetime.datetime.now(datetime.timezone.utc)
+    print(f"[ストック] 開始時: {feed_stock.summary(feed, now)}(生成に使える時間 {(deadline - started) / 60:.0f}分)")
+    added = 0
+    for item in ranked:
+        now = datetime.datetime.now(datetime.timezone.utc)
+        if not feed_stock.needs_more(feed, now):
+            break
+        if deadline - time.time() < PER_ARTICLE_RESERVE_SEC:
+            print("[ストック] 生成に使える時間が尽きたので打ち切る")
+            break
+        h = _hash_item(item)
+        key = _title_key(item.title)
+        if h in seen or item.score < scoring_cfg["minimum_score"]:
             continue
-        if ch in sibling_hashes or key in sibling_titles:
-            print(f"[見送り] 他のボットが論評済み: {cand.title}")
+        if h in sibling_hashes or key in sibling_titles:
+            print(f"[見送り] 他のボットが論評済み: {item.title}")
             continue
         if key in own_titles:
             continue  # 別の配信元から届いた同じ記事
-        if not is_japanese(clean_news_text(cand.title)):
+        if not is_japanese(clean_news_text(item.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
-        if tried >= MAX_ARTICLES_PER_RUN or time.time() - started > TIME_BUDGET_SEC:
-            break
-        tried += 1
-        print(f"[選出] {cand.title}(score={cand.score}, themes={cand.themes})")
-        result = bacon_engine.generate_commentary(cand, prefer_llm=True)
+        print(f"[選出] {item.title}(score={item.score}, themes={item.themes})")
+        text = bacon_engine.generate_commentary(item, prefer_llm=True)
         # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
-        seen.add(ch)
-        seen_list.append(ch)
-        if result is None:
+        seen.add(h)
+        seen_list.append(h)
+        _save_json(SEEN_PATH, seen_list[-MAX_SEEN:])
+        if text is None:
             continue
-        text, item, h = result, cand, ch
-        break
-    _save_json(SEEN_PATH, seen_list[-MAX_SEEN:])
+        if has_english_text(text):
+            print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")
+            continue
+        quote = bacon_engine.QUOTES_BY_ID[bacon_engine.LAST_QUOTE_ID]
+        entry = {
+            "id": h[:12],
+            "text": text,
+            # 引用の原文(英語またはラテン語)。本文の字数に含めず、ウィジェットが別の行に小さく表示する
+            "original": bacon_engine.display_original(quote),
+            "original_lang": quote["lang"],
+            "theme": item.theme,
+            "score": item.score,
+            "source": item.source,
+            "source_title": item.title,
+            "source_url": item.url,
+            # 以下はウィジェットには表示されない。動作確認・品質点検用の記録
+            "generator": bacon_engine.LAST_ANALYSIS_SOURCE,
+            "themes": item.themes,
+            "quote_id": bacon_engine.LAST_QUOTE_ID,
+            "quote_choice": bacon_engine.LAST_QUOTE_CHOICE,
+        }
+        feed = feed_stock.trim(feed_stock.add_entry(feed, entry, "bacon", now), now, MAX_FEED_ITEMS)
+        _save_json(FEED_PATH, feed)  # 1件ごとに書き出す(途中で打ち切られても、それまでの分は残す)
+        own_titles.add(key)
+        added += 1
+        print(f"[OK] 表示 {feed[0]['publish_at'][:16]}Z: {item.title}\n{text}\n{entry['original']}")
 
-    if text is None:
-        print("[SKIP] 掲載できる論評がありませんでした(新規の記事が無いか、検査を通る分析文が得られなかった)。")
-        return
+    now = datetime.datetime.now(datetime.timezone.utc)
+    print(f"[ストック] 終了時: {feed_stock.summary(feed, now)}。この回に加えた論評 {added}件")
 
-    if has_english_text(text):
-        print(f"[SKIP] 本文に英語が残っているため掲載を見送りました:\n{text}")
-        return
 
-    quote = bacon_engine.QUOTES_BY_ID[bacon_engine.LAST_QUOTE_ID]
-    entry = {
-        "id": h[:12],
-        "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "text": text,
-        # 引用の原文(英語またはラテン語)。本文の字数に含めず、ウィジェットが別の行に小さく表示する
-        "original": bacon_engine.display_original(quote),
-        "original_lang": quote["lang"],
-        "theme": item.theme,
-        "score": item.score,
-        "source": item.source,
-        "source_title": item.title,
-        "source_url": item.url,
-        # 以下はウィジェットには表示されない。動作確認・品質点検用の記録
-        "generator": bacon_engine.LAST_ANALYSIS_SOURCE,
-        "themes": item.themes,
-        "quote_id": bacon_engine.LAST_QUOTE_ID,
-        "quote_choice": bacon_engine.LAST_QUOTE_CHOICE,
-    }
-    feed = _load_json(FEED_PATH, [])
-    feed.insert(0, entry)
-    _save_json(FEED_PATH, feed[:MAX_FEED_ITEMS])
-    print(f"[OK] docs/bacon/feed.json に追加しました:\n{text}\n{entry['original']}")
+# 1件の記事に掛かる時間の上限の目安。残りがこれを切ったら、新しい記事には手を付けない
+PER_ARTICLE_RESERVE_SEC = 8 * 60
 
 
 if __name__ == "__main__":
