@@ -262,11 +262,12 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
 
 
 REVIEW_PROMPT = mtg.REVIEW_PROMPT + """
-opinion: 導入文に、見出しに無い書き手の評価・推測(「〜すぎる」「〜に惑わされ」「〜を狙って」「〜の表れ」など)が入っているか"""
+opinion: 導入文に、見出しに無い書き手の評価・推測(「〜すぎる」「〜に惑わされ」「〜を狙って」「〜の表れ」など)が入っているか
+fits: 導入文の後に一節を続けて読んだとき、一節がこの出来事について筋の通ったことを言っているか(一節の話題が出来事と違う、例えば政治の一節を事故やスポーツの出来事に添えているなら false)"""
 
 REVIEW_SCHEMA = {"type": "object",
-                 "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion")},
-                 "required": ["coherent", "on_topic", "hurts_victims", "opinion"]}
+                 "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion", "fits")},
+                 "required": ["coherent", "on_topic", "hurts_victims", "opinion", "fits"]}
 
 
 def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
@@ -281,7 +282,10 @@ def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
     problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
                                  ("記事に沿っていない", not r.get("on_topic")),
                                  ("被害者を責める響き", r.get("hurts_victims")),
-                                 ("書き手の評価が混ざっている", r.get("opinion"))) if bad]
+                                 ("書き手の評価が混ざっている", r.get("opinion")),
+                                 # 選ぶ工程の採点とは別の問い方で、引用の当てはまりを確かめ直す
+                                 # (実例: 試合中の事故の記事に、採点3点の「政治の事柄においては…」)
+                                 ("引用が出来事に合わない", not r.get("fits"))) if bad]
     if problems:
         raise ValueError(f"校閲で不合格: {problems}")
 
