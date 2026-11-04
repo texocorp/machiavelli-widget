@@ -1,5 +1,22 @@
 [
   {
+    "id": "bd68368e0bf4",
+    "timestamp": "2026-11-04T00:05:42.856114+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWWVlakhwbVdKcWR1Z2dkTWZ2eU02QnJ4dG1UemtDNENpM3NxeWI5LVdsTWtkZU1NWlgzdF85YllLUF9ab1VIZ2tqclRJTklLTlhWUU5EdFpaVlpnUU9JVHg1d08?oc=5\n重要技術戦略研究所が膨大なデータを解析し、政府に政策提言を行うという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 科学",
+    "source_title": "重要技術戦略研究所、最新研究の膨大なデータをＡＩ解析…政府に政策提言へ - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWWVlakhwbVdKcWR1Z2dkTWZ2eU02QnJ4dG1UemtDNENpM3NxeWI5LVdsTWtkZU1NWlgzdF85YllLUF9ab1VIZ2tqclRJTklLTlhWUU5EdFpaVlpnUU9JVHg1d08?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "II.17d",
+    "quote_choice": "llm"
+  },
+  {
     "id": "ba93cdb5e9bc",
     "timestamp": "2026-11-03T18:33:18.396349+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DUTNWUXFORVFGVDI0N1JrY1BGdmJZWDdhbGgyRmFFSGdYNlQ0ekFRVDlBUmluT0RhUlp4SDVWOHcxS1ppdkNCbjVEQU1WYk1hQk13Yzkxbm0xNW9LQi00cGtyZmxub0F1bkl3TXA5YXRWUVRheG5VMEcxV3dQRzA?oc=5\n生後7ヶ月の息子の赤いブツブツで医者から、1歳前なのに珍しいと衝撃的な診断を受けたという。\n「物事の大きさよりも、その目新しさのほうが、我々をその原因の探究へと駆り立てる。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
