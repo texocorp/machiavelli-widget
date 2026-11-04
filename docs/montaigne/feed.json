@@ -1,5 +1,44 @@
 [
   {
+    "id": "c882d2177326",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUGxyX0loUXFERGVfOHFPZFU2aktuNzBhU0txRzM5SXJuV3Y3R3VJZVUwVnhiQVQtX1R1dkRGUnczU3U4T2JaRnE0SmwzRFE4N05oaTRMOXozeHlVX2UwREpvRVd6VDRBXzdqc1I5ZW1qWHI3Qnc2UWpQNFhlcTQ?oc=5\n精神科医は、ぬい活を精神的な幼児化の表れと指摘し、根底には強い孤独感があると語ったという。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
+    "theme": "opinion",
+    "score": 4,
+    "source": "Google News 国内",
+    "source_title": "「ぬい活」は「精神的な幼児化の表れ」 精神科医が指摘「根底に強い孤独感が」（デイリー新潮） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUGxyX0loUXFERGVfOHFPZFU2aktuNzBhU0txRzM5SXJuV3Y3R3VJZVUwVnhiQVQtX1R1dkRGUnczU3U4T2JaRnE0SmwzRFE4N05oaTRMOXozeHlVX2UwREpvRVd6VDRBXzdqc1I5ZW1qWHI3Qnc2UWpQNFhlcTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "savoir",
+      "soi"
+    ],
+    "quote_id": "I.39c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T06:38:48.827953+00:00",
+    "publish_at": "2026-11-04T10:17:00+00:00",
+    "timestamp": "2026-11-04T10:17:00+00:00"
+  },
+  {
+    "id": "5b92c59a9d48",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ESjNic2tadEtRRDJSUGo4SnNaXzRfMExJakVqeEF1dzVIcFR3aUdCX082UlZsejhZQ2NNWk1ERnhtbGcyOUNjWGQ4MkJwLXJ5dXRVdGhqTzZlQXBjcnlwalpPSDFGMzIyWWZzQm5yMXFXcGFjWllmcENQcE5icFU?oc=5\nNASAは宇宙望遠鏡の軌道上昇などで企業に情報提供を依頼し、民間の力で延命への道を歩もうとしているという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "presomption",
+    "score": 6,
+    "source": "Google News 科学",
+    "source_title": "民間の力で延命へ？ NASAがハッブル宇宙望遠鏡の軌道上昇などで企業に情報提供を依頼（sorae 宇宙へのポータルサイト） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ESjNic2tadEtRRDJSUGo4SnNaXzRfMExJakVqeEF1dzVIcFR3aUdCX082UlZsejhZQ2NNWk1ERnhtbGcyOUNjWGQ4MkJwLXJ5dXRVdGhqTzZlQXBjcnlwalpPSDFGMzIyWWZzQm5yMXFXcGFjWllmcENQcE5icFU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "profit"
+    ],
+    "quote_id": "I.20b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T06:29:42.788597+00:00",
+    "publish_at": "2026-11-04T07:17:00+00:00",
+    "timestamp": "2026-11-04T07:17:00+00:00"
+  },
+  {
     "id": "980e4ee3deb6",
     "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jSXJCTUtxWjZSejZORFM1ZkNYVnk4MzVfS0xhUjBaTkxlQ0s2UlJzaTBkRGtWLXJMalFYRE9Sa19VUjlaa3RrRjB2QWc0QzJVSVhpTzBhODgtX3BvcEQtQzJfWEM?oc=5\n健診の結果から、5年から15年後の生活習慣病リスクを確率予測する分析が行われたという。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
     "theme": "inconstance",
