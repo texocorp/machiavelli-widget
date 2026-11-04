@@ -1,5 +1,24 @@
 [
   {
+    "id": "9d2d7612224d",
+    "timestamp": "2026-11-04T00:42:33.903981+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQmt0dU1SRGxHR1VJU2VmWmpZRnQ4WXl2Wlp5X3JZSDZOSFhKanVhVXFMa2hFaFprNFpBSXNac2U3TmVDMUtWSDFaeXpBdFVQbzNyX3lHbi1janJGSkpMRWxWdUQ4dw?oc=5\n選管の説明でポスターを狭くした候補がいたが、担当者はそれを公平性に支障ないと述べたという。\n「平等は、公正の第一の要素である。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 5,
+    "source": "Google News 国内",
+    "source_title": "市長選ポスター「選管の説明」に従い１０ｃｍ幅が狭い候補が３人…担当者「一律に説明、公平性に支障ない」 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQmt0dU1SRGxHR1VJU2VmWmpZRnQ4WXl2Wlp5X3JZSDZOSFhKanVhVXFMa2hFaFprNFpBSXNac2U3TmVDMUtWSDFaeXpBdFVQbzNyX3lHbi1janJGSkpMRWxWdUQ4dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "vanite",
+      "coutume",
+      "soi"
+    ],
+    "quote_id": "I.20g",
+    "quote_choice": "llm"
+  },
+  {
     "id": "bd68368e0bf4",
     "timestamp": "2026-11-04T00:05:42.856114+00:00",
     "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWWVlakhwbVdKcWR1Z2dkTWZ2eU02QnJ4dG1UemtDNENpM3NxeWI5LVdsTWtkZU1NWlgzdF85YllLUF9ab1VIZ2tqclRJTklLTlhWUU5EdFpaVlpnUU9JVHg1d08?oc=5\n重要技術戦略研究所が膨大なデータを解析し、政府に政策提言を行うという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
