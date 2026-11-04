@@ -1,5 +1,27 @@
 [
   {
+    "id": "8178eb395380",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RZTJoRjBYZFRvUXRXc2dSdDJHQXE5UEdYQVNpVzczRVV1b0FOSHFSSzF0UmxHY0szNHVjY1lmS05LVUd3dEJMT3pJbzhYRzM0YVdMcjFLZkQ1WF8yVS1HRXg2dWtBRG9SUnFnaQ?oc=5\nトランプ氏はイスラエル支援を打ち切り、民主候補から批判される事態となったという。\n「真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。」\n『リウィウス論 II.30』",
+    "theme": "alleanze_dipendenza",
+    "score": 6,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏、イスラエル支援を打ち切り 中間選挙で民主候補から批判 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RZTJoRjBYZFRvUXRXc2dSdDJHQXE5UEdYQVNpVzczRVV1b0FOSHFSSzF0UmxHY0szNHVjY1lmS05LVUd3dEJMT3pJbzhYRzM0YVdMcjFLZkQ1WF8yVS1HRXg2dWtBRG9SUnFnaQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "popolo_principe",
+      "economia"
+    ],
+    "quote_id": "D2.30",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T02:38:47.555559+00:00",
+    "publish_at": "2026-11-04T02:38:47.555559+00:00",
+    "timestamp": "2026-11-04T02:38:47.555559+00:00"
+  },
+  {
     "id": "c2f914c5dac7",
     "timestamp": "2026-11-03T08:10:40.678306+00:00",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84WWRyZEhLVm9nUXVSeW1tenZNckdVTzRLVThlaldXV1RTUWx0dGQwOU9ISkd4TVdjamJ1cHg3MWVKNTJfS3R2TmZJSnVfNGFEU3hORDk5a2RNQXVjbkI0eUppS1V1b3hDNjBNWUpza3pNWU14WlBWSV93?oc=5\n米軍が中間選挙前日に限定的空爆でイラン島を攻撃したことは、慎重さよりも果断な力の行使で運命に打ち勝つマキャベリの理だ。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
