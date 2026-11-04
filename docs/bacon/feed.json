@@ -1,5 +1,46 @@
 [
   {
+    "id": "2c5ed24d6cb3",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WNmpwVDZSNHVHcTE4cE1WNnF4bl9ZNHI2UElZR202X2RkeC00cl9YS1dfOENZOXVsOVFPSDJ3TEFST3hsNHhqRHhLSFBzVGR6UVk2b1dYb0h3eVVhY0JBNmxB?oc=5\nロシアは核攻撃警告の偽情報を配信し、緊急警報用アプリへのハッキング被害が発生したという。\n「狡猾な者が賢者として通用することほど、国家に害をなすものはない。」\n『随筆集』第22篇「狡猾について」",
+    "original": "… for that nothing doth more hurt in a state, than that cunning men pass for wise.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 8,
+    "source": "Google News 偽情報・言説",
+    "source_title": "ロシアとウクライナの緊急警報用アプリ、核攻撃警告の偽情報配信…ハッキング被害か - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WNmpwVDZSNHVHcTE4cE1WNnF4bl9ZNHI2UElZR202X2RkeC00cl9YS1dfOENZOXVsOVFPSDJ3TEFST3hsNHhqRHhLSFBzVGR6UVk2b1dYb0h3eVVhY0JBNmxB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio"
+    ],
+    "quote_id": "E22a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T05:21:37.578787+00:00",
+    "publish_at": "2026-11-04T05:21:37.578787+00:00",
+    "timestamp": "2026-11-04T05:21:37.578787+00:00"
+  },
+  {
+    "id": "3462af227382",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpVVNZdHBZLXUybmdGYnZ0d2NRbzJnNzZrZXFXN245MVI5X29RR2pORWV6eE9tYTZ0OHhvd2VaM1JFdnJHOXp3MzhDbk5HZjN3bUFXRVNNc0QzRllNSEE?oc=5\nGMO熊谷代表がSNS炎上の“仕掛け”について投稿した真意を探るという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
+    "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "GMO熊谷代表「認知戦、心理戦、陽動作戦」投稿の真意は？「最初の7～8つが全体の流れを作る」SNS炎上の“仕掛け”を独自分析 (2026年11月2日掲載) - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpVVNZdHBZLXUybmdGYnZ0d2NRbzJnNzZrZXFXN245MVI5X29RR2pORWV6eE9tYTZ0OHhvd2VaM1JFdnJHOXp3MzhDbk5HZjN3bUFXRVNNc0QzRllNSEE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "experientia"
+    ],
+    "quote_id": "E59a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T04:26:38.885971+00:00",
+    "publish_at": "2026-11-04T04:26:38.885971+00:00",
+    "timestamp": "2026-11-04T04:26:38.885971+00:00"
+  },
+  {
     "id": "d60e22c02384",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5\nゼレンスキー氏は『核攻撃』の偽情報に対し、ロシアがシステムを攻撃したと発言しているという。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
     "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
