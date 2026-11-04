@@ -59,7 +59,7 @@ jobs:
     runs-on: ubuntu-latest
     # qwen3.5:9b(約6.6GB)のダウンロードとCPUでの生成を見込んだ上限。
     # 万一処理が固まっても、この時間で打ち切られる。
-    timeout-minutes: 30
+    timeout-minutes: 120
     env:
       # 使用するローカルLLM。変更する場合はこの1行だけを書き換える。
       OLLAMA_MODEL: "qwen3.5:9b"
