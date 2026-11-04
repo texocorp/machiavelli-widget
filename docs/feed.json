@@ -1,5 +1,70 @@
 [
   {
+    "id": "bc05545813f8",
+    "text": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss\nトランプ氏は、ホルムズ海峡計画への米国の回答を説得力に欠けると指摘しているという。\n「優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "Al Jazeera",
+    "source_title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
+    "source_title_ja": "イラン、ホルムズ海峡計画への米国の回答を「説得力に欠ける」と指摘＝トランプ氏、空襲確認",
+    "source_url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "AG11",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T06:44:22.915780+00:00",
+    "publish_at": "2026-11-04T12:17:00+00:00",
+    "timestamp": "2026-11-04T12:17:00+00:00"
+  },
+  {
+    "id": "2ff2123c8c2d",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCblBzbFFCckp3dUpVaWV3c2o4cUtWVHJwRWlHNVdhUGwwbzZEMmJrZHZsRXRjQXlrTk5wd1Nub0RHNnZmZjVCNjRBakpqeUpQN2Rlb1E3Vmlhek1kbE1PWG9B?oc=5\nトランプ氏はイスラエルへの年間6300億円支援の打ち切りを表明したという。\n「君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。」\n『君主論 cap.XXI』",
+    "theme": "guerra",
+    "score": 6,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏、イスラエルへの年間６３００億円支援の打ち切り表明…政治紙「外交政策の大きな転換点」 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCblBzbFFCckp3dUpVaWV3c2o4cUtWVHJwRWlHNVdhUGwwbzZEMmJrZHZsRXRjQXlrTk5wd1Nub0RHNnZmZjVCNjRBakpqeUpQN2Rlb1E3Vmlhek1kbE1PWG9B?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "popolo_principe"
+    ],
+    "quote_id": "AD1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T06:27:40.681449+00:00",
+    "publish_at": "2026-11-04T09:17:00+00:00",
+    "timestamp": "2026-11-04T09:17:00+00:00"
+  },
+  {
+    "id": "e61480f391e2",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpdGljRUdaZ0pGT2pETUd5eGpKLWZCQWVkWHhFdzFxTmxjbW5hZE8tTExfZXFrUUZCTUF0SjAtMkc1aGgtVjE4TmVpUjhEMWduRkNYakFkLXFMRWFuQUFYR3Ztbw?oc=5\n米軍がイランのケシム島を攻撃したが、トランプ氏は大規模作戦を急がず再開する方針だという。\n「領土を手に入れたいと望むのは、まことに自然でありふれたことである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "米軍がイラン・ケシム島攻撃 トランプ氏、大規模作戦再開「急がず」―報道：時事ドットコム - 時事ドットコム",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpdGljRUdaZ0pGT2pETUd5eGpKLWZCQWVkWHhFdzFxTmxjbW5hZE8tTExfZXFrUUZCTUF0SjAtMkc1aGgtVjE4TmVpUjhEMWduRkNYakFkLXFMRWFuQUFYR3Ztbw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "popolo_principe",
+      "consiglio"
+    ],
+    "quote_id": "P03c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T06:19:44.383938+00:00",
+    "publish_at": "2026-11-04T06:19:44.383938+00:00",
+    "timestamp": "2026-11-04T06:19:44.383938+00:00"
+  },
+  {
     "id": "9fdc79c2b45b",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43Ym1SRWJ5a3RHOW9YaXV0M3ZLWWJ2blh6MTAycXB3Z0EzU291NnFHazM0cVRkY3ZuT01SbWMtTWtIZDBpRi1PMFlYY291eHlteHNCZnFXUUZFYmJQUk11WVhIV2djOUlLNlFOTQ?oc=5\n米中ロによる『現代版ヤルタ』が揺れるアジア情勢の中、ロシアとASEANが近づいている理由があるという。\n「君主は先に挙げた美徳をすべて実際に備えている必要はない。だが、備えているように見せることは是非とも必要である。」\n『君主論 cap.XVIII』",
     "theme": "inganno_simulazione",
@@ -477,15 +542,5 @@
     "source": "Google News 国際(World)",
     "source_title": "「メッカ防衛同盟」高官らイランへ 中東情勢巡り意見交換か - 日本経済新聞",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lTVcyTXRuMGJsSU16dHR1eC1pcXZLOC1mV1ZrUnRsWnI4SnBSTXpFT3RBekRLekxPeVZ4MWpnVGpjRmY5UVhtM19ieThkMnlrd21xUFhZWXBsUlI3R3haXzV5OWRLeDdGNlhzUg?oc=5"
-  },
-  {
-    "id": "ff8681cd072e",
-    "timestamp": "2026-10-26T15:43:45.757449+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01VjFVTEJNQnd4Y0lxT2hnbk94bGgxVWQwXzVqQU5QX20zaEFpLTFyQnNWc3dnYkF2Z19xSmQydHc3TXZPNk9rdlNpZ2toRlJXM2VsSGZEUHVzSkVRNkE3N1BRTlBhNHVldWdRcVV2NzdCYzVYX2xYS1F3?oc=5\n北朝鮮の武力示威はマキャベリの視座で見れば現実的だが、過激すぎる。\n「必要は、時として悪しき行いをも賞賛に値するものへと変える。",
-    "theme": "necessita",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "北朝鮮が軍事境界線に自走砲3両 韓国側を向く砲口 武力誇示か - テレ朝NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01VjFVTEJNQnd4Y0lxT2hnbk94bGgxVWQwXzVqQU5QX20zaEFpLTFyQnNWc3dnYkF2Z19xSmQydHc3TXZPNk9rdlNpZ2toRlJXM2VsSGZEUHVzSkVRNkE3N1BRTlBhNHVldWdRcVV2NzdCYzVYX2xYS1F3?oc=5"
   }
 ]
