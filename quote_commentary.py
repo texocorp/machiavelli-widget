@@ -63,7 +63,7 @@ _ABBREVIATIONS = {"露": "ロシア", "米": "アメリカ 米国", "英": "イ�
 _REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回"
 
 
-_KANA_ABBREVIATIONS = {"エネ": "エネルギー", "インフラ": "インフラストラクチャー", "テロ": "テロリズム",
+_KANA_ABBREVIATIONS = {"ネット": "インターネット", "エネ": "エネルギー", "インフラ": "インフラストラクチャー", "テロ": "テロリズム",
                        "デジ": "デジタル", "スマホ": "スマートフォン"}
 
 
@@ -181,6 +181,8 @@ WRITE_SYSTEM = """新聞の小さなコラムで、ニュースの後に{author}
 その一節の前に置く、導入の一文を JSON で答える。
 
 - 見出しの出来事を、見出しの言葉を生かして一文で言い直す。渡された「語句」は必ず使う
+- 見出しの動詞や名詞を、別の漢語に言い換えない(「近づく」を「接近」、「打ち切り」を「停止」「削減」としない)。
+  見出しの言葉のまま、助詞や語尾を補ってふつうの文にする
 - 渡された「主体」を主語にして、その主体のしたことに光が当たるように、語順と言葉の選び方を工夫する
 - 見出しに特有の切り詰めた言い方は、意味を変えずにふつうの文章の言い方に直す。
   「〜か」は疑い・推測、「〜へ」は予定・方針として書き、起きたこととして書かない。
@@ -233,7 +235,9 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
         raise ValueError(f"字数が範囲外({len(text)}字)")
     if text.count("。") > 1:
         raise ValueError("一文になっていない")
-    m = re.search("|".join([_META] + [re.escape(w) for w in bot.meta_words]), text)
+    # 見出しにもある語は指示の言葉の混入ではない(実例: 見出し「…太陽光パネルの材料に追加関税」の「材料」で全候補が落ちた)
+    metas = [w for w in _META.split("|") + list(bot.meta_words) if w not in source]
+    m = re.search("|".join(re.escape(w) for w in metas), text) if metas else None
     if m:
         raise ValueError(f"指示の言葉が混ざっている: {m.group()!r}")
     m = mtg._GENERAL_WORDS.search(text)
