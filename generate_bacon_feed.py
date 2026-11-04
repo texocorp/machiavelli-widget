@@ -107,6 +107,8 @@ def main():
     MAX_ARTICLES_PER_RUN = 3
     TIME_BUDGET_SEC = 13 * 60  # 1件に最大8分ほどかかる。ワークフローの上限30分(準備に約4分)に収める
     started = time.time()
+    import quote_commentary
+    quote_commentary.DEADLINE = started + 20 * 60  # 1件の途中でも、ここで打ち切る(上限30分の手前)
     tried = 0
     text = item = h = None
     for cand in ranked:

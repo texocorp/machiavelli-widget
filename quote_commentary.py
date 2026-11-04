@@ -31,6 +31,17 @@ import montaigne_engine as mtg
 
 LAST_TRACE = {}   # 直近の run() の途中経過(試験環境 tools/sibling_lab.py が読む)
 
+# 打ち切りの時刻(UNIX時刻)。フィード生成のスクリプトが設定する。None なら打ち切らない。
+# 遅い実行環境では1回の呼び出しに40秒以上かかり、1件の記事だけで15分を超えたことがある
+# (試験 2026-11-04)。ワークフローの上限(30分)で打ち切られると何も掲載されないので、手前で止める。
+DEADLINE = None
+
+
+def _check_time():
+    import time
+    if DEADLINE is not None and time.time() > DEADLINE:
+        raise TimeoutError("実行時間の上限に達した")
+
 
 @dataclass
 class Bot:
@@ -144,6 +155,7 @@ def choose_quote(bot: Bot, item: NewsItem, reading: dict):
     src = mtg._compact(f"{title}{summary}")
     scored = []
     for q in bot.rank(item, CANDIDATES_TO_SCORE):
+        _check_time()
         data = mtg._ollama_json(FIT_PROMPT.format(author=bot.author, title=title, facts=reading["facts"],
                                                   quote=q["ja"], scene=q.get("scene", "")),
                                 FIT_SCHEMA, JUDGE, "fit")
@@ -192,6 +204,7 @@ def write_candidates(bot: Bot, item: NewsItem, reading: dict, quote: dict, actor
     user = _write_prompt(title, reading["key_phrase"], actor, quote["ja"])
     out = []
     for _ in range(WRITE_SAMPLES):
+        _check_time()
         data = mtg._ollama_chat_json(WRITE_SYSTEM.format(author=bot.author), examples, user,
                                      WRITE_SCHEMA, WRITE, "write")
         text = (data.get("sentence") or "").strip()
@@ -227,7 +240,9 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     if m:
         raise ValueError(f"導入に評価・一般論を書いている: {m.group()!r}")
     words = [w for w in mtg._CONTENT_WORD.findall(reading["key_phrase"]) if w not in {"する", "した"}]
-    if words and not any(w in text for w in words):
+    # 長い漢語は、頭と尻の2字ずつが文にあれば触れたとみなす(「限定的空爆」→「限定的な空爆」)
+    touched = lambda w: w in text or (len(w) >= 4 and w[:2] in text and w[-2:] in text)
+    if words and not any(touched(w) for w in words):
         raise ValueError(f"見出しの語句({reading['key_phrase']})に触れていない")
     mtg._check_not_restating(text, quote["ja"])
     for e in bot.examples:
@@ -288,6 +303,7 @@ def run(bot: Bot, item: NewsItem):
         return None
 
     try:
+        _check_time()
         reading = read_article(bot, item)
     except Exception as e:
         return give_up(f"読む工程で失敗: {e}")
@@ -331,6 +347,7 @@ def run(bot: Bot, item: NewsItem):
             clean.append(text)
         try:
             for text in mtg.faithfulness_order(clean, item):
+                _check_time()
                 try:
                     mtg.verify_claims(text, item)
                     review(bot, text, item, quote)
