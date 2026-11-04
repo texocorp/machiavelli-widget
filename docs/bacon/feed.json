@@ -1,5 +1,25 @@
 [
   {
+    "id": "d60e22c02384",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5\nゼレンスキー氏は『核攻撃』の偽情報に対し、ロシアがシステムを攻撃したと発言しているという。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
+    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 8,
+    "source": "Google News 偽情報・言説",
+    "source_title": "ウクライナとロシアで「核攻撃」の偽情報、ゼレンスキー氏「ロシアが我々のシステムを攻撃」 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio"
+    ],
+    "quote_id": "E15a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T01:44:39.849345+00:00",
+    "publish_at": "2026-11-04T01:44:39.849345+00:00",
+    "timestamp": "2026-11-04T01:44:39.849345+00:00"
+  },
+  {
     "id": "4f1d6f5a4684",
     "timestamp": "2026-11-03T18:32:31.927597+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tWm1rNTRkY09fbWVIczZEOXRRdFlSY0VXbF9zeUdGb3BNWHJ4Q08zN2IwU1RMNTlfeGNtckZtd1owV2hEUlJqNkhLNlNhdWREU05MUU1OUWVkdWlfcUR3Ty1Iemk5V1lLUEp6Z3FJNTNpSllDS2t2ZmhDcDRXckE?oc=5\nアスリートをネットの誹謗中傷からどう守るか？、東大など…の広がり方には、確かめることよりも語り広めることが先に立つ、世評の性質が表れている。\n「ところが学者たちは、まことに怠惰で安易にも、経験についての噂、いわばその風評やそよ風を、自説を打ち立て裏づけるために取り込み、しかもそれに正規の証言の重みを与えてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム98",
