@@ -1,5 +1,45 @@
 [
   {
+    "id": "6cd5b4debb5a",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zUDRrdHhENklnbHlpMTR1YmN5WklfM3ZvbE5yd0V0Wi1GQm9LNTdfTVpqTHI1ektsMkFGRF9ITzd2U2R1dm9weGdaUUJVbEZmNkdJbTZ6VkVKbzVLV0E?oc=5\nＢＮＰパリバ証券の河野龍太郎が、ケインズの予言が問うものについて語るという。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
+    "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 6,
+    "source": "Google News 風評・噂",
+    "source_title": "ケインズの予言が問うもの ＢＮＰパリバ証券チーフエコノミスト 河野龍太郎 - 沖縄タイムス社",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zUDRrdHhENklnbHlpMTR1YmN5WklfM3ZvbE5yd0V0Wi1GQm9LNTdfTVpqTHI1ektsMkFGRF9ITzd2U2R1dm9weGdaUUJVbEZmNkdJbTZ6VkVKbzVLV0E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio"
+    ],
+    "quote_id": "NO1.45",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T04:04:28.360892+00:00",
+    "publish_at": "2026-11-05T08:17:00+00:00",
+    "timestamp": "2026-11-05T08:17:00+00:00"
+  },
+  {
+    "id": "45fe6044612a",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS21WT2M2MlFSdGc5TzRHODN2UTh0bHpOT2s1aHdtc0RWUGhsLWNSN1cwNXZiRDFhZGUwS3JuTDJxZDdJLUNoM0hlSlVWNmVhODN1SWx0UDZDa2gzdm1uRHFWSGZMUVRMR00xVHE0b1dYTTFkUkwxSW03a0VoVTZTSzhCazB0T2Z2OGlCTmVR?oc=5\n全北警察が有権者装い世論調査を行った件で、167人が送検されたという。\n「自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。」\n『随筆集』第22篇「狡猾について」",
+    "original": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 9,
+    "source": "Google News 世論・印象",
+    "source_title": "共に民主党党内予備選の世論調査で有権者装う…全北警察、167人送検 - 조선일보",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS21WT2M2MlFSdGc5TzRHODN2UTh0bHpOT2s1aHdtc0RWUGhsLWNSN1cwNXZiRDFhZGUwS3JuTDJxZDdJLUNoM0hlSlVWNmVhODN1SWx0UDZDa2gzdm1uRHFWSGZMUVRMR00xVHE0b1dYTTFkUkwxSW03a0VoVTZTSzhCazB0T2Z2OGlCTmVR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E22b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T03:28:36.614498+00:00",
+    "publish_at": "2026-11-05T05:17:00+00:00",
+    "timestamp": "2026-11-05T05:17:00+00:00"
+  },
+  {
     "id": "8f34257decc1",
     "text": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5scGpQeVVxQmlmMTBWakZZdy1lRThWVG9hZnJNLVlFVmZTSmV3XzNyYnVjYWlNRGwxdzRqdHJEemtScnM2bDZtbTRVbUROWXhob0pCeWFFcG5JN0l2WUJqOGVmb3lFVXA5Y3VJ?oc=5\n岡本さゆり市議は保身の謝罪としか見えない発言をし、お母様はそれを許せないと強く叫んだという。\n「人は、真であってほしいと願うことを、むしろ信じるものだ。」\n『ノヴム・オルガヌム』第1巻 アフォリズム49",
     "original": "… quod enim mavult homo verum esse, id potius credit.",
