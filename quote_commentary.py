@@ -61,8 +61,9 @@ _ABBREVIATIONS = {"露": "ロシア", "米": "アメリカ 米国", "英": "イ�
                   "豪": "オーストラリア", "韓": "韓国"}   # 「中」「日」「独」などは別の語(中間選挙)に紛れるので入れない
 # 事実を足さない、報道の言い直しに使う漢語(見出しに無くても認める)。事実を足す語(「検討」「計画」など)は入れない。
 # 試験(2026-11-04)では、「限定的な空爆を実施した」の「実施」のような語で、候補の半分以上が落ちていた
+# 2026-11-04 追加: 主張 指摘 発表 声明。11-05 追加: 間近(「〜控え」を「〜を間近に控えて」と書くよう指示している) 対応 結果 行動
 # 2026-11-04 追加: 主張 指摘 発表 声明(「FBIの主張をデマと述べた」の「主張」で7候補すべてが落ちた)
-_REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回 主張 指摘 発表 声明"
+_REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回 主張 指摘 発表 声明 間近 対応 結果 行動"
 
 
 _KANA_ABBREVIATIONS = {"ネット": "インターネット", "エネ": "エネルギー", "インフラ": "インフラストラクチャー", "テロ": "テロリズム",
@@ -311,7 +312,15 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
         raise ValueError(f"導入に書き手の見立てを書いている: {m.group()!r}")
     words = [w for w in mtg._CONTENT_WORD.findall(reading["key_phrase"]) if w not in {"する", "した"}]
     # 長い漢語は、頭と尻の2字ずつが文にあれば触れたとみなす(「限定的空爆」→「限定的な空爆」)
-    touched = lambda w: w in text or (len(w) >= 4 and w[:2] in text and w[-2:] in text)
+    # 2026-11-05: 「米軍事支援打ち切り」の漢字の連なり「米軍事支援打」は頭と尻(「米軍」「援打」)が文に現れず、
+    # 「米国の軍事支援の打ち切り」と正しく書いた14候補が落ちた。長い語は、2字の組の半分以上が文にあれば触れたとみなす
+    def touched(w):
+        if w in text:
+            return True
+        if len(w) < 4:
+            return False
+        pairs = {w[i:i + 2] for i in range(len(w) - 1)}
+        return sum(1 for p in pairs if p in text) * 2 >= len(pairs)
     if words and not any(touched(w) for w in words):
         raise ValueError(f"見出しの語句({reading['key_phrase']})に触れていない")
     _check_subject(text, f"{title} {reading.get('facts', '')}")
@@ -334,9 +343,10 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
 
 _IMPRESSION = re.compile(r"としか(?:見え|思え|言え|映ら)|ように(?:見え|思え|映)|に(?:見え|思え)る|と(?:見られ|思われ)る|らしい")
 _SUBJECT = re.compile(r"^([^、。「」『』]{1,20}?)(?:は|が)")
-# 修飾語・並列を表す助詞。主語の語の後が見出しのどこでもこれなら、その語は行為の主体ではない
-# (「イラン主張」「与野党陣営」のように漢語が続くものは主体とみなす)
-_MODIFIER_FOLLOW = "との"
+# 並列を表す助詞。主語の語の後が見出しのどこでもこれなら、その語は単独の行為の主体ではない(「ロシアとウクライナの警報アプリ」)。
+# 「の」は外した(2026-11-05): 「中国の『戦狼外交』激化」を「中国は戦狼外交を激化させ」と書くのは正しい。
+# 「の」の先の物が行為をした場合の取り違えは、校閲の same_doer で確かめる
+_MODIFIER_FOLLOW = "と"
 
 
 def _check_subject(text: str, source: str) -> None:
