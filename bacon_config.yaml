@@ -184,6 +184,7 @@ exclude_keywords:
   - "Vietnam.vn"
   - "Informat.ro"
   - "LALALA USA"
+  - "Howl.Link"          # 個人の投稿を集めたサイト(「陰謀論の正式名称は真相論です」)
   # --- 引用を添えること自体が無神経になりうる記事 ---
   - "自殺"
   - "自死"

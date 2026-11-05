@@ -183,8 +183,14 @@ def same_story(title: str, titles, threshold: float = STORY_SIMILARITY) -> bool:
     if not a:
         return False
     for other in titles:
-        b = _bigrams(story_key(other))
+        key_b = story_key(other)
+        b = _bigrams(key_b)
         if b and 2 * len(a & b) / (len(a) + len(b)) >= threshold:
+            return True
+        # 一方の見出しが他方を丸ごと含む(実例: 「ケインズの予言が問うもの - 愛媛新聞」と
+        # 「ケインズの予言が問うもの ＢＮＰパリバ証券チーフエコノミスト 河野龍太郎 - 沖縄タイムス社」)
+        short, long_ = sorted((story_key(title), key_b), key=len)
+        if len(short) >= 10 and short in long_:
             return True
     return False
 
