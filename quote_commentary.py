@@ -51,7 +51,7 @@ class Bot:
     examples: list                # 手本: {"title", "key_phrase", "actor", "quote", "sentence"}
     meta_words: tuple = ()        # 本文に混ざってはならない指示の言葉(著者名・書名など)
     generic_terms: set = field(default_factory=set)  # 見出しに無くてもよいカタカナ語
-    neutral_kanji: str = ""       # 見出しに無くてもよい漢字(例: 「米」を「米国」と書く「国」)
+    neutral_kanji: str = ""       # 見出しに無くてもよい漢字・漢語を空白で区切って並べる(例: 「米」を「米国」と書く「国」)
 
 
 # 見出しの略称(「露」「米」)を正式名で書くのは言い直しの範囲(実例: 「露統計局」を「ロシア統計局」と言い直して
@@ -147,14 +147,17 @@ FIT_SCHEMA = {"type": "object",
               "required": ["actor", "common", "fit"]}
 
 
-def choose_quote(bot: Bot, item: NewsItem, reading: dict):
+def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
     """
-    候補を1件ずつ採点し、最高点(MIN_FIT 以上)の (引用, 主体) を返す。無ければ (None, None)。
-    1件の採点に CPU で約40秒かかるため、3点が出た時点で打ち切る。
+    候補を1件ずつ採点し、MIN_FIT 点の (引用, 主体) を見つけるたびに返す(ジェネレーター)。
+    1件の採点に CPU で約40秒かかるので、必要になった分だけ採点する。
+    【2026-11-04 改訂】以前は最初の3点の候補だけを使い、校閲が「引用が出来事に合わない」と判定すると記事ごと見送っていた。
+    ベーコンでは、見送った記事の過半がこの理由だった(4回の実行で導入文の段階で落ちた18件の大半)。
+    そこで、校閲で合わないとされた引用は捨てて、残りの候補の採点を続ける。
     """
     title, summary = mtg._facts(item)
     src = mtg._compact(f"{title}{summary}")
-    scored = []
+    LAST_TRACE["quote_candidates"] = []
     for q in bot.rank(item, CANDIDATES_TO_SCORE):
         _check_time()
         data = mtg._ollama_json(FIT_PROMPT.format(author=bot.author, title=title, facts=reading["facts"],
@@ -164,15 +167,15 @@ def choose_quote(bot: Bot, item: NewsItem, reading: dict):
         fit = data.get("fit") if isinstance(data.get("fit"), int) else 0
         if len(mtg._compact(actor)) < 2 or mtg._compact(actor) not in src:
             fit = 0  # 当てはまる主体を見出しの中に示せない(見出しに無い主体を想定した)
-        scored.append((q, fit, actor, data.get("common", "")))
-        if fit >= 3:
-            break  # 3点(最高点)の候補が出たら、残りは採点しない(同点なら先の候補を採るので結果は同じ)
-    LAST_TRACE["quote_candidates"] = [(q["id"], fit, actor, common) for q, fit, actor, common in scored]
-    best = max((s[1] for s in scored), default=0)
-    if best < MIN_FIT:
-        return None, None
-    q, _, actor, _ = next(s for s in scored if s[1] == best)
-    return q, actor
+        LAST_TRACE["quote_candidates"].append((q["id"], fit, actor, data.get("common", "")))
+        print(f"[採点] {q['id']} {fit}点 主体={actor} … {data.get('common', '')}")
+        if fit >= MIN_FIT:
+            yield q, actor
+
+
+def choose_quote(bot: Bot, item: NewsItem, reading: dict):
+    """最初の MIN_FIT 点の (引用, 主体)。無ければ (None, None)。(試験の道具などとの互換のため残す)"""
+    return next(choose_quotes(bot, item, reading), (None, None))
 
 
 # ---------------------------------------------------------------
@@ -261,7 +264,7 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     foreign += [d for d in me._DIGIT_RUN.findall(me._normalize_for_match(text)) if d not in norm_src]
     if foreign:
         raise ValueError(f"見出しに無い語句を含む(作話の疑い): {foreign}")
-    foreign = mtg._ungrounded_kanji(text, f"{checked} {_REPORTING_WORDS} {' '.join(bot.neutral_kanji)}")
+    foreign = mtg._ungrounded_kanji(text, f"{checked} {_REPORTING_WORDS} {bot.neutral_kanji}")
     if foreign:
         raise ValueError(f"見出しに無い漢語を使っている: {foreign}")
     return text
@@ -348,18 +351,38 @@ def run(bot: Bot, item: NewsItem):
     if reading.get("problem"):
         return give_up(f"読み違いの疑い({reading['problem']})")
 
-    try:
-        quote, actor = choose_quote(bot, item, reading)
-    except Exception as e:
-        return give_up(f"選ぶ工程で失敗: {e}")
-    for qid, fit, a, common in LAST_TRACE.get("quote_candidates", []):
-        print(f"[採点] {qid} {fit}点 主体={a} … {common}")
-    if quote is None:
-        return give_up(f"構図の当てはまる引用が候補に無い(すべて{MIN_FIT}点未満)")
-    LAST_TRACE["quote"], LAST_TRACE["actor"] = quote["id"], actor
-    print(f"[選ぶ] {quote['id']} 主体={actor} {quote['ja'][:40]}")
-
+    quotes = choose_quotes(bot, item, reading)
+    tried = 0
     LAST_TRACE["candidates"] = []
+    while tried < MAX_QUOTES_PER_ARTICLE:
+        try:
+            quote, actor = next(quotes)
+        except StopIteration:
+            break
+        except Exception as e:
+            return give_up(f"選ぶ工程で失敗: {e}")
+        tried += 1
+        LAST_TRACE["quote"], LAST_TRACE["actor"] = quote["id"], actor
+        print(f"[選ぶ] {quote['id']} 主体={actor} {quote['ja'][:40]}")
+        try:
+            result = _write_and_check(bot, item, reading, quote, actor)
+        except Exception as e:
+            return give_up(f"確かめる工程で失敗: {e}")
+        if result:
+            return result, quote
+    if tried == 0:
+        return give_up(f"構図の当てはまる引用が候補に無い(すべて{MIN_FIT}点未満)")
+    return give_up("検査を通る導入文が無かった")
+
+
+# 1件の記事で試す引用の数の上限(1つの引用で導入文を書いて確かめるのに約3〜4分かかる)
+MAX_QUOTES_PER_ARTICLE = 2
+_MISFIT = "引用が出来事に合わない"
+
+
+def _write_and_check(bot: Bot, item: NewsItem, reading: dict, quote: dict, actor: str):
+    """この引用で導入文を書き、検査を通ったものを返す。無ければ None。
+    校閲が引用の当てはまりを否定したら、この引用での書き直しはやめる(導入文を変えても引用は変わらない)。"""
     for rnd in range(1, WRITE_ROUNDS + 1):
         try:
             drafts = write_candidates(bot, item, reading, quote, actor)
@@ -369,11 +392,11 @@ def run(bot: Bot, item: NewsItem):
                 facts = reading["facts"].rstrip("。")
                 drafts = drafts + [facts + ("という。" if not facts.endswith(("という", "た", "る", "だ")) else "。")]
         except Exception as e:
-            LAST_TRACE["candidates"].append({"round": rnd, "text": None, "verdict": f"書く工程で失敗: {e}"})
+            LAST_TRACE["candidates"].append({"round": rnd, "quote": quote["id"], "text": None, "verdict": f"書く工程で失敗: {e}"})
             continue
         records, clean = {}, []
         for draft in drafts:
-            record = {"round": rnd, "text": draft}
+            record = {"round": rnd, "quote": quote["id"], "text": draft}
             LAST_TRACE["candidates"].append(record)
             try:
                 text = mechanical_check(bot, draft, item, quote, reading)
@@ -386,23 +409,27 @@ def run(bot: Bot, item: NewsItem):
             record["verdict"] = "機械検査は合格"
             records[text] = record
             clean.append(text)
-        try:
-            for text in mtg.faithfulness_order(clean, item):
-                _check_time()
-                try:
-                    mtg.verify_claims(text, item)
-                    review(bot, text, item, quote)
-                except ValueError as e:
-                    records[text]["verdict"] = str(e)
-                    continue
-                records[text]["verdict"] = "合格"
-                LAST_TRACE["result"] = "掲載"
-                LAST_TRACE["adopted"] = text
-                print(f"[採用] {text}")
-                return text, quote
-        except Exception as e:
-            return give_up(f"確かめる工程で失敗: {e}")
+        misfit = False
+        for text in mtg.faithfulness_order(clean, item):
+            _check_time()
+            try:
+                mtg.verify_claims(text, item)
+                review(bot, text, item, quote)
+            except ValueError as e:
+                records[text]["verdict"] = str(e)
+                if _MISFIT in str(e):
+                    misfit = True
+                    break
+                continue
+            records[text]["verdict"] = "合格"
+            LAST_TRACE["result"] = "掲載"
+            LAST_TRACE["adopted"] = text
+            print(f"[採用] {text}")
+            return text
         for c in LAST_TRACE["candidates"]:
-            if c.get("round") == rnd:
-                print(f"  [不採用] {c.get('text')} … {c.get('verdict')}")
-    return give_up("検査を通る導入文が無かった")
+            if c.get("round") == rnd and c.get("quote") == quote["id"]:
+                print(f"  [不採用] {c.get('text')} … {c.get('verdict', '(未検査)')}")
+        if misfit:
+            print(f"  [引用を替える] {quote['id']} は出来事に合わないと校閲が判定")
+            return None
+    return None

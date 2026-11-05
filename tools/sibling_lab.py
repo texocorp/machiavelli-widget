@@ -69,10 +69,11 @@ def build_item(bot: str, title: str) -> NewsItem:
     return item
 
 
-def live_cases(n: int) -> list:
+def live_cases(n: int, n_machiavelli: int = None) -> list:
     """いま配信中の記事のうち、各ボットが本番で選ぶ上位 n 件(既出かどうかは問わない)。"""
     out = []
-    if n <= 0:
+    n_machiavelli = n if n_machiavelli is None else n_machiavelli
+    if n <= 0 and n_machiavelli <= 0:
         return out
     from news_fetcher import fetch_all
     from geopolitical_scorer import rank_news, clean_news_text, is_japanese
@@ -80,17 +81,29 @@ def live_cases(n: int) -> list:
     ranked = rank_news(fetch_all(), cfg["weights"], top_n=30, exclude_keywords=cfg["exclude_keywords"])
     known = {t for _, t, _ in CASES}
     picked = [it for it in ranked if it.score >= cfg["minimum_score"] and it.title not in known
-              and is_japanese(clean_news_text(it.title))][:n]
+              and is_japanese(clean_news_text(it.title))][:n_machiavelli]
     out += [("machiavelli", it.title, "配信中", it) for it in picked]
     import bacon_scorer
     import generate_bacon_feed as gb
     bcfg = bacon_scorer.load_scoring_config(gb.CONFIG_PATH)
-    ranked = bacon_scorer.rank_news(fetch_all(gb.CONFIG_PATH), bcfg["weights"], top_n=30,
+    import collections
+    import feed_stock
+    fetched = fetch_all(gb.CONFIG_PATH, per_feed_limit=30)
+    print(f"[試験] ベーコンの取得 {len(fetched)}件: {dict(collections.Counter(i.source for i in fetched))}")
+    ranked = bacon_scorer.rank_news(fetched, bcfg["weights"], top_n=30,
                                     exclude_keywords=bcfg["exclude_keywords"],
                                     discourse_keywords=bcfg["discourse_keywords"],
                                     priority_sources=bcfg["priority_sources"], priority_bonus=bcfg["priority_bonus"])
-    picked = [it for it in ranked if it.score >= bcfg["minimum_score"] and it.title not in known
-              and is_japanese(clean_news_text(it.title))][:n]
+    eligible = [it for it in ranked if it.score >= bcfg["minimum_score"] and it.title not in known
+                and is_japanese(clean_news_text(it.title))]
+    # 本番と同じく、同じ記事の別配信と、既に載った記事を除く
+    titles, picked = feed_stock.published_titles(), []
+    for it in eligible:
+        if not feed_stock.same_story(it.title, titles):
+            picked.append(it)
+            titles.append(it.title)
+    print(f"[試験] ベーコンの候補(点数の下限以上・別配信を除く) {len(picked)}件")
+    picked = picked[-n:] if n > 0 else []   # 上位はすでに本番で試されているので、下位から取る
     out += [("bacon", it.title, "配信中", it) for it in picked]
     return out
 
@@ -100,12 +113,15 @@ def main():
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--shards", type=int, default=1)
     ap.add_argument("--live", type=int, default=0)
+    ap.add_argument("--machiavelli-fixed", type=int, default=99, help="マキャベリの固定の見出しを何件試すか")
+    ap.add_argument("--machiavelli-live", type=int, default=None, help="マキャベリの配信中の記事の件数(省略時は --live)")
     args = ap.parse_args()
 
     me.record_quote_usage = lambda quote_id: None  # 試験では使用履歴を残さない
     be.record_quote_usage = lambda quote_id: None
 
-    cases = [(b, t, n, None) for b, t, n in CASES] + live_cases(args.live)
+    fixed = [c for c in CASES if c[0] == "bacon"] + [c for c in CASES if c[0] == "machiavelli"][:args.machiavelli_fixed]
+    cases = [(b, t, n, None) for b, t, n in fixed] + live_cases(args.live, args.machiavelli_live)
     mine = [c for i, c in enumerate(cases) if i % args.shards == args.shard]
     print(f"[試験] 全{len(cases)}件のうち、この分担は{len(mine)}件")
     report = []
