@@ -92,12 +92,14 @@ def main():
     own_titles = {_title_key(e.get("source_title", "")) for e in _load_json(FEED_PATH, [])}
 
     # ストック方式では1回の起動で1日分を作るので、各フィードから多めに読む(10件では新しい記事がすぐ尽きた)
-    items = fetch_all(CONFIG_PATH, per_feed_limit=30)
+    # 2026-11-05: 30件→50件。候補が尽きて、生成に使える時間を半分以上余らせて終わる回が続いた
+    items = fetch_all(CONFIG_PATH, per_feed_limit=50)
     if not items:
         print("[SKIP] ニュースを取得できませんでした。")
         return
 
-    ranked = rank_news(items, scoring_cfg["weights"], top_n=40,
+    # 上位40件に限ると、そのほとんどが試し済みで新しい記事が数件しか残らなかった。全件を点数順に試す
+    ranked = rank_news(items, scoring_cfg["weights"], top_n=len(items),
                        exclude_keywords=scoring_cfg["exclude_keywords"],
                        discourse_keywords=scoring_cfg["discourse_keywords"],
                        priority_sources=scoring_cfg["priority_sources"],
