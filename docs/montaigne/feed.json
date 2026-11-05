@@ -1,5 +1,60 @@
 [
   {
+    "id": "3f9a547b6453",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUNFeWZ1aURLQTNqWHRoX1FQR3MyeUEwSzBwTkhaRlZtZDdScmJVemRzZUxKZEVZNlpheTkxQUpLUFhrN185cENtMnphbm5qY1YxYlF2eTREaElsdGxCVHd5bWgxeGpaQjhnU0lpTzQxSkthem93UUwybWZLczEwYThGV2lHNWlkX0xEQzFn?oc=5\n偏差値も凄すぎる超進学校で育った現役選手は、文武両道の姿を見せるという。\n「誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。」\n『エセー I.25「衒学について」』",
+    "theme": "savoir",
+    "score": 5,
+    "source": "Google News 検索 教育",
+    "source_title": "偏差値も凄すぎる…超進学校から初めてプロ入りした現役選手（5）まさに“文武両道”…名門進学校でエース兼4番 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUNFeWZ1aURLQTNqWHRoX1FQR3MyeUEwSzBwTkhaRlZtZDdScmJVemRzZUxKZEVZNlpheTkxQUpLUFhrN185cENtMnphbm5qY1YxYlF2eTREaElsdGxCVHd5bWgxeGpaQjhnU0lpTzQxSkthem93UUwybWZLczEwYThGV2lHNWlkX0xEQzFn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "nouveaute"
+    ],
+    "quote_id": "I.25b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T18:59:56.343488+00:00",
+    "publish_at": "2026-11-06T16:17:00+00:00",
+    "timestamp": "2026-11-06T16:17:00+00:00"
+  },
+  {
+    "id": "1e864ac6ea32",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uMzJJU3dib3VuX1pNQWtwdUhMREJGenhsRGt1VHlkTlE5WC1hV0pNWEE2Mm5PeFRpSTE2d1NtQ0dGQ1RDc3ZZTFVwa2t0UzRrRDYxVW5Rcl9WTnpYNlhXNG5FZTFGellqeUUxaw?oc=5\n滋賀・日野町事件の再審協議で弁護側は、検察の証拠開示対応を批判しているという。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
+    "theme": "lois",
+    "score": 5,
+    "source": "Google News 検索 裁き",
+    "source_title": "滋賀・日野町事件の再審協議、弁護側が検察の証拠開示対応を批判 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uMzJJU3dib3VuX1pNQWtwdUhMREJGenhsRGt1VHlkTlE5WC1hV0pNWEE2Mm5PeFRpSTE2d1NtQ0dGQ1RDc3ZZTFVwa2t0UzRrRDYxVW5Rcl9WTnpYNlhXNG5FZTFGellqeUUxaw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "II.5",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T18:56:23.160764+00:00",
+    "publish_at": "2026-11-06T13:17:00+00:00",
+    "timestamp": "2026-11-06T13:17:00+00:00"
+  },
+  {
+    "id": "1b9245f15f37",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53UW9faWNGTlJ5TVJuSDk5MTRjUDduR3kyVVZOdW81NzRiUG1ZUmdidjh0Zlk1eGFaSVlHMlR1REJDTHBoVWlhdWxPdE5WS1BVVWZhZ3FZTnBFZw?oc=5\n首里城正殿の完成を前に、古式行列や伝統の旗頭が『琉球王朝祭り首里』で競演した。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
+    "theme": "coutume",
+    "score": 6,
+    "source": "Google News 検索 世相",
+    "source_title": "首里城正殿完成を前に 「琉球王朝祭り首里」古式行列と伝統の旗頭が競演 - QAB 琉球朝日放送",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53UW9faWNGTlJ5TVJuSDk5MTRjUDduR3kyVVZOdW81NzRiUG1ZUmdidjh0Zlk1eGFaSVlHMlR1REJDTHBoVWlhdWxPdE5WS1BVVWZhZ3FZTnBFZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "coutume"
+    ],
+    "quote_id": "II.15",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T18:51:37.495723+00:00",
+    "publish_at": "2026-11-06T10:17:00+00:00",
+    "timestamp": "2026-11-06T10:17:00+00:00"
+  },
+  {
     "id": "412cd30064f5",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BS0V5R0FKbmFncTVQc0RVZVJfcTR3SkR5NzluWW5LQkJHazhoRWxOOFZwd0paYVJFVTZ1RElfcjRuTXJJTTRNS0pwVERNazV2elhqOV9hZlMtb3lmcE9xcElDWDR2azViUzNWOEd4Y3Z5WWFpV3NJVTduNFJobnM?oc=5\n次期学習指導要領により、難関校は初見性が高い問題が増加する可能性があるという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
     "theme": "savoir",
