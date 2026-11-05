@@ -52,6 +52,7 @@ class Bot:
     meta_words: tuple = ()        # 本文に混ざってはならない指示の言葉(著者名・書名など)
     generic_terms: set = field(default_factory=set)  # 見出しに無くてもよいカタカナ語
     neutral_kanji: str = ""       # 見出しに無くてもよい漢字・漢語を空白で区切って並べる(例: 「米」を「米国」と書く「国」)
+    scene_pick: bool = False      # 採点の前に、場面の説明の一覧からモデルに候補を選ばせる(scene_candidates)
 
 
 # 見出しの略称(「露」「米」)を正式名で書くのは言い直しの範囲(実例: 「露統計局」を「ロシア統計局」と言い直して
@@ -147,6 +148,52 @@ FIT_SCHEMA = {"type": "object",
               "required": ["actor", "common", "fit"]}
 
 
+SCENE_POOL = 60     # 場面の一覧に載せる引用の数(語の一致の順に上から)
+SCENE_PICKS = 3     # 一覧から選ばせる数
+
+SCENE_PROMPT = """次のニュースに、{author}の一節を添えて論評する。
+下の一覧は、それぞれの一節が当てはまる場面の説明である。このニュースに働いている人の心や言葉の動きに、
+いちばんよく当てはまる場面を{picks}つ選び、番号で答えよ。話題(政治・科学・芸能など)の近さではなく、
+起きていることの形(誰が何を思い込み、言い立て、どう受け止められているか)で選ぶ。
+
+見出し: {title}
+出来事: {facts}
+
+場面の一覧:
+{scenes}"""
+
+
+def scene_candidates(bot: Bot, item: NewsItem, reading: dict) -> list:
+    """
+    【2026-11-05 導入、ベーコン】引用の候補を、場面の説明の一覧からモデルに選ばせ、その順に並べる。
+    以前は記事の分類(テーマ)と語の一致だけで8件を選んでいたため、候補に合う一節がそもそも無いことが多かった
+    (11/4〜5 の実行と試験の約50件で掲載2件。SNSで炎上した人の記事に「嫉妬は噂で倍加する」、
+    マスク氏の敗北の記事に「隠し立ては弱々しい策略」など)。抽象的な一節そのものより、
+    具体的な場面の説明のほうが、小型モデルにも記事との対応を判断しやすい。
+    選ばれた候補の後に、従来の順の候補を続ける(採点は CANDIDATES_TO_SCORE 件まで)。
+    """
+    pool = [q for q in bot.rank(item, SCENE_POOL) if q.get("scene")]
+    if len(pool) <= SCENE_PICKS:
+        return bot.rank(item, CANDIDATES_TO_SCORE)
+    title, _ = mtg._facts(item)
+    scenes = "\n".join(f"{i}. {q['scene']}" for i, q in enumerate(pool, 1))
+    schema = {"type": "object",
+              "properties": {"picks": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": len(pool)},
+                                       "minItems": 1, "maxItems": SCENE_PICKS}},
+              "required": ["picks"]}
+    data = mtg._ollama_json(SCENE_PROMPT.format(author=bot.author, picks=SCENE_PICKS, title=title,
+                                                facts=reading["facts"], scenes=scenes),
+                            schema, {**JUDGE, "num_ctx": 8192}, "scene")  # 一覧が長いので文脈の窓を広げる
+    picked = []
+    for n in (data.get("picks") or [])[:SCENE_PICKS]:
+        if isinstance(n, int) and 1 <= n <= len(pool) and pool[n - 1] not in picked:
+            picked.append(pool[n - 1])
+    LAST_TRACE["scene_picks"] = [q["id"] for q in picked]
+    print(f"[場面] {' '.join(q['id'] for q in picked)}")
+    rest = [q for q in pool if q not in picked]
+    return (picked + rest)[:CANDIDATES_TO_SCORE]
+
+
 def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
     """
     候補を1件ずつ採点し、MIN_FIT 点の (引用, 主体) を見つけるたびに返す(ジェネレーター)。
@@ -158,7 +205,8 @@ def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
     title, summary = mtg._facts(item)
     src = mtg._compact(f"{title}{summary}")
     LAST_TRACE["quote_candidates"] = []
-    for q in bot.rank(item, CANDIDATES_TO_SCORE):
+    candidates = scene_candidates(bot, item, reading) if bot.scene_pick else bot.rank(item, CANDIDATES_TO_SCORE)
+    for q in candidates:
         _check_time()
         data = mtg._ollama_json(FIT_PROMPT.format(author=bot.author, title=title, facts=reading["facts"],
                                                   quote=q["ja"], scene=q.get("scene", "")),
