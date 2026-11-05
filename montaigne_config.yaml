@@ -16,6 +16,26 @@ news_sources:
     url: "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=ja&gl=JP&ceid=JP:ja"
   - name: "Google News 健康"
     url: "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ja&gl=JP&ceid=JP:ja"
+  # 2026-11-05 追加: 上の3つは見出しの一覧(各30件前後)で、1回の実行で試せる新しい記事が6件ほどしかなかった。
+  # 箴言の引き金の語の群れで検索し、箴言が添えられる記事を直接集める(when:2d は直近2日)
+  - name: "Google News 検索 慣習・同調"
+    url: "https://news.google.com/rss/search?q=%E3%81%97%E3%81%8D%E3%81%9F%E3%82%8A+OR+%E6%85%A3%E8%A1%8C+OR+%E5%89%8D%E4%BE%8B%E8%B8%8F%E8%A5%B2+OR+%E6%82%AA%E7%BF%92+OR+%E4%B8%96%E9%96%93%E4%BD%93+OR+%E5%90%8C%E8%AA%BF%E5%9C%A7%E5%8A%9B+OR+%E5%BF%96%E5%BA%A6+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 偏見・摩擦"
+    url: "https://news.google.com/rss/search?q=%E5%81%8F%E8%A6%8B+OR+%E3%83%98%E3%82%A4%E3%83%88+OR+%E5%B7%AE%E5%88%A5%E7%99%BA%E8%A8%80+OR+%E6%8E%92%E5%A4%96+OR+%E6%96%87%E5%8C%96%E6%91%A9%E6%93%A6+OR+%E3%83%9E%E3%83%8A%E3%83%BC%E9%81%95%E5%8F%8D+OR+%E8%BF%B7%E6%83%91%E8%A1%8C%E7%82%BA+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 裁き"
+    url: "https://news.google.com/rss/search?q=%E5%86%A4%E7%BD%AA+OR+%E5%86%8D%E5%AF%A9+OR+%E8%87%AA%E7%99%BD+OR+%E5%8F%96%E3%82%8A%E8%AA%BF%E3%81%B9+OR+%E4%BA%BA%E8%B3%AA%E5%8F%B8%E6%B3%95+OR+%E5%8B%BE%E7%95%99+OR+%E7%A7%81%E5%88%91+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 老い・終末期"
+    url: "https://news.google.com/rss/search?q=%E7%B5%82%E6%B4%BB+OR+%E5%AE%89%E6%A5%BD%E6%AD%BB+OR+%E5%B0%8A%E5%8E%B3%E6%AD%BB+OR+%E5%BB%B6%E5%91%BD+OR+%E5%81%A5%E5%BA%B7%E5%AF%BF%E5%91%BD+OR+%E5%AD%A4%E7%8B%AC+OR+%E5%AD%A4%E7%AB%8B+OR+%E8%80%81%E5%BE%8C+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 教育"
+    url: "https://news.google.com/rss/search?q=%E3%81%84%E3%81%98%E3%82%81+OR+%E5%85%A5%E8%A9%A6+OR+%E5%81%8F%E5%B7%AE%E5%80%A4+OR+%E4%B8%B8%E6%9A%97%E8%A8%98+OR+%E6%95%99%E8%82%B2%E6%94%B9%E9%9D%A9+OR+%E5%AD%A6%E5%8A%9B%E3%83%86%E3%82%B9%E3%83%88+OR+%E6%95%99%E5%93%A1%E6%8E%A1%E7%94%A8+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 職場"
+    url: "https://news.google.com/rss/search?q=%E3%83%91%E3%83%AF%E3%83%8F%E3%83%A9+OR+%E3%82%AB%E3%82%B9%E3%83%8F%E3%83%A9+OR+%E9%95%B7%E6%99%82%E9%96%93%E5%8A%B4%E5%83%8D+OR+%E3%83%86%E3%83%AC%E3%83%AF%E3%83%BC%E3%82%AF+OR+%E5%85%AC%E7%A7%81%E6%B7%B7%E5%90%8C+OR+%E7%A7%81%E7%9A%84%E6%B5%81%E7%94%A8+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 学説・未知"
+    url: "https://news.google.com/rss/search?q=%E5%AE%9A%E8%AA%AC+OR+%E6%96%B0%E8%AA%AC+OR+%E9%80%9A%E8%AA%AC+OR+%E8%A6%86%E3%81%99+OR+%E7%A0%94%E7%A9%B6%E4%B8%8D%E6%AD%A3+OR+%E6%83%B3%E5%AE%9A%E5%A4%96+OR+%E6%9C%AA%E8%A7%A3%E6%98%8E+OR+%E5%8B%95%E7%89%A9%E3%81%AE%E7%9F%A5%E8%83%BD+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 世相"
+    url: "https://news.google.com/rss/search?q=%E8%AC%9D%E7%BD%AA%E4%BC%9A%E8%A6%8B+OR+%E5%89%8D%E8%A8%80%E6%92%A4%E5%9B%9E+OR+%E4%B8%80%E8%BB%A2+OR+%E8%BB%A2%E5%A3%B2+OR+%E8%A1%8C%E5%88%97+OR+%E8%B2%B7%E3%81%84%E5%8D%A0%E3%82%81+OR+%E4%BE%BF%E4%B9%97%E5%80%A4%E4%B8%8A%E3%81%92+OR+%E8%AA%87%E5%A4%A7%E5%BA%83%E5%91%8A+when:2d&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News 検索 医療"
+    url: "https://news.google.com/rss/search?q=%E9%81%8E%E5%89%B0%E8%A8%BA%E7%99%82+OR+%E8%AA%A4%E8%A8%BA+OR+%E3%83%97%E3%83%A9%E3%82%BB%E3%83%9C+OR+%E5%8C%BB%E7%99%82%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9+OR+%E5%81%A5%E5%BA%B7%E6%B3%95+OR+%E6%B0%91%E9%96%93%E7%99%82%E6%B3%95+when:2d&hl=ja&gl=JP&ceid=JP:ja"
 
 # --- 重要度スコアリングの重み ---
 # モンテーニュは「人間の性が露わになる出来事」を好んで論じる。
@@ -185,6 +205,12 @@ exclude_keywords:
   - "殺害"
   - "刺殺"
   - "殺人"
+  # --- 機械翻訳・投稿まとめの配信元(2026-11-05、ベーコンと同じ) ---
+  - "Mezha.net"
+  - "Vietnam.vn"
+  - "Informat.ro"
+  - "LALALA USA"
+  - "Howl.Link"
   # --- マキャベリ側の領分(国際情勢・国内政治・経済) ---
   - "首相"
   - "内閣"
