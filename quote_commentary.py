@@ -298,6 +298,10 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
         raise ValueError(f"字数が範囲外({len(text)}字)")
     if text.count("。") > 1:
         raise ValueError("一文になっていない")
+    # 実例(2026-11-05): 見出しの問い「日本はまだ要求のむ余地ある国？」を受けて
+    # 「…関税の要求余地がある国なのか。」と、事実を述べずに問いで終わる導入文が通った
+    if re.search(r"(?:のか|うか|すか|ないか)。$", text):
+        raise ValueError("問いの形で終わっている")
     # 見出しにもある語は指示の言葉の混入ではない(実例: 見出し「…太陽光パネルの材料に追加関税」の「材料」で全候補が落ちた)
     metas = [w for w in _META.split("|") + list(bot.meta_words) if w not in source]
     m = re.search("|".join(re.escape(w) for w in metas), text) if metas else None
