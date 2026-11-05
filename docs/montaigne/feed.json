@@ -116,43 +116,6 @@
     "timestamp": "2026-11-05T16:17:00+00:00"
   },
   {
-    "id": "31ae0955b4e6",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QMjVhN0xGSy1RdGt3TGJ2VGhUZDhiZDNsZWJXN0hTY25oMElHRVd3Zy1lWnZfUnFNblBzdk8xcm9RZUZlc3hCQUhsLU94MDVWbzhLcE9VY3l0WmJNdlow?oc=5\n『日本人ファーストは差別主義だ』と、猛烈な勢いで言われた来た男性の話をするという。\n「私はすべての人間を同胞と思い、フランス人を抱擁するようにポーランド人をも抱擁する。国民としての絆を、普遍的で共通の絆より後に置くのだ。」\n『エセー III.9「むなしさについて」』",
-    "theme": "autrui",
-    "score": 8,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "「日本人ファーストは差別主義、外国人排外主義だ」と、猛烈な勢いで言われた来た男性と話します。 - 選挙ドットコム",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QMjVhN0xGSy1RdGt3TGJ2VGhUZDhiZDNsZWJXN0hTY25oMElHRVd3Zy1lWnZfUnFNblBzdk8xcm9RZUZlc3hCQUhsLU94MDVWbzhLcE9VY3l0WmJNdlow?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui"
-    ],
-    "quote_id": "III.9b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:33:47.034498+00:00",
-    "publish_at": "2026-11-05T13:17:00+00:00",
-    "timestamp": "2026-11-05T13:17:00+00:00"
-  },
-  {
-    "id": "5a2b7b2542d2",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rbGxOSEJYc3lDOFprMndfY3VYTVhfSm5WVTZGQ2s2VW9EbkFGU3IzM2ZaTzNfSmRuSHNMSkZXWmgwM1hrM0JLaWl3SDlvXzU5X2pKVTlWbVhrRTNFV1QzdGh1aXU?oc=5\n第40回の『同宗連』で、狭山事件の再審に向けた思いを共有し、現地で確定判決の矛盾を確認した。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
-    "theme": "lois",
-    "score": 9,
-    "source": "Google News 検索 裁き",
-    "source_title": "第40回「同宗連」狭山現地調査＞狭山再審へ思い共有～現地で確定判決の矛盾確認：最新情報 - 部落解放同盟中央本部",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rbGxOSEJYc3lDOFprMndfY3VYTVhfSm5WVTZGQ2s2VW9EbkFGU3IzM2ZaTzNfSmRuSHNMSkZXWmgwM1hrM0JLaWl3SDlvXzU5X2pKVTlWbVhrRTNFV1QzdGh1aXU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "inconstance"
-    ],
-    "quote_id": "III.13n",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:30:44.593696+00:00",
-    "publish_at": "2026-11-05T10:17:00+00:00",
-    "timestamp": "2026-11-05T10:17:00+00:00"
-  },
-  {
     "id": "6eb5b84485cb",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wTUxsU09iMUVtNUY2TmRGWXU5cDlYelNMSXIzUmhnQ2xYQzNBNnZBMVdiWkViN0psdTBPSHZYTi1yeXk1cF85TWZlc0JWcUhQQm5CRzY1ZDFYX1EydjFlQmpWbDV5TmswMnJ6eUpwUGhRUzVRNmc?oc=5\n兵庫の漁船船長らはインドネシア人技能実習生の顔にわさび塗ったかと疑われ逮捕されたという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
     "theme": "cruaute",
