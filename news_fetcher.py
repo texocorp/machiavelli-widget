@@ -28,7 +28,8 @@ def fetch_all(config_path: str = "config.yaml", per_feed_limit: int = 10) -> lis
         except Exception as e:
             print(f"[WARN] フィード取得失敗: {src['name']} ({e})")
             continue
-        for entry in feed.entries[:per_feed_limit]:
+        # 取得元ごとに limit を書けば、その件数に絞る(マキャベリの国内政治のように「少量だけ」加えるため)
+        for entry in feed.entries[:min(src.get("limit", per_feed_limit), per_feed_limit)]:
             title = clean_news_text(getattr(entry, "title", "").strip())
             summary = clean_news_text(
                 getattr(entry, "summary", getattr(entry, "description", "")).strip()

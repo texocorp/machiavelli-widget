@@ -69,7 +69,7 @@ def main():
     ranked = rank_news(
         items,
         scoring_cfg["weights"],
-        top_n=40,
+        top_n=len(items),   # 2026-11-05: 上位40件の制限をなくす(試し済みを除くと数件しか残らなかった)
         exclude_keywords=scoring_cfg["exclude_keywords"],
     )
     # 【ストック方式】起動された回に、表示の時刻を割り当てた論評をまとめて作る(feed_stock.py)。
