@@ -150,6 +150,11 @@ FIT_SCHEMA = {"type": "object",
 
 SCENE_POOL = 60     # 場面の一覧に載せる引用の数(語の一致の順に上から)
 SCENE_PICKS = 3     # 一覧から選ばせる数
+SCENE_CANDIDATES_TO_SCORE = 5   # 場面で選んだ3件と、従来の順の2件(試験では、場面で選ばれなかった候補が3点になることはまれだった)
+# 場面の一覧から選ばれた候補は、採点2点(はっきり当てはまる)でも試す。当てはまりは最後に校閲が確かめ直す。
+# 試験(2026-11-05)では、3点だけに絞ると14件すべてが見送りになり、2点の候補には
+# 「北朝鮮の『荒唐無稽なデマだ』に『根拠なき断言で注目を集める論者』」のような妥当なものも含まれていた
+SCENE_MIN_FIT = 2
 
 SCENE_PROMPT = """次のニュースに、{author}の一節を添えて論評する。
 下の一覧は、それぞれの一節が当てはまる場面の説明である。このニュースに働いている人の心や言葉の動きに、
@@ -174,7 +179,7 @@ def scene_candidates(bot: Bot, item: NewsItem, reading: dict) -> list:
     """
     pool = [q for q in bot.rank(item, SCENE_POOL) if q.get("scene")]
     if len(pool) <= SCENE_PICKS:
-        return bot.rank(item, CANDIDATES_TO_SCORE)
+        return [], bot.rank(item, CANDIDATES_TO_SCORE)
     title, _ = mtg._facts(item)
     scenes = "\n".join(f"{i}. {q['scene']}" for i, q in enumerate(pool, 1))
     schema = {"type": "object",
@@ -191,7 +196,7 @@ def scene_candidates(bot: Bot, item: NewsItem, reading: dict) -> list:
     LAST_TRACE["scene_picks"] = [q["id"] for q in picked]
     print(f"[場面] {' '.join(q['id'] for q in picked)}")
     rest = [q for q in pool if q not in picked]
-    return (picked + rest)[:CANDIDATES_TO_SCORE]
+    return picked, (picked + rest)[:SCENE_CANDIDATES_TO_SCORE]
 
 
 def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
@@ -205,7 +210,10 @@ def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
     title, summary = mtg._facts(item)
     src = mtg._compact(f"{title}{summary}")
     LAST_TRACE["quote_candidates"] = []
-    candidates = scene_candidates(bot, item, reading) if bot.scene_pick else bot.rank(item, CANDIDATES_TO_SCORE)
+    if bot.scene_pick:
+        picked, candidates = scene_candidates(bot, item, reading)
+    else:
+        picked, candidates = [], bot.rank(item, CANDIDATES_TO_SCORE)
     for q in candidates:
         _check_time()
         data = mtg._ollama_json(FIT_PROMPT.format(author=bot.author, title=title, facts=reading["facts"],
@@ -217,7 +225,7 @@ def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
             fit = 0  # 当てはまる主体を見出しの中に示せない(見出しに無い主体を想定した)
         LAST_TRACE["quote_candidates"].append((q["id"], fit, actor, data.get("common", "")))
         print(f"[採点] {q['id']} {fit}点 主体={actor} … {data.get('common', '')}")
-        if fit >= MIN_FIT:
+        if fit >= (SCENE_MIN_FIT if q in picked else MIN_FIT):
             yield q, actor
 
 
