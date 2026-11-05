@@ -20,47 +20,6 @@
     "timestamp": "2026-11-05T08:17:00+00:00"
   },
   {
-    "id": "45fe6044612a",
-    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS21WT2M2MlFSdGc5TzRHODN2UTh0bHpOT2s1aHdtc0RWUGhsLWNSN1cwNXZiRDFhZGUwS3JuTDJxZDdJLUNoM0hlSlVWNmVhODN1SWx0UDZDa2gzdm1uRHFWSGZMUVRMR00xVHE0b1dYTTFkUkwxSW03a0VoVTZTSzhCazB0T2Z2OGlCTmVR?oc=5\n全北警察が有権者装い世論調査を行った件で、167人が送検されたという。\n「自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。」\n『随筆集』第22篇「狡猾について」",
-    "original": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 9,
-    "source": "Google News 世論・印象",
-    "source_title": "共に民主党党内予備選の世論調査で有権者装う…全北警察、167人送検 - 조선일보",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS21WT2M2MlFSdGc5TzRHODN2UTh0bHpOT2s1aHdtc0RWUGhsLWNSN1cwNXZiRDFhZGUwS3JuTDJxZDdJLUNoM0hlSlVWNmVhODN1SWx0UDZDa2gzdm1uRHFWSGZMUVRMR00xVHE0b1dYTTFkUkwxSW03a0VoVTZTSzhCazB0T2Z2OGlCTmVR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E22b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T03:28:36.614498+00:00",
-    "publish_at": "2026-11-05T05:17:00+00:00",
-    "timestamp": "2026-11-05T05:17:00+00:00"
-  },
-  {
-    "id": "8f34257decc1",
-    "text": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5scGpQeVVxQmlmMTBWakZZdy1lRThWVG9hZnJNLVlFVmZTSmV3XzNyYnVjYWlNRGwxdzRqdHJEemtScnM2bDZtbTRVbUROWXhob0pCeWFFcG5JN0l2WUJqOGVmb3lFVXA5Y3VJ?oc=5\n岡本さゆり市議は保身の謝罪としか見えない発言をし、お母様はそれを許せないと強く叫んだという。\n「人は、真であってほしいと願うことを、むしろ信じるものだ。」\n『ノヴム・オルガヌム』第1巻 アフォリズム49",
-    "original": "… quod enim mavult homo verum esse, id potius credit.",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "デマ拡散の岡本さゆり市議「保身の謝罪」。お母様の痛切な叫び「絶対に許しません」 Heart (ac40zvlr7H) - Unisba Media",
-    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5scGpQeVVxQmlmMTBWakZZdy1lRThWVG9hZnJNLVlFVmZTSmV3XzNyYnVjYWlNRGwxdzRqdHJEemtScnM2bDZtbTRVbUROWXhob0pCeWFFcG5JN0l2WUJqOGVmb3lFVXA5Y3VJ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "NO1.49b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T02:38:19.356316+00:00",
-    "publish_at": "2026-11-05T02:38:19.356316+00:00",
-    "timestamp": "2026-11-05T02:38:19.356316+00:00"
-  },
-  {
     "id": "d60e22c02384",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5\nゼレンスキー氏は『核攻撃』の偽情報に対し、ロシアがシステムを攻撃したと発言しているという。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
     "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",

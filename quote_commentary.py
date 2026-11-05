@@ -359,11 +359,12 @@ def _check_subject(text: str, source: str) -> None:
 
 REVIEW_PROMPT = mtg.REVIEW_PROMPT + """
 opinion: 導入文に、見出しに無い書き手の評価・推測(「〜すぎる」「〜に惑わされ」「〜を狙って」「〜の表れ」など)が入っているか
+same_doer: 導入文で、それぞれの行為をした者が見出しと同じか(見出しでは別の者がした行為を、主語のしたこととして書いていれば false。例えば見出し「…で有権者装う…警察、167人送検」に「警察が有権者を装い」と書くのは false)
 fits: 導入文の後に一節を続けて読んだとき、一節がこの出来事について筋の通ったことを言っているか(一節の話題が出来事と違う、例えば政治の一節を事故やスポーツの出来事に添えているなら false)"""
 
 REVIEW_SCHEMA = {"type": "object",
-                 "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion", "fits")},
-                 "required": ["coherent", "on_topic", "hurts_victims", "opinion", "fits"]}
+                 "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion", "same_doer", "fits")},
+                 "required": ["coherent", "on_topic", "hurts_victims", "opinion", "same_doer", "fits"]}
 
 
 def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
@@ -379,6 +380,8 @@ def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
                                  ("記事に沿っていない", not r.get("on_topic")),
                                  ("被害者を責める響き", r.get("hurts_victims")),
                                  ("書き手の評価が混ざっている", r.get("opinion")),
+                                 # 実例(2026-11-05): 「全北警察が有権者装い世論調査を行った件で、167人が送検された」
+                                 ("行為の主を取り違えている", not r.get("same_doer")),
                                  # 選ぶ工程の採点とは別の問い方で、引用の当てはまりを確かめ直す
                                  # (実例: 試合中の事故の記事に、採点3点の「政治の事柄においては…」)
                                  ("引用が出来事に合わない", not r.get("fits"))) if bad]
