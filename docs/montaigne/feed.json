@@ -1,25 +1,5 @@
 [
   {
-    "id": "74ff2d120237",
-    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVFc1ZTE2SlZoeGJkVndIRTl4elZ4Q2YtYnNlRURLVi1CemRaTGw5SVlRSmFIMjVDTUg5NHpyT1VBaDZPdTZLQW0wM1pNQ21NdlllVk95T2NOQ1lfYUpmMnJxcVpKc2dSSWtZZl9CZlROaFZxTGJ4bzl3YWZCRExTaWJILUlhT1RRMHZ5MA?oc=5\n維新の藤田氏が心変わりの理由を問われ、民改の小川氏は政策の一貫性をお願いしているという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
-    "theme": "lois",
-    "score": 2,
-    "source": "Google News 国内",
-    "source_title": "維新・藤田氏、旧民主の比例80減巡り「心変わりの理由を」民改・小川氏に政策一貫性促す - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVFc1ZTE2SlZoeGJkVndIRTl4elZ4Q2YtYnNlRURLVi1CemRaTGw5SVlRSmFIMjVDTUg5NHpyT1VBaDZPdTZLQW0wM1pNQ21NdlllVk95T2NOQ1lfYUpmMnJxcVpKc2dSSWtZZl9CZlROaFZxTGJ4bzl3YWZCRExTaWJILUlhT1RRMHZ5MA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "nouveaute",
-      "inconstance"
-    ],
-    "quote_id": "II.1b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:06:25.934295+00:00",
-    "publish_at": "2026-11-05T10:17:00+00:00",
-    "timestamp": "2026-11-05T10:17:00+00:00"
-  },
-  {
     "id": "6eb5b84485cb",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wTUxsU09iMUVtNUY2TmRGWXU5cDlYelNMSXIzUmhnQ2xYQzNBNnZBMVdiWkViN0psdTBPSHZYTi1yeXk1cF85TWZlc0JWcUhQQm5CRzY1ZDFYX1EydjFlQmpWbDV5TmswMnJ6eUpwUGhRUzVRNmc?oc=5\n兵庫の漁船船長らはインドネシア人技能実習生の顔にわさび塗ったかと疑われ逮捕されたという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
     "theme": "cruaute",

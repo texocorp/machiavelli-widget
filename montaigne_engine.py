@@ -738,12 +738,13 @@ REVIEW_PROMPT = """あなたは新聞の校閲係である。ニュースの導�
 次に答えよ。
 coherent: 導入文は、一文として意味がまっすぐ通り、主語と述語が噛み合っているか
 on_topic: 導入文は、見出しの出来事について述べているか
-hurts_victims: 導入文と一節を続けて読むと、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるか"""
+hurts_victims: 導入文と一節を続けて読むと、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるか
+same_doer: 導入文で、それぞれの行為をした者・された者が見出しと同じか(見出しでは別の者がした行為を主語のしたこととして書いている、または問う側と問われる側を入れ替えていれば false。例えば見出し「A氏、B氏に説明促す」に「A氏が説明を求められ」と書くのは false)"""
 
 REVIEW_SCHEMA = {
     "type": "object",
-    "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims")},
-    "required": ["coherent", "on_topic", "hurts_victims"],
+    "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "same_doer")},
+    "required": ["coherent", "on_topic", "hurts_victims", "same_doer"],
 }
 
 
@@ -755,7 +756,10 @@ def review(text: str, item: NewsItem, quote: dict, author: str = "モンテー�
                      JUDGE_OPTIONS, "review")
     problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
                                  ("記事に沿っていない", not r.get("on_topic")),
-                                 ("被害者を責める響き", r.get("hurts_victims"))) if bad]
+                                 ("被害者を責める響き", r.get("hurts_victims")),
+                                 # 実例(2026-11-05): 見出し「維新・藤田氏…『心変わりの理由を』民改・小川氏に政策一貫性促す」に
+                                 # 「藤田氏が心変わりの理由を問われ、小川氏は政策の一貫性をお願いしている」
+                                 ("行為の主を取り違えている", not r.get("same_doer"))) if bad]
     if problems:
         raise ValueError(f"校閲で不合格: {problems}")
 
