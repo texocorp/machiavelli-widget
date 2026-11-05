@@ -84,7 +84,7 @@ def build_cases(live: int) -> list:
 def main():
     # 【試験ブランチ専用】マキャベリ・ベーコンの試験に差し替える(main には入れない)
     import sibling_lab
-    sys.argv = [a for a in sys.argv if not a.startswith("--live")][:5] + ["--live", "2"]
+    sys.argv = [a for a in sys.argv if not a.startswith("--live")][:5] + ["--live", "6", "--machiavelli-fixed", "3", "--machiavelli-live", "0"]
     return sibling_lab.main()
     ap = argparse.ArgumentParser()
     ap.add_argument("--shard", type=int, default=0)

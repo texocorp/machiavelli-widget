@@ -1,62 +1,23 @@
 [
   {
-    "id": "4f1d6f5a4684",
-    "timestamp": "2026-11-03T18:32:31.927597+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tWm1rNTRkY09fbWVIczZEOXRRdFlSY0VXbF9zeUdGb3BNWHJ4Q08zN2IwU1RMNTlfeGNtckZtd1owV2hEUlJqNkhLNlNhdWREU05MUU1OUWVkdWlfcUR3Ty1Iemk5V1lLUEp6Z3FJNTNpSllDS2t2ZmhDcDRXckE?oc=5\nアスリートをネットの誹謗中傷からどう守るか？、東大など…の広がり方には、確かめることよりも語り広めることが先に立つ、世評の性質が表れている。\n「ところが学者たちは、まことに怠惰で安易にも、経験についての噂、いわばその風評やそよ風を、自説を打ち立て裏づけるために取り込み、しかもそれに正規の証言の重みを与えてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム98",
-    "original": "Sed contra homines docti (supini sane et faciles) rumores quosdam experientiae, et quasi famas et auras ejus, ad philosophiam suam vel constituendam vel confirmandam exceperunt, atque illis nihilominus pondus legitimi testimonii attribuerunt.",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News SNS・報道",
-    "source_title": "アスリートをネットの誹謗中傷からどう守るか？ 東大などが競技活動への影響を徹底検証（スポーティングニュース日本版） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tWm1rNTRkY09fbWVIczZEOXRRdFlSY0VXbF9zeUdGb3BNWHJ4Q08zN2IwU1RMNTlfeGNtckZtd1owV2hEUlJqNkhLNlNhdWREU05MUU1OUWVkdWlfcUR3Ty1Iemk5V1lLUEp6Z3FJNTNpSllDS2t2ZmhDcDRXckE?oc=5",
-    "generator": "template",
-    "themes": [
-      "fama",
-      "experientia"
-    ],
-    "quote_id": "NO1.98",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "1300d564fe7a",
-    "timestamp": "2026-11-03T08:12:06.386712+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12WlVFTGRraXVvNjdWSllBMEVidldHU1FIS0s2TVVtai1mV0t4LVE2Z3BuRjZuZUxOU0x4T09PcV9MYV9fVmVrUE5wb25QMXRXeVR0Z1htUlZMa2x0SW9xRWJZaTBtSEE?oc=5\nラーメン店「蔦」大西祐貴さん死因めぐる“誤情報”に注意…に見えるのは、見せたい姿と実際の姿との食い違いである。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
-    "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
+    "id": "d60e22c02384",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5\nゼレンスキー氏は『核攻撃』の偽情報に対し、ロシアがシステムを攻撃したと発言しているという。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
+    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
     "original_lang": "en",
     "theme": "simulatio",
-    "score": 12,
+    "score": 8,
     "source": "Google News 偽情報・言説",
-    "source_title": "ラーメン店「蔦」大西祐貴さん死因めぐる“誤情報”に注意喚起「どうか事実と異なる情報の拡散ではなく…」 - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12WlVFTGRraXVvNjdWSllBMEVidldHU1FIS0s2TVVtai1mV0t4LVE2Z3BuRjZuZUxOU0x4T09PcV9MYV9fVmVrUE5wb25QMXRXeVR0Z1htUlZMa2x0SW9xRWJZaTBtSEE?oc=5",
-    "generator": "template",
+    "source_title": "ウクライナとロシアで「核攻撃」の偽情報、ゼレンスキー氏「ロシアが我々のシステムを攻撃」 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
     "themes": [
-      "simulatio",
-      "fama"
+      "simulatio"
     ],
-    "quote_id": "E1b",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "0de6afe2a23c",
-    "timestamp": "2026-11-03T02:27:29.070662+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBV2NfeDl0dW5PVWJpM0VyVFlZMHN6YXY3UFVzckxpeDFPaUktZHVQS25Qc3dpWDVmYkUzblNXRmZlbFp4WEJHWkhEZmg5dlNmbmFfNDhrUFhhN0txcVVYUFhucw?oc=5\nＳＮＳで揺らぐ表現の自由、偽情報拡散、の広がり方には、確かめることよりも語り広めることが先に立つ、世評の性質が表れている。\n「それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。」\n『随筆集』断章「風評について」",
-    "original": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 14,
-    "source": "Google News 偽情報・言説",
-    "source_title": "ＳＮＳで揺らぐ表現の自由 偽情報拡散、自主規制難しく―識者「国が情報空間に関与を」・憲法公布８０年 - 時事ドットコム",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBV2NfeDl0dW5PVWJpM0VyVFlZMHN6YXY3UFVzckxpeDFPaUktZHVQS25Qc3dpWDVmYkUzblNXRmZlbFp4WEJHWkhEZmg5dlNmbmFfNDhrUFhhN0txcVVYUFhucw?oc=5",
-    "generator": "template",
-    "themes": [
-      "simulatio",
-      "fori",
-      "fama",
-      "novitas"
-    ],
-    "quote_id": "E59b",
-    "quote_choice": "llm"
+    "quote_id": "E15a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T01:44:39.849345+00:00",
+    "publish_at": "2026-11-04T01:44:39.849345+00:00",
+    "timestamp": "2026-11-04T01:44:39.849345+00:00"
   },
   {
     "id": "c89688fc8405",
@@ -131,46 +92,6 @@
       "novitas"
     ],
     "quote_id": "NO1.88",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "1ec4373ee1b6",
-    "timestamp": "2026-11-02T18:14:08.396324+00:00",
-    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XMUc5QU9MaXV2S3BVVHBPWnluRVMtOFdULUs5VDlqMng3TFA0M2QzdF9IUHpncGh5NlgtUmN4Ti1VZVRuakRhdVg3WWR5b3FhVjNXdzBRenNvdWZtR0wtVU9VTjdmckdMY2t5aVBsd1o4Q2EwNWtn?oc=5\n次世代のAI「AIエージェント」とは－従来の生成AIと…の行方を決めるのは理念ではなく、誰がその仕組みを理解し、扱えるかである。\n「いかなる帝国も、いかなる宗派も、いかなる星も、これらの機械的発明以上の力と、いわば影響を、人間の事柄に及ぼしたとは思われないほどである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
-    "original": "… ut non imperium aliquod, non secta, non stella, majorem efficaciam et quasi influxum super res humanas exercuisse videatur, quam ista mechanica exercuerunt.",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 10,
-    "source": "Google News AI・研究政策",
-    "source_title": "次世代のAI「AIエージェント」とは－従来の生成AIとの違いを分かりやすく解説 - ニッセイ基礎研究所",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XMUc5QU9MaXV2S3BVVHBPWnluRVMtOFdULUs5VDlqMng3TFA0M2QzdF9IUHpncGh5NlgtUmN4Ti1VZVRuakRhdVg3WWR5b3FhVjNXdzBRenNvdWZtR0wtVU9VTjdmckdMY2t5aVBsd1o4Q2EwNWtn?oc=5",
-    "generator": "template",
-    "themes": [
-      "potentia",
-      "studium",
-      "novitas",
-      "specus"
-    ],
-    "quote_id": "NO1.129b",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "050f7d2b5499",
-    "timestamp": "2026-11-02T18:02:54.319493+00:00",
-    "text": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUkFZQzBDdGdUYjJ1X2xWeHI5eTdETjlXQjZ1M1NOeHNtdzJwa2ppZTJUYzdIS1U5SGNtVi1sV20wZ1U2NzJ1eUpZTm1PZ25GeUlyR2ZRcjJ3Z2o5dThpdy12Q2c3d3lBUVBHUlJ5eXVtanZfTndUa3RXd0doWjBLT9IBgAFBVV95cUxOUkFZQzBDdGdUYjJ1X2xWeHI5eTdETjlXQjZ1M1NOeHNtdzJwa2ppZTJUYzdIS1U5SGNtVi1sV20wZ1U2NzJ1eUpZTm1PZ25GeUlyR2ZRcjJ3Z2o5dThpdy12Q2c3d3lBUVBHUlJ5eXVtanZfTndUa3RXd0doWjBLTw?oc=5\n「無断生成AI」反対表明してた声優が自身のSNSで生成…をめぐる反響は、評判の川が軽いものを浮かべ、重いものを沈める様をそのまま映している。\n「ひとりで離れて働く習慣の力が大きいとすれば、結びつき、寄り合い、集団をなした習慣の力は、はるかに大きい。」\n『随筆集』第39篇「習慣と教育について」",
-    "original": "But if the force of custom simple and separate, be great, the force of custom copulate and conjoined and collegiate, is far greater.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 11,
-    "source": "Google News AI・研究政策",
-    "source_title": "「無断生成AI」反対表明してた声優が自身のSNSで生成AIイラスト公開で波紋 - ｄメニューニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUkFZQzBDdGdUYjJ1X2xWeHI5eTdETjlXQjZ1M1NOeHNtdzJwa2ppZTJUYzdIS1U5SGNtVi1sV20wZ1U2NzJ1eUpZTm1PZ25GeUlyR2ZRcjJ3Z2o5dThpdy12Q2c3d3lBUVBHUlJ5eXVtanZfTndUa3RXd0doWjBLT9IBgAFBVV95cUxOUkFZQzBDdGdUYjJ1X2xWeHI5eTdETjlXQjZ1M1NOeHNtdzJwa2ppZTJUYzdIS1U5SGNtVi1sV20wZ1U2NzJ1eUpZTm1PZ25GeUlyR2ZRcjJ3Z2o5dThpdy12Q2c3d3lBUVBHUlJ5eXVtanZfTndUa3RXd0doWjBLTw?oc=5",
-    "generator": "template",
-    "themes": [
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "E39b",
     "quote_choice": "llm"
   }
 ]

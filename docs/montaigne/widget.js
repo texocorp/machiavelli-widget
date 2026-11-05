@@ -163,6 +163,21 @@
     container.appendChild(footer);
   }
 
+  // 表示の時刻(publish_at)を過ぎた論評だけを、新しい順に返す。
+  // 論評は起動された回にまとめて作られ、それぞれに表示してよい時刻が付いている(feed_stock.py)。
+  // 時刻の判定は閲覧者のブラウザで行うので、生成の仕組みが何時間止まっていても、時刻どおりに表示が進む。
+  // publish_at の無い古い項目は timestamp で判定する。
+  function visibleEntries(data) {
+    var now = Date.now();
+    var timeOf = function (e) {
+      var t = Date.parse((e && (e.publish_at || e.timestamp)) || "");
+      return isNaN(t) ? 0 : t;
+    };
+    return (Array.isArray(data) ? data : [])
+      .filter(function (e) { return timeOf(e) <= now; })
+      .sort(function (a, b) { return timeOf(b) - timeOf(a); });
+  }
+
   function load() {
     var container = ensureContainer();
     fetch(FEED_URL, { cache: "no-store" })
@@ -171,7 +186,7 @@
         return res.json();
       })
       .then(function (data) {
-        render(container, data);
+        render(container, visibleEntries(data));
       })
       .catch(function (err) {
         container.innerHTML =

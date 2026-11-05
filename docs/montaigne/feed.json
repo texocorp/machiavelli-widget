@@ -1,5 +1,134 @@
 [
   {
+    "id": "eaf4d1f1a551",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5\n研究者たちが、AIのブラックボックスに関する定説を覆すような新しい仮説を唱えているという。\n「そこから何を学ぶべきか。二つの説のどちらが正しいかに心を煩わすには及ばぬ、ということではないか。千年後に第三の説が現れて、先の二つを覆さぬと誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "savoir",
+    "score": 8,
+    "source": "Google News 科学",
+    "source_title": "AIの「ブラックボックス」は存在しない？ 定説を覆す新仮説と研究者たちの激論 - Forbes JAPAN",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "II.12f",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T21:56:30.478350+00:00",
+    "publish_at": "2026-11-04T21:56:30.478350+00:00",
+    "timestamp": "2026-11-04T21:56:30.478350+00:00"
+  },
+  {
+    "id": "c882d2177326",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUGxyX0loUXFERGVfOHFPZFU2aktuNzBhU0txRzM5SXJuV3Y3R3VJZVUwVnhiQVQtX1R1dkRGUnczU3U4T2JaRnE0SmwzRFE4N05oaTRMOXozeHlVX2UwREpvRVd6VDRBXzdqc1I5ZW1qWHI3Qnc2UWpQNFhlcTQ?oc=5\n精神科医は、ぬい活を精神的な幼児化の表れと指摘し、根底には強い孤独感があると語ったという。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
+    "theme": "opinion",
+    "score": 4,
+    "source": "Google News 国内",
+    "source_title": "「ぬい活」は「精神的な幼児化の表れ」 精神科医が指摘「根底に強い孤独感が」（デイリー新潮） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUGxyX0loUXFERGVfOHFPZFU2aktuNzBhU0txRzM5SXJuV3Y3R3VJZVUwVnhiQVQtX1R1dkRGUnczU3U4T2JaRnE0SmwzRFE4N05oaTRMOXozeHlVX2UwREpvRVd6VDRBXzdqc1I5ZW1qWHI3Qnc2UWpQNFhlcTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "savoir",
+      "soi"
+    ],
+    "quote_id": "I.39c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T06:38:48.827953+00:00",
+    "publish_at": "2026-11-04T10:17:00+00:00",
+    "timestamp": "2026-11-04T10:17:00+00:00"
+  },
+  {
+    "id": "5b92c59a9d48",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ESjNic2tadEtRRDJSUGo4SnNaXzRfMExJakVqeEF1dzVIcFR3aUdCX082UlZsejhZQ2NNWk1ERnhtbGcyOUNjWGQ4MkJwLXJ5dXRVdGhqTzZlQXBjcnlwalpPSDFGMzIyWWZzQm5yMXFXcGFjWllmcENQcE5icFU?oc=5\nNASAは宇宙望遠鏡の軌道上昇などで企業に情報提供を依頼し、民間の力で延命への道を歩もうとしているという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "presomption",
+    "score": 6,
+    "source": "Google News 科学",
+    "source_title": "民間の力で延命へ？ NASAがハッブル宇宙望遠鏡の軌道上昇などで企業に情報提供を依頼（sorae 宇宙へのポータルサイト） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ESjNic2tadEtRRDJSUGo4SnNaXzRfMExJakVqeEF1dzVIcFR3aUdCX082UlZsejhZQ2NNWk1ERnhtbGcyOUNjWGQ4MkJwLXJ5dXRVdGhqTzZlQXBjcnlwalpPSDFGMzIyWWZzQm5yMXFXcGFjWllmcENQcE5icFU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "profit"
+    ],
+    "quote_id": "I.20b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T06:29:42.788597+00:00",
+    "publish_at": "2026-11-04T07:17:00+00:00",
+    "timestamp": "2026-11-04T07:17:00+00:00"
+  },
+  {
+    "id": "980e4ee3deb6",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jSXJCTUtxWjZSejZORFM1ZkNYVnk4MzVfS0xhUjBaTkxlQ0s2UlJzaTBkRGtWLXJMalFYRE9Sa19VUjlaa3RrRjB2QWc0QzJVSVhpTzBhODgtX3BvcEQtQzJfWEM?oc=5\n健診の結果から、5年から15年後の生活習慣病リスクを確率予測する分析が行われたという。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 健康",
+    "source_title": "５～１５年後の生活習慣病リスク、ＡＩで分析…健診結果から確率予測 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jSXJCTUtxWjZSejZORFM1ZkNYVnk4MzVfS0xhUjBaTkxlQ0s2UlJzaTBkRGtWLXJMalFYRE9Sa19VUjlaa3RrRjB2QWc0QzJVSVhpTzBhODgtX3BvcEQtQzJfWEM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "III.10d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T01:38:40.663896+00:00",
+    "publish_at": "2026-11-04T04:17:00+00:00",
+    "timestamp": "2026-11-04T04:17:00+00:00"
+  },
+  {
+    "id": "cc87757f5ad6",
+    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBENDhfWUppaHFiMy1MT1V4bWtGN0lKcU1sd09iX241V3Z0WWowU09jQTRyRFVHYWxIaHRGX2lsRFFCUVppT3U1ZWk3UTNnYVlTeDFsdQ?oc=5\n暖かい屋内に侵入したカメムシに対する対策や、絶対に触りたくない人が行うべき駆除方法をプロが教えるという。\n「もっともらしいことでも、絶対確実だと押しつけられると、私はそれが嫌いになる。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "nouveaute",
+    "score": 1,
+    "source": "Google News 国内",
+    "source_title": "暖かい屋内に侵入する「カメムシ」…プロが教える対策と、“絶対に触りたくない”人のための駆除方法 - Lmaga.jp",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBENDhfWUppaHFiMy1MT1V4bWtGN0lKcU1sd09iX241V3Z0WWowU09jQTRyRFVHYWxIaHRGX2lsRFFCUVppT3U1ZWk3UTNnYVlTeDFsdQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "nouveaute",
+      "peur"
+    ],
+    "quote_id": "III.11d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-04T01:31:47.883396+00:00",
+    "publish_at": "2026-11-04T01:31:47.883396+00:00",
+    "timestamp": "2026-11-04T01:31:47.883396+00:00"
+  },
+  {
+    "id": "9d2d7612224d",
+    "timestamp": "2026-11-04T00:42:33.903981+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQmt0dU1SRGxHR1VJU2VmWmpZRnQ4WXl2Wlp5X3JZSDZOSFhKanVhVXFMa2hFaFprNFpBSXNac2U3TmVDMUtWSDFaeXpBdFVQbzNyX3lHbi1janJGSkpMRWxWdUQ4dw?oc=5\n選管の説明でポスターを狭くした候補がいたが、担当者はそれを公平性に支障ないと述べたという。\n「平等は、公正の第一の要素である。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 5,
+    "source": "Google News 国内",
+    "source_title": "市長選ポスター「選管の説明」に従い１０ｃｍ幅が狭い候補が３人…担当者「一律に説明、公平性に支障ない」 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQmt0dU1SRGxHR1VJU2VmWmpZRnQ4WXl2Wlp5X3JZSDZOSFhKanVhVXFMa2hFaFprNFpBSXNac2U3TmVDMUtWSDFaeXpBdFVQbzNyX3lHbi1janJGSkpMRWxWdUQ4dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "vanite",
+      "coutume",
+      "soi"
+    ],
+    "quote_id": "I.20g",
+    "quote_choice": "llm"
+  },
+  {
+    "id": "bd68368e0bf4",
+    "timestamp": "2026-11-04T00:05:42.856114+00:00",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWWVlakhwbVdKcWR1Z2dkTWZ2eU02QnJ4dG1UemtDNENpM3NxeWI5LVdsTWtkZU1NWlgzdF85YllLUF9ab1VIZ2tqclRJTklLTlhWUU5EdFpaVlpnUU9JVHg1d08?oc=5\n重要技術戦略研究所が膨大なデータを解析し、政府に政策提言を行うという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 科学",
+    "source_title": "重要技術戦略研究所、最新研究の膨大なデータをＡＩ解析…政府に政策提言へ - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWWVlakhwbVdKcWR1Z2dkTWZ2eU02QnJ4dG1UemtDNENpM3NxeWI5LVdsTWtkZU1NWlgzdF85YllLUF9ab1VIZ2tqclRJTklLTlhWUU5EdFpaVlpnUU9JVHg1d08?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "II.17d",
+    "quote_choice": "llm"
+  },
+  {
     "id": "ba93cdb5e9bc",
     "timestamp": "2026-11-03T18:33:18.396349+00:00",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DUTNWUXFORVFGVDI0N1JrY1BGdmJZWDdhbGgyRmFFSGdYNlQ0ekFRVDlBUmluT0RhUlp4SDVWOHcxS1ppdkNCbjVEQU1WYk1hQk13Yzkxbm0xNW9LQi00cGtyZmxub0F1bkl3TXA5YXRWUVRheG5VMEcxV3dQRzA?oc=5\n生後7ヶ月の息子の赤いブツブツで医者から、1歳前なのに珍しいと衝撃的な診断を受けたという。\n「物事の大きさよりも、その目新しさのほうが、我々をその原因の探究へと駆り立てる。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
