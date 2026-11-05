@@ -1,5 +1,84 @@
 [
   {
+    "id": "217a4a948bba",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MbjlTU0UzOERkNjl0LVQ4cVVXTmJRMWY5RVZ4d1JuSWVMQXdGV3dEZi1vMFZVSVpGTkl3OXp4MEFSc1M5eUxXSnNJME5ZcGdkMl9QU3kyZjhDX1hwanJCTW5uME1tcUEtQ2dmNnVySS1Gb1RNT2xsQTBB?oc=5\nバンス副大統領は米政権中枢に問題が生じた理由を戦争だと指摘しているという。\n「敗走する敵を無秩序に追う者は、勝者から敗者に転じようとしているに等しい。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 中東",
+    "source_title": "バンス副大統領「大敗の理由は戦争」米政権中枢に“すきま風”？イラン戦争の行方は - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MbjlTU0UzOERkNjl0LVQ4cVVXTmJRMWY5RVZ4d1JuSWVMQXdGV3dEZi1vMFZVSVpGTkl3OXp4MEFSc1M5eUxXSnNJME5ZcGdkMl9QU3kyZjhDX1hwanJCTW5uME1tcUEtQ2dmNnVySS1Gb1RNT2xsQTBB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG15",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T20:02:45.996422+00:00",
+    "publish_at": "2026-11-06T09:17:00+00:00",
+    "timestamp": "2026-11-06T09:17:00+00:00"
+  },
+  {
+    "id": "6d684838a32a",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FZ1RBNXZERmJPejNvNmp2Z1haOXJVQm5mQ1k4R2l2R3FnOWJ5TDN5ZG9Ca3MxcXJEYzdRQndLSmxySGRQbzdOZEU3cnlyaUQybzRGa1BUemF2Q0VOYTVkZ3d6MA?oc=5\nトランプ氏は対イラン作戦に終結の圧力をかけ、軍事と外交で行き詰まった米中間選挙の行方を探るという。\n「民衆の性は移ろいやすい。あることを説き伏せるのは容易いが、その説得を持続させるのは難しい。」\n『君主論 cap.VI』",
+    "theme": "inganno_simulazione",
+    "score": 8,
+    "source": "Google News 検索 中東",
+    "source_title": "対イラン作戦に終結圧力 トランプ氏、軍事・外交で行き詰まり―米中間選挙 - 時事ドットコム",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FZ1RBNXZERmJPejNvNmp2Z1haOXJVQm5mQ1k4R2l2R3FnOWJ5TDN5ZG9Ca3MxcXJEYzdRQndLSmxySGRQbzdOZEU3cnlyaUQybzRGa1BUemF2Q0VOYTVkZ3d6MA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione",
+      "popolo_principe"
+    ],
+    "quote_id": "PP1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T19:56:43.231477+00:00",
+    "publish_at": "2026-11-06T06:17:00+00:00",
+    "timestamp": "2026-11-06T06:17:00+00:00"
+  },
+  {
+    "id": "8ab847be2277",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByUVJKN1B2VlU5eENFTkdtbXZ2UHR2TGhXRjhfajl2ckVhcGNjZUU4a1pnNE9SMnEtVl94ZVFPenhTTUVld3ZkWFhtS09DTW9OUnVRRnU5eHpKVURkYmVLYTltQXZ6dzVLOGJvVE9aNkgwYnp5VWFEbE1JYzA3bzA?oc=5\nウクライナがロシアの空襲警報アプリに対してサイバー攻撃を実行したという。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ、ロシアの空襲警報アプリにサイバー攻撃（毎日新聞） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByUVJKN1B2VlU5eENFTkdtbXZ2UHR2TGhXRjhfajl2ckVhcGNjZUU4a1pnNE9SMnEtVl94ZVFPenhTTUVld3ZkWFhtS09DTW9OUnVRRnU5eHpKVURkYmVLYTltQXZ6dzVLOGJvVE9aNkgwYnp5VWFEbE1JYzA3bzA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "P26",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T19:34:34.587451+00:00",
+    "publish_at": "2026-11-06T03:17:00+00:00",
+    "timestamp": "2026-11-06T03:17:00+00:00"
+  },
+  {
+    "id": "ac3fcd4baf71",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA1Y0ljeVVfMi1xOHh1aWRkQkhIb0lUZUgtbDVWazlVNlVfbmg4cFBqUUhQZjNRODJENW5YS3Rtd2J6V0xkUEM3cDNXVQ?oc=5\n中間選挙で大敗したトランプ大統領は、米国防長官の交代是非を相談する意向を示しているという。\n「真の力量ある人物は困難な時代に求められ、平穏な時代には、力量ある者ではなく、富や縁故を持つ者が重んじられる。」\n『リウィウス論 III.16』",
+    "theme": "popolo_principe",
+    "score": 9,
+    "source": "Google News 国際(World)",
+    "source_title": "米国防長官の交代是非を相談か トランプ大統領、中間選挙大敗で - 47NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA1Y0ljeVVfMi1xOHh1aWRkQkhIb0lUZUgtbDVWazlVNlVfbmg4cFBqUUhQZjNRODJENW5YS3Rtd2J6V0xkUEM3cDNXVQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "popolo_principe",
+      "consiglio",
+      "armi_proprie"
+    ],
+    "quote_id": "D3.16",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T18:52:35.693509+00:00",
+    "publish_at": "2026-11-06T00:17:00+00:00",
+    "timestamp": "2026-11-06T00:17:00+00:00"
+  },
+  {
     "id": "ee9bfa5ea6cd",
     "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxdHNmXzFodmlfa0FRZUM0b0FNNVhFVXBXYkwwQ3ZENEh5eUY3YlRoSGwyVFJ3ZFBrU0ZtV1dZSE9tRWdtbno4aE45WmJNOS1PNlE?oc=5\nロシアはウクライナとの局地停戦により、退避した住民が北部から再入国する状況が生じたという。\n「約束を破るのに、もっともらしい口実に事欠いた君主などいない。」\n『君主論 cap.XVIII』",
     "theme": "inganno_simulazione",
