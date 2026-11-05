@@ -217,4 +217,8 @@ SUSPICIOUS_SOURCES = ("Unisba",)
 
 def suspicious_source(title: str) -> bool:
     t = unicodedata.normalize("NFKC", title or "")
+    # 実例(2026-11-05): 「\u200d\u200d\u200dai 画像 生成 サイト 規制 なし ai」— 検索語を並べた宣伝ページ。
+    # ゼロ幅文字を仕込んだ見出しは、まともな報道には無い
+    if re.search("[\u200b-\u200d\u2060\ufeff]", title or ""):
+        return True
     return bool(_RANDOM_TOKEN.search(t)) or any(s in t for s in SUSPICIOUS_SOURCES)

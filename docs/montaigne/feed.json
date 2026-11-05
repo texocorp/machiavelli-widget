@@ -19,24 +19,6 @@
     "timestamp": "2026-11-06T16:17:00+00:00"
   },
   {
-    "id": "1e864ac6ea32",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uMzJJU3dib3VuX1pNQWtwdUhMREJGenhsRGt1VHlkTlE5WC1hV0pNWEE2Mm5PeFRpSTE2d1NtQ0dGQ1RDc3ZZTFVwa2t0UzRrRDYxVW5Rcl9WTnpYNlhXNG5FZTFGellqeUUxaw?oc=5\n滋賀・日野町事件の再審協議で弁護側は、検察の証拠開示対応を批判しているという。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
-    "theme": "lois",
-    "score": 5,
-    "source": "Google News 検索 裁き",
-    "source_title": "滋賀・日野町事件の再審協議、弁護側が検察の証拠開示対応を批判 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uMzJJU3dib3VuX1pNQWtwdUhMREJGenhsRGt1VHlkTlE5WC1hV0pNWEE2Mm5PeFRpSTE2d1NtQ0dGQ1RDc3ZZTFVwa2t0UzRrRDYxVW5Rcl9WTnpYNlhXNG5FZTFGellqeUUxaw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "II.5",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T18:56:23.160764+00:00",
-    "publish_at": "2026-11-06T13:17:00+00:00",
-    "timestamp": "2026-11-06T13:17:00+00:00"
-  },
-  {
     "id": "1b9245f15f37",
     "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53UW9faWNGTlJ5TVJuSDk5MTRjUDduR3kyVVZOdW81NzRiUG1ZUmdidjh0Zlk1eGFaSVlHMlR1REJDTHBoVWlhdWxPdE5WS1BVVWZhZ3FZTnBFZw?oc=5\n首里城正殿の完成を前に、古式行列や伝統の旗頭が『琉球王朝祭り首里』で競演した。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
     "theme": "coutume",
