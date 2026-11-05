@@ -1,5 +1,27 @@
 [
   {
+    "id": "7b262b1c74af",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKNlpSZTJlT1VkTU96ZG9DZlVxUWhGMDBsR2ZqcUZ4dFhVQUNXQWNWR285NE15OE9FQk1OSEpteEpDY3RFbGRDa3ZPdTZPcVU1bXJJVnJ0bXBjMmtBX09qd21MM2x2al9sd1pkYUtWZHI2dFhGWTZ6QVdIcllzMm8?oc=5\n福岡県議会の蔵内前議長は、議員辞職後初めて会見し、『ワンヘルス』という名称が風評被害になると述べるとともに、金銭授受を改めて否定した。\n「人は言葉によって交わる。だが言葉は大衆の理解に合わせて名づけられる。それゆえ悪しき不適切な名づけは、驚くべき仕方で知性を包囲する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
+    "original": "Homines enim per sermones sociantur; at verba ex captu vulgi imponuntur. Itaque mala et inepta verborum impositio miris modis intellectum obsidet.",
+    "original_lang": "la",
+    "theme": "fori",
+    "score": 9,
+    "source": "Google News 風評・噂",
+    "source_title": "福岡県議会の蔵内前議長「ワンヘルスという名称が風評被害」 金銭授受を改めて否定、議員辞職後初めて会見（西日本新聞me） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKNlpSZTJlT1VkTU96ZG9DZlVxUWhGMDBsR2ZqcUZ4dFhVQUNXQWNWR285NE15OE9FQk1OSEpteEpDY3RFbGRDa3ZPdTZPcVU1bXJJVnJ0bXBjMmtBX09qd21MM2x2al9sd1pkYUtWZHI2dFhGWTZ6QVdIcllzMm8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fori",
+      "fama",
+      "novitas"
+    ],
+    "quote_id": "NO1.43a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-05T06:51:18.059928+00:00",
+    "publish_at": "2026-11-05T11:17:00+00:00",
+    "timestamp": "2026-11-05T11:17:00+00:00"
+  },
+  {
     "id": "6cd5b4debb5a",
     "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zUDRrdHhENklnbHlpMTR1YmN5WklfM3ZvbE5yd0V0Wi1GQm9LNTdfTVpqTHI1ektsMkFGRF9ITzd2U2R1dm9weGdaUUJVbEZmNkdJbTZ6VkVKbzVLV0E?oc=5\nＢＮＰパリバ証券の河野龍太郎が、ケインズの予言が問うものについて語るという。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
     "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
