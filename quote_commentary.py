@@ -303,6 +303,10 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     m = mtg._GENERAL_WORDS.search(text)
     if m:
         raise ValueError(f"導入に評価・一般論を書いている: {m.group()!r}")
+    # 書き手の見立て(実例 2026-11-05: 「岡本さゆり市議は保身の謝罪としか見えない発言をし」)。見出しにあれば引用として認める
+    m = _IMPRESSION.search(text)
+    if m and m.group() not in source:
+        raise ValueError(f"導入に書き手の見立てを書いている: {m.group()!r}")
     words = [w for w in mtg._CONTENT_WORD.findall(reading["key_phrase"]) if w not in {"する", "した"}]
     # 長い漢語は、頭と尻の2字ずつが文にあれば触れたとみなす(「限定的空爆」→「限定的な空爆」)
     touched = lambda w: w in text or (len(w) >= 4 and w[:2] in text and w[-2:] in text)
@@ -326,6 +330,7 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     return text
 
 
+_IMPRESSION = re.compile(r"としか(?:見え|思え|言え|映ら)|ように(?:見え|思え|映)|に(?:見え|思え)る|と(?:見られ|思われ)る|らしい")
 _SUBJECT = re.compile(r"^([^、。「」『』]{1,20}?)(?:は|が)")
 # 修飾語・並列を表す助詞。主語の語の後が見出しのどこでもこれなら、その語は行為の主体ではない
 # (「イラン主張」「与野党陣営」のように漢語が続くものは主体とみなす)

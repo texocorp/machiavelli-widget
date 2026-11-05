@@ -199,3 +199,16 @@ def published_titles() -> list:
         except (OSError, ValueError):
             pass
     return out
+
+
+# 素性の疑わしい配信(2026-11-05 導入)
+# Google News の検索には、他社の記事を無断で転載・加工したらしい海外のサイトが混ざる。
+# 実例: 「デマ拡散の岡本さゆり市議「保身の謝罪」。…Heart (ac40zvlr7H) - Unisba Media」(大学のドメインに置かれた転載)。
+# 見出しの末尾の、英数字の乱数のような符号を目印にする。実在の個人を名指す記事が多く、真偽も確かめられないので試さない。
+_RANDOM_TOKEN = re.compile(r"[(（](?=[A-Za-z0-9]*\d)(?=[A-Za-z0-9]*[A-Za-z])[A-Za-z0-9]{8,}[)）]")
+SUSPICIOUS_SOURCES = ("Unisba",)
+
+
+def suspicious_source(title: str) -> bool:
+    t = unicodedata.normalize("NFKC", title or "")
+    return bool(_RANDOM_TOKEN.search(t)) or any(s in t for s in SUSPICIOUS_SOURCES)

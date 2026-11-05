@@ -103,6 +103,9 @@ def main():
         except Exception as e:
             print(f"[SKIP] 日本語に訳せないため見送り: {item.title} ({e})")
             continue
+        if feed_stock.suspicious_source(item.title):
+            print(f"[見送り] 素性の疑わしい配信: {item.title}")
+            continue
         if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
             print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
             continue

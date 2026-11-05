@@ -159,6 +159,9 @@ def main():
         if not montaigne_engine.triggered_quotes(item):
             continue  # どの箴言の引き金の語も見出しに無い(LLMを呼ばずに飛ばす)
         # 引き金の語が題材を選ぶので、キーワードの点数の下限は問わない
+        if feed_stock.suspicious_source(item.title):
+            print(f"[見送り] 素性の疑わしい配信: {item.title}")
+            continue
         if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
             print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
             continue

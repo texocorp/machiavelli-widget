@@ -135,6 +135,9 @@ def main():
             continue  # 別の配信元から届いた同じ記事
         if not is_japanese(clean_news_text(item.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
+        if feed_stock.suspicious_source(item.title):
+            print(f"[見送り] 素性の疑わしい配信: {item.title}")
+            continue
         if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
             print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
             continue
