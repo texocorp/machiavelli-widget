@@ -1,5 +1,25 @@
 [
   {
+    "id": "0cc97973ff41",
+    "text": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY3ZLWWQ1M0w2MV9zY1hnVVd3R0Jtc2dWaWdGcnFSU1otbm9Lc25kdkM3MW9fRU1RMTdLaFNOekdYRjlld0JoR0RXb20wMzRPeW1Gb08wNEJRV1pEV1B2ckFuek1PZUZWY2JJWWdmUkFORFZ4SWkzSGMyMkw3eDNCQ1k5OTZZZ1BTd0hNNkR0YzFNQ3hNa3dBVTRwOWlZZU5ZZmNR?oc=5\nテキサスでの偽情報問題が示すように、選挙は『勝てば終わり』ではないという。\n「人間の知性は、ひとたび気に入ったもの(受け容れられ信じられているから、あるいは心地よいから)に、ほかのすべてを引き寄せ、それを支持し一致させようとする。」\n『ノヴム・オルガヌム』第1巻 アフォリズム46",
+    "original": "Intellectus humanus in iis quae semel placuerunt (aut quia recepta sunt et credita, aut quia delectant), alia etiam omnia trahit ad suffragationem et consensum cum illis …",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 8,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「勝てば終わり」ではない選挙――テキサスの偽情報とワルシャワの裁判所が問うもの - AntenneFrance",
+    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY3ZLWWQ1M0w2MV9zY1hnVVd3R0Jtc2dWaWdGcnFSU1otbm9Lc25kdkM3MW9fRU1RMTdLaFNOekdYRjlld0JoR0RXb20wMzRPeW1Gb08wNEJRV1pEV1B2ckFuek1PZUZWY2JJWWdmUkFORFZ4SWkzSGMyMkw3eDNCQ1k5OTZZZ1BTd0hNNkR0YzFNQ3hNa3dBVTRwOWlZZU5ZZmNR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio"
+    ],
+    "quote_id": "NO1.46a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T08:20:08.423444+00:00",
+    "publish_at": "2026-11-06T08:20:08.423444+00:00",
+    "timestamp": "2026-11-06T08:20:08.423444+00:00"
+  },
+  {
     "id": "94311c222141",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBORzY5X0lpM3U0TFRKNjJ3RHZSQ093UHBzZWpXalhwWU14Y2EyOVV6bjFXME1KSnF6LUxjTnA3Z2VVaXR3emdTa29KbFdsV0Q4REM0WWpHenVzZFZ1QnBJ?oc=5\n名古屋駅が140周年を迎え、7つの俗説や通説を検証する資料展が開かれるという。\n「真理は権威の娘ではなく、時の娘であると言われるのはもっともである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム84",
     "original": "Recte enim Veritas Temporis filia dicitur, non Authoritatis.",
