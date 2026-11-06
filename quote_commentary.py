@@ -25,7 +25,7 @@ quote_commentary.py
 import re
 from dataclasses import dataclass, field
 
-from geopolitical_scorer import NewsItem
+from geopolitical_scorer import NewsItem, clean_news_text, _MEDIA_SUFFIX
 import machiavelli_engine as me
 import montaigne_engine as mtg
 
@@ -53,6 +53,7 @@ class Bot:
     generic_terms: set = field(default_factory=set)  # 見出しに無くてもよいカタカナ語
     neutral_kanji: str = ""       # 見出しに無くてもよい漢字・漢語を空白で区切って並べる(例: 「米」を「米国」と書く「国」)
     scene_pick: bool = False      # 採点の前に、場面の説明の一覧からモデルに候補を選ばせる(scene_candidates)
+    headline_intro: bool = False  # 書いた導入文がすべて検査に落ちたら、見出しをそのまま引く導入文で校閲に回す
 
 
 # 見出しの略称(「露」「米」)を正式名で書くのは言い直しの範囲(実例: 「露統計局」を「ロシア統計局」と言い直して
@@ -464,7 +465,8 @@ _MISFIT = "引用が出来事に合わない"
 def _write_and_check(bot: Bot, item: NewsItem, reading: dict, quote: dict, actor: str):
     """この引用で導入文を書き、検査を通ったものを返す。無ければ None。
     校閲が引用の当てはまりを否定したら、この引用での書き直しはやめる(導入文を変えても引用は変わらない)。"""
-    for rnd in range(1, WRITE_ROUNDS + 1):
+    # 見出しを引く導入文の予備があるボットは1巡で切り上げる(2巡目の書き直しも同じ語で落ちることが多く、時間だけを食う)
+    for rnd in range(1, (1 if bot.headline_intro else WRITE_ROUNDS) + 1):
         try:
             drafts = write_candidates(bot, item, reading, quote, actor)
             if rnd == 1 and reading.get("facts"):
@@ -513,4 +515,41 @@ def _write_and_check(bot: Bot, item: NewsItem, reading: dict, quote: dict, actor
         if misfit:
             print(f"  [引用を替える] {quote['id']} は出来事に合わないと校閲が判定")
             return None
+    if bot.headline_intro:
+        return _headline_intro(bot, item, quote)
     return None
+
+
+def headline_intro_text(item: NewsItem) -> str:
+    """見出しをそのまま引く導入文: 「京都新聞デジタルは『…』と報じた。」 字数に収まらなければ空文字。"""
+    m = _MEDIA_SUFFIX.search(item.title)
+    media = m.group(0).split(" - ", 1)[-1].strip() if m else ""
+    head = _MEDIA_SUFFIX.sub("", clean_news_text(item.title)).strip().replace("「", "『").replace("」", "』")
+    text = f"{media}は「{head}」と報じた。" if media else f"「{head}」と報じられた。"
+    return text if MIN_CHARS <= len(text) <= MAX_CHARS + 20 else ""
+
+
+def _headline_intro(bot: Bot, item: NewsItem, quote: dict):
+    """
+    2026-11-07: ベーコンでは、当てはまり3点の引用が見つかっても、導入文の言い直しが検査(見出しに無い語・
+    言えない主張・校閲)に落ち続けて記事ごと失われていた(9件中5件、1件に7案・約12分)。見出しを
+    そのまま引けば事実を足しようがない。引用との組み合わせは、これまでどおり校閲(筋・題材・被害者・
+    取り違え・当てはまり)に通す。
+    """
+    text = headline_intro_text(item)
+    if not text:
+        return None
+    record = {"round": "見出し", "quote": quote["id"], "text": text}
+    LAST_TRACE["candidates"].append(record)
+    try:
+        _check_time()
+        review(bot, text, item, quote)
+    except ValueError as e:
+        record["verdict"] = str(e)
+        print(f"  [不採用] {text} … {e}")
+        return None
+    record["verdict"] = "合格"
+    LAST_TRACE["result"] = "掲載"
+    LAST_TRACE["adopted"] = text
+    print(f"[採用] {text}")
+    return text

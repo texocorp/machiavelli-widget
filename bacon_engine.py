@@ -589,6 +589,7 @@ def llm_bot():
         # 言説の記事の言い直しに使う、事実を足さない漢語(2026-11-05: 「投稿」「否定」などで正しい導入文が落ちていた)
         neutral_kanji="投稿 発信 否定 反応 説明",
         scene_pick=True,
+        headline_intro=True,
     )
 
 
