@@ -708,12 +708,52 @@ def verify_claims(text: str, item: NewsItem) -> None:
                       "properties": {"supported": {"type": "array", "items": {"type": "boolean"},
                                                    "minItems": len(claims), "maxItems": len(claims)}},
                       "required": ["supported"]}
+    # 見出しをそのまま言い直しただけの主張は、LLM に聞かずに認める。9Bのモデルは
+    # 「元SKE48セレブママが情報戦を暴露した」(見出し「…“港区ママ”たちの情報戦を暴露」)や
+    # 「松原隆一郎が書評した」(見出し「…松原隆一郎による書評」)まで「言えない」と答えていた(2026-11-06)。
+    rest = [c for c in claims if not literally_supported(c, f"{title} {summary}")]
+    if not rest:
+        return
+    claims = rest
+    support_schema["properties"]["supported"].update(minItems=len(claims), maxItems=len(claims))
     listing = "\n".join(f"{i}. {c}" for i, c in enumerate(claims, 1))
     supported = _ollama_json(SUPPORT_PROMPT.format(title=title, summary=summary, claims=listing),
                              support_schema, JUDGE_OPTIONS, "support").get("supported", [])
     unsupported = [c for c, ok in zip(claims, supported) if ok is not True]
     if len(supported) != len(claims) or unsupported:
         raise ValueError(f"見出しから言えない主張: {unsupported or claims}")
+
+
+_NEGATION = re.compile(r"(?:ない|なかった|ず[、。に]?|ません)")
+
+
+def literally_supported(claim: str, source: str) -> bool:
+    """
+    主張の内容語(漢語・カタカナ語・英数字)が2語以上あり、すべてが見出し・概要に同じ順で現れれば、
+    見出しの言い直しとみなす(隣り合う語の間は LITERAL_GAP 字まで)。否定を含む主張は、語がそろっていても意味が逆になりうるので対象外。
+    """
+    if _NEGATION.search(claim):
+        return False
+    words = _CONTENT_WORD.findall(_compact(claim))
+    src = _compact(source)
+    if len(words) < 2:
+        return False
+    # 漢字1字の動詞(「与えた」「勝った」)は内容語に入らないので、漢字は1字ずつも見出しにあることを求める
+    # (取り違えの型: 見出し「ワンヘルスが風評被害受け」→ 主張「蔵内氏が風評被害を与えた」)
+    if any(ch not in src for ch in re.findall(r"[一-龥々]", _compact(claim))):
+        return False
+    # 語の間が離れすぎていないことも求める。離れた語を拾い集めると、
+    # 「大竹文雄が書評を書いた」(見出しでは書評者は松原隆一郎)のような取り違えも通ってしまう
+    pos = None
+    for w in words:
+        i = src.find(w, pos or 0)
+        if i < 0 or (pos is not None and i - pos > LITERAL_GAP):
+            return False
+        pos = i + len(w)
+    return True
+
+
+LITERAL_GAP = 10
 
 
 # 候補の並べ方。以前は編集者役の LLM に順位を付けさせたが、9Bのモデルは文法の崩れた候補や
