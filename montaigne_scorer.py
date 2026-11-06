@@ -16,6 +16,7 @@ geopolitical_scorer.py のものをそのまま使う。
 """
 
 import re
+import unicodedata
 import yaml
 
 from geopolitical_scorer import NewsItem, clean_news_text, _MEDIA_SUFFIX  # noqa: F401
@@ -51,7 +52,10 @@ def load_scoring_config(config_path: str = "montaigne_config.yaml") -> dict:
 
 def _topic_text(item: NewsItem) -> str:
     # 見出し末尾の媒体名(「 - 日本経済新聞」など)を除いた文で判定する
-    return f"{_MEDIA_SUFFIX.sub('', clean_news_text(item.title))} {clean_news_text(item.summary)}"
+    # 全角の英数字(「生成ＡＩ」「ＳＮＳ」)も手がかり語に当たるよう、NFKC で半角にそろえる
+    # (2026-11-06: 「災害報道、生成ＡＩ課題議論」が「生成AI」「AI」に当たらず点数不足で外れていた)
+    text = f"{_MEDIA_SUFFIX.sub('', clean_news_text(item.title))} {clean_news_text(item.summary)}"
+    return unicodedata.normalize("NFKC", text)
 
 
 # ---------------------------------------------------------------

@@ -29,7 +29,7 @@ def census(items, label):
         h = g._hash_item(it); key = g._title_key(it.title)
         if h in seen: c["試し済み"] += 1; continue
         if it.score < 0: c["除外語"] += 1; EXC[it.matched_keywords[0]] += 1; SAMPLE["除外語"].append(f"{it.matched_keywords[0]} {it.title}"); continue
-        if it.score == 0: c["言説の語なし"] += 1; SAMPLE["言説の語なし"].append(it.title); continue
+        if it.score == 0 and it.matched_keywords == ["[言説の語なし]"]: c["言説の語なし"] += 1; SAMPLE["言説の語なし"].append(it.title); continue
         if it.score < cfg["minimum_score"]: c["点数不足"] += 1; SAMPLE["点数不足"].append(f"{it.score} {it.title}"); continue
         if key in sib_titles or key in own_titles: c["載せた記事"] += 1; continue
         if not is_japanese(clean_news_text(it.title)): c["日本語でない"] += 1; continue
@@ -45,6 +45,8 @@ def census(items, label):
         print(f"--- {k}(例)")
         for t in random.sample(v, min(20, len(v))):
             print("   ", t[:90])
+        if k == "点数不足":
+            print("   (点数2〜3の件数:", sum(1 for t in v if t[:1] in "23"), ")")
     return ok
 
 

@@ -169,6 +169,13 @@ def score_item(item: NewsItem, weights: dict, exclude_keywords: list = None,
             if keyword_hit(w, text):
                 total += pts
                 matched.append(w)
+    # 言説の語そのものにも点を与える(1語2点)。2026-11-06 まで点数は話題の語(AI・研究など)だけで決まり、
+    # 「街に広がる『排除アート』、大阪では物議に」「『合理性』は思い込みだった」のような、まさに
+    # イドラの場面の記事が点数不足で外れていた(取得1185件のうち新しい候補は7件)。
+    for w in (discourse_keywords or []):
+        if w not in matched and keyword_hit(w, text):
+            total += 2
+            matched.append(w)
     if total > 0 and priority_sources and item.source in priority_sources:
         total += priority_bonus
         matched.append(f"[優先配信元 +{priority_bonus}]")
