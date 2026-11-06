@@ -1,5 +1,47 @@
 [
   {
+    "id": "0f3d6acf113c",
+    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uQXRTVmtMR3NmUklucF9DRlRYYmlzd3ZpcHhpQU1COXAxR2h4ZFIxdENMTTBGaEE4VXBteEVJQklsZ1IycVI2Z0ZQME5kd0tscWd2VUQ2dmpUeGFo?oc=5\n江原啓之は、自分を中心にして主体で生きるという人生の輝かせ方を説き、21年前の予言が現実になったという。\n「第一に、人は当たったときには気に留め、外れたときには決して気に留めない。」\n『随筆集』第35篇「予言について」",
+    "original": "First, that men mark when they hit, and never mark when they miss …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 6,
+    "source": "Google News 風評・噂",
+    "source_title": "江原啓之 21年前の予言が現実に…「自分を中心にして、主体で生きる」人生の輝かせ方 - マイナビニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uQXRTVmtMR3NmUklucF9DRlRYYmlzd3ZpcHhpQU1COXAxR2h4ZFIxdENMTTBGaEE4VXBteEVJQklsZ1IycVI2Z0ZQME5kd0tscWd2VUQ2dmpUeGFo?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio"
+    ],
+    "quote_id": "E35a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T16:49:29.313271+00:00",
+    "publish_at": "2026-11-06T17:17:00+00:00",
+    "timestamp": "2026-11-06T17:17:00+00:00"
+  },
+  {
+    "id": "881005e9f44c",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vYmw1SmVHVklIcEJscUdnc1h3ZGhtWjNlVzFyZFp0TnJkRng3a3NNc1d5X2pDWU1rR09XWXhqd3RGTk04V2x2b1Y5WWxLUHRmNGcxQm13bEVFMDExTmxR?oc=5\n徳島大学大学院教授と非常勤講師が研究費を不正使用したという事件が起きたという。\n「学問におけるほとんどあらゆる禍の原因と根はただ一つ、人間の知性の力を誤って讃え持ち上げるあまり、知性の真の助けを求めないことにある。」\n『ノヴム・オルガヌム』第1巻 アフォリズム9",
+    "original": "Causa vero et radix fere omnium malorum in scientiis ea una est; quod dum mentis humanae vires falso miramur et extollimus, vera ejus auxilia non quaeramus.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 10,
+    "source": "Google News AI・研究政策",
+    "source_title": "徳島大学大学院教授と非常勤講師が研究費を不正使用 - NHKニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vYmw1SmVHVklIcEJscUdnc1h3ZGhtWjNlVzFyZFp0TnJkRng3a3NNc1d5X2pDWU1rR09XWXhqd3RGTk04V2x2b1Y5WWxLUHRmNGcxQm13bEVFMDExTmxR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "theatri",
+      "studium"
+    ],
+    "quote_id": "NO1.9",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T16:12:15.861736+00:00",
+    "publish_at": "2026-11-06T16:12:15.861736+00:00",
+    "timestamp": "2026-11-06T16:12:15.861736+00:00"
+  },
+  {
     "id": "0cc97973ff41",
     "text": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY3ZLWWQ1M0w2MV9zY1hnVVd3R0Jtc2dWaWdGcnFSU1otbm9Lc25kdkM3MW9fRU1RMTdLaFNOekdYRjlld0JoR0RXb20wMzRPeW1Gb08wNEJRV1pEV1B2ckFuek1PZUZWY2JJWWdmUkFORFZ4SWkzSGMyMkw3eDNCQ1k5OTZZZ1BTd0hNNkR0YzFNQ3hNa3dBVTRwOWlZZU5ZZmNR?oc=5\nテキサスでの偽情報問題が示すように、選挙は『勝てば終わり』ではないという。\n「人間の知性は、ひとたび気に入ったもの(受け容れられ信じられているから、あるいは心地よいから)に、ほかのすべてを引き寄せ、それを支持し一致させようとする。」\n『ノヴム・オルガヌム』第1巻 アフォリズム46",
     "original": "Intellectus humanus in iis quae semel placuerunt (aut quia recepta sunt et credita, aut quia delectant), alia etiam omnia trahit ad suffragationem et consensum cum illis …",
