@@ -1,5 +1,26 @@
 [
   {
+    "id": "94311c222141",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBORzY5X0lpM3U0TFRKNjJ3RHZSQ093UHBzZWpXalhwWU14Y2EyOVV6bjFXME1KSnF6LUxjTnA3Z2VVaXR3emdTa29KbFdsV0Q4REM0WWpHenVzZFZ1QnBJ?oc=5\n名古屋駅が140周年を迎え、7つの俗説や通説を検証する資料展が開かれるという。\n「真理は権威の娘ではなく、時の娘であると言われるのはもっともである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム84",
+    "original": "Recte enim Veritas Temporis filia dicitur, non Authoritatis.",
+    "original_lang": "la",
+    "theme": "theatri",
+    "score": 10,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "名古屋駅開業140周年の歴史に迫る 金山で資料展 7つの俗説・通説を検証：ニュース - 中日BIZナビ",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBORzY5X0lpM3U0TFRKNjJ3RHZSQ093UHBzZWpXalhwWU14Y2EyOVV6bjFXME1KSnF6LUxjTnA3Z2VVaXR3emdTa29KbFdsV0Q4REM0WWpHenVzZFZ1QnBJ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "theatri",
+      "experientia"
+    ],
+    "quote_id": "NO1.84b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T06:05:05.778729+00:00",
+    "publish_at": "2026-11-06T06:05:05.778729+00:00",
+    "timestamp": "2026-11-06T06:05:05.778729+00:00"
+  },
+  {
     "id": "7b262b1c74af",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKNlpSZTJlT1VkTU96ZG9DZlVxUWhGMDBsR2ZqcUZ4dFhVQUNXQWNWR285NE15OE9FQk1OSEpteEpDY3RFbGRDa3ZPdTZPcVU1bXJJVnJ0bXBjMmtBX09qd21MM2x2al9sd1pkYUtWZHI2dFhGWTZ6QVdIcllzMm8?oc=5\n福岡県議会の蔵内前議長は、議員辞職後初めて会見し、『ワンヘルス』という名称が風評被害になると述べるとともに、金銭授受を改めて否定した。\n「人は言葉によって交わる。だが言葉は大衆の理解に合わせて名づけられる。それゆえ悪しき不適切な名づけは、驚くべき仕方で知性を包囲する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
     "original": "Homines enim per sermones sociantur; at verba ex captu vulgi imponuntur. Itaque mala et inepta verborum impositio miris modis intellectum obsidet.",
