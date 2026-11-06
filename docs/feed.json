@@ -1,5 +1,63 @@
 [
   {
+    "id": "a7307850f7f0",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95akF1OHhmaUQ3aDJWSzZtbzJGTzhjVFd2QmdoLUc4djlQRlZralFlS2RGZ2dDNUpGWlRZUTJ4LUZkWklBZGFtRklwa1BoSkhtaUx2aWFXSGsxc2JiVHpYeW1GOUxoWDJvT2pWRA?oc=5\n北朝鮮は新型対空ミサイルの発射を行い、長距離巡航弾の訓練も実施しているという。\n「君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。」\n『君主論 cap.XIV』",
+    "theme": "guerra",
+    "score": 6,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "北朝鮮、4日の発射は新型対空ミサイル 長距離巡航弾の訓練も - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95akF1OHhmaUQ3aDJWSzZtbzJGTzhjVFd2QmdoLUc4djlQRlZralFlS2RGZ2dDNUpGWlRZUTJ4LUZkWklBZGFtRklwa1BoSkhtaUx2aWFXSGsxc2JiVHpYeW1GOUxoWDJvT2pWRA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AP2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T15:55:45.626740+00:00",
+    "publish_at": "2026-11-07T09:17:00+00:00",
+    "timestamp": "2026-11-07T09:17:00+00:00"
+  },
+  {
+    "id": "0095a5c1e16b",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMW53aG9pSnNZWlhGY3FZdDhsbDhwRGY2eTBJai13c3hQaC1vczg2OUdxU3ZESTg2RWVNVkJEcWtycHlocXB5cnM4dVpaSG1XRHpGOV9CQmJRX2xYU203OFBSVHZfME40?oc=5\n政府は情勢の緊迫化を受け、中東海域への海上自衛隊派遣を1年間延長する方針だという。\n「人は、やむを得ぬ必要から動くか、自らの選択によって動くかのいずれかである。」\n『リウィウス論 I.1』",
+    "theme": "necessita",
+    "score": 6,
+    "source": "Google News 検索 安全保障",
+    "source_title": "政府、中東海域への海上自衛隊派遣を1年延長 情勢緊迫化で - 毎日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMW53aG9pSnNZWlhGY3FZdDhsbDhwRGY2eTBJai13c3hQaC1vczg2OUdxU3ZESTg2RWVNVkJEcWtycHlocXB5cnM4dVpaSG1XRHpGOV9CQmJRX2xYU203OFBSVHZfME40?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "D1.1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T15:43:01.214266+00:00",
+    "publish_at": "2026-11-07T06:17:00+00:00",
+    "timestamp": "2026-11-07T06:17:00+00:00"
+  },
+  {
+    "id": "e6cdb59e84a9",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yOUdLeG5OR1FXekZ0V0k0MTczZVo2MzdZYk9qSTVvUkpvTkE4Snd6UmhFNFZ1SzBmWnYyWnY0ajN6R0x1endURDBNc2JhZnFlaFRLS1JOTmp6blgyZEloWWIyOVFjWldEU21qUmZxSnlpY2VuTDVqMDVB?oc=5\nイランはアメリカに対して核問題をめぐる提案を提示し、その条件が受け入れられた後に議論に入るという。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン アメリカへ核に関する提案 提示の「7つの条件」受け入れ後に議論 - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yOUdLeG5OR1FXekZ0V0k0MTczZVo2MzdZYk9qSTVvUkpvTkE4Snd6UmhFNFZ1SzBmWnYyWnY0ajN6R0x1endURDBNc2JhZnFlaFRLS1JOTmp6blgyZEloWWIyOVFjWldEU21qUmZxSnlpY2VuTDVqMDVB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "inganno_simulazione"
+    ],
+    "quote_id": "AG3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T15:07:21.849215+00:00",
+    "publish_at": "2026-11-07T03:17:00+00:00",
+    "timestamp": "2026-11-07T03:17:00+00:00"
+  },
+  {
     "id": "d7780e1afa8a",
     "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMHh2bVFuOHh1cVhoaF8yamd5TXBldkxOenpmVzhlMGZpRk1yR09uMVYxdHhUVUFPX1MtQXdQYlBoUXAxdWF3ZVFIZnNJX2RpaVhOX2ZTUVRyZ09aY3plaTkxdHBOaEduM2xYaDlDV1ZvcDU4TzdYWVpPcUpyd2pjZE9QemY2NW9EdXdGZw?oc=5\nトランプ氏は国防長官のヘグセスを留任させるつもりでおり、民主党指導部とも会談する意向を示しているという。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
     "theme": "guerra",
@@ -669,43 +727,6 @@
       "necessita"
     ],
     "quote_id": "AG9",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "c2795c197536",
-    "timestamp": "2026-10-30T02:01:48.099251+00:00",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVGQ1em4tMFNTWUxSMTVralVKRzM5UEpIMEFGZjRpRG5wRHNoVHhNaHRsNWVReDVyMUx4bEtZd29wUkNoVG5KYlBzX2NmRGh6UXM5TEtYMXE2dHpwOHd1RnlNb1lFVlBQbko1NkRvVzNRdmRMTjZXM0dIdjdKN1lFUWRaOHN0Rjg?oc=5\nフーシ派の未確認攻撃表明こそが、実行し終えるまで敵に隠し通した策ほど優れた策はないというマキャベリの言葉に合致する。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "フーシ派、サウジ最大製油所や空港を攻撃と表明 当局の確認なし | ロイター - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVGQ1em4tMFNTWUxSMTVralVKRzM5UEpIMEFGZjRpRG5wRHNoVHhNaHRsNWVReDVyMUx4bEtZd29wUkNoVG5KYlBzX2NmRGh6UXM5TEtYMXE2dHpwOHd1RnlNb1lFVlBQbko1NkRvVzNRdmRMTjZXM0dIdjdKN1lFUWRaOHN0Rjg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "economia"
-    ],
-    "quote_id": "AG3",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "b8627eead767",
-    "timestamp": "2026-10-29T20:03:42.140132+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJMkdxd1VGdFJCVEt3c0N2R2phanRRa1JEM3hlZFFzRm95bklBZjhDcDFnUVp3ejZGUlhGbWxFazZwbjZnd21KaUZsSWFhbUtyZEE0bWtuWVhkWDd4ZFR2Z3Nn?oc=5\nトランプ氏がイスラエル総選挙で影響力を再確認したと見なす行為は、自らの権力を固めつつ他者の自律性を容認せず、やがてその都市に打ち砕かれると覚悟せよ。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "［深層ＮＥＷＳ］イスラエル総選挙受けトランプ氏は「自らの影響力を再確認したのではないか」…小谷哲男氏 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJMkdxd1VGdFJCVEt3c0N2R2phanRRa1JEM3hlZFFzRm95bklBZjhDcDFnUVp3ejZGUlhGbWxFazZwbjZnd21KaUZsSWFhbUtyZEE0bWtuWVhkWDd4ZFR2Z3Nn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "popolo_principe"
-    ],
-    "quote_id": "P05",
     "quote_choice": "llm"
   }
 ]
