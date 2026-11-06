@@ -69,7 +69,7 @@ def main():
     ranked = rank_news(
         items,
         scoring_cfg["weights"],
-        top_n=40,
+        top_n=len(items),   # 2026-11-05: 上位40件の制限をなくす(試し済みを除くと数件しか残らなかった)
         exclude_keywords=scoring_cfg["exclude_keywords"],
     )
     # 【ストック方式】起動された回に、表示の時刻を割り当てた論評をまとめて作る(feed_stock.py)。
@@ -102,6 +102,9 @@ def main():
             machiavelli_engine.ensure_japanese(item)
         except Exception as e:
             print(f"[SKIP] 日本語に訳せないため見送り: {item.title} ({e})")
+            continue
+        if feed_stock.suspicious_source(item.title):
+            print(f"[見送り] 素性の疑わしい配信: {item.title}")
             continue
         if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
             print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")

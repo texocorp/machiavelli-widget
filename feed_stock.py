@@ -183,8 +183,14 @@ def same_story(title: str, titles, threshold: float = STORY_SIMILARITY) -> bool:
     if not a:
         return False
     for other in titles:
-        b = _bigrams(story_key(other))
+        key_b = story_key(other)
+        b = _bigrams(key_b)
         if b and 2 * len(a & b) / (len(a) + len(b)) >= threshold:
+            return True
+        # 一方の見出しが他方を丸ごと含む(実例: 「ケインズの予言が問うもの - 愛媛新聞」と
+        # 「ケインズの予言が問うもの ＢＮＰパリバ証券チーフエコノミスト 河野龍太郎 - 沖縄タイムス社」)
+        short, long_ = sorted((story_key(title), key_b), key=len)
+        if len(short) >= 10 and short in long_:
             return True
     return False
 
@@ -199,3 +205,20 @@ def published_titles() -> list:
         except (OSError, ValueError):
             pass
     return out
+
+
+# 素性の疑わしい配信(2026-11-05 導入)
+# Google News の検索には、他社の記事を無断で転載・加工したらしい海外のサイトが混ざる。
+# 実例: 「デマ拡散の岡本さゆり市議「保身の謝罪」。…Heart (ac40zvlr7H) - Unisba Media」(大学のドメインに置かれた転載)。
+# 見出しの末尾の、英数字の乱数のような符号を目印にする。実在の個人を名指す記事が多く、真偽も確かめられないので試さない。
+_RANDOM_TOKEN = re.compile(r"[(（](?=[A-Za-z0-9]*\d)(?=[A-Za-z0-9]*[A-Za-z])[A-Za-z0-9]{8,}[)）]")
+SUSPICIOUS_SOURCES = ("Unisba",)
+
+
+def suspicious_source(title: str) -> bool:
+    t = unicodedata.normalize("NFKC", title or "")
+    # 実例(2026-11-05): 「\u200d\u200d\u200dai 画像 生成 サイト 規制 なし ai」— 検索語を並べた宣伝ページ。
+    # ゼロ幅文字を仕込んだ見出しは、まともな報道には無い
+    if re.search("[\u200b-\u200d\u2060\ufeff]", title or ""):
+        return True
+    return bool(_RANDOM_TOKEN.search(t)) or any(s in t for s in SUSPICIOUS_SOURCES)

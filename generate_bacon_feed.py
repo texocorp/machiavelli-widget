@@ -84,20 +84,46 @@ def _sibling_records() -> tuple:
     return hashes, titles
 
 
+# 2026-11-06: 言説の検索フィード15本だけでは、毎日入れ替わる記事が少なく、1回の起動で候補が尽きて
+# 0件で終わった(取得464件のうち新しい記事は十数件)。姉妹ボットが読む一般の配信(国内・社会・国際など、
+# 毎時入れ替わる)も読み、ベーコンの選別(言説の語・除外語・点数)で絞る。姉妹が論評した記事は従来どおり外す。
+BORROWED_CONFIGS = [os.path.join(BASE_DIR, "montaigne_config.yaml"), os.path.join(BASE_DIR, "config.yaml")]
+
+
+def fetch_pool() -> list:
+    """自分のフィードを先に、姉妹ボットのフィードを後に読み、同じ記事(URLか見出し)を1件にまとめる。"""
+    items = fetch_all(CONFIG_PATH, per_feed_limit=50)
+    own = len(items)
+    for path in BORROWED_CONFIGS:
+        items += fetch_all(path, per_feed_limit=50)
+    pool, urls, keys = [], set(), set()
+    for it in items:
+        key = _title_key(it.title)
+        if (it.url and it.url in urls) or key in keys:
+            continue
+        urls.add(it.url)
+        keys.add(key)
+        pool.append(it)
+    print(f"[取得] 自分のフィード {own}件、姉妹のフィード {len(items) - own}件、重複を除いて {len(pool)}件")
+    return pool
+
+
 def main():
     scoring_cfg = load_scoring_config(CONFIG_PATH)
     seen_list = _load_json(SEEN_PATH, [])
     seen = set(seen_list)
-    sibling_hashes, sibling_titles = _sibling_records()
+    _, sibling_titles = _sibling_records()
     own_titles = {_title_key(e.get("source_title", "")) for e in _load_json(FEED_PATH, [])}
 
     # ストック方式では1回の起動で1日分を作るので、各フィードから多めに読む(10件では新しい記事がすぐ尽きた)
-    items = fetch_all(CONFIG_PATH, per_feed_limit=30)
+    # 2026-11-05: 30件→50件。候補が尽きて、生成に使える時間を半分以上余らせて終わる回が続いた
+    items = fetch_pool()
     if not items:
         print("[SKIP] ニュースを取得できませんでした。")
         return
 
-    ranked = rank_news(items, scoring_cfg["weights"], top_n=40,
+    # 上位40件に限ると、そのほとんどが試し済みで新しい記事が数件しか残らなかった。全件を点数順に試す
+    ranked = rank_news(items, scoring_cfg["weights"], top_n=len(items),
                        exclude_keywords=scoring_cfg["exclude_keywords"],
                        discourse_keywords=scoring_cfg["discourse_keywords"],
                        priority_sources=scoring_cfg["priority_sources"],
@@ -126,13 +152,18 @@ def main():
         key = _title_key(item.title)
         if h in seen or item.score < scoring_cfg["minimum_score"]:
             continue
-        if h in sibling_hashes or key in sibling_titles:
+        # 姉妹が「試して載せなかった」記事は使ってよい(載せた記事だけを避ける)。2026-11-06 まで試しただけの記事も
+        # 外していたが、姉妹のフィードを読むようになると、姉妹の見送った記事が大量に候補から消える
+        if key in sibling_titles:
             print(f"[見送り] 他のボットが論評済み: {item.title}")
             continue
         if key in own_titles:
             continue  # 別の配信元から届いた同じ記事
         if not is_japanese(clean_news_text(item.title)):
             continue  # 題材は日本語の配信に限る(訳の工程を持たない)
+        if feed_stock.suspicious_source(item.title):
+            print(f"[見送り] 素性の疑わしい配信: {item.title}")
+            continue
         if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
             print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
             continue

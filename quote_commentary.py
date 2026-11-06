@@ -61,12 +61,15 @@ _ABBREVIATIONS = {"露": "ロシア", "米": "アメリカ 米国", "英": "イ�
                   "豪": "オーストラリア", "韓": "韓国"}   # 「中」「日」「独」などは別の語(中間選挙)に紛れるので入れない
 # 事実を足さない、報道の言い直しに使う漢語(見出しに無くても認める)。事実を足す語(「検討」「計画」など)は入れない。
 # 試験(2026-11-04)では、「限定的な空爆を実施した」の「実施」のような語で、候補の半分以上が落ちていた
+# 2026-11-04 追加: 主張 指摘 発表 声明。11-05 追加: 間近(「〜控え」を「〜を間近に控えて」と書くよう指示している) 対応 結果 行動
 # 2026-11-04 追加: 主張 指摘 発表 声明(「FBIの主張をデマと述べた」の「主張」で7候補すべてが落ちた)
-_REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回 主張 指摘 発表 声明"
+_REPORTING_WORDS = "実施 開始 表明 提示 公表 言及 発言 姿勢 立場 方針 意向 意欲 相手 双方 状況 事態 直前 直後 今回 主張 指摘 発表 声明 間近 対応 結果 行動"
 
 
 _KANA_ABBREVIATIONS = {"ネット": "インターネット", "エネ": "エネルギー", "インフラ": "インフラストラクチャー", "テロ": "テロリズム",
-                       "デジ": "デジタル", "スマホ": "スマートフォン"}
+                       "デジ": "デジタル", "スマホ": "スマートフォン",
+                       # 2026-11-05: 「コンクールHP」を「サイト」と言い直して読み違いとされた
+                       "HP": "ホームページ ウェブサイト サイト", "ＨＰ": "ホームページ ウェブサイト サイト"}
 
 
 def _source_for_check(title: str, summary: str) -> str:
@@ -154,7 +157,7 @@ SCENE_CANDIDATES_TO_SCORE = 5   # 場面で選んだ3件と、従来の順の2�
 # 場面の一覧から選ばれた候補は、採点2点(はっきり当てはまる)でも試す。当てはまりは最後に校閲が確かめ直す。
 # 試験(2026-11-05)では、3点だけに絞ると14件すべてが見送りになり、2点の候補には
 # 「北朝鮮の『荒唐無稽なデマだ』に『根拠なき断言で注目を集める論者』」のような妥当なものも含まれていた
-SCENE_MIN_FIT = 2
+SCENE_MIN_FIT = 3   # 2点まで認める試験では、掲載2件がどちらも当てはまりの弱い組み合わせだった(2026-11-05)。品質を優先して3点に戻す
 
 SCENE_PROMPT = """次のニュースに、{author}の一節を添えて論評する。
 下の一覧は、それぞれの一節が当てはまる場面の説明である。このニュースに働いている人の心や言葉の動きに、
@@ -295,6 +298,10 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
         raise ValueError(f"字数が範囲外({len(text)}字)")
     if text.count("。") > 1:
         raise ValueError("一文になっていない")
+    # 実例(2026-11-05): 見出しの問い「日本はまだ要求のむ余地ある国？」を受けて
+    # 「…関税の要求余地がある国なのか。」と、事実を述べずに問いで終わる導入文が通った
+    if re.search(r"(?:のか|うか|すか|ないか)。$", text):
+        raise ValueError("問いの形で終わっている")
     # 見出しにもある語は指示の言葉の混入ではない(実例: 見出し「…太陽光パネルの材料に追加関税」の「材料」で全候補が落ちた)
     metas = [w for w in _META.split("|") + list(bot.meta_words) if w not in source]
     m = re.search("|".join(re.escape(w) for w in metas), text) if metas else None
@@ -303,9 +310,21 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     m = mtg._GENERAL_WORDS.search(text)
     if m:
         raise ValueError(f"導入に評価・一般論を書いている: {m.group()!r}")
+    # 書き手の見立て(実例 2026-11-05: 「岡本さゆり市議は保身の謝罪としか見えない発言をし」)。見出しにあれば引用として認める
+    m = _IMPRESSION.search(text)
+    if m and m.group() not in source:
+        raise ValueError(f"導入に書き手の見立てを書いている: {m.group()!r}")
     words = [w for w in mtg._CONTENT_WORD.findall(reading["key_phrase"]) if w not in {"する", "した"}]
     # 長い漢語は、頭と尻の2字ずつが文にあれば触れたとみなす(「限定的空爆」→「限定的な空爆」)
-    touched = lambda w: w in text or (len(w) >= 4 and w[:2] in text and w[-2:] in text)
+    # 2026-11-05: 「米軍事支援打ち切り」の漢字の連なり「米軍事支援打」は頭と尻(「米軍」「援打」)が文に現れず、
+    # 「米国の軍事支援の打ち切り」と正しく書いた14候補が落ちた。長い語は、2字の組の半分以上が文にあれば触れたとみなす
+    def touched(w):
+        if w in text:
+            return True
+        if len(w) < 4:
+            return False
+        pairs = {w[i:i + 2] for i in range(len(w) - 1)}
+        return sum(1 for p in pairs if p in text) * 2 >= len(pairs)
     if words and not any(touched(w) for w in words):
         raise ValueError(f"見出しの語句({reading['key_phrase']})に触れていない")
     _check_subject(text, f"{title} {reading.get('facts', '')}")
@@ -326,10 +345,12 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
     return text
 
 
+_IMPRESSION = re.compile(r"としか(?:見え|思え|言え|映ら)|ように(?:見え|思え|映)|に(?:見え|思え)る|と(?:見られ|思われ)る|らしい")
 _SUBJECT = re.compile(r"^([^、。「」『』]{1,20}?)(?:は|が)")
-# 修飾語・並列を表す助詞。主語の語の後が見出しのどこでもこれなら、その語は行為の主体ではない
-# (「イラン主張」「与野党陣営」のように漢語が続くものは主体とみなす)
-_MODIFIER_FOLLOW = "との"
+# 並列を表す助詞。主語の語の後が見出しのどこでもこれなら、その語は単独の行為の主体ではない(「ロシアとウクライナの警報アプリ」)。
+# 「の」は外した(2026-11-05): 「中国の『戦狼外交』激化」を「中国は戦狼外交を激化させ」と書くのは正しい。
+# 「の」の先の物が行為をした場合の取り違えは、校閲の same_doer で確かめる
+_MODIFIER_FOLLOW = "と"
 
 
 def _check_subject(text: str, source: str) -> None:
@@ -357,8 +378,8 @@ opinion: 導入文に、見出しに無い書き手の評価・推測(「〜す�
 fits: 導入文の後に一節を続けて読んだとき、一節がこの出来事について筋の通ったことを言っているか(一節の話題が出来事と違う、例えば政治の一節を事故やスポーツの出来事に添えているなら false)"""
 
 REVIEW_SCHEMA = {"type": "object",
-                 "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion", "fits")},
-                 "required": ["coherent", "on_topic", "hurts_victims", "opinion", "fits"]}
+                 "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion", "same_doer", "fits")},
+                 "required": ["coherent", "on_topic", "hurts_victims", "opinion", "same_doer", "fits"]}
 
 
 def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
@@ -374,6 +395,8 @@ def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
                                  ("記事に沿っていない", not r.get("on_topic")),
                                  ("被害者を責める響き", r.get("hurts_victims")),
                                  ("書き手の評価が混ざっている", r.get("opinion")),
+                                 # 実例(2026-11-05): 「全北警察が有権者装い世論調査を行った件で、167人が送検された」
+                                 ("行為の主を取り違えている", not r.get("same_doer")),
                                  # 選ぶ工程の採点とは別の問い方で、引用の当てはまりを確かめ直す
                                  # (実例: 試合中の事故の記事に、採点3点の「政治の事柄においては…」)
                                  ("引用が出来事に合わない", not r.get("fits"))) if bad]

@@ -522,7 +522,8 @@ MIN_CHARS, MAX_CHARS = 30, 90
 # 指示の言葉が本文に漏れたもの(実例: 「見出しに記された逮捕の事実と…」「振る舞いとして現れた行動からは…」)
 _META_WORDS = re.compile(r"(見出し|振る舞い|語句|一節|材料|観察|エセー|モンテーニュ)")
 # 導入の一文に、評価・一般論を書いたもの(それは一節に任せる)
-_GENERAL_WORDS = re.compile(r"(人は|人間は|人々は|我々は|われわれは|私たちは|ものだ|ものである|ものなのだ|に他ならない|にほかならない)")
+# 「人は」の前に漢字・カナがあるもの(「夫人は」「本人は」「犯人は」)は一般論ではない(2026-11-05: 「メラニア夫人は」で全候補が落ちた)
+_GENERAL_WORDS = re.compile(r"((?<![一-龥々ァ-ヴー])人は|(?<![一-龥々ァ-ヴー])人間は|(?<![一-龥々ァ-ヴー])人々は|我々は|われわれは|私たちは|ものだ|ものである|ものなのだ|に他ならない|にほかならない)")
 _CONTENT_WORD = re.compile(r"[一-龥々]{2,}|[ァ-ヴー]{2,}|[A-Za-z0-9]{2,}")
 
 
@@ -738,12 +739,13 @@ REVIEW_PROMPT = """あなたは新聞の校閲係である。ニュースの導�
 次に答えよ。
 coherent: 導入文は、一文として意味がまっすぐ通り、主語と述語が噛み合っているか
 on_topic: 導入文は、見出しの出来事について述べているか
-hurts_victims: 導入文と一節を続けて読むと、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるか"""
+hurts_victims: 導入文と一節を続けて読むと、亡くなった人・被害に遭った人・被災した人・その家族を責めたり嘲ったりする響きになるか
+same_doer: 導入文で、それぞれの行為をした者・された者が見出しと同じか(見出しでは別の者がした行為を主語のしたこととして書いている、または問う側と問われる側を入れ替えていれば false。例えば見出し「A氏、B氏に説明促す」に「A氏が説明を求められ」と書くのは false)"""
 
 REVIEW_SCHEMA = {
     "type": "object",
-    "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims")},
-    "required": ["coherent", "on_topic", "hurts_victims"],
+    "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "same_doer")},
+    "required": ["coherent", "on_topic", "hurts_victims", "same_doer"],
 }
 
 
@@ -755,7 +757,10 @@ def review(text: str, item: NewsItem, quote: dict, author: str = "モンテー�
                      JUDGE_OPTIONS, "review")
     problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
                                  ("記事に沿っていない", not r.get("on_topic")),
-                                 ("被害者を責める響き", r.get("hurts_victims"))) if bad]
+                                 ("被害者を責める響き", r.get("hurts_victims")),
+                                 # 実例(2026-11-05): 見出し「維新・藤田氏…『心変わりの理由を』民改・小川氏に政策一貫性促す」に
+                                 # 「藤田氏が心変わりの理由を問われ、小川氏は政策の一貫性をお願いしている」
+                                 ("行為の主を取り違えている", not r.get("same_doer"))) if bad]
     if problems:
         raise ValueError(f"校閲で不合格: {problems}")
 
