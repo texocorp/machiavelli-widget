@@ -57,7 +57,22 @@ ESSAY_TITLES_JA = {
     "E16": "無神論について",
     "E17": "迷信について",
     "E20": "助言について",
+    "E4": "復讐について",
+    "E5": "逆境について",
+    "E11": "高い地位について",
+    "E19": "帝国について",
+    "E21": "遅延について",
     "E22": "狡猾について",
+    "E23": "自分のための知恵について",
+    "E25": "迅速について",
+    "E27": "友情について",
+    "E36": "野心について",
+    "E38": "人の本性について",
+    "E42": "若さと老年について",
+    "E49": "請願者について",
+    "E55": "名誉と名声について",
+    "E56": "裁判について",
+    "E57": "怒りについて",
     "E24": "革新について",
     "E26": "賢く見えることについて",
     "E31": "疑惑について",
@@ -117,7 +132,7 @@ def display_original(quote: dict) -> str:
 # ---------------------------------------------------------------
 RECENT_QUOTES_PATH = os.path.join(BASE_DIR, "logs", "bacon_recent_quotes.json")
 QUOTE_USAGE_PATH = os.path.join(BASE_DIR, "logs", "bacon_quote_usage.json")
-RECENT_QUOTES_WINDOW = 32  # 引用96件に対し、直近32回分(1日8回で4日分)は候補から外す
+RECENT_QUOTES_WINDOW = 32  # 引用154件に対し、直近32回分は候補から外す
 
 
 def load_recent_quote_ids() -> list:
@@ -174,7 +189,10 @@ def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
     scored.sort(key=lambda sq: (-sq[0], usage.get(sq[1]["id"], 0)))
 
     related = [q for s, q in scored if s > 0]
-    if len(related) >= MIN_RELATED:
+    # 場面の一覧(count が CANDIDATE_COUNT より大きい依頼)では、関連の薄い引用でも後ろに足して一覧を満たす。
+    # 記事のテーマの判定がずれると、合う一節が一覧に載らないため(実例 2026-11-06:「たった30のアカウントが
+    # 発信する…憎悪に踊らされる人たち」のテーマが「経験」と判定され、種族のイドラの一節が一覧に無かった)
+    if len(related) >= MIN_RELATED and count <= CANDIDATE_COUNT:
         return related[:count]
     return (related + [q for s, q in scored if s == 0])[:count]
 

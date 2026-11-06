@@ -36,7 +36,7 @@
    ],
    "orig": "Scientia et potentia humana in idem coincidunt, quia ignoratio causae destituit effectum.",
    "ja": "人間の知識と力とは一つに重なる。原因を知らなければ、結果を生み出すことはできないからである。",
-   "scene": "技術開発やAIの競争、研究投資、知識や技術力がそのまま国力・産業力に直結する場面"
+   "scene": "原因を理解し技術を握った国や企業が、そのまま力(産業・軍事・市場)を手にする場面。技術力の差が力の差になる競争"
   },
   {
    "id": "NO1.3b",
@@ -50,7 +50,7 @@
    ],
    "orig": "Natura enim non nisi parendo vincitur",
    "ja": "自然は、服従することによってでなければ征服されない。",
-   "scene": "自然災害・気候・エネルギー・医療技術、自然の法則を無視した計画の失敗、技術の限界"
+   "scene": "人が自然の法則や現実の制約を無視して計画を押し通し失敗する場面、あるいは自然の仕組みに従うことで制御に成功する場面"
   },
   {
    "id": "NO1.9",
@@ -64,7 +64,7 @@
    ],
    "orig": "Causa vero et radix fere omnium malorum in scientiis ea una est; quod dum mentis humanae vires falso miramur et extollimus, vera ejus auxilia non quaeramus.",
    "ja": "学問におけるほとんどあらゆる禍の原因と根はただ一つ、人間の知性の力を誤って讃え持ち上げるあまり、知性の真の助けを求めないことにある。",
-   "scene": "研究不正や思い込みによる失敗、専門家や開発者の過信、検証手続きの軽視"
+   "scene": "研究者・開発者・専門家が自分の頭の良さを過信して、検証や外部の確認を省き、失敗や不正に至る場面"
   },
   {
    "id": "NO1.10",
@@ -78,7 +78,7 @@
    ],
    "orig": "Subtilitas naturae subtilitatem sensus et intellectus multis partibus superat",
    "ja": "自然の精妙さは、感覚と知性の精妙さを幾倍にも凌いでいる。",
-   "scene": "想定外の事故・副作用・自然現象、科学モデルやAIの予測の外れ、複雑な系の読み違い"
+   "scene": "専門家やモデル・AIの予測が、現実の複雑さに裏をかかれて外れる場面。想定外の事故や副作用"
   },
   {
    "id": "NO1.14",
@@ -92,7 +92,7 @@
    ],
    "orig": "verba notionum tesserae sunt. Itaque si notiones ipsae (id quod basis rei est) confusae sint, et temere a rebus abstractae; nihil in iis, quae superstruuntur, est firmitudinis.",
    "ja": "言葉は概念の符牒である。それゆえ事の土台である概念そのものが混乱し、軽率に事物から抽き出されているなら、その上に築かれるものには何の堅固さもない。",
-   "scene": "定義の曖昧な政策用語や流行語、統計の取り方や指標の定義、議論の前提の食い違い"
+   "scene": "言葉の定義が曖昧なまま政策や議論が進み、同じ言葉で違うものを指して話がかみ合わない場面。指標や統計の定義の食い違い"
   },
   {
    "id": "NO1.38",
@@ -106,7 +106,7 @@
    ],
    "orig": "Idola et notiones falsae, quae intellectum humanum jam occuparunt atque in eo alte haerent, non solum mentes hominum ita obsident, ut veritati aditus difficilis pateat",
    "ja": "人間の知性をすでに占拠し、そこに深く根を張ったイドラと誤った観念は、人の心を包囲して、真理への入口を狭く険しいものにする。",
-   "scene": "根強い思い込みや既成観念、誤情報の訂正が届かない場面、通説が新しい事実を拒む場面"
+   "scene": "人々に根を張った思い込みが、訂正や新しい事実を受け付けない場面。誤情報の訂正が届かない"
   },
   {
    "id": "NO1.41a",
@@ -119,7 +119,7 @@
    ],
    "orig": "Falso enim asseritur, sensum humanum esse mensuram rerum; quin contra, omnes perceptiones, tam sensus quam mentis, sunt ex analogia hominis, non ex analogia universi.",
    "ja": "人間の感覚が事物の尺度であるという主張は誤りである。むしろ感覚のものであれ心のものであれ、知覚はすべて人間に照らしてのものであって、宇宙に照らしてのものではない。",
-   "scene": "実感や体感に頼った判断、肌感覚の世論、AIや動物を人間になぞらえる議論"
+   "scene": "人が自分の実感・体感を物事の尺度にして判断し、実態とずれる場面。肌感覚の世論、人間になぞらえたAI論"
   },
   {
    "id": "NO1.41b",
@@ -132,7 +132,7 @@
    ],
    "orig": "Estque intellectus humanus instar speculi inaequalis ad radios rerum, qui suam naturam naturae rerum immiscet, eamque distorquet et inficit.",
    "ja": "人間の知性は、事物の光を受ける歪んだ鏡のようなものであり、自らの性質を事物の性質に混ぜ合わせて、それを歪め、染めてしまう。",
-   "scene": "報道や世論の偏り、データや調査結果の読み違え、人々の認知の歪み"
+   "scene": "人や報道が、自分の性質や願望を事実に混ぜて、データや出来事を歪めて受け取る場面"
   },
   {
    "id": "NO1.42",
@@ -145,7 +145,7 @@
    ],
    "orig": "Habet enim unusquisque (praeter aberrationes naturae humanae in genere) specum sive cavernam quandam individuam, quae lumen naturae frangit et corrumpit",
    "ja": "人はみな、人間一般に共通する迷いのほかに、自分だけの洞窟とでもいうべきものを持っており、それが自然の光を屈折させ、損なう。",
-   "scene": "立場・専門・世代による見え方の違い、エコーチェンバー、個人の体験の一般化"
+   "scene": "人それぞれの立場・専門・体験が、同じ出来事の見え方をゆがめ、各自が自分の狭い見方を一般化する場面"
   },
   {
    "id": "NO1.43a",
@@ -158,7 +158,7 @@
    ],
    "orig": "Homines enim per sermones sociantur; at verba ex captu vulgi imponuntur. Itaque mala et inepta verborum impositio miris modis intellectum obsidet.",
    "ja": "人は言葉によって交わる。だが言葉は大衆の理解に合わせて名づけられる。それゆえ悪しき不適切な名づけは、驚くべき仕方で知性を包囲する。",
-   "scene": "SNSの流行語やレッテル貼り、キャッチフレーズによる世論形成、政策や事件の呼び名"
+   "scene": "流行語・レッテル・呼び名・キャッチフレーズが、人々の理解を先回りして縛ってしまう場面"
   },
   {
    "id": "NO1.43b",
@@ -171,7 +171,7 @@
    ],
    "orig": "Sed verba plane vim faciunt intellectui, et omnia turbant; et homines ad inanes et innumeras controversias et commenta deducunt.",
    "ja": "言葉はまさしく知性に暴力を加え、すべてをかき乱し、人々を空しく果てしない論争と作り話へと導く。",
-   "scene": "ネット上の論争や炎上、言葉尻をめぐる騒動、定義なき論戦"
+   "scene": "言葉尻や用語をめぐって論争が果てしなく続き、事実から離れた言い争いと作り話が広がる場面。炎上"
   },
   {
    "id": "NO1.44",
@@ -184,7 +184,7 @@
    ],
    "orig": "quia quot philosophiae receptae aut inventae sunt, tot fabulas productas et actas censemus, quae mundos effecerunt fictitios et scenicos.",
    "ja": "受け容れられ、あるいは考え出された哲学の数だけ芝居が作られ上演されてきたのであり、それらは作り物の、舞台の上の世界をこしらえたと我々は見る。",
-   "scene": "イデオロギーや陰謀論などの体系的な世界観、もっともらしい理論の物語、未来像の演出"
+   "scene": "体系的な世界観や理論(イデオロギー・陰謀論・壮大な未来像)が、舞台装置のように作り物の世界を見せ、人がその中で考える場面"
   },
   {
    "id": "NO1.45",
@@ -198,7 +198,7 @@
    ],
    "orig": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit",
    "ja": "人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。",
-   "scene": "偶然の一致に意図を見る陰謀論、統計や相場の過剰な解釈、パターンへの思い込み"
+   "scene": "偶然の一致や雑多な出来事に、人が実際以上の秩序・意図・法則を読み込む場面。陰謀論、相場の過剰な解釈"
   },
   {
    "id": "NO1.46a",
@@ -211,7 +211,7 @@
    ],
    "orig": "Intellectus humanus in iis quae semel placuerunt (aut quia recepta sunt et credita, aut quia delectant), alia etiam omnia trahit ad suffragationem et consensum cum illis",
    "ja": "人間の知性は、ひとたび気に入ったもの(受け容れられ信じられているから、あるいは心地よいから)に、ほかのすべてを引き寄せ、それを支持し一致させようとする。",
-   "scene": "確証バイアス、見たい情報だけを集める世論、支持する人物や陣営への擁護"
+   "scene": "人がいったん信じたり支持したりしたものに合う情報だけを集め、反する事実を退けて擁護する場面"
   },
   {
    "id": "NO1.46b",
@@ -225,7 +225,7 @@
    ],
    "orig": "At ubi sunt illi depicti qui post vota nuncupata perierint?",
    "ja": "では、誓いを立てたのちに命を落とした者たちの絵は、どこに掛けてあるのか。",
-   "scene": "成功例だけを宣伝する健康法・投資話・広告、生存者バイアス、効いた話だけが語られる療法"
+   "scene": "成功した例だけが宣伝され、失敗した人・効かなかった例が数えられない場面。健康法・投資話・体験談"
   },
   {
    "id": "NO1.46c",
@@ -239,7 +239,7 @@
    ],
    "orig": "is tamen humano intellectui error est proprius et perpetuus, ut magis moveatur et excitetur affirmativis, quam negativis",
    "ja": "否定的な事例よりも肯定的な事例によっていっそう動かされ、かき立てられること、これは人間の知性に固有の、絶えることのない誤りである。",
-   "scene": "不都合なデータの無視、成功事例ばかりの報道、検証の偏り、否定的な研究結果が顧みられない場面"
+   "scene": "肯定的な事例ばかりが注目され、否定的なデータや反証が無視される場面"
   },
   {
    "id": "NO1.47",
@@ -253,7 +253,7 @@
    ],
    "orig": "Intellectus humanus illis, quae simul et subito mentem ferire et subire possunt, maxime movetur; a quibus phantasia impleri et inflari consuevit",
    "ja": "人間の知性は、一挙に、しかも突然に心を打ち、入り込んでくるものによって最も動かされる。想像力はそうしたものによって満たされ、膨らまされるのが常である。",
-   "scene": "衝撃的な映像や事件の報道に世論が振れる場面、センセーショナルな見出し、印象による判断"
+   "scene": "一度の衝撃的な映像や事件が、人々の想像を一気に満たし、全体の判断を大きく振らせる場面"
   },
   {
    "id": "NO1.49a",
@@ -266,7 +266,7 @@
    ],
    "orig": "Intellectus humanus luminis sicci non est; sed recipit infusionem a voluntate et affectibus",
    "ja": "人間の知性は乾いた光ではなく、意志と感情が染み込んだものである。",
-   "scene": "感情的な世論、願望に引きずられた予測、党派によって異なる事実認識"
+   "scene": "人々の受け止め方が、事実よりも感情や所属陣営によって左右され、同じ事実が違って見える場面"
   },
   {
    "id": "NO1.49b",
@@ -279,7 +279,7 @@
    ],
    "orig": "quod enim mavult homo verum esse, id potius credit.",
    "ja": "人は、真であってほしいと願うことを、むしろ信じるものだ。",
-   "scene": "願望思考、楽観的な見通し、都合のよい情報の拡散"
+   "scene": "人や組織が、そうであってほしい結論を信じ込み、都合のよい見通しを語る場面"
   },
   {
    "id": "NO1.49c",
@@ -293,7 +293,7 @@
    ],
    "orig": "Rejicit itaque difficilia, ob inquirendi impatientiam; sobria, quia coarctant spem",
    "ja": "それゆえ知性は、探究に堪えきれずに難しいものを退け、希望を狭めるがゆえに醒めたものを退ける。",
-   "scene": "地道な検証や厳しい見通しが嫌われる場面、楽観論の流布、手軽な答えへの飛びつき"
+   "scene": "地道な検証や厳しい見通しが嫌われ、人々が手軽で楽観的な答えに飛びつく場面"
   },
   {
    "id": "NO1.50",
@@ -307,7 +307,7 @@
    ],
    "orig": "Itaque contemplatio fere desinit cum aspectu; adeo ut rerum invisibilium exigua aut nulla sit observatio.",
    "ja": "それゆえ考察はほとんど目に見えるところで止まり、目に見えないものは、わずかしか、あるいはまったく観察されない。",
-   "scene": "目に見えるリスクばかりが騒がれ見えないリスクが見過ごされる場面、長期的影響や副作用の軽視"
+   "scene": "目に見える危険や話題ばかりが騒がれ、目に見えない長期的な影響やリスクが見過ごされる場面"
   },
   {
    "id": "NO1.54",
@@ -321,7 +321,7 @@
    ],
    "orig": "Adamant homines scientias et contemplationes particulares; aut quia authores et inventores se earum credunt; aut quia plurimum in illis operae posuerunt, iisque maxime assueverunt.",
    "ja": "人は特定の学問や考察に惚れ込む。自分がその創始者・発見者だと信じているからか、そこに最も多くの労力を注ぎ、最も慣れ親しんできたからである。",
-   "scene": "専門家が自分の分野の枠組みで全てを語る場面、研究者や開発者の自説への固執、注ぎ込んだ労力への執着"
+   "scene": "専門家・研究者・開発者が、自分が生み出したり長く携わったりした理論や方法に固執し、すべてをその枠で語る場面"
   },
   {
    "id": "NO1.56a",
@@ -335,7 +335,7 @@
    ],
    "orig": "Reperiuntur ingenia alia in admirationem antiquitatis, alia in amorem et amplexum novitatis effusa",
    "ja": "ある才は古きものへの賛嘆に、ある才は新しきものへの愛着と抱擁に、溺れている。",
-   "scene": "新技術への熱狂と拒絶、懐古と革新の対立、AIブームとその反動"
+   "scene": "人々が、新しいものへの熱狂と、古いものへの懐古とに分かれて、中身より新旧で物事を評価する場面"
   },
   {
    "id": "NO1.56b",
@@ -349,7 +349,7 @@
    ],
    "orig": "veritas autem non a felicitate temporis alicujus, quae res varia est; sed a lumine naturae et experientiae, quod aeternum est, petenda est.",
    "ja": "真理は、移ろいやすいある時代の幸運にではなく、永遠なる自然と経験の光に求められねばならない。",
-   "scene": "時流や流行に乗った主張、ブームに頼る研究や投資、時代の空気に左右される評価"
+   "scene": "主張や評価が、時流や流行の追い風に頼り、検証に耐える根拠を欠いている場面"
   },
   {
    "id": "NO1.58",
@@ -363,7 +363,7 @@
    ],
    "orig": "Generaliter autem pro suspecto habendum unicuique rerum naturam contemplanti quicquid intellectum suum potissimum capit et detinet",
    "ja": "総じて、事物の本性を考察する者は誰でも、自分の知性を最も強く捉えて離さないものを、何であれ疑わしいものとみなすべきである。",
-   "scene": "魅力的な仮説や話題への飛びつき、専門家や世論の熱狂、心を奪う新発見の報道"
+   "scene": "魅力的な新説・新発見・話題に、人々や専門家が心を奪われ、疑うべきところで疑わない場面"
   },
   {
    "id": "NO1.59a",
@@ -376,7 +376,7 @@
    ],
    "orig": "At idola fori omnium molestissima sunt; quae ex foedere verborum et nominum se insinuarunt in intellectum.",
    "ja": "だが市場のイドラこそ、すべての中で最も厄介である。それは言葉と名前との結びつきを通じて、知性に忍び込んでいる。",
-   "scene": "用語やラベルの誤用、報道の言葉の選び方、ネット上の言説"
+   "scene": "言葉と名前の選び方そのものが、人々の判断を知らぬ間にゆがめている場面。報道の用語、ネットの言説"
   },
   {
    "id": "NO1.59b",
@@ -389,7 +389,7 @@
    ],
    "orig": "Credunt enim homines, rationem suam verbis imperare. Sed fit etiam ut verba vim suam super intellectum retorqueant et reflectant",
    "ja": "人は、自分の理性が言葉を支配していると信じている。だが言葉のほうが、その力を逆に知性へと跳ね返すことも起こる。",
-   "scene": "スローガンが思考を縛る場面、言葉の言い換えや言葉狩り、生成AIの作る文章"
+   "scene": "人が言葉を使っているつもりで、スローガンや用語にかえって考えを縛られる場面。言い換え、言葉狩り"
   },
   {
    "id": "NO1.60",
@@ -403,7 +403,7 @@
    ],
    "orig": "quemadmodum enim sunt res, quae nomine carent per inobservationem; ita sunt et nomina, quae carent rebus, per suppositionem phantasticam",
    "ja": "見落とされて名前を欠く物があるように、空想の想定によって、物を欠く名前もある。",
-   "scene": "実体のない流行語やバズワード、存在しない脅威、疑似科学の用語"
+   "scene": "実体の無い流行語・バズワード・存在しない脅威の名前が、あたかも実在するかのように語られる場面"
   },
   {
    "id": "NO1.61",
@@ -416,7 +416,7 @@
    ],
    "orig": "At idola theatri innata non sunt, nec occulto insinuata in intellectum; sed ex fabulis theoriarum, et perversis legibus demonstrationum, plane indita et recepta.",
    "ja": "劇場のイドラは生まれつきのものでも、ひそかに知性に忍び込んだものでもない。理論の作り話と、ゆがんだ論証の規則とから、公然と植えつけられ、受け容れられたものである。",
-   "scene": "教条やイデオロギー、学派の教え、メディアや運動体が広める体系的な物語"
+   "scene": "教義・学派・運動・メディアが、理論の物語を公然と広め、人々がそれを受け入れて世界を見る場面"
   },
   {
    "id": "NO1.65",
@@ -430,7 +430,7 @@
    ],
    "orig": "Inest enim homini quaedam intellectus ambitio, non minor quam voluntatis; praesertim in ingeniis altis et elevatis.",
    "ja": "人間には、意志の野心に劣らぬ、知性の野心とでもいうべきものが宿っている。高く秀でた才においては、ことにそうである。",
-   "scene": "壮大な理論や未来予測、技術者・研究者・経営者の野心、AIの誇大な将来像"
+   "scene": "技術者・研究者・経営者が、知的な野心から壮大な理論や将来像を打ち出し、実態を超えて語る場面"
   },
   {
    "id": "NO1.67",
@@ -444,7 +444,7 @@
    ],
    "orig": "alter eorum, qui facile pronunciant, et scientias reddunt positivas et magistrales; alter eorum, qui acatalepsiam introduxerunt, et inquisitionem vagam sine termino; quorum primus intellectum deprimit, alter enervat.",
    "ja": "一方は軽々しく断定し、学問を独断的で教師然としたものにする者たち、他方は何も確かには知りえないと説き、果てのない漂う探究を持ち込んだ者たちである。前者は知性を押さえつけ、後者は知性を骨抜きにする。",
-   "scene": "断定的な専門家と何でも疑う懐疑論の対立、科学への盲信と科学否定"
+   "scene": "断定的に語る専門家と、何も確かではないと疑う懐疑論者が対立し、どちらも知を損なう場面"
   },
   {
    "id": "NO1.70",
@@ -457,7 +457,7 @@
    ],
    "orig": "Sed demonstratio longe optima est experientia; modo haereat in ipso experimento.",
    "ja": "だが、およそ最良の論証は経験である。ただし、それが実験そのものに即している限りにおいてである。",
-   "scene": "実証実験・臨床試験・検証データ、根拠をめぐる議論、試験結果の拡大解釈"
+   "scene": "主張の正しさが、実験や試験の結果そのものによって確かめられる場面、あるいは結果が実験の範囲を超えて拡大解釈される場面"
   },
   {
    "id": "NO1.74",
@@ -471,7 +471,7 @@
    ],
    "orig": "Quae enim in natura fundata sunt, crescunt et augentur: quae autem in opinione, variantur, non augentur.",
    "ja": "自然に根ざしたものは成長し、増大する。だが意見に根ざしたものは、移り変わりはしても増大はしない。",
-   "scene": "流行や世論に支えられた技術・言説の盛衰、実体のないブーム、地に足のついた研究"
+   "scene": "世論や流行だけに支えられた技術・言説が、移り変わりはしても育たず、実体に根ざしたものだけが伸びる場面"
   },
   {
    "id": "NO1.77",
@@ -485,7 +485,7 @@
    ],
    "orig": "At numerus longe maximus eorum, qui in Aristotelis philosophiam consenserunt, ex praejudicio et authoritate aliorum se illi mancipavit",
    "ja": "だがアリストテレスの哲学に同意した者の大多数は、先入見と他人の権威とによって、自らをそれに隷属させたのである。",
-   "scene": "権威や多数派への追従、専門家の名で押し通される主張、賛同者の多さが正しさの証しとされる場面",
+   "scene": "人々が、自分で確かめずに権威や多数派に従い、賛同者の多さを正しさの証しとする場面",
    "avoid_in_politics": true
   },
   {
@@ -500,7 +500,7 @@
    ],
    "orig": "Meta autem scientiarum vera et legitima non alia est quam ut dotetur vita humana novis inventis et copiis.",
    "ja": "学問の真の正当な目標は、人間の生活に新たな発明と富を授けること以外にない。",
-   "scene": "研究政策・研究予算・大学改革、基礎研究と応用研究をめぐる議論、成果の社会への還元"
+   "scene": "研究や学問の目的・成果が、人々の生活への還元という基準で問われる場面。研究予算・大学改革"
   },
   {
    "id": "NO1.84a",
@@ -514,7 +514,7 @@
    ],
    "orig": "Rursus vero homines a progressu in scientiis detinuit et fere incantavit reverentia antiquitatis, et virorum, qui in philosophia magni habiti sunt, authoritas, atque deinde consensus.",
    "ja": "さらに人々を学問の進歩から引き留め、ほとんど呪縛してきたのは、古きものへの畏敬と、哲学において偉大とされた人々の権威、そして世の同意であった。",
-   "scene": "前例主義・権威主義、学界の通説、新説や新技術への抵抗"
+   "scene": "古いものへの畏敬・権威・世間の同意が、新しい知見や改革を押しとどめている場面。前例主義"
   },
   {
    "id": "NO1.84b",
@@ -528,7 +528,7 @@
    ],
    "orig": "Recte enim Veritas Temporis filia dicitur, non Authoritatis.",
    "ja": "真理は権威の娘ではなく、時の娘であると言われるのはもっともである。",
-   "scene": "権威ある見解の覆り、後になって明らかになる事実、検証を経て定まる評価"
+   "scene": "権威ある見解や通説が、時を経た検証によって覆り、後から真実が明らかになる場面"
   },
   {
    "id": "NO1.85",
@@ -542,7 +542,7 @@
    ],
    "orig": "Interim nil mirum est, si opinio copiae causam inopiae dederit.",
    "ja": "豊かだという思い込みが、貧しさの原因となったとしても、何の不思議もない。",
-   "scene": "技術大国・先進国という自負が停滞を招く場面、現状への満足、過去の成功体験"
+   "scene": "豊かだ・進んでいるという自負が、改善を怠らせ、かえって停滞や貧しさの原因になっている場面"
   },
   {
    "id": "NO1.88",
@@ -556,7 +556,7 @@
    ],
    "orig": "ut in qualibet arte authores artis suae infirmitatem in naturae calumniam vertant; et quod ars ipsorum non assequitur, id ex eadem arte impossibile in natura pronunciant.",
    "ja": "どの技術においても、その担い手たちは自分の技術の非力を自然のせいにし、自分の技術が達しえないことを、その技術の名において自然界では不可能だと宣告する。",
-   "scene": "専門家や業界の「不可能」宣言、技術の限界論、失敗の責任を対象の難しさに転嫁する場面"
+   "scene": "専門家や業界が、自分たちの技術や方法の限界を、対象そのものが不可能だと言い換えて責任を逃れる場面"
   },
   {
    "id": "NO1.90",
@@ -571,7 +571,7 @@
    ],
    "orig": "Verum in rebus civilibus mutatio etiam in melius suspecta est ob perturbationem; cum civilia authoritate, consensu, fama, et opinione, non demonstratione, nitantur.",
    "ja": "政治の事柄においては、よい方への変化でさえ、混乱を招くゆえに疑われる。政治は論証にではなく、権威と同意と評判と意見とに拠って立つからである。",
-   "scene": "世論や評判に左右される政策、改革への抵抗、科学的根拠より空気が優先される場面"
+   "scene": "よい方向への改革でさえ、混乱を招くとして疑われ、論証よりも評判や空気で政策が決まる場面"
   },
   {
    "id": "NO1.91",
@@ -585,7 +585,7 @@
    ],
    "orig": "Sunt enim illi supra captum maximae partis hominum, et ab opinionum vulgarium ventis facile obruuntur et extinguuntur.",
    "ja": "そうした進歩は大多数の人々の理解を超えており、世俗の意見の風にたやすく吹き倒され、かき消されてしまう。",
-   "scene": "先端研究や新技術への無理解、世論やSNSによる研究・技術への逆風、研究費削減"
+   "scene": "先端の研究や新技術が、大多数の理解を超えているために、世論の風にたやすく吹き倒される場面"
   },
   {
    "id": "NO1.92",
@@ -599,7 +599,7 @@
    ],
    "orig": "longe maximum progressibus scientiarum, et novis pensis ac provinciis in iisdem suscipiendis, obstaculum deprehenditur in desperatione hominum, et suppositione impossibilis.",
    "ja": "学問の進歩と、そこで新たな課題や領域に取り組むことにとっての最大の障害は、人々の絶望と、不可能だという思い込みのうちに見出される。",
-   "scene": "科学技術の地盤沈下をめぐる悲観論、挑戦しない研究行政、最初から無理と決めつける風潮"
+   "scene": "人々や組織が、最初から「不可能だ」と思い込んで絶望し、挑戦そのものをやめてしまう場面"
   },
   {
    "id": "NO1.95",
@@ -613,7 +613,7 @@
    ],
    "orig": "Empirici, formicae more, congerunt tantum, et utuntur: rationales, aranearum more, telas ex se conficiunt: apis vero ratio media est, quae materiam ex floribus horti et agri elicit; sed tamen eam propria facultate vertit et digerit.",
    "ja": "経験派は蟻のように、ただ集めて使うだけである。理論派は蜘蛛のように、自分の中から網を紡ぐ。だが蜜蜂のやり方はその中間にあり、庭や野の花から材料を集めながら、それを自らの力で変え、消化する。",
-   "scene": "データの寄せ集めと机上の理論、AIの学習とデータ収集、研究の方法論"
+   "scene": "データをただ集める者と、机上で理論を紡ぐ者が対比され、集めた材料を自分の力で消化することが求められる場面"
   },
   {
    "id": "NO1.97",
@@ -627,7 +627,7 @@
    ],
    "orig": "Itaque ratio illa humana, quam habemus, ex multa fide, et multo etiam casu, nec non ex puerilibus, quas primo hausimus, notionibus, farrago quaedam est et congeries.",
    "ja": "それゆえ我々の持つ人間の理性なるものは、多くの信じ込みと多くの偶然と、幼い頃に最初に吸い込んだ観念とから成る、ごった煮であり寄せ集めである。",
-   "scene": "常識や世間の通念、教育による刷り込み、思い込みの根の深さ"
+   "scene": "人々が理性だと思っているものが、実は幼い頃からの刷り込み・通念・偶然の寄せ集めにすぎないと露わになる場面"
   },
   {
    "id": "NO1.98",
@@ -642,7 +642,7 @@
    ],
    "orig": "Sed contra homines docti (supini sane et faciles) rumores quosdam experientiae, et quasi famas et auras ejus, ad philosophiam suam vel constituendam vel confirmandam exceperunt, atque illis nihilominus pondus legitimi testimonii attribuerunt.",
    "ja": "ところが学者たちは、まことに怠惰で安易にも、経験についての噂、いわばその風評やそよ風を、自説を打ち立て裏づけるために取り込み、しかもそれに正規の証言の重みを与えてきた。",
-   "scene": "伝聞や未検証のデータに基づく研究や報道、論文不正、専門家の受け売り"
+   "scene": "専門家や報道が、伝聞や未検証の話を、正式な証拠のような重みで扱って結論を支える場面"
   },
   {
    "id": "NO1.100",
@@ -655,7 +655,7 @@
    ],
    "orig": "Vaga enim Experientia et se tantum sequens (ut superius dictum est) mera palpatio est, et homines potius stupefacit quam informat.",
    "ja": "行き当たりばったりで、ただ自分の後を追うだけの経験は単なる手探りにすぎず、人を教えるよりも、むしろ途方に暮れさせる。",
-   "scene": "場当たり的な政策や対策、計画なき試行錯誤、目的のないデータ収集"
+   "scene": "計画も方法も無く、場当たりの試行を重ねるだけで、かえって混乱を深める対策や施策"
   },
   {
    "id": "NO1.109",
@@ -669,7 +669,7 @@
    ],
    "orig": "Solent enim homines de rebus novis ad exemplum veterum, et secundum phantasiam ex iis praeceptam et inquinatam, hariolari; quod genus opinandi fallacissimum est",
    "ja": "人は新しい事柄について、古いものを手本とし、そこから先取りされ汚された想像に従って、当て推量をするのが常である。この種の臆見ほど人を欺くものはない。",
-   "scene": "AIや量子技術など新技術の影響予測、過去からの類推による誤解、前例に縛られた判断"
+   "scene": "人々が、新しい技術や事態の影響を、古い事例からの類推で当て推量し、見誤る場面"
   },
   {
    "id": "NO1.110",
@@ -683,7 +683,7 @@
    ],
    "orig": "posse genus humanum nobilia inventa, etiam ante pedes posita, praeterire et transilire",
    "ja": "人類は、足元に置かれた高貴な発明でさえ、見過ごし、跳び越えてしまうことがありうる。",
-   "scene": "見過ごされてきた技術や発見、後から当たり前になる発明、埋もれた研究の再評価"
+   "scene": "身近にあった技術や発見が長く見過ごされ、後になってその価値が分かる場面"
   },
   {
    "id": "NO1.129a",
@@ -697,7 +697,7 @@
    ],
    "orig": "Artis nimirum Imprimendi, Pulveris Tormentarii, et Acus Nauticae. Haec enim tria rerum faciem et statum in orbe terrarum mutaverunt",
    "ja": "印刷術、火薬、羅針盤。この三つが、世界における事物の様相と状態を一変させた。",
-   "scene": "AIやインターネットなど社会を一変させる技術、技術覇権、通信・軍事・物流の技術革新"
+   "scene": "一つの技術(通信・AIなど)が、社会や世界の様相を一変させる場面"
   },
   {
    "id": "NO1.129b",
@@ -711,7 +711,7 @@
    ],
    "orig": "ut non imperium aliquod, non secta, non stella, majorem efficaciam et quasi influxum super res humanas exercuisse videatur, quam ista mechanica exercuerunt.",
    "ja": "いかなる帝国も、いかなる宗派も、いかなる星も、これらの機械的発明以上の力と、いわば影響を、人間の事柄に及ぼしたとは思われないほどである。",
-   "scene": "技術が政治や宗教以上に社会を変える場面、巨大IT企業やAIの影響力"
+   "scene": "技術や機械の発明が、政治や宗教以上に人間の事柄に力を及ぼしていると示す場面。巨大IT企業の影響力"
   },
   {
    "id": "NO1.129c",
@@ -724,7 +724,7 @@
    ],
    "orig": "Hominis autem imperium in res, in solis artibus et scientiis ponitur. Naturae enim non imperatur, nisi parendo.",
    "ja": "事物に対する人間の支配は、ひとえに技術と学問のうちにある。自然は服従することによってでなければ支配されないからである。",
-   "scene": "科学技術と国力・産業力、自然を制御しようとする計画、宇宙・エネルギー開発"
+   "scene": "国や人が技術と学問によって自然や世界を支配しようとする場面、その力が自然の法則への服従に支えられている場面"
   },
   {
    "id": "NO1.129d",
@@ -738,7 +738,7 @@
    ],
    "orig": "Postremo, siquis depravationem scientiarum et artium ad malitiam et luxuriam et similia objecerit; id neminem moveat.",
    "ja": "最後に、学問や技術が悪意や奢侈などへと堕落させられると異を唱える者がいても、それに心を動かされる必要はない。",
-   "scene": "AIや遺伝子技術の悪用への懸念、軍事転用、技術規制をめぐる議論"
+   "scene": "技術が悪用されるという懸念から、技術そのものを否定・制限しようとする議論が起きる場面"
   },
   {
    "id": "E1a",
@@ -752,7 +752,7 @@
    ],
    "orig": "A mixture of a lie doth ever add pleasure.",
    "ja": "嘘が混じると、いつも楽しみが増す。",
-   "scene": "誇張された話やデマが広まる場面、面白い虚報の拡散、盛られた体験談"
+   "scene": "話が誇張され、嘘や盛った部分が混ざることで、かえって面白がられて広まる場面"
   },
   {
    "id": "E1b",
@@ -766,7 +766,7 @@
    ],
    "orig": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt",
    "ja": "害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。",
-   "scene": "偽情報や陰謀論の定着、訂正が効かない誤情報、信じ込まれた俗説"
+   "scene": "一度信じ込まれた偽情報や俗説が、訂正されても人々の心に住みつき、害をなし続ける場面"
   },
   {
    "id": "E1c",
@@ -780,7 +780,7 @@
    ],
    "orig": "WHAT is truth? said jesting Pilate, and would not stay for an answer.",
    "ja": "「真理とは何か」と戯れるピラトは問い、答えを待とうともしなかった。",
-   "scene": "真偽に関心を持たない言論、ファクトチェックの軽視、問いだけを投げて立ち去る議論"
+   "scene": "人や組織が、真偽を確かめる気も無く問いだけを投げて立ち去る場面。答えを待たない論評"
   },
   {
    "id": "E6",
@@ -793,7 +793,7 @@
    ],
    "orig": "DISSIMULATION is but a faint kind of policy, or wisdom; for it asketh a strong wit, and a strong heart, to know when to tell truth, and to do it.",
    "ja": "隠し立ては、弱々しい策略、あるいは知恵にすぎない。いつ真実を語るべきかを知り、それを実行するには、強い知恵と強い心がいるからである。",
-   "scene": "企業や行政の隠蔽、情報公開の遅れ、ごまかしの説明、不祥事の後手の発表"
+   "scene": "企業・行政・人が、真実を語る強さを欠いて、隠し立てやごまかしの説明で切り抜けようとする場面"
   },
   {
    "id": "E9a",
@@ -807,7 +807,7 @@
    ],
    "orig": "and envy ever redoubleth from speech and fame.",
    "ja": "そして嫉妬は、噂と評判によっていつも倍加する。",
-   "scene": "有名人や成功者へのバッシング、SNSでの叩き、話題になった人への攻撃"
+   "scene": "目立った人や成功者への嫉妬が、噂や評判に乗って倍加し、バッシングになる場面"
   },
   {
    "id": "E9b",
@@ -820,7 +820,7 @@
    ],
    "orig": "so when envy is gotten once into a state, it traduceth even the best actions thereof, and turneth them into an ill odor.",
    "ja": "ひとたび嫉妬が国家に入り込むと、それはその最良の行いさえも中傷し、悪臭へと変えてしまう。",
-   "scene": "政府や組織への不信が募り何をしても叩かれる状況、公的機関の発表への疑い"
+   "scene": "組織や政府への不信が行き渡り、何をしても悪意に解釈される場面"
   },
   {
    "id": "E12a",
@@ -834,7 +834,7 @@
    ],
    "orig": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
    "ja": "人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。",
-   "scene": "扇動的な宣伝や煽り見出しが効く場面、ポピュリズム、刺激的な投稿の拡散力",
+   "scene": "扇動的な宣伝や煽り見出しが、人の心の愚かな部分をつかんで、冷静な判断より強く働く場面",
    "avoid_in_politics": true
   },
   {
@@ -849,7 +849,7 @@
    ],
    "orig": "Surely, as there are mountebanks for the natural body, so are there mountebanks for the politic body; men that undertake great cures, and perhaps have been lucky, in two or three experiments, but want the grounds of science, and therefore cannot hold out.",
    "ja": "まことに、肉体に香具師がいるように、政体にも香具師がいる。大きな治療を請け負い、二、三度の試みではおそらく運がよかったが、学問の根拠を欠くために長続きしない者たちである。",
-   "scene": "根拠の乏しい改革案や公約、大言壮語の起業家やインフルエンサー、ニセ医療"
+   "scene": "根拠を欠いた人物が、二、三度の幸運な成功を頼りに大きな解決を請け負い、長続きしない場面。大言壮語の改革者・起業家・ニセ医療"
   },
   {
    "id": "E12c",
@@ -863,7 +863,7 @@
    ],
    "orig": "And yet boldness is a child of ignorance and baseness, far inferior to other parts.",
    "ja": "とはいえ大胆さは無知と卑しさの子であり、ほかの資質にはるかに劣る。",
-   "scene": "根拠なき断言で注目を集める論者、自信満々の誤情報、強気の発言で押し通す場面",
+   "scene": "人が根拠の無い大胆な断言や強気の態度で注目を集め、押し通そうとする場面",
    "avoid_in_politics": true
   },
   {
@@ -878,7 +878,7 @@
    ],
    "orig": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
    "ja": "国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。",
-   "scene": "政府批判の過激化、偽情報の拡散と社会不安、公的機関への不信の高まり"
+   "scene": "国家や公的機関への誹謗と偽りの知らせが公然と飛び交い、人々が性急に受け入れて不安が高まる場面"
   },
   {
    "id": "E15b",
@@ -891,7 +891,7 @@
    ],
    "orig": "Neither doth it follow, that because these fames are a sign of troubles, that the suppressing of them with too much severity, should be a remedy of troubles.",
    "ja": "こうした風評が騒乱の兆しだからといって、それを厳しすぎるほどに抑えつけることが騒乱の治療になるとは限らない。",
-   "scene": "偽情報対策やネット規制、言論統制、投稿削除をめぐる議論"
+   "scene": "当局が、風評や偽情報を厳しく抑え込もうとして、かえって逆効果を招くおそれがある場面"
   },
   {
    "id": "E15c",
@@ -905,7 +905,7 @@
    ],
    "orig": "for they are the most dangerous discontentments, where the fear is greater than the feeling.",
    "ja": "最も危険な不満とは、実際の痛みよりも恐れのほうが大きい不満である。",
-   "scene": "不安をあおる報道、実害より大きい社会不安、風評被害"
+   "scene": "実際の被害よりも、恐れや不安のほうが大きく膨らんで、人々の不満や混乱を生む場面。風評被害"
   },
   {
    "id": "E15d",
@@ -918,7 +918,7 @@
    ],
    "orig": "To give moderate liberty for griefs and discontentments to evaporate (so it be without too great insolency or bravery), is a safe way.",
    "ja": "不平と不満が蒸発するよう適度な自由を与えることは、度を越した傲慢や虚勢を伴わない限り、安全なやり方である。",
-   "scene": "言論の自由とSNS規制、ガス抜き、批判の受け止め方"
+   "scene": "不満や批判を力で抑えず、適度に言わせて発散させる対応が問われる場面"
   },
   {
    "id": "E16",
@@ -932,7 +932,7 @@
    ],
    "orig": "It is true, that a little philosophy inclineth man's mind to atheism; but depth in philosophy bringeth men's minds about to religion.",
    "ja": "わずかな哲学は人の心を無神論に傾けるが、哲学を深めれば人の心は宗教へと立ち返る、というのは本当である。",
-   "scene": "生半可な知識による断定、ネット検索での専門家気取り、浅い理解と深い理解の差"
+   "scene": "生半可な知識を得た人が断定に走り、深く学んだ人ほど慎重になる場面"
   },
   {
    "id": "E17a",
@@ -945,7 +945,7 @@
    ],
    "orig": "IT WERE better to have no opinion of God at all, than such an opinion, as is unworthy of him.",
    "ja": "神にふさわしくない意見を持つくらいなら、神についてまったく何の意見も持たないほうがましである。",
-   "scene": "宗教やカルトをめぐる報道、信仰の歪曲、霊感商法"
+   "scene": "信仰や神の名が、それにふさわしくない形でゆがめて使われる場面。カルト・霊感商法"
   },
   {
    "id": "E17b",
@@ -959,7 +959,7 @@
    ],
    "orig": "The master of superstition, is the people; and in all superstition, wise men follow fools",
    "ja": "迷信の主人は民衆であり、あらゆる迷信において、賢者が愚者に従う。",
-   "scene": "疑似科学や健康デマの流行、専門家や企業が世論に迎合する場面",
+   "scene": "民衆の迷信や流行に、専門家や企業がかえって迎合し、理屈を後から合わせる場面",
    "avoid_in_politics": true
   },
   {
@@ -974,7 +974,7 @@
    ],
    "orig": "There is a superstition in avoiding superstition, when men think to do best, if they go furthest from the superstition, formerly received",
    "ja": "迷信を避けることのうちにも迷信がある。かつて受け容れられていた迷信から最も遠ざかれば最善だと、人が考えるときである。",
-   "scene": "反動的な極論、行き過ぎた自粛や規制、ある俗説への反発が別の俗説を生む場面"
+   "scene": "ある俗説や行き過ぎへの反発が、正反対の極端に走って、別の迷信を生む場面"
   },
   {
    "id": "E20a",
@@ -988,7 +988,7 @@
    ],
    "orig": "for else counsellors will but take the wind of him, and instead of giving free counsel, sing him a song of placebo.",
    "ja": "さもないと助言者たちは風向きを読むばかりで、自由な助言をする代わりに、ご機嫌取りの歌を歌うだろう。",
-   "scene": "忖度や御用学者、有識者会議の形骸化、利用者に迎合するAI"
+   "scene": "助言者や有識者が、上の意向や風向きを読んで、率直な助言の代わりにご機嫌取りをする場面"
   },
   {
    "id": "E20b",
@@ -1001,7 +1001,7 @@
    ],
    "orig": "books will speak plain, when counsellors blanch.",
    "ja": "助言者が言葉を濁すとき、書物は率直に語る。",
-   "scene": "専門家や官僚の萎縮、記録・文献・データの価値、公文書の扱い"
+   "scene": "人が言葉を濁すとき、記録・文献・データが率直に事実を語る場面"
   },
   {
    "id": "E22a",
@@ -1015,7 +1015,7 @@
    ],
    "orig": "for that nothing doth more hurt in a state, than that cunning men pass for wise.",
    "ja": "狡猾な者が賢者として通用することほど、国家に害をなすものはない。",
-   "scene": "口のうまいコメンテーターやインフルエンサーの影響力、詐欺的な投資話、もっともらしい専門家",
+   "scene": "口がうまく狡猾な人物が、賢者や専門家として通用し、影響力を持ってしまう場面",
    "avoid_in_politics": true
   },
   {
@@ -1030,7 +1030,7 @@
    ],
    "orig": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
    "ja": "自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。",
-   "scene": "「との声が上がっている」式の報道、匿名の情報源、世論の名を借りた主張"
+   "scene": "人が自分の責任で言いたくないことを、「世間ではこう言われている」「との声がある」と他人の名を借りて言う場面"
   },
   {
    "id": "E24a",
@@ -1043,7 +1043,7 @@
    ],
    "orig": "AS THE births of living creatures, at first are ill-shapen, so are all innovations, which are the births of time.",
    "ja": "生き物が生まれたばかりのときは不格好であるように、時の産み落とす子であるあらゆる革新もまた、初めは不格好である。",
-   "scene": "新技術や新制度の初期の不具合、AIの未熟さ、導入直後の混乱"
+   "scene": "新しい技術や制度が、導入直後の不具合や混乱をもって、それ自体の価値まで疑われる場面"
   },
   {
    "id": "E24b",
@@ -1056,7 +1056,7 @@
    ],
    "orig": "and he that will not apply new remedies, must expect new evils; for time is the greatest innovator",
    "ja": "新しい治療を施そうとしない者は、新しい災いを覚悟しなければならない。時こそ最大の革新者だからである。",
-   "scene": "技術変化への対応の遅れ、時代遅れの規制、変化を拒む組織"
+   "scene": "組織や国が、変化に応じた新しい手を打たず、時代の変化そのものによって新しい災いに見舞われる場面"
   },
   {
    "id": "E24c",
@@ -1070,7 +1070,7 @@
    ],
    "orig": "And lastly, that the novelty, though it be not rejected, yet be held for a suspect",
    "ja": "そして最後に、新奇なものは、退けはしないまでも、疑わしいものとして扱うこと。",
-   "scene": "新技術の導入審査や安全性評価、ブームへの警戒、新説の慎重な吟味"
+   "scene": "新奇なものを、拒みはしないが疑わしいものとして慎重に吟味する姿勢が問われる場面"
   },
   {
    "id": "E26",
@@ -1084,7 +1084,7 @@
    ],
    "orig": "It is a ridiculous thing, and fit for a satire to persons of judgment, to see what shifts these formalists have, and what prospectives to make superficies to seem body, that hath depth and bulk.",
    "ja": "こうした形式ばかりの者たちが、表面を奥行きと嵩のある実体に見せかけるために、いかなる手管と遠眼鏡を用いるかを見るのは滑稽であり、判断力ある人にとっては風刺にうってつけである。",
-   "scene": "中身のない会見や発表、見せかけの改革、AIの「それらしい」出力、体裁だけの報告書"
+   "scene": "形式ばかりの人や組織が、表面を厚みのある実体のように見せかける手管を弄する場面。中身の無い会見や体裁だけの報告"
   },
   {
    "id": "E31a",
@@ -1098,7 +1098,7 @@
    ],
    "orig": "SUSPICIONS amongst thoughts, are like bats amongst birds, they ever fly by twilight.",
    "ja": "思考の中の疑惑は、鳥の中の蝙蝠のようなもので、いつも薄明かりの中を飛ぶ。",
-   "scene": "陰謀論や疑心暗鬼、情報が乏しい中での憶測"
+   "scene": "情報が乏しく見通しが利かない中で、疑惑や憶測が薄明かりの中を飛び交う場面"
   },
   {
    "id": "E31b",
@@ -1112,7 +1112,7 @@
    ],
    "orig": "There is nothing makes a man suspect much, more than to know little",
    "ja": "知ることが少ないことほど、人に多くを疑わせるものはない。",
-   "scene": "情報公開の不足が不信を招く場面、ワクチンや新技術への不信、AIへの漠然とした不安"
+   "scene": "知らされていないこと・分からないことが多いほど、人々の疑いが強まる場面。説明不足が不信を招く"
   },
   {
    "id": "E31c",
@@ -1126,7 +1126,7 @@
    ],
    "orig": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
    "ja": "心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。",
-   "scene": "意図的な偽情報や世論工作、組織的なデマの拡散、ネット上の誹謗中傷"
+   "scene": "他人の作り話や囁きによって意図的に吹き込まれた疑惑が、針を持って人を刺す場面。世論工作・組織的なデマ"
   },
   {
    "id": "E32",
@@ -1140,7 +1140,7 @@
    ],
    "orig": "SOME, in their discourse, desire rather commendation of wit, in being able to hold all arguments, than of judgment, in discerning what is true",
    "ja": "ある者は談論において、何が真実かを見分ける判断力よりも、どんな議論でも持ちこたえられる機知のほうで称賛されたがる。",
-   "scene": "論破を競う討論番組やネット論争、勝ち負けだけの議論"
+   "scene": "議論する人が、何が真実かを見分けることより、どんな議論にも言い返せる機知で称賛されたがる場面"
   },
   {
    "id": "E35a",
@@ -1154,7 +1154,7 @@
    ],
    "orig": "First, that men mark when they hit, and never mark when they miss",
    "ja": "第一に、人は当たったときには気に留め、外れたときには決して気に留めない。",
-   "scene": "予言・占い・予測の的中話、専門家の予測、相場予想、AIの予測精度の宣伝"
+   "scene": "予言や予測が当たったときだけ注目され、外れたことは忘れられる場面"
   },
   {
    "id": "E35b",
@@ -1168,7 +1168,7 @@
    ],
    "orig": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies",
    "ja": "第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。",
-   "scene": "都市伝説や災害予言の流布、未来予測の独り歩き"
+   "scene": "もっともらしい推測や曖昧な言い伝えが、いつのまにか予言として独り歩きする場面"
   },
   {
    "id": "E35c",
@@ -1182,7 +1182,7 @@
    ],
    "orig": "The third and last (which is the great one) is, that almost all of them, being infinite in number, have been impostures, and by idle and crafty brains merely contrived and feigned, after the event past.",
    "ja": "第三に、そして最後に(これが最大の理由であるが)、数限りないそうした予言のほとんどすべてはまやかしであり、暇で狡猾な頭が出来事の後になってでっち上げ、こしらえたものにすぎない。",
-   "scene": "後出しの予言や「予見していた」という主張、事後の辻褄合わせ"
+   "scene": "出来事の後になってから、「予見していた」という話がこしらえられる場面"
   },
   {
    "id": "E39a",
@@ -1195,7 +1195,7 @@
    ],
    "orig": "Therefore, since custom is the principal magistrate of man's life, let men by all means endeavor, to obtain good customs.",
    "ja": "習慣は人の生活を司る第一の為政者であるから、人はあらゆる手を尽くして、よい習慣を身につけるよう努めるべきである。",
-   "scene": "スマートフォンやSNSへの依存、教育と生活習慣、デジタル機器の使い方"
+   "scene": "習慣が人の生活を支配しており、どんな習慣を身につけるかが問われる場面。依存や生活習慣"
   },
   {
    "id": "E39b",
@@ -1209,7 +1209,7 @@
    ],
    "orig": "But if the force of custom simple and separate, be great, the force of custom copulate and conjoined and collegiate, is far greater.",
    "ja": "ひとりで離れて働く習慣の力が大きいとすれば、結びつき、寄り合い、集団をなした習慣の力は、はるかに大きい。",
-   "scene": "集団同調や組織文化、SNS上の群れ、業界の慣行"
+   "scene": "集団で共有された習慣や慣行が、個人の習慣よりはるかに強く人を縛る場面。組織文化、業界の慣行"
   },
   {
    "id": "E50a",
@@ -1223,7 +1223,7 @@
    ],
    "orig": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
    "ja": "反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。",
-   "scene": "ネット記事や報道の読み方、メディアリテラシー、AIの回答の受け止め方"
+   "scene": "人が、反論のため・鵜呑みのため・話の種のためではなく、量り考えるために情報を受け取ることが求められる場面"
   },
   {
    "id": "E50b",
@@ -1236,7 +1236,7 @@
    ],
    "orig": "Crafty men contemn studies, simple men admire them, and wise men use them",
    "ja": "狡猾な者は学問を軽んじ、単純な者は学問を崇め、賢い者は学問を用いる。",
-   "scene": "科学への軽視と盲信、研究成果の使い方、専門知と政策",
+   "scene": "学問や研究が、軽んじる者・崇める者・使いこなす者に分かれて扱われる場面",
    "avoid_in_politics": true
   },
   {
@@ -1250,7 +1250,7 @@
    ],
    "orig": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested",
    "ja": "ある書物は味わうべきもの、ある書物は丸呑みにすべきもの、そしてわずかな書物は噛み砕いて消化すべきものである。",
-   "scene": "情報過多、AIによる要約、読書離れ、速読や切り抜き動画"
+   "scene": "情報や書物の扱い方(味わう・丸呑みする・噛み砕く)の違いが問われる場面。要約・切り抜きの流行"
   },
   {
    "id": "E50d",
@@ -1263,7 +1263,7 @@
    ],
    "orig": "Reading maketh a full man; conference a ready man; and writing an exact man.",
    "ja": "読むことは充実した人をつくり、語り合うことは機敏な人をつくり、書くことは正確な人をつくる。",
-   "scene": "教育改革、AIによる作文の代行、読解力の低下"
+   "scene": "読む・語り合う・書くことのそれぞれが人を育てると問われる場面。教育、AIによる作文の代行"
   },
   {
    "id": "E53",
@@ -1276,7 +1276,7 @@
    ],
    "orig": "Certainly fame is like a river, that beareth up things light and swoln, and drowns things weighty and solid.",
    "ja": "まことに評判は川のようなもので、軽く膨れたものを浮かべ、重く堅固なものを沈める。",
-   "scene": "話題になる軽い出来事と埋もれる重要な報道、インフルエンサーの人気、バズと実質"
+   "scene": "軽く膨らんだ話題が浮かび上がって広まり、重く堅実なものが埋もれる場面"
   },
   {
    "id": "E54",
@@ -1290,7 +1290,7 @@
    ],
    "orig": "The fly sat upon the axle-tree of the chariot wheel, and said, What a dust do I raise!",
    "ja": "蝿が戦車の車軸にとまって言った。「なんと砂ぼこりを巻き上げていることか、この私が!」",
-   "scene": "成果の横取りや手柄の誇示、自己宣伝、自分の影響力を過大に語る政治家・企業・論者"
+   "scene": "人や組織が、他人の成果や大きな流れに乗っただけなのに、自分の手柄のように誇る場面"
   },
   {
    "id": "E58",
@@ -1303,7 +1303,7 @@
    ],
    "orig": "Certain it is, that the matter is in a perpetual flux, and never at a stay.",
    "ja": "確かなことは、物質は絶えず流転し、決して留まらないということである。",
-   "scene": "技術や社会の急速な変化、永続すると思われた仕組みの崩壊"
+   "scene": "永続すると思われた仕組みや常識が、絶え間ない変化の中で崩れていく場面"
   },
   {
    "id": "E59a",
@@ -1316,7 +1316,7 @@
    ],
    "orig": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part",
    "ja": "風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。",
-   "scene": "世論戦・情報戦、広報戦略、評判が成否を分ける事業"
+   "scene": "大きな事業や争いの成否に、評判や風評が大きく関わっている場面"
   },
   {
    "id": "E59b",
@@ -1329,7 +1329,7 @@
    ],
    "orig": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
    "ja": "それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。",
-   "scene": "政府や企業の広報、危機管理、偽情報への対応"
+   "scene": "為政者や企業が、行動そのものと同じほど、風評や評判への対応に心を配るべき場面"
   },
   {
    "id": "E59c",
@@ -1342,7 +1342,793 @@
    ],
    "orig": "There is not, in all the politics, a place less handled and more worthy to be handled, than this of fame.",
    "ja": "政治の学のすべてを見渡しても、この風評という主題ほど論じられることが少なく、しかも論じるに値するところはない。",
-   "scene": "メディアや世論の研究、評判をめぐる問題が軽視される場面"
+   "scene": "評判や風評の力が大きいのに、まともに論じられず軽んじられている場面"
+  },
+  {
+   "id": "NO1.1",
+   "source": "NO1.1",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "experientia",
+    "potentia"
+   ],
+   "orig": "Homo, naturae minister et interpres, tantum facit et intelligit quantum de naturae ordine re vel mente observaverit: nec amplius scit, aut potest.",
+   "ja": "人間は自然の下僕にして解釈者であり、自然の秩序について、事実によってであれ精神によってであれ観察しただけのことを為し、理解する。それ以上は知らず、為し得ない。",
+   "scene": "誰かが、確かめた事実やデータの範囲を超えて「できる」「分かる」と言い切る場面。技術の能力の誇大な宣伝、専門家や当局の言い過ぎ、根拠の範囲を超えた約束"
+  },
+  {
+   "id": "NO1.2",
+   "source": "NO1.2",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "potentia",
+    "experientia"
+   ],
+   "orig": "Nec manus nuda, nec intellectus sibi permissus, multum valet; instrumentis et auxiliis res perficitur",
+   "ja": "素手も、放任された知性も、大したことはできない。事は道具と補助によって成し遂げられる。",
+   "scene": "道具や仕組みを持たずに、個人の勘・根性・善意だけで難しい問題に当たろうとする場面。あるいは新しい道具(AIなど)が人の力を大きく伸ばす場面"
+  },
+  {
+   "id": "NO1.31",
+   "source": "NO1.31",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "novitas",
+    "studium"
+   ],
+   "orig": "Frustra magnum expectatur augmentum in scientiis ex superinductione et insitione novorum super vetera; sed instauratio facienda est ab imis fundamentis",
+   "ja": "古いものの上に新しいものを継ぎ足し、接ぎ木しても、学問の大きな進展は空しく待たれるだけである。根底からの建て直しがなされねばならない。",
+   "scene": "組織や制度が、古い仕組みを残したまま新しい技術や施策を上に継ぎ足して、問題を解決したと称する場面。弥縫策、看板だけの改革、DXの名ばかりの導入"
+  },
+  {
+   "id": "NO1.48",
+   "source": "NO1.48",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "tribus",
+    "superstitio"
+   ],
+   "orig": "Gliscit intellectus humanus, neque consistere aut acquiescere potis est, sed ulterius petit; at frustra.",
+   "ja": "人間の知性はとめどなく膨らみ、立ち止まることも落ち着くこともできず、さらに先を求める。だが、それは空しい。",
+   "scene": "人々が、分からないことに耐えられず、確かめようのない「真相」「黒幕」「裏の意図」を次々に求めて憶測を重ねる場面"
+  },
+  {
+   "id": "NO1.51",
+   "source": "NO1.51",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "tribus",
+    "fori"
+   ],
+   "orig": "Intellectus humanus fertur ad abstracta propter naturam propriam; atque ea, quae fluxa sunt, fingit esse constantia.",
+   "ja": "人間の知性は、その本性によって抽象へと運ばれ、移ろうものを不変であるかのように思い描く。",
+   "scene": "一時の数字や流行、一度の出来事が、ずっと続く傾向や国民性・世代の性質のように語られる場面。人や集団にレッテルを貼って固定的に語る言説"
+  },
+  {
+   "id": "NO1.53",
+   "source": "NO1.53",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "specus"
+   ],
+   "orig": "Idola specus ortum habent ex propria cujusque natura et animi et corporis; atque etiam ex educatione, et consuetudine, et fortuitis.",
+   "ja": "洞窟のイドラは、各人に固有の心と体の性質から、また教育と習慣と偶然から生じる。",
+   "scene": "同じ出来事が、立場・職業・世代・育ちによってまったく違って見え、それぞれが自分の見方を当然と思って食い違う場面"
+  },
+  {
+   "id": "NO1.62",
+   "source": "NO1.62",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "theatri",
+    "fama"
+   ],
+   "orig": "ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
+   "ja": "舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。",
+   "scene": "込み入った事実より、筋の通った分かりやすい物語(陰謀論、善玉と悪玉の構図、ドラマ仕立ての報道)のほうが好まれ、広まる場面"
+  },
+  {
+   "id": "NO1.64",
+   "source": "NO1.64",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "specus",
+    "studium"
+   ],
+   "orig": "Itaque talis philosophia illis, qui in hujusmodi experimentis quotidie versantur atque ex ipsis phantasiam contaminarunt, probabilis videtur et quasi certa; caeteris, incredibilis et vana.",
+   "ja": "それゆえ、その種の哲学は、日々その種の実験に携わって想像力を染められた者には、もっともらしく、ほとんど確かに見えるが、他の者には信じがたく空しい。",
+   "scene": "業界・専門家・愛好家の内輪で当然とされる見方が、外の人には奇妙で信じがたく映り、両者の受け止め方が食い違う場面。内輪の熱狂、エコーチェンバー"
+  },
+  {
+   "id": "NO1.69",
+   "source": "NO1.69",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "theatri"
+   ],
+   "orig": "modus ille inveniendi et probandi, ut primo principia maxime generalia constituantur, deinde media axiomata ad ea applicentur et probentur, errorum mater est",
+   "ja": "まず最も一般的な原理を立て、ついで中間の命題をそれに当てはめて証明するという、あの発見と証明のやり方は、誤りの母である。",
+   "scene": "結論や主義が先にあって、個々の事例をそれに当てはめて裁く議論。調査の前から答えが決まっている検証、イデオロギーからの断定"
+  },
+  {
+   "id": "NO1.71",
+   "source": "NO1.71",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "fori",
+    "studium"
+   ],
+   "orig": "Erat autem sapientia Graecorum professoria, et in disputationes effusa: quod genus inquisitioni veritatis adversissimum est.",
+   "ja": "ギリシア人の知恵は講壇の知恵であり、論争へと流れ出た。この種の知恵は、真理の探究に最も敵対する。",
+   "scene": "討論やSNSでの言い争いが、事実を確かめることより相手を言い負かすことを目的にしてしまう場面。論破を競う番組や論客"
+  },
+  {
+   "id": "NO1.73",
+   "source": "NO1.73",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "experientia",
+    "potentia"
+   ],
+   "orig": "Inter signa, nullum magis certum aut nobile est, quam quod ex fructibus. Fructus enim et opera inventa pro veritate philosophiarum velut sponsores et fidejussores sunt.",
+   "ja": "しるしの中で、果実から取るしるしほど確かで高貴なものはない。果実と生み出された成果こそが、学説の真実の保証人のようなものだからである。",
+   "scene": "理念・宣伝・期待ではなく、実際の成果で真価が問われる場面。巨額投資の見返りが問われる技術、効果の検証を求められる政策や事業"
+  },
+  {
+   "id": "NO1.75",
+   "source": "NO1.75",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "studium",
+    "theatri",
+    "novitas"
+   ],
+   "orig": "quicquid sibi ipsis aut magistris suis incognitum aut intactum fuerit id extra terminos possibilis ponunt",
+   "ja": "自分自身や自分の師が知らず、手を付けなかったことは何であれ、彼らはそれを可能なことの範囲の外に置く。",
+   "scene": "権威や専門家、業界の古株が、自分の知らない新しい方法や発見を「不可能」「ありえない」と退ける場面"
+  },
+  {
+   "id": "NO1.76",
+   "source": "NO1.76",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "studium",
+    "experientia"
+   ],
+   "orig": "quod tanta fuerit inter philosophos olim dissensio et scholarum ipsarum varietas: quod satis ostendit, viam a sensu ad intellectum non bene munitam fuisse",
+   "ja": "かつて哲学者の間にあれほどの対立があり、学派がかくも多様であったことは、感覚から知性への道がよく整えられていなかったことを十分に示している。",
+   "scene": "同じ問題について専門家や研究の見解が真っ二つに割れ、確かな検証の方法が無いまま主張だけが並ぶ場面"
+  },
+  {
+   "id": "NO1.82",
+   "source": "NO1.82",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "experientia",
+    "theatri"
+   ],
+   "orig": "sed omnia vel traditionum caligini, vel argumentorum vertigini et turbini, vel casus et experientiae vagae et inconditae undis et ambagibus permissa esse.",
+   "ja": "すべてが、伝統の霧か、議論の目まいと旋風か、偶然と、さまよう無秩序な経験の波と迷路に委ねられてきた。",
+   "scene": "組織や社会が、確かな方法を持たずに、前例・声の大きい議論・その場の思いつきで物事を決め続ける場面"
+  },
+  {
+   "id": "NO1.86a",
+   "source": "NO1.86",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "simulatio",
+    "potentia",
+    "novitas"
+   ],
+   "orig": "Illi enim ea ambitione et affectatione eas proponunt, atque in eum modum efformatas ac veluti personatas in hominum conspectum producunt, ac si illae omni ex parte perfectae essent et ad exitum perductae.",
+   "ja": "彼らは野心と気取りをもってそれを示し、仮面をかぶせたように形を整えて人々の前に出す。あたかもあらゆる点で完全で、完成に至っているかのように。",
+   "scene": "企業や研究者が、未完成の技術・製品・計画を、完成した完全なもののように売り込む発表や宣伝。デモと実力の落差"
+  },
+  {
+   "id": "NO1.86b",
+   "source": "NO1.86",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "simulatio",
+    "theatri"
+   ],
+   "orig": "Atque licet membra illa male impleta et veluti capsulae inanes sint; tamen apud intellectum vulgarem scientiae formam et rationem integrae prae se ferunt.",
+   "ja": "その区分の一つ一つが中身に乏しく、空の小箱のようであっても、世間の知性の前では、完全な学問の体裁と筋道を見せる。",
+   "scene": "体裁の整った報告書・図表・用語が、中身の乏しさを隠して、世間には立派に見えている場面"
+  },
+  {
+   "id": "NO1.87",
+   "source": "NO1.87",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "simulatio",
+    "superstitio",
+    "potentia"
+   ],
+   "orig": "Neque enim defuerunt homines vaniloqui et phantastici, qui partim ex credulitate, partim ex impostura, genus humanum promissis onerarunt",
+   "ja": "空言を弄し空想にふける人々にも事欠かなかった。彼らは、一部は信じやすさから、一部は欺きから、人類を約束で押しつぶしてきた。",
+   "scene": "若返り・長寿・万能の治療・必ず儲かる投資など、確かめられない大きな約束で人を引きつける事業者や宣伝、ニセ医療"
+  },
+  {
+   "id": "NO1.89",
+   "source": "NO1.89",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "superstitio",
+    "studium"
+   ],
+   "orig": "nacta sit philosophia naturalis per omnes aetates adversarium molestum et difficilem; superstitionem nimirum, et zelum religionis caecum et immoderatum.",
+   "ja": "自然の学問は、あらゆる時代に、厄介で手強い敵を持ってきた。すなわち迷信と、盲目で度を越した信仰の熱狂である。",
+   "scene": "科学的な知見や研究が、迷信や、信条・運動の熱狂的な反発によって妨げられる場面"
+  },
+  {
+   "id": "NO1.94",
+   "source": "NO1.94",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "experientia"
+   ],
+   "orig": "Sed cum rerum vestrarum status, non a vi ipsa rerum, sed ab erroribus vestris male se habeat; sperandum est, illis erroribus missis aut correctis, magnam rerum in melius mutationem fieri posse.",
+   "ja": "だが、あなたがたの事態が悪いのが、事柄そのものの力によるのではなく、あなたがたの誤りによるのであれば、その誤りを捨て、あるいは正すことで、事態が大きく好転すると望みうる。",
+   "scene": "失敗や不祥事の原因が、運や環境ではなく自分たちのやり方の誤りだったと明らかになり、検証と立て直しが求められる場面"
+  },
+  {
+   "id": "NO1.99",
+   "source": "NO1.99",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "studium",
+    "potentia"
+   ],
+   "orig": "Mechanicus enim, de veritatis inquisitione nullo modo sollicitus, non ad alia quam quae operi suo subserviunt aut animum erigit aut manum porrigit.",
+   "ja": "職人は、真理の探究には少しも心を配らず、自分の仕事に役立つもの以外には、心を向けることも手を伸ばすこともない。",
+   "scene": "目先の実用や収益だけが求められ、すぐ役に立たない基礎研究や調査が軽んじられる場面"
+  },
+  {
+   "id": "NO1.104",
+   "source": "NO1.104",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "tribus",
+    "experientia"
+   ],
+   "orig": "Itaque hominum intellectui non plumae addendae, sed plumbum potius et pondera; ut cohibeant omnem saltum et volatum.",
+   "ja": "それゆえ人間の知性に付け加えるべきは羽ではなく、むしろ鉛と重りである。あらゆる跳躍と飛翔を押しとどめるために。",
+   "scene": "わずかな事例や一つの研究から、一足飛びに大きな結論や一般論へ飛びつく議論・報道。早すぎる断定"
+  },
+  {
+   "id": "NO1.108",
+   "source": "NO1.108",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "studium",
+    "experientia"
+   ],
+   "orig": "si hominibus non quaerentibus, et aliud agentibus, multa utilia, tanquam casu quodam aut per occasionem, inventa sint; nemini dubium esse posse, quin iisdem quaerentibus et hoc agentibus, idque via et ordine, non impetu et desultorie, longe plura detegi necesse sit.",
+   "ja": "探しもせず別のことをしていた人々が、偶然か機会によって多くの有用なものを見つけたのなら、同じ人々が探し、それに取り組み、しかも衝動的にでなく筋道と順序をもってすれば、はるかに多くが見つかるに違いないことは、誰も疑えない。",
+   "scene": "偶然の発見や思わぬ副産物が話題になり、それを計画的な研究や体制づくりにつなげようとする場面"
+  },
+  {
+   "id": "NO1.112",
+   "source": "NO1.112",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "experientia"
+   ],
+   "orig": "Homines enim adhuc parvam in Experientia moram fecerunt, et eam leviter perstrinxerunt, sed in meditationibus et commentationibus ingenii infinitum tempus contriverunt.",
+   "ja": "人々はこれまで、経験にはわずかしか留まらず、それを軽くかすめただけで、知恵をめぐらす思索と注釈には限りない時間を費やしてきた。",
+   "scene": "現場の調査や実験を省いて、机上の議論・評論・会議に時間を費やしている場面"
+  },
+  {
+   "id": "NO1.118",
+   "source": "NO1.118",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "experientia",
+    "studium"
+   ],
+   "orig": "multa in historia naturali experimenta falso credi et recipi posse, quae paulo post a causis et axiomatibus inventis facile expunguntur et rejiciuntur.",
+   "ja": "自然誌の中の多くの実験は、誤って信じられ受け入れられることがありうるが、それらは、原因と公理が見出されると、まもなく容易に消し去られ、退けられる。",
+   "scene": "初めの研究結果や報道が、のちの検証で訂正・撤回される場面。科学が自らの誤りを正していく過程"
+  },
+  {
+   "id": "NO1.119",
+   "source": "NO1.119",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "tribus",
+    "fama"
+   ],
+   "orig": "ut eorum quae rara sunt causas ad ea quae frequenter fiunt referant et accommodent, at ipsorum quae frequenter eveniunt nullas causas inquirant, sed ea ipsa recipiant tanquam concessa et admissa.",
+   "ja": "珍しいことの原因は、頻繁に起こることに引き寄せて説明するが、頻繁に起こることそのものの原因は何も問わず、それを当然のこととして受け入れている。",
+   "scene": "珍しい事件や事故ばかりが騒がれ、日常的にずっと起きている問題の原因は誰も問わない場面"
+  },
+  {
+   "id": "NO1.126",
+   "source": "NO1.126",
+   "work": "novum_organum",
+   "lang": "la",
+   "check": "orig",
+   "tags": [
+    "studium",
+    "theatri"
+   ],
+   "orig": "Atque melius est scire quantum opus sit, et tamen nos non penitus scire putare, quam penitus scire nos putare, et tamen nil eorum quae opus est scire.",
+   "ja": "必要なだけのことを知り、それでもなお自分は十分には知っていないと考えるほうが、十分に知っていると考えながら、必要なことを何一つ知らないよりもよい。",
+   "scene": "専門家や当局が「分かっている」「問題ない」と断言し、のちに肝心なことを知らなかったと露呈する場面。あるいは不確かさを正直に認める姿勢が問われる場面"
+  },
+  {
+   "id": "E4",
+   "source": "E4",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama",
+    "tribus"
+   ],
+   "orig": "REVENGE is a kind of wild justice; which the more man's nature runs to, the more ought law to weed it out.",
+   "ja": "復讐とは一種の野生の正義である。人の本性がそれに走れば走るほど、法はそれを抜き取らねばならない。",
+   "scene": "人々が、法や手続きによらずに、ネットでの晒しや私的な制裁で悪いとされた者を罰しようとする場面"
+  },
+  {
+   "id": "E5",
+   "source": "E5",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "Prosperity doth best discover vice, but adversity doth best discover virtue.",
+   "ja": "順境は悪徳をいちばんよく露わにし、逆境は美徳をいちばんよく露わにする。",
+   "scene": "成功や人気の絶頂で不祥事が露わになる場面、あるいは苦境の中で人や組織の真価が見える場面"
+  },
+  {
+   "id": "E9c",
+   "source": "E9",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "A man that hath no virtue in himself, ever envieth virtue in others.",
+   "ja": "自分の内に徳を持たない者は、常に他人の徳を妬む。",
+   "scene": "成功した人や善行が、妬みからの中傷や揚げ足取りの的になる場面",
+   "avoid_in_politics": true
+  },
+  {
+   "id": "E11a",
+   "source": "E11",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "MEN in great place are thrice servants: servants of the sovereign or state; servants of fame; and servants of business.",
+   "ja": "高い地位にある人は三重の下僕である。君主あるいは国家の下僕、評判の下僕、そして仕事の下僕である。",
+   "scene": "要職にある人や経営者が、職務よりも世間の評判やイメージに振り回されて判断する場面"
+  },
+  {
+   "id": "E11b",
+   "source": "E11",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "The vices of authority are chiefly four: delays, corruption, roughness, and facility.",
+   "ja": "権威の悪徳は、主に四つである。遅延、腐敗、粗暴、そして流されやすさである。",
+   "scene": "役所や組織の上層部が、対応の遅れ、不正、高圧的な態度、圧力への迎合のいずれかで批判を浴びる場面"
+  },
+  {
+   "id": "E11c",
+   "source": "E11",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "Severity breedeth fear, but roughness breedeth hate.",
+   "ja": "厳格さは恐れを生むが、粗暴さは憎しみを生む。",
+   "scene": "上の立場の者の高圧的な言動やパワハラが、規律ではなく反発と憎しみを生んでいる場面"
+  },
+  {
+   "id": "E11d",
+   "source": "E11",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama",
+    "novitas"
+   ],
+   "orig": "Reform therefore, without bravery, or scandal of former times and persons",
+   "ja": "それゆえ改めよ。ただし、前の時代や前任者を誇らしげにあげつらったり、その醜聞を言い立てたりせずに。",
+   "scene": "新しい責任者が、前任者や過去の体制を声高に非難することで、自分の改革を印象づけようとする場面"
+  },
+  {
+   "id": "E19",
+   "source": "E19",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "tribus"
+   ],
+   "orig": "IT IS a miserable state of mind, to have few things to desire, and many things to fear",
+   "ja": "望むものは少なく、恐れるものは多いというのは、みじめな心の状態である。",
+   "scene": "権力や地位を極めた人が、新しい目標より失うことへの恐れに支配され、疑い深く守りに入る場面"
+  },
+  {
+   "id": "E20c",
+   "source": "E20",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "experientia"
+   ],
+   "orig": "Things will have their first, or second agitation: if they be not tossed upon the arguments of counsel, they will be tossed upon the waves of fortune",
+   "ja": "物事は、一度目か二度目かに揺さぶられる。助言の議論の上で揉まれなければ、運命の波の上で揉まれることになる。",
+   "scene": "十分な議論や検証を経ずに決めた計画や施策が、実施後に現実の混乱や批判で揉まれる場面"
+  },
+  {
+   "id": "E21a",
+   "source": "E21",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "novitas"
+   ],
+   "orig": "FORTUNE is like the market; where many times if you can stay a little, the price will fall.",
+   "ja": "運は市場のようなものだ。しばしば、少し待つことができれば値は下がる。",
+   "scene": "焦って飛びついた人が損をし、熱狂が冷めるのを待った人が得をする場面。ブームの過熱と反落"
+  },
+  {
+   "id": "E21b",
+   "source": "E21",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "novitas"
+   ],
+   "orig": "There is surely no greater wisdom, than well to time the beginnings, and onsets, of things.",
+   "ja": "物事の始めと着手の時をよく見計らうことほど、大きな知恵はない。",
+   "scene": "新しい製品・施策・発表の時機が成否を分けた場面、あるいは時機を誤って反発を招いた場面"
+  },
+  {
+   "id": "E22c",
+   "source": "E22",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "simulatio"
+   ],
+   "orig": "And certainly there is a great difference, between a cunning man, and a wise man; not only in point of honesty, but in point of ability.",
+   "ja": "そしてたしかに、狡猾な人と賢い人の間には大きな違いがある。誠実さの点だけでなく、能力の点においても。",
+   "scene": "小手先の策略や言い逃れで切り抜けようとした人や組織が、かえって無能さを露呈する場面"
+  },
+  {
+   "id": "E23",
+   "source": "E23",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "tribus",
+    "fama"
+   ],
+   "orig": "It is the nature of extreme self-lovers, as they will set an house on fire, and it were but to roast their eggs",
+   "ja": "極端な自己愛者の性質とはこうしたもので、自分の卵を焼くためだけにでも、家に火をつけかねない。",
+   "scene": "注目や再生数・目先の利益のために、他人や社会に大きな害を及ぼす炎上商法や迷惑行為"
+  },
+  {
+   "id": "E25a",
+   "source": "E25",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "novitas"
+   ],
+   "orig": "AFFECTED dispatch is one of the most dangerous things to business that can be.",
+   "ja": "見せかけの迅速さは、仕事にとってありうる最も危険なものの一つである。",
+   "scene": "速さを誇示するために、検証を省いて拙速に決定・発表・発売し、問題を招く場面"
+  },
+  {
+   "id": "E25b",
+   "source": "E25",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "experientia"
+   ],
+   "orig": "Measure not dispatch, by the times of sitting, but by the advancement of the business.",
+   "ja": "迅速さを、会議に座っていた時間で測るな。仕事の進み具合で測れ。",
+   "scene": "会議の回数・時間・報告の量で努力を示しながら、肝心の仕事は進んでいない場面"
+  },
+  {
+   "id": "E26b",
+   "source": "E26",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "simulatio"
+   ],
+   "orig": "Some are so close and reserved, as they will not show their wares, but by a dark light; and seem always to keep back somewhat",
+   "ja": "ある人々はひどく秘密主義で、自分の品物を薄暗い明かりの下でしか見せず、いつも何かを隠し持っているように見せかける。",
+   "scene": "中身を明かさずに、意味ありげな沈黙や「詳細は言えない」で実力や情報を持っているように見せる場面"
+  },
+  {
+   "id": "E27",
+   "source": "E27",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "tribus"
+   ],
+   "orig": "For a crowd is not company; and faces are but a gallery of pictures; and talk but a tinkling cymbal, where there is no love.",
+   "ja": "群衆は交わりではなく、愛の無いところでは、顔は画廊の絵にすぎず、話はやかましいシンバルにすぎない。",
+   "scene": "フォロワーや知り合いは多いのに、本当に語り合える相手がいない孤独。SNSのつながりの空しさ"
+  },
+  {
+   "id": "E32b",
+   "source": "E32",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fori"
+   ],
+   "orig": "Discretion of speech, is more than eloquence",
+   "ja": "言葉の慎みは、雄弁にまさる。",
+   "scene": "能弁な人や雄弁な発信者が、言わなくてよいことまで言って問題になる場面。失言"
+  },
+  {
+   "id": "E32c",
+   "source": "E32",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "experientia"
+   ],
+   "orig": "he that questioneth much, shall learn much, and content much",
+   "ja": "多く問う者は、多く学び、そして多く人を満足させる。",
+   "scene": "一方的に語るのではなく、問いを重ねて相手の話を聞くことで、理解と信頼を得る場面"
+  },
+  {
+   "id": "E36",
+   "source": "E36",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "tribus"
+   ],
+   "orig": "But if it be stopped, and cannot have his way, it becometh adust, and thereby malign and venomous.",
+   "ja": "だが、それがせき止められ、思うようにならないと、焦げついて、そのために悪意と毒を帯びる。",
+   "scene": "思うように出世や成功ができなかった人の野心が、恨みや他者への攻撃に変わる場面"
+  },
+  {
+   "id": "E38",
+   "source": "E38",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "tribus"
+   ],
+   "orig": "NATURE is often hidden; sometimes overcome; seldom extinguished.",
+   "ja": "本性はしばしば隠れ、ときに打ち負かされるが、消え去ることはまれである。",
+   "scene": "謝罪や改善を約束した人や組織が、しばらくして同じ問題を繰り返す場面"
+  },
+  {
+   "id": "E42a",
+   "source": "E42",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "specus"
+   ],
+   "orig": "Young men, in the conduct and manage of actions, embrace more than they can hold; stir more than they can quiet",
+   "ja": "若者は、事を行い取り仕切るにあたって、抱えきれないほどを抱え込み、鎮めきれないほどをかき立てる。",
+   "scene": "若い起業家や新しい運動が、大きく構想を広げ、騒ぎを起こしたものの、収拾できなくなる場面"
+  },
+  {
+   "id": "E42b",
+   "source": "E42",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "specus"
+   ],
+   "orig": "Men of age object too much, consult too long, adventure too little, repent too soon",
+   "ja": "年配者は、反対しすぎ、相談に時間をかけすぎ、冒険をしなさすぎ、後悔するのが早すぎる。",
+   "scene": "年長の幹部や古い組織が、新しい試みに反対や慎重論を重ねて機会を逃す場面"
+  },
+  {
+   "id": "E49",
+   "source": "E49",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "Many ill matters and projects are undertaken; and private suits do putrefy the public good.",
+   "ja": "多くの悪しき案件や計画が引き受けられ、私的な請願が公共の善を腐らせる。",
+   "scene": "特定の業界・団体・知人の頼みや働きかけで、公の事業や予算がゆがめられる場面"
+  },
+  {
+   "id": "E54b",
+   "source": "E54",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "Glorious men are the scorn of wise men, the admiration of fools, the idols of parasites, and the slaves of their own vaunts.",
+   "ja": "自慢屋は、賢者には軽蔑され、愚者には感嘆され、取り巻きには偶像とされ、自らの大言壮語の奴隷となる。",
+   "scene": "自分を大きく見せる発信を続ける著名人や経営者が、熱心な支持者と冷笑する人に分かれ、引っ込みがつかなくなる場面",
+   "avoid_in_politics": true
+  },
+  {
+   "id": "E55",
+   "source": "E55",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "A man is an ill husband of his honor, that entereth into any action, the failing wherein may disgrace him, more than the carrying of it through, can honor him.",
+   "ja": "失敗したときの恥辱が、やり遂げたときの名誉より大きいような企てに乗り出す者は、自分の名誉の下手な管理者である。",
+   "scene": "成功しても得るものは小さいのに、失敗すれば信用を大きく失う発言や企てに、人や組織が踏み込む場面"
+  },
+  {
+   "id": "E56a",
+   "source": "E56",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "theatri"
+   ],
+   "orig": "JUDGES ought to remember, that their office is jus dicere, and not jus dare; to interpret law, and not to make law, or give law.",
+   "ja": "裁判官は、その職務が法を宣べることであって法を与えることではなく、法を解釈することであって、法を作ったり定めたりすることではないと心得るべきである。",
+   "scene": "判定や審査を担う人・機関が、決まりの解釈を超えて、自分の考えで新しい決まりを作るように振る舞う場面"
+  },
+  {
+   "id": "E56b",
+   "source": "E56",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "theatri",
+    "fama"
+   ],
+   "orig": "One foul sentence doth more hurt, than many foul examples. For these do but corrupt the stream, the other corrupteth the fountain.",
+   "ja": "一つの不正な判決は、多くの悪い実例よりも大きな害をなす。悪い実例は流れを汚すだけだが、不正な判決は泉そのものを汚すからである。",
+   "scene": "裁判・審判・規制当局など、判定を下す側の誤りや不正が明らかになり、判定そのものへの信頼が揺らぐ場面"
+  },
+  {
+   "id": "E56c",
+   "source": "E56",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "Patience and gravity of hearing, is an essential part of justice; and an overspeaking judge is no well-tuned cymbal.",
+   "ja": "辛抱強く重々しく聞くことは、正義の本質的な一部である。しゃべりすぎる裁き手は、よく調律されたシンバルではない。",
+   "scene": "審査員・調査委員・司会者など、裁く立場の人が、相手の話を聞かずに自分の見解ばかり語る場面"
+  },
+  {
+   "id": "E57a",
+   "source": "E57",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "tribus"
+   ],
+   "orig": "Seneca saith well, That anger is like ruin, which breaks itself upon that it falls.",
+   "ja": "セネカはよく言った。怒りは崩れ落ちる建物のようなもので、落ちかかった相手の上で自らも砕ける、と。",
+   "scene": "怒りにまかせた発言や報復が、相手を傷つけると同時に、言った本人の立場や信用をも壊す場面"
+  },
+  {
+   "id": "E57b",
+   "source": "E57",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fori"
+   ],
+   "orig": "and again, that in anger a man reveal no secrets; for that, makes him not fit for society.",
+   "ja": "また、怒っているときに秘密を明かさないこと。それをすれば、人は社会に交わるに足らなくなる。",
+   "scene": "怒りや対立の勢いで、内部の情報や他人の秘密を暴露し、かえって自分の信用を失う場面"
+  },
+  {
+   "id": "E53b",
+   "source": "E53",
+   "work": "essays",
+   "lang": "en",
+   "check": "orig",
+   "tags": [
+    "fama"
+   ],
+   "orig": "If it be from the common people, it is commonly false and naught; and rather followeth vain persons, than virtuous.",
+   "ja": "それが一般の人々からのものであれば、たいていは偽りで値打ちが無く、徳のある人よりも、むしろ虚栄の人に付き従う。",
+   "scene": "中身の無い人物や商品が、大衆的な人気や称賛を集め、地道な人や物が顧みられない場面",
+   "avoid_in_politics": true
   }
  ]
 }
