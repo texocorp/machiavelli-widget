@@ -1,5 +1,43 @@
 [
   {
+    "id": "574322469884",
+    "text": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMXdRSktFR0ZGY1Zaa3NKMTNfamJhN2xyX2s1QW5HamRrNVFSS3NYcFpqbHpyVXlrS001ZzY2VTNWc2ROSXVBTC1hdER2UnliMDdNbHVVdGxQeW9zRjA4N05HelVEN2JUVWlmS0dSYlZxeFZtcm9Lb00xQjFaVW1JbjdNQXlsU3hLX1dyazZDV2NDckhqVGg3S1pLdmdqZkRBRnZEWWFnaWVoQ0dKdUdUeng5RTZEZE5neFdMSW5udklpd1kyZXdkS29TMUUyUDRCdl81U2lGTndOQV9yV2ZPWmNidnQzZEQzbUYxNVNFM1MxVDdjWXdoXzRTMWpOdWpNNTBNWEEyRDNFTkt5ZU9SVEhxX3IwcGN5Y29BTlRjbGxUMnVkTTE1YmRLREdpMWZBb2xQcGNxOWlpTDhzbzktNWZDYVlHVjZDWERCSzAwY3VXaDBLRGJqaA?oc=5\n長時間労働や強いストレスによる健康被害に注意が必要な福井では、過労死を防ぐには家族や同僚の気づきも重要である。\n「人は自分を賃貸しする。その能力は自分のためではなく、仕える相手のためにある。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "medecine",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "共働き率が高い福井では特に注意が必要 長時間労働や強いストレスによる健康被害 過労死防ぐには家族や同僚の“気づき”も重要 - 福井テレビ",
+    "source_url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMXdRSktFR0ZGY1Zaa3NKMTNfamJhN2xyX2s1QW5HamRrNVFSS3NYcFpqbHpyVXlrS001ZzY2VTNWc2ROSXVBTC1hdER2UnliMDdNbHVVdGxQeW9zRjA4N05HelVEN2JUVWlmS0dSYlZxeFZtcm9Lb00xQjFaVW1JbjdNQXlsU3hLX1dyazZDV2NDckhqVGg3S1pLdmdqZkRBRnZEWWFnaWVoQ0dKdUdUeng5RTZEZE5neFdMSW5udklpd1kyZXdkS29TMUUyUDRCdl81U2lGTndOQV9yV2ZPWmNidnQzZEQzbUYxNVNFM1MxVDdjWXdoXzRTMWpOdWpNNTBNWEEyRDNFTkt5ZU9SVEhxX3IwcGN5Y29BTlRjbGxUMnVkTTE1YmRLREdpMWZBb2xQcGNxOWlpTDhzbzktNWZDYVlHVjZDWERCSzAwY3VXaDBLRGJqaA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "soi",
+      "peur"
+    ],
+    "quote_id": "III.10c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T16:08:53.731493+00:00",
+    "publish_at": "2026-11-07T13:17:00+00:00",
+    "timestamp": "2026-11-07T13:17:00+00:00"
+  },
+  {
+    "id": "73c8659ad484",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQjU1WndJemw2Y3VEWU0tRFRHdVNsSy1pM0pWZjFZQ1g0VmtTU2VreXZUMHlrc01SNDg2d3U4cklWMnJoOS1vNGZhbXhHWVJXa2MxV2RteEx6NWp0YWZOVWRrd2k5ZDhzRmpFZzNCYmdUUGZHWTBfQWpka3ZtSHM?oc=5\n特別支援学校の男性教諭が校長らによるパワハラを訴え、就業困難として千葉県を提訴したが、県教委は回答しかねている。\n「役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "特別支援学校の男性教諭、発達障害巡り校長らによるパワハラ訴え 「就業困難」として千葉県を提訴 県教委「回答しかねる」 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQjU1WndJemw2Y3VEWU0tRFRHdVNsSy1pM0pWZjFZQ1g0VmtTU2VreXZUMHlrc01SNDg2d3U4cklWMnJoOS1vNGZhbXhHWVJXa2MxV2RteEx6NWp0YWZOVWRrd2k5ZDhzRmpFZzNCYmdUUGZHWTBfQWpka3ZtSHM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "III.10b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T16:01:31.056463+00:00",
+    "publish_at": "2026-11-07T10:17:00+00:00",
+    "timestamp": "2026-11-07T10:17:00+00:00"
+  },
+  {
     "id": "612fe554d5f8",
     "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUnZUVFVwMVZEd0pTaU1jTUxieF9GNlBDbWxzZzRtTVVtd1lFM014MzRYR3c0ZS1mX2pnOU5SMzBXTXV5VldKVUVCVlpMQXFGNnZxV2h4WmVOWG9meTBmNXdCY19NVVhsZUkzZDIzZjBQMzZmbjg1djhZanEtb21wVmFlUl9QY3ZaM0tqYlZR?oc=5\n老後に孤独になることが不可避な人の特徴として、ワースト1が明らかになったという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
     "theme": "soi",
