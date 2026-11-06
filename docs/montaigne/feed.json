@@ -1,5 +1,59 @@
 [
   {
+    "id": "612fe554d5f8",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUnZUVFVwMVZEd0pTaU1jTUxieF9GNlBDbWxzZzRtTVVtd1lFM014MzRYR3c0ZS1mX2pnOU5SMzBXTXV5VldKVUVCVlpMQXFGNnZxV2h4WmVOWG9meTBmNXdCY19NVVhsZUkzZDIzZjBQMzZmbjg1djhZanEtb21wVmFlUl9QY3ZaM0tqYlZR?oc=5\n老後に孤独になることが不可避な人の特徴として、ワースト1が明らかになったという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "老後に「孤独になることが不可避な人」の特徴・ワースト1 (ダイヤモンド・オンライン) - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUnZUVFVwMVZEd0pTaU1jTUxieF9GNlBDbWxzZzRtTVVtd1lFM014MzRYR3c0ZS1mX2pnOU5SMzBXTXV5VldKVUVCVlpMQXFGNnZxV2h4WmVOWG9meTBmNXdCY19NVVhsZUkzZDIzZjBQMzZmbjg1djhZanEtb21wVmFlUl9QY3ZaM0tqYlZR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T08:14:04.341002+00:00",
+    "publish_at": "2026-11-07T07:17:00+00:00",
+    "timestamp": "2026-11-07T07:17:00+00:00"
+  },
+  {
+    "id": "0fba730206e3",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VU9qbVdJS1RpR0RxR3pkdXkzcjNVcDB4ZEJtMDJvU1NUek00cndwSk8zZXY3cmt4cnp5TEwzX0tnQUhhYlY4WS1oTkVBanZfMlJFTzRR?oc=5\n関西みらい銀行やみなと銀行は、専門業者と連携して『おひとりさま終活』を支援し、もめ事回避へと向かおうとする。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "関西みらい銀・みなと銀、「おひとりさま終活」支援 専門業者と連携 もめ事回避へ - ニッキンONLINE",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VU9qbVdJS1RpR0RxR3pkdXkzcjNVcDB4ZEJtMDJvU1NUek00cndwSk8zZXY3cmt4cnp5TEwzX0tnQUhhYlY4WS1oTkVBanZfMlJFTzRR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort"
+    ],
+    "quote_id": "I.20d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T08:11:41.709487+00:00",
+    "publish_at": "2026-11-07T04:17:00+00:00",
+    "timestamp": "2026-11-07T04:17:00+00:00"
+  },
+  {
+    "id": "343a0d1f4098",
+    "text": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vVklROGg2QnZYQjI1ZFdwWFhoZ3cxWFNERnhneWRfRWZlYk1ab0lFZ2hEVnZ1c05fMHRWWG1IWGsxbTRaanZQT2xJSUxYSGpUbFFjajBxZlpYODFLV2FBSUZsN2tBQ2ZDdXJN?oc=5\n日本水連は金子専務理事の代表入り可能性の忖度を考えないと表明したという。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "本多灯、２８年ロス五輪可能性が消滅 日本水連１年９カ月の資格停止処分 危険運転致傷で有罪判決 金子専務理事「代表入り可能性の忖度は考えない」本人からの弁明なし - デイリースポーツ",
+    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vVklROGg2QnZYQjI1ZFdwWFhoZ3cxWFNERnhneWRfRWZlYk1ab0lFZ2hEVnZ1c05fMHRWWG1IWGsxbTRaanZQT2xJSUxYSGpUbFFjajBxZlpYODFLV2FBSUZsN2tBQ2ZDdXJN?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "I.39b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T08:01:09.605351+00:00",
+    "publish_at": "2026-11-07T01:17:00+00:00",
+    "timestamp": "2026-11-07T01:17:00+00:00"
+  },
+  {
     "id": "2cedae9bcadc",
     "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVpYclBOOFBpUl9TQ1YwUVNRd2VYZ3hnb1Zva3I4VmhKeHN2Y3ZMQjJuNmVNR3hLSEwxQ1d5SFlFeURoWWdUYmROSnlsSGtfOW5LLVJBMXRkUjh0NGEzcllWTVMtRjFwM21KajhiaDFZczd4ejVHamhaWHRHSks2bUZQWUVtZklqX2U2Q3hR?oc=5\n打算で結婚したはずだったが、転勤先の孤独の中に年下の男性と出会うという。\n「なぜ彼を愛したのかと問い詰められても、それは『彼だったから、私だったから』と答えるほかに言い表せないと感じる。」\n『エセー I.28「友情について」』",
     "theme": "soi",
