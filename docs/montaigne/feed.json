@@ -1,5 +1,42 @@
 [
   {
+    "id": "2cedae9bcadc",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVpYclBOOFBpUl9TQ1YwUVNRd2VYZ3hnb1Zva3I4VmhKeHN2Y3ZMQjJuNmVNR3hLSEwxQ1d5SFlFeURoWWdUYmROSnlsSGtfOW5LLVJBMXRkUjh0NGEzcllWTVMtRjFwM21KajhiaDFZczd4ejVHamhaWHRHSks2bUZQWUVtZklqX2U2Q3hR?oc=5\n打算で結婚したはずだったが、転勤先の孤独の中に年下の男性と出会うという。\n「なぜ彼を愛したのかと問い詰められても、それは『彼だったから、私だったから』と答えるほかに言い表せないと感じる。」\n『エセー I.28「友情について」』",
+    "theme": "soi",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「打算で結婚」したはずが…転勤先の孤独と年下男性との出会い (ウォーカープラス) - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVpYclBOOFBpUl9TQ1YwUVNRd2VYZ3hnb1Zva3I4VmhKeHN2Y3ZMQjJuNmVNR3hLSEwxQ1d5SFlFeURoWWdUYmROSnlsSGtfOW5LLVJBMXRkUjh0NGEzcllWTVMtRjFwM21KajhiaDFZczd4ejVHamhaWHRHSks2bUZQWUVtZklqX2U2Q3hR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.28",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T00:23:13.702809+00:00",
+    "publish_at": "2026-11-06T22:17:00+00:00",
+    "timestamp": "2026-11-06T22:17:00+00:00"
+  },
+  {
+    "id": "444ca0d12cc0",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnbEVGV243V2xOckpNR1BqcmxFdy1Qd184eDJPdUlvcHJOemlfVlVoeXJnU2lXaUt5Vzd0XzNGQ0t1OEVRSW52ZnZuY0UzQXJVTG9pNEF3?oc=5\n若者たちは、2026年の世界乾癬デーで偏見と差別に対して声を上げようとしているという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
+    "theme": "autrui",
+    "score": 6,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "IFPA：2026年世界乾癬デー、若者たちが偏見と差別に対して声を上げる - 千葉日報オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnbEVGV243V2xOckpNR1BqcmxFdy1Qd184eDJPdUlvcHJOemlfVlVoeXJnU2lXaUt5Vzd0XzNGQ0t1OEVRSW52ZnZuY0UzQXJVTG9pNEF3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui",
+      "soi"
+    ],
+    "quote_id": "I.31a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T00:20:54.969009+00:00",
+    "publish_at": "2026-11-06T19:17:00+00:00",
+    "timestamp": "2026-11-06T19:17:00+00:00"
+  },
+  {
     "id": "3f9a547b6453",
     "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUNFeWZ1aURLQTNqWHRoX1FQR3MyeUEwSzBwTkhaRlZtZDdScmJVemRzZUxKZEVZNlpheTkxQUpLUFhrN185cENtMnphbm5qY1YxYlF2eTREaElsdGxCVHd5bWgxeGpaQjhnU0lpTzQxSkthem93UUwybWZLczEwYThGV2lHNWlkX0xEQzFn?oc=5\n偏差値も凄すぎる超進学校で育った現役選手は、文武両道の姿を見せるという。\n「誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。」\n『エセー I.25「衒学について」』",
     "theme": "savoir",
