@@ -1,5 +1,41 @@
 [
   {
+    "id": "4cd0c42b76cb",
+    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxSGtoRDlSZWREcTVUelhjcmROR0RqeDFxVUxHTmpkd054bUhZU2txRkliVUJ5cGNoTl94dENoNGVUY1RVNTU1QVF30gFPQVVfeXFMTlJOSXNuaHNSZjNicmdDa29WSlN6YUdzZUhBRUFaSTJsNmtnbnpnek8yTTZPc1QwOElpeTRrM2I5dGNvLVBYa1NCRk0tSVp5Zw?oc=5\n認知症による言動か、あるいはカスハラかという問いが残っている。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
+    "theme": "medecine",
+    "score": 2,
+    "source": "Google News 検索 職場",
+    "source_title": "認知症による言動かカスハラか - PHARMACY NEWSBREAK",
+    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxSGtoRDlSZWREcTVUelhjcmROR0RqeDFxVUxHTmpkd054bUhZU2txRkliVUJ5cGNoTl94dENoNGVUY1RVNTU1QVF30gFPQVVfeXFMTlJOSXNuaHNSZjNicmdDa29WSlN6YUdzZUhBRUFaSTJsNmtnbnpnek8yTTZPc1QwOElpeTRrM2I5dGNvLVBYa1NCRk0tSVp5Zw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "III.8a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T02:09:14.641279+00:00",
+    "publish_at": "2026-11-08T01:17:00+00:00",
+    "timestamp": "2026-11-08T01:17:00+00:00"
+  },
+  {
+    "id": "a9de739a9a78",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Da1NvNVp6anYwTjRuTFVsb2V3cnFrcE5kREs0czhIMVR0TXJDd2tLeVRTYTJqMGtlRDZXZ1BzOEVndkpaa3Y5Q1lxeFBVUTJMd1pUdWNNZzZ5UlMtcmVN?oc=5\n産後ケアホテルでは専門職が母親サポートを行い、孤立を防ぐための休息を促すという。\n「踊るときは踊り、眠るときは眠る。」\n『エセー III.13「経験について」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "産後ケアホテルで心身回復、専門職が母親サポート ゆったり休息、孤立防ぐ：ニュース - 中日BIZナビ",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Da1NvNVp6anYwTjRuTFVsb2V3cnFrcE5kREs0czhIMVR0TXJDd2tLeVRTYTJqMGtlRDZXZ1BzOEVndkpaa3Y5Q1lxeFBVUTJMd1pUdWNNZzZ5UlMtcmVN?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "III.13r",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T02:00:49.598160+00:00",
+    "publish_at": "2026-11-07T22:17:00+00:00",
+    "timestamp": "2026-11-07T22:17:00+00:00"
+  },
+  {
     "id": "17195b581d93",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZ1YybUNFMkFyRVJ5QWRiREp6RHp0WnllLVFjeVJNX3ZPdDdSZkhQWVR5UnRDV3FyNUtoVDM3XzNSY0toS041TExWR0tLZDhmU18xZ0pxeUlKYVAtNTBqajdwVk1sN2xQa2NDaEVfUHZQYmJhTnU5Y3M0dkJ0eVU?oc=5\nNASAが捉えた宇宙の星雲は、異なる光で見ることで片目が光る猫のような奇妙な姿に見えてきた。\n「この世で、私自身ほどはっきりした怪物や奇跡を、私は見たことがない。」\n『エセー III.11「足の不自由な人々について」』",
     "theme": "presomption",
