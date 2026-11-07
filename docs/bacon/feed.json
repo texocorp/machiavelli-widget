@@ -1,5 +1,107 @@
 [
   {
+    "id": "9787b7522f1b",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pX003ZXo4ejdEc3htQXJXYWotSkMyMW9VMHNuekRmTDRHcmIyeENzV0tLcm1ObFpiUHFyMTJ5NGFQbE1uRWROYWpYTXl2ZnExeHFOUWxrWGpSZ2pOVllTX3Y0YVhlVGRI?oc=5\n品川にオープンしたエンタメ施設が、水族館の常識を覆すという。\n「古いものの上に新しいものを継ぎ足し、接ぎ木しても、学問の大きな進展は空しく待たれるだけである。根底からの建て直しがなされねばならない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム31",
+    "original": "Frustra magnum expectatur augmentum in scientiis ex superinductione et insitione novorum super vetera; sed instauratio facienda est ab imis fundamentis …",
+    "original_lang": "la",
+    "theme": "theatri",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "＜画像1 / 20＞水族館の常識を覆すエンタメ施設が品川にオープン！ - ウォーカープラス",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pX003ZXo4ejdEc3htQXJXYWotSkMyMW9VMHNuekRmTDRHcmIyeENzV0tLcm1ObFpiUHFyMTJ5NGFQbE1uRWROYWpYTXl2ZnExeHFOUWxrWGpSZ2pOVllTX3Y0YVhlVGRI?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "theatri"
+    ],
+    "quote_id": "NO1.31",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T21:25:10.565748+00:00",
+    "publish_at": "2026-11-08T08:17:00+00:00",
+    "timestamp": "2026-11-08T08:17:00+00:00"
+  },
+  {
+    "id": "f7101f3e0319",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1SUZMODhFYkI2UXZKVVRUWTU4R3FXMUxzd045NXlQQVNRbU1Sb0R3N0YwaXhjQkRUeGRlM2JFZ2loTFVqTGFfcFdYVV9ldko2VEJtbE1yR3E4ckhwSUducXFpT3U3Q3BhZzhrVFh3?oc=5\n衣料用洗剤の常識を覆す2023年新発売の『NANOX one』について、ブランド誕生からリニューアルまでの軌跡を追った。\n「人は新しい事柄について、古いものを手本とし、そこから先取りされ汚された想像に従って、当て推量をするのが常である。この種の臆見ほど人を欺くものはない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム109",
+    "original": "Solent enim homines de rebus novis ad exemplum veterum, et secundum phantasiam ex iis praeceptam et inquinatam, hariolari; quod genus opinandi fallacissimum est …",
+    "original_lang": "la",
+    "theme": "theatri",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "画像3 / 7＞衣料用洗剤の常識を覆す、2023年新発売の『NANOX one』。ブランド誕生からリニューアルまでの軌跡を追う！ - ウォーカープラス",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1SUZMODhFYkI2UXZKVVRUWTU4R3FXMUxzd045NXlQQVNRbU1Sb0R3N0YwaXhjQkRUeGRlM2JFZ2loTFVqTGFfcFdYVV9ldko2VEJtbE1yR3E4ckhwSUducXFpT3U3Q3BhZzhrVFh3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "theatri"
+    ],
+    "quote_id": "NO1.109",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T21:15:43.043184+00:00",
+    "publish_at": "2026-11-08T05:17:00+00:00",
+    "timestamp": "2026-11-08T05:17:00+00:00"
+  },
+  {
+    "id": "e77af3a6baef",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01bS1haHJ4emlYWl9zcGIzT0V1V0tlOVFjbDM1TTRrX216cWszMTZfcDAzMkVlcHd2RTFETks4UXp1ZEZGYi1DLTh6cVNueVhUQkF2dEhUdEp3aUxCVDd1MHRuQlB0SE9SYzJYNWxwT0ZmbU5oN2FndnpDR3hLRm8?oc=5\n古謝知事がオスプレイ容認発言をしたことに対し、オール沖縄会議が発言撤回を求めるという。\n「物事は、一度目か二度目かに揺さぶられる。助言の議論の上で揉まれなければ、運命の波の上で揉まれることになる。」\n『随筆集』第20篇「助言について」",
+    "original": "Things will have their first, or second agitation: if they be not tossed upon the arguments of counsel, they will be tossed upon the waves of fortune …",
+    "original_lang": "en",
+    "theme": "fori",
+    "score": 4,
+    "source": "Google News 撤回・謝罪・誤認",
+    "source_title": "古謝知事のオスプレイ容認発言／オール沖縄会議が発言撤回求める 沖縄 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01bS1haHJ4emlYWl9zcGIzT0V1V0tlOVFjbDM1TTRrX216cWszMTZfcDAzMkVlcHd2RTFETks4UXp1ZEZGYi1DLTh6cVNueVhUQkF2dEhUdEp3aUxCVDd1MHRuQlB0SE9SYzJYNWxwT0ZmbU5oN2FndnpDR3hLRm8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fori"
+    ],
+    "quote_id": "E20c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T21:03:21.518285+00:00",
+    "publish_at": "2026-11-08T02:17:00+00:00",
+    "timestamp": "2026-11-08T02:17:00+00:00"
+  },
+  {
+    "id": "c072009ddf8c",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CUFVMLUhkZElOVmU3MVhpWnhUTmdKcXV4Zi1FM291MURxb19ZaWpBLWNfQU9UM01sN1FIQU9TdndXT1JfRTM2VGwxZlZ6MWdPM3VDd2NSb3I5OWlPUGJnOGFfcEtKY2lMdG13T2J3?oc=5\nウォーカープラスは「画像4 / 57＞どの口が言う？『忖度好きは見ないで』偏向報道を一刀両断…理不尽を斬るコメンテーターに『スカッとした』」と報じた。\n「舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。」\n『ノヴム・オルガヌム』第1巻 アフォリズム62",
+    "original": "… ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 6,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "画像4 / 57＞どの口が言う？「忖度好きは見ないで」偏向報道を一刀両断…理不尽を斬るコメンテーターに「スカッとした」 - ウォーカープラス",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CUFVMLUhkZElOVmU3MVhpWnhUTmdKcXV4Zi1FM291MURxb19ZaWpBLWNfQU9UM01sN1FIQU9TdndXT1JfRTM2VGwxZlZ6MWdPM3VDd2NSb3I5OWlPUGJnOGFfcEtKY2lMdG13T2J3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "NO1.62",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T20:49:16.696760+00:00",
+    "publish_at": "2026-11-07T23:17:00+00:00",
+    "timestamp": "2026-11-07T23:17:00+00:00"
+  },
+  {
+    "id": "664273a49790",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93TXhzUjZJQm45dWZKX2xTeENSdGRGZFhQcGI1X2JFOUtiWWVhWEVkOHNSVThhNG9RbkxNOElNSlNFTlF6dW91NlZkeDExWWd0Tm9r?oc=5\n釧路新聞電子版は「偽情報拡散防止、阿寒高生ら学ぶ モラル教育」と報じた。\n「だがアリストテレスの哲学に同意した者の大多数は、先入見と他人の権威とによって、自らをそれに隷属させたのである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム77",
+    "original": "At numerus longe maximus eorum, qui in Aristotelis philosophiam consenserunt, ex praejudicio et authoritate aliorum se illi mancipavit …",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 14,
+    "source": "Google News 偽情報・言説",
+    "source_title": "偽情報拡散防止、阿寒高生ら学ぶ モラル教育 - 釧路新聞電子版",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93TXhzUjZJQm45dWZKX2xTeENSdGRGZFhQcGI1X2JFOUtiWWVhWEVkOHNSVThhNG9RbkxNOElNSlNFTlF6dW91NlZkeDExWWd0Tm9r?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.77",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T20:17:08.817795+00:00",
+    "publish_at": "2026-11-07T20:17:08.817795+00:00",
+    "timestamp": "2026-11-07T20:17:08.817795+00:00"
+  },
+  {
     "id": "18ab1037eca2",
     "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Rk5ZNHdpQ3pjWk9mMnVuMzNvNEJfcU9hdmFZenhoc1FFdjVvYngzVVZXSnJQVHpZOG4td2tuYmhtUUJUNEEwLUMtcllsVkJ4Y3o0NHBUa0F4U0ctejUxTnRoRzc2WXhUQ0J5TzBB?oc=5\nau Webポータルは「篠宮なほ｜白波のささやき、きみは海辺の予言」と報じた。\n「第三に、そして最後に(これが最大の理由であるが)、数限りないそうした予言のほとんどすべてはまやかしであり、暇で狡猾な頭が出来事の後になってでっち上げ、こしらえたものにすぎない。」\n『随筆集』第35篇「予言について」",
     "original": "The third and last (which is the great one) is, that almost all of them, being infinite in number, have been impostures, and by idle and crafty brains merely contrived and feigned, after the event past.",
