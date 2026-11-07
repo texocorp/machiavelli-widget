@@ -303,7 +303,8 @@ def mechanical_check(bot: Bot, text: str, item: NewsItem, quote: dict, reading: 
         raise ValueError("一文になっていない")
     # 実例(2026-11-05): 見出しの問い「日本はまだ要求のむ余地ある国？」を受けて
     # 「…関税の要求余地がある国なのか。」と、事実を述べずに問いで終わる導入文が通った
-    if re.search(r"(?:のか|うか|すか|ないか)。$", text):
+    # 「…の正体とは何かという。」のように、問いに「という」を付けた形も同じ(2026-11-07 実例)
+    if re.search(r"(?:のか|うか|すか|ないか|何か|とは)(?:という|だという)?。$", text):
         raise ValueError("問いの形で終わっている")
     # 見出しにもある語は指示の言葉の混入ではない(実例: 見出し「…太陽光パネルの材料に追加関税」の「材料」で全候補が落ちた)
     metas = [w for w in _META.split("|") + list(bot.meta_words) if w not in source]
@@ -465,6 +466,15 @@ _MISFIT = "引用が出来事に合わない"
 def _write_and_check(bot: Bot, item: NewsItem, reading: dict, quote: dict, actor: str):
     """この引用で導入文を書き、検査を通ったものを返す。無ければ None。
     校閲が引用の当てはまりを否定したら、この引用での書き直しはやめる(導入文を変えても引用は変わらない)。"""
+    fallback = None
+    if bot.headline_intro:
+        # 先に、見出しを引く導入文で引用との組み合わせを校閲にかける。当てはまり3点の採点はぶれが大きく、
+        # 校閲で「引用が出来事に合わない」と落ちる組み合わせに、導入文を7案も書いて時間を使っていた
+        # (2026-11-07: 28件中、3点の組み合わせ21のうち掲載1)。合わなければ書かずに次の引用へ。
+        fallback = _headline_intro(bot, item, quote, adopt=False)
+        if fallback is False:
+            print(f"  [引用を替える] {quote['id']} は出来事に合わないと校閲が判定")
+            return None
     # 見出しを引く導入文の予備があるボットは1巡で切り上げる(2巡目の書き直しも同じ語で落ちることが多く、時間だけを食う)
     for rnd in range(1, (1 if bot.headline_intro else WRITE_ROUNDS) + 1):
         try:
@@ -515,8 +525,11 @@ def _write_and_check(bot: Bot, item: NewsItem, reading: dict, quote: dict, actor
         if misfit:
             print(f"  [引用を替える] {quote['id']} は出来事に合わないと校閲が判定")
             return None
-    if bot.headline_intro:
-        return _headline_intro(bot, item, quote)
+    if fallback:
+        LAST_TRACE["result"] = "掲載"
+        LAST_TRACE["adopted"] = fallback
+        print(f"[採用] {fallback}")
+        return fallback
     return None
 
 
@@ -529,7 +542,7 @@ def headline_intro_text(item: NewsItem) -> str:
     return text if MIN_CHARS <= len(text) <= MAX_CHARS + 20 else ""
 
 
-def _headline_intro(bot: Bot, item: NewsItem, quote: dict):
+def _headline_intro(bot: Bot, item: NewsItem, quote: dict, adopt: bool = True):
     """
     2026-11-07: ベーコンでは、当てはまり3点の引用が見つかっても、導入文の言い直しが検査(見出しに無い語・
     言えない主張・校閲)に落ち続けて記事ごと失われていた(9件中5件、1件に7案・約12分)。見出しを
@@ -547,8 +560,11 @@ def _headline_intro(bot: Bot, item: NewsItem, quote: dict):
     except ValueError as e:
         record["verdict"] = str(e)
         print(f"  [不採用] {text} … {e}")
-        return None
+        return False if _MISFIT in str(e) else None
     record["verdict"] = "合格"
+    if not adopt:
+        print(f"  [見出しの導入文は校閲に合格] {text}")
+        return text
     LAST_TRACE["result"] = "掲載"
     LAST_TRACE["adopted"] = text
     print(f"[採用] {text}")
