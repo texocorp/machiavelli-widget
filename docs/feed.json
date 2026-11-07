@@ -1,5 +1,44 @@
 [
   {
+    "id": "006cb2bca9e3",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPenpTS05aLVU3UkFlR1F1dTI4T3VOX1haVkJsM3EyTlFZQVBya0psdk9ZSDk2QlQwOThDMDhkdDJGd1J4a01qWll3aGJIOTV3TkZPODJMMXpsaVJQUlRtM2JseFJQNWhNcUF6ZVg3c3UteVgwdE0zeTNNbG9pY19ZeEpIOTNWZw?oc=5\nウクライナはロシアの石油施設への攻撃を継続し、ロシア軍の新たな攻撃に警戒しているとゼレンスキー氏が示している。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナはロシア石油施設への攻撃継続、ロ軍の新たな攻撃に警戒＝ゼレンスキー氏 | ロイター - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPenpTS05aLVU3UkFlR1F1dTI4T3VOX1haVkJsM3EyTlFZQVBya0psdk9ZSDk2QlQwOThDMDhkdDJGd1J4a01qWll3aGJIOTV3TkZPODJMMXpsaVJQUlRtM2JseFJQNWhNcUF6ZVg3c3UteVgwdE0zeTNNbG9pY19ZeEpIOTNWZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AG2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T19:28:34.334997+00:00",
+    "publish_at": "2026-11-08T18:17:00+00:00",
+    "timestamp": "2026-11-08T18:17:00+00:00"
+  },
+  {
+    "id": "19a91fedffe6",
+    "text": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYVBvSVppdURIZlZ6SkVGZlU1YWYwN18zbDZCN01GcVZ5NGVia0NTWnRFYTN0TDFNSmF0YWhZQ1VsNUxmNHZuVVVsTjU5UGxSMnVQSTZ2Z2JMaEFNcVBDY2FGU01uNUcxZ01PWHZqdDFLWm5NYXVlYVRUWmZwSG5fa3NkUkNfeVdoUzJzeWRRdVNhNjlZcmFFY1ZObmJqSUVETlVkZw?oc=5\nロシアはキエフに向けてミサイルを発射し、ウクライナはロシア領内の複数の標的を攻撃しているという。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシアがキエフに向けてミサイルを発射。ウクライナはロシア領内の複数の標的を攻撃。 - Vietnam.vn",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYVBvSVppdURIZlZ6SkVGZlU1YWYwN18zbDZCN01GcVZ5NGVia0NTWnRFYTN0TDFNSmF0YWhZQ1VsNUxmNHZuVVVsTjU5UGxSMnVQSTZ2Z2JMaEFNcVBDY2FGU01uNUcxZ01PWHZqdDFLWm5NYXVlYVRUWmZwSG5fa3NkUkNfeVdoUzJzeWRRdVNhNjlZcmFFY1ZObmJqSUVETlVkZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D2.19",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T18:48:38.957474+00:00",
+    "publish_at": "2026-11-08T15:17:00+00:00",
+    "timestamp": "2026-11-08T15:17:00+00:00"
+  },
+  {
     "id": "a3128de68121",
     "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RVRJNFlNOUlLdjZXZVEydmlRSVZMNnpGYnhmSFVLcGIwZHhobVhjMll4V2pUbDNlU3Y2cjNTZzNJQkRsckwtMWVRZXNDOE1Da2huaFZ0VVl0bmZpTWtUV0dzeFprMzQ?oc=5\n政府が安全保障について夫婦漫才を用いた広報を行い、防衛力の強化に向けた国民の理解を深めようとしている。\n「凪の時に嵐への備えを怠るのは、人間に共通の欠点である。」\n『君主論 cap.XXIV』",
     "theme": "popolo_principe",
@@ -724,49 +763,6 @@
       "paura_amore"
     ],
     "quote_id": "D1.33",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "780ed45226af",
-    "timestamp": "2026-11-01T12:33:33.188506+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NU3VJbHYtQ3BxbnBzalozdXhGYllKajlDNDV3M3R2UnB0MGpNbDBKLXYxWU1PSGlCNmFpZUNfdUFySDh4eVg4RTBNc2pzR3h4NW5kU0JiR3FxVk9XaHg5aXRqTnR5bnVVQWJrNzdiQzZDTHkzNnhKZ0UzUFNfVFE?oc=5\nトランプ大統領が軍事攻撃を示唆して交渉有利に働かせようとするのは、マキャベリが称賛する詐術による戦争遂行だ。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ大統領「ピックアックス山」攻撃示唆 「10分で対処できる」軍事攻撃の計画を示し交渉有利に - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NU3VJbHYtQ3BxbnBzalozdXhGYllKajlDNDV3M3R2UnB0MGpNbDBKLXYxWU1PSGlCNmFpZUNfdUFySDh4eVg4RTBNc2pzR3h4NW5kU0JiR3FxVk9XaHg5aXRqTnR5bnVVQWJrNzdiQzZDTHkzNnhKZ0UzUFNfVFE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "imperi_declino",
-      "popolo_principe",
-      "economia",
-      "consiglio"
-    ],
-    "quote_id": "D3.40",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "07bb9f4c916f",
-    "timestamp": "2026-11-01T03:50:54.927089+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8waFhFUUU0ZDFwbXUyX1czR2JUaVQ5MUNKeXRDYmQ2Z0xlMW1JTzY4NXVKMUJJWG5taDVjMGMtcHN5dW5SbkpqRnJoajA1Wkk4MWFDdjVPdnQ1SUNDUlotN0FvUy1vYi1uSGxWUQ?oc=5\nルビオ米国務長官が対話を軸に再攻撃を未決定とする姿勢は、外敵の圧力下でも内政を安定させるマキャベリの説に合致する現実主義だ。\n「外が安定していれば、陰謀に乱されぬ限り、内も常に安定しているものだ。」\n『君主論 cap.XIX』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "ルビオ米国務長官「イラン再攻撃は未決定」 対話の継続に軸足 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8waFhFUUU0ZDFwbXUyX1czR2JUaVQ5MUNKeXRDYmQ2Z0xlMW1JTzY4NXVKMUJJWG5taDVjMGMtcHN5dW5SbkpqRnJoajA1Wkk4MWFDdjVPdnQ1SUNDUlotN0FvUy1vYi1uSGxWUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "popolo_principe",
-      "economia",
-      "consiglio"
-    ],
-    "quote_id": "P19b",
     "quote_choice": "llm"
   }
 ]
