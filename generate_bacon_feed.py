@@ -87,9 +87,7 @@ def _sibling_records() -> tuple:
 # 2026-11-06: 言説の検索フィード15本だけでは、毎日入れ替わる記事が少なく、1回の起動で候補が尽きて
 # 0件で終わった(取得464件のうち新しい記事は十数件)。姉妹ボットが読む一般の配信(国内・社会・国際など、
 # 毎時入れ替わる)も読み、ベーコンの選別(言説の語・除外語・点数)で絞る。姉妹が論評した記事は従来どおり外す。
-# 2026-11-07: マキャベリのフィード(config.yaml)は外す。国際政治の記事(ロシアのJT管理への日本の抗議、
-# 王毅氏の「失言」発言)が「抗議」「失言」で選ばれ、怒りや言葉の慎みの箴言で一方の側を裁く論評になった
-BORROWED_CONFIGS = [os.path.join(BASE_DIR, "montaigne_config.yaml")]
+BORROWED_CONFIGS = [os.path.join(BASE_DIR, "montaigne_config.yaml"), os.path.join(BASE_DIR, "config.yaml")]
 
 
 def fetch_pool() -> list:
