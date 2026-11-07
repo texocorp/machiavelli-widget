@@ -212,7 +212,8 @@ def published_titles() -> list:
 # 実例: 「デマ拡散の岡本さゆり市議「保身の謝罪」。…Heart (ac40zvlr7H) - Unisba Media」(大学のドメインに置かれた転載)。
 # 見出しの末尾の、英数字の乱数のような符号を目印にする。実在の個人を名指す記事が多く、真偽も確かめられないので試さない。
 _RANDOM_TOKEN = re.compile(r"[(（](?=[A-Za-z0-9]*\d)(?=[A-Za-z0-9]*[A-Za-z])[A-Za-z0-9]{8,}[)）]")
-SUSPICIOUS_SOURCES = ("Unisba",)
+SUSPICIOUS_SOURCES = ("Unisba", "- YouTube",  # YouTube の動画題(実例: 「…激怒！返り討ち論破に遭いニタニタ顔で逃亡 - YouTube」)
+                     )
 
 
 def suspicious_source(title: str) -> bool:

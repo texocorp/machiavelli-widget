@@ -57,7 +57,22 @@ ESSAY_TITLES_JA = {
     "E16": "無神論について",
     "E17": "迷信について",
     "E20": "助言について",
+    "E4": "復讐について",
+    "E5": "逆境について",
+    "E11": "高い地位について",
+    "E19": "帝国について",
+    "E21": "遅延について",
     "E22": "狡猾について",
+    "E23": "自分のための知恵について",
+    "E25": "迅速について",
+    "E27": "友情について",
+    "E36": "野心について",
+    "E38": "人の本性について",
+    "E42": "若さと老年について",
+    "E49": "請願者について",
+    "E55": "名誉と名声について",
+    "E56": "裁判について",
+    "E57": "怒りについて",
     "E24": "革新について",
     "E26": "賢く見えることについて",
     "E31": "疑惑について",
@@ -117,7 +132,7 @@ def display_original(quote: dict) -> str:
 # ---------------------------------------------------------------
 RECENT_QUOTES_PATH = os.path.join(BASE_DIR, "logs", "bacon_recent_quotes.json")
 QUOTE_USAGE_PATH = os.path.join(BASE_DIR, "logs", "bacon_quote_usage.json")
-RECENT_QUOTES_WINDOW = 32  # 引用96件に対し、直近32回分(1日8回で4日分)は候補から外す
+RECENT_QUOTES_WINDOW = 32  # 引用154件に対し、直近32回分は候補から外す
 
 
 def load_recent_quote_ids() -> list:
@@ -157,6 +172,10 @@ def _quote_relevance(quote: dict, themes: list, news_text: str) -> int:
     return score
 
 
+IDENTITY_WORDS = ("トランス", "LGBT", "性的少数", "同性", "性同一", "ゲイ", "レズビアン", "オカマ", "障害", "障がい",
+                  "難病", "人種", "民族", "出自", "在日", "外国人", "移民", "難民", "部落", "アイヌ", "被爆", "ハーフ")
+
+
 def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
     themes = getattr(item, "themes", None) or [item.theme or "tribus"]
     title, summary = facts_for_prompt(item)
@@ -168,13 +187,21 @@ def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
     if getattr(item, "political", False):
         # 政治がらみの記事では、人を愚か・軽率・盲従と評する響きの引用を使わない
         allowed = [q for q in QUOTES if not q.get("avoid_in_politics")]
+    if any(w in news_text for w in IDENTITY_WORDS):
+        # 性のあり方・障害・出自などを扱う記事では、生まれつきの「本性」「性質」を言う引用を使わない。
+        # 実例(2026-11-07): トランス女性のスケーターが受けた「キモい、オカマ」という偏見の記事に
+        # 「本性はしばしば隠れ…消え去ることはまれである」が付き、当人を貶める読み方ができる論評になった
+        allowed = [q for q in allowed if not q.get("avoid_on_identity")]
     pool = [q for q in allowed if q["id"] not in recent] or allowed
     scored = [(_quote_relevance(q, themes, news_text), q) for q in pool]
     random.shuffle(scored)
     scored.sort(key=lambda sq: (-sq[0], usage.get(sq[1]["id"], 0)))
 
     related = [q for s, q in scored if s > 0]
-    if len(related) >= MIN_RELATED:
+    # 場面の一覧(count が CANDIDATE_COUNT より大きい依頼)では、関連の薄い引用でも後ろに足して一覧を満たす。
+    # 記事のテーマの判定がずれると、合う一節が一覧に載らないため(実例 2026-11-06:「たった30のアカウントが
+    # 発信する…憎悪に踊らされる人たち」のテーマが「経験」と判定され、種族のイドラの一節が一覧に無かった)
+    if len(related) >= MIN_RELATED and count <= CANDIDATE_COUNT:
         return related[:count]
     return (related + [q for s, q in scored if s == 0])[:count]
 
@@ -571,6 +598,7 @@ def llm_bot():
         # 言説の記事の言い直しに使う、事実を足さない漢語(2026-11-05: 「投稿」「否定」などで正しい導入文が落ちていた)
         neutral_kanji="投稿 発信 否定 反応 説明",
         scene_pick=True,
+        headline_intro=True,
     )
 
 

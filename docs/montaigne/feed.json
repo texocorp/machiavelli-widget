@@ -1,5 +1,283 @@
 [
   {
+    "id": "929b21842234",
+    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc2FzZVBOUWQ2V1JtQWk5MFNqVXFWN0dEQ3RZYzhZdnlkV0gtMEJYa05zMEtXS19jeXZWTnJhMTF0WXlVakg1REp2UVBodHM?oc=5\n猫の性格が4つのタイプに分類され、その中で最も多いのは『怖いけど近づきたい』というタイプである。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 科学",
+    "source_title": "猫の性格を4タイプに分類──最多は「怖いけど近づきたい」 - TRILL",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc2FzZVBOUWQ2V1JtQWk5MFNqVXFWN0dEQ3RZYzhZdnlkV0gtMEJYa05zMEtXS19jeXZWTnJhMTF0WXlVakg1REp2UVBodHM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "II.12e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T15:55:40.237515+00:00",
+    "publish_at": "2026-11-08T13:17:00+00:00",
+    "timestamp": "2026-11-08T13:17:00+00:00"
+  },
+  {
+    "id": "c8a13b7df790",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pSmtGaXRuQ1QyLXpQeVo0YWg0RzFzWml2UGJLS1Z0RUZjckdQbEpKemVEMmRobU1DN3hkNE5yNGlMNE01VDdpSldWWW56M1plZjFvcnBZRTlwTHJEYUVaRG5BODVCdjRvYkNwQUh2R3dKZGhHX2h0SkN3Yl8xS0U?oc=5\n消えた遭難者が見つかった『LOST10』でネットは『どういう事？』『まさか別班？』と驚いているという。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
+    "theme": "opinion",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "『LOST10』“小駒”横浜流星、消えた遭難者発見→想定外ラスト ネットあ然「どういう事？」「まさか別班？」（ネタバレあり） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pSmtGaXRuQ1QyLXpQeVo0YWg0RzFzWml2UGJLS1Z0RUZjckdQbEpKemVEMmRobU1DN3hkNE5yNGlMNE01VDdpSldWWW56M1plZjFvcnBZRTlwTHJEYUVaRG5BODVCdjRvYkNwQUh2R3dKZGhHX2h0SkN3Yl8xS0U?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "I.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T15:46:15.102637+00:00",
+    "publish_at": "2026-11-08T10:17:00+00:00",
+    "timestamp": "2026-11-08T10:17:00+00:00"
+  },
+  {
+    "id": "a52f01d371fd",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Hcnl5b0pjQ1owQXpyVGNzMDhac0xDT0JWa2xkUlEzbWlvRkpkSVh4czdIQmx3NWFrSi1QaWpvbXdkenlXNVpwUWRWa0dsNVBqcmczVUZDRQ?oc=5\nNTTドコモが不正アクセスで顧客情報が流出した問題を受け、謝罪会見を開いたという。\n「世の人はいつも正面を見る。私は視線を内側へ折り返し、そこに据え、そこで遊ばせる。誰もが自分の前を見るが、私は自分の内を見る。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "lois",
+    "score": 2,
+    "source": "Google News 検索 世相",
+    "source_title": "NTTドコモ 不正アクセスによる顧客情報流出について謝罪会見 - TBS NEWS DIG",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Hcnl5b0pjQ1owQXpyVGNzMDhac0xDT0JWa2xkUlEzbWlvRkpkSVh4czdIQmx3NWFrSi1QaWpvbXdkenlXNVpwUWRWa0dsNVBqcmczVUZDRQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "vanite"
+    ],
+    "quote_id": "II.17",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T08:58:19.889008+00:00",
+    "publish_at": "2026-11-08T07:17:00+00:00",
+    "timestamp": "2026-11-08T07:17:00+00:00"
+  },
+  {
+    "id": "75e6e023e6c0",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcHhVb3ZjV3UzSXc4TUU0Vk03UmE3T2tndi1scHFkcG9EVlI2Y1ZTSHItMDZDZ1oxWXhnTzZMTjdXZmVKM1ZsanZ6amlzbFZzV2VqNElzMXcyYXQ0WnVVdTFyYVFORWYyM1B2VDdwX24xS0NjYnhVRjVoUExqdTlocGpTZlFCb2pkYWpKbGpR0gGTAUFVX3lxTE9wNFV6V2U5NWhEV3JnOG1MV3ByQXE5QllvZk1OdGM3THJ1akQzUVBSOWZUSWVjUmFEWm51NDVpMWgyN3JuQzV6MDJnN2toa0VMNExVSEdpWWFKZHFPWjlnV0EzQjNpTmJrWEN5ZXh3TDRfdXlfOU1LT2NGRlFwQlZ4YWY0VVVxVzlsT2RkcWpCLVc1Yw?oc=5\n大金持ちと結婚した親友が遅刻して鍋を一口食べたことで、仲良しだった4人組の間に亀裂が生じた。\n「我々は皆つぎはぎでできている。その組み立てはまことに不定形でまちまちだから、どの切れ端も、どの瞬間も、それぞれ勝手に振る舞う。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
+    "theme": "presomption",
+    "score": 2,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "「結婚することになりました！」大金持ちと結婚した親友が豹変!?遅刻してきた上に鍋を一口食べて驚きの行動… 仲良し4人組に訪れた想定外の亀裂 - ｄメニューニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcHhVb3ZjV3UzSXc4TUU0Vk03UmE3T2tndi1scHFkcG9EVlI2Y1ZTSHItMDZDZ1oxWXhnTzZMTjdXZmVKM1ZsanZ6amlzbFZzV2VqNElzMXcyYXQ0WnVVdTFyYVFORWYyM1B2VDdwX24xS0NjYnhVRjVoUExqdTlocGpTZlFCb2pkYWpKbGpR0gGTAUFVX3lxTE9wNFV6V2U5NWhEV3JnOG1MV3ByQXE5QllvZk1OdGM3THJ1akQzUVBSOWZUSWVjUmFEWm51NDVpMWgyN3JuQzV6MDJnN2toa0VMNExVSEdpWWFKZHFPWjlnV0EzQjNpTmJrWEN5ZXh3TDRfdXlfOU1LT2NGRlFwQlZ4YWY0VVVxVzlsT2RkcWpCLVc1Yw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "soi",
+      "inconstance"
+    ],
+    "quote_id": "II.1a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T08:54:27.219370+00:00",
+    "publish_at": "2026-11-08T04:17:00+00:00",
+    "timestamp": "2026-11-08T04:17:00+00:00"
+  },
+  {
+    "id": "4cd0c42b76cb",
+    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxSGtoRDlSZWREcTVUelhjcmROR0RqeDFxVUxHTmpkd054bUhZU2txRkliVUJ5cGNoTl94dENoNGVUY1RVNTU1QVF30gFPQVVfeXFMTlJOSXNuaHNSZjNicmdDa29WSlN6YUdzZUhBRUFaSTJsNmtnbnpnek8yTTZPc1QwOElpeTRrM2I5dGNvLVBYa1NCRk0tSVp5Zw?oc=5\n認知症による言動か、あるいはカスハラかという問いが残っている。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
+    "theme": "medecine",
+    "score": 2,
+    "source": "Google News 検索 職場",
+    "source_title": "認知症による言動かカスハラか - PHARMACY NEWSBREAK",
+    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxSGtoRDlSZWREcTVUelhjcmROR0RqeDFxVUxHTmpkd054bUhZU2txRkliVUJ5cGNoTl94dENoNGVUY1RVNTU1QVF30gFPQVVfeXFMTlJOSXNuaHNSZjNicmdDa29WSlN6YUdzZUhBRUFaSTJsNmtnbnpnek8yTTZPc1QwOElpeTRrM2I5dGNvLVBYa1NCRk0tSVp5Zw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "III.8a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T02:09:14.641279+00:00",
+    "publish_at": "2026-11-08T01:17:00+00:00",
+    "timestamp": "2026-11-08T01:17:00+00:00"
+  },
+  {
+    "id": "a9de739a9a78",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Da1NvNVp6anYwTjRuTFVsb2V3cnFrcE5kREs0czhIMVR0TXJDd2tLeVRTYTJqMGtlRDZXZ1BzOEVndkpaa3Y5Q1lxeFBVUTJMd1pUdWNNZzZ5UlMtcmVN?oc=5\n産後ケアホテルでは専門職が母親サポートを行い、孤立を防ぐための休息を促すという。\n「踊るときは踊り、眠るときは眠る。」\n『エセー III.13「経験について」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "産後ケアホテルで心身回復、専門職が母親サポート ゆったり休息、孤立防ぐ：ニュース - 中日BIZナビ",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Da1NvNVp6anYwTjRuTFVsb2V3cnFrcE5kREs0czhIMVR0TXJDd2tLeVRTYTJqMGtlRDZXZ1BzOEVndkpaa3Y5Q1lxeFBVUTJMd1pUdWNNZzZ5UlMtcmVN?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "III.13r",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T02:00:49.598160+00:00",
+    "publish_at": "2026-11-07T22:17:00+00:00",
+    "timestamp": "2026-11-07T22:17:00+00:00"
+  },
+  {
+    "id": "17195b581d93",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZ1YybUNFMkFyRVJ5QWRiREp6RHp0WnllLVFjeVJNX3ZPdDdSZkhQWVR5UnRDV3FyNUtoVDM3XzNSY0toS041TExWR0tLZDhmU18xZ0pxeUlKYVAtNTBqajdwVk1sN2xQa2NDaEVfUHZQYmJhTnU5Y3M0dkJ0eVU?oc=5\nNASAが捉えた宇宙の星雲は、異なる光で見ることで片目が光る猫のような奇妙な姿に見えてきた。\n「この世で、私自身ほどはっきりした怪物や奇跡を、私は見たことがない。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "presomption",
+    "score": 2,
+    "source": "Google News 科学",
+    "source_title": "宇宙に浮かぶ「片目が光る猫」…NASAが捉えた奇妙な星雲、異なる光で見えてきた驚きの姿（ニューズウィーク日本版） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZ1YybUNFMkFyRVJ5QWRiREp6RHp0WnllLVFjeVJNX3ZPdDdSZkhQWVR5UnRDV3FyNUtoVDM3XzNSY0toS041TExWR0tLZDhmU18xZ0pxeUlKYVAtNTBqajdwVk1sN2xQa2NDaEVfUHZQYmJhTnU5Y3M0dkJ0eVU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption"
+    ],
+    "quote_id": "III.11e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T21:39:48.737208+00:00",
+    "publish_at": "2026-11-07T19:17:00+00:00",
+    "timestamp": "2026-11-07T19:17:00+00:00"
+  },
+  {
+    "id": "4554513b7cd5",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBneTFKTWZhM0xMS0FQLUNjWVNFWGpOZHlEN3F5dDJNLVcxTENIQmlRWHluX0hGY1RYQUoxeE9FbnQ2MEw2anlGM1FsdG9qeWVGdXZqZmVUQ1pUTHpUaUt1MjQ3QmpIdFFaUFl5TmFuVHB4elBaNkNFbE9QcV93bU0?oc=5\n元朝日新聞のアフロ記者が、残酷で辛い老後という絶望しないための新しい価値観を発見したという。\n「あなたの生のたえまない営みは、死を築くことにほかならない。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「本当の問題は老いでも死でもなくて…」「人生の後半戦では…」元朝日新聞“アフロ記者”（61）が発見した、“残酷で辛い老後”に絶望しないための“新しい価値観”（文春オンライン） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBneTFKTWZhM0xMS0FQLUNjWVNFWGpOZHlEN3F5dDJNLVcxTENIQmlRWHluX0hGY1RYQUoxeE9FbnQ2MEw2anlGM1FsdG9qeWVGdXZqZmVUQ1pUTHpUaUt1MjQ3QmpIdFFaUFl5TmFuVHB4elBaNkNFbE9QcV93bU0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "nouveaute",
+      "soi"
+    ],
+    "quote_id": "I.20c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T21:34:39.962625+00:00",
+    "publish_at": "2026-11-07T16:17:00+00:00",
+    "timestamp": "2026-11-07T16:17:00+00:00"
+  },
+  {
+    "id": "574322469884",
+    "text": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMXdRSktFR0ZGY1Zaa3NKMTNfamJhN2xyX2s1QW5HamRrNVFSS3NYcFpqbHpyVXlrS001ZzY2VTNWc2ROSXVBTC1hdER2UnliMDdNbHVVdGxQeW9zRjA4N05HelVEN2JUVWlmS0dSYlZxeFZtcm9Lb00xQjFaVW1JbjdNQXlsU3hLX1dyazZDV2NDckhqVGg3S1pLdmdqZkRBRnZEWWFnaWVoQ0dKdUdUeng5RTZEZE5neFdMSW5udklpd1kyZXdkS29TMUUyUDRCdl81U2lGTndOQV9yV2ZPWmNidnQzZEQzbUYxNVNFM1MxVDdjWXdoXzRTMWpOdWpNNTBNWEEyRDNFTkt5ZU9SVEhxX3IwcGN5Y29BTlRjbGxUMnVkTTE1YmRLREdpMWZBb2xQcGNxOWlpTDhzbzktNWZDYVlHVjZDWERCSzAwY3VXaDBLRGJqaA?oc=5\n長時間労働や強いストレスによる健康被害に注意が必要な福井では、過労死を防ぐには家族や同僚の気づきも重要である。\n「人は自分を賃貸しする。その能力は自分のためではなく、仕える相手のためにある。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "medecine",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "共働き率が高い福井では特に注意が必要 長時間労働や強いストレスによる健康被害 過労死防ぐには家族や同僚の“気づき”も重要 - 福井テレビ",
+    "source_url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMXdRSktFR0ZGY1Zaa3NKMTNfamJhN2xyX2s1QW5HamRrNVFSS3NYcFpqbHpyVXlrS001ZzY2VTNWc2ROSXVBTC1hdER2UnliMDdNbHVVdGxQeW9zRjA4N05HelVEN2JUVWlmS0dSYlZxeFZtcm9Lb00xQjFaVW1JbjdNQXlsU3hLX1dyazZDV2NDckhqVGg3S1pLdmdqZkRBRnZEWWFnaWVoQ0dKdUdUeng5RTZEZE5neFdMSW5udklpd1kyZXdkS29TMUUyUDRCdl81U2lGTndOQV9yV2ZPWmNidnQzZEQzbUYxNVNFM1MxVDdjWXdoXzRTMWpOdWpNNTBNWEEyRDNFTkt5ZU9SVEhxX3IwcGN5Y29BTlRjbGxUMnVkTTE1YmRLREdpMWZBb2xQcGNxOWlpTDhzbzktNWZDYVlHVjZDWERCSzAwY3VXaDBLRGJqaA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "soi",
+      "peur"
+    ],
+    "quote_id": "III.10c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T16:08:53.731493+00:00",
+    "publish_at": "2026-11-07T13:17:00+00:00",
+    "timestamp": "2026-11-07T13:17:00+00:00"
+  },
+  {
+    "id": "73c8659ad484",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQjU1WndJemw2Y3VEWU0tRFRHdVNsSy1pM0pWZjFZQ1g0VmtTU2VreXZUMHlrc01SNDg2d3U4cklWMnJoOS1vNGZhbXhHWVJXa2MxV2RteEx6NWp0YWZOVWRrd2k5ZDhzRmpFZzNCYmdUUGZHWTBfQWpka3ZtSHM?oc=5\n特別支援学校の男性教諭が校長らによるパワハラを訴え、就業困難として千葉県を提訴したが、県教委は回答しかねている。\n「役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "特別支援学校の男性教諭、発達障害巡り校長らによるパワハラ訴え 「就業困難」として千葉県を提訴 県教委「回答しかねる」 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQjU1WndJemw2Y3VEWU0tRFRHdVNsSy1pM0pWZjFZQ1g0VmtTU2VreXZUMHlrc01SNDg2d3U4cklWMnJoOS1vNGZhbXhHWVJXa2MxV2RteEx6NWp0YWZOVWRrd2k5ZDhzRmpFZzNCYmdUUGZHWTBfQWpka3ZtSHM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "III.10b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T16:01:31.056463+00:00",
+    "publish_at": "2026-11-07T10:17:00+00:00",
+    "timestamp": "2026-11-07T10:17:00+00:00"
+  },
+  {
+    "id": "612fe554d5f8",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUnZUVFVwMVZEd0pTaU1jTUxieF9GNlBDbWxzZzRtTVVtd1lFM014MzRYR3c0ZS1mX2pnOU5SMzBXTXV5VldKVUVCVlpMQXFGNnZxV2h4WmVOWG9meTBmNXdCY19NVVhsZUkzZDIzZjBQMzZmbjg1djhZanEtb21wVmFlUl9QY3ZaM0tqYlZR?oc=5\n老後に孤独になることが不可避な人の特徴として、ワースト1が明らかになったという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "老後に「孤独になることが不可避な人」の特徴・ワースト1 (ダイヤモンド・オンライン) - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUnZUVFVwMVZEd0pTaU1jTUxieF9GNlBDbWxzZzRtTVVtd1lFM014MzRYR3c0ZS1mX2pnOU5SMzBXTXV5VldKVUVCVlpMQXFGNnZxV2h4WmVOWG9meTBmNXdCY19NVVhsZUkzZDIzZjBQMzZmbjg1djhZanEtb21wVmFlUl9QY3ZaM0tqYlZR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T08:14:04.341002+00:00",
+    "publish_at": "2026-11-07T07:17:00+00:00",
+    "timestamp": "2026-11-07T07:17:00+00:00"
+  },
+  {
+    "id": "0fba730206e3",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VU9qbVdJS1RpR0RxR3pkdXkzcjNVcDB4ZEJtMDJvU1NUek00cndwSk8zZXY3cmt4cnp5TEwzX0tnQUhhYlY4WS1oTkVBanZfMlJFTzRR?oc=5\n関西みらい銀行やみなと銀行は、専門業者と連携して『おひとりさま終活』を支援し、もめ事回避へと向かおうとする。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "関西みらい銀・みなと銀、「おひとりさま終活」支援 専門業者と連携 もめ事回避へ - ニッキンONLINE",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VU9qbVdJS1RpR0RxR3pkdXkzcjNVcDB4ZEJtMDJvU1NUek00cndwSk8zZXY3cmt4cnp5TEwzX0tnQUhhYlY4WS1oTkVBanZfMlJFTzRR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort"
+    ],
+    "quote_id": "I.20d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T08:11:41.709487+00:00",
+    "publish_at": "2026-11-07T04:17:00+00:00",
+    "timestamp": "2026-11-07T04:17:00+00:00"
+  },
+  {
+    "id": "343a0d1f4098",
+    "text": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vVklROGg2QnZYQjI1ZFdwWFhoZ3cxWFNERnhneWRfRWZlYk1ab0lFZ2hEVnZ1c05fMHRWWG1IWGsxbTRaanZQT2xJSUxYSGpUbFFjajBxZlpYODFLV2FBSUZsN2tBQ2ZDdXJN?oc=5\n日本水連は金子専務理事の代表入り可能性の忖度を考えないと表明したという。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "本多灯、２８年ロス五輪可能性が消滅 日本水連１年９カ月の資格停止処分 危険運転致傷で有罪判決 金子専務理事「代表入り可能性の忖度は考えない」本人からの弁明なし - デイリースポーツ",
+    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vVklROGg2QnZYQjI1ZFdwWFhoZ3cxWFNERnhneWRfRWZlYk1ab0lFZ2hEVnZ1c05fMHRWWG1IWGsxbTRaanZQT2xJSUxYSGpUbFFjajBxZlpYODFLV2FBSUZsN2tBQ2ZDdXJN?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "I.39b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T08:01:09.605351+00:00",
+    "publish_at": "2026-11-07T01:17:00+00:00",
+    "timestamp": "2026-11-07T01:17:00+00:00"
+  },
+  {
+    "id": "2cedae9bcadc",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVpYclBOOFBpUl9TQ1YwUVNRd2VYZ3hnb1Zva3I4VmhKeHN2Y3ZMQjJuNmVNR3hLSEwxQ1d5SFlFeURoWWdUYmROSnlsSGtfOW5LLVJBMXRkUjh0NGEzcllWTVMtRjFwM21KajhiaDFZczd4ejVHamhaWHRHSks2bUZQWUVtZklqX2U2Q3hR?oc=5\n打算で結婚したはずだったが、転勤先の孤独の中に年下の男性と出会うという。\n「なぜ彼を愛したのかと問い詰められても、それは『彼だったから、私だったから』と答えるほかに言い表せないと感じる。」\n『エセー I.28「友情について」』",
+    "theme": "soi",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「打算で結婚」したはずが…転勤先の孤独と年下男性との出会い (ウォーカープラス) - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVpYclBOOFBpUl9TQ1YwUVNRd2VYZ3hnb1Zva3I4VmhKeHN2Y3ZMQjJuNmVNR3hLSEwxQ1d5SFlFeURoWWdUYmROSnlsSGtfOW5LLVJBMXRkUjh0NGEzcllWTVMtRjFwM21KajhiaDFZczd4ejVHamhaWHRHSks2bUZQWUVtZklqX2U2Q3hR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.28",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T00:23:13.702809+00:00",
+    "publish_at": "2026-11-06T22:17:00+00:00",
+    "timestamp": "2026-11-06T22:17:00+00:00"
+  },
+  {
+    "id": "444ca0d12cc0",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnbEVGV243V2xOckpNR1BqcmxFdy1Qd184eDJPdUlvcHJOemlfVlVoeXJnU2lXaUt5Vzd0XzNGQ0t1OEVRSW52ZnZuY0UzQXJVTG9pNEF3?oc=5\n若者たちは、2026年の世界乾癬デーで偏見と差別に対して声を上げようとしているという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
+    "theme": "autrui",
+    "score": 6,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "IFPA：2026年世界乾癬デー、若者たちが偏見と差別に対して声を上げる - 千葉日報オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnbEVGV243V2xOckpNR1BqcmxFdy1Qd184eDJPdUlvcHJOemlfVlVoeXJnU2lXaUt5Vzd0XzNGQ0t1OEVRSW52ZnZuY0UzQXJVTG9pNEF3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui",
+      "soi"
+    ],
+    "quote_id": "I.31a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-06T00:20:54.969009+00:00",
+    "publish_at": "2026-11-06T19:17:00+00:00",
+    "timestamp": "2026-11-06T19:17:00+00:00"
+  },
+  {
     "id": "3f9a547b6453",
     "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUNFeWZ1aURLQTNqWHRoX1FQR3MyeUEwSzBwTkhaRlZtZDdScmJVemRzZUxKZEVZNlpheTkxQUpLUFhrN185cENtMnphbm5qY1YxYlF2eTREaElsdGxCVHd5bWgxeGpaQjhnU0lpTzQxSkthem93UUwybWZLczEwYThGV2lHNWlkX0xEQzFn?oc=5\n偏差値も凄すぎる超進学校で育った現役選手は、文武両道の姿を見せるという。\n「誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。」\n『エセー I.25「衒学について」』",
     "theme": "savoir",
