@@ -1,5 +1,67 @@
 [
   {
+    "id": "ff11df8c21e7",
+    "text": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbzJHYjVyd0VUbXh4SXNpVDRKNm1tQXlkbGJzTTBGTW5aUVFhMmZPSlRoWFZZWWgxQWNsWmVmd3M3RXFzRk9VNnhRb1dPQjg5VzdHVEZxUm1EWXJ1d2lXU3hvMGZteUZRcWRJN1A4Q2hiS3BKYk5FR19OeHpmRG9LVmMxUnlEUFZmbWRXaW5ISl9PQQ?oc=5\nウクライナ当局者は、ロシアが交渉開始前にキエフに向けてミサイルを発射した事実を指摘しているという。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ当局者：ロシアは交渉開始前にキエフに向けてミサイルを発射した。 - Vietnam.vn",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbzJHYjVyd0VUbXh4SXNpVDRKNm1tQXlkbGJzTTBGTW5aUVFhMmZPSlRoWFZZWWgxQWNsWmVmd3M3RXFzRk9VNnhRb1dPQjg5VzdHVEZxUm1EWXJ1d2lXU3hvMGZteUZRcWRJN1A4Q2hiS3BKYk5FR19OeHpmRG9LVmMxUnlEUFZmbWRXaW5ISl9PQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D3.48",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T08:00:40.205141+00:00",
+    "publish_at": "2026-11-08T06:17:00+00:00",
+    "timestamp": "2026-11-08T06:17:00+00:00"
+  },
+  {
+    "id": "949b2ba5abd9",
+    "text": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQaTZTcFhRWWYtMjVjUFdNVDZOeHZoYWlTa2djdFEzMXQtVWU0QzIxN2pEVTNFejRXVnJIYU16NklRZjlpQVJRSkU3Vzh5WVJTdUxMdVVheW50U3pneGlxZVRvNDZsejNrTUliVXJ6WUpvaHI1N0k4ZE13cFlza3pLZEF3RnJUQ21xX1VJQ3U2bWsteVEtNFZfMF9xbGpMUEdQMGtUNmhIdVFTR3R1cWVZSFNQUlZERzdzSUVEYmgyYmVkUUZSU243N1k0QVVGOU04dklzd3NVcV93RnVNREY4b2xVVm5iamdnQll5NW9DMHZBSGdkNFVZUFQxV3h2dW1EN0xVRG5aZFZCSmlkcE4teFd2RGNPdHRfQ2FiRUZkRUVsY3pUbU1Zb0JQclp3WmV0dEdieG1SV1NHWnNKOUEyZ3k1dVZlQ284endoRnB5Zl9yeDFDa2tjTUc5ZjY5dDZwRTlrVHY5Q2NUazZCWjRLSnUzM2VnRnpwdVh5QnJ4LVJjbHctUlpxb0JJUjNrVW9vV1ZlT29MQWFBVlYwdDg0b3JjOENiMmdidjRIWHhHb2ZXQ3V4N0diUkFZdTRiTkFfbHNiY0ZIRjRDV203TVVqSWxUWmhXUTVacVZqUE9VQVhnTzBuY3JJS3NHVVA3dGhxMFBxN1c1c0tUT1U?oc=5\n米軍はイランに対する新たな標的攻撃を実施し、テヘランの指導者は仲介者の提案を検討しているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 中東",
+    "source_title": "米軍、イランへの新たな標的攻撃を実施、テヘランの指導者は仲介者の提案を検討 - アラブニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQaTZTcFhRWWYtMjVjUFdNVDZOeHZoYWlTa2djdFEzMXQtVWU0QzIxN2pEVTNFejRXVnJIYU16NklRZjlpQVJRSkU3Vzh5WVJTdUxMdVVheW50U3pneGlxZVRvNDZsejNrTUliVXJ6WUpvaHI1N0k4ZE13cFlza3pLZEF3RnJUQ21xX1VJQ3U2bWsteVEtNFZfMF9xbGpMUEdQMGtUNmhIdVFTR3R1cWVZSFNQUlZERzdzSUVEYmgyYmVkUUZSU243N1k0QVVGOU04dklzd3NVcV93RnVNREY4b2xVVm5iamdnQll5NW9DMHZBSGdkNFVZUFQxV3h2dW1EN0xVRG5aZFZCSmlkcE4teFd2RGNPdHRfQ2FiRUZkRUVsY3pUbU1Zb0JQclp3WmV0dEdieG1SV1NHWnNKOUEyZ3k1dVZlQ284endoRnB5Zl9yeDFDa2tjTUc5ZjY5dDZwRTlrVHY5Q2NUazZCWjRLSnUzM2VnRnpwdVh5QnJ4LVJjbHctUlpxb0JJUjNrVW9vV1ZlT29MQWFBVlYwdDg0b3JjOENiMmdidjRIWHhHb2ZXQ3V4N0diUkFZdTRiTkFfbHNiY0ZIRjRDV203TVVqSWxUWmhXUTVacVZqUE9VQVhnTzBuY3JJS3NHVVA3dGhxMFBxN1c1c0tUT1U?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "AG9",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T07:50:03.097123+00:00",
+    "publish_at": "2026-11-08T03:17:00+00:00",
+    "timestamp": "2026-11-08T03:17:00+00:00"
+  },
+  {
+    "id": "0cc2a7a948b3",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rWU9fZk01MkEwVUppNWxQZHp1NHRjR0lkWVYyZXphSHM0cDFkMTRwWlJpVWF2TS1SakdhcEdrQ0dPSjI4MkVDVGE4WllHZC04ck5MM1o2NHo2bEpoeTh0MElZZWE4azduRUU3aU0tc3dIUFB4a3FXeWRiQ01NaG8?oc=5\nトランプ大統領はイランの核兵器保有を阻止していなかったと主張し、攻撃の正当化を行っているという。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ大統領「イランの核兵器保有を阻止していなければイスラエルと中東全体が存在していなかった」攻撃正当化 - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rWU9fZk01MkEwVUppNWxQZHp1NHRjR0lkWVYyZXphSHM0cDFkMTRwWlJpVWF2TS1SakdhcEdrQ0dPSjI4MkVDVGE4WllHZC04ck5MM1o2NHo2bEpoeTh0MElZZWE4azduRUU3aU0tc3dIUFB4a3FXeWRiQ01NaG8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "armi_proprie"
+    ],
+    "quote_id": "ID2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T07:16:05.413940+00:00",
+    "publish_at": "2026-11-08T00:17:00+00:00",
+    "timestamp": "2026-11-08T00:17:00+00:00"
+  },
+  {
     "id": "c3840071f9fa",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1neGp5NlNVb1NMdVhmVkN6NnQ2UHd2M0xkYzBlb3VCVnFQYmhad2RKZXVYNGQ5SVlXVzdXc2ZXTVBMSUpaOFl5Q01JQXQtUzJBU25iNmNDZnQ2UkljY2hn?oc=5\nマカオでは初となる国家安全維持法違反判決で懲役12年6か月の刑が言い渡されたという。\n「ローマ人は、従属する者たちを裁かねばならぬ事態に際し、中途半端な道を避けた。」\n『リウィウス論 II.23』",
     "theme": "necessita",
@@ -706,64 +768,6 @@
       "economia"
     ],
     "quote_id": "D2.28",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "dfac4fa8bb9f",
-    "timestamp": "2026-10-31T16:42:35.618909+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0aHdOa0xPYlFjcUxtTm8tRGJBdXYyOE41dFRwT2pzNmhnQ3l0R2g3ck14cmtIb0pUOG9YVnR3T1d4cnpYcWpsaTRETTQ0U25uekRSeDBzbmhZNGxWMkp4YUJ3?oc=5\n人道支援という名目で現地に赴く文民チームに対し、飢えで敵を弱体化させるマキャベリの知恵が適用される状況だ。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "ウクライナ南部の人道状況悪化、住民避難を開始…ロシアとウクライナの文民チームが現地に支援物資 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0aHdOa0xPYlFjcUxtTm8tRGJBdXYyOE41dFRwT2pzNmhnQ3l0R2g3ck14cmtIb0pUOG9YVnR3T1d4cnpYcWpsaTRETTQ0U25uekRSeDBzbmhZNGxWMkp4YUJ3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "AG2",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "fd9d77341d4e",
-    "timestamp": "2026-10-31T11:35:19.736458+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSOGNkMFpYaWxHMDl6TnNjR1BITWpKUVRHWE82RFp6My1VTXBRQklnaWlRTDRoMkZLWFdIeDBpRHFhVlRIWFdDM0VjVWNERk92V2Radm9KUFlJUThsd0toVmJJeWlVUlNQYVgzdXZvM3U2WlVSdkY3RWxQcE56TEE?oc=5\nロシアとウクライナが窮地にあるからこそ、メラニア氏を仲介者にした人道支援という恩恵を先延ばしせず実現させたのだ。\n「国家も君主も、自らが窮地に陥る時まで、人々に恩恵を施すのを先延ばしにしてはならぬ。」\n『リウィウス論 I.32』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "ロシアとウクライナ、侵攻後初の共同人道支援 メラニア氏が仲介（毎日新聞） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSOGNkMFpYaWxHMDl6TnNjR1BITWpKUVRHWE82RFp6My1VTXBRQklnaWlRTDRoMkZLWFdIeDBpRHFhVlRIWFdDM0VjVWNERk92V2Radm9KUFlJUThsd0toVmJJeWlVUlNQYVgzdXZvM3U2WlVSdkY3RWxQcE56TEE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D1.32",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "2ea760f27ceb",
-    "timestamp": "2026-10-31T03:42:24.594706+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55c00yLUM3RjhlMnZNOFBHUHdGbUdNRUZXMTBaWGxKMmxSNkQ2S1RtZHVwbE9WdHZ4R3p6S2ZkWjQwTEFIVWVtazBFdzl2UE0wQUgxVzNJanRmWlp4SWoyMm5n?oc=5\n住民の退避という行動が停戦遵守を示すか、敵対勢力の罠に過ぎないかは、誤りを疑うマキャベリの知恵を要する。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "ウクライナ南部での局地的な停戦で住民の退避開始、バスなどに分乗しクリミアへ…停戦違反は確認されず - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55c00yLUM3RjhlMnZNOFBHUHdGbUdNRUZXMTBaWGxKMmxSNkQ2S1RtZHVwbE9WdHZ4R3p6S2ZkWjQwTEFIVWVtazBFdzl2UE0wQUgxVzNJanRmWlp4SWoyMm5n?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D3.48",
     "quote_choice": "llm"
   }
 ]
