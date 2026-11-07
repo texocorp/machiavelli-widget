@@ -54,6 +54,7 @@ class Bot:
     neutral_kanji: str = ""       # 見出しに無くてもよい漢字・漢語を空白で区切って並べる(例: 「米」を「米国」と書く「国」)
     scene_pick: bool = False      # 採点の前に、場面の説明の一覧からモデルに候補を選ばせる(scene_candidates)
     headline_intro: bool = False  # 書いた導入文がすべて検査に落ちたら、見出しをそのまま引く導入文で校閲に回す
+    compare_pick: bool = False    # 候補を1件ずつ採点せず、並べて比べさせ、上位2件と「つながり」を答えさせる(COMPARE_PROMPT)
 
 
 # 見出しの略称(「露」「米」)を正式名で書くのは言い直しの範囲(実例: 「露統計局」を「ロシア統計局」と言い直して
@@ -213,6 +214,9 @@ def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
     ベーコンでは、見送った記事の過半がこの理由だった(4回の実行で導入文の段階で落ちた18件の大半)。
     そこで、校閲で合わないとされた引用は捨てて、残りの候補の採点を続ける。
     """
+    if bot.compare_pick:
+        yield from compare_quotes(bot, item, reading)
+        return
     title, summary = mtg._facts(item)
     src = mtg._compact(f"{title}{summary}")
     LAST_TRACE["quote_candidates"] = []
@@ -232,6 +236,77 @@ def choose_quotes(bot: Bot, item: NewsItem, reading: dict):
         LAST_TRACE["quote_candidates"].append((q["id"], fit, actor, data.get("common", "")))
         print(f"[採点] {q['id']} {fit}点 主体={actor} … {data.get('common', '')}")
         if fit >= (SCENE_MIN_FIT if q in picked else MIN_FIT):
+            yield q, actor
+
+
+COMPARE_PROMPT = """新聞のコラムで、ニュースの後に{author}の一節を引く。下の候補から、この出来事に当てはまる一節を選ぶ。
+
+見出し: {title}
+出来事: {facts}
+
+候補:
+{cands}
+
+picks に、当てはまる候補を、よく当てはまる順に最大2つ挙げよ。それぞれ次を答える。
+n: 候補の番号
+actor: その一節の言う構図が当てはまる、見出しの中の主体(国・組織・人)。見出しの表記のまま
+bridge: 見出しの「何」が一節の「何」に当たるかを、30〜60字で
+挙げてよいのは、一節の言う構図(誰が、誰に対して、何をすると、どうなるか)が、その主体の行動や立場にはっきり当てはまるものだけ。
+話題や言葉が重なるだけのもの、役回り(欺く側・欺かれる側など)が逆になるもの、亡くなった人・被害に遭った人を責める響きになるものは挙げない。
+当てはまるものが無ければ picks は空にする。"""
+
+# つながりの説明(bridge)を、その引用の校閲に渡す。記事ごとに run() で空にする
+BRIDGES = {}
+
+
+def _actor_in_title(actor: str, src: str) -> bool:
+    """主体が見出しにあるか。表記の揺れ(「徳島大学大学院の教授ら」と見出し「徳島大大学院教授ら」)は、2字の組の6割で認める。"""
+    a = mtg._compact(actor)
+    if len(a) < 2:
+        return False
+    if a in src:
+        return True
+    pairs = [a[i:i + 2] for i in range(len(a) - 1)]
+    return sum(p in src for p in pairs) * 10 >= len(pairs) * 6
+
+
+def compare_quotes(bot: Bot, item: NewsItem, reading: dict):
+    """
+    【2026-11-08 導入、ベーコン】候補5件を1回の呼び出しで比べさせ、当てはまる順に最大2件を (引用, 主体) で返す。
+    1件ずつ0〜3点で採点する方式は、9Bのモデルでは甘く(28件中14件に3点、多くは的外れ)、校閲と食い違っていた。
+    試験(直近の本番の記事、計43件): 1件ずつの採点では校閲を通った組み合わせ 15件中1件(的外れ)。
+    比べて選び、つながりの説明を校閲に示す方式では 15件中6件(的確3)、説明の確認を加えて 28件中17件(的確・許容9)。
+    判定にかかる時間も短い(呼び出し5回が1回になる)。
+    """
+    title, summary = mtg._facts(item)
+    src = mtg._compact(f"{title}{summary}")
+    _, cands = scene_candidates(bot, item, reading)
+    if not cands:
+        return
+    listing = "\n".join(f"{i}. 一節: {q['ja']}\n   当てはまる場面: {q.get('scene', '')}" for i, q in enumerate(cands, 1))
+    schema = {"type": "object",
+              "properties": {"picks": {"type": "array", "maxItems": 2, "items": {
+                  "type": "object",
+                  "properties": {"n": {"type": "integer", "minimum": 1, "maximum": len(cands)},
+                                 "actor": {"type": "string"}, "bridge": {"type": "string"}},
+                  "required": ["n", "actor", "bridge"]}}},
+              "required": ["picks"]}
+    _check_time()
+    data = mtg._ollama_json(COMPARE_PROMPT.format(author=bot.author, title=title, facts=reading["facts"], cands=listing),
+                            schema, {**JUDGE, "num_ctx": 8192}, "compare")
+    LAST_TRACE["quote_candidates"] = []
+    seen = set()
+    for p in (data.get("picks") or [])[:2]:
+        n = p.get("n")
+        if not isinstance(n, int) or not 1 <= n <= len(cands) or n in seen:
+            continue
+        seen.add(n)
+        q, actor, bridge = cands[n - 1], (p.get("actor") or "").strip(), (p.get("bridge") or "").strip()
+        ok = _actor_in_title(actor, src)
+        LAST_TRACE["quote_candidates"].append((q["id"], actor, bridge, ok))
+        print(f"[比べる] {q['id']} 主体={actor} … {bridge}" + ("" if ok else "(主体が見出しに無い)"))
+        if ok:
+            BRIDGES[q["id"]] = bridge
             yield q, actor
 
 
@@ -381,6 +456,40 @@ REVIEW_PROMPT = mtg.REVIEW_PROMPT + """
 opinion: 導入文に、見出しに無い書き手の評価・推測(「〜すぎる」「〜に惑わされ」「〜を狙って」「〜の表れ」など)が入っているか
 fits: 導入文の後に一節を続けて読んだとき、一節がこの出来事について筋の通ったことを言っているか(一節の話題が出来事と違う、例えば政治の一節を事故やスポーツの出来事に添えているなら false)"""
 
+# 選んだ工程の「つながり」の説明を示して、当てはまりを確かめさせる(説明が無いと、9Bの校閲は良い組み合わせも
+# 「合わない」と落としていた。試験では、同じ組み合わせ15件で、説明なし2件・説明あり6件が合格)
+BRIDGED_REVIEW_PROMPT = mtg.REVIEW_PROMPT + """
+opinion: 導入文に、見出しに無い書き手の評価・推測(「〜すぎる」「〜に惑わされ」「〜を狙って」「〜の表れ」など)が入っているか
+fits: 選者は「{bridge}」という理由でこの一節を選んだ。この理由が見出しの事実に照らして正しく、導入文の後に一節を続けて読むと、一節がこの出来事について筋の通ったことを言っているか(理由が見出しの事実と違う、または一節の話題が出来事と違うなら false)"""
+
+# つながりの説明そのものを確かめる(試験では、校閲を通った的外れの組み合わせの一部を落とした)
+SANITY_PROMPT = """新聞のコラムで、ニュースの見出しの後に{author}の一節を引く。選者はその理由を下のように説明した。
+
+見出し: {title}
+一節: {quote}
+選者の説明: {bridge}
+
+次に答えよ。
+true_reading: 説明は見出しの事実を正しく述べているか(見出しに無いこと、見出しと逆のこと、見出しの主張と反対の立場を事実として述べていれば false)
+natural: 新聞の読者が、見出しの後にこの一節を読んで、説明が無くても「なるほど」と思えるか(説明でこじつけないとつながらない、一節の言う構図と出来事の構図が違うなら false)"""
+
+SANITY_SCHEMA = {"type": "object", "properties": {"true_reading": {"type": "boolean"}, "natural": {"type": "boolean"}},
+                 "required": ["true_reading", "natural"]}
+
+
+def check_bridge(bot: Bot, item: NewsItem, quote: dict) -> None:
+    """つながりの説明の読み違い・こじつけを確かめる。問題があれば「引用が出来事に合わない」で ValueError。"""
+    bridge = BRIDGES.get(quote["id"])
+    if not bridge:
+        return
+    title, _ = mtg._facts(item)
+    r = mtg._ollama_json(SANITY_PROMPT.format(author=bot.author, title=title, quote=quote["ja"], bridge=bridge),
+                         SANITY_SCHEMA, JUDGE, "sanity")
+    problems = [k for k, bad in (("説明の読み違い", not r.get("true_reading")), ("こじつけ", not r.get("natural"))) if bad]
+    if problems:
+        raise ValueError(f"校閲で不合格: ['{_MISFIT}({'・'.join(problems)})']")
+
+
 REVIEW_SCHEMA = {"type": "object",
                  "properties": {k: {"type": "boolean"} for k in ("coherent", "on_topic", "hurts_victims", "opinion", "same_doer", "fits")},
                  "required": ["coherent", "on_topic", "hurts_victims", "opinion", "same_doer", "fits"]}
@@ -393,8 +502,10 @@ def review(bot: Bot, text: str, item: NewsItem, quote: dict) -> None:
     (実例: 「中小企業がSNSでバズれば成功になると考えすぎるが」)。追加の呼び出しは無い。
     """
     title, _ = mtg._facts(item)
-    r = mtg._ollama_json(REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"], author=bot.author),
-                         REVIEW_SCHEMA, JUDGE, "review")
+    bridge = BRIDGES.get(quote["id"])
+    prompt = (BRIDGED_REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"], author=bot.author, bridge=bridge)
+              if bridge else REVIEW_PROMPT.format(title=title, analysis=text, quote=quote["ja"], author=bot.author))
+    r = mtg._ollama_json(prompt, REVIEW_SCHEMA, JUDGE, "review")
     problems = [k for k, bad in (("文意が通らない", not r.get("coherent")),
                                  ("記事に沿っていない", not r.get("on_topic")),
                                  ("被害者を責める響き", r.get("hurts_victims")),
@@ -418,6 +529,7 @@ def run(bot: Bot, item: NewsItem):
     """(導入の一文, 引用) を返す。掲載できる文が得られなければ None(理由は LAST_TRACE["result"])。"""
     LAST_TRACE.clear()
     mtg.LAST_TRACE.clear()
+    BRIDGES.clear()
 
     def give_up(reason: str):
         LAST_TRACE["result"] = reason
@@ -454,7 +566,7 @@ def run(bot: Bot, item: NewsItem):
         if result:
             return result, quote
     if tried == 0:
-        return give_up(f"構図の当てはまる引用が候補に無い(すべて{MIN_FIT}点未満)")
+        return give_up("構図の当てはまる引用が候補に無い" + ("(比べて選ぶ工程で該当なし)" if bot.compare_pick else f"(すべて{MIN_FIT}点未満)"))
     return give_up("検査を通る導入文が無かった")
 
 
@@ -538,6 +650,10 @@ def headline_intro_text(item: NewsItem) -> str:
     m = _MEDIA_SUFFIX.search(item.title)
     media = m.group(0).split(" - ", 1)[-1].strip() if m else ""
     head = _MEDIA_SUFFIX.sub("", clean_news_text(item.title)).strip().replace("「", "『").replace("」", "』")
+    # Yahoo!ニュースの転載は、見出しの末尾の括弧に元の配信元がある(「…が問われる罪（弁護士JPニュース）」)
+    m2 = re.search(r"[（(]([^（）()]{2,20})[）)]$", head)
+    if media.startswith("Yahoo") and m2:
+        media, head = m2.group(1), head[:m2.start()].rstrip()
     text = f"{media}は「{head}」と報じた。" if media else f"「{head}」と報じられた。"
     return text if MIN_CHARS <= len(text) <= MAX_CHARS + 20 else ""
 
@@ -556,6 +672,7 @@ def _headline_intro(bot: Bot, item: NewsItem, quote: dict, adopt: bool = True):
     LAST_TRACE["candidates"].append(record)
     try:
         _check_time()
+        check_bridge(bot, item, quote)   # 説明の確認を先に(落ちれば次の引用へ。導入文によらない)
         review(bot, text, item, quote)
     except ValueError as e:
         record["verdict"] = str(e)

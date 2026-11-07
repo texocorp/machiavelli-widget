@@ -599,6 +599,7 @@ def llm_bot():
         neutral_kanji="投稿 発信 否定 反応 説明",
         scene_pick=True,
         headline_intro=True,
+        compare_pick=True,
     )
 
 
