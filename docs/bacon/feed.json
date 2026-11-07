@@ -1,5 +1,25 @@
 [
   {
+    "id": "18ab1037eca2",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Rk5ZNHdpQ3pjWk9mMnVuMzNvNEJfcU9hdmFZenhoc1FFdjVvYngzVVZXSnJQVHpZOG4td2tuYmhtUUJUNEEwLUMtcllsVkJ4Y3o0NHBUa0F4U0ctejUxTnRoRzc2WXhUQ0J5TzBB?oc=5\nau Webポータルは「篠宮なほ｜白波のささやき、きみは海辺の予言」と報じた。\n「第三に、そして最後に(これが最大の理由であるが)、数限りないそうした予言のほとんどすべてはまやかしであり、暇で狡猾な頭が出来事の後になってでっち上げ、こしらえたものにすぎない。」\n『随筆集』第35篇「予言について」",
+    "original": "The third and last (which is the great one) is, that almost all of them, being infinite in number, have been impostures, and by idle and crafty brains merely contrived and feigned, after the event past.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 6,
+    "source": "Google News 風評・噂",
+    "source_title": "篠宮なほ｜白波のささやき、きみは海辺の予言 - au Webポータル",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Rk5ZNHdpQ3pjWk9mMnVuMzNvNEJfcU9hdmFZenhoc1FFdjVvYngzVVZXSnJQVHpZOG4td2tuYmhtUUJUNEEwLUMtcllsVkJ4Y3o0NHBUa0F4U0ctejUxTnRoRzc2WXhUQ0J5TzBB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio"
+    ],
+    "quote_id": "E35c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T16:10:27.012008+00:00",
+    "publish_at": "2026-11-07T16:10:27.012008+00:00",
+    "timestamp": "2026-11-07T16:10:27.012008+00:00"
+  },
+  {
     "id": "2a2d84e7a4da",
     "text": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82aDg0enBpdmllOFZSTklPWGRSVkotanB5cHRkX2VWSERRaGIxeXU4cEp5LTBib3lTcWthbWVHNDlYSmNiWXNYcmZaYnUtMnlVMVBFRTlpUjlQLURQV1JfZ1haS0lSM3ZWMmJOQUFfVXJIWGpfQktKUXlNVQ?oc=5\nニコニコニュースは「“港区ママ”元SKE48・石田安奈、セレブママたちのし烈な争いを激白 情報戦の裏側『ライバルだから。性別が同じだったら特に』」と報じた。\n「そして嫉妬は、噂と評判によっていつも倍加する。」\n『随筆集』第9篇「嫉妬について」",
     "original": "… and envy ever redoubleth from speech and fame.",
