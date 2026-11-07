@@ -1,5 +1,45 @@
 [
   {
+    "id": "a3128de68121",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RVRJNFlNOUlLdjZXZVEydmlRSVZMNnpGYnhmSFVLcGIwZHhobVhjMll4V2pUbDNlU3Y2cjNTZzNJQkRsckwtMWVRZXNDOE1Da2huaFZ0VVl0bmZpTWtUV0dzeFprMzQ?oc=5\n政府が安全保障について夫婦漫才を用いた広報を行い、防衛力の強化に向けた国民の理解を深めようとしている。\n「凪の時に嵐への備えを怠るのは、人間に共通の欠点である。」\n『君主論 cap.XXIV』",
+    "theme": "popolo_principe",
+    "score": 8,
+    "source": "Google News 検索 安全保障",
+    "source_title": "安全保障、夫婦漫才で政府広報 防衛力強化へ国民の理解拡大図る - 朝日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RVRJNFlNOUlLdjZXZVEydmlRSVZMNnpGYnhmSFVLcGIwZHhobVhjMll4V2pUbDNlU3Y2cjNTZzNJQkRsckwtMWVRZXNDOE1Da2huaFZ0VVl0bmZpTWtUV0dzeFprMzQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "popolo_principe",
+      "armi_proprie"
+    ],
+    "quote_id": "P24a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T14:53:54.526465+00:00",
+    "publish_at": "2026-11-08T12:17:00+00:00",
+    "timestamp": "2026-11-08T12:17:00+00:00"
+  },
+  {
+    "id": "3f9ebd9d623d",
+    "text": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxQME9HbkU4LWVjSmtvSzkxMFE4cVhNRG54d0JSaXk1TWUzd0EyeEEzUnhJb1BpcWp0VTNvMi1Da2NEaUMzLUxreVRobUVvWGVVS3FqTGJYamY5NjlTMERaeWdzMUlQMHlodDYtaVE3c0FwaFNJbkVrZmhiVlk1N0JCX1g3SDJyMXZaVFVxNnZiMnJwdjZfNVoyNHV1U01fOGNpNEFTb0dPZ2doOEVFajJLZkprUU9YUXE1VzVSN0ZZanhyZjZfMUFJdkJiZ1BsaHdNdEFDS2J0QjBZcGtZV2pxV1h1MlpJZWpLU0x0SDlaQ20zVDB3NEJwR3hIR25Kak41V1pMdVBNZE0zNzN3NFBqUkNURlFwZ0xzaWZ6bHN5UERiM3RCMGZyWlRHbzBOUnBpSTZyMjlCb01pdFIwaktwM2hkMy1EeElpajNreEhQS3BsX2k0dXBjUjZPbDJDTDk5REJjSThHVTJ3bEh5alVNSFE4TXJDblJGclJMRWo5T2hqWFlhWjB2a1VUOWR2bTk5cjNrT0QyS3p5REJvNlpBelowOG1nbS1pN1RYR01OX0RsaTVsTmRoc3JVUVc4RWZIYmxfQ2g5UUhaQ3YzRktWcw?oc=5\n米軍は、イランの核プログラムに関する情報提供者に対し、2000万ドルの報酬を提示する方針だという。\n「人は懐柔するか、さもなくば抹殺するかのどちらかでなければならぬ。軽い危害には報復できても、重い危害には報復できぬからである。」\n『君主論 cap.III』",
+    "theme": "paura_amore",
+    "score": 10,
+    "source": "Google News 検索 中東",
+    "source_title": "米軍、イランの核プログラムに関する情報提供者に2000万ドルの報酬を提示 - アラブニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxQME9HbkU4LWVjSmtvSzkxMFE4cVhNRG54d0JSaXk1TWUzd0EyeEEzUnhJb1BpcWp0VTNvMi1Da2NEaUMzLUxreVRobUVvWGVVS3FqTGJYamY5NjlTMERaeWdzMUlQMHlodDYtaVE3c0FwaFNJbkVrZmhiVlk1N0JCX1g3SDJyMXZaVFVxNnZiMnJwdjZfNVoyNHV1U01fOGNpNEFTb0dPZ2doOEVFajJLZkprUU9YUXE1VzVSN0ZZanhyZjZfMUFJdkJiZ1BsaHdNdEFDS2J0QjBZcGtZV2pxV1h1MlpJZWpLU0x0SDlaQ20zVDB3NEJwR3hIR25Kak41V1pMdVBNZE0zNzN3NFBqUkNURlFwZ0xzaWZ6bHN5UERiM3RCMGZyWlRHbzBOUnBpSTZyMjlCb01pdFIwaktwM2hkMy1EeElpajNreEhQS3BsX2k0dXBjUjZPbDJDTDk5REJjSThHVTJ3bEh5alVNSFE4TXJDblJGclJMRWo5T2hqWFlhWjB2a1VUOWR2bTk5cjNrT0QyS3p5REJvNlpBelowOG1nbS1pN1RYR01OX0RsaTVsTmRoc3JVUVc4RWZIYmxfQ2g5UUhaQ3YzRktWcw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "paura_amore",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "P03a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T14:26:51.663491+00:00",
+    "publish_at": "2026-11-08T09:17:00+00:00",
+    "timestamp": "2026-11-08T09:17:00+00:00"
+  },
+  {
     "id": "ff11df8c21e7",
     "text": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbzJHYjVyd0VUbXh4SXNpVDRKNm1tQXlkbGJzTTBGTW5aUVFhMmZPSlRoWFZZWWgxQWNsWmVmd3M3RXFzRk9VNnhRb1dPQjg5VzdHVEZxUm1EWXJ1d2lXU3hvMGZteUZRcWRJN1A4Q2hiS3BKYk5FR19OeHpmRG9LVmMxUnlEUFZmbWRXaW5ISl9PQQ?oc=5\nウクライナ当局者は、ロシアが交渉開始前にキエフに向けてミサイルを発射した事実を指摘しているという。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
     "theme": "guerra",
@@ -727,47 +767,6 @@
       "consiglio"
     ],
     "quote_id": "P19b",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "db92d4dcf2d5",
-    "timestamp": "2026-10-31T23:56:33.410308+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0aHdOa0xPYlFjcUxtTm8tRGJBdXYyOE41dFRwT2pzNmhnQ3l0R2g3ck14cmtIb0pUOG9YVnR3T1d4cnpYcWpsaTRETTQ0U25uekRSeDBzbmhZNGxWMkp4YUJ3?oc=5\nロシアとウクライナが支援物資を運ぶ行為は、互いの対立を和らげる恩恵に過ぎず、過去の恨みを消すわけではない。\n「大物の間では、新たな恩恵が古い恨みを忘れさせると信じる者は、思い違いをしている。」\n『君主論 cap.VII』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "ロシア軍占領地から住民退避、ウクライナ入り…ロシアとウクライナの文民チームが現地に支援物資 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0aHdOa0xPYlFjcUxtTm8tRGJBdXYyOE41dFRwT2pzNmhnQ3l0R2g3ck14cmtIb0pUOG9YVnR3T1d4cnpYcWpsaTRETTQ0U25uekRSeDBzbmhZNGxWMkp4YUJ3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "P07",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "fb550784f396",
-    "timestamp": "2026-10-31T20:55:45.087166+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UN0pqUWl1N3FOZ1JIRjNqMmhXYmt2RDFfTGYwYU0ydTFKa3lCdElUZ2ZIZ0NpU01BMnlOUjlad1BOMW1YUWxRZ1VJNml4OWtJaGR3d3BlWGdiZWRmLVhwdkJOaW13eFlRMDhHZQ?oc=5\nイラン指導者の再攻撃への無制限対応姿勢は、加えられた侮辱に報いぬる危険性を示す。\n「公に対してであれ私人に対してであれ、加えられた侮辱に報いぬことは、国家にとってかくも危険である。」\n『リウィウス論 II.28』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン最高指導者、米イスラエル再攻撃なら「地理的制限設けず対応」 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UN0pqUWl1N3FOZ1JIRjNqMmhXYmt2RDFfTGYwYU0ydTFKa3lCdElUZ2ZIZ0NpU01BMnlOUjlad1BOMW1YUWxRZ1VJNml4OWtJaGR3d3BlWGdiZWRmLVhwdkJOaW13eFlRMDhHZQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "alleanze_dipendenza",
-      "imperi_declino",
-      "economia"
-    ],
-    "quote_id": "D2.28",
     "quote_choice": "llm"
   }
 ]
