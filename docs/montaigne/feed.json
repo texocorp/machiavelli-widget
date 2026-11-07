@@ -1,5 +1,41 @@
 [
   {
+    "id": "929b21842234",
+    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc2FzZVBOUWQ2V1JtQWk5MFNqVXFWN0dEQ3RZYzhZdnlkV0gtMEJYa05zMEtXS19jeXZWTnJhMTF0WXlVakg1REp2UVBodHM?oc=5\n猫の性格が4つのタイプに分類され、その中で最も多いのは『怖いけど近づきたい』というタイプである。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 科学",
+    "source_title": "猫の性格を4タイプに分類──最多は「怖いけど近づきたい」 - TRILL",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc2FzZVBOUWQ2V1JtQWk5MFNqVXFWN0dEQ3RZYzhZdnlkV0gtMEJYa05zMEtXS19jeXZWTnJhMTF0WXlVakg1REp2UVBodHM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "II.12e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T15:55:40.237515+00:00",
+    "publish_at": "2026-11-08T13:17:00+00:00",
+    "timestamp": "2026-11-08T13:17:00+00:00"
+  },
+  {
+    "id": "c8a13b7df790",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pSmtGaXRuQ1QyLXpQeVo0YWg0RzFzWml2UGJLS1Z0RUZjckdQbEpKemVEMmRobU1DN3hkNE5yNGlMNE01VDdpSldWWW56M1plZjFvcnBZRTlwTHJEYUVaRG5BODVCdjRvYkNwQUh2R3dKZGhHX2h0SkN3Yl8xS0U?oc=5\n消えた遭難者が見つかった『LOST10』でネットは『どういう事？』『まさか別班？』と驚いているという。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
+    "theme": "opinion",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "『LOST10』“小駒”横浜流星、消えた遭難者発見→想定外ラスト ネットあ然「どういう事？」「まさか別班？」（ネタバレあり） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pSmtGaXRuQ1QyLXpQeVo0YWg0RzFzWml2UGJLS1Z0RUZjckdQbEpKemVEMmRobU1DN3hkNE5yNGlMNE01VDdpSldWWW56M1plZjFvcnBZRTlwTHJEYUVaRG5BODVCdjRvYkNwQUh2R3dKZGhHX2h0SkN3Yl8xS0U?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "I.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T15:46:15.102637+00:00",
+    "publish_at": "2026-11-08T10:17:00+00:00",
+    "timestamp": "2026-11-08T10:17:00+00:00"
+  },
+  {
     "id": "a52f01d371fd",
     "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Hcnl5b0pjQ1owQXpyVGNzMDhac0xDT0JWa2xkUlEzbWlvRkpkSVh4czdIQmx3NWFrSi1QaWpvbXdkenlXNVpwUWRWa0dsNVBqcmczVUZDRQ?oc=5\nNTTドコモが不正アクセスで顧客情報が流出した問題を受け、謝罪会見を開いたという。\n「世の人はいつも正面を見る。私は視線を内側へ折り返し、そこに据え、そこで遊ばせる。誰もが自分の前を見るが、私は自分の内を見る。」\n『エセー II.17「うぬぼれについて」』",
     "theme": "lois",
