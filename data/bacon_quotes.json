@@ -145,7 +145,8 @@
    ],
    "orig": "Habet enim unusquisque (praeter aberrationes naturae humanae in genere) specum sive cavernam quandam individuam, quae lumen naturae frangit et corrumpit",
    "ja": "人はみな、人間一般に共通する迷いのほかに、自分だけの洞窟とでもいうべきものを持っており、それが自然の光を屈折させ、損なう。",
-   "scene": "人それぞれの立場・専門・体験が、同じ出来事の見え方をゆがめ、各自が自分の狭い見方を一般化する場面"
+   "scene": "人それぞれの立場・専門・体験が、同じ出来事の見え方をゆがめ、各自が自分の狭い見方を一般化する場面",
+   "avoid_on_identity": true
   },
   {
    "id": "NO1.43a",
@@ -1195,7 +1196,8 @@
    ],
    "orig": "Therefore, since custom is the principal magistrate of man's life, let men by all means endeavor, to obtain good customs.",
    "ja": "習慣は人の生活を司る第一の為政者であるから、人はあらゆる手を尽くして、よい習慣を身につけるよう努めるべきである。",
-   "scene": "習慣が人の生活を支配しており、どんな習慣を身につけるかが問われる場面。依存や生活習慣"
+   "scene": "習慣が人の生活を支配しており、どんな習慣を身につけるかが問われる場面。依存や生活習慣",
+   "avoid_on_identity": true
   },
   {
    "id": "E39b",
@@ -1209,7 +1211,8 @@
    ],
    "orig": "But if the force of custom simple and separate, be great, the force of custom copulate and conjoined and collegiate, is far greater.",
    "ja": "ひとりで離れて働く習慣の力が大きいとすれば、結びつき、寄り合い、集団をなした習慣の力は、はるかに大きい。",
-   "scene": "集団で共有された習慣や慣行が、個人の習慣よりはるかに強く人を縛る場面。組織文化、業界の慣行"
+   "scene": "集団で共有された習慣や慣行が、個人の習慣よりはるかに強く人を縛る場面。組織文化、業界の慣行",
+   "avoid_on_identity": true
   },
   {
    "id": "E50a",
@@ -1425,7 +1428,8 @@
    ],
    "orig": "Idola specus ortum habent ex propria cujusque natura et animi et corporis; atque etiam ex educatione, et consuetudine, et fortuitis.",
    "ja": "洞窟のイドラは、各人に固有の心と体の性質から、また教育と習慣と偶然から生じる。",
-   "scene": "同じ出来事が、立場・職業・世代・育ちによってまったく違って見え、それぞれが自分の見方を当然と思って食い違う場面"
+   "scene": "同じ出来事が、立場・職業・世代・育ちによってまったく違って見え、それぞれが自分の見方を当然と思って食い違う場面",
+   "avoid_on_identity": true
   },
   {
    "id": "NO1.62",
@@ -1982,7 +1986,8 @@
    ],
    "orig": "NATURE is often hidden; sometimes overcome; seldom extinguished.",
    "ja": "本性はしばしば隠れ、ときに打ち負かされるが、消え去ることはまれである。",
-   "scene": "謝罪や改善を約束した人や組織が、しばらくして同じ問題を繰り返す場面"
+   "scene": "謝罪や改善を約束した人や組織が、しばらくして同じ問題を繰り返す場面",
+   "avoid_on_identity": true
   },
   {
    "id": "E42a",
@@ -1995,7 +2000,8 @@
    ],
    "orig": "Young men, in the conduct and manage of actions, embrace more than they can hold; stir more than they can quiet",
    "ja": "若者は、事を行い取り仕切るにあたって、抱えきれないほどを抱え込み、鎮めきれないほどをかき立てる。",
-   "scene": "若い起業家や新しい運動が、大きく構想を広げ、騒ぎを起こしたものの、収拾できなくなる場面"
+   "scene": "若い起業家や新しい運動が、大きく構想を広げ、騒ぎを起こしたものの、収拾できなくなる場面",
+   "avoid_on_identity": true
   },
   {
    "id": "E42b",
@@ -2008,7 +2014,8 @@
    ],
    "orig": "Men of age object too much, consult too long, adventure too little, repent too soon",
    "ja": "年配者は、反対しすぎ、相談に時間をかけすぎ、冒険をしなさすぎ、後悔するのが早すぎる。",
-   "scene": "年長の幹部や古い組織が、新しい試みに反対や慎重論を重ねて機会を逃す場面"
+   "scene": "年長の幹部や古い組織が、新しい試みに反対や慎重論を重ねて機会を逃す場面",
+   "avoid_on_identity": true
   },
   {
    "id": "E49",

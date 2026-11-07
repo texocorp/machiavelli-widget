@@ -172,6 +172,10 @@ def _quote_relevance(quote: dict, themes: list, news_text: str) -> int:
     return score
 
 
+IDENTITY_WORDS = ("トランス", "LGBT", "性的少数", "同性", "性同一", "ゲイ", "レズビアン", "オカマ", "障害", "障がい",
+                  "難病", "人種", "民族", "出自", "在日", "外国人", "移民", "難民", "部落", "アイヌ", "被爆", "ハーフ")
+
+
 def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
     themes = getattr(item, "themes", None) or [item.theme or "tribus"]
     title, summary = facts_for_prompt(item)
@@ -183,6 +187,11 @@ def rank_quote_candidates(item: NewsItem, count: int = CANDIDATE_COUNT) -> list:
     if getattr(item, "political", False):
         # 政治がらみの記事では、人を愚か・軽率・盲従と評する響きの引用を使わない
         allowed = [q for q in QUOTES if not q.get("avoid_in_politics")]
+    if any(w in news_text for w in IDENTITY_WORDS):
+        # 性のあり方・障害・出自などを扱う記事では、生まれつきの「本性」「性質」を言う引用を使わない。
+        # 実例(2026-11-07): トランス女性のスケーターが受けた「キモい、オカマ」という偏見の記事に
+        # 「本性はしばしば隠れ…消え去ることはまれである」が付き、当人を貶める読み方ができる論評になった
+        allowed = [q for q in allowed if not q.get("avoid_on_identity")]
     pool = [q for q in allowed if q["id"] not in recent] or allowed
     scored = [(_quote_relevance(q, themes, news_text), q) for q in pool]
     random.shuffle(scored)
