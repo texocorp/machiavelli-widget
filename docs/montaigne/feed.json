@@ -1,5 +1,41 @@
 [
   {
+    "id": "80f645808175",
+    "text": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc0xPbDhPQTZ2alc1X2lWNWZyUGUyeGhHNUplQ2pfeXFTQTUxQTBpcEdVYkxTeWhTN2NNem4ySmRDOFFHRm1JX2xXQlNkc0RmNndNbngteUJJUHNuUkU3T19seGhBTi1CYXdmeXlUYWh5cWotUlJEaXZLZHRyZ3lMTmF5ZHU3Ni1ER1NwT3c0OW9lRWIxZW9FZ29sMkJzc3lyRUhqWWxYckUtWlJOZzFr?oc=5\n働き方に関する最新調査で、出社とテレワークの『最適解』を探すことが求められている。\n「まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。」\n『エセー I.39「孤独について」』",
+    "theme": "soi",
+    "score": 3,
+    "source": "Google News 検索 職場",
+    "source_title": "出社とテレワークの「最適解」を探せ、働き方最新調査 - 日経クロステック",
+    "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc0xPbDhPQTZ2alc1X2lWNWZyUGUyeGhHNUplQ2pfeXFTQTUxQTBpcEdVYkxTeWhTN2NNem4ySmRDOFFHRm1JX2xXQlNkc0RmNndNbngteUJJUHNuUkU3T19seGhBTi1CYXdmeXlUYWh5cWotUlJEaXZLZHRyZ3lMTmF5ZHU3Ni1ER1NwT3c0OW9lRWIxZW9FZ29sMkJzc3lyRUhqWWxYckUtWlJOZzFr?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.39a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T20:20:08.632559+00:00",
+    "publish_at": "2026-11-08T19:17:00+00:00",
+    "timestamp": "2026-11-08T19:17:00+00:00"
+  },
+  {
+    "id": "effc8eea30c3",
+    "text": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOV1F6ZUtQV093ZVdIQkZYZ19FOEtCYkxnYm9PWTdNc2RsSFBNdkQtSlhlVkMwSk1MUlBvR0ZsVFNSSEpmeEdfQjlZUzBFaDJyUVQtN0xrTXNpbVdseFdOc2VoVXVYM2dtcEJSdjNiTGdTZWhvSGsyMlNJNTNYa20yQVJKNVhScFQ4TjJTYlYwcHdmQnNxVnJXWDVkWWg2dDFxTnFfTWQzQzlRSFdkUGdlS1E3TFNkd05sOEg3ekxQM0NTNDl0VVJISENTRnZhbzlZbGpfTE1uUUh6QzhzOC13dVlGSHYzRG8zVDVWbzdONFR2U0NqZTVWVlEzTlhQYk5aVU5Tcko1ak5pVG0tcFJReE9qLUFNZVhQZEctT1VVX3ByWkFoU1l6Z3M0Y29kZ1ZtTWRJSFNXaVAyVGdoZUxScjNZb1FSWnJWVm5XUUtmSmFMTDk3MjJzT1JWU3Q5UzEyUTh2UjdfNjd6ZDQ0ekFEenJqN1RiSHNPQm54YTE4UUlidFdrZzBTOE54cjNzM1lSMkQyd2t4cHBDS2d1T2Izd3dSQlZyY1J4cU5LLWJCUlI1YkJ5cUw1ZkRRMF9lS25DaFMwbEZpc2pwQ1VQMnc0M0NWOElxRmRfVUZ4R2V5blBNQ2lxRVlMMXhUWU8tUjZ6eVZHRFloRG1hZDlrWV9IWXllSzZ3TWw4dEVYTmlpenpYb3NjMXM1ZUNzSlNTZThMQTBHeVdmUEF5MGRUWTFRMWcxR1lQY09VaHVtUjZpTTNncnFYekhabTMtUE1nWVhwUm5WU0VlWQ?oc=5\n日本全国で認知症の神対応病院が紹介され、他院の誤診も最新検査で見抜いてくれるという。\n「人間の疫病、それは知っているという思い込みである。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "medecine",
+    "score": 6,
+    "source": "Google News 検索 医療",
+    "source_title": "日本全国「認知症の神対応病院」を一挙紹介…他院の誤診も「最新検査」で見抜いてくれる | スマートニュース - SmartNews",
+    "source_url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOV1F6ZUtQV093ZVdIQkZYZ19FOEtCYkxnYm9PWTdNc2RsSFBNdkQtSlhlVkMwSk1MUlBvR0ZsVFNSSEpmeEdfQjlZUzBFaDJyUVQtN0xrTXNpbVdseFdOc2VoVXVYM2dtcEJSdjNiTGdTZWhvSGsyMlNJNTNYa20yQVJKNVhScFQ4TjJTYlYwcHdmQnNxVnJXWDVkWWg2dDFxTnFfTWQzQzlRSFdkUGdlS1E3TFNkd05sOEg3ekxQM0NTNDl0VVJISENTRnZhbzlZbGpfTE1uUUh6QzhzOC13dVlGSHYzRG8zVDVWbzdONFR2U0NqZTVWVlEzTlhQYk5aVU5Tcko1ak5pVG0tcFJReE9qLUFNZVhQZEctT1VVX3ByWkFoU1l6Z3M0Y29kZ1ZtTWRJSFNXaVAyVGdoZUxScjNZb1FSWnJWVm5XUUtmSmFMTDk3MjJzT1JWU3Q5UzEyUTh2UjdfNjd6ZDQ0ekFEenJqN1RiSHNPQm54YTE4UUlidFdrZzBTOE54cjNzM1lSMkQyd2t4cHBDS2d1T2Izd3dSQlZyY1J4cU5LLWJCUlI1YkJ5cUw1ZkRRMF9lS25DaFMwbEZpc2pwQ1VQMnc0M0NWOElxRmRfVUZ4R2V5blBNQ2lxRVlMMXhUWU8tUjZ6eVZHRFloRG1hZDlrWV9IWXllSzZ3TWw4dEVYTmlpenpYb3NjMXM1ZUNzSlNTZThMQTBHeVdmUEF5MGRUWTFRMWcxR1lQY09VaHVtUjZpTTNncnFYekhabTMtUE1nWVhwUm5WU0VlWQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "II.12c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T20:17:58.282879+00:00",
+    "publish_at": "2026-11-08T16:17:00+00:00",
+    "timestamp": "2026-11-08T16:17:00+00:00"
+  },
+  {
     "id": "929b21842234",
     "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc2FzZVBOUWQ2V1JtQWk5MFNqVXFWN0dEQ3RZYzhZdnlkV0gtMEJYa05zMEtXS19jeXZWTnJhMTF0WXlVakg1REp2UVBodHM?oc=5\n猫の性格が4つのタイプに分類され、その中で最も多いのは『怖いけど近づきたい』というタイプである。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
     "theme": "inconstance",
