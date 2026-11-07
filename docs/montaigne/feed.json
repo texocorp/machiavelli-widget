@@ -1,5 +1,44 @@
 [
   {
+    "id": "a52f01d371fd",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Hcnl5b0pjQ1owQXpyVGNzMDhac0xDT0JWa2xkUlEzbWlvRkpkSVh4czdIQmx3NWFrSi1QaWpvbXdkenlXNVpwUWRWa0dsNVBqcmczVUZDRQ?oc=5\nNTTドコモが不正アクセスで顧客情報が流出した問題を受け、謝罪会見を開いたという。\n「世の人はいつも正面を見る。私は視線を内側へ折り返し、そこに据え、そこで遊ばせる。誰もが自分の前を見るが、私は自分の内を見る。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "lois",
+    "score": 2,
+    "source": "Google News 検索 世相",
+    "source_title": "NTTドコモ 不正アクセスによる顧客情報流出について謝罪会見 - TBS NEWS DIG",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Hcnl5b0pjQ1owQXpyVGNzMDhac0xDT0JWa2xkUlEzbWlvRkpkSVh4czdIQmx3NWFrSi1QaWpvbXdkenlXNVpwUWRWa0dsNVBqcmczVUZDRQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "vanite"
+    ],
+    "quote_id": "II.17",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T08:58:19.889008+00:00",
+    "publish_at": "2026-11-08T07:17:00+00:00",
+    "timestamp": "2026-11-08T07:17:00+00:00"
+  },
+  {
+    "id": "75e6e023e6c0",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcHhVb3ZjV3UzSXc4TUU0Vk03UmE3T2tndi1scHFkcG9EVlI2Y1ZTSHItMDZDZ1oxWXhnTzZMTjdXZmVKM1ZsanZ6amlzbFZzV2VqNElzMXcyYXQ0WnVVdTFyYVFORWYyM1B2VDdwX24xS0NjYnhVRjVoUExqdTlocGpTZlFCb2pkYWpKbGpR0gGTAUFVX3lxTE9wNFV6V2U5NWhEV3JnOG1MV3ByQXE5QllvZk1OdGM3THJ1akQzUVBSOWZUSWVjUmFEWm51NDVpMWgyN3JuQzV6MDJnN2toa0VMNExVSEdpWWFKZHFPWjlnV0EzQjNpTmJrWEN5ZXh3TDRfdXlfOU1LT2NGRlFwQlZ4YWY0VVVxVzlsT2RkcWpCLVc1Yw?oc=5\n大金持ちと結婚した親友が遅刻して鍋を一口食べたことで、仲良しだった4人組の間に亀裂が生じた。\n「我々は皆つぎはぎでできている。その組み立てはまことに不定形でまちまちだから、どの切れ端も、どの瞬間も、それぞれ勝手に振る舞う。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
+    "theme": "presomption",
+    "score": 2,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "「結婚することになりました！」大金持ちと結婚した親友が豹変!?遅刻してきた上に鍋を一口食べて驚きの行動… 仲良し4人組に訪れた想定外の亀裂 - ｄメニューニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcHhVb3ZjV3UzSXc4TUU0Vk03UmE3T2tndi1scHFkcG9EVlI2Y1ZTSHItMDZDZ1oxWXhnTzZMTjdXZmVKM1ZsanZ6amlzbFZzV2VqNElzMXcyYXQ0WnVVdTFyYVFORWYyM1B2VDdwX24xS0NjYnhVRjVoUExqdTlocGpTZlFCb2pkYWpKbGpR0gGTAUFVX3lxTE9wNFV6V2U5NWhEV3JnOG1MV3ByQXE5QllvZk1OdGM3THJ1akQzUVBSOWZUSWVjUmFEWm51NDVpMWgyN3JuQzV6MDJnN2toa0VMNExVSEdpWWFKZHFPWjlnV0EzQjNpTmJrWEN5ZXh3TDRfdXlfOU1LT2NGRlFwQlZ4YWY0VVVxVzlsT2RkcWpCLVc1Yw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "soi",
+      "inconstance"
+    ],
+    "quote_id": "II.1a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T08:54:27.219370+00:00",
+    "publish_at": "2026-11-08T04:17:00+00:00",
+    "timestamp": "2026-11-08T04:17:00+00:00"
+  },
+  {
     "id": "4cd0c42b76cb",
     "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxSGtoRDlSZWREcTVUelhjcmROR0RqeDFxVUxHTmpkd054bUhZU2txRkliVUJ5cGNoTl94dENoNGVUY1RVNTU1QVF30gFPQVVfeXFMTlJOSXNuaHNSZjNicmdDa29WSlN6YUdzZUhBRUFaSTJsNmtnbnpnek8yTTZPc1QwOElpeTRrM2I5dGNvLVBYa1NCRk0tSVp5Zw?oc=5\n認知症による言動か、あるいはカスハラかという問いが残っている。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
     "theme": "medecine",
