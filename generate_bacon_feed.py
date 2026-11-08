@@ -27,6 +27,7 @@ import re
 import time
 
 import bacon_engine
+import bot_priority
 import feed_stock
 from bacon_scorer import load_scoring_config, rank_news
 from news_fetcher import fetch_all
@@ -141,6 +142,7 @@ def main():
     print(f"[ストック] 開始時: {feed_stock.summary(feed, now)}(生成に使える時間 {(deadline - started) / 60:.0f}分)")
     story_titles = feed_stock.published_titles()
     added = 0
+    yielded = {}  # 上位のボットに譲った記事の数
     for item in ranked:
         now = datetime.datetime.now(datetime.timezone.utc)
         if not feed_stock.needs_more(feed, now):
@@ -167,6 +169,10 @@ def main():
         if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
             print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
             continue
+        owner = bot_priority.claimed_by(item, "bacon")
+        if owner:
+            yielded[owner] = yielded.get(owner, 0) + 1
+            continue  # 上位のボットの領分(優先順位: マキャベリ > ベーコン > モンテーニュ)
         print(f"[選出] {item.title}(score={item.score}, themes={item.themes})")
         text = bacon_engine.generate_commentary(item, prefer_llm=True)
         # 同じ記事で毎回やり直さないよう、試した記事は成否にかかわらず既出にする
@@ -208,6 +214,8 @@ def main():
 
     now = datetime.datetime.now(datetime.timezone.utc)
     print(f"[ストック] 終了時: {feed_stock.summary(feed, now)}。この回に加えた論評 {added}件")
+    if yielded:
+        print(f"[優先順位] 上位のボットの領分として譲った記事: {yielded}")
 
 
 # 1件の記事に掛かる時間の上限の目安。残りがこれを切ったら、新しい記事には手を付けない
