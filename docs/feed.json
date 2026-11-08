@@ -1,5 +1,61 @@
 [
   {
+    "id": "615eb3d111cd",
+    "text": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkdFOGRkUEFTelZNRzVETWJSeWIyWTVPMW42OWdYWW03aHd2RFg1MTN0RTRwTk9zVVRsRlJwVmxMcFQ1ZW1GRV9NNGM5ZVhyUkMydkVoVC1wbjYtcU5Nc214RDM1eGtwdU95ZjBsWnpKOEFlZTQ3WnFLT0ozdHpxSDFwd283cWdBNEd6bnAweDlodTdhdEI4ZWFEb3lFRmFqeG5oTER4Nm5VQ0hkdU9CY3NXUQ?oc=5\nロシアがウクライナでの軍事通信にラースヴェット衛星を使用した。\n「国家を設計し法を定める者は、すべての人間は邪悪であると前提せねばならぬ。」\n『リウィウス論 I.3』",
+    "theme": "necessita",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシア、ウクライナで軍事通信にラースヴェット衛星を使用 - IDNFinancials",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkdFOGRkUEFTelZNRzVETWJSeWIyWTVPMW42OWdYWW03aHd2RFg1MTN0RTRwTk9zVVRsRlJwVmxMcFQ1ZW1GRV9NNGM5ZVhyUkMydkVoVC1wbjYtcU5Nc214RDM1eGtwdU95ZjBsWnpKOEFlZTQ3WnFLT0ozdHpxSDFwd283cWdBNEd6bnAweDlodTdhdEI4ZWFEb3lFRmFqeG5oTER4Nm5VQ0hkdU9CY3NXUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "D1.3a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T18:47:26.407471+00:00",
+    "publish_at": "2026-11-09T09:17:00+00:00",
+    "timestamp": "2026-11-09T09:17:00+00:00"
+  },
+  {
+    "id": "c96440d7d563",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rdDFtYTlZUjFscWZtV1A3MmMxZlNmRUVUU0x2ODQyY1ZpMEZORUxTclM4UDJnbEMyOGlQR0RhRTQyWGxZemtyTWVhenlackE3RjFNTVJIUXZKcUdNTUF2MWVkRQ?oc=5\nイスラエル大統領は組閣指示を出し、反ネタニヤフ陣営を結集するための連立交渉に入ったという。\n「為すべきことについては多くの者に諮り、実際に為そうとすることは少数の者にだけ打ち明けよ。」\n『戦争の技法 lib.VII』",
+    "theme": "inganno_simulazione",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉：時事ドットコム - 時事ドットコム",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rdDFtYTlZUjFscWZtV1A3MmMxZlNmRUVUU0x2ODQyY1ZpMEZORUxTclM4UDJnbEMyOGlQR0RhRTQyWGxZemtyTWVhenlackE3RjFNTVJIUXZKcUdNTUF2MWVkRQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione"
+    ],
+    "quote_id": "AG10",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T18:07:49.162810+00:00",
+    "publish_at": "2026-11-09T06:17:00+00:00",
+    "timestamp": "2026-11-09T06:17:00+00:00"
+  },
+  {
+    "id": "7767e70b2f65",
+    "text": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZTFJOXAtYXlKLTZrbllZZWJ2ZFN2Qk5LaDdxYzU5NVlOQTlDbEVURGJGNEZWRmlLSTJFdkIzWlZUUEJGeWk0cnZVMmFYQlBjcktnMVNLY3ZRVk1XYTg0d1VZdUFkajZ5WC1fcmtBSXlSTTMteWNtWE5HdEVKQTBPaW5JUXB5UndRaXNyMFA1X0FBd1d5TFVfR2p2R2k1dWpx?oc=5\nウクライナ国防軍がロシア軍のドローン指揮所を4か所攻撃した。\n「新旧を問わず、あらゆる国家の主たる土台は、良き法と良き軍備である。」\n『君主論 cap.XII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ国防軍、ロシア軍のドローン指揮所を4か所攻撃 - Mezha.net",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZTFJOXAtYXlKLTZrbllZZWJ2ZFN2Qk5LaDdxYzU5NVlOQTlDbEVURGJGNEZWRmlLSTJFdkIzWlZUUEJGeWk0cnZVMmFYQlBjcktnMVNLY3ZRVk1XYTg0d1VZdUFkajZ5WC1fcmtBSXlSTTMteWNtWE5HdEVKQTBPaW5JUXB5UndRaXNyMFA1X0FBd1d5TFVfR2p2R2k1dWpx?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "armi_proprie"
+    ],
+    "quote_id": "P12a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T17:43:09.109454+00:00",
+    "publish_at": "2026-11-09T03:17:00+00:00",
+    "timestamp": "2026-11-09T03:17:00+00:00"
+  },
+  {
     "id": "3638e1f2b5ac",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxdDdDaHlfeHlDRWE5Y01XZVoyaEx3YWhMSVp6OVJIU1BXTWRoOTRXRjFZTzBwaFdiNkZHV29jcExIaUhpRXRobGJ0YTlyWTc1aGl2dTNjYXhHV1hmSHN6dDV5dEV0elVRWUx5Yks1WE80cUhJN1h4OEl2ZlNrS2M?oc=5\n米軍は対イラン海上封鎖の下、オマーン湾で民間船を攻撃して航行不能にさせたという。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
     "theme": "guerra",
@@ -643,129 +699,5 @@
     "generated_at": "2026-11-04T06:27:40.681449+00:00",
     "publish_at": "2026-11-04T09:17:00+00:00",
     "timestamp": "2026-11-04T09:17:00+00:00"
-  },
-  {
-    "id": "e61480f391e2",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpdGljRUdaZ0pGT2pETUd5eGpKLWZCQWVkWHhFdzFxTmxjbW5hZE8tTExfZXFrUUZCTUF0SjAtMkc1aGgtVjE4TmVpUjhEMWduRkNYakFkLXFMRWFuQUFYR3Ztbw?oc=5\n米軍がイランのケシム島を攻撃したが、トランプ氏は大規模作戦を急がず再開する方針だという。\n「領土を手に入れたいと望むのは、まことに自然でありふれたことである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍がイラン・ケシム島攻撃 トランプ氏、大規模作戦再開「急がず」―報道：時事ドットコム - 時事ドットコム",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpdGljRUdaZ0pGT2pETUd5eGpKLWZCQWVkWHhFdzFxTmxjbW5hZE8tTExfZXFrUUZCTUF0SjAtMkc1aGgtVjE4TmVpUjhEMWduRkNYakFkLXFMRWFuQUFYR3Ztbw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "popolo_principe",
-      "consiglio"
-    ],
-    "quote_id": "P03c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T06:19:44.383938+00:00",
-    "publish_at": "2026-11-04T06:19:44.383938+00:00",
-    "timestamp": "2026-11-04T06:19:44.383938+00:00"
-  },
-  {
-    "id": "9fdc79c2b45b",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43Ym1SRWJ5a3RHOW9YaXV0M3ZLWWJ2blh6MTAycXB3Z0EzU291NnFHazM0cVRkY3ZuT01SbWMtTWtIZDBpRi1PMFlYY291eHlteHNCZnFXUUZFYmJQUk11WVhIV2djOUlLNlFOTQ?oc=5\n米中ロによる『現代版ヤルタ』が揺れるアジア情勢の中、ロシアとASEANが近づいている理由があるという。\n「君主は先に挙げた美徳をすべて実際に備えている必要はない。だが、備えているように見せることは是非とも必要である。」\n『君主論 cap.XVIII』",
-    "theme": "inganno_simulazione",
-    "score": 2,
-    "source": "Google News 国際(World)",
-    "source_title": "米中ロ「現代版ヤルタ」が揺らすアジア ロシアとASEANが近づく理由 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43Ym1SRWJ5a3RHOW9YaXV0M3ZLWWJ2blh6MTAycXB3Z0EzU291NnFHazM0cVRkY3ZuT01SbWMtTWtIZDBpRi1PMFlYY291eHlteHNCZnFXUUZFYmJQUk11WVhIV2djOUlLNlFOTQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "P18a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T03:24:52.635394+00:00",
-    "publish_at": "2026-11-04T03:24:52.635394+00:00",
-    "timestamp": "2026-11-04T03:24:52.635394+00:00"
-  },
-  {
-    "id": "8178eb395380",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RZTJoRjBYZFRvUXRXc2dSdDJHQXE5UEdYQVNpVzczRVV1b0FOSHFSSzF0UmxHY0szNHVjY1lmS05LVUd3dEJMT3pJbzhYRzM0YVdMcjFLZkQ1WF8yVS1HRXg2dWtBRG9SUnFnaQ?oc=5\nトランプ氏はイスラエル支援を打ち切り、民主候補から批判される事態となったという。\n「真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。」\n『リウィウス論 II.30』",
-    "theme": "alleanze_dipendenza",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、イスラエル支援を打ち切り 中間選挙で民主候補から批判 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RZTJoRjBYZFRvUXRXc2dSdDJHQXE5UEdYQVNpVzczRVV1b0FOSHFSSzF0UmxHY0szNHVjY1lmS05LVUd3dEJMT3pJbzhYRzM0YVdMcjFLZkQ1WF8yVS1HRXg2dWtBRG9SUnFnaQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "popolo_principe",
-      "economia"
-    ],
-    "quote_id": "D2.30",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T02:38:47.555559+00:00",
-    "publish_at": "2026-11-04T02:38:47.555559+00:00",
-    "timestamp": "2026-11-04T02:38:47.555559+00:00"
-  },
-  {
-    "id": "c2f914c5dac7",
-    "timestamp": "2026-11-03T08:10:40.678306+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84WWRyZEhLVm9nUXVSeW1tenZNckdVTzRLVThlaldXV1RTUWx0dGQwOU9ISkd4TVdjamJ1cHg3MWVKNTJfS3R2TmZJSnVfNGFEU3hORDk5a2RNQXVjbkI0eUppS1V1b3hDNjBNWUpza3pNWU14WlBWSV93?oc=5\n米軍が中間選挙前日に限定的空爆でイラン島を攻撃したことは、慎重さよりも果断な力の行使で運命に打ち勝つマキャベリの理だ。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍がイランの島を攻撃 中間選挙前日「限定的空爆」 - テレ朝NEWS",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84WWRyZEhLVm9nUXVSeW1tenZNckdVTzRLVThlaldXV1RTUWx0dGQwOU9ISkd4TVdjamJ1cHg3MWVKNTJfS3R2TmZJSnVfNGFEU3hORDk5a2RNQXVjbkI0eUppS1V1b3hDNjBNWUpza3pNWU14WlBWSV93?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "popolo_principe"
-    ],
-    "quote_id": "FV2",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "2184355185ad",
-    "timestamp": "2026-11-03T01:01:22.135551+00:00",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiVlJqQ3hSNURUSU5fdFNFQkVIUjVjM0cwOU5ZY2lWRGJfVGdjUUZQNkw5bFdldEl2VmxZWmYzanA5TVNKdE5CaDRNSjBvWTdhekhYUVlKZTFkRTljQ3kwMTlfTFVuQmFuX2l2Rw?oc=5\nトランプ氏とバンス氏がイラン攻撃を否定し交渉を明言する態度は、味方の兵には戦わざるを得ぬ必要を課し敵の兵からはそれを取り除くべきであるという賢明な指揮官の論理に他ならない。\n「賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。」\n『リウィウス論 III.12』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、中間選挙直後のイラン再攻撃は否定 バンス氏も交渉明言 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiVlJqQ3hSNURUSU5fdFNFQkVIUjVjM0cwOU5ZY2lWRGJfVGdjUUZQNkw5bFdldEl2VmxZWmYzanA5TVNKdE5CaDRNSjBvWTdhekhYUVlKZTFkRTljQ3kwMTlfTFVuQmFuX2l2Rw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "popolo_principe",
-      "economia"
-    ],
-    "quote_id": "D3.12",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "8d039b11947e",
-    "timestamp": "2026-11-02T10:27:59.386276+00:00",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xcjZwa09IYUFBV0xVVzFqZzc5YmR0Y0l2MTFScWtYUHRlOUkxZVF3WHhscHUwSVROSGYzRGZtQTFUaURCaElrSmREaFBhZFFIUzRudUFfdDJaQVVnYXlsN0RzcXBnaG5Lay0yRXBPN2VXeVRjaXc?oc=5\n露統計局への攻撃で軍損失情報を得ようとするハッカーの行為は、突然の事態が敵を動揺させる理に合致する。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "露統計局にサイバー攻撃、ハッカー集団が主張 ウクライナ侵攻の軍損失情報取得か - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xcjZwa09IYUFBV0xVVzFqZzc5YmR0Y0l2MTFScWtYUHRlOUkxZVF3WHhscHUwSVROSGYzRGZtQTFUaURCaElrSmREaFBhZFFIUzRudUFfdDJaQVVnYXlsN0RzcXBnaG5Lay0yRXBPN2VXeVRjaXc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "economia"
-    ],
-    "quote_id": "AG8",
-    "quote_choice": "llm"
   }
 ]
