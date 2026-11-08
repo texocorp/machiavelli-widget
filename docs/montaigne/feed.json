@@ -1,5 +1,59 @@
 [
   {
+    "id": "22480af9b695",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakg3UzBzYUdxclF5ZlZIYldhM0FBQ25uenNvQkhJRVBZNXpwazM0T0hKU29peWdZREFZOUx3aGhWTVZKSlFqN1FHTnppaS12bWNIYzN5VUIzTElWRXpWVmFESTRScko0UzU2b1l3NERWZTkteTFJeEF5Z3dLeHNMaDc3Y1VkWlBYSHdseEdR?oc=5\n未解明の石『一刀石』が『鬼滅』聖地として扱われ、奈良・柳生の里で兵動さんが剣豪・柳生十兵衛の歴史を大調査している。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
+    "theme": "inconstance",
+    "score": 1,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "真っ二つに割れた未解明の石「一刀石」が『鬼滅』聖地に 昭和42年の「厳しそうなお坊さん」の正体は？ 奈良・柳生の里で兵動さんが剣豪・柳生十兵衛の歴史を大調査 (関西テレビ) - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakg3UzBzYUdxclF5ZlZIYldhM0FBQ25uenNvQkhJRVBZNXpwazM0T0hKU29peWdZREFZOUx3aGhWTVZKSlFqN1FHTnppaS12bWNIYzN5VUIzTElWRXpWVmFESTRScko0UzU2b1l3NERWZTkteTFJeEF5Z3dLeHNMaDc3Y1VkWlBYSHdseEdR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "III.13h",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T06:12:19.365445+00:00",
+    "publish_at": "2026-11-09T04:17:00+00:00",
+    "timestamp": "2026-11-09T04:17:00+00:00"
+  },
+  {
+    "id": "ba5c153aa684",
+    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOWNMdjJtVE1OTzZPVlNObThuNDZ5VDF1OEpDWVJJTXE3Wm5sOXpwZDItQzJZNzVWWk8zZEpVektkWUFNVVFpTXhaNFVGeWJhRy00aG11RlMyNW1QbkhiV1dRRFJtQWFnV1VIcnFCZmg3T1ZiZDVYY0w1clcyYmNCbzdibEs1eU82?oc=5\n若い世代のSNSに感じる新しい価値観とは、冷笑系をダサいと感じるという。\n「自然から生まれると我々が言う良心の掟は、実は慣習から生まれる。」\n『エセー I.23「慣習について」』",
+    "theme": "opinion",
+    "score": 2,
+    "source": "Google News 科学",
+    "source_title": "「冷笑系」はダサい 若い世代のSNSに感じる新しい価値観（諸藤圭代） - エキスパート - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOWNMdjJtVE1OTzZPVlNObThuNDZ5VDF1OEpDWVJJTXE3Wm5sOXpwZDItQzJZNzVWWk8zZEpVektkWUFNVVFpTXhaNFVGeWJhRy00aG11RlMyNW1QbkhiV1dRRFJtQWFnV1VIcnFCZmg3T1ZiZDVYY0w1clcyYmNCbzdibEs1eU82?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "nouveaute"
+    ],
+    "quote_id": "I.23b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T06:10:52.774858+00:00",
+    "publish_at": "2026-11-09T01:17:00+00:00",
+    "timestamp": "2026-11-09T01:17:00+00:00"
+  },
+  {
+    "id": "b2751df5d2bf",
+    "text": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oQk1JTlNrbzU4bldzVXFKTWY0TEQ1THpQSHBZTWlPX2Y5dmVvX1RqZ1c3WXpLOGlULTNqNE5qOHRPUEYzTWZSUENBcENwSm5Jd09ZSE5yTk5JMWFxN2RWdFVyWmpqeVdUZmdGWndCVVFFZw?oc=5\nがんで余命宣告された日に2200万円拾った男には実刑判決が下されたという。\n「だが私の考えでは、死はたしかに生の終わりではあっても、生の目的ではない。生の果て、その末端ではあっても、目指すところではない。」\n『エセー III.12「人相について」』",
+    "theme": "lois",
+    "score": 6,
+    "source": "Google News 国内",
+    "source_title": "がんで余命宣告された日に2200万円拾う 海外旅行などに使った男に実刑判決 - テレ朝NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oQk1JTlNrbzU4bldzVXFKTWY0TEQ1THpQSHBZTWlPX2Y5dmVvX1RqZ1c3WXpLOGlULTNqNE5qOHRPUEYzTWZSUENBcENwSm5Jd09ZSE5yTk5JMWFxN2RWdFVyWmpqeVdUZmdGWndCVVFFZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "medecine"
+    ],
+    "quote_id": "III.12c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T06:07:43.779684+00:00",
+    "publish_at": "2026-11-08T22:17:00+00:00",
+    "timestamp": "2026-11-08T22:17:00+00:00"
+  },
+  {
     "id": "80f645808175",
     "text": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc0xPbDhPQTZ2alc1X2lWNWZyUGUyeGhHNUplQ2pfeXFTQTUxQTBpcEdVYkxTeWhTN2NNem4ySmRDOFFHRm1JX2xXQlNkc0RmNndNbngteUJJUHNuUkU3T19seGhBTi1CYXdmeXlUYWh5cWotUlJEaXZLZHRyZ3lMTmF5ZHU3Ni1ER1NwT3c0OW9lRWIxZW9FZ29sMkJzc3lyRUhqWWxYckUtWlJOZzFr?oc=5\n働き方に関する最新調査で、出社とテレワークの『最適解』を探すことが求められている。\n「まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。」\n『エセー I.39「孤独について」』",
     "theme": "soi",
