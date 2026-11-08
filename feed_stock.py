@@ -212,7 +212,7 @@ def published_titles() -> list:
 # 実例: 「デマ拡散の岡本さゆり市議「保身の謝罪」。…Heart (ac40zvlr7H) - Unisba Media」(大学のドメインに置かれた転載)。
 # 見出しの末尾の、英数字の乱数のような符号を目印にする。実在の個人を名指す記事が多く、真偽も確かめられないので試さない。
 _RANDOM_TOKEN = re.compile(r"[(（](?=[A-Za-z0-9]*\d)(?=[A-Za-z0-9]*[A-Za-z])[A-Za-z0-9]{8,}[)）]")
-SUSPICIOUS_SOURCES = ("Unisba", "- YouTube",  # YouTube の動画題(実例: 「…激怒！返り討ち論破に遭いニタニタ顔で逃亡 - YouTube」)
+SUSPICIOUS_SOURCES = ("Unisba", "- YouTube", "news.lavx.hu",  # YouTube の動画題(実例: 「…激怒！返り討ち論破に遭いニタニタ顔で逃亡 - YouTube」)
                      )
 
 
@@ -221,5 +221,8 @@ def suspicious_source(title: str) -> bool:
     # 実例(2026-11-05): 「\u200d\u200d\u200dai 画像 生成 サイト 規制 なし ai」— 検索語を並べた宣伝ページ。
     # ゼロ幅文字を仕込んだ見出しは、まともな報道には無い
     if re.search("[\u200b-\u200d\u2060\ufeff]", title or ""):
+        return True
+    # 写真ギャラリーの頁(「画像4 / 57＞…」)は、記事本体の重複で、見出しも宣伝が多い(2026-11-08)
+    if re.search(r"画像\s*\d+\s*/\s*\d+\s*[＞>]", title or ""):
         return True
     return bool(_RANDOM_TOKEN.search(t)) or any(s in t for s in SUSPICIOUS_SOURCES)
