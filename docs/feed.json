@@ -1,5 +1,65 @@
 [
   {
+    "id": "59c4639281e1",
+    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1QkljWXlCMWFOWWV2clFpdE53c0NqZmhjYU5ldmFHMGhOTFpVZU43YnlaTWN0VTZBeTU3Sng2S2liV2VQUVhOUnJ0NXl3MTcwbGtHaEZDX3Rwa1FQRWZQYkFSZkpjb2J6b1JPTzVtaEU5VUk?oc=5\n米国がエネルギー施設の停戦について合意したと発表し、ウクライナはロシアの違反を主張している。\n「力ずくでさせられた約束は、守るべきものではない。」\n『リウィウス論 III.42』",
+    "theme": "inganno_simulazione",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "米「エネルギー施設停戦で合意」 「ロシア違反」とウクライナ主張 - 山陽新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1QkljWXlCMWFOWWV2clFpdE53c0NqZmhjYU5ldmFHMGhOTFpVZU43YnlaTWN0VTZBeTU3Sng2S2liV2VQUVhOUnJ0NXl3MTcwbGtHaEZDX3Rwa1FQRWZQYkFSZkpjb2J6b1JPTzVtaEU5VUk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione",
+      "economia"
+    ],
+    "quote_id": "D3.42",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T21:58:09.907991+00:00",
+    "publish_at": "2026-11-09T18:17:00+00:00",
+    "timestamp": "2026-11-09T18:17:00+00:00"
+  },
+  {
+    "id": "1b4636928545",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hNkZfd1BHRDFNQkN6VHJ3WGxaMXJKd3VqMkhfRjBHTkU5TEFhYVBQLTA5R3lmN2RseFlINnB3aHlXZm1EZzIyTkdsN0xFVndqY0luRGhneGpsazdidGZR?oc=5\nロシア軍はウクライナに対し大規模攻撃を行い住宅などを被害に遭わせて市民生活に大きな影響を与えたという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシア軍がウクライナに大規模攻撃 住宅など被害 市民生活影響 | NHKニュース | ウクライナ情勢、ロシア、ゼレンスキー大統領 - NHKニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hNkZfd1BHRDFNQkN6VHJ3WGxaMXJKd3VqMkhfRjBHTkU5TEFhYVBQLTA5R3lmN2RseFlINnB3aHlXZm1EZzIyTkdsN0xFVndqY0luRGhneGpsazdidGZR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG13",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T21:52:43.600811+00:00",
+    "publish_at": "2026-11-09T15:17:00+00:00",
+    "timestamp": "2026-11-09T15:17:00+00:00"
+  },
+  {
+    "id": "af7e6093fa44",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50SWpHSmV0R3A1LXFMMU5fV0RiS2Vfb0RQNUlQV2tCUGJlZUV1OHlKam5IWnpvMWhmcC1iaFFMd3VZdEpZdWIzaG1GUWNIdGR1ZF81VnpveUlJQm9BMHhMOWMxa3VIek1GTTM4NjlBWVNBa2p3Qmc?oc=5\nイスラエル大統領が反ネタニヤフ首相陣営の元参謀総長に組閣を指示し、不調が続く場合は再選挙を行う可能性を示した。\n「分裂した都市は一つにまとめねばならぬ。都市を保つには分裂させておけばよいという考えは誤りである。」\n『リウィウス論 III.27』",
+    "theme": "inganno_simulazione",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "反ネタニヤフ首相陣営の元参謀総長に組閣指示、イスラエル大統領 不調続けば再選挙も - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50SWpHSmV0R3A1LXFMMU5fV0RiS2Vfb0RQNUlQV2tCUGJlZUV1OHlKam5IWnpvMWhmcC1iaFFMd3VZdEpZdWIzaG1GUWNIdGR1ZF81VnpveUlJQm9BMHhMOWMxa3VIek1GTTM4NjlBWVNBa2p3Qmc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione",
+      "imperi_declino",
+      "popolo_principe"
+    ],
+    "quote_id": "D3.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T21:17:45.683397+00:00",
+    "publish_at": "2026-11-09T12:17:00+00:00",
+    "timestamp": "2026-11-09T12:17:00+00:00"
+  },
+  {
     "id": "615eb3d111cd",
     "text": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkdFOGRkUEFTelZNRzVETWJSeWIyWTVPMW42OWdYWW03aHd2RFg1MTN0RTRwTk9zVVRsRlJwVmxMcFQ1ZW1GRV9NNGM5ZVhyUkMydkVoVC1wbjYtcU5Nc214RDM1eGtwdU95ZjBsWnpKOEFlZTQ3WnFLT0ozdHpxSDFwd283cWdBNEd6bnAweDlodTdhdEI4ZWFEb3lFRmFqeG5oTER4Nm5VQ0hkdU9CY3NXUQ?oc=5\nロシアがウクライナでの軍事通信にラースヴェット衛星を使用した。\n「国家を設計し法を定める者は、すべての人間は邪悪であると前提せねばならぬ。」\n『リウィウス論 I.3』",
     "theme": "necessita",
@@ -677,27 +737,5 @@
     "generated_at": "2026-11-04T06:44:22.915780+00:00",
     "publish_at": "2026-11-04T12:17:00+00:00",
     "timestamp": "2026-11-04T12:17:00+00:00"
-  },
-  {
-    "id": "2ff2123c8c2d",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCblBzbFFCckp3dUpVaWV3c2o4cUtWVHJwRWlHNVdhUGwwbzZEMmJrZHZsRXRjQXlrTk5wd1Nub0RHNnZmZjVCNjRBakpqeUpQN2Rlb1E3Vmlhek1kbE1PWG9B?oc=5\nトランプ氏はイスラエルへの年間6300億円支援の打ち切りを表明したという。\n「君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。」\n『君主論 cap.XXI』",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、イスラエルへの年間６３００億円支援の打ち切り表明…政治紙「外交政策の大きな転換点」 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCblBzbFFCckp3dUpVaWV3c2o4cUtWVHJwRWlHNVdhUGwwbzZEMmJrZHZsRXRjQXlrTk5wd1Nub0RHNnZmZjVCNjRBakpqeUpQN2Rlb1E3Vmlhek1kbE1PWG9B?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "popolo_principe"
-    ],
-    "quote_id": "AD1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T06:27:40.681449+00:00",
-    "publish_at": "2026-11-04T09:17:00+00:00",
-    "timestamp": "2026-11-04T09:17:00+00:00"
   }
 ]
