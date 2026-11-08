@@ -1,5 +1,46 @@
 [
   {
+    "id": "3638e1f2b5ac",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxdDdDaHlfeHlDRWE5Y01XZVoyaEx3YWhMSVp6OVJIU1BXTWRoOTRXRjFZTzBwaFdiNkZHV29jcExIaUhpRXRobGJ0YTlyWTc1aGl2dTNjYXhHV1hmSHN6dDV5dEV0elVRWUx5Yks1WE80cUhJN1h4OEl2ZlNrS2M?oc=5\n米軍は対イラン海上封鎖の下、オマーン湾で民間船を攻撃して航行不能にさせたという。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 中東",
+    "source_title": "対イラン海上封鎖 米軍が民間船をオマーン湾で攻撃、航行不能に（毎日新聞） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxdDdDaHlfeHlDRWE5Y01XZVoyaEx3YWhMSVp6OVJIU1BXTWRoOTRXRjFZTzBwaFdiNkZHV29jcExIaUhpRXRobGJ0YTlyWTc1aGl2dTNjYXhHV1hmSHN6dDV5dEV0elVRWUx5Yks1WE80cUhJN1h4OEl2ZlNrS2M?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D3.44",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T02:42:03.756640+00:00",
+    "publish_at": "2026-11-09T00:17:00+00:00",
+    "timestamp": "2026-11-09T00:17:00+00:00"
+  },
+  {
+    "id": "10e4fc20e7ec",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZzRCd0t3NE5kSnJrVWlGdGJHVUZOU3lLazg4c1NPQVhwV3doX0I0eDhaQndValU3b2VLUXB6aEwwWVd4NWFuUFVSRGRiR1RSZ1RMMi0xeTRtTzJsYmFXTkZtb0lzLTRUeXdtLV9DMk9CRlg1aEZtWVlIV2p6QVZFZFl0cDFVaTg?oc=5\n米軍はオマーン湾で貨物船を航行不能にし、対イランの封鎖措置強化へと動くという。\n「世間で言われるのとは違い、金銭は戦争の要ではない。」\n『リウィウス論 II.10』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "米軍、オマーン湾で貨物船を航行不能に 対イラン封鎖措置強化へ - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZzRCd0t3NE5kSnJrVWlGdGJHVUZOU3lLazg4c1NPQVhwV3doX0I0eDhaQndValU3b2VLUXB6aEwwWVd4NWFuUFVSRGRiR1RSZ1RMMi0xeTRtTzJsYmFXTkZtb0lzLTRUeXdtLV9DMk9CRlg1aEZtWVlIV2p6QVZFZFl0cDFVaTg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "armi_proprie"
+    ],
+    "quote_id": "GU2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T02:40:20.150148+00:00",
+    "publish_at": "2026-11-08T21:17:00+00:00",
+    "timestamp": "2026-11-08T21:17:00+00:00"
+  },
+  {
     "id": "006cb2bca9e3",
     "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPenpTS05aLVU3UkFlR1F1dTI4T3VOX1haVkJsM3EyTlFZQVBya0psdk9ZSDk2QlQwOThDMDhkdDJGd1J4a01qWll3aGJIOTV3TkZPODJMMXpsaVJQUlRtM2JseFJQNWhNcUF6ZVg3c3UteVgwdE0zeTNNbG9pY19ZeEpIOTNWZw?oc=5\nウクライナはロシアの石油施設への攻撃を継続し、ロシア軍の新たな攻撃に警戒しているとゼレンスキー氏が示している。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -725,44 +766,6 @@
       "economia"
     ],
     "quote_id": "AG8",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "df2f26f39d1a",
-    "timestamp": "2026-11-02T00:11:04.418618+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5R19EaExLcEhqUlVOYnpSRy05UkEwSnB2Y284Y1BwVTI2cGNKcFZDY1NhVEozY3I3RU5UWEdYemhzbEt2RHVLT0lBOWlfcGZwYWtleG9n?oc=5\n米国の野心がイランへの攻撃へと昇華し、中間選挙後の対立構造が新たな戦争の幕開けとなる。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "迫り来るイラン戦争「第3幕」の足音、米中間選挙の後に何が起こるのか？ - JBpress",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5R19EaExLcEhqUlVOYnpSRy05UkEwSnB2Y284Y1BwVTI2cGNKcFZDY1NhVEozY3I3RU5UWEdYemhzbEt2RHVLT0lBOWlfcGZwYWtleG9n?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "popolo_principe",
-      "economia"
-    ],
-    "quote_id": "D1.46",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "e143cd5a7fcf",
-    "timestamp": "2026-11-01T19:21:48.346654+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWWhGR0pXYkg4UGw5RHhEV182NnlaUWlZNVl4bzVWU2xoc1F0Z2I0Qkk1ZTVVNGhuT3hJVUtMUm1SNUhmcGIzbzRoUy1DTE9LbnU3cWRVemwtVldtS3oxamFsSmNpNXJEZXMtVUV0OS1jbHFzNWRaaHNR?oc=5\nイランが米国の条件受容を示唆する姿勢を採るのは、再攻撃の危機を時間稼ぎで凌ぐ現実主義的な戦略である。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "米条件受け入れ兆候か イラン主張 再攻撃受ければ核製造や保有の基本方針変更も示唆 - テレ朝NEWS",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oWWhGR0pXYkg4UGw5RHhEV182NnlaUWlZNVl4bzVWU2xoc1F0Z2I0Qkk1ZTVVNGhuT3hJVUtMUm1SNUhmcGIzbzRoUy1DTE9LbnU3cWRVemwtVldtS3oxamFsSmNpNXJEZXMtVUV0OS1jbHFzNWRaaHNR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore"
-    ],
-    "quote_id": "D1.33",
     "quote_choice": "llm"
   }
 ]
