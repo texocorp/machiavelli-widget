@@ -1,5 +1,106 @@
 [
   {
+    "id": "ae812fb95787",
+    "text": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82RmZoY1FyQVZ4YlplV0R5ZXpJNnlfc0dsdkMzRHNfRFFFMFJIOU5UNUhpVVdMbUp6SG11SmtyUHdaTHRVaE9B?oc=5\n雨によって魅せたローソンが前年の印象を覆す好走を見せたが、来季への不安も残っているという。\n「それゆえ考察はほとんど目に見えるところで止まり、目に見えないものは、わずかしか、あるいはまったく観察されない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム50",
+    "original": "Itaque contemplatio fere desinit cum aspectu; adeo ut rerum invisibilium exigua aut nulla sit observatio.",
+    "original_lang": "la",
+    "theme": "tribus",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "雨で魅せたローソン。前年までの印象を覆す好走と来季への不安 - autosport web",
+    "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82RmZoY1FyQVZ4YlplV0R5ZXpJNnlfc0dsdkMzRHNfRFFFMFJIOU5UNUhpVVdMbUp6SG11SmtyUHdaTHRVaE9B?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "tribus"
+    ],
+    "quote_id": "NO1.50",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T00:09:38.102067+00:00",
+    "publish_at": "2026-11-08T23:17:00+00:00",
+    "timestamp": "2026-11-08T23:17:00+00:00"
+  },
+  {
+    "id": "0d5a8ccbe5ce",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zaDQ2Z3B4SXpHS2ItWDdaejhnSFpiZ3FINlVPR2FSLUFDbERBX004SW16MUVGdTNSelhZR3U1ZFo3SkFPUWFqV3d6OHRIVWt2NXFDSm02UUhPcUw0NG5tQnFNWWlaU2tsZlE2SklB?oc=5\n怪しい『迷信研究部』が一昔前までの西洋の迷信を実際に試そうと勧誘しているという。\n「迷信を避けることのうちにも迷信がある。かつて受け容れられていた迷信から最も遠ざかれば最善だと、人が考えるときである。」\n『随筆集』第17篇「迷信について」",
+    "original": "There is a superstition in avoiding superstition, when men think to do best, if they go furthest from the superstition, formerly received …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 6,
+    "source": "Google News 陰謀論・スピリチュアル",
+    "source_title": "画像71 / 136＞一昔前まで西洋で信じられていた“迷信”を実際に試す!?怪しい「迷信研究部」に勧誘!! - ウォーカープラス",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zaDQ2Z3B4SXpHS2ItWDdaejhnSFpiZ3FINlVPR2FSLUFDbERBX004SW16MUVGdTNSelhZR3U1ZFo3SkFPUWFqV3d6OHRIVWt2NXFDSm02UUhPcUw0NG5tQnFNWWlaU2tsZlE2SklB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "studium"
+    ],
+    "quote_id": "E17c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T23:55:09.679999+00:00",
+    "publish_at": "2026-11-08T20:17:00+00:00",
+    "timestamp": "2026-11-08T20:17:00+00:00"
+  },
+  {
+    "id": "9b2cfc268074",
+    "text": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY3dDbURzTmVBVklhb0tlY19KVkdsbWt4RTI3MzRubnVpYmpzZVdBLWVrSGZyTEYwYWVSQnVvN3pydlg3VndEc0VpOEk4NVMxdXh2N2Q5OEVmcWliWDJOZmt0UTB5cGlWUDhicldrWlJTV2ljMWtTcnpaRjZnSmxFam5WTG1QcEIyZ1c2Y2pYbWFOSjNTRTdzM2ZTOHQ3YXNtX01zTQ?oc=5\nnews.lavx.huは「Deus Ex 26周年：イマーシブシム、陰謀パルプ、そして議論を呼ぶ予言」と報じた。\n「人間の知性はとめどなく膨らみ、立ち止まることも落ち着くこともできず、さらに先を求める。だが、それは空しい。」\n『ノヴム・オルガヌム』第1巻 アフォリズム48",
+    "original": "Gliscit intellectus humanus, neque consistere aut acquiescere potis est, sed ulterius petit; at frustra.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 7,
+    "source": "Google News 風評・噂",
+    "source_title": "Deus Ex 26周年：イマーシブシム、陰謀パルプ、そして議論を呼ぶ予言 - news.lavx.hu",
+    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY3dDbURzTmVBVklhb0tlY19KVkdsbWt4RTI3MzRubnVpYmpzZVdBLWVrSGZyTEYwYWVSQnVvN3pydlg3VndEc0VpOEk4NVMxdXh2N2Q5OEVmcWliWDJOZmt0UTB5cGlWUDhicldrWlJTV2ljMWtTcnpaRjZnSmxFam5WTG1QcEIyZ1c2Y2pYbWFOSjNTRTdzM2ZTOHQ3YXNtX01zTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio"
+    ],
+    "quote_id": "NO1.48",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T23:32:56.703453+00:00",
+    "publish_at": "2026-11-08T17:17:00+00:00",
+    "timestamp": "2026-11-08T17:17:00+00:00"
+  },
+  {
+    "id": "e4aea943b1f9",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tRTJFWTdyOTBlcm9ZaTBjdkFZdzFQOEJEWHNmUDJPblFvdTE0ZVduMGgxbnhEeElRdHVMdHRtX0xaZWJ6RDRpN3FtOHFQblhCMWx1RXRjdTA3Z3Z2YllB?oc=5\nピザーラは設定ミスで無許諾な広告を出したことを認め、謝罪して全広告を停止したという。\n「だが、あなたがたの事態が悪いのが、事柄そのものの力によるのではなく、あなたがたの誤りによるのであれば、その誤りを捨て、あるいは正すことで、事態が大きく好転すると望みうる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム94",
+    "original": "Sed cum rerum vestrarum status, non a vi ipsa rerum, sed ab erroribus vestris male se habeat; sperandum est, illis erroribus missis aut correctis, magnam rerum in melius mutationem fieri posse.",
+    "original_lang": "la",
+    "theme": "potentia",
+    "score": 8,
+    "source": "Google News 生成AIの論争",
+    "source_title": "AI使用疑惑どころか、まさかの「無許諾」 ピザーラが「Dr.STONE」広告で謝罪、原因は「設定ミス」 全広告を停止に - AdverTimes.（アドタイ） by 宣伝会議",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tRTJFWTdyOTBlcm9ZaTBjdkFZdzFQOEJEWHNmUDJPblFvdTE0ZVduMGgxbnhEeElRdHVMdHRtX0xaZWJ6RDRpN3FtOHFQblhCMWx1RXRjdTA3Z3Z2YllB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "potentia"
+    ],
+    "quote_id": "NO1.94",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T23:18:35.915879+00:00",
+    "publish_at": "2026-11-08T14:17:00+00:00",
+    "timestamp": "2026-11-08T14:17:00+00:00"
+  },
+  {
+    "id": "0c487d777717",
+    "text": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS1BvaU9hdW9sR2xGMjZNLVpUczU3S1R6MlZiTm14RTd0XzV0ZjVWeTBDWm9IWXZqSHhnNl8zWG5SNUNnNjMzRS1tYnFzdDVhRS1lSmxxZVphYU1lQXFGMzJTUVB5NlAtZ0pLMTNTYmVOY2dyZjB5VWlkLXBzZ9IBgwFBVV95cUxQVDdrQlFCSkk3SWZ1cjFUOWNhSERGOEZYdURBaUREbkZmcEFWa1RkazZmY0o0SFV4eURMYjdsRzQ4blFROWE0QXhsR2FBd2VFdkFtZF9Ob1JUNndNcktMWkJjb0pKX1hROS1qN3M5emVPNzE0NmNJWVNZMnFPUGVKTEVZSQ?oc=5\nｄメニューニュースは「政府の『緊急要請』でデマ急増？　怪しい情報を見抜く4つのコツ」と報じた。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
+    "original": "There is nothing makes a man suspect much, more than to know little …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 8,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府の「緊急要請」でデマ急増？　怪しい情報を見抜く4つのコツ - ｄメニューニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS1BvaU9hdW9sR2xGMjZNLVpUczU3S1R6MlZiTm14RTd0XzV0ZjVWeTBDWm9IWXZqSHhnNl8zWG5SNUNnNjMzRS1tYnFzdDVhRS1lSmxxZVphYU1lQXFGMzJTUVB5NlAtZ0pLMTNTYmVOY2dyZjB5VWlkLXBzZ9IBgwFBVV95cUxQVDdrQlFCSkk3SWZ1cjFUOWNhSERGOEZYdURBaUREbkZmcEFWa1RkazZmY0o0SFV4eURMYjdsRzQ4blFROWE0QXhsR2FBd2VFdkFtZF9Ob1JUNndNcktMWkJjb0pKX1hROS1qN3M5emVPNzE0NmNJWVNZMnFPUGVKTEVZSQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio"
+    ],
+    "quote_id": "E31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-07T23:04:41.817593+00:00",
+    "publish_at": "2026-11-08T11:17:00+00:00",
+    "timestamp": "2026-11-08T11:17:00+00:00"
+  },
+  {
     "id": "9787b7522f1b",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pX003ZXo4ejdEc3htQXJXYWotSkMyMW9VMHNuekRmTDRHcmIyeENzV0tLcm1ObFpiUHFyMTJ5NGFQbE1uRWROYWpYTXl2ZnExeHFOUWxrWGpSZ2pOVllTX3Y0YVhlVGRI?oc=5\n品川にオープンしたエンタメ施設が、水族館の常識を覆すという。\n「古いものの上に新しいものを継ぎ足し、接ぎ木しても、学問の大きな進展は空しく待たれるだけである。根底からの建て直しがなされねばならない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム31",
     "original": "Frustra magnum expectatur augmentum in scientiis ex superinductione et insitione novorum super vetera; sed instauratio facienda est ab imis fundamentis …",
