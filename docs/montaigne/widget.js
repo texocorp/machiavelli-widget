@@ -27,7 +27,7 @@
   var COUNT = parseInt(currentScript.getAttribute("data-count") || "10", 10);
   var REFRESH_MS = parseInt(currentScript.getAttribute("data-refresh") || "600000", 10); // 既定10分
   var TITLE = currentScript.getAttribute("data-title") || "Bot";
-  var SUBTITLE = currentScript.getAttribute("data-subtitle") || "Michel de Montaigne on Society";
+  var SUBTITLE = currentScript.getAttribute("data-subtitle") || "Michel de Montaigne on the Human Condition";
 
   function ensureContainer() {
     var el = document.getElementById(TARGET_ID);
