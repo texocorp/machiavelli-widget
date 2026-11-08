@@ -1,5 +1,47 @@
 [
   {
+    "id": "a53bb67fa06d",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAydkMyeWh0aS1JZTBJbXdxdWZ0U2VtU3RSRUU0YU9pTEJHbUdXSzVEQTYzSDVTNjRrd3BjNXBMdWxMZnhha2hfN3BYNDhib3RfeG5ZdXJkSjd0V3RfWnRzX0Fn?oc=5\nAIが超知能を100％支持するトランプ氏による支援表明があり、中間選挙の民主党大勝で規制強化が懸念されているという。\n「印刷術、火薬、羅針盤。この三つが、世界における事物の様相と状態を一変させた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
+    "original": "Artis nimirum Imprimendi, Pulveris Tormentarii, et Acus Nauticae. Haec enim tria rerum faciem et statum in orbe terrarum mutaverunt …",
+    "original_lang": "la",
+    "theme": "potentia",
+    "score": 7,
+    "source": "Google News 生成AIの論争",
+    "source_title": "トランプ氏「ＡＩ推進州」支援表明、中間選挙の民主党大勝で「規制強化」懸念の中「超知能を１００％支持」 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAydkMyeWh0aS1JZTBJbXdxdWZ0U2VtU3RSRUU0YU9pTEJHbUdXSzVEQTYzSDVTNjRrd3BjNXBMdWxMZnhha2hfN3BYNDhib3RfeG5ZdXJkSjd0V3RfWnRzX0Fn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "potentia",
+      "novitas",
+      "tribus"
+    ],
+    "quote_id": "NO1.129a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T19:14:01.335640+00:00",
+    "publish_at": "2026-11-09T17:17:00+00:00",
+    "timestamp": "2026-11-09T17:17:00+00:00"
+  },
+  {
+    "id": "730fc0a28de3",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qaDN0MXQzdlh4b0g5MUlxSGFtRUx1WGM0dW9LeWg5SWVuSldJNGQ1QWxyY3huOXE3ZDZ1OUN2OTBkdjhpU0ZKcUdxWkdEWm82OUMtUnR0SkVKSkIzbnR0QXNEWjZKbW5QYTl6ZQ?oc=5\n武尊がSNSの誹謗中傷の危険性を指摘し、法整備をした方がいいと主張しているという。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
+    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "武尊、SNSの誹謗中傷に警鐘「法整備した方がいい」危険性と責任感について連投 - 福井新聞社",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qaDN0MXQzdlh4b0g5MUlxSGFtRUx1WGM0dW9LeWg5SWVuSldJNGQ1QWxyY3huOXE3ZDZ1OUN2OTBkdjhpU0ZKcUdxWkdEWm82OUMtUnR0SkVKSkIzbnR0QXNEWjZKbW5QYTl6ZQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E15a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T18:52:29.069189+00:00",
+    "publish_at": "2026-11-09T14:17:00+00:00",
+    "timestamp": "2026-11-09T14:17:00+00:00"
+  },
+  {
     "id": "cd995cc1b259",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVByeWFIUkdIVmphd1VLck1Ub1JyV3E3OUVGdGQtUFZva3FWTkR1dXlBSE05TDA5NEFJbmpoMzE3SFdLYjZfS0FKbGZTSWFKdm5YUlFFNGxlaUFMX3p0Sm5DT3c1TndLQ01hSG5lY05vZVZkRzR2dU01TU9FUkpRRTVEbWpPLVE?oc=5\nGIGAZINEは「会議では上司が話す時間を減らして部下の話を聞くべきだと研究者が指摘、質問するだけでは逆効果になる可能性も」と報じた。\n「必要なだけのことを知り、それでもなお自分は十分には知っていないと考えるほうが、十分に知っていると考えながら、必要なことを何一つ知らないよりもよい。」\n『ノヴム・オルガヌム』第1巻 アフォリズム126",
     "original": "Atque melius est scire quantum opus sit, et tamen nos non penitus scire putare, quam penitus scire nos putare, et tamen nil eorum quae opus est scire.",
