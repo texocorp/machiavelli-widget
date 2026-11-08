@@ -97,14 +97,15 @@ def main():
             continue
         if item.score < scoring_cfg["minimum_score"]:
             continue  # 閾値未満、または除外キーワードに一致(score=-1)
+        # 素性の確認は翻訳(LLMを使う)より先に行う(2026-11-09)
+        if feed_stock.suspicious_source(item.title):
+            print(f"[見送り] 素性の疑わしい配信: {item.title}")
+            continue
         # 英語などの記事は、先に日本語に訳す。訳せなければこの記事は見送り、次の候補に進む
         try:
             machiavelli_engine.ensure_japanese(item)
         except Exception as e:
             print(f"[SKIP] 日本語に訳せないため見送り: {item.title} ({e})")
-            continue
-        if feed_stock.suspicious_source(item.title):
-            print(f"[見送り] 素性の疑わしい配信: {item.title}")
             continue
         if feed_stock.story_id(item.title) in seen or feed_stock.same_story(item.title, story_titles):
             print(f"[見送り] 同じ記事を既に試した・載せた(別の配信): {item.title}")
