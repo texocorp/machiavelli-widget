@@ -1,5 +1,62 @@
 [
   {
+    "id": "95bee240ed10",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03aXdJWXE4eXlDV3hVbXVBaGlTcUdTZ0NkTlBrUzVFOWhHN1ZfNk1vVlhYbFFQYW13XzRIZ3RzNUdLV0hwS1hpbmI0Y0R2THNRVW9KTVRRRjVnZzhZRXVQcTRpRENqMHBUNmhzR0xIcnNXNXdIc0w4TDJ2Z0JrMnc?oc=5\n8万人の大学生を対象とした調査で、若者の幸福度を左右する6つの要因が明らかになった。\n「自分の存在を偽りなく享受するすべを知ること、それこそ完全な、いわば神のごとき完成である。」\n『エセー III.13「経験について」』",
+    "theme": "savoir",
+    "score": 3,
+    "source": "Google News 科学",
+    "source_title": "8万人の大学生を調査してわかった「若者の幸福度を左右する6つの要因」（クーリエ・ジャポン） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03aXdJWXE4eXlDV3hVbXVBaGlTcUdTZ0NkTlBrUzVFOWhHN1ZfNk1vVlhYbFFQYW13XzRIZ3RzNUdLV0hwS1hpbmI0Y0R2THNRVW9KTVRRRjVnZzhZRXVQcTRpRENqMHBUNmhzR0xIcnNXNXdIc0w4TDJ2Z0JrMnc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "soi"
+    ],
+    "quote_id": "III.13g",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T13:38:02.193984+00:00",
+    "publish_at": "2026-11-09T13:17:00+00:00",
+    "timestamp": "2026-11-09T13:17:00+00:00"
+  },
+  {
+    "id": "7a2e7063a111",
+    "text": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclZfY3RLZ0oyZTd2NGNGazZ3eUlseWFIalZKZDZ2QWJnTUN6S1QzQzdHVzBIN2x3X0wzOHhMSk51NXhqemcxZ1d4aDQ1SF9hNHFxOE1ZWF9LLW1YU1Jpamk4N1FmS1dDenZkR1l0QkhqbHFVVE1ESkc3Rmw5VHU1RmdHdktiQlZIdWc?oc=5\n中国のAIモデルは、浅い偏見層という形で批判されているという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "presomption",
+    "score": 5,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "中国のAIモデルが浅い偏見層で批判される：NousResearchニュース - Coinfomania",
+    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclZfY3RLZ0oyZTd2NGNGazZ3eUlseWFIalZKZDZ2QWJnTUN6S1QzQzdHVzBIN2x3X0wzOHhMSk51NXhqemcxZ1d4aDQ1SF9hNHFxOE1ZWF9LLW1YU1Jpamk4N1FmS1dDenZkR1l0QkhqbHFVVE1ESkc3Rmw5VHU1RmdHdktiQlZIdWc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption"
+    ],
+    "quote_id": "II.17d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T13:33:01.632601+00:00",
+    "publish_at": "2026-11-09T10:17:00+00:00",
+    "timestamp": "2026-11-09T10:17:00+00:00"
+  },
+  {
+    "id": "0b24dfe21c55",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ocFJQM3pMQUc1VzF6emlsS080cVRKVWtyTk9BRkdXUUlrUnRXUGhNbDlQNDZDaEVnTC1BT2JFeUFMYU9ObWZuM1RwWUlzMFdkRkVKYVljb185QQ?oc=5\n広島市は外国人への生活保護支給について国の通知に基づいており、SNSで拡散された『違法支給』という情報は不正確である。\n「一人の誤りがまず世間の誤りをつくり、次には世間の誤りが一人一人の誤りをつくる。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "lois",
+    "score": 8,
+    "source": "Google News 国内",
+    "source_title": "「広島市が独自に外国人へ違法支給」ＳＮＳで拡散 生活保護巡り不正確な点 広島市「国の通知に基づき運用」 - 中国新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ocFJQM3pMQUc1VzF6emlsS080cVRKVWtyTk9BRkdXUUlrUnRXUGhNbDlQNDZDaEVnTC1BT2JFeUFMYU9ObWZuM1RwWUlzMFdkRkVKYVljb185QQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "opinion",
+      "autrui"
+    ],
+    "quote_id": "III.11b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-08T13:30:44.626086+00:00",
+    "publish_at": "2026-11-09T07:17:00+00:00",
+    "timestamp": "2026-11-09T07:17:00+00:00"
+  },
+  {
     "id": "22480af9b695",
     "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakg3UzBzYUdxclF5ZlZIYldhM0FBQ25uenNvQkhJRVBZNXpwazM0T0hKU29peWdZREFZOUx3aGhWTVZKSlFqN1FHTnppaS12bWNIYzN5VUIzTElWRXpWVmFESTRScko0UzU2b1l3NERWZTkteTFJeEF5Z3dLeHNMaDc3Y1VkWlBYSHdseEdR?oc=5\n未解明の石『一刀石』が『鬼滅』聖地として扱われ、奈良・柳生の里で兵動さんが剣豪・柳生十兵衛の歴史を大調査している。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
     "theme": "inconstance",
@@ -650,55 +707,6 @@
       "soi"
     ],
     "quote_id": "I.20g",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "bd68368e0bf4",
-    "timestamp": "2026-11-04T00:05:42.856114+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWWVlakhwbVdKcWR1Z2dkTWZ2eU02QnJ4dG1UemtDNENpM3NxeWI5LVdsTWtkZU1NWlgzdF85YllLUF9ab1VIZ2tqclRJTklLTlhWUU5EdFpaVlpnUU9JVHg1d08?oc=5\n重要技術戦略研究所が膨大なデータを解析し、政府に政策提言を行うという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 科学",
-    "source_title": "重要技術戦略研究所、最新研究の膨大なデータをＡＩ解析…政府に政策提言へ - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FWWVlakhwbVdKcWR1Z2dkTWZ2eU02QnJ4dG1UemtDNENpM3NxeWI5LVdsTWtkZU1NWlgzdF85YllLUF9ab1VIZ2tqclRJTklLTlhWUU5EdFpaVlpnUU9JVHg1d08?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "presomption"
-    ],
-    "quote_id": "II.17d",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "ba93cdb5e9bc",
-    "timestamp": "2026-11-03T18:33:18.396349+00:00",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DUTNWUXFORVFGVDI0N1JrY1BGdmJZWDdhbGgyRmFFSGdYNlQ0ekFRVDlBUmluT0RhUlp4SDVWOHcxS1ppdkNCbjVEQU1WYk1hQk13Yzkxbm0xNW9LQi00cGtyZmxub0F1bkl3TXA5YXRWUVRheG5VMEcxV3dQRzA?oc=5\n生後7ヶ月の息子の赤いブツブツで医者から、1歳前なのに珍しいと衝撃的な診断を受けたという。\n「物事の大きさよりも、その目新しさのほうが、我々をその原因の探究へと駆り立てる。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
-    "theme": "cruaute",
-    "score": 0,
-    "source": "Google News 健康",
-    "source_title": "生後7ヶ月の息子に赤いブツブツ。虫刺されかと思いきや…⇒医者「1歳前なのに珍しい」まさかの診断に衝撃。 現在の様子を母に聞いた（ほ・とせなNEWS） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DUTNWUXFORVFGVDI0N1JrY1BGdmJZWDdhbGgyRmFFSGdYNlQ0ekFRVDlBUmluT0RhUlp4SDVWOHcxS1ppdkNCbjVEQU1WYk1hQk13Yzkxbm0xNW9LQi00cGtyZmxub0F1bkl3TXA5YXRWUVRheG5VMEcxV3dQRzA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute"
-    ],
-    "quote_id": "I.27b",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "2d42d1ab6a53",
-    "timestamp": "2026-11-03T07:30:55.584573+00:00",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUm1yMW5oNXFfNEplUWpxaFE5aTRVckFaZHFiZ2xFbzJiUnU3Y08wZl9CczliMmIwNWtwaDNlTHFNNWUtbTJiN3hHVDR0TEhETVplR24yRmZ4eFBMa3dreXFUYXVVWm1UWUxvcXRfdVJveEZ6OVVRdmo1MUVfeENUNG9MM1V4TW8?oc=5\n『ダラクソンラシブ』は百年に一度の薬と絶賛されるが、日本で保険診療として承認されるためには高すぎる薬価の壁があるという。\n「医学は実例と経験によって形づくられる。私の意見もまた同じである。」\n『エセー II.37「子が父に似ることについて」』",
-    "theme": "medecine",
-    "score": 6,
-    "source": "Google News 健康",
-    "source_title": "画期的新薬「ダラクソンラシブ」に高まる期待 「百年に一度の薬」と絶賛されるも、日本で保険診療として承認されるためには“高すぎる薬価”の壁(マネーポストWEB) - Yahoo!ファイナンス",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUm1yMW5oNXFfNEplUWpxaFE5aTRVckFaZHFiZ2xFbzJiUnU3Y08wZl9CczliMmIwNWtwaDNlTHFNNWUtbTJiN3hHVDR0TEhETVplR24yRmZ4eFBMa3dreXFUYXVVWm1UWUxvcXRfdVJveEZ6OVVRdmo1MUVfeENUNG9MM1V4TW8?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine"
-    ],
-    "quote_id": "II.37b",
     "quote_choice": "llm"
   }
 ]
