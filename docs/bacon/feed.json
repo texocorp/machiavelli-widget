@@ -1,5 +1,69 @@
 [
   {
+    "id": "21aca6b98ff1",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwYTFJaXNkTEJJeDk5VlhXakt5UWlpSHc0VS1IdzNXTkFpOTR1X3RqT2VtNU5RMVp0S0Y0WG9zT1hTZnNHOWU2M2pLUnI3QWNoRHE0NEpTNA?oc=5\n専業主婦年金廃止デマが拡散したことは事実だが、高市首相の動画は無関係であるという。\n「まことに評判は川のようなもので、軽く膨れたものを浮かべ、重く堅固なものを沈める。」\n『随筆集』第53篇「称賛について」",
+    "original": "Certainly fame is like a river, that beareth up things light and swoln, and drowns things weighty and solid.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "専業主婦年金廃止デマが拡散 高市首相動画は無関係 - X",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwYTFJaXNkTEJJeDk5VlhXakt5UWlpSHc0VS1IdzNXTkFpOTR1X3RqT2VtNU5RMVp0S0Y0WG9zT1hTZnNHOWU2M2pLUnI3QWNoRHE0NEpTNA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E53",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T22:57:54.175887+00:00",
+    "publish_at": "2026-11-10T20:17:00+00:00",
+    "timestamp": "2026-11-10T20:17:00+00:00"
+  },
+  {
+    "id": "0adbefb3c439",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PanVUZlZJenZmeGpRLWpzQ1FMQlBNUWdhaUc3VFd1ZUFLbVI1aDJjVklaTVB5Rmh0eXBUWGJvSm9xOU9qc0pIamVTOWwxZkUwYkV2WFhrQjJXLXc0NW51WEQzVDFhcjhpS09Za2dEdWlsYndZbFZzUWVlQURNNlE?oc=5\nYahoo!ニュースは「ベテラン声優･中田譲治の“AI画像”炎上はなぜ起きた…『NO MORE 無断生成AIを掲げたのに』批判する人が見落とす本当の問題」と報じた。\n「順境は悪徳をいちばんよく露わにし、逆境は美徳をいちばんよく露わにする。」\n『随筆集』第5篇「逆境について」",
+    "original": "Prosperity doth best discover vice, but adversity doth best discover virtue.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 13,
+    "source": "Google News AI・研究政策",
+    "source_title": "ベテラン声優･中田譲治の“AI画像”炎上はなぜ起きた…「NO MORE 無断生成AIを掲げたのに」批判する人が見落とす本当の問題 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PanVUZlZJenZmeGpRLWpzQ1FMQlBNUWdhaUc3VFd1ZUFLbVI1aDJjVklaTVB5Rmh0eXBUWGJvSm9xOU9qc0pIamVTOWwxZkUwYkV2WFhrQjJXLXc0NW51WEQzVDFhcjhpS09Za2dEdWlsYndZbFZzUWVlQURNNlE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "E5",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T22:46:20.645933+00:00",
+    "publish_at": "2026-11-10T17:17:00+00:00",
+    "timestamp": "2026-11-10T17:17:00+00:00"
+  },
+  {
+    "id": "eaf4d1f1a551",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5\n研究者たちは、定説を覆す新仮説を提示し、AIのブラックボックスは存在しないのかについて激しく議論しているという。\n「真理は権威の娘ではなく、時の娘であると言われるのはもっともである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム84",
+    "original": "Recte enim Veritas Temporis filia dicitur, non Authoritatis.",
+    "original_lang": "la",
+    "theme": "theatri",
+    "score": 14,
+    "source": "Google News 科学",
+    "source_title": "AIの「ブラックボックス」は存在しない？ 定説を覆す新仮説と研究者たちの激論 - Forbes JAPAN",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "theatri",
+      "potentia",
+      "studium"
+    ],
+    "quote_id": "NO1.84b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T22:26:11.689751+00:00",
+    "publish_at": "2026-11-10T14:17:00+00:00",
+    "timestamp": "2026-11-10T14:17:00+00:00"
+  },
+  {
     "id": "71e07c4abc34",
     "text": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZDlDeHVDUnVtRDlEMV8zV2d0Zkp4bFp4dklXTjhVWVk2X2pZRTlTTVlEQnY1ZnBkWHhncEZuSUpBSmxpcklScFVad3lIcXV3Sm5HaW9PUlZrSE5qczFORFA2VWlMT29jaGlzZkw5bDZKSnIxYWlZbDdDaUNNazZkZnJlM2tFWFZwd2pJ0gGQAUFVX3lxTFB0dmRWcDBFVGFkd2RrdGdHNHhuckRRNEJ6dTdVLWlLYm9jWHpKV1ZfdWJXV1dvSG5yc3lMallxOU5zdW9RWEJOMDdDWWlOTWxLRUhhQy0xamkwUkRrU0YycWh0dzk3NE9raVJKc0dJeHVVLUIyTGE2RUNzSXFMTnh1c2lMbUxmQ3VmRUpXVkMzRA?oc=5\nBTSのVとBLACKPINKのジェニー間の熱愛説が再燃したが、きっかけは米飲食店のSNS投稿だったという。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
     "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
