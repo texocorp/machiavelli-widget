@@ -1,5 +1,86 @@
 [
   {
+    "id": "87e1f31aa44f",
+    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pWkRIMFk3QWxIMUZ6NFRCXzAydGpScHdYVEZRRHM1Q2FnNDRTcEJvbUxIbkxqa1Ayak1wejRfcW5FNDlUeU9LLWVsbE9HbVlwT3pQU3hlTENlYXJQanl3SDE2T195a2Y0TExfem8wOE9mX2QwcFB3?oc=5\nロシアはイランとの軍事協力を深めるため、ミサイル発射機90基の供与について合意したという。\n「賢慮ある君主は、信義を守ることが己に不利益となるとき、これを守ってはならぬし、守るべきでもない。」\n『君主論 cap.XVIII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 中東",
+    "source_title": "イランとの軍事協力深めるロシア ミサイル発射機90基供与で合意 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pWkRIMFk3QWxIMUZ6NFRCXzAydGpScHdYVEZRRHM1Q2FnNDRTcEJvbUxIbkxqa1Ayak1wejRfcW5FNDlUeU9LLWVsbE9HbVlwT3pQU3hlTENlYXJQanl3SDE2T195a2Y0TExfem8wOE9mX2QwcFB3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "economia"
+    ],
+    "quote_id": "IS2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T19:04:55.795196+00:00",
+    "publish_at": "2026-11-10T18:17:00+00:00",
+    "timestamp": "2026-11-10T18:17:00+00:00"
+  },
+  {
+    "id": "4fcd7a18b8be",
+    "text": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPV3l3V2ZIbHdWRXJqam4tTTNKNC1FcmtOM1ZYd1NZRXhRQkRITThWTENaRzZROThaUGstSGp3UlEwN3k0OWRSazdsaTZZYmx4emk4RE1ZQW84YjNQMEJXN0F0TUdrNFZaWmUtd0JtYlJLcHEwQ3ZIMEVQdVc0dXZ0MFJXUlpMdUNaNmUxQlVHRmZUTEROUERyU0tuSVhtWUwtNWRaVWFYUzlsWUk3cE9HRTloejBRdWRLcmt0Nmk1ZlNzUWxpUE55QVk0cS0xSXZjTi1zZlg5Q0xhVkRfRUE5MS1ReFVjR2Z2bUluSTU3WlbSAfYBQVVfeXFMTnIzOS1KMzl4SmVfU0M4MUJuS2dwcXJ5STNWUzRjTm1SRkNxQUFfSjRNZXpGTE1iOFhONUYtMERpOFRUa3p5SE5Ram1ESUoyMzg1TWVfbXpmUFk2dlplYURwVnhmOWVIWlZINXNYQzMxb3JjUkZGelMxODRqazZBZlN2OTctVEZidG05UEpyUmdzMnJFZGJsU1NYR1o2bW1wSjJ5S2NSTXRXNmRTOXlMVkV0MkVMREFZUlFjdUFab2JpTjZsTGdPUnJPV2ttdVdydmg1TWE2cU5tR0twc3BUODRZbmo0ZTU3QTZsRkNjUmhuQVBNdHFB?oc=5\nウクライナ海軍は対艦ミサイル『ネプトゥーン』を用いてロシアの軍需産業施設を攻撃したと報道官が発表した。\n「己の力と敵の力を知る者は、容易には敗れぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ海軍は対艦ミサイル「ネプトゥーン」をロシアの軍需産業施設の攻撃に利用＝報道官 - ウクルインフォルム通信",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPV3l3V2ZIbHdWRXJqam4tTTNKNC1FcmtOM1ZYd1NZRXhRQkRITThWTENaRzZROThaUGstSGp3UlEwN3k0OWRSazdsaTZZYmx4emk4RE1ZQW84YjNQMEJXN0F0TUdrNFZaWmUtd0JtYlJLcHEwQ3ZIMEVQdVc0dXZ0MFJXUlpMdUNaNmUxQlVHRmZUTEROUERyU0tuSVhtWUwtNWRaVWFYUzlsWUk3cE9HRTloejBRdWRLcmt0Nmk1ZlNzUWxpUE55QVk0cS0xSXZjTi1zZlg5Q0xhVkRfRUE5MS1ReFVjR2Z2bUluSTU3WlbSAfYBQVVfeXFMTnIzOS1KMzl4SmVfU0M4MUJuS2dwcXJ5STNWUzRjTm1SRkNxQUFfSjRNZXpGTE1iOFhONUYtMERpOFRUa3p5SE5Ram1ESUoyMzg1TWVfbXpmUFk2dlplYURwVnhmOWVIWlZINXNYQzMxb3JjUkZGelMxODRqazZBZlN2OTctVEZidG05UEpyUmdzMnJFZGJsU1NYR1o2bW1wSjJ5S2NSTXRXNmRTOXlMVkV0MkVMREFZUlFjdUFab2JpTjZsTGdPUnJPV2ttdVdydmg1TWE2cU5tR0twc3BUODRZbmo0ZTU3QTZsRkNjUmhuQVBNdHFB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG6",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T19:01:14.829298+00:00",
+    "publish_at": "2026-11-10T15:17:00+00:00",
+    "timestamp": "2026-11-10T15:17:00+00:00"
+  },
+  {
+    "id": "18ac0490b7cc",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BekhxaXQ4dDRVNlFTTEtzc1pSZlpGZEhfYkxYanFpaHF0SFdueUNNS0Zma1hkcVZQd2tuRk15QTk0SWFWV0ZFeTR0NlVnaFltQUQ2REZuNkZCOEN4SHE1NThkaG96UFZyNHJvV295YUZ2ZjZqbnlzNmtn?oc=5\n仏スーパー冷蔵庫への攻撃をイランが関与したと報じられ、革命防衛隊のサイバー部隊特定や外相による『相応の報い』の表明もあるという。\n「君主は二つの恐れを抱かねばならぬ。一つは内にあって臣民に対するもの、もう一つは外にあって外国の列強に対するものである。」\n『君主論 cap.XIX』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 安全保障",
+    "source_title": "仏スーパー冷蔵庫攻撃イラン関与か 革命防衛隊のサイバー部隊特定 外相「相応の報い」 - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BekhxaXQ4dDRVNlFTTEtzc1pSZlpGZEhfYkxYanFpaHF0SFdueUNNS0Zma1hkcVZQd2tuRk15QTk0SWFWV0ZFeTR0NlVnaFltQUQ2REZuNkZCOEN4SHE1NThkaG96UFZyNHJvV295YUZ2ZjZqbnlzNmtn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P19a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T18:55:31.273910+00:00",
+    "publish_at": "2026-11-10T12:17:00+00:00",
+    "timestamp": "2026-11-10T12:17:00+00:00"
+  },
+  {
+    "id": "ab846083af9c",
+    "text": "https://news.google.com/rss/articles/CBMitwRBVV95cUxQSXBTYmdTMFdLNmdFNU1yUkNCWHlQUzlidHRrRUMyWDNMOHNqSkxqX25lZ2ZjcTdkNF9CaE56VHFHbVF3dm1JcldHMTlHMmZfSDkzRldKUGR5eDBWX0ZRNC12UnZyNGROYzNweEpKalBzcFZ0WjZVUWlMTExWdkl5ZXdSWGF3WHphRjZ0X2E3dkFRNTh4a3pzOEhNOTR4S0Q1cTQ4Q2ZrTExTRkxjRWk2Y1VENmdMbDY5OGVRbF80M1lTZHc3QzByYmNEal9LdEJvY09SUXFHWkNKRl8tVTR0NU14a1BwNWQyVzRscGxWTUJ6bXhCTFBvWGlMUGpzLTlCUmpuMFBXNG1sVm9kR1REY2c4d0JHZHdHd2xDcGU0S1FvSlVqdnFKaWtyQ1paTHJGb0RORERBS29qUmtXcFRQTmtmdUp3cDN1YzZRS0JKZmplQnlYTTVnYzJqZ2N3MmRoNnU5ajREUUFBZjN5dDQwenBzbkZPM2lXMUMtb0JSdDVNRm5udEZPN29OLXNfWEstalZRYmtuMTNYSjFuWFpUcXJtS1ZMaHFzNl9aWm9USE5yWml2eXppaTNsazFSMndXU1lOckFoTUZSOEN3REZtemlEbkJGckNmM2ZRRUtKamVrTUtNMngzd2N1RlNXYWg3d3NfM0RHZjdnNVozY09IQ1JnbUo0bk1CNmxNcHhndjBiNkgtekVRM3FkMnYtcEJaOFJaQ3BWNW5jQlBlUm9HbTdNWGtxVUU?oc=5\nフランスはイランの革命防衛隊による冷蔵庫へのサイバー攻撃を背後にあり、制裁を誓うという。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 安全保障",
+    "source_title": "フランス、イランの革命防衛隊が冷蔵庫へのサイバー攻撃を背後にしているとし、制裁を誓う - アラブニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxQSXBTYmdTMFdLNmdFNU1yUkNCWHlQUzlidHRrRUMyWDNMOHNqSkxqX25lZ2ZjcTdkNF9CaE56VHFHbVF3dm1JcldHMTlHMmZfSDkzRldKUGR5eDBWX0ZRNC12UnZyNGROYzNweEpKalBzcFZ0WjZVUWlMTExWdkl5ZXdSWGF3WHphRjZ0X2E3dkFRNTh4a3pzOEhNOTR4S0Q1cTQ4Q2ZrTExTRkxjRWk2Y1VENmdMbDY5OGVRbF80M1lTZHc3QzByYmNEal9LdEJvY09SUXFHWkNKRl8tVTR0NU14a1BwNWQyVzRscGxWTUJ6bXhCTFBvWGlMUGpzLTlCUmpuMFBXNG1sVm9kR1REY2c4d0JHZHdHd2xDcGU0S1FvSlVqdnFKaWtyQ1paTHJGb0RORERBS29qUmtXcFRQTmtmdUp3cDN1YzZRS0JKZmplQnlYTTVnYzJqZ2N3MmRoNnU5ajREUUFBZjN5dDQwenBzbkZPM2lXMUMtb0JSdDVNRm5udEZPN29OLXNfWEstalZRYmtuMTNYSjFuWFpUcXJtS1ZMaHFzNl9aWm9USE5yWml2eXppaTNsazFSMndXU1lOckFoTUZSOEN3REZtemlEbkJGckNmM2ZRRUtKamVrTUtNMngzd2N1RlNXYWg3d3NfM0RHZjdnNVozY09IQ1JnbUo0bk1CNmxNcHhndjBiNkgtekVRM3FkMnYtcEJaOFJaQ3BWNW5jQlBlUm9HbTdNWGtxVUU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia",
+      "necessita"
+    ],
+    "quote_id": "NE1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T18:52:59.213090+00:00",
+    "publish_at": "2026-11-10T09:17:00+00:00",
+    "timestamp": "2026-11-10T09:17:00+00:00"
+  },
+  {
     "id": "d301cbab6407",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zWHJTWWt6bjB0cFZQVGd3bFlFSzlvUWdFMnZ2WFBlcVVjM2JjM2JDUHd5Z1JPQ3ZxSmJvSVNKbVhYU3V3UEtrLThScm1JZTdJVU1vRDVTTkUtcWR6YkdHVWd0UTZJMEhKYUFXNjNPczJFT05PWnc?oc=5\nイラン外相は米国の要求受理か戦争かを迫り、有権者に選択を求めたという。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
     "theme": "guerra",
@@ -672,90 +753,5 @@
     "generated_at": "2026-11-05T17:04:29.729182+00:00",
     "publish_at": "2026-11-05T21:17:00+00:00",
     "timestamp": "2026-11-05T21:17:00+00:00"
-  },
-  {
-    "id": "f2cd3321a2bd",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuSVJtTnZWS01hb09RbHhIcmh4NGpmRTNlSng3S3BGa2d6SW5ocTUzLUZLa1ZNa09IY084WTRFVVVUdnVRQTZWNFBUcm5VNS12OFU2Wlp2end1d2pGNFdteXV3?oc=5\nトランプ政権内で揺れが生じ、バンス副大統領がイラン攻撃の終結を求めるとともに、ヘグセス国防長官に対して敗北の責任を求める動きがあった。\n「追従から身を守るには、真実を語っても汝の機嫌を損ねぬと、人々に分からせるほかに道はない。」\n『君主論 cap.XXIII』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ政権中枢に揺らぎ…バンス副大統領はイラン攻撃終結訴え、ヘグセス国防長官に敗北の責任求める動きも - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBuSVJtTnZWS01hb09RbHhIcmh4NGpmRTNlSng3S3BGa2d6SW5ocTUzLUZLa1ZNa09IY084WTRFVVVUdnVRQTZWNFBUcm5VNS12OFU2Wlp2end1d2pGNFdteXV3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "popolo_principe",
-      "consiglio",
-      "armi_proprie"
-    ],
-    "quote_id": "P23a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T15:30:49.307825+00:00",
-    "publish_at": "2026-11-05T15:30:49.307825+00:00",
-    "timestamp": "2026-11-05T15:30:49.307825+00:00"
-  },
-  {
-    "id": "6d44c4d0f398",
-    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcmRyc1drLVZDazRvODVxMU03T2c4ZUQ3S2RiY3BCcTd6VmRadGE1aEpTa1BhVy02dHRQb0RmbGZoZ0p2YlVnR3U1amI1anJ0VjZCdDhIWjdsdGduak1DWjg0Nk9JT05DakRaUmx3YTlueEdZMUJ1b2RKUUk1M0ZMNk5ORzZPZ2REYndfaQ?oc=5\nトランプ氏が高関税政策を維持するかどうかについて言及し、『関税払いたくない企業が米国に戻る』という主張を行った。\n「人間はかくも単純で、目前の必要にかくも従順であるから、欺こうとする者は、欺かれる者を常に見つけ出す。」\n『君主論 cap.XVIII』",
-    "theme": "inganno_simulazione",
-    "score": 2,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、高関税政策は維持か 「関税払いたくない企業が米国に戻る」主張 - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcmRyc1drLVZDazRvODVxMU03T2c4ZUQ3S2RiY3BCcTd6VmRadGE1aEpTa1BhVy02dHRQb0RmbGZoZ0p2YlVnR3U1amI1anJ0VjZCdDhIWjdsdGduak1DWjg0Nk9JT05DakRaUmx3YTlueEdZMUJ1b2RKUUk1M0ZMNk5ORzZPZ2REYndfaQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione",
-      "popolo_principe",
-      "economia",
-      "necessita"
-    ],
-    "quote_id": "P18c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T02:53:36.717764+00:00",
-    "publish_at": "2026-11-05T06:17:00+00:00",
-    "timestamp": "2026-11-05T06:17:00+00:00"
-  },
-  {
-    "id": "e5884c3f74c0",
-    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iblQ2VE1Qb1ozTzNXbHVqRGRnd1JIdzNxWUc4ZTBzVE54SkExMjBBdmpHQ3A3eU1WUGxLb1lLYXpCZE1oblJQV1B4X3hibHlBcExCdE9kRUtnNXhyb0VwMNIBZkFVX3lxTE9CZ2VDZlZYbWVONmVGU01haW80WDFzZllULWp3cHJJbEc5TGNOU0RvTVJTTFRhdDNDSTZwZWZEc3JSMWQ1dFVBQzBIeVdZVHNxaTJDOTNQeGMxU2FHU0FGTnNSWU5idw?oc=5\nロシアはウクライナの支援センターや病院を攻撃し、死者が増える事態を引き起こしているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 2,
-    "source": "Google News 国際(World)",
-    "source_title": "ウクライナの支援センター、ホスピス、病院へのロシア攻撃　死者数増える - BBC",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iblQ2VE1Qb1ozTzNXbHVqRGRnd1JIdzNxWUc4ZTBzVE54SkExMjBBdmpHQ3A3eU1WUGxLb1lLYXpCZE1oblJQV1B4X3hibHlBcExCdE9kRUtnNXhyb0VwMNIBZkFVX3lxTE9CZ2VDZlZYbWVONmVGU01haW80WDFzZllULWp3cHJJbEc5TGNOU0RvTVJTTFRhdDNDSTZwZWZEc3JSMWQ1dFVBQzBIeVdZVHNxaTJDOTNQeGMxU2FHU0FGTnNSWU5idw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG13",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T02:51:00.746686+00:00",
-    "publish_at": "2026-11-05T03:17:00+00:00",
-    "timestamp": "2026-11-05T03:17:00+00:00"
-  },
-  {
-    "id": "491f0914cf9b",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0gtU0pETUswcTRIaUlpREJSQjBkLXdvM1c4ZlBHUEJxaE9xNFYxazQybnRoSDVKNWpCa2o5c2dsNHJ4cVpHblJiR19ycDFuQ0VHbFZMc0taWk9oWmkxMGZTXzBzSWpGLTBicHBiQ1JSbThaSXowMkJUaFExcVZOVlR1SmJUVXfSAYwBQVVfeXFMT3VhY0JsZ3NNVFFyTmVaV3JId19ERVJOX0FiOGpDajdnU1FnU2VLTE9VZTA3RExtNnZfOVppVVJMMTMtNl9lMWo2cFllUU5fZGN5Q2pEbGotb05fYm5JTGg5MGxWZ1pFYzNtMkY2Q29jVTAxekF0VWcxdFpJbGQ0QnFOLVloX0h5RHc2M2c?oc=5\n韓国合同参謀本部は北朝鮮の発射体すべてを公表するわけではないと発表し、軍事的判断を示したという。\n「他人の武具は、身から滑り落ちるか、重くのしかかるか、締めつけるかのいずれかである。」\n『君主論 cap.XIII』",
-    "theme": "armi_proprie",
-    "score": 4,
-    "source": "Google News 国際(World)",
-    "source_title": "北朝鮮の「悪魔の兵器」を発表しなかった韓国合同参謀本部「北朝鮮の発射体すべてを公表するわけではない…軍事的判断」 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0gtU0pETUswcTRIaUlpREJSQjBkLXdvM1c4ZlBHUEJxaE9xNFYxazQybnRoSDVKNWpCa2o5c2dsNHJ4cVpHblJiR19ycDFuQ0VHbFZMc0taWk9oWmkxMGZTXzBzSWpGLTBicHBiQ1JSbThaSXowMkJUaFExcVZOVlR1SmJUVXfSAYwBQVVfeXFMT3VhY0JsZ3NNVFFyTmVaV3JId19ERVJOX0FiOGpDajdnU1FnU2VLTE9VZTA3RExtNnZfOVppVVJMMTMtNl9lMWo2cFllUU5fZGN5Q2pEbGotb05fYm5JTGg5MGxWZ1pFYzNtMkY2Q29jVTAxekF0VWcxdFpJbGQ0QnFOLVloX0h5RHc2M2c?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "armi_proprie"
-    ],
-    "quote_id": "P13b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T02:42:53.833375+00:00",
-    "publish_at": "2026-11-05T02:42:53.833375+00:00",
-    "timestamp": "2026-11-05T02:42:53.833375+00:00"
   }
 ]
