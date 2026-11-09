@@ -1,5 +1,45 @@
 [
   {
+    "id": "d301cbab6407",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zWHJTWWt6bjB0cFZQVGd3bFlFSzlvUWdFMnZ2WFBlcVVjM2JjM2JDUHd5Z1JPQ3ZxSmJvSVNKbVhYU3V3UEtrLThScm1JZTdJVU1vRDVTTkUtcWR6YkdHVWd0UTZJMEhKYUFXNjNPczJFT05PWnc?oc=5\nイラン外相は米国の要求受理か戦争かを迫り、有権者に選択を求めたという。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
+    "theme": "guerra",
+    "score": 15,
+    "source": "Google News 国際(World)",
+    "source_title": "「要求受理か、戦争か」イラン・アラグチ外相が米を揺さぶり 「米有権者は選択示した」 - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zWHJTWWt6bjB0cFZQVGd3bFlFSzlvUWdFMnZ2WFBlcVVjM2JjM2JDUHd5Z1JPQ3ZxSmJvSVNKbVhYU3V3UEtrLThScm1JZTdJVU1vRDVTTkUtcWR6YkdHVWd0UTZJMEhKYUFXNjNPczJFT05PWnc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P26",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T08:02:12.764442+00:00",
+    "publish_at": "2026-11-10T06:17:00+00:00",
+    "timestamp": "2026-11-10T06:17:00+00:00"
+  },
+  {
+    "id": "7c9b4db584bf",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vcVk4aXlmZDZ5R3NMT0R4N01Td3VheHh0LTVNQ0hLZU5ZaEQ1N1JTOHJLaUpHenJXeUZjdW1Sd29jQmRyUHQxdHVickFHZHlmQ1dDT2NWSFM5UkRwNmZJSGxQX2NmcTg3ajg5MQ?oc=5\n厳冬の中でキーウで10時間に及ぶ停電が起き、ロシアによる経済戦が市民生活に直撃している。\n「敵の利となることは汝を害し、汝の利となることは敵を害する。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 23,
+    "source": "Google News 国際(World)",
+    "source_title": "厳冬迫るキーウで停電10時間、ロシアの「経済戦」が市民生活を直撃 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vcVk4aXlmZDZ5R3NMT0R4N01Td3VheHh0LTVNQ0hLZU5ZaEQ1N1JTOHJLaUpHenJXeUZjdW1Sd29jQmRyUHQxdHVickFHZHlmQ1dDT2NWSFM5UkRwNmZJSGxQX2NmcTg3ajg5MQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AG1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T07:58:33.366408+00:00",
+    "publish_at": "2026-11-10T03:17:00+00:00",
+    "timestamp": "2026-11-10T03:17:00+00:00"
+  },
+  {
     "id": "848c680472b5",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZEpTNVNRU1J6SlBrV2FyeWJ4d21sSEd1cGoyWU5FRHE2MmxsSDgtd2FVNTFKWWozV3lvak9WaVpkYjBhdXhmZGxiTWo3TFl5SEFxWUEwSXJ0TG5GLWNmdG5mUFgtc0dJakhLV2tHU0VaeUhJNmQ5ZWVuSTRkQkpBSDdTNFhwelk?oc=5\nゼレンスキー氏はロシアが停戦を拒否すればウクライナは攻撃を継続すると表明したという。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
     "theme": "guerra",
@@ -717,45 +757,5 @@
     "generated_at": "2026-11-05T02:42:53.833375+00:00",
     "publish_at": "2026-11-05T02:42:53.833375+00:00",
     "timestamp": "2026-11-05T02:42:53.833375+00:00"
-  },
-  {
-    "id": "af8caea958c1",
-    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9JVmp1dldvYmdvUTJXSldQcFBBUEl5TnZzOURLVEQ4dTdDa3lqVDVfTnF6Zmxyb0VlTlhiTHlUNEFTQkNaTFZoVkliSVgtcWdrakdUaWVDT2oxa2RlN2NPRjFyMm1VUDF6ZEFpcC1fTldoMFnSAXhBVV95cUxQYXVXak5vY3RaVHNWd19EV2R0UGYzeFd5N19iMHVlb0ZhOWpGbTZuRVpQQWRQYTR4RGFXQlFCRW9uMVJJbFFVOEdjNXdQYXh6bG9tZ0VjU1RrZ1VQYnI4VTdmbFlsMzVsSGpucjRHWTZQRzJhZjRIZW8?oc=5\n中国は、フィリピンの一部政治家がレッドラインを越えた言動を行い、これに抑制を要求しているという。\n「侮蔑と罵倒は、それを用いる者への憎しみを生むだけで、何の得にもならぬ。」\n『リウィウス論 II.26』",
-    "theme": "inganno_simulazione",
-    "score": 2,
-    "source": "Google News 国際(World)",
-    "source_title": "中国、フィリピンの一部政治家が「レッドライン越えた」と非難 言動抑制を要求 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9JVmp1dldvYmdvUTJXSldQcFBBUEl5TnZzOURLVEQ4dTdDa3lqVDVfTnF6Zmxyb0VlTlhiTHlUNEFTQkNaTFZoVkliSVgtcWdrakdUaWVDT2oxa2RlN2NPRjFyMm1VUDF6ZEFpcC1fTldoMFnSAXhBVV95cUxQYXVXak5vY3RaVHNWd19EV2R0UGYzeFd5N19iMHVlb0ZhOWpGbTZuRVpQQWRQYTR4RGFXQlFCRW9uMVJJbFFVOEdjNXdQYXh6bG9tZ0VjU1RrZ1VQYnI4VTdmbFlsMzVsSGpucjRHWTZQRzJhZjRIZW8?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "D2.26",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T15:47:33.598446+00:00",
-    "publish_at": "2026-11-04T18:17:00+00:00",
-    "timestamp": "2026-11-04T18:17:00+00:00"
-  },
-  {
-    "id": "1aaae8811692",
-    "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aZmZkQ01YWEc4RjRkYmptczJBTnZUY1I0enFpaGJWWjl3RUc4UHdfdm5BV3VJMTBqdUFJcVRyQmR6ak13QW1WTVhlbXFvRWZ5SVHSAVRBVV95cUxPT3c5dHAxT21KYWs5QlMtbkhGeU5kTEJ0VG83MGZrU0xXMU9QUUNfVlZiMDR6VWdkVzRNRHBOdDNrbUpFNUFhb0diTmVJOTZMbXFGai0?oc=5\nイランはホルムズ海峡を2日以内に再開可能だと発表し、米国からの要求を受け入れるよう迫っているという。\n「己の力と敵の力を知る者は、容易には敗れぬ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン、ホルムズ海峡「2日以内に再開可能」 米に要求受け入れ迫る - AFPBB News",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aZmZkQ01YWEc4RjRkYmptczJBTnZUY1I0enFpaGJWWjl3RUc4UHdfdm5BV3VJMTBqdUFJcVRyQmR6ak13QW1WTVhlbXFvRWZ5SVHSAVRBVV95cUxPT3c5dHAxT21KYWs5QlMtbkhGeU5kTEJ0VG83MGZrU0xXMU9QUUNfVlZiMDR6VWdkVzRNRHBOdDNrbUpFNUFhb0diTmVJOTZMbXFGai0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG6",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T15:27:16.436268+00:00",
-    "publish_at": "2026-11-04T15:27:16.436268+00:00",
-    "timestamp": "2026-11-04T15:27:16.436268+00:00"
   }
 ]
