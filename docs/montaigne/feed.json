@@ -1,5 +1,79 @@
 [
   {
+    "id": "2ac3c2cc688b",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FQ05ZX210Ty1ZY3gxanVSZVN5cmFiVDZubWo4X1RwV0RaMFd5QnRRWXlTeDIyZFVrclZzMUxrU0lvVVNkekk1SXFZNmc1bGdRMmJz?oc=5\n中退や不登校で困る若者が作りたかったのは、孤立を防ぎたいという居場所である。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
+    "theme": "soi",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "中退や不登校による孤立を防ぎたい！若者とつくる居場所 - クラウドファンディング - READYFOR",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FQ05ZX210Ty1ZY3gxanVSZVN5cmFiVDZubWo4X1RwV0RaMFd5QnRRWXlTeDIyZFVrclZzMUxrU0lvVVNkekk1SXFZNmc1bGdRMmJz?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.39c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T12:02:56.008374+00:00",
+    "publish_at": "2026-11-10T10:17:00+00:00",
+    "timestamp": "2026-11-10T10:17:00+00:00"
+  },
+  {
+    "id": "a6c02d08a873",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzeDYxanBLaU1GekhKOXh0dmpMVlZ1bGJYbGNpRFgtU0lNazJvbU5PejlZYUIwQ1RlWE1JR2pEMm5HTlFpb25vRUlhbzkxWmZLRlhMUmx3QXRfQm1CUDRfbkVPZEljbXVrM2Zhakh0YW5nZVlJX3c?oc=5\nサンセルモは終活イベントで『家族に遺したいもの』を問いかけ、元気な今だからこそ考えたいと誘うという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "サンセルモ「LASTART ひろしま終活イベント 2026」に出展「家族に遺しておきたいものは何ですか？」を問いかける参加型展示を実施 元気な今だからこそ考えたい、お葬式の“前”と“後”のこと - Mantan Web",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzeDYxanBLaU1GekhKOXh0dmpMVlZ1bGJYbGNpRFgtU0lNazJvbU5PejlZYUIwQ1RlWE1JR2pEMm5HTlFpb25vRUlhbzkxWmZLRlhMUmx3QXRfQm1CUDRfbkVPZEljbXVrM2Zhakh0YW5nZVlJX3c?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "soi"
+    ],
+    "quote_id": "I.20b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T11:59:10.744274+00:00",
+    "publish_at": "2026-11-10T07:17:00+00:00",
+    "timestamp": "2026-11-10T07:17:00+00:00"
+  },
+  {
+    "id": "1a63b828b923",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KUWxJbnM0QldENEd3OGNfMmsxZUNVY29fblpxM185RlZYdkdjNXhjVlU3Y2hvbDZwYVFmOTkteklkb1RpX1RUUnNGNVg1eGhLTU1BTlRFbU1NRWZHVTZMUG84Mm1mLVdvVDJEUA?oc=5\n愛知の豊明市で浮き彫りになったのは、『スマホは2時間以内』の条例が50代の孤独を示していることだ。\n「法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「スマホは2時間以内」条例が浮き彫りにしたのは50代の孤独 スマホ依存は大人も、愛知・豊明市 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KUWxJbnM0QldENEd3OGNfMmsxZUNVY29fblpxM185RlZYdkdjNXhjVlU3Y2hvbDZwYVFmOTkteklkb1RpX1RUUnNGNVg1eGhLTU1BTlRFbU1NRWZHVTZMUG84Mm1mLVdvVDJEUA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "soi"
+    ],
+    "quote_id": "III.13b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T11:54:27.943453+00:00",
+    "publish_at": "2026-11-10T04:17:00+00:00",
+    "timestamp": "2026-11-10T04:17:00+00:00"
+  },
+  {
+    "id": "9c6402612a9e",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vZGhoMmVWOVRWN1ZRaEJPeUk3U05pVm82Y3NsNEVHSTlUelo4UERnN3hSOWxpZ3ZvVlZwNmNZSDRqRk15SDd6ME1aWmR6MEFncndNU0MyZVJJLVJOam9zZ0lRaEZZcmxTZFFfZTNpM2V6RzdsQXlBay1uUWEwUzg?oc=5\n京大名物数学者の父は、子供に\"勉強しろ\"や\"学校に行け\"を絶対言われなかったという。\n「もっともらしいことでも、絶対確実だと押しつけられると、私はそれが嫌いになる。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "savoir",
+    "score": 8,
+    "source": "Google News 科学",
+    "source_title": "｢勉強しろ｣｢学校に行け｣と絶対言われなかった…不登校だった京大名物数学者が父から受けた教育（プレジデントオンライン） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vZGhoMmVWOVRWN1ZRaEJPeUk3U05pVm82Y3NsNEVHSTlUelo4UERnN3hSOWxpZ3ZvVlZwNmNZSDRqRk15SDd6ME1aWmR6MEFncndNU0MyZVJJLVJOam9zZ0lRaEZZcmxTZFFfZTNpM2V6RzdsQXlBay1uUWEwUzg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "III.11d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T11:40:49.562048+00:00",
+    "publish_at": "2026-11-10T01:17:00+00:00",
+    "timestamp": "2026-11-10T01:17:00+00:00"
+  },
+  {
     "id": "f463cb5849e3",
     "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HeklmY19aNWRBOXpDWFpDelAxd2l4TEljMnRmamJjUXdQZ2gyanJoQ3YtZHdRalkycURLbjBZTm4zU2plUHZhdUd5ZE9uMV94ZkZZSE92RU4wNk05OEZHNHRVUnhmRUFSbDVRSlZJNnRFSWUwVUVz0gF8QVVfeXFMUG1RVGdTZFIwdGhTN1BaOHlncXU2WldRbDlzeXVKUmZWN2hNTTdBMl9mMlYyUHBxeHN6RjVCelMzbk1ITUcxNXhCM3Y4QndDNVVkUnpFYXFhcDU1QzU3TXE2QTE5TGkzdTJWTXNSN3VxVWNTZ1NoUm1oeHgwXw?oc=5\n山梨ダルク代表が、1億円私的流用で問題となり、2法人に対して課税が行われたという。\n「市長とモンテーニュとは、いつもはっきり分かたれた二人であった。」\n『エセー III.10「自分の意志を節約することについて」』",
     "theme": "inconstance",
@@ -629,83 +703,5 @@
     "generated_at": "2026-11-05T08:39:50.312281+00:00",
     "publish_at": "2026-11-05T16:17:00+00:00",
     "timestamp": "2026-11-05T16:17:00+00:00"
-  },
-  {
-    "id": "6eb5b84485cb",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wTUxsU09iMUVtNUY2TmRGWXU5cDlYelNMSXIzUmhnQ2xYQzNBNnZBMVdiWkViN0psdTBPSHZYTi1yeXk1cF85TWZlc0JWcUhQQm5CRzY1ZDFYX1EydjFlQmpWbDV5TmswMnJ6eUpwUGhRUzVRNmc?oc=5\n兵庫の漁船船長らはインドネシア人技能実習生の顔にわさび塗ったかと疑われ逮捕されたという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
-    "theme": "cruaute",
-    "score": 6,
-    "source": "Google News 国内",
-    "source_title": "インドネシア人技能実習生の顔にわさび塗ったか 暴行疑いで兵庫の漁船船長ら逮捕 - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wTUxsU09iMUVtNUY2TmRGWXU5cDlYelNMSXIzUmhnQ2xYQzNBNnZBMVdiWkViN0psdTBPSHZYTi1yeXk1cF85TWZlc0JWcUhQQm5CRzY1ZDFYX1EydjFlQmpWbDV5TmswMnJ6eUpwUGhRUzVRNmc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "lois",
-      "autrui"
-    ],
-    "quote_id": "II.11",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T07:55:55.484797+00:00",
-    "publish_at": "2026-11-05T07:55:55.484797+00:00",
-    "timestamp": "2026-11-05T07:55:55.484797+00:00"
-  },
-  {
-    "id": "eaf4d1f1a551",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5\n研究者たちが、AIのブラックボックスに関する定説を覆すような新しい仮説を唱えているという。\n「そこから何を学ぶべきか。二つの説のどちらが正しいかに心を煩わすには及ばぬ、ということではないか。千年後に第三の説が現れて、先の二つを覆さぬと誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
-    "theme": "savoir",
-    "score": 8,
-    "source": "Google News 科学",
-    "source_title": "AIの「ブラックボックス」は存在しない？ 定説を覆す新仮説と研究者たちの激論 - Forbes JAPAN",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcW9fRHhRUUNSUTIwUzh6RS1EVHdNcWFLdGhuRThYQ05jY3RCWlJ2QVVSYmpiczhMN3VYb0QxMlJTaFJNYVlqNlNWNFBaNEt3MkdPdE9tWm1GUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "presomption"
-    ],
-    "quote_id": "II.12f",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T21:56:30.478350+00:00",
-    "publish_at": "2026-11-04T21:56:30.478350+00:00",
-    "timestamp": "2026-11-04T21:56:30.478350+00:00"
-  },
-  {
-    "id": "c882d2177326",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUGxyX0loUXFERGVfOHFPZFU2aktuNzBhU0txRzM5SXJuV3Y3R3VJZVUwVnhiQVQtX1R1dkRGUnczU3U4T2JaRnE0SmwzRFE4N05oaTRMOXozeHlVX2UwREpvRVd6VDRBXzdqc1I5ZW1qWHI3Qnc2UWpQNFhlcTQ?oc=5\n精神科医は、ぬい活を精神的な幼児化の表れと指摘し、根底には強い孤独感があると語ったという。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
-    "theme": "opinion",
-    "score": 4,
-    "source": "Google News 国内",
-    "source_title": "「ぬい活」は「精神的な幼児化の表れ」 精神科医が指摘「根底に強い孤独感が」（デイリー新潮） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUGxyX0loUXFERGVfOHFPZFU2aktuNzBhU0txRzM5SXJuV3Y3R3VJZVUwVnhiQVQtX1R1dkRGUnczU3U4T2JaRnE0SmwzRFE4N05oaTRMOXozeHlVX2UwREpvRVd6VDRBXzdqc1I5ZW1qWHI3Qnc2UWpQNFhlcTQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "opinion",
-      "savoir",
-      "soi"
-    ],
-    "quote_id": "I.39c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T06:38:48.827953+00:00",
-    "publish_at": "2026-11-04T10:17:00+00:00",
-    "timestamp": "2026-11-04T10:17:00+00:00"
-  },
-  {
-    "id": "5b92c59a9d48",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ESjNic2tadEtRRDJSUGo4SnNaXzRfMExJakVqeEF1dzVIcFR3aUdCX082UlZsejhZQ2NNWk1ERnhtbGcyOUNjWGQ4MkJwLXJ5dXRVdGhqTzZlQXBjcnlwalpPSDFGMzIyWWZzQm5yMXFXcGFjWllmcENQcE5icFU?oc=5\nNASAは宇宙望遠鏡の軌道上昇などで企業に情報提供を依頼し、民間の力で延命への道を歩もうとしているという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "presomption",
-    "score": 6,
-    "source": "Google News 科学",
-    "source_title": "民間の力で延命へ？ NASAがハッブル宇宙望遠鏡の軌道上昇などで企業に情報提供を依頼（sorae 宇宙へのポータルサイト） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ESjNic2tadEtRRDJSUGo4SnNaXzRfMExJakVqeEF1dzVIcFR3aUdCX082UlZsejhZQ2NNWk1ERnhtbGcyOUNjWGQ4MkJwLXJ5dXRVdGhqTzZlQXBjcnlwalpPSDFGMzIyWWZzQm5yMXFXcGFjWllmcENQcE5icFU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption",
-      "profit"
-    ],
-    "quote_id": "I.20b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T06:29:42.788597+00:00",
-    "publish_at": "2026-11-04T07:17:00+00:00",
-    "timestamp": "2026-11-04T07:17:00+00:00"
   }
 ]
