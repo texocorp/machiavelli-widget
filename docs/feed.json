@@ -1,5 +1,45 @@
 [
   {
+    "id": "848c680472b5",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZEpTNVNRU1J6SlBrV2FyeWJ4d21sSEd1cGoyWU5FRHE2MmxsSDgtd2FVNTFKWWozV3lvak9WaVpkYjBhdXhmZGxiTWo3TFl5SEFxWUEwSXJ0TG5GLWNmdG5mUFgtc0dJakhLV2tHU0VaeUhJNmQ5ZWVuSTRkQkpBSDdTNFhwelk?oc=5\nゼレンスキー氏はロシアが停戦を拒否すればウクライナは攻撃を継続すると表明したという。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナは攻撃を継続、ロシアが停戦拒否なら－ゼレンスキー氏 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZEpTNVNRU1J6SlBrV2FyeWJ4d21sSEd1cGoyWU5FRHE2MmxsSDgtd2FVNTFKWWozV3lvak9WaVpkYjBhdXhmZGxiTWo3TFl5SEFxWUEwSXJ0TG5GLWNmdG5mUFgtc0dJakhLV2tHU0VaeUhJNmQ5ZWVuSTRkQkpBSDdTNFhwelk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D3.40",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T01:12:39.941531+00:00",
+    "publish_at": "2026-11-10T00:17:00+00:00",
+    "timestamp": "2026-11-10T00:17:00+00:00"
+  },
+  {
+    "id": "750ba74ae9c3",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12TG0zMHRuQmtmQWVnMkZXem52N0FqeUthU1NUcU9GMWpDLUZRanlZS2hEaElDYmpwcmZ6TlA3RjZEalA1d1BmbTUyNmZrU0w2LWxxSnhwQ0d6bkFuWGkwLUJ3aUNnOWM?oc=5\n中国が台湾有事をめぐる日中で応酬する中、安倍氏と習近平氏は笑顔なき握手を交わしたという。\n「敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。」\n『リウィウス論 III.10』",
+    "theme": "guerra",
+    "score": 13,
+    "source": "Google News 検索 国内政治",
+    "source_title": "安倍氏と習近平氏が笑顔なき握手を交わすまで 12年前のヒントは [台湾有事答弁めぐる日中応酬 存立危機事態 高市首相 中国] - 朝日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12TG0zMHRuQmtmQWVnMkZXem52N0FqeUthU1NUcU9GMWpDLUZRanlZS2hEaElDYmpwcmZ6TlA3RjZEalA1d1BmbTUyNmZrU0w2LWxxSnhwQ0d6bkFuWGkwLUJ3aUNnOWM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "fortuna_virtu"
+    ],
+    "quote_id": "D3.10",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T01:06:16.767563+00:00",
+    "publish_at": "2026-11-09T21:17:00+00:00",
+    "timestamp": "2026-11-09T21:17:00+00:00"
+  },
+  {
     "id": "59c4639281e1",
     "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1QkljWXlCMWFOWWV2clFpdE53c0NqZmhjYU5ldmFHMGhOTFpVZU43YnlaTWN0VTZBeTU3Sng2S2liV2VQUVhOUnJ0NXl3MTcwbGtHaEZDX3Rwa1FQRWZQYkFSZkpjb2J6b1JPTzVtaEU5VUk?oc=5\n米国がエネルギー施設の停戦について合意したと発表し、ウクライナはロシアの違反を主張している。\n「力ずくでさせられた約束は、守るべきものではない。」\n『リウィウス論 III.42』",
     "theme": "inganno_simulazione",
@@ -717,25 +757,5 @@
     "generated_at": "2026-11-04T15:27:16.436268+00:00",
     "publish_at": "2026-11-04T15:27:16.436268+00:00",
     "timestamp": "2026-11-04T15:27:16.436268+00:00"
-  },
-  {
-    "id": "bc05545813f8",
-    "text": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss\nトランプ氏は、ホルムズ海峡計画への米国の回答を説得力に欠けると指摘しているという。\n「優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "Al Jazeera",
-    "source_title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
-    "source_title_ja": "イラン、ホルムズ海峡計画への米国の回答を「説得力に欠ける」と指摘＝トランプ氏、空襲確認",
-    "source_url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG11",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T06:44:22.915780+00:00",
-    "publish_at": "2026-11-04T12:17:00+00:00",
-    "timestamp": "2026-11-04T12:17:00+00:00"
   }
 ]
