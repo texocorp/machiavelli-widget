@@ -1,5 +1,67 @@
 [
   {
+    "id": "3a97f8f8ae41",
+    "text": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSTNhZXRDOHo3c3p5aGVwYmE1Y1VhcUxabWwwZFZsNjZtMXhlUzdzdGtqM0ZzQlF1MzV5eWhsbUlYTW10ZzdXcEJuYVppUkhlY1hTeUhrOEg3Y0VmUVJwOC16MmRZaDhvV3NJSlZNR0d5T3ZGUXJNYnZVUVZ3by1UblA3VzBycklaWVJqVHpwMmxfeVM0U3VaTnl4OVZfbHFx?oc=5\n中国が『AIセキュリティガバナンスフレームワーク3.0』を示し、企業のAI運用統制について言及した。\n「いかなる帝国も、いかなる宗派も、いかなる星も、これらの機械的発明以上の力と、いわば影響を、人間の事柄に及ぼしたとは思われないほどである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
+    "original": "… ut non imperium aliquod, non secta, non stella, majorem efficaciam et quasi influxum super res humanas exercuisse videatur, quam ista mechanica exercuerunt.",
+    "original_lang": "la",
+    "theme": "potentia",
+    "score": 10,
+    "source": "Google News AI・研究政策",
+    "source_title": "生成AIを巡る米欧中の規制動向最前線 中国「AIセキュリティガバナンスフレームワーク3.0」が示す企業のAI運用統制 - PwC",
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSTNhZXRDOHo3c3p5aGVwYmE1Y1VhcUxabWwwZFZsNjZtMXhlUzdzdGtqM0ZzQlF1MzV5eWhsbUlYTW10ZzdXcEJuYVppUkhlY1hTeUhrOEg3Y0VmUVJwOC16MmRZaDhvV3NJSlZNR0d5T3ZGUXJNYnZVUVZ3by1UblA3VzBycklaWVJqVHpwMmxfeVM0U3VaTnl4OVZfbHFx?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "potentia",
+      "novitas"
+    ],
+    "quote_id": "NO1.129b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T03:00:29.273042+00:00",
+    "publish_at": "2026-11-10T02:17:00+00:00",
+    "timestamp": "2026-11-10T02:17:00+00:00"
+  },
+  {
+    "id": "55782cb94877",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xU0NPTEhGWVZhU1d3VGtZelBUR1dsNDFhZTZHanBqelhpU0E0Rmk4WUZybkRiYlJnbS14aG9nV1NLcl9iTzBXMmNJOXU5MmJkNlhKMDNfQWEtOHQ3WUE?oc=5\n磐田は、SNSやスタジアムで行われた誹謗中傷について決して容認いたしませんと声明を出したという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
+    "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News SNS・報道",
+    "source_title": "SNSやスタジアムで誹謗中傷…磐田が声明「決して容認いたしません」の写真 - ゲキサカ",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xU0NPTEhGWVZhU1d3VGtZelBUR1dsNDFhZTZHanBqelhpU0E0Rmk4WUZybkRiYlJnbS14aG9nV1NLcl9iTzBXMmNJOXU5MmJkNlhKMDNfQWEtOHQ3WUE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E59a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T02:53:42.828530+00:00",
+    "publish_at": "2026-11-09T23:17:00+00:00",
+    "timestamp": "2026-11-09T23:17:00+00:00"
+  },
+  {
+    "id": "086c9c86d5d4",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnSmdQa0M0WW5wZUl2NFpUbVNTQldid0s1b0hEdXdqUWl3U1c2cHJzU0pXMlBnRU1XNEoybFotdDRkQWl6VnJFeldtaVpNUTc3clFWZlhoMERVZVcxWEN2dDFCbi1YUzVaY3k1dExDaW5OT2tibGRRd1NVa1FZWTQ?oc=5\nAERA DIGITALは「『怒り』や『不安』を感じているときほど人は操作されやすくなる 偽情報だけではない『認知戦』の本質 ジャパン・ネクサス・インテリジェンスの髙森雅和さんに聞く」と報じた。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
+    "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 14,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「怒り」や「不安」を感じているときほど人は操作されやすくなる 偽情報だけではない「認知戦」の本質 ジャパン・ネクサス・インテリジェンスの髙森雅和さんに聞く（AERA DIGITAL） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnSmdQa0M0WW5wZUl2NFpUbVNTQldid0s1b0hEdXdqUWl3U1c2cHJzU0pXMlBnRU1XNEoybFotdDRkQWl6VnJFeldtaVpNUTc3clFWZlhoMERVZVcxWEN2dDFCbi1YUzVaY3k1dExDaW5OT2tibGRRd1NVa1FZWTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "tribus"
+    ],
+    "quote_id": "E50a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T02:43:47.568146+00:00",
+    "publish_at": "2026-11-09T20:17:00+00:00",
+    "timestamp": "2026-11-09T20:17:00+00:00"
+  },
+  {
     "id": "a53bb67fa06d",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAydkMyeWh0aS1JZTBJbXdxdWZ0U2VtU3RSRUU0YU9pTEJHbUdXSzVEQTYzSDVTNjRrd3BjNXBMdWxMZnhha2hfN3BYNDhib3RfeG5ZdXJkSjd0V3RfWnRzX0Fn?oc=5\nAIが超知能を100％支持するトランプ氏による支援表明があり、中間選挙の民主党大勝で規制強化が懸念されているという。\n「印刷術、火薬、羅針盤。この三つが、世界における事物の様相と状態を一変させた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
     "original": "Artis nimirum Imprimendi, Pulveris Tormentarii, et Acus Nauticae. Haec enim tria rerum faciem et statum in orbe terrarum mutaverunt …",
