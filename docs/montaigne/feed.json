@@ -1,5 +1,79 @@
 [
   {
+    "id": "18e9688556c8",
+    "text": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVdyLW1aRVRUd19nTjlBdlEtd3VFd2dEVGVlN3VUbUFVNDNTbGtwZHAxdHBtaHVmcEZxbTJHcEE5ejZfa09vTFh4eEJZWGQ4cGFrSmo4eTBpaUs3Q0owVjJNNTcxb2JjODRtWHE1TlNkV2xwMGlWOFNNVElyaThpcUtRTQ?oc=5\n離婚し親しい友人もいない上に長時間労働に追われる孤独な男性が、フィリピンへの移住によって第二の人生を切り開いた。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "離婚、親しい友人なし、長時間労働…。孤独な男性がフィリピン移住で第二の人生を切り開いた方法 - Business Insider Japan",
+    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVdyLW1aRVRUd19nTjlBdlEtd3VFd2dEVGVlN3VUbUFVNDNTbGtwZHAxdHBtaHVmcEZxbTJHcEE5ejZfa09vTFh4eEJZWGQ4cGFrSmo4eTBpaUs3Q0owVjJNNTcxb2JjODRtWHE1TlNkV2xwMGlWOFNNVElyaThpcUtRTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "III.10d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T22:34:53.709217+00:00",
+    "publish_at": "2026-11-10T22:17:00+00:00",
+    "timestamp": "2026-11-10T22:17:00+00:00"
+  },
+  {
+    "id": "7e2955883add",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hWXhvSTdQTjZDYTRfQWhUQ1JTQ2hTQ2NrY0N2eWNkR29pbGFDWjcwbl9HN1NKclV1ZGszNU9mS1p3MktzQkRzWkpVakpRVnZUaTFwYXZCVU1mNml6U3c?oc=5\n大学生が1年間探し続けた世界で最も珍しい昆虫が、イエローストーンで発見されたという。\n「物事の大きさよりも、その目新しさのほうが、我々をその原因の探究へと駆り立てる。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 科学",
+    "source_title": "大学生が1年探し続けた「世界で最も珍しい昆虫」をイエローストーンで発見 (2/3) - ナゾロジー",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hWXhvSTdQTjZDYTRfQWhUQ1JTQ2hTQ2NrY0N2eWNkR29pbGFDWjcwbl9HN1NKclV1ZGszNU9mS1p3MktzQkRzWkpVakpRVnZUaTFwYXZCVU1mNml6U3c?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "I.27b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T22:30:57.721297+00:00",
+    "publish_at": "2026-11-10T19:17:00+00:00",
+    "timestamp": "2026-11-10T19:17:00+00:00"
+  },
+  {
+    "id": "672c4ffe67af",
+    "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tTThBZmwtbV95U3BGcFpYQUxGSzBNT3Z3allHRHJTa04yYTYtVkhhX08zNTFWdV9NVUVXVXY5dF9YOHBheDNNU3U1Uk92SFhVaHhFNXJObVI?oc=5\n湖東記念病院訴訟で再審無罪が確定した西山さんは、捜査の違法性を主張して最高裁に書面を提出したという。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 8,
+    "source": "Google News 検索 裁き",
+    "source_title": "湖東記念病院訴訟で再審無罪が確定した西山さん「捜査の違法性」を主張、最高裁へ書面提出 - 京都新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tTThBZmwtbV95U3BGcFpYQUxGSzBNT3Z3allHRHJTa04yYTYtVkhhX08zNTFWdV9NVUVXVXY5dF9YOHBheDNNU3U1Uk92SFhVaHhFNXJObVI?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "medecine"
+    ],
+    "quote_id": "III.13n",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T22:29:26.767356+00:00",
+    "publish_at": "2026-11-10T16:17:00+00:00",
+    "timestamp": "2026-11-10T16:17:00+00:00"
+  },
+  {
+    "id": "5f6d4854171b",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UczI4bDZBNmphdFFZV2FKN0t2RXFVYjFINHBENERzNW83andnUHBnelRsbHRtblZSU0lnUEV0RE84SXBuLVQtT1lMdThDN3hZQVllRDNhU0k1YmZCczQzbUpPWVVzcVJrSGNKOVVteUxxY0N4RkhTWWJ3TTdsMlE?oc=5\n子ども時代の虐待やいじめなど多い若者ほど、子どもを持ちたくない傾向が明らかになったという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
+    "theme": "cruaute",
+    "score": 10,
+    "source": "Google News 検索 教育",
+    "source_title": "子ども時代の虐待やいじめなど多い若者ほど「子どもを持ちたくない」傾向が明らかに（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UczI4bDZBNmphdFFZV2FKN0t2RXFVYjFINHBENERzNW83andnUHBnelRsbHRtblZSU0lnUEV0RE84SXBuLVQtT1lMdThDN3hZQVllRDNhU0k1YmZCczQzbUpPWVVzcVJrSGNKOVVteUxxY0N4RkhTWWJ3TTdsMlE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute",
+      "soi"
+    ],
+    "quote_id": "II.11",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-09T22:28:05.330515+00:00",
+    "publish_at": "2026-11-10T13:17:00+00:00",
+    "timestamp": "2026-11-10T13:17:00+00:00"
+  },
+  {
     "id": "2ac3c2cc688b",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FQ05ZX210Ty1ZY3gxanVSZVN5cmFiVDZubWo4X1RwV0RaMFd5QnRRWXlTeDIyZFVrclZzMUxrU0lvVVNkekk1SXFZNmc1bGdRMmJz?oc=5\n中退や不登校で困る若者が作りたかったのは、孤立を防ぎたいという居場所である。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
     "theme": "soi",
@@ -623,85 +697,5 @@
     "generated_at": "2026-11-05T08:58:48.375331+00:00",
     "publish_at": "2026-11-06T04:17:00+00:00",
     "timestamp": "2026-11-06T04:17:00+00:00"
-  },
-  {
-    "id": "883e219b9f07",
-    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDdDZneGoxaUcyVF9IeXpGVl81Z2NNcTBKYkV4VXlHem9yWVVBME9iRk1ZM3lwcjJ0OGJnYXFpMEdwM0tPU1Jsbk9VOVJIZkNoLUU3Um1vOA?oc=5\n嬉野には、『心身の健康寿命を重んじる文化』が1300年前からあったという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
-    "theme": "mort",
-    "score": 6,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "「心身の健康寿命を重んじる文化」は、嬉野に1300年前からあった。――温泉・お茶・養生を、宇宙で健康に暮らす研究とつなぐ - 写真・画像(1/1) - 西日本新聞me",
-    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDdDZneGoxaUcyVF9IeXpGVl81Z2NNcTBKYkV4VXlHem9yWVVBME9iRk1ZM3lwcjJ0OGJnYXFpMEdwM0tPU1Jsbk9VOVJIZkNoLUU3Um1vOA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "medecine",
-      "savoir",
-      "presomption",
-      "coutume"
-    ],
-    "quote_id": "III.13j",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:53:10.814817+00:00",
-    "publish_at": "2026-11-06T01:17:00+00:00",
-    "timestamp": "2026-11-06T01:17:00+00:00"
-  },
-  {
-    "id": "f6d43507f4de",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NbW11c2dpVmZwVXkyU1FXcmQ2MTNHNlNGSUQzS0YxSGVFaF9jZ2tIa2VyZlh1QmdjdFVGQWR6WGVOWjA3UnZrVF91d1NPTGg0al9MQVJ3?oc=5\n被害者の人生に重い影響を与える『いじめ後遺症』から、対策について考えさせられるという。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
-    "theme": "cruaute",
-    "score": 8,
-    "source": "Google News 検索 教育",
-    "source_title": "被害者の人生に影響 「いじめ後遺症」から考える対策 - 教育新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NbW11c2dpVmZwVXkyU1FXcmQ2MTNHNlNGSUQzS0YxSGVFaF9jZ2tIa2VyZlh1QmdjdFVGQWR6WGVOWjA3UnZrVF91d1NPTGg0al9MQVJ3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "savoir",
-      "peur"
-    ],
-    "quote_id": "II.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:51:08.415031+00:00",
-    "publish_at": "2026-11-05T22:17:00+00:00",
-    "timestamp": "2026-11-05T22:17:00+00:00"
-  },
-  {
-    "id": "2a64d2a4d35e",
-    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hOW5pN3NvWWJwaWlJQ0piblFBSk5iMlRnbVhST1U1MDNzVVZHbmZwQ2RvUkZGaW1ucXE5SUNvNTFpN0s1MW8wdG9yaTNIbUgtU3d1S9IBVEFVX3lxTE9hOW5pN3NvWWJwaWlJQ0piblFBSk5iMlRnbVhST1U1MDNzVVZHbmZwQ2RvUkZGaW1ucXE5SUNvNTFpN0s1MW8wdG9yaTNIbUgtU3d1Sw?oc=5\nチャ・イェリョンの事務所は、いじめ疑惑を改めて否定するとともに、虚偽情報への法的対応を表明したという。\n「もし嘘が真実と同じく一つの顔しか持たないなら、事はもっと楽であろう。嘘つきの言うことの反対を確かなものと受け取ればよいのだから。だが真実の裏側には十万の姿があり、果てしない広がりがある。」\n『エセー I.9「嘘つきについて」』",
-    "theme": "cruaute",
-    "score": 8,
-    "source": "Google News 検索 教育",
-    "source_title": "チャ・イェリョンの事務所、いじめ疑惑を改めて否定…虚偽情報への法的対応を表明 - AFPBB News",
-    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hOW5pN3NvWWJwaWlJQ0piblFBSk5iMlRnbVhST1U1MDNzVVZHbmZwQ2RvUkZGaW1ucXE5SUNvNTFpN0s1MW8wdG9yaTNIbUgtU3d1S9IBVEFVX3lxTE9hOW5pN3NvWWJwaWlJQ0piblFBSk5iMlRnbVhST1U1MDNzVVZHbmZwQ2RvUkZGaW1ucXE5SUNvNTFpN0s1MW8wdG9yaTNIbUgtU3d1Sw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "opinion"
-    ],
-    "quote_id": "I.9",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:48:33.645702+00:00",
-    "publish_at": "2026-11-05T19:17:00+00:00",
-    "timestamp": "2026-11-05T19:17:00+00:00"
-  },
-  {
-    "id": "33753516548f",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yeXlSQkVpWUlHMWY5WlctY0FOWEJ6THNzMXQwSDlFYnFCVXhDczVWNm9Qc2hwVXBoM1pVRHdGX185U0gwZ1cwRGVMbw?oc=5\n大川原冤罪事件の裁判では、裁判官がなぜ証拠隠滅すると判断したかが問われているという。\n「結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。」\n『エセー III.11「足の不自由な人々について」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 検索 裁き",
-    "source_title": "遺族「なぜ証拠隠滅すると判断か」〜大川原冤罪事件、裁判官の判断を問う裁判 - OurPlanet-TV",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yeXlSQkVpWUlHMWY5WlctY0FOWEJ6THNzMXQwSDlFYnFCVXhDczVWNm9Qc2hwVXBoM1pVRHdGX185U0gwZ1cwRGVMbw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "mort"
-    ],
-    "quote_id": "III.11a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:39:50.312281+00:00",
-    "publish_at": "2026-11-05T16:17:00+00:00",
-    "timestamp": "2026-11-05T16:17:00+00:00"
   }
 ]
