@@ -1,5 +1,43 @@
 [
   {
+    "id": "ad6e55d45889",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UQjBCV282S21RVFhwX2oxaVNnRWZ1UlJtMGJtV3QwWDY0T003d2hiNGhRM2hOOEJQV3FFREktWXJraTY5MFhZdmZpYkhtNVQyb0RLcjh3?oc=5\n田嶋幸三氏が『公正な組織運営』を掲げてFIFA会長選に出馬し、孤立のリスクがあるという。\n「世界は探究の学校にすぎない。的を射止めた者ではなく、最も見事な走りを見せた者が勝つのだ。」\n『エセー III.8「談論の術について」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "田嶋幸三氏がFIFA会長選に電撃出馬、勝算はどこに？「公正な組織運営」を掲げる挑戦と日本孤立のリスク(1/4) - JBpress",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UQjBCV282S21RVFhwX2oxaVNnRWZ1UlJtMGJtV3QwWDY0T003d2hiNGhRM2hOOEJQV3FFREktWXJraTY5MFhZdmZpYkhtNVQyb0RLcjh3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "III.8c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T21:03:20.027293+00:00",
+    "publish_at": "2026-11-11T19:17:00+00:00",
+    "timestamp": "2026-11-11T19:17:00+00:00"
+  },
+  {
+    "id": "9b2eb67a79a8",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pWXlIcGZTQUF2ZE9wUl9uX2NnbG5TRVNSbUQyc2MyN1p2Tm9jMlllM0JlNW0wZ3ZpUnl2M1RJNmhZY1pCanJJTTk2Umcyai1xNVQ3MkNOZHZNYkFzOFJMblBNLVpuemRRd0RSTQ?oc=5\n取り調べで『あなた大罪人ですよ』と言われたのは『例え”だった』と、裁判で初めて改善の余地あった。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
+    "theme": "cruaute",
+    "score": 5,
+    "source": "Google News 検索 裁き",
+    "source_title": "取り調べで「あなた大罪人ですよ」 は「“例え”だった」 特別公務員暴行陵虐罪に問われた元特捜部所属・現役検事の被告人質問 「もっと違う言い方があった」と裁判で初めて“改善の余地あった”示す - ktv.jp",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pWXlIcGZTQUF2ZE9wUl9uX2NnbG5TRVNSbUQyc2MyN1p2Tm9jMlllM0JlNW0wZ3ZpUnl2M1RJNmhZY1pCanJJTTk2Umcyai1xNVQ3MkNOZHZNYkFzOFJMblBNLVpuemRRd0RSTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute",
+      "lois",
+      "nouveaute"
+    ],
+    "quote_id": "II.5",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T21:00:39.580574+00:00",
+    "publish_at": "2026-11-11T16:17:00+00:00",
+    "timestamp": "2026-11-11T16:17:00+00:00"
+  },
+  {
     "id": "bb830a8637c2",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxM0JMVWlsZ1BMOVZaSGRzQ0xHdHhSU21leXNjdklYVFZFOTg2WFhDcXV6R1p1ZFF6Vm5SWjZZNlhLYnVSejY5UkdXNGlpYm5aN1hJ?oc=5\nヘイトや差別にNOを突きつけたシンポジウムが、上智大で行われたという。\n「理性の規則に照らせば、彼らを野蛮と呼ぶこともできよう。だが我々に照らしてではない。我々はあらゆる種類の野蛮において彼らを凌いでいるのだから。」\n『エセー I.31「人食い人種について」』",
     "theme": "autrui",
@@ -660,41 +698,5 @@
     "generated_at": "2026-11-06T08:11:41.709487+00:00",
     "publish_at": "2026-11-07T04:17:00+00:00",
     "timestamp": "2026-11-07T04:17:00+00:00"
-  },
-  {
-    "id": "343a0d1f4098",
-    "text": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vVklROGg2QnZYQjI1ZFdwWFhoZ3cxWFNERnhneWRfRWZlYk1ab0lFZ2hEVnZ1c05fMHRWWG1IWGsxbTRaanZQT2xJSUxYSGpUbFFjajBxZlpYODFLV2FBSUZsN2tBQ2ZDdXJN?oc=5\n日本水連は金子専務理事の代表入り可能性の忖度を考えないと表明したという。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
-    "theme": "lois",
-    "score": 4,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "本多灯、２８年ロス五輪可能性が消滅 日本水連１年９カ月の資格停止処分 危険運転致傷で有罪判決 金子専務理事「代表入り可能性の忖度は考えない」本人からの弁明なし - デイリースポーツ",
-    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vVklROGg2QnZYQjI1ZFdwWFhoZ3cxWFNERnhneWRfRWZlYk1ab0lFZ2hEVnZ1c05fMHRWWG1IWGsxbTRaanZQT2xJSUxYSGpUbFFjajBxZlpYODFLV2FBSUZsN2tBQ2ZDdXJN?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "I.39b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T08:01:09.605351+00:00",
-    "publish_at": "2026-11-07T01:17:00+00:00",
-    "timestamp": "2026-11-07T01:17:00+00:00"
-  },
-  {
-    "id": "2cedae9bcadc",
-    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVpYclBOOFBpUl9TQ1YwUVNRd2VYZ3hnb1Zva3I4VmhKeHN2Y3ZMQjJuNmVNR3hLSEwxQ1d5SFlFeURoWWdUYmROSnlsSGtfOW5LLVJBMXRkUjh0NGEzcllWTVMtRjFwM21KajhiaDFZczd4ejVHamhaWHRHSks2bUZQWUVtZklqX2U2Q3hR?oc=5\n打算で結婚したはずだったが、転勤先の孤独の中に年下の男性と出会うという。\n「なぜ彼を愛したのかと問い詰められても、それは『彼だったから、私だったから』と答えるほかに言い表せないと感じる。」\n『エセー I.28「友情について」』",
-    "theme": "soi",
-    "score": 6,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "「打算で結婚」したはずが…転勤先の孤独と年下男性との出会い (ウォーカープラス) - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVpYclBOOFBpUl9TQ1YwUVNRd2VYZ3hnb1Zva3I4VmhKeHN2Y3ZMQjJuNmVNR3hLSEwxQ1d5SFlFeURoWWdUYmROSnlsSGtfOW5LLVJBMXRkUjh0NGEzcllWTVMtRjFwM21KajhiaDFZczd4ejVHamhaWHRHSks2bUZQWUVtZklqX2U2Q3hR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.28",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T00:23:13.702809+00:00",
-    "publish_at": "2026-11-06T22:17:00+00:00",
-    "timestamp": "2026-11-06T22:17:00+00:00"
   }
 ]
