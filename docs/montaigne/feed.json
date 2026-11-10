@@ -1,5 +1,59 @@
 [
   {
+    "id": "bb830a8637c2",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxM0JMVWlsZ1BMOVZaSGRzQ0xHdHhSU21leXNjdklYVFZFOTg2WFhDcXV6R1p1ZFF6Vm5SWjZZNlhLYnVSejY5UkdXNGlpYm5aN1hJ?oc=5\nヘイトや差別にNOを突きつけたシンポジウムが、上智大で行われたという。\n「理性の規則に照らせば、彼らを野蛮と呼ぶこともできよう。だが我々に照らしてではない。我々はあらゆる種類の野蛮において彼らを凌いでいるのだから。」\n『エセー I.31「人食い人種について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "ヘイト、差別に「NO」 11日と15日に上智大でシンポ - 東京新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxM0JMVWlsZ1BMOVZaSGRzQ0xHdHhSU21leXNjdklYVFZFOTg2WFhDcXV6R1p1ZFF6Vm5SWjZZNlhLYnVSejY5UkdXNGlpYm5aN1hJ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui"
+    ],
+    "quote_id": "I.31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T13:58:22.553153+00:00",
+    "publish_at": "2026-11-11T13:17:00+00:00",
+    "timestamp": "2026-11-11T13:17:00+00:00"
+  },
+  {
+    "id": "37427d98ba02",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45alB1dkhBaXZ4Z2NnMzFwSGNJdTFHV3ZrRkI3TEE4REQybHBWU0F0bm5Md3BHNEdRaldTYmxMdG1iNkxwQl83SGxkMFpxU1pDYVlDUVJPUmJPUl9KT1JIWXNqUUVJYV9heldFSlNfVUhNak5nY3c?oc=5\n死刑囚は最高裁で退けられた後、新証拠なしで自身で手続きを行い、3度目の再審請求を行ったという。\n「私としては、裁きにおいてさえ、単なる死を越えるものはすべて、まったくの残酷さに思われる。」\n『エセー II.11「残酷さについて」』",
+    "theme": "lois",
+    "score": 8,
+    "source": "Google News 検索 裁き",
+    "source_title": "植松死刑囚3度目再審請求、自身で手続き 新証拠なし 9月に最高裁で退けられたばかり - 産経ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45alB1dkhBaXZ4Z2NnMzFwSGNJdTFHV3ZrRkI3TEE4REQybHBWU0F0bm5Md3BHNEdRaldTYmxMdG1iNkxwQl83SGxkMFpxU1pDYVlDUVJPUmJPUl9KT1JIWXNqUUVJYV9heldFSlNfVUhNak5nY3c?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "II.11b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T13:50:49.938146+00:00",
+    "publish_at": "2026-11-11T10:17:00+00:00",
+    "timestamp": "2026-11-11T10:17:00+00:00"
+  },
+  {
+    "id": "77c84105fbaf",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzdmRWb085OGZsYm4tRlNBeEtTUnhDMUdKd0lteXdZUXRWclBrU2t4czZBcWNRUXprLXVOU2d5Rm9sZVBkMlp0RDQ1R1JmSEZicExtaVNOU1huTXp4UndKbjIwemJkMWZJMjk3eDBB?oc=5\n無罪判決を勝ち取った男が8年後に再び逮捕され、浅野皓生の本で推定冤罪について触れられている。\n「結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "lois",
+    "score": 10,
+    "source": "Google News 検索 裁き",
+    "source_title": "無罪判決を勝ち取った男は8年後、再び逮捕された――浅野皓生『推定冤罪』試し読み（2/3） - カドブン",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzdmRWb085OGZsYm4tRlNBeEtTUnhDMUdKd0lteXdZUXRWclBrU2t4czZBcWNRUXprLXVOU2d5Rm9sZVBkMlp0RDQ1R1JmSEZicExtaVNOU1huTXp4UndKbjIwemJkMWZJMjk3eDBB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "III.11a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T13:39:07.823312+00:00",
+    "publish_at": "2026-11-11T07:17:00+00:00",
+    "timestamp": "2026-11-11T07:17:00+00:00"
+  },
+  {
     "id": "2c953d81a9a7",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14NDlMNDlmSFFDd0Q1dGE5OURtYURrVTVDU1IxSEZuVXVJUnFONTJLNWxZcXJMREhsemZEZXhic2x4UUszd1JscDBNaVdIOHNudUxDQXJkMWJqSER4bEFCclJmbXhwYU5mSUF5SA?oc=5\n不登校の子ども支援団体が陳情書で川崎総合科学高の定時制募集停止の撤回を求めたという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
     "theme": "inconstance",
@@ -642,61 +696,5 @@
     "generated_at": "2026-11-06T00:23:13.702809+00:00",
     "publish_at": "2026-11-06T22:17:00+00:00",
     "timestamp": "2026-11-06T22:17:00+00:00"
-  },
-  {
-    "id": "444ca0d12cc0",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnbEVGV243V2xOckpNR1BqcmxFdy1Qd184eDJPdUlvcHJOemlfVlVoeXJnU2lXaUt5Vzd0XzNGQ0t1OEVRSW52ZnZuY0UzQXJVTG9pNEF3?oc=5\n若者たちは、2026年の世界乾癬デーで偏見と差別に対して声を上げようとしているという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
-    "theme": "autrui",
-    "score": 6,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "IFPA：2026年世界乾癬デー、若者たちが偏見と差別に対して声を上げる - 千葉日報オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnbEVGV243V2xOckpNR1BqcmxFdy1Qd184eDJPdUlvcHJOemlfVlVoeXJnU2lXaUt5Vzd0XzNGQ0t1OEVRSW52ZnZuY0UzQXJVTG9pNEF3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui",
-      "soi"
-    ],
-    "quote_id": "I.31a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T00:20:54.969009+00:00",
-    "publish_at": "2026-11-06T19:17:00+00:00",
-    "timestamp": "2026-11-06T19:17:00+00:00"
-  },
-  {
-    "id": "3f9a547b6453",
-    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUNFeWZ1aURLQTNqWHRoX1FQR3MyeUEwSzBwTkhaRlZtZDdScmJVemRzZUxKZEVZNlpheTkxQUpLUFhrN185cENtMnphbm5qY1YxYlF2eTREaElsdGxCVHd5bWgxeGpaQjhnU0lpTzQxSkthem93UUwybWZLczEwYThGV2lHNWlkX0xEQzFn?oc=5\n偏差値も凄すぎる超進学校で育った現役選手は、文武両道の姿を見せるという。\n「誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。」\n『エセー I.25「衒学について」』",
-    "theme": "savoir",
-    "score": 5,
-    "source": "Google News 検索 教育",
-    "source_title": "偏差値も凄すぎる…超進学校から初めてプロ入りした現役選手（5）まさに“文武両道”…名門進学校でエース兼4番 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUNFeWZ1aURLQTNqWHRoX1FQR3MyeUEwSzBwTkhaRlZtZDdScmJVemRzZUxKZEVZNlpheTkxQUpLUFhrN185cENtMnphbm5qY1YxYlF2eTREaElsdGxCVHd5bWgxeGpaQjhnU0lpTzQxSkthem93UUwybWZLczEwYThGV2lHNWlkX0xEQzFn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "nouveaute"
-    ],
-    "quote_id": "I.25b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T18:59:56.343488+00:00",
-    "publish_at": "2026-11-06T16:17:00+00:00",
-    "timestamp": "2026-11-06T16:17:00+00:00"
-  },
-  {
-    "id": "1b9245f15f37",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53UW9faWNGTlJ5TVJuSDk5MTRjUDduR3kyVVZOdW81NzRiUG1ZUmdidjh0Zlk1eGFaSVlHMlR1REJDTHBoVWlhdWxPdE5WS1BVVWZhZ3FZTnBFZw?oc=5\n首里城正殿の完成を前に、古式行列や伝統の旗頭が『琉球王朝祭り首里』で競演した。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
-    "theme": "coutume",
-    "score": 6,
-    "source": "Google News 検索 世相",
-    "source_title": "首里城正殿完成を前に 「琉球王朝祭り首里」古式行列と伝統の旗頭が競演 - QAB 琉球朝日放送",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53UW9faWNGTlJ5TVJuSDk5MTRjUDduR3kyVVZOdW81NzRiUG1ZUmdidjh0Zlk1eGFaSVlHMlR1REJDTHBoVWlhdWxPdE5WS1BVVWZhZ3FZTnBFZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "coutume"
-    ],
-    "quote_id": "II.15",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T18:51:37.495723+00:00",
-    "publish_at": "2026-11-06T10:17:00+00:00",
-    "timestamp": "2026-11-06T10:17:00+00:00"
   }
 ]
