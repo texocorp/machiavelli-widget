@@ -1,5 +1,67 @@
 [
   {
+    "id": "73cb25820c05",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PR2FKSU1KZUNhbXNpLXpDUHZuVVRwa2EwQk9jeUI1ZEFtbzNHaHpZRXI2MEdmbWRBVUtkMTNBYnU2UzU5b1Q0c05MU1czaFpmblJTaFkzbHEtdU1ZUXM4aDUtUlU3LWgtM2Q5anBVU29WaUFMeHpldHBhWUVvUzQ?oc=5\n中国海警局の船4隻が尖閣諸島・久場島沖の領海に一時侵入し、いずれも砲を搭載していたため、海上保安庁が退去を要求した。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
+    "theme": "guerra",
+    "score": 11,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "尖閣諸島・久場島沖の領海に中国海警局の船４隻が一時侵入、いずれも砲を搭載…海上保安庁が退去要求 - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PR2FKSU1KZUNhbXNpLXpDUHZuVVRwa2EwQk9jeUI1ZEFtbzNHaHpZRXI2MEdmbWRBVUtkMTNBYnU2UzU5b1Q0c05MU1czaFpmblJTaFkzbHEtdU1ZUXM4aDUtUlU3LWgtM2Q5anBVU29WaUFMeHpldHBhWUVvUzQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D2.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T10:45:50.830911+00:00",
+    "publish_at": "2026-11-11T09:17:00+00:00",
+    "timestamp": "2026-11-11T09:17:00+00:00"
+  },
+  {
+    "id": "83b80b5ab5ad",
+    "text": "https://news.google.com/rss/articles/CBMiswNBVV95cUxOZTNjckRsQTlXNHZzSV8wU2RkdWEyNDFycm9FV0VQNUZodV9NbGdOQVpXdzExcDhRam51Mm1wLVN3WFNaYW5HVERlRDQ5TTJGbXBsb1p6cWVGTFJvQ05aUjNCRGNZbGgzYkxkRlRGYlM5SklEWkp1dUFYUkY4Q1pRM0JnX0hMeUN4YnZwV0k4Ym5rSHZfeFdxV1lXUGVsSklzRlVILVFuRWlSdTgyOVpGejEwTDBlLW82Qmw0S3dGeVY0alJMMXFybkF2MmNDRFA1N0w3TkFQcXhqLW5wVXJsamM5S0hrbHBLWXRSZ3g3SXpEdFdpMm1WNU5FS2FkR2p3dXNmVHlZQ2g1WHRJanQ1RjhvUDdNNzRXWV9MZ2w3SXhxYjlodndWOXNQNHlMZnlfenY1YlZRdXNMQmljZ096dFlrYS1nY3kySmtJQ3JPeTlaazk4VWphTGtINmlXNlJLRDcxSmtmODBtNjg2SVlad2kxaUdhellLaWk0WVJmY0VnVzhob0lsUjBpUFVHbVlKQ2pCdUdzTnU4UElHam93c1c4LUtSVUZQWlZ6X3h6ZzFZSk0?oc=5\nトランプはカタール首相との会談後、イラン戦争の軍事的停止を宣言するという。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 中東",
+    "source_title": "トランプ、カタール首相との会談後、イラン戦争の軍事的停止を宣言 - アラブニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiswNBVV95cUxOZTNjckRsQTlXNHZzSV8wU2RkdWEyNDFycm9FV0VQNUZodV9NbGdOQVpXdzExcDhRam51Mm1wLVN3WFNaYW5HVERlRDQ5TTJGbXBsb1p6cWVGTFJvQ05aUjNCRGNZbGgzYkxkRlRGYlM5SklEWkp1dUFYUkY4Q1pRM0JnX0hMeUN4YnZwV0k4Ym5rSHZfeFdxV1lXUGVsSklzRlVILVFuRWlSdTgyOVpGejEwTDBlLW82Qmw0S3dGeVY0alJMMXFybkF2MmNDRFA1N0w3TkFQcXhqLW5wVXJsamM5S0hrbHBLWXRSZ3g3SXpEdFdpMm1WNU5FS2FkR2p3dXNmVHlZQ2g1WHRJanQ1RjhvUDdNNzRXWV9MZ2w3SXhxYjlodndWOXNQNHlMZnlfenY1YlZRdXNMQmljZ096dFlrYS1nY3kySmtJQ3JPeTlaazk4VWphTGtINmlXNlJLRDcxSmtmODBtNjg2SVlad2kxaUdhellLaWk0WVJmY0VnVzhob0lsUjBpUFVHbVlKQ2pCdUdzTnU4UElHam93c1c4LUtSVUZQWlZ6X3h6ZzFZSk0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P18d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T10:30:49.208637+00:00",
+    "publish_at": "2026-11-11T06:17:00+00:00",
+    "timestamp": "2026-11-11T06:17:00+00:00"
+  },
+  {
+    "id": "a21aeb386c2a",
+    "text": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hWHcyQTF0YnAwNDIwTDlQRE1UQm55QWdUTHcxaTNYOUIycXBRZXJ1MGh1eEtSWmtjOHdzbDJrZE5YbVB2Z1BCeDV4eF80RkhjcXo0TWR4ZzdueVFtZy1Xb0J3WDBVZVAzQ2dHN2k4WmRxMGdGdEJwQdIBfkFVX3lxTE5DMkdGNExkUkZ3Wk1OdGhmTTVGeW9MSFRvS1FLS3VCcGZVNVJwSG1nMjhzNndvWTJUb2VjbGRaT1dSTWxlaDVXNHZlbG93azRkYzJIcmlQcGc1TGZoT1RDV1JFVkg2WkU3QVFvREdYOXVpeFJlczJGMW1Wd3EyUQ?oc=5\nイラン最高指導者は米国が敵対的な姿勢を変えていないと述べ、攻撃を再開した場合に大規模な対応を行うとした。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 17,
+    "source": "Google News 国際(World)",
+    "source_title": "米の敵対姿勢変わらず＝イラン最高指導者、攻撃再開で「大規模な対応」 - ｄメニューニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hWHcyQTF0YnAwNDIwTDlQRE1UQm55QWdUTHcxaTNYOUIycXBRZXJ1MGh1eEtSWmtjOHdzbDJrZE5YbVB2Z1BCeDV4eF80RkhjcXo0TWR4ZzdueVFtZy1Xb0J3WDBVZVAzQ2dHN2k4WmRxMGdGdEJwQdIBfkFVX3lxTE5DMkdGNExkUkZ3Wk1OdGhmTTVGeW9MSFRvS1FLS3VCcGZVNVJwSG1nMjhzNndvWTJUb2VjbGRaT1dSTWxlaDVXNHZlbG93azRkYzJIcmlQcGc1TGZoT1RDV1JFVkg2WkU3QVFvREdYOXVpeFJlczJGMW1Wd3EyUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "inganno_simulazione",
+      "imperi_declino",
+      "economia"
+    ],
+    "quote_id": "AG3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T10:00:12.482043+00:00",
+    "publish_at": "2026-11-11T03:17:00+00:00",
+    "timestamp": "2026-11-11T03:17:00+00:00"
+  },
+  {
     "id": "2d491f7b926d",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYXpHT1dnUHBuTzVXTE9BdjVrLUtrbl96Ni1oeXB0M21rN0tjTzVRNXdSbXNrZzJjNlNxVmg5T1U3MjJ0UHMxSWhqMm9ONmFvQThSdXoxQ1Vhc29MeEE3R3NQWklpdTI5d1pKbmRrQ2treE1RbXEzMTV6SHBBR3k1SVdSai1fMk0?oc=5\n米軍は対イラン封鎖を強化するため新部隊を送り、陸上輸送も遮断する方針だという。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -695,64 +757,5 @@
     "generated_at": "2026-11-05T23:28:33.517669+00:00",
     "publish_at": "2026-11-06T18:17:00+00:00",
     "timestamp": "2026-11-06T18:17:00+00:00"
-  },
-  {
-    "id": "4366281cecbf",
-    "text": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2dvUzZuSEpVN0xPUVduZzhQVlVLZHl6djJINjhRYmM1aU9oTFNOdmlxODBhd3ZqR0JoaTlGbVlxV0RNWHlxRlNFMHE2WGxxLWpUUWY2MDJxMkxfYlBFd2xySnVQXy1IbUhNTWctV1NxblNwd1dPOWVnazhTZ000WWlOZGlsWGg0al9PN2RMVHB3QVVTX0VEbk9rSWI4WHIyYUdsbDJsTTdOYlBQY01adC1xOXN2ZE5FcnVBTERhUVnSAcYBQVVfeXFMT1hMWlo5NTJRQUV0Y3lqVXBvX2NXUTdlXzh5RUdGM2xJZDFoRS1xS0VTeGc2bm9yLUVXMnVNOTNndEZ6d0VPY3phbUFkamNtMmNQRkZiZDl6Wlc1TVBkc1pnLTFwaWVMb2J0Z05yU2JkOVZCQWRZc0ZuWGVqM1JXM2hWZWpHaDNhb191a3JtQi1VN0pSdkxQUDVicEZuMklGV3dfYjVCYVBWLThaSkJSbWFvRXNlLW95RDJMQkZ2c1I5OUNnM3ln?oc=5\nロシア軍はウクライナ中部キーウ州の物流インフラを攻撃し、1名を負傷させたという。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ロシア軍、ウクライナ中部キーウ州の物流インフラを攻撃 １名負傷 - ウクルインフォルム通信",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2dvUzZuSEpVN0xPUVduZzhQVlVLZHl6djJINjhRYmM1aU9oTFNOdmlxODBhd3ZqR0JoaTlGbVlxV0RNWHlxRlNFMHE2WGxxLWpUUWY2MDJxMkxfYlBFd2xySnVQXy1IbUhNTWctV1NxblNwd1dPOWVnazhTZ000WWlOZGlsWGg0al9PN2RMVHB3QVVTX0VEbk9rSWI4WHIyYUdsbDJsTTdOYlBQY01adC1xOXN2ZE5FcnVBTERhUVnSAcYBQVVfeXFMT1hMWlo5NTJRQUV0Y3lqVXBvX2NXUTdlXzh5RUdGM2xJZDFoRS1xS0VTeGc2bm9yLUVXMnVNOTNndEZ6d0VPY3phbUFkamNtMmNQRkZiZDl6Wlc1TVBkc1pnLTFwaWVMb2J0Z05yU2JkOVZCQWRZc0ZuWGVqM1JXM2hWZWpHaDNhb191a3JtQi1VN0pSdkxQUDVicEZuMklGV3dfYjVCYVBWLThaSkJSbWFvRXNlLW95RDJMQkZ2c1I5OUNnM3ln?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG7",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T23:05:33.279189+00:00",
-    "publish_at": "2026-11-06T15:17:00+00:00",
-    "timestamp": "2026-11-06T15:17:00+00:00"
-  },
-  {
-    "id": "d412670f016c",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZcW9oeUhrdnFfNjVCbXNrUUhJaWJ0X2RPdXVZWWN5ODVjOExjb3B4RkZlT21halkzTEJEcFAyb3l2Y3ZocllhOGoxT09XWVJCU2NVY1AyT25Tck5lRkE?oc=5\n政府は非核三原則の例外を明記し、緊急時の核持ち込み容認を検討しているという。\n「頼むに足り、確かで、長続きする防衛とは、汝自身と汝の力量にのみ拠るものである。」\n『君主論 cap.XXIV』",
-    "theme": "paura_amore",
-    "score": 11,
-    "source": "Google News 検索 安全保障",
-    "source_title": "非核三原則 例外明記へ 緊急時 持ち込み容認 政府 安保3文書改定検討 防衛力強化 中国反発も - 沖縄タイムス社",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZcW9oeUhrdnFfNjVCbXNrUUhJaWJ0X2RPdXVZWWN5ODVjOExjb3B4RkZlT21halkzTEJEcFAyb3l2Y3ZocllhOGoxT09XWVJCU2NVY1AyT25Tck5lRkE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "paura_amore",
-      "alleanze_dipendenza",
-      "armi_proprie"
-    ],
-    "quote_id": "P24b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T22:37:43.511193+00:00",
-    "publish_at": "2026-11-06T12:17:00+00:00",
-    "timestamp": "2026-11-06T12:17:00+00:00"
-  },
-  {
-    "id": "8ab847be2277",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByUVJKN1B2VlU5eENFTkdtbXZ2UHR2TGhXRjhfajl2ckVhcGNjZUU4a1pnNE9SMnEtVl94ZVFPenhTTUVld3ZkWFhtS09DTW9OUnVRRnU5eHpKVURkYmVLYTltQXZ6dzVLOGJvVE9aNkgwYnp5VWFEbE1JYzA3bzA?oc=5\nウクライナがロシアの空襲警報アプリに対してサイバー攻撃を実行したという。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナ、ロシアの空襲警報アプリにサイバー攻撃（毎日新聞） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByUVJKN1B2VlU5eENFTkdtbXZ2UHR2TGhXRjhfajl2ckVhcGNjZUU4a1pnNE9SMnEtVl94ZVFPenhTTUVld3ZkWFhtS09DTW9OUnVRRnU5eHpKVURkYmVLYTltQXZ6dzVLOGJvVE9aNkgwYnp5VWFEbE1JYzA3bzA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "P26",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T19:34:34.587451+00:00",
-    "publish_at": "2026-11-06T03:17:00+00:00",
-    "timestamp": "2026-11-06T03:17:00+00:00"
   }
 ]
