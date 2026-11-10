@@ -1,5 +1,65 @@
 [
   {
+    "id": "648c6442291b",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mcGdQdHBMUmZsX3ZQNklRa0ZoaGk4OGQ3RGdLWU1hWWVoaXBURzRzZjhidkRDYk9Yd2QxclRSUHFrLXdLYjl4VXVMUGlwcWl4eE9BR01HamE0WGNsZmk3MFNEZ01MeVNLWHliMUNta2c2ei1UZWpKbFFYdEZKcmM?oc=5\n米軍がホルムズ海峡でイランの民間船舶を攻撃し、トランプ氏はその可能性は極めて低いと発言した。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中東",
+    "source_title": "米軍がイラン民間船舶を攻撃する瞬間…トランプ氏「可能性は極めて低い」発言する中で攻撃実行 精密誘導弾が船尾に着弾、激しく爆発する瞬間 ホルムズ海峡（ABEMA TIMES） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mcGdQdHBMUmZsX3ZQNklRa0ZoaGk4OGQ3RGdLWU1hWWVoaXBURzRzZjhidkRDYk9Yd2QxclRSUHFrLXdLYjl4VXVMUGlwcWl4eE9BR01HamE0WGNsZmk3MFNEZ01MeVNLWHliMUNta2c2ei1UZWpKbFFYdEZKcmM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D1.46",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T19:33:07.919369+00:00",
+    "publish_at": "2026-11-11T18:17:00+00:00",
+    "timestamp": "2026-11-11T18:17:00+00:00"
+  },
+  {
+    "id": "7f18e82b82af",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92RzI2X2RFU1lxWElrR2tBeFVvT0Z5Q0ppcWpvbGxISDZ0cWgySTlYVHE4dE1PQ18tdUJabmk2V3Z6V054enZXLTl1aDhMZkJnVkI0a29aOFZfUjBlRjVVNzRGWFpnM2lt?oc=5\n中国は機関砲搭載の船4隻を尖閣諸島周辺の領海に侵入させ、今年18日目を迎えているという。\n「領土を手に入れたいと望むのは、まことに自然でありふれたことである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "機関砲搭載の中国船4隻が尖閣諸島周辺の領海に侵入 今年18日目 - 毎日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92RzI2X2RFU1lxWElrR2tBeFVvT0Z5Q0ppcWpvbGxISDZ0cWgySTlYVHE4dE1PQ18tdUJabmk2V3Z6V054enZXLTl1aDhMZkJnVkI0a29aOFZfUjBlRjVVNzRGWFpnM2lt?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "P03c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T18:45:45.263499+00:00",
+    "publish_at": "2026-11-11T15:17:00+00:00",
+    "timestamp": "2026-11-11T15:17:00+00:00"
+  },
+  {
+    "id": "d75865c4f56b",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3VWZhZ0FOMVlpc3pRNHZZN3RodUNwM0xKTUJSZEx0am1xZFFNVXdOUmhyOTJpYkhzWkVNbHRPTXBaM0FMN2hNT3hicFpPcmI5RDlHSXpfd1RFa25aOEdrRTY3b3YwbVQ2bm9KTkFQZHFBaDl1dEJfUEZwSG5wOHc?oc=5\nG7外相たちはウクライナ支援で一致し、電力分野の弱体化に対するミサイル攻撃への対応を決めたという。\n「国家も君主も、自らが窮地に陥る時まで、人々に恩恵を施すのを先延ばしにしてはならぬ。」\n『リウィウス論 I.32』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "G7外相、ウクライナ支援一致 ミサイル攻撃で弱体化の電力分野（共同通信） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3VWZhZ0FOMVlpc3pRNHZZN3RodUNwM0xKTUJSZEx0am1xZFFNVXdOUmhyOTJpYkhzWkVNbHRPTXBaM0FMN2hNT3hicFpPcmI5RDlHSXpfd1RFa25aOEdrRTY3b3YwbVQ2bm9KTkFQZHFBaDl1dEJfUEZwSG5wOHc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D1.32",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T18:10:22.456380+00:00",
+    "publish_at": "2026-11-11T12:17:00+00:00",
+    "timestamp": "2026-11-11T12:17:00+00:00"
+  },
+  {
     "id": "73cb25820c05",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PR2FKSU1KZUNhbXNpLXpDUHZuVVRwa2EwQk9jeUI1ZEFtbzNHaHpZRXI2MEdmbWRBVUtkMTNBYnU2UzU5b1Q0c05MU1czaFpmblJTaFkzbHEtdU1ZUXM4aDUtUlU3LWgtM2Q5anBVU29WaUFMeHpldHBhWUVvUzQ?oc=5\n中国海警局の船4隻が尖閣諸島・久場島沖の領海に一時侵入し、いずれも砲を搭載していたため、海上保安庁が退去を要求した。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
     "theme": "guerra",
@@ -693,69 +753,5 @@
     "generated_at": "2026-11-06T15:07:21.849215+00:00",
     "publish_at": "2026-11-07T03:17:00+00:00",
     "timestamp": "2026-11-07T03:17:00+00:00"
-  },
-  {
-    "id": "d7780e1afa8a",
-    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMHh2bVFuOHh1cVhoaF8yamd5TXBldkxOenpmVzhlMGZpRk1yR09uMVYxdHhUVUFPX1MtQXdQYlBoUXAxdWF3ZVFIZnNJX2RpaVhOX2ZTUVRyZ09aY3plaTkxdHBOaEduM2xYaDlDV1ZvcDU4TzdYWVpPcUpyd2pjZE9QemY2NW9EdXdGZw?oc=5\nトランプ氏は国防長官のヘグセスを留任させるつもりでおり、民主党指導部とも会談する意向を示しているという。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、ヘグセス国防長官は「留任させるつもり」 民主党指導部と会談する意向も表明 - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMHh2bVFuOHh1cVhoaF8yamd5TXBldkxOenpmVzhlMGZpRk1yR09uMVYxdHhUVUFPX1MtQXdQYlBoUXAxdWF3ZVFIZnNJX2RpaVhOX2ZTUVRyZ09aY3plaTkxdHBOaEduM2xYaDlDV1ZvcDU4TzdYWVpPcUpyd2pjZE9QemY2NW9EdXdGZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "popolo_principe",
-      "economia",
-      "consiglio",
-      "armi_proprie"
-    ],
-    "quote_id": "P18d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T06:56:56.532349+00:00",
-    "publish_at": "2026-11-07T00:17:00+00:00",
-    "timestamp": "2026-11-07T00:17:00+00:00"
-  },
-  {
-    "id": "abfcabc370c9",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZnBpWTJOYTU3T05uSXdfaU5kY2tIX010bkI0S1FLUGFMZ1VXcDFBZ0RtMUpJamdKV0RfNGVKblpGbTQtWU9UV0xKS2hBUnl2V2d1bk5kU2NrcGo0eWZ3cUUtNUxoenVHMDBfTDludm54TnowU29TNXZUTTJ6dS1vNS0xa2dSSUE?oc=5\n韓国はホルムズ海峡近くまで海軍部隊の活動範囲を拡大する意向を示したという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "韓国、海軍部隊の活動範囲拡大へ ホルムズ海峡近くまで - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZnBpWTJOYTU3T05uSXdfaU5kY2tIX010bkI0S1FLUGFMZ1VXcDFBZ0RtMUpJamdKV0RfNGVKblpGbTQtWU9UV0xKS2hBUnl2V2d1bk5kU2NrcGo0eWZ3cUUtNUxoenVHMDBfTDludm54TnowU29TNXZUTTJ6dS1vNS0xa2dSSUE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG4",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T23:35:15.472671+00:00",
-    "publish_at": "2026-11-06T21:17:00+00:00",
-    "timestamp": "2026-11-06T21:17:00+00:00"
-  },
-  {
-    "id": "0212154da022",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XTm9nZ2JFRkg2Nzd3VElaOFJrUGNXMHZtazB3eUVXdlhfRUcteXRlYm9nU0tpQm1NbnpSanIxMHU3TlpfVWtfdG5VX09aVVJLeTBBOVZnNjNBSW1LV3FmT1ZB?oc=5\nバンス氏が外国での戦争反対という『米国第一』の立場に戻り、SNS投稿で異例の主張を展開して支持者の再結集を図った。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 国際(World)",
-    "source_title": "バンス氏、外国での戦争反対の「米国第一」に立ち返り支持者の再結集図る…ＳＮＳ投稿で異例の主張展開 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XTm9nZ2JFRkg2Nzd3VElaOFJrUGNXMHZtazB3eUVXdlhfRUcteXRlYm9nU0tpQm1NbnpSanIxMHU3TlpfVWtfdG5VX09aVVJLeTBBOVZnNjNBSW1LV3FmT1ZB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "popolo_principe",
-      "economia"
-    ],
-    "quote_id": "D2.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T23:28:33.517669+00:00",
-    "publish_at": "2026-11-06T18:17:00+00:00",
-    "timestamp": "2026-11-06T18:17:00+00:00"
   }
 ]
