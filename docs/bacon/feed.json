@@ -1,5 +1,47 @@
 [
   {
+    "id": "600c1e01e167",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzcEYwWUJDV0RKbjA3ZjU3LTRlS2JDZmZ2MlVGN1RxOWNBWENubHNLd3ZwTmRZdXAtelpweEVZY3lEMmw5YW92Nlp6YTJ1S0M5TTBHME9kWjFLdGh1NTZn?oc=5\nデータセンター規制に対し、AI・半導体関連企業は、今後の見通しをどう捉えるべきなのかという問いが投げかけられているという。\n「自然は、服従することによってでなければ征服されない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム3",
+    "original": "Natura enim non nisi parendo vincitur …",
+    "original_lang": "la",
+    "theme": "experientia",
+    "score": 12,
+    "source": "Google News 生成AIの論争",
+    "source_title": "データセンター規制 AI・半導体 関連企業の見通しは? - テレ東BIZ",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzcEYwWUJDV0RKbjA3ZjU3LTRlS2JDZmZ2MlVGN1RxOWNBWENubHNLd3ZwTmRZdXAtelpweEVZY3lEMmw5YW92Nlp6YTJ1S0M5TTBHME9kWjFLdGh1NTZn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "experientia",
+      "potentia",
+      "novitas"
+    ],
+    "quote_id": "NO1.3b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T04:47:10.984371+00:00",
+    "publish_at": "2026-11-11T02:17:00+00:00",
+    "timestamp": "2026-11-11T02:17:00+00:00"
+  },
+  {
+    "id": "a66b176a7c92",
+    "text": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiUk1CaktSWnBxRHZ4SEREWTJXMU9wVmhJcXNqYm1tZDlKVFk5NUp0OE1yNHFjMEt1cUlRSzNfRGs5YWs3YjYyZVRwRDNQT1JMWGdJR0x3V2NXbzc4TENWemdRV1g1Z2U5LVZlbWZRSnZDZC1WZjhjSA?oc=5\nマディソンのコヴェントリーのパブ前で騒動の噂が流れたが、リーズ戦後の夜、周囲から引き離される動画がSNSで拡散されているという。\n「人間の知性は、一挙に、しかも突然に心を打ち、入り込んでくるものによって最も動かされる。想像力はそうしたものによって満たされ、膨らまされるのが常である。」\n『ノヴム・オルガヌム』第1巻 アフォリズム47",
+    "original": "Intellectus humanus illis, quae simul et subito mentem ferire et subire possunt, maxime movetur; a quibus phantasia impleri et inflari consuevit …",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News 風評・噂",
+    "source_title": "マディソンにコヴェントリーのパブ前で騒動の噂──リーズ戦後の夜、周囲に引き離される動画がSNSで拡散 - スパーズジャパン",
+    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiUk1CaktSWnBxRHZ4SEREWTJXMU9wVmhJcXNqYm1tZDlKVFk5NUp0OE1yNHFjMEt1cUlRSzNfRGs5YWs3YjYyZVRwRDNQT1JMWGdJR0x3V2NXbzc4TENWemdRV1g1Z2U5LVZlbWZRSnZDZC1WZjhjSA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "NO1.47",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T04:40:28.751238+00:00",
+    "publish_at": "2026-11-10T23:17:00+00:00",
+    "timestamp": "2026-11-10T23:17:00+00:00"
+  },
+  {
     "id": "21aca6b98ff1",
     "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwYTFJaXNkTEJJeDk5VlhXakt5UWlpSHc0VS1IdzNXTkFpOTR1X3RqT2VtNU5RMVp0S0Y0WG9zT1hTZnNHOWU2M2pLUnI3QWNoRHE0NEpTNA?oc=5\n専業主婦年金廃止デマが拡散したことは事実だが、高市首相の動画は無関係であるという。\n「まことに評判は川のようなもので、軽く膨れたものを浮かべ、重く堅固なものを沈める。」\n『随筆集』第53篇「称賛について」",
     "original": "Certainly fame is like a river, that beareth up things light and swoln, and drowns things weighty and solid.",
@@ -728,25 +770,6 @@
       "fama"
     ],
     "quote_id": "E12a",
-    "quote_choice": "llm"
-  },
-  {
-    "id": "e42ef14abf8b",
-    "timestamp": "2026-11-02T18:23:25.173141+00:00",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5ZkJOSEpfbkRMVElaZTJUbFFLdjZNcEpwd3UzMFAzREVLNTlFZTZHMjNlQTRvRWFUc0NDdTBzUXZQc3lCQXloNjlua2h1SFVBeXd6Q3I3MDlPOEgxZ3lzQ1lSMA?oc=5\n防災科学技術研究所らがゲリラ雷雨予測技術開発協定を締結する事柄には、実用性という呼び名が研究の価値を先回りして定義している動きが見える。\n「どの技術においても、その担い手たちは自分の技術の非力を自然のせいにし、自分の技術が達しえないことを、その技術の名において自然界では不可能だと宣告する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム88",
-    "original": "… ut in qualibet arte authores artis suae infirmitatem in naturae calumniam vertant; et quod ars ipsorum non assequitur, id ex eadem arte impossibile in natura pronunciant.",
-    "original_lang": "la",
-    "theme": "studium",
-    "score": 10,
-    "source": "Google News AI・研究政策",
-    "source_title": "防災科学技術研究所、横浜国立大学、情報通信研究機構、横浜市が「安全・安心の判断支援に向けたゲリラ雷雨予測技術開発事業に関する連携協力協定」を締結 - 防災科研",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5ZkJOSEpfbkRMVElaZTJUbFFLdjZNcEpwd3UzMFAzREVLNTlFZTZHMjNlQTRvRWFUc0NDdTBzUXZQc3lCQXloNjlua2h1SFVBeXd6Q3I3MDlPOEgxZ3lzQ1lSMA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "studium",
-      "novitas"
-    ],
-    "quote_id": "NO1.88",
     "quote_choice": "llm"
   }
 ]
