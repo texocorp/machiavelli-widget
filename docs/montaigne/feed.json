@@ -1,5 +1,42 @@
 [
   {
+    "id": "2c953d81a9a7",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14NDlMNDlmSFFDd0Q1dGE5OURtYURrVTVDU1IxSEZuVXVJUnFONTJLNWxZcXJMREhsemZEZXhic2x4UUszd1JscDBNaVdIOHNudUxDQXJkMWJqSER4bEFCclJmbXhwYU5mSUF5SA?oc=5\n不登校の子ども支援団体が陳情書で川崎総合科学高の定時制募集停止の撤回を求めたという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 国内",
+    "source_title": "川崎総合科学高の定時制募集停止、撤回を 不登校の子ども支援団体が陳情書 - カナロコ",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14NDlMNDlmSFFDd0Q1dGE5OURtYURrVTVDU1IxSEZuVXVJUnFONTJLNWxZcXJMREhsemZEZXhic2x4UUszd1JscDBNaVdIOHNudUxDQXJkMWJqSER4bEFCclJmbXhwYU5mSUF5SA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inconstance"
+    ],
+    "quote_id": "II.1b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T04:51:31.304127+00:00",
+    "publish_at": "2026-11-11T04:17:00+00:00",
+    "timestamp": "2026-11-11T04:17:00+00:00"
+  },
+  {
+    "id": "7af5bb230b1a",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSY0FVSUJBNnA2eUY0R1lnOE1mVXIxQzlqR0J1Qnd0YmFYZnZtVFQ5RUxidldGQ00wdlMtdDV0aFdnRXdxYkdDTmRLa2hZRl85ZG1HMlMxdnV1M0h6U0lsRDE1M2duOGZmWFczVHVFVG1rQjVrZ2F6Uk5SamM2SnM?oc=5\n神戸市教委に追及される保護者は、当時5年生の子供が受けたいじめを隠したのではと憤り、教育長と面談を求めるという。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
+    "theme": "cruaute",
+    "score": 8,
+    "source": "Google News 検索 教育",
+    "source_title": "「いじめを隠したのでは？」当時5年生、神戸市教委を20年追及する保護者の憤り 教育長と面談へ - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSY0FVSUJBNnA2eUY0R1lnOE1mVXIxQzlqR0J1Qnd0YmFYZnZtVFQ5RUxidldGQ00wdlMtdDV0aFdnRXdxYkdDTmRLa2hZRl85ZG1HMlMxdnV1M0h6U0lsRDE1M2duOGZmWFczVHVFVG1rQjVrZ2F6Uk5SamM2SnM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute",
+      "savoir"
+    ],
+    "quote_id": "II.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T04:42:07.340944+00:00",
+    "publish_at": "2026-11-11T01:17:00+00:00",
+    "timestamp": "2026-11-11T01:17:00+00:00"
+  },
+  {
     "id": "18e9688556c8",
     "text": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVdyLW1aRVRUd19nTjlBdlEtd3VFd2dEVGVlN3VUbUFVNDNTbGtwZHAxdHBtaHVmcEZxbTJHcEE5ejZfa09vTFh4eEJZWGQ4cGFrSmo4eTBpaUs3Q0owVjJNNTcxb2JjODRtWHE1TlNkV2xwMGlWOFNNVElyaThpcUtRTQ?oc=5\n離婚し親しい友人もいない上に長時間労働に追われる孤独な男性が、フィリピンへの移住によって第二の人生を切り開いた。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
     "theme": "soi",
@@ -661,41 +698,5 @@
     "generated_at": "2026-11-05T18:51:37.495723+00:00",
     "publish_at": "2026-11-06T10:17:00+00:00",
     "timestamp": "2026-11-06T10:17:00+00:00"
-  },
-  {
-    "id": "412cd30064f5",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BS0V5R0FKbmFncTVQc0RVZVJfcTR3SkR5NzluWW5LQkJHazhoRWxOOFZwd0paYVJFVTZ1RElfcjRuTXJJTTRNS0pwVERNazV2elhqOV9hZlMtb3lmcE9xcElDWDR2azViUzNWOEd4Y3Z5WWFpV3NJVTduNFJobnM?oc=5\n次期学習指導要領により、難関校は初見性が高い問題が増加する可能性があるという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
-    "theme": "savoir",
-    "score": 5,
-    "source": "Google News 検索 教育",
-    "source_title": "次期学習指導要領で中学入試はどう変わる？ 難関校は「初見性が高い問題」が増加！？（ダイヤモンド教育ラボ） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BS0V5R0FKbmFncTVQc0RVZVJfcTR3SkR5NzluWW5LQkJHazhoRWxOOFZwd0paYVJFVTZ1RElfcjRuTXJJTTRNS0pwVERNazV2elhqOV9hZlMtb3lmcE9xcElDWDR2azViUzNWOEd4Y3Z5WWFpV3NJVTduNFJobnM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "I.26a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T09:01:06.047103+00:00",
-    "publish_at": "2026-11-06T07:17:00+00:00",
-    "timestamp": "2026-11-06T07:17:00+00:00"
-  },
-  {
-    "id": "a6e9acb70e5c",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnWG1DWk1LeWcxdkVYZzlVVzFxUzhUZEF3NlBBMDBXcVNQVjBJbzlNZ2htR0xROFdIMHpPVW1GWDFweDBwNndCdlFLR0hhcnBROTBN?oc=5\n江戸川区のいじめ調査終了から1年以上放置され、『未完成とウソつかれていた』と保護者は憤っているという。\n「奇跡とは、自然の在り方によるのではなく、自然についての我々の無知によるものである。慣れは、我々の判断の目を眠らせる。」\n『エセー I.23「慣習について」』",
-    "theme": "cruaute",
-    "score": 5,
-    "source": "Google News 検索 教育",
-    "source_title": "江戸川区の「いじめ重大事態」調査終了から1年以上放置 「未完成とウソつかれていた」と保護者は憤り - 東京新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnWG1DWk1LeWcxdkVYZzlVVzFxUzhUZEF3NlBBMDBXcVNQVjBJbzlNZ2htR0xROFdIMHpPVW1GWDFweDBwNndCdlFLR0hhcnBROTBN?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute"
-    ],
-    "quote_id": "I.23d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T08:58:48.375331+00:00",
-    "publish_at": "2026-11-06T04:17:00+00:00",
-    "timestamp": "2026-11-06T04:17:00+00:00"
   }
 ]
