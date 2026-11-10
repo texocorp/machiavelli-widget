@@ -1,5 +1,67 @@
 [
   {
+    "id": "5bdfe9a61e8d",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KeGtwRDVKREU2ZHg0S0NJWjdXeFRFV2lRa3hLRUpEb2JhLVg4cm01LWpOamRzU3Q4UWV3SmlOWk1nTDB3LTUwMERqMlRtU3JCM0tCVDhmc3JLOTRYMHZWcG8yOFN5WFF0TFhMeDdkRmo0M1UzZlpQNUxB?oc=5\n学問としての戦史、経済史が11月の角川新書に集結し、陰謀論の時代に果たす意義と実証研究の魅力を伝えるという。\n「自然の学問は、あらゆる時代に、厄介で手強い敵を持ってきた。すなわち迷信と、盲目で度を越した信仰の熱狂である。」\n『ノヴム・オルガヌム』第1巻 アフォリズム89",
+    "original": "… nacta sit philosophia naturalis per omnes aetates adversarium molestum et difficilem; superstitionem nimirum, et zelum religionis caecum et immoderatum.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "11月の角川新書は学問としての戦史、経済史が陰謀論の時代に果たす意義、実証研究の魅力を存分に伝える作品が集結！ 『戦史歴程』、『税と反乱』の計2作品 - 毎日キレイ",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KeGtwRDVKREU2ZHg0S0NJWjdXeFRFV2lRa3hLRUpEb2JhLVg4cm01LWpOamRzU3Q4UWV3SmlOWk1nTDB3LTUwMERqMlRtU3JCM0tCVDhmc3JLOTRYMHZWcG8yOFN5WFF0TFhMeDdkRmo0M1UzZlpQNUxB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "studium"
+    ],
+    "quote_id": "NO1.89",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T21:21:20.065360+00:00",
+    "publish_at": "2026-11-11T20:17:00+00:00",
+    "timestamp": "2026-11-11T20:17:00+00:00"
+  },
+  {
+    "id": "c0ef5c54de5a",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zeHpURVFPM1N0Ynh0dnBZQms0VlcyNThHMWItNHREVkZnOXA1bVhfdEYzN0ljTGRWQ2UwVExDY2Ztb3hoQk5sSGk2ZGdlQVI0X1g4dFVzcU84UQ?oc=5\n札幌市で地下鉄の運行が止まるという誤情報が、不正アクセスを受けて配信されたサイトから出たため、そのサイトの利用が停止された。\n「自然誌の中の多くの実験は、誤って信じられ受け入れられることがありうるが、それらは、原因と公理が見出されると、まもなく容易に消し去られ、退けられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム118",
+    "original": "… multa in historia naturali experimenta falso credi et recipi posse, quae paulo post a causis et axiomatibus inventis facile expunguntur et rejiciuntur.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "地下鉄運行見合わせ 誤情報 札幌市 不正アクセス受け配信 サイト利用を停止 - 北海道新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zeHpURVFPM1N0Ynh0dnBZQms0VlcyNThHMWItNHREVkZnOXA1bVhfdEYzN0ljTGRWQ2UwVExDY2Ztb3hoQk5sSGk2ZGdlQVI0X1g4dFVzcU84UQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio"
+    ],
+    "quote_id": "NO1.118",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T21:08:10.358260+00:00",
+    "publish_at": "2026-11-11T17:17:00+00:00",
+    "timestamp": "2026-11-11T17:17:00+00:00"
+  },
+  {
+    "id": "45aa6a24ecc9",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZWmdjb0drd1VKT0U4aTJzVEpoWDJIZXYwTHQxb0dLZWxMZFRKRGVzd2RWWElTT281NHIyMDVYazJOQ0RJTmpDYzUwcVU2SHpnVHJFdmpR?oc=5\n大竹まことが『スピリチュアル』に対する疑問に迫り、なぜ陰謀論や排外主義に結びつくのかを解説しているという。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
+    "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "大竹まことが「スピリチュアル」の疑問に迫る！ なぜ陰謀論・排外主義に結びつくのか？ - 文化放送",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZWmdjb0drd1VKT0U4aTJzVEpoWDJIZXYwTHQxb0dLZWxMZFRKRGVzd2RWWElTT281NHIyMDVYazJOQ0RJTmpDYzUwcVU2SHpnVHJFdmpR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "theatri"
+    ],
+    "quote_id": "NO1.45",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-10T21:01:38.842272+00:00",
+    "publish_at": "2026-11-11T14:17:00+00:00",
+    "timestamp": "2026-11-11T14:17:00+00:00"
+  },
+  {
     "id": "61bac1f75e76",
     "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNajExbjgyUS11Y204ai15c255Zk9qSm5aRTBtd1dlZV96WVFxRjBVYmpxYk5JcHN6c0JFNjV6b3U0SHNjZC1xSXRBNUdSbnVmcW9aV2Jhek0xbXlRUjlRQlF2NlJxNElkUjZkbE8zaGo4TjRGeFVuajZnOVZ6emJhUkVFekhOSkVk0gGcAUFVX3lxTE5aRXdsZFdxS2N4N05scWU0LU1OMEZMVnV3OUhQN2dJQngwd3V2REczSFJ2NnB4RUwyTU5MdEkxQ3VpRWJRRDZjbEx6WWh0V1VnUzhEOXdtb21JSGRGWmVZOGVaUU8tTXNvVDVqSEtGWEFzVzY1Z21pbmN6U2JQTXJZbmFBcGxNb3o5LUNLdUUtMXllZkRWUWlKVldQZw?oc=5\nChosunbizは「EU ロシアのSNS世論操作を指摘」と報じた。\n「ところが学者たちは、まことに怠惰で安易にも、経験についての噂、いわばその風評やそよ風を、自説を打ち立て裏づけるために取り込み、しかもそれに正規の証言の重みを与えてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム98",
     "original": "Sed contra homines docti (supini sane et faciles) rumores quosdam experientiae, et quasi famas et auras ejus, ad philosophiam suam vel constituendam vel confirmandam exceperunt, atque illis nihilominus pondus legitimi testimonii attribuerunt.",
@@ -715,67 +777,5 @@
     "generated_at": "2026-11-06T06:05:05.778729+00:00",
     "publish_at": "2026-11-06T06:05:05.778729+00:00",
     "timestamp": "2026-11-06T06:05:05.778729+00:00"
-  },
-  {
-    "id": "7b262b1c74af",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKNlpSZTJlT1VkTU96ZG9DZlVxUWhGMDBsR2ZqcUZ4dFhVQUNXQWNWR285NE15OE9FQk1OSEpteEpDY3RFbGRDa3ZPdTZPcVU1bXJJVnJ0bXBjMmtBX09qd21MM2x2al9sd1pkYUtWZHI2dFhGWTZ6QVdIcllzMm8?oc=5\n福岡県議会の蔵内前議長は、議員辞職後初めて会見し、『ワンヘルス』という名称が風評被害になると述べるとともに、金銭授受を改めて否定した。\n「人は言葉によって交わる。だが言葉は大衆の理解に合わせて名づけられる。それゆえ悪しき不適切な名づけは、驚くべき仕方で知性を包囲する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
-    "original": "Homines enim per sermones sociantur; at verba ex captu vulgi imponuntur. Itaque mala et inepta verborum impositio miris modis intellectum obsidet.",
-    "original_lang": "la",
-    "theme": "fori",
-    "score": 9,
-    "source": "Google News 風評・噂",
-    "source_title": "福岡県議会の蔵内前議長「ワンヘルスという名称が風評被害」 金銭授受を改めて否定、議員辞職後初めて会見（西日本新聞me） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKNlpSZTJlT1VkTU96ZG9DZlVxUWhGMDBsR2ZqcUZ4dFhVQUNXQWNWR285NE15OE9FQk1OSEpteEpDY3RFbGRDa3ZPdTZPcVU1bXJJVnJ0bXBjMmtBX09qd21MM2x2al9sd1pkYUtWZHI2dFhGWTZ6QVdIcllzMm8?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fori",
-      "fama",
-      "novitas"
-    ],
-    "quote_id": "NO1.43a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T06:51:18.059928+00:00",
-    "publish_at": "2026-11-05T11:17:00+00:00",
-    "timestamp": "2026-11-05T11:17:00+00:00"
-  },
-  {
-    "id": "6cd5b4debb5a",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zUDRrdHhENklnbHlpMTR1YmN5WklfM3ZvbE5yd0V0Wi1GQm9LNTdfTVpqTHI1ektsMkFGRF9ITzd2U2R1dm9weGdaUUJVbEZmNkdJbTZ6VkVKbzVLV0E?oc=5\nＢＮＰパリバ証券の河野龍太郎が、ケインズの予言が問うものについて語るという。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
-    "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 6,
-    "source": "Google News 風評・噂",
-    "source_title": "ケインズの予言が問うもの ＢＮＰパリバ証券チーフエコノミスト 河野龍太郎 - 沖縄タイムス社",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zUDRrdHhENklnbHlpMTR1YmN5WklfM3ZvbE5yd0V0Wi1GQm9LNTdfTVpqTHI1ektsMkFGRF9ITzd2U2R1dm9weGdaUUJVbEZmNkdJbTZ6VkVKbzVLV0E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio"
-    ],
-    "quote_id": "NO1.45",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-05T04:04:28.360892+00:00",
-    "publish_at": "2026-11-05T08:17:00+00:00",
-    "timestamp": "2026-11-05T08:17:00+00:00"
-  },
-  {
-    "id": "d60e22c02384",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5\nゼレンスキー氏は『核攻撃』の偽情報に対し、ロシアがシステムを攻撃したと発言しているという。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
-    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 8,
-    "source": "Google News 偽情報・言説",
-    "source_title": "ウクライナとロシアで「核攻撃」の偽情報、ゼレンスキー氏「ロシアが我々のシステムを攻撃」 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95U2duRFAzckNFSDhKTUNwSUUxTlZud19QazhDbjMzdVEyY2N4TEZqUUhtUkVUcmhxVkZvZk1EMkFqc2p4Z2pJeklvV0gxYTJsUmY3YlNyMUNTZWNwQjlCaDh3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio"
-    ],
-    "quote_id": "E15a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-04T01:44:39.849345+00:00",
-    "publish_at": "2026-11-04T01:44:39.849345+00:00",
-    "timestamp": "2026-11-04T01:44:39.849345+00:00"
   }
 ]
