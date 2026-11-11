@@ -1,5 +1,47 @@
 [
   {
+    "id": "b960878391ae",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CTE5YdVBuMzJpVGFUV25ZMVJfVUdVazhoeEpRdkJvMm12MTY5UjVGYUlwZDBJUnIzR2cxejFtM3Nwa0pUcG9XdGltODY5aTE0X0tWN1ZUQU9VdWc0aWNKLV96aWI3TUpUdFEwUUhGY3pMSzVQUEp3YVRJM285YnM?oc=5\nショップ店員が客に対して不適切な行動を取り、それが拡散して炎上し店が謝罪したが、援護しようもないという声も上がったという。\n「セネカはよく言った。怒りは崩れ落ちる建物のようなもので、落ちかかった相手の上で自らも砕ける、と。」\n『随筆集』第57篇「怒りについて」",
+    "original": "Seneca saith well, That anger is like ruin, which breaks itself upon that it falls.",
+    "original_lang": "en",
+    "theme": "fori",
+    "score": 12,
+    "source": "Google News 撤回・謝罪・誤認",
+    "source_title": "「中指立て」「国語からやり直せよ」ショップ店員による客への“不適切”行動が拡散し炎上…店が「侮辱的な発言、行為あった」認めて謝罪→「援護しようもない」の声（女性自身） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CTE5YdVBuMzJpVGFUV25ZMVJfVUdVazhoeEpRdkJvMm12MTY5UjVGYUlwZDBJUnIzR2cxejFtM3Nwa0pUcG9XdGltODY5aTE0X0tWN1ZUQU9VdWc0aWNKLV96aWI3TUpUdFEwUUhGY3pMSzVQUEp3YVRJM285YnM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fori",
+      "fama"
+    ],
+    "quote_id": "E57a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T23:02:07.753670+00:00",
+    "publish_at": "2026-11-12T20:17:00+00:00",
+    "timestamp": "2026-11-12T20:17:00+00:00"
+  },
+  {
+    "id": "77a2cf471c6c",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yWjhMQ25jaGhyREFVMUd3MUVPS0p6NTlZbVdSREtfSE81c3VDVFlMb0hmZlh5YVhGZUpId3I0VjFKNnVsdGtnUjZGdVFzUXRDRmJRWkVuUjNYbEk?oc=5\n日本ファクトチェックセンター編集長・古田大輔氏が、ファクトチェックとリテラシーについて語ったという。\n「人間の知性は、ひとたび気に入ったもの(受け容れられ信じられているから、あるいは心地よいから)に、ほかのすべてを引き寄せ、それを支持し一致させようとする。」\n『ノヴム・オルガヌム』第1巻 アフォリズム46",
+    "original": "Intellectus humanus in iis quae semel placuerunt (aut quia recepta sunt et credita, aut quia delectant), alia etiam omnia trahit ad suffragationem et consensum cum illis …",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "〈紙上講演 政経懇〉ファクトチェックとリテラシー 偽情報に惑わされないために 質の高い情報入手心がけて 日本ファクトチェックセンター編集長・古田大輔氏 - 山陰中央新報デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yWjhMQ25jaGhyREFVMUd3MUVPS0p6NTlZbVdSREtfSE81c3VDVFlMb0hmZlh5YVhGZUpId3I0VjFKNnVsdGtnUjZGdVFzUXRDRmJRWkVuUjNYbEk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "NO1.46a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T22:51:12.166765+00:00",
+    "publish_at": "2026-11-12T17:17:00+00:00",
+    "timestamp": "2026-11-12T17:17:00+00:00"
+  },
+  {
     "id": "eda0155e4e6a",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tX0tsSlpiVmttQ21NQm5nNTJPVUdkTC1xRl9vSGFxQkdXZ3BhRW9KTUF0cU1yUHJaMzJzUTRraVJLaWtFSS1BeWNLT0VwcVZqckNnTkhEU2hGUUpqaXRDZHFCUng4X18wUENQWGRxMFV0dmt1bWJPRGwtQ0VIUVE?oc=5\n香取慎吾が『ポリティカルパン』を支え、総理を演じることで話題になったという。\n「人間の知性はとめどなく膨らみ、立ち止まることも落ち着くこともできず、さらに先を求める。だが、それは空しい。」\n『ノヴム・オルガヌム』第1巻 アフォリズム48",
     "original": "Gliscit intellectus humanus, neque consistere aut acquiescere potis est, sed ulterius petit; at frustra.",
@@ -737,47 +779,5 @@
     "generated_at": "2026-11-07T20:49:16.696760+00:00",
     "publish_at": "2026-11-07T23:17:00+00:00",
     "timestamp": "2026-11-07T23:17:00+00:00"
-  },
-  {
-    "id": "664273a49790",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93TXhzUjZJQm45dWZKX2xTeENSdGRGZFhQcGI1X2JFOUtiWWVhWEVkOHNSVThhNG9RbkxNOElNSlNFTlF6dW91NlZkeDExWWd0Tm9r?oc=5\n釧路新聞電子版は「偽情報拡散防止、阿寒高生ら学ぶ モラル教育」と報じた。\n「だがアリストテレスの哲学に同意した者の大多数は、先入見と他人の権威とによって、自らをそれに隷属させたのである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム77",
-    "original": "At numerus longe maximus eorum, qui in Aristotelis philosophiam consenserunt, ex praejudicio et authoritate aliorum se illi mancipavit …",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 14,
-    "source": "Google News 偽情報・言説",
-    "source_title": "偽情報拡散防止、阿寒高生ら学ぶ モラル教育 - 釧路新聞電子版",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93TXhzUjZJQm45dWZKX2xTeENSdGRGZFhQcGI1X2JFOUtiWWVhWEVkOHNSVThhNG9RbkxNOElNSlNFTlF6dW91NlZkeDExWWd0Tm9r?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.77",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T20:17:08.817795+00:00",
-    "publish_at": "2026-11-07T20:17:08.817795+00:00",
-    "timestamp": "2026-11-07T20:17:08.817795+00:00"
-  },
-  {
-    "id": "18ab1037eca2",
-    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Rk5ZNHdpQ3pjWk9mMnVuMzNvNEJfcU9hdmFZenhoc1FFdjVvYngzVVZXSnJQVHpZOG4td2tuYmhtUUJUNEEwLUMtcllsVkJ4Y3o0NHBUa0F4U0ctejUxTnRoRzc2WXhUQ0J5TzBB?oc=5\nau Webポータルは「篠宮なほ｜白波のささやき、きみは海辺の予言」と報じた。\n「第三に、そして最後に(これが最大の理由であるが)、数限りないそうした予言のほとんどすべてはまやかしであり、暇で狡猾な頭が出来事の後になってでっち上げ、こしらえたものにすぎない。」\n『随筆集』第35篇「予言について」",
-    "original": "The third and last (which is the great one) is, that almost all of them, being infinite in number, have been impostures, and by idle and crafty brains merely contrived and feigned, after the event past.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 6,
-    "source": "Google News 風評・噂",
-    "source_title": "篠宮なほ｜白波のささやき、きみは海辺の予言 - au Webポータル",
-    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Rk5ZNHdpQ3pjWk9mMnVuMzNvNEJfcU9hdmFZenhoc1FFdjVvYngzVVZXSnJQVHpZOG4td2tuYmhtUUJUNEEwLUMtcllsVkJ4Y3o0NHBUa0F4U0ctejUxTnRoRzc2WXhUQ0J5TzBB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio"
-    ],
-    "quote_id": "E35c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T16:10:27.012008+00:00",
-    "publish_at": "2026-11-07T16:10:27.012008+00:00",
-    "timestamp": "2026-11-07T16:10:27.012008+00:00"
   }
 ]
