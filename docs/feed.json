@@ -1,5 +1,47 @@
 [
   {
+    "id": "7cb2bab354d0",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVlp1UnJGTk1zN0F6b1VIQjBQajJ5XzZEaDBHNkRMenhkcldkMmVKWUxzZVpVNHZySXpDZGJxbG9tN1dlVVRqaTVVWnFlUFFKSGV0ME9sNkJQQzlFNGdocmV5Sm4yamwtRzYzU2RpLWhvX01KdWxoaUU0djJmVlJxdGJDSS1Ddw?oc=5\nロシアはウクライナの製油所への攻撃を再開させ、石油精製能力を3割減らしたという。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシア石油精製能力3割減、ウクライナの製油所攻撃再開で＝関係筋 | ロイター - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVlp1UnJGTk1zN0F6b1VIQjBQajJ5XzZEaDBHNkRMenhkcldkMmVKWUxzZVpVNHZySXpDZGJxbG9tN1dlVVRqaTVVWnFlUFFKSGV0ME9sNkJQQzlFNGdocmV5Sm4yamwtRzYzU2RpLWhvX01KdWxoaUU0djJmVlJxdGJDSS1Ddw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "P05",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T22:55:58.214475+00:00",
+    "publish_at": "2026-11-12T18:17:00+00:00",
+    "timestamp": "2026-11-12T18:17:00+00:00"
+  },
+  {
+    "id": "e97ea98fd4bd",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XOGxyTDNuV29lRVdVa2lnTXo3RUMzdkpWUVp0QzVqQVdJelBKN2xXT1JfVGp5azltdzQ3THFFM2ZJVEt6aW9GYUNTUnl5eEJ6RUR5RFRQNjFRbVNGa1VlcTdUN0VtMnJhSEJ5Z1JpTTVvX3RtV2pYNlJBdFVqTG8?oc=5\nイランによる暗殺の恐れがあるとして、ベッセント米財務長官が自宅から基地へ転居した。\n「勝者は、苦難を共にせぬ疑わしき友を欲せず、敗者もまた、剣を執って運命を共にせぬ者を迎え入れはしない。」\n『君主論 cap.XXI』",
+    "theme": "alleanze_dipendenza",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "イランによる暗殺恐れ、ベッセント米財務長官が自宅から基地に転居…経済制裁主導し標的に（読売新聞オンライン） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XOGxyTDNuV29lRVdVa2lnTXo3RUMzdkpWUVp0QzVqQVdJelBKN2xXT1JfVGp5azltdzQ3THFFM2ZJVEt6aW9GYUNTUnl5eEJ6RUR5RFRQNjFRbVNGa1VlcTdUN0VtMnJhSEJ5Z1JpTTVvX3RtV2pYNlJBdFVqTG8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza",
+      "economia",
+      "consiglio",
+      "necessita"
+    ],
+    "quote_id": "NT2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T22:13:27.586087+00:00",
+    "publish_at": "2026-11-12T15:17:00+00:00",
+    "timestamp": "2026-11-12T15:17:00+00:00"
+  },
+  {
     "id": "e6383a7d287e",
     "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSThIeEswNDl2aWxYVDAzeGJpaGtWMHJPcnlpWWZoaDNkay1zOEJNWXZ6blhKVUF3dU52a25Oc0U0NEd0c2U5dWJKZzJ0b0pDUkRDNEw2eHJ1aUpxeVV5RlNRa3owajNmWW8zQXZpRGM3NW82bUJKS3RfOUNGVkRIUW96dXQyZw?oc=5\nロシアがウクライナの10州で送電網を攻撃し、冬を間近に控えてエネルギー施設を標的にした。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
     "theme": "guerra",
@@ -709,47 +751,5 @@
     "generated_at": "2026-11-07T08:00:40.205141+00:00",
     "publish_at": "2026-11-08T06:17:00+00:00",
     "timestamp": "2026-11-08T06:17:00+00:00"
-  },
-  {
-    "id": "949b2ba5abd9",
-    "text": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQaTZTcFhRWWYtMjVjUFdNVDZOeHZoYWlTa2djdFEzMXQtVWU0QzIxN2pEVTNFejRXVnJIYU16NklRZjlpQVJRSkU3Vzh5WVJTdUxMdVVheW50U3pneGlxZVRvNDZsejNrTUliVXJ6WUpvaHI1N0k4ZE13cFlza3pLZEF3RnJUQ21xX1VJQ3U2bWsteVEtNFZfMF9xbGpMUEdQMGtUNmhIdVFTR3R1cWVZSFNQUlZERzdzSUVEYmgyYmVkUUZSU243N1k0QVVGOU04dklzd3NVcV93RnVNREY4b2xVVm5iamdnQll5NW9DMHZBSGdkNFVZUFQxV3h2dW1EN0xVRG5aZFZCSmlkcE4teFd2RGNPdHRfQ2FiRUZkRUVsY3pUbU1Zb0JQclp3WmV0dEdieG1SV1NHWnNKOUEyZ3k1dVZlQ284endoRnB5Zl9yeDFDa2tjTUc5ZjY5dDZwRTlrVHY5Q2NUazZCWjRLSnUzM2VnRnpwdVh5QnJ4LVJjbHctUlpxb0JJUjNrVW9vV1ZlT29MQWFBVlYwdDg0b3JjOENiMmdidjRIWHhHb2ZXQ3V4N0diUkFZdTRiTkFfbHNiY0ZIRjRDV203TVVqSWxUWmhXUTVacVZqUE9VQVhnTzBuY3JJS3NHVVA3dGhxMFBxN1c1c0tUT1U?oc=5\n米軍はイランに対する新たな標的攻撃を実施し、テヘランの指導者は仲介者の提案を検討しているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 中東",
-    "source_title": "米軍、イランへの新たな標的攻撃を実施、テヘランの指導者は仲介者の提案を検討 - アラブニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQaTZTcFhRWWYtMjVjUFdNVDZOeHZoYWlTa2djdFEzMXQtVWU0QzIxN2pEVTNFejRXVnJIYU16NklRZjlpQVJRSkU3Vzh5WVJTdUxMdVVheW50U3pneGlxZVRvNDZsejNrTUliVXJ6WUpvaHI1N0k4ZE13cFlza3pLZEF3RnJUQ21xX1VJQ3U2bWsteVEtNFZfMF9xbGpMUEdQMGtUNmhIdVFTR3R1cWVZSFNQUlZERzdzSUVEYmgyYmVkUUZSU243N1k0QVVGOU04dklzd3NVcV93RnVNREY4b2xVVm5iamdnQll5NW9DMHZBSGdkNFVZUFQxV3h2dW1EN0xVRG5aZFZCSmlkcE4teFd2RGNPdHRfQ2FiRUZkRUVsY3pUbU1Zb0JQclp3WmV0dEdieG1SV1NHWnNKOUEyZ3k1dVZlQ284endoRnB5Zl9yeDFDa2tjTUc5ZjY5dDZwRTlrVHY5Q2NUazZCWjRLSnUzM2VnRnpwdVh5QnJ4LVJjbHctUlpxb0JJUjNrVW9vV1ZlT29MQWFBVlYwdDg0b3JjOENiMmdidjRIWHhHb2ZXQ3V4N0diUkFZdTRiTkFfbHNiY0ZIRjRDV203TVVqSWxUWmhXUTVacVZqUE9VQVhnTzBuY3JJS3NHVVA3dGhxMFBxN1c1c0tUT1U?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG9",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T07:50:03.097123+00:00",
-    "publish_at": "2026-11-08T03:17:00+00:00",
-    "timestamp": "2026-11-08T03:17:00+00:00"
-  },
-  {
-    "id": "0cc2a7a948b3",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rWU9fZk01MkEwVUppNWxQZHp1NHRjR0lkWVYyZXphSHM0cDFkMTRwWlJpVWF2TS1SakdhcEdrQ0dPSjI4MkVDVGE4WllHZC04ck5MM1o2NHo2bEpoeTh0MElZZWE4azduRUU3aU0tc3dIUFB4a3FXeWRiQ01NaG8?oc=5\nトランプ大統領はイランの核兵器保有を阻止していなかったと主張し、攻撃の正当化を行っているという。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ大統領「イランの核兵器保有を阻止していなければイスラエルと中東全体が存在していなかった」攻撃正当化 - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rWU9fZk01MkEwVUppNWxQZHp1NHRjR0lkWVYyZXphSHM0cDFkMTRwWlJpVWF2TS1SakdhcEdrQ0dPSjI4MkVDVGE4WllHZC04ck5MM1o2NHo2bEpoeTh0MElZZWE4azduRUU3aU0tc3dIUFB4a3FXeWRiQ01NaG8?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "armi_proprie"
-    ],
-    "quote_id": "ID2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T07:16:05.413940+00:00",
-    "publish_at": "2026-11-08T00:17:00+00:00",
-    "timestamp": "2026-11-08T00:17:00+00:00"
   }
 ]
