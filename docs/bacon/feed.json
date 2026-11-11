@@ -1,5 +1,46 @@
 [
   {
+    "id": "eda0155e4e6a",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tX0tsSlpiVmttQ21NQm5nNTJPVUdkTC1xRl9vSGFxQkdXZ3BhRW9KTUF0cU1yUHJaMzJzUTRraVJLaWtFSS1BeWNLT0VwcVZqckNnTkhEU2hGUUpqaXRDZHFCUng4X18wUENQWGRxMFV0dmt1bWJPRGwtQ0VIUVE?oc=5\n香取慎吾が『ポリティカルパン』を支え、総理を演じることで話題になったという。\n「人間の知性はとめどなく膨らみ、立ち止まることも落ち着くこともできず、さらに先を求める。だが、それは空しい。」\n『ノヴム・オルガヌム』第1巻 アフォリズム48",
+    "original": "Gliscit intellectus humanus, neque consistere aut acquiescere potis est, sed ulterius petit; at frustra.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "香取慎吾“総理”で話題！『ポリティカルパン』を支える意外な面々、元NHK記者、陰謀論ウォッチャーに憲法学者まで - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tX0tsSlpiVmttQ21NQm5nNTJPVUdkTC1xRl9vSGFxQkdXZ3BhRW9KTUF0cU1yUHJaMzJzUTRraVJLaWtFSS1BeWNLT0VwcVZqckNnTkhEU2hGUUpqaXRDZHFCUng4X18wUENQWGRxMFV0dmt1bWJPRGwtQ0VIUVE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio"
+    ],
+    "quote_id": "NO1.48",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T16:35:05.814000+00:00",
+    "publish_at": "2026-11-12T14:17:00+00:00",
+    "timestamp": "2026-11-12T14:17:00+00:00"
+  },
+  {
+    "id": "f6818ce69000",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tbFo1OHRwZDNPVVZiMGdGNnZia0Y5MnJmY0E2ejFRa1BYRmNiSDY3QjNjWV9kLVNPbWN6cmRHUHMtNDZ2WVFxd2FHRnBwVlJIYnlQMWxQS3FXNnlESk13TVV2c1BBR3doRWxPVDJtMldoWTVPTjY3LUljdG1XLTg?oc=5\n西武鉄道が総合訓練を行うのは、災害時のSNS偽情報が問題となっているためという。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
+    "original": "There is nothing makes a man suspect much, more than to know little …",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「列車が脱線」災害時のSNS偽情報、どう防ぐ 西武鉄道が総合訓練（朝日新聞） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tbFo1OHRwZDNPVVZiMGdGNnZia0Y5MnJmY0E2ejFRa1BYRmNiSDY3QjNjWV9kLVNPbWN6cmRHUHMtNDZ2WVFxd2FHRnBwVlJIYnlQMWxQS3FXNnlESk13TVV2c1BBR3doRWxPVDJtMldoWTVPTjY3LUljdG1XLTg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "E31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T16:23:18.585658+00:00",
+    "publish_at": "2026-11-12T11:17:00+00:00",
+    "timestamp": "2026-11-12T11:17:00+00:00"
+  },
+  {
     "id": "c016dece1722",
     "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fOHVrd3habjVndWFmeVBxcFNrVFpZTHEtT3ZLcVAxWDRZc092Y2h0NXBrTjlCcXlwRm5xYmp5QThqQVhJODBPckpOUG45SmZaRG16bndLYw?oc=5\n巨人選手が帽子を脱がないだけで大炎上し、球団公式SNSの危うさが浮き彫りになったという。\n「失敗したときの恥辱が、やり遂げたときの名誉より大きいような企てに乗り出す者は、自分の名誉の下手な管理者である。」\n『随筆集』第55篇「名誉と名声について」",
     "original": "A man is an ill husband of his honor, that entereth into any action, the failing wherein may disgrace him, more than the carrying of it through, can honor him.",
@@ -738,43 +779,5 @@
     "generated_at": "2026-11-07T16:10:27.012008+00:00",
     "publish_at": "2026-11-07T16:10:27.012008+00:00",
     "timestamp": "2026-11-07T16:10:27.012008+00:00"
-  },
-  {
-    "id": "2a2d84e7a4da",
-    "text": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82aDg0enBpdmllOFZSTklPWGRSVkotanB5cHRkX2VWSERRaGIxeXU4cEp5LTBib3lTcWthbWVHNDlYSmNiWXNYcmZaYnUtMnlVMVBFRTlpUjlQLURQV1JfZ1haS0lSM3ZWMmJOQUFfVXJIWGpfQktKUXlNVQ?oc=5\nニコニコニュースは「“港区ママ”元SKE48・石田安奈、セレブママたちのし烈な争いを激白 情報戦の裏側『ライバルだから。性別が同じだったら特に』」と報じた。\n「そして嫉妬は、噂と評判によっていつも倍加する。」\n『随筆集』第9篇「嫉妬について」",
-    "original": "… and envy ever redoubleth from speech and fame.",
-    "original_lang": "en",
-    "theme": "tribus",
-    "score": 4,
-    "source": "Google News 印象操作・情報戦",
-    "source_title": "“港区ママ”元SKE48・石田安奈、セレブママたちのし烈な争いを激白 情報戦の裏側「ライバルだから。性別が同じだったら特に」 - ニコニコニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82aDg0enBpdmllOFZSTklPWGRSVkotanB5cHRkX2VWSERRaGIxeXU4cEp5LTBib3lTcWthbWVHNDlYSmNiWXNYcmZaYnUtMnlVMVBFRTlpUjlQLURQV1JfZ1haS0lSM3ZWMmJOQUFfVXJIWGpfQktKUXlNVQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "E9a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T00:55:36.585146+00:00",
-    "publish_at": "2026-11-07T11:17:00+00:00",
-    "timestamp": "2026-11-07T11:17:00+00:00"
-  },
-  {
-    "id": "a5a7424b7664",
-    "text": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5yeGlzcnEzZld2bFNKT3hQVXcwTlVWUkItQVFvaFBGTXBnVWNlT3E3WUNHelkyV19MaUJTbl9PYjU3V1BMTWtKaVZaQldldVdIMm5Vci1mTlpyZXU5ZE5URENtak1XeWhXTDRzUHpfcEZ3bGp5VlBpadIBjAFBVV95cUxNdFV6WlVUOTJqYkVnZjdLZW5UNGdQUGpDM1pyNl8zajZFU0lkSzJ3UmRaTU1DbTIyWlpvN2F3SVpTeGxObUMzbE5STXZ4ekdJc080Rkx0cEozNnlxazNMaEJIWDVxeWdIdzhaTDBXQ056Q2xTMk9TWjlCakE1WkNVZFVVYlFWNjQwckpMQg?oc=5\nコカイン使用疑いで逮捕されたCharの息子JESSE容疑者に関する報道によりSNSで騒がれているという。\n「順境は悪徳をいちばんよく露わにし、逆境は美徳をいちばんよく露わにする。」\n『随筆集』第5篇「逆境について」",
-    "original": "Prosperity doth best discover vice, but adversity doth best discover virtue.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 8,
-    "source": "Google News SNS・報道",
-    "source_title": "「どうして…」Charの息子・JESSE容疑者、「コカイン使用疑いで逮捕」報道にSNS騒然 - zakⅡ",
-    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5yeGlzcnEzZld2bFNKT3hQVXcwTlVWUkItQVFvaFBGTXBnVWNlT3E3WUNHelkyV19MaUJTbl9PYjU3V1BMTWtKaVZaQldldVdIMm5Vci1mTlpyZXU5ZE5URENtak1XeWhXTDRzUHpfcEZ3bGp5VlBpadIBjAFBVV95cUxNdFV6WlVUOTJqYkVnZjdLZW5UNGdQUGpDM1pyNl8zajZFU0lkSzJ3UmRaTU1DbTIyWlpvN2F3SVpTeGxObUMzbE5STXZ4ekdJc080Rkx0cEozNnlxazNMaEJIWDVxeWdIdzhaTDBXQ056Q2xTMk9TWjlCakE1WkNVZFVVYlFWNjQwckpMQg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E5",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T23:42:56.816976+00:00",
-    "publish_at": "2026-11-06T23:42:56.816976+00:00",
-    "timestamp": "2026-11-06T23:42:56.816976+00:00"
   }
 ]
