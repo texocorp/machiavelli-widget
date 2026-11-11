@@ -1,5 +1,70 @@
 [
   {
+    "id": "4b12e19dbeea",
+    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWmtPUDc1SmlCM01Fd0hheVlLanJQeHo4OHFlOWg4M196N3UtNEZFaVVoNWU3Tkhsckk2bGZZLXZUSEZERjJDYmNRYVk0STdoSV8wMG8yWUdpb2NDZjdvZG5TZlNnWkFQWmkxZHRkeC1VelRWamZOR3VTQS1ZYjlEV3FTbXVyRVEt?oc=5\nG7は北朝鮮の核・ミサイルや暗号資産の窃取に対して共同で対応することを表明したという。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "G7「北朝鮮の核・ミサイル、暗号資産窃取に共同対応」…韓国の立場は4文字 - 조선일보",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWmtPUDc1SmlCM01Fd0hheVlLanJQeHo4OHFlOWg4M196N3UtNEZFaVVoNWU3Tkhsckk2bGZZLXZUSEZERjJDYmNRYVk0STdoSV8wMG8yWUdpb2NDZjdvZG5TZlNnWkFQWmkxZHRkeC1VelRWamZOR3VTQS1ZYjlEV3FTbXVyRVEt?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore"
+    ],
+    "quote_id": "FV2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T07:55:15.422847+00:00",
+    "publish_at": "2026-11-12T03:17:00+00:00",
+    "timestamp": "2026-11-12T03:17:00+00:00"
+  },
+  {
+    "id": "50261c06b936",
+    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRjFqbWhIcWVpSC1GWWc3d3k0djFyNHFJa2hzTFZZbkJEUUMtY3hVOTBJS0J3cmVDMHphTmlOQ3BWRUpkZFdtX2s4SGdkd3dWOW0wY0ZnbnR0M3BDNGtMNVFQSWptUW5EUmVhSV9xNC0wa1p2NXJaYlJvQ0VkdlRYLVFJYjlYMFpvRnFFNQ?oc=5\nゼレンスキー氏は米露ウクライナ和平協議の初日終了を『生産的だった』と評し、11日も協議が継続されるという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "ゼレンスキー氏「生産的だった」 米露ウクライナ和平協議、初日終了 11日も継続へ - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRjFqbWhIcWVpSC1GWWc3d3k0djFyNHFJa2hzTFZZbkJEUUMtY3hVOTBJS0J3cmVDMHphTmlOQ3BWRUpkZFdtX2s4SGdkd3dWOW0wY0ZnbnR0M3BDNGtMNVFQSWptUW5EUmVhSV9xNC0wa1p2NXJaYlJvQ0VkdlRYLVFJYjlYMFpvRnFFNQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "AG4",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T06:36:33.445260+00:00",
+    "publish_at": "2026-11-12T00:17:00+00:00",
+    "timestamp": "2026-11-12T00:17:00+00:00"
+  },
+  {
+    "id": "35e5909a2aac",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zNHU4aFZBVXRvMUh1TDhmRl9rdnZRTENpNUFmVnc1MVk3M1pIUHpGNHJCSTdFOUI0aDQwWDhGRjNOdGIxOFM5NTZOQ3d0bUZnTFphdmcwUjBFTlE2VTMxVTNB?oc=5\nルビオ米国務長官はイラン情勢について大規模な戦闘作戦を行う必要はないとし、経済的圧力が効果があると主張した。\n「賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。」\n『リウィウス論 III.12』",
+    "theme": "guerra",
+    "score": 20,
+    "source": "Google News 国際(World)",
+    "source_title": "ルビオ米国務長官、イラン情勢「もはや大規模な戦闘作戦を行う必要はない」…経済的圧力が効果と主張 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zNHU4aFZBVXRvMUh1TDhmRl9rdnZRTENpNUFmVnc1MVk3M1pIUHpGNHJCSTdFOUI0aDQwWDhGRjNOdGIxOFM5NTZOQ3d0bUZnTFphdmcwUjBFTlE2VTMxVTNB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "economia",
+      "consiglio",
+      "necessita"
+    ],
+    "quote_id": "D3.12",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T06:16:18.365824+00:00",
+    "publish_at": "2026-11-11T21:17:00+00:00",
+    "timestamp": "2026-11-11T21:17:00+00:00"
+  },
+  {
     "id": "648c6442291b",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mcGdQdHBMUmZsX3ZQNklRa0ZoaGk4OGQ3RGdLWU1hWWVoaXBURzRzZjhidkRDYk9Yd2QxclRSUHFrLXdLYjl4VXVMUGlwcWl4eE9BR01HamE0WGNsZmk3MFNEZ01MeVNLWHliMUNta2c2ei1UZWpKbFFYdEZKcmM?oc=5\n米軍がホルムズ海峡でイランの民間船舶を攻撃し、トランプ氏はその可能性は極めて低いと発言した。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
     "theme": "guerra",
@@ -676,82 +741,5 @@
     "generated_at": "2026-11-06T21:44:51.045886+00:00",
     "publish_at": "2026-11-07T15:17:00+00:00",
     "timestamp": "2026-11-07T15:17:00+00:00"
-  },
-  {
-    "id": "9fec6f725795",
-    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM1BNSmhWXzNSSm5kNk1sRHdTTDhuSTJCNmZyM0ttd0gtanR5RXRvaTNpblFnbjliSV92WlFQaXd6NjhZRGkzeHVRZlFnRlBRejYzZkZTZ1FXM0RjYTl5c016aWRvUjVxd3E5WjBlOUpJTGxPY3hmUDV5eDdlUThGTnFpdEJGZ0hwRFhXYQ?oc=5\n台湾は在パプアニューギニアの窓口機関を閉鎖し中国の介入を非難するとともに、LNGの購入を停止したという。\n「物事の想像よりも、現実の真実を追う方が適切だと余は考えた。」\n『君主論 cap.XV』",
-    "theme": "inganno_simulazione",
-    "score": 9,
-    "source": "Google News 国際(World)",
-    "source_title": "台湾、在パプアニューギニアの窓口機関を閉鎖 「中国が介入」と非難、LNG購入停止 - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM1BNSmhWXzNSSm5kNk1sRHdTTDhuSTJCNmZyM0ttd0gtanR5RXRvaTNpblFnbjliSV92WlFQaXd6NjhZRGkzeHVRZlFnRlBRejYzZkZTZ1FXM0RjYTl5c016aWRvUjVxd3E5WjBlOUpJTGxPY3hmUDV5eDdlUThGTnFpdEJGZ0hwRFhXYQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione"
-    ],
-    "quote_id": "P15a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T21:04:24.972067+00:00",
-    "publish_at": "2026-11-07T12:17:00+00:00",
-    "timestamp": "2026-11-07T12:17:00+00:00"
-  },
-  {
-    "id": "a7307850f7f0",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95akF1OHhmaUQ3aDJWSzZtbzJGTzhjVFd2QmdoLUc4djlQRlZralFlS2RGZ2dDNUpGWlRZUTJ4LUZkWklBZGFtRklwa1BoSkhtaUx2aWFXSGsxc2JiVHpYeW1GOUxoWDJvT2pWRA?oc=5\n北朝鮮は新型対空ミサイルの発射を行い、長距離巡航弾の訓練も実施しているという。\n「君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。」\n『君主論 cap.XIV』",
-    "theme": "guerra",
-    "score": 6,
-    "source": "Google News 検索 朝鮮半島",
-    "source_title": "北朝鮮、4日の発射は新型対空ミサイル 長距離巡航弾の訓練も - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95akF1OHhmaUQ3aDJWSzZtbzJGTzhjVFd2QmdoLUc4djlQRlZralFlS2RGZ2dDNUpGWlRZUTJ4LUZkWklBZGFtRklwa1BoSkhtaUx2aWFXSGsxc2JiVHpYeW1GOUxoWDJvT2pWRA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "economia"
-    ],
-    "quote_id": "AP2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T15:55:45.626740+00:00",
-    "publish_at": "2026-11-07T09:17:00+00:00",
-    "timestamp": "2026-11-07T09:17:00+00:00"
-  },
-  {
-    "id": "0095a5c1e16b",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMW53aG9pSnNZWlhGY3FZdDhsbDhwRGY2eTBJai13c3hQaC1vczg2OUdxU3ZESTg2RWVNVkJEcWtycHlocXB5cnM4dVpaSG1XRHpGOV9CQmJRX2xYU203OFBSVHZfME40?oc=5\n政府は情勢の緊迫化を受け、中東海域への海上自衛隊派遣を1年間延長する方針だという。\n「人は、やむを得ぬ必要から動くか、自らの選択によって動くかのいずれかである。」\n『リウィウス論 I.1』",
-    "theme": "necessita",
-    "score": 6,
-    "source": "Google News 検索 安全保障",
-    "source_title": "政府、中東海域への海上自衛隊派遣を1年延長 情勢緊迫化で - 毎日新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMW53aG9pSnNZWlhGY3FZdDhsbDhwRGY2eTBJai13c3hQaC1vczg2OUdxU3ZESTg2RWVNVkJEcWtycHlocXB5cnM4dVpaSG1XRHpGOV9CQmJRX2xYU203OFBSVHZfME40?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "D1.1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T15:43:01.214266+00:00",
-    "publish_at": "2026-11-07T06:17:00+00:00",
-    "timestamp": "2026-11-07T06:17:00+00:00"
-  },
-  {
-    "id": "e6cdb59e84a9",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yOUdLeG5OR1FXekZ0V0k0MTczZVo2MzdZYk9qSTVvUkpvTkE4Snd6UmhFNFZ1SzBmWnYyWnY0ajN6R0x1endURDBNc2JhZnFlaFRLS1JOTmp6blgyZEloWWIyOVFjWldEU21qUmZxSnlpY2VuTDVqMDVB?oc=5\nイランはアメリカに対して核問題をめぐる提案を提示し、その条件が受け入れられた後に議論に入るという。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン アメリカへ核に関する提案 提示の「7つの条件」受け入れ後に議論 - テレ朝NEWS",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yOUdLeG5OR1FXekZ0V0k0MTczZVo2MzdZYk9qSTVvUkpvTkE4Snd6UmhFNFZ1SzBmWnYyWnY0ajN6R0x1endURDBNc2JhZnFlaFRLS1JOTmp6blgyZEloWWIyOVFjWldEU21qUmZxSnlpY2VuTDVqMDVB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T15:07:21.849215+00:00",
-    "publish_at": "2026-11-07T03:17:00+00:00",
-    "timestamp": "2026-11-07T03:17:00+00:00"
   }
 ]
