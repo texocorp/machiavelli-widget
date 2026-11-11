@@ -1,5 +1,61 @@
 [
   {
+    "id": "b8a435a29650",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGeU0xdUZtTi1sUG96NnNCMXlrYkVRS3RkaHV5endBWTdDQmxjeVh4WlFWWEZxcjU0Rkw4QkZEMzFubV94MEUwdm1aMXB0bHJMSE9V?oc=5\n全国高齢者等終身サポート事業者協会の黒澤理事長は、老後の先も信頼築くために話を聞いたという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "老後とその先も 信頼築く 全国高齢者等終身サポート事業者協会・黒澤理事長に聞く - 東京新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGeU0xdUZtTi1sUG96NnNCMXlrYkVRS3RkaHV5endBWTdDQmxjeVh4WlFWWEZxcjU0Rkw4QkZEMzFubV94MEUwdm1aMXB0bHJMSE9V?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T16:20:47.432418+00:00",
+    "publish_at": "2026-11-12T16:17:00+00:00",
+    "timestamp": "2026-11-12T16:17:00+00:00"
+  },
+  {
+    "id": "eba67bb33f3f",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sQ3RyT2M5X2Rnb2QtZWFUeS1uTXc0MVdnRDN3d1VSazZNTjI5aDJVdVIwV1ZZNFFRbUgyQ0VjazVXeFpRMHlMdnNtSG5qd2FHVjlQb2dwNjFoYkxtenU5X0dWYjU5UkV6bndtQQ?oc=5\n高齢おひとり様の終活支援では入院や葬儀の手配が行われ、社協も取り組んでいるという。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 8,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "高齢おひとり様の終活支援 入院・葬儀の手配、社協でも - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sQ3RyT2M5X2Rnb2QtZWFUeS1uTXc0MVdnRDN3d1VSazZNTjI5aDJVdVIwV1ZZNFFRbUgyQ0VjazVXeFpRMHlMdnNtSG5qd2FHVjlQb2dwNjFoYkxtenU5X0dWYjU5UkV6bndtQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort"
+    ],
+    "quote_id": "I.20d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T16:18:19.956684+00:00",
+    "publish_at": "2026-11-12T13:17:00+00:00",
+    "timestamp": "2026-11-12T13:17:00+00:00"
+  },
+  {
+    "id": "a5a66b26a32a",
+    "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2SDUzZW1IbHU0UGtYNEJOS2xkcWF0QzBCMjN2QklNblVTZ0pjTFNTYm4zRzQwaTEzZlVkNEkzSkRpSkVIT05TS2FGVnRVcmpDelE?oc=5\n45年の看取り実績を持つ松本医師は、母を看取った原体験から在宅薬局を始めたという。\n「死に方を知らなくとも、気にすることはない。その時になれば、自然がすっかり十分に教えてくれる。」\n『エセー III.12「人相について」』",
+    "theme": "mort",
+    "score": 10,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "45年の看取り実績を持つ松本医師×母を看取った原体験から開局したおおさか在宅薬局～家族を孤立させない地域連携～ - 山陽新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2SDUzZW1IbHU0UGtYNEJOS2xkcWF0QzBCMjN2QklNblVTZ0pjTFNTYm4zRzQwaTEzZlVkNEkzSkRpSkVIT05TS2FGVnRVcmpDelE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "medecine",
+      "soi"
+    ],
+    "quote_id": "III.12b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T16:15:19.375678+00:00",
+    "publish_at": "2026-11-12T10:17:00+00:00",
+    "timestamp": "2026-11-12T10:17:00+00:00"
+  },
+  {
     "id": "8b8241ed0b73",
     "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGWHZJbTRfMGRJSVNybjdSZmQ5bTRyQlhncXhBdklMRGFSVklfUWhXeXJvWnpZRFk5OXRRYUlDZzB2Zkw0RkRBcEdBalVYZ25QWkZOcTkyc2tTZHZQTmc?oc=5\n福井県越前町で水揚げされた越前がにが、過去2番目に高い290万円で落札される最上級ブランド『極』となった。\n「名と物とがある。名とは物を指し示す声であって、物の一部でも、その実体の一部でもない。」\n『エセー II.16「栄光について」』",
     "theme": "lois",
@@ -644,61 +700,5 @@
     "generated_at": "2026-11-07T02:09:14.641279+00:00",
     "publish_at": "2026-11-08T01:17:00+00:00",
     "timestamp": "2026-11-08T01:17:00+00:00"
-  },
-  {
-    "id": "a9de739a9a78",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Da1NvNVp6anYwTjRuTFVsb2V3cnFrcE5kREs0czhIMVR0TXJDd2tLeVRTYTJqMGtlRDZXZ1BzOEVndkpaa3Y5Q1lxeFBVUTJMd1pUdWNNZzZ5UlMtcmVN?oc=5\n産後ケアホテルでは専門職が母親サポートを行い、孤立を防ぐための休息を促すという。\n「踊るときは踊り、眠るときは眠る。」\n『エセー III.13「経験について」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "産後ケアホテルで心身回復、専門職が母親サポート ゆったり休息、孤立防ぐ：ニュース - 中日BIZナビ",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Da1NvNVp6anYwTjRuTFVsb2V3cnFrcE5kREs0czhIMVR0TXJDd2tLeVRTYTJqMGtlRDZXZ1BzOEVndkpaa3Y5Q1lxeFBVUTJMd1pUdWNNZzZ5UlMtcmVN?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "III.13r",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T02:00:49.598160+00:00",
-    "publish_at": "2026-11-07T22:17:00+00:00",
-    "timestamp": "2026-11-07T22:17:00+00:00"
-  },
-  {
-    "id": "17195b581d93",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZ1YybUNFMkFyRVJ5QWRiREp6RHp0WnllLVFjeVJNX3ZPdDdSZkhQWVR5UnRDV3FyNUtoVDM3XzNSY0toS041TExWR0tLZDhmU18xZ0pxeUlKYVAtNTBqajdwVk1sN2xQa2NDaEVfUHZQYmJhTnU5Y3M0dkJ0eVU?oc=5\nNASAが捉えた宇宙の星雲は、異なる光で見ることで片目が光る猫のような奇妙な姿に見えてきた。\n「この世で、私自身ほどはっきりした怪物や奇跡を、私は見たことがない。」\n『エセー III.11「足の不自由な人々について」』",
-    "theme": "presomption",
-    "score": 2,
-    "source": "Google News 科学",
-    "source_title": "宇宙に浮かぶ「片目が光る猫」…NASAが捉えた奇妙な星雲、異なる光で見えてきた驚きの姿（ニューズウィーク日本版） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZ1YybUNFMkFyRVJ5QWRiREp6RHp0WnllLVFjeVJNX3ZPdDdSZkhQWVR5UnRDV3FyNUtoVDM3XzNSY0toS041TExWR0tLZDhmU18xZ0pxeUlKYVAtNTBqajdwVk1sN2xQa2NDaEVfUHZQYmJhTnU5Y3M0dkJ0eVU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption"
-    ],
-    "quote_id": "III.11e",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T21:39:48.737208+00:00",
-    "publish_at": "2026-11-07T19:17:00+00:00",
-    "timestamp": "2026-11-07T19:17:00+00:00"
-  },
-  {
-    "id": "4554513b7cd5",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBneTFKTWZhM0xMS0FQLUNjWVNFWGpOZHlEN3F5dDJNLVcxTENIQmlRWHluX0hGY1RYQUoxeE9FbnQ2MEw2anlGM1FsdG9qeWVGdXZqZmVUQ1pUTHpUaUt1MjQ3QmpIdFFaUFl5TmFuVHB4elBaNkNFbE9QcV93bU0?oc=5\n元朝日新聞のアフロ記者が、残酷で辛い老後という絶望しないための新しい価値観を発見したという。\n「あなたの生のたえまない営みは、死を築くことにほかならない。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "「本当の問題は老いでも死でもなくて…」「人生の後半戦では…」元朝日新聞“アフロ記者”（61）が発見した、“残酷で辛い老後”に絶望しないための“新しい価値観”（文春オンライン） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBneTFKTWZhM0xMS0FQLUNjWVNFWGpOZHlEN3F5dDJNLVcxTENIQmlRWHluX0hGY1RYQUoxeE9FbnQ2MEw2anlGM1FsdG9qeWVGdXZqZmVUQ1pUTHpUaUt1MjQ3QmpIdFFaUFl5TmFuVHB4elBaNkNFbE9QcV93bU0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "nouveaute",
-      "soi"
-    ],
-    "quote_id": "I.20c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T21:34:39.962625+00:00",
-    "publish_at": "2026-11-07T16:17:00+00:00",
-    "timestamp": "2026-11-07T16:17:00+00:00"
   }
 ]
