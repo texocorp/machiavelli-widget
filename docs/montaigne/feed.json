@@ -1,5 +1,81 @@
 [
   {
+    "id": "8b8241ed0b73",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGWHZJbTRfMGRJSVNybjdSZmQ5bTRyQlhncXhBdklMRGFSVklfUWhXeXJvWnpZRFk5OXRRYUlDZzB2Zkw0RkRBcEdBalVYZ25QWkZOcTkyc2tTZHZQTmc?oc=5\n福井県越前町で水揚げされた越前がにが、過去2番目に高い290万円で落札される最上級ブランド『極』となった。\n「名と物とがある。名とは物を指し示す声であって、物の一部でも、その実体の一部でもない。」\n『エセー II.16「栄光について」』",
+    "theme": "lois",
+    "score": 2,
+    "source": "Google News 国内",
+    "source_title": "越前がに最上級ブランド「極」出た…過去2番目に高い290万円で落札 福井県越前町で水揚げ - 福井新聞社",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGWHZJbTRfMGRJSVNybjdSZmQ5bTRyQlhncXhBdklMRGFSVklfUWhXeXJvWnpZRFk5OXRRYUlDZzB2Zkw0RkRBcEdBalVYZ25QWkZOcTkyc2tTZHZQTmc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "profit",
+      "vanite"
+    ],
+    "quote_id": "II.16",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T08:13:56.385388+00:00",
+    "publish_at": "2026-11-12T07:17:00+00:00",
+    "timestamp": "2026-11-12T07:17:00+00:00"
+  },
+  {
+    "id": "12d64262ac47",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VLXpIa1dQWUg0cFVlZElUNElFRFdjMmxmX1JOb1BLUnlLd1BqcFlfMTNwYkczS1NLU2ppUUY0U0RtTGdwY1l5SjZEYjZSZk1EbWtzVkRDbGVvcEVMd2Qw?oc=5\n『年内入試』での生成AI活用に対し、大学間の対応は分かれているという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 教育",
+    "source_title": "“年内入試”での生成AI活用めぐり大学の対応分かれる - NHKニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VLXpIa1dQWUg0cFVlZElUNElFRFdjMmxmX1JOb1BLUnlLd1BqcFlfMTNwYkczS1NLU2ppUUY0U0RtTGdwY1l5SjZEYjZSZk1EbWtzVkRDbGVvcEVMd2Qw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "I.26a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T08:09:17.343158+00:00",
+    "publish_at": "2026-11-12T04:17:00+00:00",
+    "timestamp": "2026-11-12T04:17:00+00:00"
+  },
+  {
+    "id": "c9971131051f",
+    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Od194cWZuQTR5UDY1QVhTNVNXRnVOWElwRllWOHN5N2syTm84YW5uNEVLeS1OOEtTTXhQM2Nwc0dnQ1RxT29yR19FODFKNXEta1NDX1ZvU3RNUEFEYl80YQ?oc=5\n『墓じまい』実際どうすればと聞かれ、八幡浜では終活イベントで専門家が手続きなどを解説している。\n「我々のフランスには、世界のほかの国々を全部合わせたより多くの法がある。」\n『エセー III.13「経験について」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「墓じまい」実際どうすれば？ 八幡浜で終活イベント、専門家が手続きなど解説 - 愛媛新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Od194cWZuQTR5UDY1QVhTNVNXRnVOWElwRllWOHN5N2syTm84YW5uNEVLeS1OOEtTTXhQM2Nwc0dnQ1RxT29yR19FODFKNXEta1NDX1ZvU3RNUEFEYl80YQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "savoir"
+    ],
+    "quote_id": "III.13e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T08:05:19.342630+00:00",
+    "publish_at": "2026-11-12T01:17:00+00:00",
+    "timestamp": "2026-11-12T01:17:00+00:00"
+  },
+  {
+    "id": "bdf65a0190d6",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FdTRxSERMMnJpU1RvTXRYMkt2RUUwZkg0UXJBLXh6V1F5LUN0ZmJTRE5hN1pPUkY0T2NSWS1MZ3BaMDJxZkluX2NENF9YUWpwYk9IN0c3Mm1NcDB4S0l4LWxfVThmWUE5?oc=5\n12円のガムをお湯で崩したり何も買わずにお湯を汲んだりする外国人客に対し、コンビニ店員が困惑したという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "「1万円札を崩すために12円のガムを1個ずつ…」「何も買わずにポットのお湯を水筒へ」コンビニ店員が困惑した外国人客の迷惑行為 - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FdTRxSERMMnJpU1RvTXRYMkt2RUUwZkg0UXJBLXh6V1F5LUN0ZmJTRE5hN1pPUkY0T2NSWS1MZ3BaMDJxZkluX2NENF9YUWpwYk9IN0c3Mm1NcDB4S0l4LWxfVThmWUE5?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui"
+    ],
+    "quote_id": "I.31a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T08:00:42.773845+00:00",
+    "publish_at": "2026-11-11T22:17:00+00:00",
+    "timestamp": "2026-11-11T22:17:00+00:00"
+  },
+  {
     "id": "ad6e55d45889",
     "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UQjBCV282S21RVFhwX2oxaVNnRWZ1UlJtMGJtV3QwWDY0T003d2hiNGhRM2hOOEJQV3FFREktWXJraTY5MFhZdmZpYkhtNVQyb0RLcjh3?oc=5\n田嶋幸三氏が『公正な組織運営』を掲げてFIFA会長選に出馬し、孤立のリスクがあるという。\n「世界は探究の学校にすぎない。的を射止めた者ではなく、最も見事な走りを見せた者が勝つのだ。」\n『エセー III.8「談論の術について」』",
     "theme": "soi",
@@ -624,79 +700,5 @@
     "generated_at": "2026-11-06T21:34:39.962625+00:00",
     "publish_at": "2026-11-07T16:17:00+00:00",
     "timestamp": "2026-11-07T16:17:00+00:00"
-  },
-  {
-    "id": "574322469884",
-    "text": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMXdRSktFR0ZGY1Zaa3NKMTNfamJhN2xyX2s1QW5HamRrNVFSS3NYcFpqbHpyVXlrS001ZzY2VTNWc2ROSXVBTC1hdER2UnliMDdNbHVVdGxQeW9zRjA4N05HelVEN2JUVWlmS0dSYlZxeFZtcm9Lb00xQjFaVW1JbjdNQXlsU3hLX1dyazZDV2NDckhqVGg3S1pLdmdqZkRBRnZEWWFnaWVoQ0dKdUdUeng5RTZEZE5neFdMSW5udklpd1kyZXdkS29TMUUyUDRCdl81U2lGTndOQV9yV2ZPWmNidnQzZEQzbUYxNVNFM1MxVDdjWXdoXzRTMWpOdWpNNTBNWEEyRDNFTkt5ZU9SVEhxX3IwcGN5Y29BTlRjbGxUMnVkTTE1YmRLREdpMWZBb2xQcGNxOWlpTDhzbzktNWZDYVlHVjZDWERCSzAwY3VXaDBLRGJqaA?oc=5\n長時間労働や強いストレスによる健康被害に注意が必要な福井では、過労死を防ぐには家族や同僚の気づきも重要である。\n「人は自分を賃貸しする。その能力は自分のためではなく、仕える相手のためにある。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "medecine",
-    "score": 4,
-    "source": "Google News 検索 職場",
-    "source_title": "共働き率が高い福井では特に注意が必要 長時間労働や強いストレスによる健康被害 過労死防ぐには家族や同僚の“気づき”も重要 - 福井テレビ",
-    "source_url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMXdRSktFR0ZGY1Zaa3NKMTNfamJhN2xyX2s1QW5HamRrNVFSS3NYcFpqbHpyVXlrS001ZzY2VTNWc2ROSXVBTC1hdER2UnliMDdNbHVVdGxQeW9zRjA4N05HelVEN2JUVWlmS0dSYlZxeFZtcm9Lb00xQjFaVW1JbjdNQXlsU3hLX1dyazZDV2NDckhqVGg3S1pLdmdqZkRBRnZEWWFnaWVoQ0dKdUdUeng5RTZEZE5neFdMSW5udklpd1kyZXdkS29TMUUyUDRCdl81U2lGTndOQV9yV2ZPWmNidnQzZEQzbUYxNVNFM1MxVDdjWXdoXzRTMWpOdWpNNTBNWEEyRDNFTkt5ZU9SVEhxX3IwcGN5Y29BTlRjbGxUMnVkTTE1YmRLREdpMWZBb2xQcGNxOWlpTDhzbzktNWZDYVlHVjZDWERCSzAwY3VXaDBLRGJqaA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine",
-      "soi",
-      "peur"
-    ],
-    "quote_id": "III.10c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T16:08:53.731493+00:00",
-    "publish_at": "2026-11-07T13:17:00+00:00",
-    "timestamp": "2026-11-07T13:17:00+00:00"
-  },
-  {
-    "id": "73c8659ad484",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQjU1WndJemw2Y3VEWU0tRFRHdVNsSy1pM0pWZjFZQ1g0VmtTU2VreXZUMHlrc01SNDg2d3U4cklWMnJoOS1vNGZhbXhHWVJXa2MxV2RteEx6NWp0YWZOVWRrd2k5ZDhzRmpFZzNCYmdUUGZHWTBfQWpka3ZtSHM?oc=5\n特別支援学校の男性教諭が校長らによるパワハラを訴え、就業困難として千葉県を提訴したが、県教委は回答しかねている。\n「役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 検索 職場",
-    "source_title": "特別支援学校の男性教諭、発達障害巡り校長らによるパワハラ訴え 「就業困難」として千葉県を提訴 県教委「回答しかねる」 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQjU1WndJemw2Y3VEWU0tRFRHdVNsSy1pM0pWZjFZQ1g0VmtTU2VreXZUMHlrc01SNDg2d3U4cklWMnJoOS1vNGZhbXhHWVJXa2MxV2RteEx6NWp0YWZOVWRrd2k5ZDhzRmpFZzNCYmdUUGZHWTBfQWpka3ZtSHM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "III.10b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T16:01:31.056463+00:00",
-    "publish_at": "2026-11-07T10:17:00+00:00",
-    "timestamp": "2026-11-07T10:17:00+00:00"
-  },
-  {
-    "id": "612fe554d5f8",
-    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUnZUVFVwMVZEd0pTaU1jTUxieF9GNlBDbWxzZzRtTVVtd1lFM014MzRYR3c0ZS1mX2pnOU5SMzBXTXV5VldKVUVCVlpMQXFGNnZxV2h4WmVOWG9meTBmNXdCY19NVVhsZUkzZDIzZjBQMzZmbjg1djhZanEtb21wVmFlUl9QY3ZaM0tqYlZR?oc=5\n老後に孤独になることが不可避な人の特徴として、ワースト1が明らかになったという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "老後に「孤独になることが不可避な人」の特徴・ワースト1 (ダイヤモンド・オンライン) - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUnZUVFVwMVZEd0pTaU1jTUxieF9GNlBDbWxzZzRtTVVtd1lFM014MzRYR3c0ZS1mX2pnOU5SMzBXTXV5VldKVUVCVlpMQXFGNnZxV2h4WmVOWG9meTBmNXdCY19NVVhsZUkzZDIzZjBQMzZmbjg1djhZanEtb21wVmFlUl9QY3ZaM0tqYlZR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T08:14:04.341002+00:00",
-    "publish_at": "2026-11-07T07:17:00+00:00",
-    "timestamp": "2026-11-07T07:17:00+00:00"
-  },
-  {
-    "id": "0fba730206e3",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VU9qbVdJS1RpR0RxR3pkdXkzcjNVcDB4ZEJtMDJvU1NUek00cndwSk8zZXY3cmt4cnp5TEwzX0tnQUhhYlY4WS1oTkVBanZfMlJFTzRR?oc=5\n関西みらい銀行やみなと銀行は、専門業者と連携して『おひとりさま終活』を支援し、もめ事回避へと向かおうとする。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "関西みらい銀・みなと銀、「おひとりさま終活」支援 専門業者と連携 もめ事回避へ - ニッキンONLINE",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VU9qbVdJS1RpR0RxR3pkdXkzcjNVcDB4ZEJtMDJvU1NUek00cndwSk8zZXY3cmt4cnp5TEwzX0tnQUhhYlY4WS1oTkVBanZfMlJFTzRR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort"
-    ],
-    "quote_id": "I.20d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-06T08:11:41.709487+00:00",
-    "publish_at": "2026-11-07T04:17:00+00:00",
-    "timestamp": "2026-11-07T04:17:00+00:00"
   }
 ]
