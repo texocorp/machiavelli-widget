@@ -1,5 +1,44 @@
 [
   {
+    "id": "ec7f5aac0153",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jRDNVRzRsRGZxQ3k2YzhaZVVPa3VUMnFxd3BBNHRhOHc2WmtFa2JBcUVXeU80XzFzYXFUQWwyRVFaSmhiejNIbzVibHJSOXVDR3dEQ3J6ZUl6VTVnSFEweEllN3F6MkNYb3BfOA?oc=5\n長野労働局に対し、過労死遺族らは、長時間労働の規制強化を求めるという。\n「絶えず変わり続ける我々の行為と、固定されて動かぬ法との間には、ほとんど釣り合いがない。最も望ましい法とは、最も数が少なく、最も簡素で、一般的なものだ。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "過労死遺族らが長時間労働の規制強化求める 長野労働局に - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jRDNVRzRsRGZxQ3k2YzhaZVVPa3VUMnFxd3BBNHRhOHc2WmtFa2JBcUVXeU80XzFzYXFUQWwyRVFaSmhiejNIbzVibHJSOXVDR3dEQ3J6ZUl6VTVnSFEweEllN3F6MkNYb3BfOA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "mort",
+      "soi"
+    ],
+    "quote_id": "III.13d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T22:47:58.550793+00:00",
+    "publish_at": "2026-11-12T22:17:00+00:00",
+    "timestamp": "2026-11-12T22:17:00+00:00"
+  },
+  {
+    "id": "b52ddbff6ee6",
+    "text": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UdXl1eDNGM3dNYnlHeHA2bVoxRW1oT0U4R3U3QnltN0JVOGw1cF8yOUpReU1VUTRzM2RBR0oyYV9kZXhSUDk3T2szVEJJNXJGanY2a0QtS1ZYX2VRdkxmRGRaVXA3WF9LYUlERE8yNA?oc=5\nメニコンの就職偏差値や平均年収を調べるという企業研究が行われた。\n「誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。」\n『エセー I.25「衒学について」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 教育",
+    "source_title": "メニコンの就職偏差値･難易度と平均年収の企業研究 - 就職偏差値.com",
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UdXl1eDNGM3dNYnlHeHA2bVoxRW1oT0U4R3U3QnltN0JVOGw1cF8yOUpReU1VUTRzM2RBR0oyYV9kZXhSUDk3T2szVEJJNXJGanY2a0QtS1ZYX2VRdkxmRGRaVXA3WF9LYUlERE8yNA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "profit"
+    ],
+    "quote_id": "I.25b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-11T22:44:52.761034+00:00",
+    "publish_at": "2026-11-12T19:17:00+00:00",
+    "timestamp": "2026-11-12T19:17:00+00:00"
+  },
+  {
     "id": "b8a435a29650",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGeU0xdUZtTi1sUG96NnNCMXlrYkVRS3RkaHV5endBWTdDQmxjeVh4WlFWWEZxcjU0Rkw4QkZEMzFubV94MEUwdm1aMXB0bHJMSE9V?oc=5\n全国高齢者等終身サポート事業者協会の黒澤理事長は、老後の先も信頼築くために話を聞いたという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
     "theme": "soi",
@@ -662,43 +701,5 @@
     "generated_at": "2026-11-07T08:58:19.889008+00:00",
     "publish_at": "2026-11-08T07:17:00+00:00",
     "timestamp": "2026-11-08T07:17:00+00:00"
-  },
-  {
-    "id": "75e6e023e6c0",
-    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcHhVb3ZjV3UzSXc4TUU0Vk03UmE3T2tndi1scHFkcG9EVlI2Y1ZTSHItMDZDZ1oxWXhnTzZMTjdXZmVKM1ZsanZ6amlzbFZzV2VqNElzMXcyYXQ0WnVVdTFyYVFORWYyM1B2VDdwX24xS0NjYnhVRjVoUExqdTlocGpTZlFCb2pkYWpKbGpR0gGTAUFVX3lxTE9wNFV6V2U5NWhEV3JnOG1MV3ByQXE5QllvZk1OdGM3THJ1akQzUVBSOWZUSWVjUmFEWm51NDVpMWgyN3JuQzV6MDJnN2toa0VMNExVSEdpWWFKZHFPWjlnV0EzQjNpTmJrWEN5ZXh3TDRfdXlfOU1LT2NGRlFwQlZ4YWY0VVVxVzlsT2RkcWpCLVc1Yw?oc=5\n大金持ちと結婚した親友が遅刻して鍋を一口食べたことで、仲良しだった4人組の間に亀裂が生じた。\n「我々は皆つぎはぎでできている。その組み立てはまことに不定形でまちまちだから、どの切れ端も、どの瞬間も、それぞれ勝手に振る舞う。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
-    "theme": "presomption",
-    "score": 2,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "「結婚することになりました！」大金持ちと結婚した親友が豹変!?遅刻してきた上に鍋を一口食べて驚きの行動… 仲良し4人組に訪れた想定外の亀裂 - ｄメニューニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcHhVb3ZjV3UzSXc4TUU0Vk03UmE3T2tndi1scHFkcG9EVlI2Y1ZTSHItMDZDZ1oxWXhnTzZMTjdXZmVKM1ZsanZ6amlzbFZzV2VqNElzMXcyYXQ0WnVVdTFyYVFORWYyM1B2VDdwX24xS0NjYnhVRjVoUExqdTlocGpTZlFCb2pkYWpKbGpR0gGTAUFVX3lxTE9wNFV6V2U5NWhEV3JnOG1MV3ByQXE5QllvZk1OdGM3THJ1akQzUVBSOWZUSWVjUmFEWm51NDVpMWgyN3JuQzV6MDJnN2toa0VMNExVSEdpWWFKZHFPWjlnV0EzQjNpTmJrWEN5ZXh3TDRfdXlfOU1LT2NGRlFwQlZ4YWY0VVVxVzlsT2RkcWpCLVc1Yw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption",
-      "soi",
-      "inconstance"
-    ],
-    "quote_id": "II.1a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T08:54:27.219370+00:00",
-    "publish_at": "2026-11-08T04:17:00+00:00",
-    "timestamp": "2026-11-08T04:17:00+00:00"
-  },
-  {
-    "id": "4cd0c42b76cb",
-    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxSGtoRDlSZWREcTVUelhjcmROR0RqeDFxVUxHTmpkd054bUhZU2txRkliVUJ5cGNoTl94dENoNGVUY1RVNTU1QVF30gFPQVVfeXFMTlJOSXNuaHNSZjNicmdDa29WSlN6YUdzZUhBRUFaSTJsNmtnbnpnek8yTTZPc1QwOElpeTRrM2I5dGNvLVBYa1NCRk0tSVp5Zw?oc=5\n認知症による言動か、あるいはカスハラかという問いが残っている。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
-    "theme": "medecine",
-    "score": 2,
-    "source": "Google News 検索 職場",
-    "source_title": "認知症による言動かカスハラか - PHARMACY NEWSBREAK",
-    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAxSGtoRDlSZWREcTVUelhjcmROR0RqeDFxVUxHTmpkd054bUhZU2txRkliVUJ5cGNoTl94dENoNGVUY1RVNTU1QVF30gFPQVVfeXFMTlJOSXNuaHNSZjNicmdDa29WSlN6YUdzZUhBRUFaSTJsNmtnbnpnek8yTTZPc1QwOElpeTRrM2I5dGNvLVBYa1NCRk0tSVp5Zw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine"
-    ],
-    "quote_id": "III.8a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T02:09:14.641279+00:00",
-    "publish_at": "2026-11-08T01:17:00+00:00",
-    "timestamp": "2026-11-08T01:17:00+00:00"
   }
 ]
