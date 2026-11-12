@@ -1,5 +1,47 @@
 [
   {
+    "id": "5843c990e4f0",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GdGk3VjhHQzVzTTJ3TEZnSWdNVjVlQ0pJWEJaSHR1VVNJMGY2RVNWdjF5eDZGLUNUT3NJMHFYSDJGZ0dkSVVpelZCaDZtWkpqWHdIMkZtbnBoWlB3LW9JTUVnNC1PMmRDNXlUN0MtVmluMkVpa1p0eFlhSlVxdXM?oc=5\nトランプ氏はイランとの戦争擁護の立場を示し、復員軍人の凱旋門建設を表明したという。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏イランとの戦争擁護 復員軍人称え凱旋門の建設を表明（AP通信） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GdGk3VjhHQzVzTTJ3TEZnSWdNVjVlQ0pJWEJaSHR1VVNJMGY2RVNWdjF5eDZGLUNUT3NJMHFYSDJGZ0dkSVVpelZCaDZtWkpqWHdIMkZtbnBoWlB3LW9JTUVnNC1PMmRDNXlUN0MtVmluMkVpa1p0eFlhSlVxdXM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "consiglio"
+    ],
+    "quote_id": "D1.37b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T19:24:52.910048+00:00",
+    "publish_at": "2026-11-13T15:17:00+00:00",
+    "timestamp": "2026-11-13T15:17:00+00:00"
+  },
+  {
+    "id": "61b83c1c2181",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wZWZUdWRYRC1MdmhyUTlBSHRlR0NGS010cWRERjd5SlgybFJpWC1hNk9nUHZOdmZvYUlpcGJxUVNNMG1oT2l0TEM4bHRDcm81Xy1TRXl3NXA4WVVlU3BvNllMOUphTE5C?oc=5\n緊迫する中東情勢において、トランプ政権はイスラエルとの蜜月が重荷となり、トランプ氏も嫌悪感を認めたという。\n「君主は、真の味方であり真の敵であるとき、すなわち何の遠慮もなく一方に与して他方に敵対するとき、重んじられる。そのやり方は、中立にとどまるより常に得策である。」\n『君主論 cap.XXI』",
+    "theme": "alleanze_dipendenza",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "緊迫する中東情勢,トランプ政権：イスラエルとの蜜月が「重荷」に トランプ氏も認めた「嫌悪感」 - 毎日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wZWZUdWRYRC1MdmhyUTlBSHRlR0NGS010cWRERjd5SlgybFJpWC1hNk9nUHZOdmZvYUlpcGJxUVNNMG1oT2l0TEM4bHRDcm81Xy1TRXl3NXA4WVVlU3BvNllMOUphTE5C?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "NT1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T19:18:31.961005+00:00",
+    "publish_at": "2026-11-13T12:17:00+00:00",
+    "timestamp": "2026-11-13T12:17:00+00:00"
+  },
+  {
     "id": "0b756888bcbe",
     "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2tMVXJ4MkNkSVJZWUwzanpPTkh5T3BUbk9pbVRuQWEtY2dLck80Y3NSYlEtM1ZmUDl6d3czWW0yWFlDZEROR2RFckFBak4tSnMtSDhmNEstY0hvT2M4WjZBZnBNMkRlRzV2WkhZdDdRUGJjTkdIbzc0Nl9oUTZ1TURyV1BWbG50?oc=5\n多くの米国人がトランプ弾劾より政党間の協力を希望し、有権者の良識が政治家に届くか注目されているという。\n「よき市民は、祖国への愛のために、私的な恨みを忘れねばならぬ。」\n『リウィウス論 III.47』",
     "theme": "guerra",
@@ -715,66 +757,5 @@
     "generated_at": "2026-11-08T17:43:09.109454+00:00",
     "publish_at": "2026-11-09T03:17:00+00:00",
     "timestamp": "2026-11-09T03:17:00+00:00"
-  },
-  {
-    "id": "3638e1f2b5ac",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxdDdDaHlfeHlDRWE5Y01XZVoyaEx3YWhMSVp6OVJIU1BXTWRoOTRXRjFZTzBwaFdiNkZHV29jcExIaUhpRXRobGJ0YTlyWTc1aGl2dTNjYXhHV1hmSHN6dDV5dEV0elVRWUx5Yks1WE80cUhJN1h4OEl2ZlNrS2M?oc=5\n米軍は対イラン海上封鎖の下、オマーン湾で民間船を攻撃して航行不能にさせたという。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 中東",
-    "source_title": "対イラン海上封鎖 米軍が民間船をオマーン湾で攻撃、航行不能に（毎日新聞） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxdDdDaHlfeHlDRWE5Y01XZVoyaEx3YWhMSVp6OVJIU1BXTWRoOTRXRjFZTzBwaFdiNkZHV29jcExIaUhpRXRobGJ0YTlyWTc1aGl2dTNjYXhHV1hmSHN6dDV5dEV0elVRWUx5Yks1WE80cUhJN1h4OEl2ZlNrS2M?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "D3.44",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T02:42:03.756640+00:00",
-    "publish_at": "2026-11-09T00:17:00+00:00",
-    "timestamp": "2026-11-09T00:17:00+00:00"
-  },
-  {
-    "id": "10e4fc20e7ec",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZzRCd0t3NE5kSnJrVWlGdGJHVUZOU3lLazg4c1NPQVhwV3doX0I0eDhaQndValU3b2VLUXB6aEwwWVd4NWFuUFVSRGRiR1RSZ1RMMi0xeTRtTzJsYmFXTkZtb0lzLTRUeXdtLV9DMk9CRlg1aEZtWVlIV2p6QVZFZFl0cDFVaTg?oc=5\n米軍はオマーン湾で貨物船を航行不能にし、対イランの封鎖措置強化へと動くという。\n「世間で言われるのとは違い、金銭は戦争の要ではない。」\n『リウィウス論 II.10』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍、オマーン湾で貨物船を航行不能に 対イラン封鎖措置強化へ - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZzRCd0t3NE5kSnJrVWlGdGJHVUZOU3lLazg4c1NPQVhwV3doX0I0eDhaQndValU3b2VLUXB6aEwwWVd4NWFuUFVSRGRiR1RSZ1RMMi0xeTRtTzJsYmFXTkZtb0lzLTRUeXdtLV9DMk9CRlg1aEZtWVlIV2p6QVZFZFl0cDFVaTg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "armi_proprie"
-    ],
-    "quote_id": "GU2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T02:40:20.150148+00:00",
-    "publish_at": "2026-11-08T21:17:00+00:00",
-    "timestamp": "2026-11-08T21:17:00+00:00"
-  },
-  {
-    "id": "006cb2bca9e3",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPenpTS05aLVU3UkFlR1F1dTI4T3VOX1haVkJsM3EyTlFZQVBya0psdk9ZSDk2QlQwOThDMDhkdDJGd1J4a01qWll3aGJIOTV3TkZPODJMMXpsaVJQUlRtM2JseFJQNWhNcUF6ZVg3c3UteVgwdE0zeTNNbG9pY19ZeEpIOTNWZw?oc=5\nウクライナはロシアの石油施設への攻撃を継続し、ロシア軍の新たな攻撃に警戒しているとゼレンスキー氏が示している。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナはロシア石油施設への攻撃継続、ロ軍の新たな攻撃に警戒＝ゼレンスキー氏 | ロイター - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPenpTS05aLVU3UkFlR1F1dTI4T3VOX1haVkJsM3EyTlFZQVBya0psdk9ZSDk2QlQwOThDMDhkdDJGd1J4a01qWll3aGJIOTV3TkZPODJMMXpsaVJQUlRtM2JseFJQNWhNcUF6ZVg3c3UteVgwdE0zeTNNbG9pY19ZeEpIOTNWZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "economia"
-    ],
-    "quote_id": "AG2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T19:28:34.334997+00:00",
-    "publish_at": "2026-11-08T18:17:00+00:00",
-    "timestamp": "2026-11-08T18:17:00+00:00"
   }
 ]
