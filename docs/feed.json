@@ -1,5 +1,48 @@
 [
   {
+    "id": "0b756888bcbe",
+    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2tMVXJ4MkNkSVJZWUwzanpPTkh5T3BUbk9pbVRuQWEtY2dLck80Y3NSYlEtM1ZmUDl6d3czWW0yWFlDZEROR2RFckFBak4tSnMtSDhmNEstY0hvT2M4WjZBZnBNMkRlRzV2WkhZdDdRUGJjTkdIbzc0Nl9oUTZ1TURyV1BWbG50?oc=5\n多くの米国人がトランプ弾劾より政党間の協力を希望し、有権者の良識が政治家に届くか注目されているという。\n「よき市民は、祖国への愛のために、私的な恨みを忘れねばならぬ。」\n『リウィウス論 III.47』",
+    "theme": "guerra",
+    "score": 9,
+    "source": "Google News 国際(World)",
+    "source_title": "最新世論調査 多くの米国人がトランプ弾劾より政党間の協力を希望 有権者の「良識」は政治家に届くか #エキスパートトピ - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2tMVXJ4MkNkSVJZWUwzanpPTkh5T3BUbk9pbVRuQWEtY2dLck80Y3NSYlEtM1ZmUDl6d3czWW0yWFlDZEROR2RFckFBak4tSnMtSDhmNEstY0hvT2M4WjZBZnBNMkRlRzV2WkhZdDdRUGJjTkdIbzc0Nl9oUTZ1TURyV1BWbG50?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "popolo_principe",
+      "economia",
+      "necessita"
+    ],
+    "quote_id": "D3.47",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T12:02:05.900136+00:00",
+    "publish_at": "2026-11-13T09:17:00+00:00",
+    "timestamp": "2026-11-13T09:17:00+00:00"
+  },
+  {
+    "id": "5c9c1a1e939e",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpb2xUaDlMS3J4SHBCMDIzN3RIU0hENzVnQVI3aWVaekd2Y29lenVBZkhKQmpUVC1CNHJxcjZHYWFidGZlRkFfRzE4ME1JOGlKaWxWWjFfbVNRNmhjNS1ULUtJWURjTTFRb1pjck5GanFsck1IQmRxWElR?oc=5\nイランは核濃縮物質の搬出を否定し、米国からの攻撃があれば遠方の基地を標的にすると表明した。\n「君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。」\n『君主論 cap.XXI』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン 核濃縮物質の搬出否定 米攻撃なら“遠方基地を標的” - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpb2xUaDlMS3J4SHBCMDIzN3RIU0hENzVnQVI3aWVaekd2Y29lenVBZkhKQmpUVC1CNHJxcjZHYWFidGZlRkFfRzE4ME1JOGlKaWxWWjFfbVNRNmhjNS1ULUtJWURjTTFRb1pjck5GanFsck1IQmRxWElR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AD1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T11:55:27.548130+00:00",
+    "publish_at": "2026-11-13T06:17:00+00:00",
+    "timestamp": "2026-11-13T06:17:00+00:00"
+  },
+  {
     "id": "2efdb953590e",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkFMd1V5T05ybWM5Y1FIcGRUSXIzbnRKRWV2RzBWSnI4UDlyWFhGa1M4WlBEajA3OE1ldXVfVkRmQXNxa2VEOGNZM18yRjJiNkNOLU4zWjlPSmN4OFpKNm9DM1R3Nl9mQmMwTU9kTnZsSlQyV2ktSUZzZ0FsM0kzZkZiNXhWY0U?oc=5\nイラン大統領は米イスラエルによる攻撃で受けた環境被害に対して、補償を要求しているという。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
     "theme": "guerra",
@@ -733,44 +776,5 @@
     "generated_at": "2026-11-07T19:28:34.334997+00:00",
     "publish_at": "2026-11-08T18:17:00+00:00",
     "timestamp": "2026-11-08T18:17:00+00:00"
-  },
-  {
-    "id": "19a91fedffe6",
-    "text": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYVBvSVppdURIZlZ6SkVGZlU1YWYwN18zbDZCN01GcVZ5NGVia0NTWnRFYTN0TDFNSmF0YWhZQ1VsNUxmNHZuVVVsTjU5UGxSMnVQSTZ2Z2JMaEFNcVBDY2FGU01uNUcxZ01PWHZqdDFLWm5NYXVlYVRUWmZwSG5fa3NkUkNfeVdoUzJzeWRRdVNhNjlZcmFFY1ZObmJqSUVETlVkZw?oc=5\nロシアはキエフに向けてミサイルを発射し、ウクライナはロシア領内の複数の標的を攻撃しているという。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ロシアがキエフに向けてミサイルを発射。ウクライナはロシア領内の複数の標的を攻撃。 - Vietnam.vn",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYVBvSVppdURIZlZ6SkVGZlU1YWYwN18zbDZCN01GcVZ5NGVia0NTWnRFYTN0TDFNSmF0YWhZQ1VsNUxmNHZuVVVsTjU5UGxSMnVQSTZ2Z2JMaEFNcVBDY2FGU01uNUcxZ01PWHZqdDFLWm5NYXVlYVRUWmZwSG5fa3NkUkNfeVdoUzJzeWRRdVNhNjlZcmFFY1ZObmJqSUVETlVkZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D2.19",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T18:48:38.957474+00:00",
-    "publish_at": "2026-11-08T15:17:00+00:00",
-    "timestamp": "2026-11-08T15:17:00+00:00"
-  },
-  {
-    "id": "a3128de68121",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RVRJNFlNOUlLdjZXZVEydmlRSVZMNnpGYnhmSFVLcGIwZHhobVhjMll4V2pUbDNlU3Y2cjNTZzNJQkRsckwtMWVRZXNDOE1Da2huaFZ0VVl0bmZpTWtUV0dzeFprMzQ?oc=5\n政府が安全保障について夫婦漫才を用いた広報を行い、防衛力の強化に向けた国民の理解を深めようとしている。\n「凪の時に嵐への備えを怠るのは、人間に共通の欠点である。」\n『君主論 cap.XXIV』",
-    "theme": "popolo_principe",
-    "score": 8,
-    "source": "Google News 検索 安全保障",
-    "source_title": "安全保障、夫婦漫才で政府広報 防衛力強化へ国民の理解拡大図る - 朝日新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RVRJNFlNOUlLdjZXZVEydmlRSVZMNnpGYnhmSFVLcGIwZHhobVhjMll4V2pUbDNlU3Y2cjNTZzNJQkRsckwtMWVRZXNDOE1Da2huaFZ0VVl0bmZpTWtUV0dzeFprMzQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "popolo_principe",
-      "armi_proprie"
-    ],
-    "quote_id": "P24a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T14:53:54.526465+00:00",
-    "publish_at": "2026-11-08T12:17:00+00:00",
-    "timestamp": "2026-11-08T12:17:00+00:00"
   }
 ]
