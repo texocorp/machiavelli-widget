@@ -1,5 +1,66 @@
 [
   {
+    "id": "2efdb953590e",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkFMd1V5T05ybWM5Y1FIcGRUSXIzbnRKRWV2RzBWSnI4UDlyWFhGa1M4WlBEajA3OE1ldXVfVkRmQXNxa2VEOGNZM18yRjJiNkNOLU4zWjlPSmN4OFpKNm9DM1R3Nl9mQmMwTU9kTnZsSlQyV2ktSUZzZ0FsM0kzZkZiNXhWY0U?oc=5\nイラン大統領は米イスラエルによる攻撃で受けた環境被害に対して、補償を要求しているという。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
+    "theme": "guerra",
+    "score": 9,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン大統領、米イスラエルによる攻撃の環境被害補償を要求 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkFMd1V5T05ybWM5Y1FIcGRUSXIzbnRKRWV2RzBWSnI4UDlyWFhGa1M4WlBEajA3OE1ldXVfVkRmQXNxa2VEOGNZM18yRjJiNkNOLU4zWjlPSmN4OFpKNm9DM1R3Nl9mQmMwTU9kTnZsSlQyV2ktSUZzZ0FsM0kzZkZiNXhWY0U?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D3.44",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T03:27:45.936288+00:00",
+    "publish_at": "2026-11-13T03:17:00+00:00",
+    "timestamp": "2026-11-13T03:17:00+00:00"
+  },
+  {
+    "id": "81efc46aa67e",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52NmM2c3FVbkMxb2JtYWhXTjVCUXRPWnYwLUxXb2Y1U0JFUzV2S0Y0NHMtWkxRa1JDcS1iMkVUM01HTmZZS0V1em03R0JNY2lNTy1LS1lMLU9VZldCdUlySXlld1d5V3NvT0FaYWplUnMyaC1UbWN5MWxBRmFMYXc?oc=5\nイランが欧州にある米軍基地への攻撃を警告し、対イラン攻撃に使用される場合は対象とした。\n「公に対してであれ私人に対してであれ、加えられた侮辱に報いぬことは、国家にとってかくも危険である。」\n『リウィウス論 II.28』",
+    "theme": "guerra",
+    "score": 11,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン、欧州の米軍基地にも攻撃警告 対イラン攻撃に使用なら（ＡＦＰ＝時事） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52NmM2c3FVbkMxb2JtYWhXTjVCUXRPWnYwLUxXb2Y1U0JFUzV2S0Y0NHMtWkxRa1JDcS1iMkVUM01HTmZZS0V1em03R0JNY2lNTy1LS1lMLU9VZldCdUlySXlld1d5V3NvT0FaYWplUnMyaC1UbWN5MWxBRmFMYXc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D2.28",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T03:23:40.246297+00:00",
+    "publish_at": "2026-11-13T00:17:00+00:00",
+    "timestamp": "2026-11-13T00:17:00+00:00"
+  },
+  {
+    "id": "1e0e9cc60f39",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfbmxBMU1YMHhhTlpLLWpSYkNFVzZJX05Ba2FsaHBoMV92eVh2TnFPUkV2bm1Od25feTU0dDZzaVZkRms0S1ZwZ01BUkVYcnQwR0RjQmVzaVlPR0diSTV5ZjU3QnlHbnhuckdobHJQV2JvMXRYSXladnZCU09uTEU?oc=5\nトランプ氏がイランは終わったと語った翌日、革命防衛隊は地下ミサイル都市の公開を行ったという。\n「外が安定していれば、陰謀に乱されぬ限り、内も常に安定しているものだ。」\n『君主論 cap.XIX』",
+    "theme": "guerra",
+    "score": 22,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏「イランは終わった」と語った翌日…「地下ミサイル都市」公開した革命防衛隊（中央日報日本語版） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfbmxBMU1YMHhhTlpLLWpSYkNFVzZJX05Ba2FsaHBoMV92eVh2TnFPUkV2bm1Od25feTU0dDZzaVZkRms0S1ZwZ01BUkVYcnQwR0RjQmVzaVlPR0diSTV5ZjU3QnlHbnhuckdobHJQV2JvMXRYSXladnZCU09uTEU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "consiglio"
+    ],
+    "quote_id": "P19b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T03:00:06.570279+00:00",
+    "publish_at": "2026-11-12T21:17:00+00:00",
+    "timestamp": "2026-11-12T21:17:00+00:00"
+  },
+  {
     "id": "7cb2bab354d0",
     "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVlp1UnJGTk1zN0F6b1VIQjBQajJ5XzZEaDBHNkRMenhkcldkMmVKWUxzZVpVNHZySXpDZGJxbG9tN1dlVVRqaTVVWnFlUFFKSGV0ME9sNkJQQzlFNGdocmV5Sm4yamwtRzYzU2RpLWhvX01KdWxoaUU0djJmVlJxdGJDSS1Ddw?oc=5\nロシアはウクライナの製油所への攻撃を再開させ、石油精製能力を3割減らしたという。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
     "theme": "guerra",
@@ -711,45 +772,5 @@
     "generated_at": "2026-11-07T14:53:54.526465+00:00",
     "publish_at": "2026-11-08T12:17:00+00:00",
     "timestamp": "2026-11-08T12:17:00+00:00"
-  },
-  {
-    "id": "3f9ebd9d623d",
-    "text": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxQME9HbkU4LWVjSmtvSzkxMFE4cVhNRG54d0JSaXk1TWUzd0EyeEEzUnhJb1BpcWp0VTNvMi1Da2NEaUMzLUxreVRobUVvWGVVS3FqTGJYamY5NjlTMERaeWdzMUlQMHlodDYtaVE3c0FwaFNJbkVrZmhiVlk1N0JCX1g3SDJyMXZaVFVxNnZiMnJwdjZfNVoyNHV1U01fOGNpNEFTb0dPZ2doOEVFajJLZkprUU9YUXE1VzVSN0ZZanhyZjZfMUFJdkJiZ1BsaHdNdEFDS2J0QjBZcGtZV2pxV1h1MlpJZWpLU0x0SDlaQ20zVDB3NEJwR3hIR25Kak41V1pMdVBNZE0zNzN3NFBqUkNURlFwZ0xzaWZ6bHN5UERiM3RCMGZyWlRHbzBOUnBpSTZyMjlCb01pdFIwaktwM2hkMy1EeElpajNreEhQS3BsX2k0dXBjUjZPbDJDTDk5REJjSThHVTJ3bEh5alVNSFE4TXJDblJGclJMRWo5T2hqWFlhWjB2a1VUOWR2bTk5cjNrT0QyS3p5REJvNlpBelowOG1nbS1pN1RYR01OX0RsaTVsTmRoc3JVUVc4RWZIYmxfQ2g5UUhaQ3YzRktWcw?oc=5\n米軍は、イランの核プログラムに関する情報提供者に対し、2000万ドルの報酬を提示する方針だという。\n「人は懐柔するか、さもなくば抹殺するかのどちらかでなければならぬ。軽い危害には報復できても、重い危害には報復できぬからである。」\n『君主論 cap.III』",
-    "theme": "paura_amore",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "米軍、イランの核プログラムに関する情報提供者に2000万ドルの報酬を提示 - アラブニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxQME9HbkU4LWVjSmtvSzkxMFE4cVhNRG54d0JSaXk1TWUzd0EyeEEzUnhJb1BpcWp0VTNvMi1Da2NEaUMzLUxreVRobUVvWGVVS3FqTGJYamY5NjlTMERaeWdzMUlQMHlodDYtaVE3c0FwaFNJbkVrZmhiVlk1N0JCX1g3SDJyMXZaVFVxNnZiMnJwdjZfNVoyNHV1U01fOGNpNEFTb0dPZ2doOEVFajJLZkprUU9YUXE1VzVSN0ZZanhyZjZfMUFJdkJiZ1BsaHdNdEFDS2J0QjBZcGtZV2pxV1h1MlpJZWpLU0x0SDlaQ20zVDB3NEJwR3hIR25Kak41V1pMdVBNZE0zNzN3NFBqUkNURlFwZ0xzaWZ6bHN5UERiM3RCMGZyWlRHbzBOUnBpSTZyMjlCb01pdFIwaktwM2hkMy1EeElpajNreEhQS3BsX2k0dXBjUjZPbDJDTDk5REJjSThHVTJ3bEh5alVNSFE4TXJDblJGclJMRWo5T2hqWFlhWjB2a1VUOWR2bTk5cjNrT0QyS3p5REJvNlpBelowOG1nbS1pN1RYR01OX0RsaTVsTmRoc3JVUVc4RWZIYmxfQ2g5UUhaQ3YzRktWcw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "paura_amore",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "P03a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T14:26:51.663491+00:00",
-    "publish_at": "2026-11-08T09:17:00+00:00",
-    "timestamp": "2026-11-08T09:17:00+00:00"
-  },
-  {
-    "id": "ff11df8c21e7",
-    "text": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbzJHYjVyd0VUbXh4SXNpVDRKNm1tQXlkbGJzTTBGTW5aUVFhMmZPSlRoWFZZWWgxQWNsWmVmd3M3RXFzRk9VNnhRb1dPQjg5VzdHVEZxUm1EWXJ1d2lXU3hvMGZteUZRcWRJN1A4Q2hiS3BKYk5FR19OeHpmRG9LVmMxUnlEUFZmbWRXaW5ISl9PQQ?oc=5\nウクライナ当局者は、ロシアが交渉開始前にキエフに向けてミサイルを発射した事実を指摘しているという。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナ当局者：ロシアは交渉開始前にキエフに向けてミサイルを発射した。 - Vietnam.vn",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbzJHYjVyd0VUbXh4SXNpVDRKNm1tQXlkbGJzTTBGTW5aUVFhMmZPSlRoWFZZWWgxQWNsWmVmd3M3RXFzRk9VNnhRb1dPQjg5VzdHVEZxUm1EWXJ1d2lXU3hvMGZteUZRcWRJN1A4Q2hiS3BKYk5FR19OeHpmRG9LVmMxUnlEUFZmbWRXaW5ISl9PQQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D3.48",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T08:00:40.205141+00:00",
-    "publish_at": "2026-11-08T06:17:00+00:00",
-    "timestamp": "2026-11-08T06:17:00+00:00"
   }
 ]
