@@ -1,5 +1,69 @@
 [
   {
+    "id": "737125e4e2cf",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1reF9XNDF5VG16UHZjcDFUNHVRLW9NRzlxcVhXUy1YQ3JiTFgxN0FjdVF4dWFqVHRnQXRZUFBxOTZKcWZoRmR6YzlINUJLSmpKZWtjUUtIQW9BeFptRHJLdFJZS1p5bWI2ZTFsTUw2REt0ZldOYW1MbXlWQWg2TUk?oc=5\n『いろはの恋』第6話でシール盗難疑惑がSNSで炎上し、職員たちは対応に追われたという。\n「迷信の主人は民衆であり、あらゆる迷信において、賢者が愚者に従う。」\n『随筆集』第17篇「迷信について」",
+    "original": "The master of superstition, is the people; and in all superstition, wise men follow fools …",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "『いろはの恋は時代をかける』第6話あらすじ。シール盗難疑惑がSNSで大炎上。職員たちは対応に追われ…＜ネタバレあり＞ - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1reF9XNDF5VG16UHZjcDFUNHVRLW9NRzlxcVhXUy1YQ3JiTFgxN0FjdVF4dWFqVHRnQXRZUFBxOTZKcWZoRmR6YzlINUJLSmpKZWtjUUtIQW9BeFptRHJLdFJZS1p5bWI2ZTFsTUw2REt0ZldOYW1MbXlWQWg2TUk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E17b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T21:29:42.871203+00:00",
+    "publish_at": "2026-11-13T20:17:00+00:00",
+    "timestamp": "2026-11-13T20:17:00+00:00"
+  },
+  {
+    "id": "9b1aa3df4c6f",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xQmZqYklKUEJDaS1DQ3BCZWVza0h6ZUNUZ2NDZ2N4eDBxVUNkYmkzZzlMSzN0OTN3NHpCS3hrOUtmc2JSbEhhN2JNVUF2NVpIWGFhRm5qaEhWV2g5cG02TGJuZGRBMFprbC1OMEFCbnRNX010bUEwZmluV2dXdm8?oc=5\n有識者会議が選挙中のSNSデマ対策について最終会合を開き、今月20日に報告書公表を目指すという。\n「迅速さを、会議に座っていた時間で測るな。仕事の進み具合で測れ。」\n『随筆集』第25篇「迅速について」",
+    "original": "Measure not dispatch, by the times of sitting, but by the advancement of the business.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "選挙中のSNSデマ対策 有識者会議が最終会合 今月20日に報告書公表へ＜宮城＞（ミヤギテレビ） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xQmZqYklKUEJDaS1DQ3BCZWVza0h6ZUNUZ2NDZ2N4eDBxVUNkYmkzZzlMSzN0OTN3NHpCS3hrOUtmc2JSbEhhN2JNVUF2NVpIWGFhRm5qaEhWV2g5cG02TGJuZGRBMFprbC1OMEFCbnRNX010bUEwZmluV2dXdm8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama",
+      "theatri"
+    ],
+    "quote_id": "E25b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T21:18:30.716312+00:00",
+    "publish_at": "2026-11-13T17:17:00+00:00",
+    "timestamp": "2026-11-13T17:17:00+00:00"
+  },
+  {
+    "id": "1db262aef7ab",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zT1liZU9nWkVpc3pXcDBNX3ZRaFNfTEFPU29WZ05xdWctWmJCbmd2WUM2ekFwVmh0YzBfVW40T0tNYjZqOFd4R2pDT21TYkJzMW1LeEx2ZS1UMC01MjhuMFJfOWpDSm0y?oc=5\n宮城県の有識者検討会が、選挙中のSNSデマや中傷への対策案を了承した。\n「隠し立ては、弱々しい策略、あるいは知恵にすぎない。いつ真実を語るべきかを知り、それを実行するには、強い知恵と強い心がいるからである。」\n『随筆集』第6篇「偽装と隠し立てについて」",
+    "original": "Dissimulation is but a faint kind of policy, or wisdom; for it asketh a strong wit, and a strong heart, to know when to tell truth, and to do it.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "選挙中のSNSデマ、中傷の対策案 宮城県の有識者検討会が了承 - 毎日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zT1liZU9nWkVpc3pXcDBNX3ZRaFNfTEFPU29WZ05xdWctWmJCbmd2WUM2ekFwVmh0YzBfVW40T0tNYjZqOFd4R2pDT21TYkJzMW1LeEx2ZS1UMC01MjhuMFJfOWpDSm0y?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama",
+      "theatri"
+    ],
+    "quote_id": "E6",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T21:07:43.204192+00:00",
+    "publish_at": "2026-11-13T14:17:00+00:00",
+    "timestamp": "2026-11-13T14:17:00+00:00"
+  },
+  {
     "id": "9e4bedbbd1f7",
     "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lUTZoMm1yNmtZSENlRU9jWll0TXItZjFYVk1ZM3VPazU0MVgzNWtEcEt4cUlWb1kzbWItcnJaOUg1TUptbG5Hc0c5QnhEekh6cXc?oc=5\nCNET Japanは「AI生成の偽情報、見抜ける？ 『自信あり』は約3割に低下--ドコモ調査」と報じた。\n「人間は自然の下僕にして解釈者であり、自然の秩序について、事実によってであれ精神によってであれ観察しただけのことを為し、理解する。それ以上は知らず、為し得ない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム1",
     "original": "Homo, naturae minister et interpres, tantum facit et intelligit quantum de naturae ordine re vel mente observaverit: nec amplius scit, aut potest.",
@@ -724,66 +788,5 @@
     "generated_at": "2026-11-08T07:19:52.543628+00:00",
     "publish_at": "2026-11-09T05:17:00+00:00",
     "timestamp": "2026-11-09T05:17:00+00:00"
-  },
-  {
-    "id": "026927a34709",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzTFdLXzk1MjJtZjRuajhJUUR5VmhhQmRDYlFkdTBubmNCNXdrQ3Bxd2l4eUVybnE0dUtYXzVPNnhsbDZZa3RKVWlCaXlTdU8ydUd4T29YMXNuNG1uOVpFNWFHRQ?oc=5\nInfoseekは「防災庁の『緊急要請』でデマ急増？ 元刑事が教える“怪しい情報”を見抜く4つのコツ」と報じた。\n「空言を弄し空想にふける人々にも事欠かなかった。彼らは、一部は信じやすさから、一部は欺きから、人類を約束で押しつぶしてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム87",
-    "original": "Neque enim defuerunt homines vaniloqui et phantastici, qui partim ex credulitate, partim ex impostura, genus humanum promissis onerarunt …",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 8,
-    "source": "Google News 偽情報・言説",
-    "source_title": "防災庁の「緊急要請」でデマ急増？ 元刑事が教える“怪しい情報”を見抜く4つのコツ - Infoseek",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzTFdLXzk1MjJtZjRuajhJUUR5VmhhQmRDYlFkdTBubmNCNXdrQ3Bxd2l4eUVybnE0dUtYXzVPNnhsbDZZa3RKVWlCaXlTdU8ydUd4T29YMXNuNG1uOVpFNWFHRQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio"
-    ],
-    "quote_id": "NO1.87",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T07:09:07.802294+00:00",
-    "publish_at": "2026-11-09T02:17:00+00:00",
-    "timestamp": "2026-11-09T02:17:00+00:00"
-  },
-  {
-    "id": "c240f6b8f58e",
-    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaZnl3RGtuUGpwV3Q5LWo2SHhjVnhCMWJQeE9zR0w1RjU4cWVJNWNJRzJxWmx2WGc3dnU5ME96LU5TdFljVEVESGdzR2psc1A2QlNNYjZ2MVlpaXhqM3JJc2NzYUZlZDVUMHROdndwZGY3OUwyRGVZ?oc=5\n日本ファクトチェックセンターは「巧妙な詐欺メールに備えるために/JFC記事・動画や関連記事」と報じた。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
-    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 8,
-    "source": "Google News 偽情報・言説",
-    "source_title": "巧妙な詐欺メールに備えるために/JFC記事・動画や関連記事 - 日本ファクトチェックセンター",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaZnl3RGtuUGpwV3Q5LWo2SHhjVnhCMWJQeE9zR0w1RjU4cWVJNWNJRzJxWmx2WGc3dnU5ME96LU5TdFljVEVESGdzR2psc1A2QlNNYjZ2MVlpaXhqM3JJc2NzYUZlZDVUMHROdndwZGY3OUwyRGVZ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama"
-    ],
-    "quote_id": "E12a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T07:02:01.889543+00:00",
-    "publish_at": "2026-11-08T23:17:00+00:00",
-    "timestamp": "2026-11-08T23:17:00+00:00"
-  },
-  {
-    "id": "66808bf38703",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wazgtZWFIRmZaZFBCUGluMVlod3o3VXV4anVKME1wajh4WWRrV1RsX1JURjMxcW9mRHVZbWowS2pYanBVNDhueTJaVGhPUkQ2UkZxNHVBdDNEMmUxODdrUmNIM0NrNURBRjdmU2V6ZURwWlJvaE5jaUhCWFZyZ3M?oc=5\n同僚が『不倫している』というデマを流し、園児の父を追い詰めたという壮絶な実話が描かれているという。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
-    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 8,
-    "source": "Google News 偽情報・言説",
-    "source_title": "園児の父がストーカー!?「不倫している」とデマを流す同僚…フォロワーの壮絶な実話を描く（ウォーカープラス） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wazgtZWFIRmZaZFBCUGluMVlod3o3VXV4anVKME1wajh4WWRrV1RsX1JURjMxcW9mRHVZbWowS2pYanBVNDhueTJaVGhPUkQ2UkZxNHVBdDNEMmUxODdrUmNIM0NrNURBRjdmU2V6ZURwWlJvaE5jaUhCWFZyZ3M?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio"
-    ],
-    "quote_id": "E31c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T06:45:58.228839+00:00",
-    "publish_at": "2026-11-08T20:17:00+00:00",
-    "timestamp": "2026-11-08T20:17:00+00:00"
   }
 ]
