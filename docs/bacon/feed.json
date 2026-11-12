@@ -1,5 +1,70 @@
 [
   {
+    "id": "9e4bedbbd1f7",
+    "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lUTZoMm1yNmtZSENlRU9jWll0TXItZjFYVk1ZM3VPazU0MVgzNWtEcEt4cUlWb1kzbWItcnJaOUg1TUptbG5Hc0c5QnhEekh6cXc?oc=5\nCNET Japanは「AI生成の偽情報、見抜ける？ 『自信あり』は約3割に低下--ドコモ調査」と報じた。\n「人間は自然の下僕にして解釈者であり、自然の秩序について、事実によってであれ精神によってであれ観察しただけのことを為し、理解する。それ以上は知らず、為し得ない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム1",
+    "original": "Homo, naturae minister et interpres, tantum facit et intelligit quantum de naturae ordine re vel mente observaverit: nec amplius scit, aut potest.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 13,
+    "source": "Google News 偽情報・言説",
+    "source_title": "AI生成の偽情報、見抜ける？ 「自信あり」は約3割に低下--ドコモ調査 - CNET Japan",
+    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lUTZoMm1yNmtZSENlRU9jWll0TXItZjFYVk1ZM3VPazU0MVgzNWtEcEt4cUlWb1kzbWItcnJaOUg1TUptbG5Hc0c5QnhEekh6cXc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "NO1.1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T13:26:15.350887+00:00",
+    "publish_at": "2026-11-13T11:17:00+00:00",
+    "timestamp": "2026-11-13T11:17:00+00:00"
+  },
+  {
+    "id": "4a9883e49f11",
+    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YYnpSaVRlQllsYnhyMGwzZ0lSNE9oRDJ2dzkzVm1OeGc3ZEdvcTBPT0luSWlJU3B1ZWJVejZHQ2t2UEoxX3BNZldfTFJjelZv?oc=5\n風傳媒は「フアンCEO妻の『361字声明』は偽情報 拡散音声はAI合成の可能性高く、 本人は公に発言せず」と報じた。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
+    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 18,
+    "source": "Google News 偽情報・言説",
+    "source_title": "フアンCEO妻の「361字声明」は偽情報 拡散音声はAI合成の可能性高く、 本人は公に発言せず - 風傳媒",
+    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YYnpSaVRlQllsYnhyMGwzZ0lSNE9oRDJ2dzkzVm1OeGc3ZEdvcTBPT0luSWlJU3B1ZWJVejZHQ2t2UEoxX3BNZldfTFJjelZv?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fori",
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "E31c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T12:59:15.735629+00:00",
+    "publish_at": "2026-11-13T08:17:00+00:00",
+    "timestamp": "2026-11-13T08:17:00+00:00"
+  },
+  {
+    "id": "61f5e0596544",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iOTJXR0NPaW9FQUZVUThUbEljbVRsVjF6cDctX1VRWmhwbW9iZEhwSGI1dUltLXVqMDFSem1WaVJETHJPR2x1bWRfWE9weEMzQlBXbkcyOW1OMTg?oc=5\n企業の新入社員研修で最も上位のテーマは、SNS炎上対策という。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
+    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 19,
+    "source": "Google News SNS・報道",
+    "source_title": "新入社員コンプラ研修、テーマの1位は「SNS炎上対策」（55.5%）生成AI・闇バイトは？〜 企業1,257社を対象に調査・有効回答283。詳細レポートを公開～ - valuepress",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iOTJXR0NPaW9FQUZVUThUbEljbVRsVjF6cDctX1VRWmhwbW9iZEhwSGI1dUltLXVqMDFSem1WaVJETHJPR2x1bWRfWE9weEMzQlBXbkcyOW1OMTg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "E12a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T12:48:19.631025+00:00",
+    "publish_at": "2026-11-13T05:17:00+00:00",
+    "timestamp": "2026-11-13T05:17:00+00:00"
+  },
+  {
     "id": "58278b41de60",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kb2xXbkZNZDRvc0ZRLTFDYjZfRGVwSXlTYUlEZ3ZwcHZUTGdJR2tpOVlRa3F2QW52ZnFZQ1JEMmswai1tajlxcmd5amFTY1ZBVkZ4RUVtNFRyNmh5SFRwRHlSeVNTSjQwZGlpUktWUTg5alhtMmVIdk1CU09DMnc?oc=5\n米メディアは『適しているようには見えない』ドジャースの佐藤輝明獲得の噂について、関係の密接さを指摘したという。\n「自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。」\n『随筆集』第22篇「狡猾について」",
     "original": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
@@ -720,65 +785,5 @@
     "generated_at": "2026-11-08T06:45:58.228839+00:00",
     "publish_at": "2026-11-08T20:17:00+00:00",
     "timestamp": "2026-11-08T20:17:00+00:00"
-  },
-  {
-    "id": "9ae80d65808f",
-    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5em5EZlplMmRCWmJaVVlHR2NZLVBLNy1MWWQwUE14eHRHX3EtR2k4dzUwQ0R6cTJ4S2VfMTBqa09rNnlpaFc0b09FYjVNdzNI?oc=5\nピザーラは『Dr.STONE』コラボの生成AI広告を誤って配信し、自動生成機能の設定ミスを謝罪したという。\n「素手も、放任された知性も、大したことはできない。事は道具と補助によって成し遂げられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム2",
-    "original": "Nec manus nuda, nec intellectus sibi permissus, multum valet; instrumentis et auxiliis res perficitur …",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 10,
-    "source": "Google News 生成AIの論争",
-    "source_title": "ピザーラ、『Dr.STONE』コラボでTikTokの生成AI広告を誤配信 自動生成機能の設定ミスを謝罪 - 玩具人 TOY PEOPLE",
-    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5em5EZlplMmRCWmJaVVlHR2NZLVBLNy1MWWQwUE14eHRHX3EtR2k4dzUwQ0R6cTJ4S2VfMTBqa09rNnlpaFc0b09FYjVNdzNI?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia"
-    ],
-    "quote_id": "NO1.2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T06:27:51.138525+00:00",
-    "publish_at": "2026-11-08T17:17:00+00:00",
-    "timestamp": "2026-11-08T17:17:00+00:00"
-  },
-  {
-    "id": "e4aea943b1f9",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tRTJFWTdyOTBlcm9ZaTBjdkFZdzFQOEJEWHNmUDJPblFvdTE0ZVduMGgxbnhEeElRdHVMdHRtX0xaZWJ6RDRpN3FtOHFQblhCMWx1RXRjdTA3Z3Z2YllB?oc=5\nピザーラは設定ミスで無許諾な広告を出したことを認め、謝罪して全広告を停止したという。\n「だが、あなたがたの事態が悪いのが、事柄そのものの力によるのではなく、あなたがたの誤りによるのであれば、その誤りを捨て、あるいは正すことで、事態が大きく好転すると望みうる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム94",
-    "original": "Sed cum rerum vestrarum status, non a vi ipsa rerum, sed ab erroribus vestris male se habeat; sperandum est, illis erroribus missis aut correctis, magnam rerum in melius mutationem fieri posse.",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 8,
-    "source": "Google News 生成AIの論争",
-    "source_title": "AI使用疑惑どころか、まさかの「無許諾」 ピザーラが「Dr.STONE」広告で謝罪、原因は「設定ミス」 全広告を停止に - AdverTimes.（アドタイ） by 宣伝会議",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tRTJFWTdyOTBlcm9ZaTBjdkFZdzFQOEJEWHNmUDJPblFvdTE0ZVduMGgxbnhEeElRdHVMdHRtX0xaZWJ6RDRpN3FtOHFQblhCMWx1RXRjdTA3Z3Z2YllB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia"
-    ],
-    "quote_id": "NO1.94",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T23:18:35.915879+00:00",
-    "publish_at": "2026-11-08T14:17:00+00:00",
-    "timestamp": "2026-11-08T14:17:00+00:00"
-  },
-  {
-    "id": "0c487d777717",
-    "text": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS1BvaU9hdW9sR2xGMjZNLVpUczU3S1R6MlZiTm14RTd0XzV0ZjVWeTBDWm9IWXZqSHhnNl8zWG5SNUNnNjMzRS1tYnFzdDVhRS1lSmxxZVphYU1lQXFGMzJTUVB5NlAtZ0pLMTNTYmVOY2dyZjB5VWlkLXBzZ9IBgwFBVV95cUxQVDdrQlFCSkk3SWZ1cjFUOWNhSERGOEZYdURBaUREbkZmcEFWa1RkazZmY0o0SFV4eURMYjdsRzQ4blFROWE0QXhsR2FBd2VFdkFtZF9Ob1JUNndNcktMWkJjb0pKX1hROS1qN3M5emVPNzE0NmNJWVNZMnFPUGVKTEVZSQ?oc=5\nｄメニューニュースは「政府の『緊急要請』でデマ急増？　怪しい情報を見抜く4つのコツ」と報じた。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
-    "original": "There is nothing makes a man suspect much, more than to know little …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 8,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府の「緊急要請」でデマ急増？　怪しい情報を見抜く4つのコツ - ｄメニューニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VS1BvaU9hdW9sR2xGMjZNLVpUczU3S1R6MlZiTm14RTd0XzV0ZjVWeTBDWm9IWXZqSHhnNl8zWG5SNUNnNjMzRS1tYnFzdDVhRS1lSmxxZVphYU1lQXFGMzJTUVB5NlAtZ0pLMTNTYmVOY2dyZjB5VWlkLXBzZ9IBgwFBVV95cUxQVDdrQlFCSkk3SWZ1cjFUOWNhSERGOEZYdURBaUREbkZmcEFWa1RkazZmY0o0SFV4eURMYjdsRzQ4blFROWE0QXhsR2FBd2VFdkFtZF9Ob1JUNndNcktMWkJjb0pKX1hROS1qN3M5emVPNzE0NmNJWVNZMnFPUGVKTEVZSQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio"
-    ],
-    "quote_id": "E31b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T23:04:41.817593+00:00",
-    "publish_at": "2026-11-08T11:17:00+00:00",
-    "timestamp": "2026-11-08T11:17:00+00:00"
   }
 ]
