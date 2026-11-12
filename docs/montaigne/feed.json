@@ -1,5 +1,78 @@
 [
   {
+    "id": "5f3bdce46fb1",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zTE8wMXVIVEUwN2pEVFZ5MDlrTERkUFdJdFd5QnloM2VYamN2bHFJRmNpUzhTeXVpQzhHdVFzakVRdnZ1MEVhdm5aTGZsVmdVLWxGU09SRDQxYTVPUk44MkV0Tmc0LTVHSnBlUA?oc=5\nゴッホの『星月夜』のモデルが実際の夜かどうかについて、韓国の研究で新説が出されたが、専門家が反論している。\n「学問の手前にある、いろはの無知があり、学問の後に来る、博士の無知がある、と言ってもよさそうだ。後者は学問そのものが作り出し、生み出す無知である。」\n『エセー I.54「むなしい精緻さについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "ゴッホ「星月夜」実際の夜がモデルか 韓国研究が新説も専門家は反論 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zTE8wMXVIVEUwN2pEVFZ5MDlrTERkUFdJdFd5QnloM2VYamN2bHFJRmNpUzhTeXVpQzhHdVFzakVRdnZ1MEVhdm5aTGZsVmdVLWxGU09SRDQxYTVPUk44MkV0Tmc0LTVHSnBlUA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "I.54",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T12:54:36.047200+00:00",
+    "publish_at": "2026-11-13T10:17:00+00:00",
+    "timestamp": "2026-11-13T10:17:00+00:00"
+  },
+  {
+    "id": "0c84bee07a74",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SNlUtdHNMUGQzRGhFU2EwTm1qTnBUelZJaEkwc1FzeGkyejV2TU9GaGxDbzlZUmR0YzBqRGFYTkU5cGJ2NENFVlRodGdJWU52VW1DNDVn?oc=5\n佐賀地裁で、町立太良病院の院長が不当な業務命令を下したとされ、看護師が提訴しているという。\n「役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "町立太良病院で「院長が不当な業務命令」 看護師、慰謝料など求め提訴 パワハラにも当たると主張 佐賀地裁 - 佐賀新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SNlUtdHNMUGQzRGhFU2EwTm1qTnBUelZJaEkwc1FzeGkyejV2TU9GaGxDbzlZUmR0YzBqRGFYTkU5cGJ2NENFVlRodGdJWU52VW1DNDVn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "medecine"
+    ],
+    "quote_id": "III.10b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T12:53:03.526245+00:00",
+    "publish_at": "2026-11-13T07:17:00+00:00",
+    "timestamp": "2026-11-13T07:17:00+00:00"
+  },
+  {
+    "id": "7a91c417689e",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhRHpIaGxtYWRFaEZfeThzaHMwNThoVV9QLTU0TXpXYldEQ000N2tIVFdob0tfd2VlR3I0dW9RVlVCV0ZQV1lkTVJhUzdYOXp6N3F1MVZKMUtGMk05SUx0M1pTTi1YU2VDVDBYTlFiNjI1bWlid2puR0lDU2ZjX0k?oc=5\n都教委が公表したアンケートで、学校でカスハラを受けた教職員の13%が経験しているという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "学校でのカスハラ、教職員の13%が経験 都教委がアンケ結果を公表（朝日新聞） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhRHpIaGxtYWRFaEZfeThzaHMwNThoVV9QLTU0TXpXYldEQ000N2tIVFdob0tfd2VlR3I0dW9RVlVCV0ZQV1lkTVJhUzdYOXp6N3F1MVZKMUtGMk05SUx0M1pTTi1YU2VDVDBYTlFiNjI1bWlid2puR0lDU2ZjX0k?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "III.8a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T12:51:32.572887+00:00",
+    "publish_at": "2026-11-13T04:17:00+00:00",
+    "timestamp": "2026-11-13T04:17:00+00:00"
+  },
+  {
+    "id": "642291ec3462",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00ODZXSmVIdkMzdFJGZzFUTnc0emtUeHBNSU1WcDBmU2ZzZ1NWXzU1NElwRk9jQjFCNmNfTEhLSUcwV2lxNXJfeUdlYXd3cWZfWXRCaUd3LWdJbnZEUGg1S3l6OW1EV1pl0gFuQVVfeXFMTlBfWGhQMjgzejJWNHVjYnAyYmlkb3BUOW0zdExCako0OWpyMjN4ci1DeHc4cWUtTURKR0xTX2t6ZDg4ZmI0Rk11el8zWFkxbnUwcjEwaGUwaGRVNF9BUTZVTWk3WGRUNEs5SDBsd1E?oc=5\n韓国飲食店が『女性は少食』という偏見に基づき量差別を行っており、それが放置されている。\n「奇跡とは、自然の在り方によるのではなく、自然についての我々の無知によるものである。慣れは、我々の判断の目を眠らせる。」\n『エセー I.23「慣習について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "「女性は少食」という身勝手な偏見！ 韓国飲食店の“量差別”と放置される食の男女平等 - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00ODZXSmVIdkMzdFJGZzFUTnc0emtUeHBNSU1WcDBmU2ZzZ1NWXzU1NElwRk9jQjFCNmNfTEhLSUcwV2lxNXJfeUdlYXd3cWZfWXRCaUd3LWdJbnZEUGg1S3l6OW1EV1pl0gFuQVVfeXFMTlBfWGhQMjgzejJWNHVjYnAyYmlkb3BUOW0zdExCako0OWpyMjN4ci1DeHc4cWUtTURKR0xTX2t6ZDg4ZmI0Rk11el8zWFkxbnUwcjEwaGUwaGRVNF9BUTZVTWk3WGRUNEs5SDBsd1E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui"
+    ],
+    "quote_id": "I.23d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-12T12:49:59.522189+00:00",
+    "publish_at": "2026-11-13T01:17:00+00:00",
+    "timestamp": "2026-11-13T01:17:00+00:00"
+  },
+  {
     "id": "ec7f5aac0153",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jRDNVRzRsRGZxQ3k2YzhaZVVPa3VUMnFxd3BBNHRhOHc2WmtFa2JBcUVXeU80XzFzYXFUQWwyRVFaSmhiejNIbzVibHJSOXVDR3dEQ3J6ZUl6VTVnSFEweEllN3F6MkNYb3BfOA?oc=5\n長野労働局に対し、過労死遺族らは、長時間労働の規制強化を求めるという。\n「絶えず変わり続ける我々の行為と、固定されて動かぬ法との間には、ほとんど釣り合いがない。最も望ましい法とは、最も数が少なく、最も簡素で、一般的なものだ。」\n『エセー III.13「経験について」』",
     "theme": "lois",
@@ -628,78 +701,5 @@
     "generated_at": "2026-11-07T20:20:08.632559+00:00",
     "publish_at": "2026-11-08T19:17:00+00:00",
     "timestamp": "2026-11-08T19:17:00+00:00"
-  },
-  {
-    "id": "effc8eea30c3",
-    "text": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOV1F6ZUtQV093ZVdIQkZYZ19FOEtCYkxnYm9PWTdNc2RsSFBNdkQtSlhlVkMwSk1MUlBvR0ZsVFNSSEpmeEdfQjlZUzBFaDJyUVQtN0xrTXNpbVdseFdOc2VoVXVYM2dtcEJSdjNiTGdTZWhvSGsyMlNJNTNYa20yQVJKNVhScFQ4TjJTYlYwcHdmQnNxVnJXWDVkWWg2dDFxTnFfTWQzQzlRSFdkUGdlS1E3TFNkd05sOEg3ekxQM0NTNDl0VVJISENTRnZhbzlZbGpfTE1uUUh6QzhzOC13dVlGSHYzRG8zVDVWbzdONFR2U0NqZTVWVlEzTlhQYk5aVU5Tcko1ak5pVG0tcFJReE9qLUFNZVhQZEctT1VVX3ByWkFoU1l6Z3M0Y29kZ1ZtTWRJSFNXaVAyVGdoZUxScjNZb1FSWnJWVm5XUUtmSmFMTDk3MjJzT1JWU3Q5UzEyUTh2UjdfNjd6ZDQ0ekFEenJqN1RiSHNPQm54YTE4UUlidFdrZzBTOE54cjNzM1lSMkQyd2t4cHBDS2d1T2Izd3dSQlZyY1J4cU5LLWJCUlI1YkJ5cUw1ZkRRMF9lS25DaFMwbEZpc2pwQ1VQMnc0M0NWOElxRmRfVUZ4R2V5blBNQ2lxRVlMMXhUWU8tUjZ6eVZHRFloRG1hZDlrWV9IWXllSzZ3TWw4dEVYTmlpenpYb3NjMXM1ZUNzSlNTZThMQTBHeVdmUEF5MGRUWTFRMWcxR1lQY09VaHVtUjZpTTNncnFYekhabTMtUE1nWVhwUm5WU0VlWQ?oc=5\n日本全国で認知症の神対応病院が紹介され、他院の誤診も最新検査で見抜いてくれるという。\n「人間の疫病、それは知っているという思い込みである。」\n『エセー II.12「レーモン・スボンの弁護」』",
-    "theme": "medecine",
-    "score": 6,
-    "source": "Google News 検索 医療",
-    "source_title": "日本全国「認知症の神対応病院」を一挙紹介…他院の誤診も「最新検査」で見抜いてくれる | スマートニュース - SmartNews",
-    "source_url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOV1F6ZUtQV093ZVdIQkZYZ19FOEtCYkxnYm9PWTdNc2RsSFBNdkQtSlhlVkMwSk1MUlBvR0ZsVFNSSEpmeEdfQjlZUzBFaDJyUVQtN0xrTXNpbVdseFdOc2VoVXVYM2dtcEJSdjNiTGdTZWhvSGsyMlNJNTNYa20yQVJKNVhScFQ4TjJTYlYwcHdmQnNxVnJXWDVkWWg2dDFxTnFfTWQzQzlRSFdkUGdlS1E3TFNkd05sOEg3ekxQM0NTNDl0VVJISENTRnZhbzlZbGpfTE1uUUh6QzhzOC13dVlGSHYzRG8zVDVWbzdONFR2U0NqZTVWVlEzTlhQYk5aVU5Tcko1ak5pVG0tcFJReE9qLUFNZVhQZEctT1VVX3ByWkFoU1l6Z3M0Y29kZ1ZtTWRJSFNXaVAyVGdoZUxScjNZb1FSWnJWVm5XUUtmSmFMTDk3MjJzT1JWU3Q5UzEyUTh2UjdfNjd6ZDQ0ekFEenJqN1RiSHNPQm54YTE4UUlidFdrZzBTOE54cjNzM1lSMkQyd2t4cHBDS2d1T2Izd3dSQlZyY1J4cU5LLWJCUlI1YkJ5cUw1ZkRRMF9lS25DaFMwbEZpc2pwQ1VQMnc0M0NWOElxRmRfVUZ4R2V5blBNQ2lxRVlMMXhUWU8tUjZ6eVZHRFloRG1hZDlrWV9IWXllSzZ3TWw4dEVYTmlpenpYb3NjMXM1ZUNzSlNTZThMQTBHeVdmUEF5MGRUWTFRMWcxR1lQY09VaHVtUjZpTTNncnFYekhabTMtUE1nWVhwUm5WU0VlWQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine"
-    ],
-    "quote_id": "II.12c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T20:17:58.282879+00:00",
-    "publish_at": "2026-11-08T16:17:00+00:00",
-    "timestamp": "2026-11-08T16:17:00+00:00"
-  },
-  {
-    "id": "929b21842234",
-    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc2FzZVBOUWQ2V1JtQWk5MFNqVXFWN0dEQ3RZYzhZdnlkV0gtMEJYa05zMEtXS19jeXZWTnJhMTF0WXlVakg1REp2UVBodHM?oc=5\n猫の性格が4つのタイプに分類され、その中で最も多いのは『怖いけど近づきたい』というタイプである。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
-    "theme": "inconstance",
-    "score": 0,
-    "source": "Google News 科学",
-    "source_title": "猫の性格を4タイプに分類──最多は「怖いけど近づきたい」 - TRILL",
-    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZc2FzZVBOUWQ2V1JtQWk5MFNqVXFWN0dEQ3RZYzhZdnlkV0gtMEJYa05zMEtXS19jeXZWTnJhMTF0WXlVakg1REp2UVBodHM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "II.12e",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T15:55:40.237515+00:00",
-    "publish_at": "2026-11-08T13:17:00+00:00",
-    "timestamp": "2026-11-08T13:17:00+00:00"
-  },
-  {
-    "id": "c8a13b7df790",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pSmtGaXRuQ1QyLXpQeVo0YWg0RzFzWml2UGJLS1Z0RUZjckdQbEpKemVEMmRobU1DN3hkNE5yNGlMNE01VDdpSldWWW56M1plZjFvcnBZRTlwTHJEYUVaRG5BODVCdjRvYkNwQUh2R3dKZGhHX2h0SkN3Yl8xS0U?oc=5\n消えた遭難者が見つかった『LOST10』でネットは『どういう事？』『まさか別班？』と驚いているという。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
-    "theme": "opinion",
-    "score": 4,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "『LOST10』“小駒”横浜流星、消えた遭難者発見→想定外ラスト ネットあ然「どういう事？」「まさか別班？」（ネタバレあり） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pSmtGaXRuQ1QyLXpQeVo0YWg0RzFzWml2UGJLS1Z0RUZjckdQbEpKemVEMmRobU1DN3hkNE5yNGlMNE01VDdpSldWWW56M1plZjFvcnBZRTlwTHJEYUVaRG5BODVCdjRvYkNwQUh2R3dKZGhHX2h0SkN3Yl8xS0U?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "opinion",
-      "savoir",
-      "presomption"
-    ],
-    "quote_id": "I.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T15:46:15.102637+00:00",
-    "publish_at": "2026-11-08T10:17:00+00:00",
-    "timestamp": "2026-11-08T10:17:00+00:00"
-  },
-  {
-    "id": "a52f01d371fd",
-    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Hcnl5b0pjQ1owQXpyVGNzMDhac0xDT0JWa2xkUlEzbWlvRkpkSVh4czdIQmx3NWFrSi1QaWpvbXdkenlXNVpwUWRWa0dsNVBqcmczVUZDRQ?oc=5\nNTTドコモが不正アクセスで顧客情報が流出した問題を受け、謝罪会見を開いたという。\n「世の人はいつも正面を見る。私は視線を内側へ折り返し、そこに据え、そこで遊ばせる。誰もが自分の前を見るが、私は自分の内を見る。」\n『エセー II.17「うぬぼれについて」』",
-    "theme": "lois",
-    "score": 2,
-    "source": "Google News 検索 世相",
-    "source_title": "NTTドコモ 不正アクセスによる顧客情報流出について謝罪会見 - TBS NEWS DIG",
-    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Hcnl5b0pjQ1owQXpyVGNzMDhac0xDT0JWa2xkUlEzbWlvRkpkSVh4czdIQmx3NWFrSi1QaWpvbXdkenlXNVpwUWRWa0dsNVBqcmczVUZDRQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "vanite"
-    ],
-    "quote_id": "II.17",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-07T08:58:19.889008+00:00",
-    "publish_at": "2026-11-08T07:17:00+00:00",
-    "timestamp": "2026-11-08T07:17:00+00:00"
   }
 ]
