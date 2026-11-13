@@ -1,5 +1,43 @@
 [
   {
+    "id": "da9830c05723",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0M1hoRGg2cWJHd3NaMWtLZE5FSS1GbXlCOTd5SV9CNDFHWHhJZFAwT0VKcFZEeE5ra2lHOFBLMnpMWXhyRFIyNWpSVDRGSEloTXhwWThrTWJ6X3BMRTEza0NLX3pEU0tzWjIwTENUZUZmMTdjYjhyejZ5aDBPRzg?oc=5\nイラン革命防衛隊がバーレーンの米レーダーと通信塔への攻撃を報復として行なった。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン革命防衛隊、バーレーンの米レーダー攻撃 通信塔空爆に報復（ロイター） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0M1hoRGg2cWJHd3NaMWtLZE5FSS1GbXlCOTd5SV9CNDFHWHhJZFAwT0VKcFZEeE5ra2lHOFBLMnpMWXhyRFIyNWpSVDRGSEloTXhwWThrTWJ6X3BMRTEza0NLX3pEU0tzWjIwTENUZUZmMTdjYjhyejZ5aDBPRzg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "NE1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T08:04:17.673253+00:00",
+    "publish_at": "2026-11-14T06:17:00+00:00",
+    "timestamp": "2026-11-14T06:17:00+00:00"
+  },
+  {
+    "id": "9712a46e03ef",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yWFM2RFlWcVZYejFNNlU5SzAxNXpyVTB1Z2F5UzdlV2lrWmZya1JDTXJBclA0ek92LU13NTBudFh6MEtXNDh2VWdBTlR3d2I3UGd4aHFCZU9pWUNVVXAtemZaQXliUzlnb1NrLUM0cENETFhOZFE?oc=5\n中国は南シナ海の岩礁を『島』と主張し、支配を強化する姿勢を示しているという。\n「敵の利となることは汝を害し、汝の利となることは敵を害する。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 23,
+    "source": "Google News 国際(World)",
+    "source_title": "岩礁を「島」と主張→支配強化、船舶航行を常態化 中国、南シナ海でフィリピンと対立激化 - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yWFM2RFlWcVZYejFNNlU5SzAxNXpyVTB1Z2F5UzdlV2lrWmZya1JDTXJBclA0ek92LU13NTBudFh6MEtXNDh2VWdBTlR3d2I3UGd4aHFCZU9pWUNVVXAtemZaQXliUzlnb1NrLUM0cENETFhOZFE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T07:56:54.163647+00:00",
+    "publish_at": "2026-11-14T03:17:00+00:00",
+    "timestamp": "2026-11-14T03:17:00+00:00"
+  },
+  {
     "id": "171ca5be6126",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GSG96NjZsVUZFS09IQnE0c1hENUR4VjVfMGpCSFNHMGQyMDRSVERuOUFCOWpTWDcxak1LOWJZSGY3M1Biazk3X3ZkSmx3cTlyQ2F5XzhvRm93TExWZG1KaTVVZVBadzdmUjdTcg?oc=5\n防衛研究所が南シナ海を中国の台湾統一に重要な海域と報告した。\n「真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。」\n『リウィウス論 II.30』",
     "theme": "economia",
@@ -740,43 +778,5 @@
     "generated_at": "2026-11-08T21:52:43.600811+00:00",
     "publish_at": "2026-11-09T15:17:00+00:00",
     "timestamp": "2026-11-09T15:17:00+00:00"
-  },
-  {
-    "id": "af7e6093fa44",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50SWpHSmV0R3A1LXFMMU5fV0RiS2Vfb0RQNUlQV2tCUGJlZUV1OHlKam5IWnpvMWhmcC1iaFFMd3VZdEpZdWIzaG1GUWNIdGR1ZF81VnpveUlJQm9BMHhMOWMxa3VIek1GTTM4NjlBWVNBa2p3Qmc?oc=5\nイスラエル大統領が反ネタニヤフ首相陣営の元参謀総長に組閣を指示し、不調が続く場合は再選挙を行う可能性を示した。\n「分裂した都市は一つにまとめねばならぬ。都市を保つには分裂させておけばよいという考えは誤りである。」\n『リウィウス論 III.27』",
-    "theme": "inganno_simulazione",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "反ネタニヤフ首相陣営の元参謀総長に組閣指示、イスラエル大統領 不調続けば再選挙も - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50SWpHSmV0R3A1LXFMMU5fV0RiS2Vfb0RQNUlQV2tCUGJlZUV1OHlKam5IWnpvMWhmcC1iaFFMd3VZdEpZdWIzaG1GUWNIdGR1ZF81VnpveUlJQm9BMHhMOWMxa3VIek1GTTM4NjlBWVNBa2p3Qmc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione",
-      "imperi_declino",
-      "popolo_principe"
-    ],
-    "quote_id": "D3.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T21:17:45.683397+00:00",
-    "publish_at": "2026-11-09T12:17:00+00:00",
-    "timestamp": "2026-11-09T12:17:00+00:00"
-  },
-  {
-    "id": "615eb3d111cd",
-    "text": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkdFOGRkUEFTelZNRzVETWJSeWIyWTVPMW42OWdYWW03aHd2RFg1MTN0RTRwTk9zVVRsRlJwVmxMcFQ1ZW1GRV9NNGM5ZVhyUkMydkVoVC1wbjYtcU5Nc214RDM1eGtwdU95ZjBsWnpKOEFlZTQ3WnFLT0ozdHpxSDFwd283cWdBNEd6bnAweDlodTdhdEI4ZWFEb3lFRmFqeG5oTER4Nm5VQ0hkdU9CY3NXUQ?oc=5\nロシアがウクライナでの軍事通信にラースヴェット衛星を使用した。\n「国家を設計し法を定める者は、すべての人間は邪悪であると前提せねばならぬ。」\n『リウィウス論 I.3』",
-    "theme": "necessita",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ロシア、ウクライナで軍事通信にラースヴェット衛星を使用 - IDNFinancials",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkdFOGRkUEFTelZNRzVETWJSeWIyWTVPMW42OWdYWW03aHd2RFg1MTN0RTRwTk9zVVRsRlJwVmxMcFQ1ZW1GRV9NNGM5ZVhyUkMydkVoVC1wbjYtcU5Nc214RDM1eGtwdU95ZjBsWnpKOEFlZTQ3WnFLT0ozdHpxSDFwd283cWdBNEd6bnAweDlodTdhdEI4ZWFEb3lFRmFqeG5oTER4Nm5VQ0hkdU9CY3NXUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "D1.3a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T18:47:26.407471+00:00",
-    "publish_at": "2026-11-09T09:17:00+00:00",
-    "timestamp": "2026-11-09T09:17:00+00:00"
   }
 ]
