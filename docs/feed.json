@@ -1,5 +1,63 @@
 [
   {
+    "id": "7efb5275a21a",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4UXdLeHZTR1pmYWNYenFuT2xHMEN6UEFXNVQ1dTNMMUlxV0dSTUJtYU9IU2xEMDVNSWxNVXN0OWFTak9heU5USDV6NGdDMWlFQTQw?oc=5\nイスラエル軍はガザの病院を攻撃し、医師や子どもを含む６人が死亡したとパレスチナ当局は報じているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 13,
+    "source": "Google News 国際(World)",
+    "source_title": "イスラエル軍、ガザの病院を攻撃 医師と子ども含む６人死亡 パレスチナ当局 - CNN",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4UXdLeHZTR1pmYWNYenFuT2xHMEN6UEFXNVQ1dTNMMUlxV0dSTUJtYU9IU2xEMDVNSWxNVXN0OWFTak9heU5USDV6NGdDMWlFQTQw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "armi_proprie"
+    ],
+    "quote_id": "AG13",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T16:36:35.702716+00:00",
+    "publish_at": "2026-11-14T15:17:00+00:00",
+    "timestamp": "2026-11-14T15:17:00+00:00"
+  },
+  {
+    "id": "23b631a5b5ec",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeEFfTmN3U3cxQlFxTmZWMTdRa1dOTUZWT3VEQmVFLWtqeUtzYVlIMGtNQS14YllTMGhQRW9kZDU2Mzd2N0xhdGNQbEJvY3BUUnVLYVZzMmxXMENLTHNR?oc=5\n中国は、南シナ海をアメリカと対抗する基盤としていると防衛研究所が指摘しているという。\n「いかなる国家も、常に安全な道を選べると思ってはならぬ。賢慮とは、災いの性質を見分け、より害の少ないものを善として選ぶことにある。」\n『君主論 cap.XXI』",
+    "theme": "necessita",
+    "score": 14,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "防衛研究所 中国にとって南シナ海はアメリカと対抗する基盤 | NHKニュース | 安全保障、中国・台湾、アメリカ - NHKニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeEFfTmN3U3cxQlFxTmZWMTdRa1dOTUZWT3VEQmVFLWtqeUtzYVlIMGtNQS14YllTMGhQRW9kZDU2Mzd2N0xhdGNQbEJvY3BUUnVLYVZzMmxXMENLTHNR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "P21b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T16:30:44.261348+00:00",
+    "publish_at": "2026-11-14T12:17:00+00:00",
+    "timestamp": "2026-11-14T12:17:00+00:00"
+  },
+  {
+    "id": "387dcd86f166",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS045Ry1oQUhXTE8yVWloT2tGSzROTDRSekNLaDdCZWtYMVpFYjI2OHFTZEVURC1XMHI0NHdMTnlUOE1OV0NNRllDd1BneUgxekZfbFFHWVRFQ0NvZXBXUGd4WkRubWE5UGZQTW1sTEtJT2U3aUxHaEVlcWVaNGFPcnMwOXFCQzg?oc=5\nホルムズ海峡でLNGタンカーが爆発し、イラン国営メディアは機雷接触だと報じた。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
+    "theme": "guerra",
+    "score": 16,
+    "source": "Google News 国際(World)",
+    "source_title": "ホルムズ海峡でＬＮＧタンカー爆発、機雷接触とイラン国営メディア - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS045Ry1oQUhXTE8yVWloT2tGSzROTDRSekNLaDdCZWtYMVpFYjI2OHFTZEVURC1XMHI0NHdMTnlUOE1OV0NNRllDd1BneUgxekZfbFFHWVRFQ0NvZXBXUGd4WkRubWE5UGZQTW1sTEtJT2U3aUxHaEVlcWVaNGFPcnMwOXFCQzg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D3.48",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T16:26:30.969180+00:00",
+    "publish_at": "2026-11-14T09:17:00+00:00",
+    "timestamp": "2026-11-14T09:17:00+00:00"
+  },
+  {
     "id": "da9830c05723",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0M1hoRGg2cWJHd3NaMWtLZE5FSS1GbXlCOTd5SV9CNDFHWHhJZFAwT0VKcFZEeE5ra2lHOFBLMnpMWXhyRFIyNWpSVDRGSEloTXhwWThrTWJ6X3BMRTEza0NLX3pEU0tzWjIwTENUZUZmMTdjYjhyejZ5aDBPRzg?oc=5\nイラン革命防衛隊がバーレーンの米レーダーと通信塔への攻撃を報復として行なった。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
     "theme": "guerra",
@@ -719,64 +777,5 @@
     "generated_at": "2026-11-09T01:12:39.941531+00:00",
     "publish_at": "2026-11-10T00:17:00+00:00",
     "timestamp": "2026-11-10T00:17:00+00:00"
-  },
-  {
-    "id": "750ba74ae9c3",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12TG0zMHRuQmtmQWVnMkZXem52N0FqeUthU1NUcU9GMWpDLUZRanlZS2hEaElDYmpwcmZ6TlA3RjZEalA1d1BmbTUyNmZrU0w2LWxxSnhwQ0d6bkFuWGkwLUJ3aUNnOWM?oc=5\n中国が台湾有事をめぐる日中で応酬する中、安倍氏と習近平氏は笑顔なき握手を交わしたという。\n「敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。」\n『リウィウス論 III.10』",
-    "theme": "guerra",
-    "score": 13,
-    "source": "Google News 検索 国内政治",
-    "source_title": "安倍氏と習近平氏が笑顔なき握手を交わすまで 12年前のヒントは [台湾有事答弁めぐる日中応酬 存立危機事態 高市首相 中国] - 朝日新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12TG0zMHRuQmtmQWVnMkZXem52N0FqeUthU1NUcU9GMWpDLUZRanlZS2hEaElDYmpwcmZ6TlA3RjZEalA1d1BmbTUyNmZrU0w2LWxxSnhwQ0d6bkFuWGkwLUJ3aUNnOWM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "fortuna_virtu"
-    ],
-    "quote_id": "D3.10",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T01:06:16.767563+00:00",
-    "publish_at": "2026-11-09T21:17:00+00:00",
-    "timestamp": "2026-11-09T21:17:00+00:00"
-  },
-  {
-    "id": "59c4639281e1",
-    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1QkljWXlCMWFOWWV2clFpdE53c0NqZmhjYU5ldmFHMGhOTFpVZU43YnlaTWN0VTZBeTU3Sng2S2liV2VQUVhOUnJ0NXl3MTcwbGtHaEZDX3Rwa1FQRWZQYkFSZkpjb2J6b1JPTzVtaEU5VUk?oc=5\n米国がエネルギー施設の停戦について合意したと発表し、ウクライナはロシアの違反を主張している。\n「力ずくでさせられた約束は、守るべきものではない。」\n『リウィウス論 III.42』",
-    "theme": "inganno_simulazione",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "米「エネルギー施設停戦で合意」 「ロシア違反」とウクライナ主張 - 山陽新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1QkljWXlCMWFOWWV2clFpdE53c0NqZmhjYU5ldmFHMGhOTFpVZU43YnlaTWN0VTZBeTU3Sng2S2liV2VQUVhOUnJ0NXl3MTcwbGtHaEZDX3Rwa1FQRWZQYkFSZkpjb2J6b1JPTzVtaEU5VUk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "D3.42",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T21:58:09.907991+00:00",
-    "publish_at": "2026-11-09T18:17:00+00:00",
-    "timestamp": "2026-11-09T18:17:00+00:00"
-  },
-  {
-    "id": "1b4636928545",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hNkZfd1BHRDFNQkN6VHJ3WGxaMXJKd3VqMkhfRjBHTkU5TEFhYVBQLTA5R3lmN2RseFlINnB3aHlXZm1EZzIyTkdsN0xFVndqY0luRGhneGpsazdidGZR?oc=5\nロシア軍はウクライナに対し大規模攻撃を行い住宅などを被害に遭わせて市民生活に大きな影響を与えたという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ロシア軍がウクライナに大規模攻撃 住宅など被害 市民生活影響 | NHKニュース | ウクライナ情勢、ロシア、ゼレンスキー大統領 - NHKニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hNkZfd1BHRDFNQkN6VHJ3WGxaMXJKd3VqMkhfRjBHTkU5TEFhYVBQLTA5R3lmN2RseFlINnB3aHlXZm1EZzIyTkdsN0xFVndqY0luRGhneGpsazdidGZR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG13",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T21:52:43.600811+00:00",
-    "publish_at": "2026-11-09T15:17:00+00:00",
-    "timestamp": "2026-11-09T15:17:00+00:00"
   }
 ]
