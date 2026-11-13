@@ -1,5 +1,65 @@
 [
   {
+    "id": "171ca5be6126",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GSG96NjZsVUZFS09IQnE0c1hENUR4VjVfMGpCSFNHMGQyMDRSVERuOUFCOWpTWDcxak1LOWJZSGY3M1Biazk3X3ZkSmx3cTlyQ2F5XzhvRm93TExWZG1KaTVVZVBadzdmUjdTcg?oc=5\n防衛研究所が南シナ海を中国の台湾統一に重要な海域と報告した。\n「真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。」\n『リウィウス論 II.30』",
+    "theme": "economia",
+    "score": 10,
+    "source": "Google News 検索 安全保障",
+    "source_title": "南シナ海「中国の台湾統一に重要な海域」 防衛研究所が報告書 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GSG96NjZsVUZFS09IQnE0c1hENUR4VjVfMGpCSFNHMGQyMDRSVERuOUFCOWpTWDcxak1LOWJZSGY3M1Biazk3X3ZkSmx3cTlyQ2F5XzhvRm93TExWZG1KaTVVZVBadzdmUjdTcg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "economia"
+    ],
+    "quote_id": "D2.30",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T00:36:09.670215+00:00",
+    "publish_at": "2026-11-14T00:17:00+00:00",
+    "timestamp": "2026-11-14T00:17:00+00:00"
+  },
+  {
+    "id": "19fee415b87f",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DcEZlVkQ3LXdaVnZ2SzRvdDgzamppaFg1blZvWXhhdjdBX0xlaHg0emlIamROQkxHclJzNUtVSUhEZXA4NWFJaXBOOUx0b2pvMEdzU25IVENCUQ?oc=5\n中国は遠方の作戦能力を強化し、台湾侵攻への対応として南シナ海を重視しているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "中国 遠方の作戦能力強化 防衛研 台湾侵攻へ南シナ海重視 - 北海道新聞デジタル",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DcEZlVkQ3LXdaVnZ2SzRvdDgzamppaFg1blZvWXhhdjdBX0xlaHg0emlIamROQkxHclJzNUtVSUhEZXA4NWFJaXBOOUx0b2pvMEdzU25IVENCUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG9",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T00:29:59.604544+00:00",
+    "publish_at": "2026-11-13T21:17:00+00:00",
+    "timestamp": "2026-11-13T21:17:00+00:00"
+  },
+  {
+    "id": "38e49da007c2",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORXN3V1l1UUpzV3E3LWdoVDRXVHQxWDlTeDAzZ1VRdnNqT1ZTREtIM0VjSWw2QzdmOGFtaHNWZWFiR1lfNUl3QzZxX1lGMEtqWnRFenk2bEprUHhkdUpLaklFVUtwUERJTXBYNzJLTlFvVWxqSjI1OUVweVFmZlZ2U1pyVnVtdw?oc=5\nロシア軍はウクライナ各地の軍需工場に対し大規模攻撃を実行すると発表した。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 15,
+    "source": "Google News 国際(World)",
+    "source_title": "ロシア軍、ウクライナ各地の軍需工場に大規模攻撃と発表 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORXN3V1l1UUpzV3E3LWdoVDRXVHQxWDlTeDAzZ1VRdnNqT1ZTREtIM0VjSWw2QzdmOGFtaHNWZWFiR1lfNUl3QzZxX1lGMEtqWnRFenk2bEprUHhkdUpLaklFVUtwUERJTXBYNzJLTlFvVWxqSjI1OUVweVFmZlZ2U1pyVnVtdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "popolo_principe",
+      "economia",
+      "fortuna_virtu"
+    ],
+    "quote_id": "AG2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T00:27:54.733292+00:00",
+    "publish_at": "2026-11-13T18:17:00+00:00",
+    "timestamp": "2026-11-13T18:17:00+00:00"
+  },
+  {
     "id": "5843c990e4f0",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GdGk3VjhHQzVzTTJ3TEZnSWdNVjVlQ0pJWEJaSHR1VVNJMGY2RVNWdjF5eDZGLUNUT3NJMHFYSDJGZ0dkSVVpelZCaDZtWkpqWHdIMkZtbnBoWlB3LW9JTUVnNC1PMmRDNXlUN0MtVmluMkVpa1p0eFlhSlVxdXM?oc=5\nトランプ氏はイランとの戦争擁護の立場を示し、復員軍人の凱旋門建設を表明したという。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
     "theme": "guerra",
@@ -718,44 +778,5 @@
     "generated_at": "2026-11-08T18:47:26.407471+00:00",
     "publish_at": "2026-11-09T09:17:00+00:00",
     "timestamp": "2026-11-09T09:17:00+00:00"
-  },
-  {
-    "id": "c96440d7d563",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rdDFtYTlZUjFscWZtV1A3MmMxZlNmRUVUU0x2ODQyY1ZpMEZORUxTclM4UDJnbEMyOGlQR0RhRTQyWGxZemtyTWVhenlackE3RjFNTVJIUXZKcUdNTUF2MWVkRQ?oc=5\nイスラエル大統領は組閣指示を出し、反ネタニヤフ陣営を結集するための連立交渉に入ったという。\n「為すべきことについては多くの者に諮り、実際に為そうとすることは少数の者にだけ打ち明けよ。」\n『戦争の技法 lib.VII』",
-    "theme": "inganno_simulazione",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉：時事ドットコム - 時事ドットコム",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rdDFtYTlZUjFscWZtV1A3MmMxZlNmRUVUU0x2ODQyY1ZpMEZORUxTclM4UDJnbEMyOGlQR0RhRTQyWGxZemtyTWVhenlackE3RjFNTVJIUXZKcUdNTUF2MWVkRQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG10",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T18:07:49.162810+00:00",
-    "publish_at": "2026-11-09T06:17:00+00:00",
-    "timestamp": "2026-11-09T06:17:00+00:00"
-  },
-  {
-    "id": "7767e70b2f65",
-    "text": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZTFJOXAtYXlKLTZrbllZZWJ2ZFN2Qk5LaDdxYzU5NVlOQTlDbEVURGJGNEZWRmlLSTJFdkIzWlZUUEJGeWk0cnZVMmFYQlBjcktnMVNLY3ZRVk1XYTg0d1VZdUFkajZ5WC1fcmtBSXlSTTMteWNtWE5HdEVKQTBPaW5JUXB5UndRaXNyMFA1X0FBd1d5TFVfR2p2R2k1dWpx?oc=5\nウクライナ国防軍がロシア軍のドローン指揮所を4か所攻撃した。\n「新旧を問わず、あらゆる国家の主たる土台は、良き法と良き軍備である。」\n『君主論 cap.XII』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナ国防軍、ロシア軍のドローン指揮所を4か所攻撃 - Mezha.net",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZTFJOXAtYXlKLTZrbllZZWJ2ZFN2Qk5LaDdxYzU5NVlOQTlDbEVURGJGNEZWRmlLSTJFdkIzWlZUUEJGeWk0cnZVMmFYQlBjcktnMVNLY3ZRVk1XYTg0d1VZdUFkajZ5WC1fcmtBSXlSTTMteWNtWE5HdEVKQTBPaW5JUXB5UndRaXNyMFA1X0FBd1d5TFVfR2p2R2k1dWpx?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "armi_proprie"
-    ],
-    "quote_id": "P12a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T17:43:09.109454+00:00",
-    "publish_at": "2026-11-09T03:17:00+00:00",
-    "timestamp": "2026-11-09T03:17:00+00:00"
   }
 ]
