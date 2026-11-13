@@ -1,5 +1,46 @@
 [
   {
+    "id": "fc6535353426",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92OVQ5bmVYYzdfMXdWUWlkWWlSUFdwNDVwTXBpS2MtV3hKRC1FOExPd2VvVEM1dmxMZm9obkFoYjcySGhOSkJhcUs3RndfWEt3SDhScnhIRU1xdw?oc=5\n中国は遠方の作戦能力を強化しており、台湾への侵攻に向けた南シナ海での重視を示しているという。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "中国、遠方の作戦能力強化 台湾侵攻へ南シナ海重視｜政治｜全国のニュース｜富山新聞 - 北國新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92OVQ5bmVYYzdfMXdWUWlkWWlSUFdwNDVwTXBpS2MtV3hKRC1FOExPd2VvVEM1dmxMZm9obkFoYjcySGhOSkJhcUs3RndfWEt3SDhScnhIRU1xdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D3.40",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T23:13:17.570771+00:00",
+    "publish_at": "2026-11-14T21:17:00+00:00",
+    "timestamp": "2026-11-14T21:17:00+00:00"
+  },
+  {
+    "id": "010775113afa",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Lei14VWxxSVRjenplLVZJaWlBajUyX3ExVnZwM2VoaGFydUVESVBKa2VIUl9mVmNnV05xM0dNNng3UFJhLTBPYm96YzdVOXNJNFZUbERiYlVFZw?oc=5\nトランプ大統領は湾岸同盟国に対しイラン攻撃の自制を要請したが、関税問題では拒否権闘争に直面しているという。\n「優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 米国の外交",
+    "source_title": "トランプ大統領、湾岸同盟国がイラン攻撃の自制を要請と発言 関税は拒否権闘争に直面 - BigGo ファイナンス",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Lei14VWxxSVRjenplLVZJaWlBajUyX3ExVnZwM2VoaGFydUVESVBKa2VIUl9mVmNnV05xM0dNNng3UFJhLTBPYm96YzdVOXNJNFZUbERiYlVFZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "economia",
+      "necessita"
+    ],
+    "quote_id": "AG11",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T22:50:46.459205+00:00",
+    "publish_at": "2026-11-14T18:17:00+00:00",
+    "timestamp": "2026-11-14T18:17:00+00:00"
+  },
+  {
     "id": "7efb5275a21a",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4UXdLeHZTR1pmYWNYenFuT2xHMEN6UEFXNVQ1dTNMMUlxV0dSTUJtYU9IU2xEMDVNSWxNVXN0OWFTak9heU5USDV6NGdDMWlFQTQw?oc=5\nイスラエル軍はガザの病院を攻撃し、医師や子どもを含む６人が死亡したとパレスチナ当局は報じているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -737,45 +778,5 @@
     "generated_at": "2026-11-09T08:02:12.764442+00:00",
     "publish_at": "2026-11-10T06:17:00+00:00",
     "timestamp": "2026-11-10T06:17:00+00:00"
-  },
-  {
-    "id": "7c9b4db584bf",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vcVk4aXlmZDZ5R3NMT0R4N01Td3VheHh0LTVNQ0hLZU5ZaEQ1N1JTOHJLaUpHenJXeUZjdW1Sd29jQmRyUHQxdHVickFHZHlmQ1dDT2NWSFM5UkRwNmZJSGxQX2NmcTg3ajg5MQ?oc=5\n厳冬の中でキーウで10時間に及ぶ停電が起き、ロシアによる経済戦が市民生活に直撃している。\n「敵の利となることは汝を害し、汝の利となることは敵を害する。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 23,
-    "source": "Google News 国際(World)",
-    "source_title": "厳冬迫るキーウで停電10時間、ロシアの「経済戦」が市民生活を直撃 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vcVk4aXlmZDZ5R3NMT0R4N01Td3VheHh0LTVNQ0hLZU5ZaEQ1N1JTOHJLaUpHenJXeUZjdW1Sd29jQmRyUHQxdHVickFHZHlmQ1dDT2NWSFM5UkRwNmZJSGxQX2NmcTg3ajg5MQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "economia"
-    ],
-    "quote_id": "AG1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T07:58:33.366408+00:00",
-    "publish_at": "2026-11-10T03:17:00+00:00",
-    "timestamp": "2026-11-10T03:17:00+00:00"
-  },
-  {
-    "id": "848c680472b5",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZEpTNVNRU1J6SlBrV2FyeWJ4d21sSEd1cGoyWU5FRHE2MmxsSDgtd2FVNTFKWWozV3lvak9WaVpkYjBhdXhmZGxiTWo3TFl5SEFxWUEwSXJ0TG5GLWNmdG5mUFgtc0dJakhLV2tHU0VaeUhJNmQ5ZWVuSTRkQkpBSDdTNFhwelk?oc=5\nゼレンスキー氏はロシアが停戦を拒否すればウクライナは攻撃を継続すると表明したという。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナは攻撃を継続、ロシアが停戦拒否なら－ゼレンスキー氏 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZEpTNVNRU1J6SlBrV2FyeWJ4d21sSEd1cGoyWU5FRHE2MmxsSDgtd2FVNTFKWWozV3lvak9WaVpkYjBhdXhmZGxiTWo3TFl5SEFxWUEwSXJ0TG5GLWNmdG5mUFgtc0dJakhLV2tHU0VaeUhJNmQ5ZWVuSTRkQkpBSDdTNFhwelk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D3.40",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T01:12:39.941531+00:00",
-    "publish_at": "2026-11-10T00:17:00+00:00",
-    "timestamp": "2026-11-10T00:17:00+00:00"
   }
 ]
