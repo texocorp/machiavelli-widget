@@ -1,5 +1,69 @@
 [
   {
+    "id": "07f6001ead2d",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zOTBBU0VxZTBobF9va3ZNSG5Ya1daSkdzMkJ5UVE4MTFOU3BUckxkZ1dUcWIyQm1RWWVxbXdnRWVmS1lKXzBLTkwtTnVWaEJiTjBlaE1LbW82NHdFdzFr?oc=5\nSNS教育講演家は、反論できない店員を晒すというリスクについて指摘しているという。\n「それゆえ考察はほとんど目に見えるところで止まり、目に見えないものは、わずかしか、あるいはまったく観察されない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム50",
+    "original": "Itaque contemplatio fere desinit cum aspectu; adeo ut rerum invisibilium exigua aut nulla sit observatio.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が指摘するカルピスソーダ炎上の盲点、反論できない店員を晒す一方的なSNS公開のリスク - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zOTBBU0VxZTBobF9va3ZNSG5Ya1daSkdzMkJ5UVE4MTFOU3BUckxkZ1dUcWIyQm1RWWVxbXdnRWVmS1lKXzBLTkwtTnVWaEJiTjBlaE1LbW82NHdFdzFr?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.50",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T18:15:28.030941+00:00",
+    "publish_at": "2026-11-14T17:17:00+00:00",
+    "timestamp": "2026-11-14T17:17:00+00:00"
+  },
+  {
+    "id": "97821418836c",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QSkNnRFRJWnI0OUFzazcxYjlBb29XYVNCbWxjbDJPUmhUOGNmT3dTZlNtUFBXaEw1Wm1FajRIQW8wZTFZTksxTThxS3ZJcml6VjJZeDRiWGtRMUNvQnVF?oc=5\nSNS教育講演家が、誹謗中傷について『アンチはストレスの捌け口にしているだけ』と指摘した。\n「自分の内に徳を持たない者は、常に他人の徳を妬む。」\n『随筆集』第9篇「嫉妬について」",
+    "original": "A man that hath no virtue in himself, ever envieth virtue in others.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が指摘する誹謗中傷の闇「アンチはストレスの捌け口にしているだけ」 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QSkNnRFRJWnI0OUFzazcxYjlBb29XYVNCbWxjbDJPUmhUOGNmT3dTZlNtUFBXaEw1Wm1FajRIQW8wZTFZTksxTThxS3ZJcml6VjJZeDRiWGtRMUNvQnVF?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "E9c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T18:07:38.316407+00:00",
+    "publish_at": "2026-11-14T14:17:00+00:00",
+    "timestamp": "2026-11-14T14:17:00+00:00"
+  },
+  {
+    "id": "d095f34545bd",
+    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9VcmlLVFU0VUxYYUxNRlduTDhsejU2cmFRN0Yzcm5lWmhDTnlxNHYxTFBEOEFSQzNwMXRXeGtzQlRGZXJYWnUzUjVB?oc=5\npando.lifeは「ディープフェイクAI市場に関する市場レポート：市場シェア、開発、製造コスト、セグメント、」と報じた。\n「その区分の一つ一つが中身に乏しく、空の小箱のようであっても、世間の知性の前では、完全な学問の体裁と筋道を見せる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム86",
+    "original": "Atque licet membra illa male impleta et veluti capsulae inanes sint; tamen apud intellectum vulgarem scientiae formam et rationem integrae prae se ferunt.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 18,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "ディープフェイクAI市場に関する市場レポート：市場シェア、開発、製造コスト、セグメント、 - pando.life",
+    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9VcmlLVFU0VUxYYUxNRlduTDhsejU2cmFRN0Yzcm5lWmhDTnlxNHYxTFBEOEFSQzNwMXRXeGtzQlRGZXJYWnUzUjVB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia",
+      "novitas"
+    ],
+    "quote_id": "NO1.86b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T17:53:06.895452+00:00",
+    "publish_at": "2026-11-14T11:17:00+00:00",
+    "timestamp": "2026-11-14T11:17:00+00:00"
+  },
+  {
     "id": "73d4ff0e8659",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02ZUo4Yk9LV0FTNHBzT0pjT0NTNnB2V0twRmVyRjBON0IweU5qdEliUFRkVDI0clZ5Yk1QOW1acWtZRl9XcFFlZTZDckZ1Q0c2V2piSlRCUHRDZHhjekZR?oc=5\n投稿削除の盲点についてSNS教育講演家が指摘するが、炎上中にアーカイブを消すことは危険であるという。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
     "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
@@ -731,68 +795,5 @@
     "generated_at": "2026-11-09T03:00:29.273042+00:00",
     "publish_at": "2026-11-10T02:17:00+00:00",
     "timestamp": "2026-11-10T02:17:00+00:00"
-  },
-  {
-    "id": "55782cb94877",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xU0NPTEhGWVZhU1d3VGtZelBUR1dsNDFhZTZHanBqelhpU0E0Rmk4WUZybkRiYlJnbS14aG9nV1NLcl9iTzBXMmNJOXU5MmJkNlhKMDNfQWEtOHQ3WUE?oc=5\n磐田は、SNSやスタジアムで行われた誹謗中傷について決して容認いたしませんと声明を出したという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
-    "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News SNS・報道",
-    "source_title": "SNSやスタジアムで誹謗中傷…磐田が声明「決して容認いたしません」の写真 - ゲキサカ",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xU0NPTEhGWVZhU1d3VGtZelBUR1dsNDFhZTZHanBqelhpU0E0Rmk4WUZybkRiYlJnbS14aG9nV1NLcl9iTzBXMmNJOXU5MmJkNlhKMDNfQWEtOHQ3WUE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E59a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T02:53:42.828530+00:00",
-    "publish_at": "2026-11-09T23:17:00+00:00",
-    "timestamp": "2026-11-09T23:17:00+00:00"
-  },
-  {
-    "id": "086c9c86d5d4",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnSmdQa0M0WW5wZUl2NFpUbVNTQldid0s1b0hEdXdqUWl3U1c2cHJzU0pXMlBnRU1XNEoybFotdDRkQWl6VnJFeldtaVpNUTc3clFWZlhoMERVZVcxWEN2dDFCbi1YUzVaY3k1dExDaW5OT2tibGRRd1NVa1FZWTQ?oc=5\nAERA DIGITALは「『怒り』や『不安』を感じているときほど人は操作されやすくなる 偽情報だけではない『認知戦』の本質 ジャパン・ネクサス・インテリジェンスの髙森雅和さんに聞く」と報じた。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
-    "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 14,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「怒り」や「不安」を感じているときほど人は操作されやすくなる 偽情報だけではない「認知戦」の本質 ジャパン・ネクサス・インテリジェンスの髙森雅和さんに聞く（AERA DIGITAL） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnSmdQa0M0WW5wZUl2NFpUbVNTQldid0s1b0hEdXdqUWl3U1c2cHJzU0pXMlBnRU1XNEoybFotdDRkQWl6VnJFeldtaVpNUTc3clFWZlhoMERVZVcxWEN2dDFCbi1YUzVaY3k1dExDaW5OT2tibGRRd1NVa1FZWTQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "tribus"
-    ],
-    "quote_id": "E50a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T02:43:47.568146+00:00",
-    "publish_at": "2026-11-09T20:17:00+00:00",
-    "timestamp": "2026-11-09T20:17:00+00:00"
-  },
-  {
-    "id": "a53bb67fa06d",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAydkMyeWh0aS1JZTBJbXdxdWZ0U2VtU3RSRUU0YU9pTEJHbUdXSzVEQTYzSDVTNjRrd3BjNXBMdWxMZnhha2hfN3BYNDhib3RfeG5ZdXJkSjd0V3RfWnRzX0Fn?oc=5\nAIが超知能を100％支持するトランプ氏による支援表明があり、中間選挙の民主党大勝で規制強化が懸念されているという。\n「印刷術、火薬、羅針盤。この三つが、世界における事物の様相と状態を一変させた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
-    "original": "Artis nimirum Imprimendi, Pulveris Tormentarii, et Acus Nauticae. Haec enim tria rerum faciem et statum in orbe terrarum mutaverunt …",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 7,
-    "source": "Google News 生成AIの論争",
-    "source_title": "トランプ氏「ＡＩ推進州」支援表明、中間選挙の民主党大勝で「規制強化」懸念の中「超知能を１００％支持」 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAydkMyeWh0aS1JZTBJbXdxdWZ0U2VtU3RSRUU0YU9pTEJHbUdXSzVEQTYzSDVTNjRrd3BjNXBMdWxMZnhha2hfN3BYNDhib3RfeG5ZdXJkSjd0V3RfWnRzX0Fn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia",
-      "novitas",
-      "tribus"
-    ],
-    "quote_id": "NO1.129a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T19:14:01.335640+00:00",
-    "publish_at": "2026-11-09T17:17:00+00:00",
-    "timestamp": "2026-11-09T17:17:00+00:00"
   }
 ]
