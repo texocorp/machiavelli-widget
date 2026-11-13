@@ -1,5 +1,49 @@
 [
   {
+    "id": "52e840a8c6da",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXZUxRWEc3Z0JIZm9yWWItdnRvM1RGQjdnUXJYYW1wNnhfV2ZhMWZlcmVkOGRQUmhWRWpyMWdhVm81VFlscGVpeFdhWHpYNDVtUThmQ2swaW9BT29oM3RR?oc=5\n中身のないデマが拡散する構造の罠として指摘され、 SNS教育講演家がその点を説いたという。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
+    "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 18,
+    "source": "Google News 偽情報・言説",
+    "source_title": "SNS教育講演家が指摘する「中身のないデマ」が拡散する構造の罠 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXZUxRWEc3Z0JIZm9yWWItdnRvM1RGQjdnUXJYYW1wNnhfV2ZhMWZlcmVkOGRQUmhWRWpyMWdhVm81VFlscGVpeFdhWHpYNDVtUThmQ2swaW9BT29oM3RR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama",
+      "studium"
+    ],
+    "quote_id": "E35b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T23:44:09.191799+00:00",
+    "publish_at": "2026-11-14T23:17:00+00:00",
+    "timestamp": "2026-11-14T23:17:00+00:00"
+  },
+  {
+    "id": "5d5276b2fb52",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Zak93d2RLdGRjOFItMFY1RTJFUk9vYkx0VXFWOGl6ZkNVRFBVN00yRmVLS0FuZXRWYlRTeUh1bUNhV2Z1OG40VFFtY0dVR3Y4czhoWTlBZkkxZmJ1UFc4bFBOdGpDUQ?oc=5\n米オハイオ州動物園のライオン脱走はAI画像のデマであり、SNSで拡散されて大騒動となったという。\n「見落とされて名前を欠く物があるように、空想の想定によって、物を欠く名前もある。」\n『ノヴム・オルガヌム』第1巻 アフォリズム60",
+    "original": "… quemadmodum enim sunt res, quae nomine carent per inobservationem; ita sunt et nomina, quae carent rebus, per suppositionem phantasticam …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 18,
+    "source": "Google News 偽情報・言説",
+    "source_title": "米オハイオ州動物園「ライオン脱走」はAI画像のデマだった…SNSで拡散され大騒動に｜もぎたて海外仰天ニュース - 日刊ゲンダイDIGITAL",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Zak93d2RLdGRjOFItMFY1RTJFUk9vYkx0VXFWOGl6ZkNVRFBVN00yRmVLS0FuZXRWYlRTeUh1bUNhV2Z1OG40VFFtY0dVR3Y4czhoWTlBZkkxZmJ1UFc4bFBOdGpDUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "NO1.60",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T23:38:29.963389+00:00",
+    "publish_at": "2026-11-14T20:17:00+00:00",
+    "timestamp": "2026-11-14T20:17:00+00:00"
+  },
+  {
     "id": "07f6001ead2d",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zOTBBU0VxZTBobF9va3ZNSG5Ya1daSkdzMkJ5UVE4MTFOU3BUckxkZ1dUcWIyQm1RWWVxbXdnRWVmS1lKXzBLTkwtTnVWaEJiTjBlaE1LbW82NHdFdzFr?oc=5\nSNS教育講演家は、反論できない店員を晒すというリスクについて指摘しているという。\n「それゆえ考察はほとんど目に見えるところで止まり、目に見えないものは、わずかしか、あるいはまったく観察されない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム50",
     "original": "Itaque contemplatio fere desinit cum aspectu; adeo ut rerum invisibilium exigua aut nulla sit observatio.",
@@ -753,47 +797,5 @@
     "generated_at": "2026-11-09T12:01:05.622397+00:00",
     "publish_at": "2026-11-10T08:17:00+00:00",
     "timestamp": "2026-11-10T08:17:00+00:00"
-  },
-  {
-    "id": "7c53ebc463a6",
-    "text": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfOEZmdmNQSDNBaGprOHBUd3F3VUpRWkpldEdYMURPdkVDOC01RVotLTRsMEdWMy0xNU8tZVlOakJSSVVJU0E?oc=5\n2025年の調査で中学生の4割が外国人増加に否定的な意見を示した。\n「最も危険な不満とは、実際の痛みよりも恐れのほうが大きい不満である。」\n『随筆集』第15篇「騒乱と動揺について」",
-    "original": "… for they are the most dangerous discontentments, where the fear is greater than the feeling.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 11,
-    "source": "Google News 偽情報・言説",
-    "source_title": "外国人の事件、デマの影響、身近に外国人がいる世代ならではの感覚……2025年の調査では中学生の4割が外国人増加に否定的な意見を示し、様々な意見が集まる - Togetter",
-    "source_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfOEZmdmNQSDNBaGprOHBUd3F3VUpRWkpldEdYMURPdkVDOC01RVotLTRsMEdWMy0xNU8tZVlOakJSSVVJU0E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "specus"
-    ],
-    "quote_id": "E15c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T11:49:53.591109+00:00",
-    "publish_at": "2026-11-10T05:17:00+00:00",
-    "timestamp": "2026-11-10T05:17:00+00:00"
-  },
-  {
-    "id": "3a97f8f8ae41",
-    "text": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSTNhZXRDOHo3c3p5aGVwYmE1Y1VhcUxabWwwZFZsNjZtMXhlUzdzdGtqM0ZzQlF1MzV5eWhsbUlYTW10ZzdXcEJuYVppUkhlY1hTeUhrOEg3Y0VmUVJwOC16MmRZaDhvV3NJSlZNR0d5T3ZGUXJNYnZVUVZ3by1UblA3VzBycklaWVJqVHpwMmxfeVM0U3VaTnl4OVZfbHFx?oc=5\n中国が『AIセキュリティガバナンスフレームワーク3.0』を示し、企業のAI運用統制について言及した。\n「いかなる帝国も、いかなる宗派も、いかなる星も、これらの機械的発明以上の力と、いわば影響を、人間の事柄に及ぼしたとは思われないほどである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
-    "original": "… ut non imperium aliquod, non secta, non stella, majorem efficaciam et quasi influxum super res humanas exercuisse videatur, quam ista mechanica exercuerunt.",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 10,
-    "source": "Google News AI・研究政策",
-    "source_title": "生成AIを巡る米欧中の規制動向最前線 中国「AIセキュリティガバナンスフレームワーク3.0」が示す企業のAI運用統制 - PwC",
-    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSTNhZXRDOHo3c3p5aGVwYmE1Y1VhcUxabWwwZFZsNjZtMXhlUzdzdGtqM0ZzQlF1MzV5eWhsbUlYTW10ZzdXcEJuYVppUkhlY1hTeUhrOEg3Y0VmUVJwOC16MmRZaDhvV3NJSlZNR0d5T3ZGUXJNYnZVUVZ3by1UblA3VzBycklaWVJqVHpwMmxfeVM0U3VaTnl4OVZfbHFx?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia",
-      "novitas"
-    ],
-    "quote_id": "NO1.129b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T03:00:29.273042+00:00",
-    "publish_at": "2026-11-10T02:17:00+00:00",
-    "timestamp": "2026-11-10T02:17:00+00:00"
   }
 ]
