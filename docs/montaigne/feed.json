@@ -1,5 +1,42 @@
 [
   {
+    "id": "f7e126581e41",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlhCSjd6QlltWEVqU3hsbG5Qa1hCRElsVnFEclNhTWZDZEZieXlVQmxvUEpMaF93aDZCSjNvS0txaExPTUpfblNOZzh0UVl1N1RwaGdIVDIxTnFMN0lmUnhxNlE?oc=5\n大正製薬は老化細胞を取り除き、長く健康に過ごせるように挑戦を続けたタウリン研究を行っているという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
+    "theme": "medecine",
+    "score": 4,
+    "source": "Google News 科学",
+    "source_title": "老化細胞取り除き、長く健康に過ごせるように…大正製薬で挑戦続く「タウリン」研究 - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlhCSjd6QlltWEVqU3hsbG5Qa1hCRElsVnFEclNhTWZDZEZieXlVQmxvUEpMaF93aDZCSjNvS0txaExPTUpfblNOZzh0UVl1N1RwaGdIVDIxTnFMN0lmUnhxNlE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "savoir"
+    ],
+    "quote_id": "III.13j",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T01:56:14.877475+00:00",
+    "publish_at": "2026-11-14T01:17:00+00:00",
+    "timestamp": "2026-11-14T01:17:00+00:00"
+  },
+  {
+    "id": "2b1c29d882e4",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wRGFHcl9aSmRPanVvU0JOaWJmenVVQkx3SFFzUXIwWmdkcHJEdUw5RFNIVDl2aHA2cGluSzEyb1FZZ0p4UHlhYU5ySnJvSmtxMTd2MHdPTmNsc0ZjYmc?oc=5\nルフィ事件の渡辺優樹被告に対し、共犯の小島受刑者が語る彼の素顔という。\n「我々は皆つぎはぎでできている。その組み立てはまことに不定形でまちまちだから、どの切れ端も、どの瞬間も、それぞれ勝手に振る舞う。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
+    "theme": "lois",
+    "score": 8,
+    "source": "Google News 国内",
+    "source_title": "ルフィ事件の渡辺優樹被告 共犯の小島受刑者が語る素顔 (2026年11月13日掲載) - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wRGFHcl9aSmRPanVvU0JOaWJmenVVQkx3SFFzUXIwWmdkcHJEdUw5RFNIVDl2aHA2cGluSzEyb1FZZ0p4UHlhYU5ySnJvSmtxMTd2MHdPTmNsc0ZjYmc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "II.1a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T01:53:04.438308+00:00",
+    "publish_at": "2026-11-13T22:17:00+00:00",
+    "timestamp": "2026-11-13T22:17:00+00:00"
+  },
+  {
     "id": "35d6895b3a55",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4cy1TTkZXeFpLR1RzN3gxRzVSVGZ1SDBiQUY2V3V1OEJVSlAyT0ZDTVA3b3ZfWnpjYkk1VVFFU19ac3h0OG4tZ01nOHhEVWhHRFEzSWkyaW1MZ3c2ejY0?oc=5\n介護現場でのカスハラを防ぐために、難しい線引きが必要な対策が求められている。\n「(古い見解に言う)大きく正しくあろうとする者は細部で不正をなさざるをえず、大事で正義を貫こうとする者は小事で不公正をなさざるをえない。」\n『エセー III.13「経験について」』",
     "theme": "medecine",
@@ -666,41 +703,5 @@
     "generated_at": "2026-11-08T13:33:01.632601+00:00",
     "publish_at": "2026-11-09T10:17:00+00:00",
     "timestamp": "2026-11-09T10:17:00+00:00"
-  },
-  {
-    "id": "0b24dfe21c55",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ocFJQM3pMQUc1VzF6emlsS080cVRKVWtyTk9BRkdXUUlrUnRXUGhNbDlQNDZDaEVnTC1BT2JFeUFMYU9ObWZuM1RwWUlzMFdkRkVKYVljb185QQ?oc=5\n広島市は外国人への生活保護支給について国の通知に基づいており、SNSで拡散された『違法支給』という情報は不正確である。\n「一人の誤りがまず世間の誤りをつくり、次には世間の誤りが一人一人の誤りをつくる。」\n『エセー III.11「足の不自由な人々について」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 国内",
-    "source_title": "「広島市が独自に外国人へ違法支給」ＳＮＳで拡散 生活保護巡り不正確な点 広島市「国の通知に基づき運用」 - 中国新聞デジタル",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ocFJQM3pMQUc1VzF6emlsS080cVRKVWtyTk9BRkdXUUlrUnRXUGhNbDlQNDZDaEVnTC1BT2JFeUFMYU9ObWZuM1RwWUlzMFdkRkVKYVljb185QQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "opinion",
-      "autrui"
-    ],
-    "quote_id": "III.11b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T13:30:44.626086+00:00",
-    "publish_at": "2026-11-09T07:17:00+00:00",
-    "timestamp": "2026-11-09T07:17:00+00:00"
-  },
-  {
-    "id": "22480af9b695",
-    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakg3UzBzYUdxclF5ZlZIYldhM0FBQ25uenNvQkhJRVBZNXpwazM0T0hKU29peWdZREFZOUx3aGhWTVZKSlFqN1FHTnppaS12bWNIYzN5VUIzTElWRXpWVmFESTRScko0UzU2b1l3NERWZTkteTFJeEF5Z3dLeHNMaDc3Y1VkWlBYSHdseEdR?oc=5\n未解明の石『一刀石』が『鬼滅』聖地として扱われ、奈良・柳生の里で兵動さんが剣豪・柳生十兵衛の歴史を大調査している。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
-    "theme": "inconstance",
-    "score": 1,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "真っ二つに割れた未解明の石「一刀石」が『鬼滅』聖地に 昭和42年の「厳しそうなお坊さん」の正体は？ 奈良・柳生の里で兵動さんが剣豪・柳生十兵衛の歴史を大調査 (関西テレビ) - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakg3UzBzYUdxclF5ZlZIYldhM0FBQ25uenNvQkhJRVBZNXpwazM0T0hKU29peWdZREFZOUx3aGhWTVZKSlFqN1FHTnppaS12bWNIYzN5VUIzTElWRXpWVmFESTRScko0UzU2b1l3NERWZTkteTFJeEF5Z3dLeHNMaDc3Y1VkWlBYSHdseEdR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "III.13h",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T06:12:19.365445+00:00",
-    "publish_at": "2026-11-09T04:17:00+00:00",
-    "timestamp": "2026-11-09T04:17:00+00:00"
   }
 ]
