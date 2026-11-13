@@ -1,5 +1,42 @@
 [
   {
+    "id": "cc1f5bb78855",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vVlNWTTFkR1hQLWk2YWNfVWpLbXdibFNhMlZhb2xUbzYta3AzS1BpbWF5Q3dmYlVoSVhCMVJ0bWRwOUkxNG94R1p6UjdwR2lBU2ltSTYtYmZzRXE1VzdXWF9nTUtHZjBHOHZrYUlIRmp4Mm5G?oc=5\nてんかんの新薬が日本上陸し、日中韓の3カ国による販売網が完成したという。\n「医学は実例と経験によって形づくられる。私の意見もまた同じである。」\n『エセー II.37「子が父に似ることについて」』",
+    "theme": "medecine",
+    "score": 2,
+    "source": "Google News 検索 医療",
+    "source_title": "SKバイオファームのてんかん新薬「Cenobamate」、日本上陸…日中韓3カ国の販売網が完成 - BigGo ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vVlNWTTFkR1hQLWk2YWNfVWpLbXdibFNhMlZhb2xUbzYta3AzS1BpbWF5Q3dmYlVoSVhCMVJ0bWRwOUkxNG94R1p6UjdwR2lBU2ltSTYtYmZzRXE1VzdXWF9nTUtHZjBHOHZrYUlIRmp4Mm5G?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "profit"
+    ],
+    "quote_id": "II.37b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T09:53:00.822602+00:00",
+    "publish_at": "2026-11-14T07:17:00+00:00",
+    "timestamp": "2026-11-14T07:17:00+00:00"
+  },
+  {
+    "id": "9b9430a9292f",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSjZFSklsRi1QTWZNM1lIWEkyRENyQ0U0bjE0SkUzOFFiRWJhREt0YnV3Wnc5RDVkejktemljTDZlLUxJX2NQNGRVQWtFQ2pCYVphd2I4X3lULWJleWl2b2dnbGREMlhxellmWVZxbDRPZmpwQ2ZrOFRXV2FqMDFkeXBuVW1lcFhXSks1aUZ3?oc=5\n定年後に人との関わりがあるにもかかわらず孤独を感じている人の特徴やワースト1がまとめられた。\n「他の人々があなたに場所を譲ったように、あなたも他の人々に場所を譲りなさい。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "定年後、「人との関わりはあるのに孤独を感じる人」の特徴・ワースト1 (ダイヤモンド・オンライン) - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSjZFSklsRi1QTWZNM1lIWEkyRENyQ0U0bjE0SkUzOFFiRWJhREt0YnV3Wnc5RDVkejktemljTDZlLUxJX2NQNGRVQWtFQ2pCYVphd2I4X3lULWJleWl2b2dnbGREMlhxellmWVZxbDRPZmpwQ2ZrOFRXV2FqMDFkeXBuVW1lcFhXSks1aUZ3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.20e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-13T09:43:53.983511+00:00",
+    "publish_at": "2026-11-14T04:17:00+00:00",
+    "timestamp": "2026-11-14T04:17:00+00:00"
+  },
+  {
     "id": "f7e126581e41",
     "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlhCSjd6QlltWEVqU3hsbG5Qa1hCRElsVnFEclNhTWZDZEZieXlVQmxvUEpMaF93aDZCSjNvS0txaExPTUpfblNOZzh0UVl1N1RwaGdIVDIxTnFMN0lmUnhxNlE?oc=5\n大正製薬は老化細胞を取り除き、長く健康に過ごせるように挑戦を続けたタウリン研究を行っているという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
     "theme": "medecine",
@@ -666,42 +703,5 @@
     "generated_at": "2026-11-08T23:07:44.291517+00:00",
     "publish_at": "2026-11-09T16:17:00+00:00",
     "timestamp": "2026-11-09T16:17:00+00:00"
-  },
-  {
-    "id": "95bee240ed10",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03aXdJWXE4eXlDV3hVbXVBaGlTcUdTZ0NkTlBrUzVFOWhHN1ZfNk1vVlhYbFFQYW13XzRIZ3RzNUdLV0hwS1hpbmI0Y0R2THNRVW9KTVRRRjVnZzhZRXVQcTRpRENqMHBUNmhzR0xIcnNXNXdIc0w4TDJ2Z0JrMnc?oc=5\n8万人の大学生を対象とした調査で、若者の幸福度を左右する6つの要因が明らかになった。\n「自分の存在を偽りなく享受するすべを知ること、それこそ完全な、いわば神のごとき完成である。」\n『エセー III.13「経験について」』",
-    "theme": "savoir",
-    "score": 3,
-    "source": "Google News 科学",
-    "source_title": "8万人の大学生を調査してわかった「若者の幸福度を左右する6つの要因」（クーリエ・ジャポン） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03aXdJWXE4eXlDV3hVbXVBaGlTcUdTZ0NkTlBrUzVFOWhHN1ZfNk1vVlhYbFFQYW13XzRIZ3RzNUdLV0hwS1hpbmI0Y0R2THNRVW9KTVRRRjVnZzhZRXVQcTRpRENqMHBUNmhzR0xIcnNXNXdIc0w4TDJ2Z0JrMnc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "soi"
-    ],
-    "quote_id": "III.13g",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T13:38:02.193984+00:00",
-    "publish_at": "2026-11-09T13:17:00+00:00",
-    "timestamp": "2026-11-09T13:17:00+00:00"
-  },
-  {
-    "id": "7a2e7063a111",
-    "text": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclZfY3RLZ0oyZTd2NGNGazZ3eUlseWFIalZKZDZ2QWJnTUN6S1QzQzdHVzBIN2x3X0wzOHhMSk51NXhqemcxZ1d4aDQ1SF9hNHFxOE1ZWF9LLW1YU1Jpamk4N1FmS1dDenZkR1l0QkhqbHFVVE1ESkc3Rmw5VHU1RmdHdktiQlZIdWc?oc=5\n中国のAIモデルは、浅い偏見層という形で批判されているという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
-    "theme": "presomption",
-    "score": 5,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "中国のAIモデルが浅い偏見層で批判される：NousResearchニュース - Coinfomania",
-    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclZfY3RLZ0oyZTd2NGNGazZ3eUlseWFIalZKZDZ2QWJnTUN6S1QzQzdHVzBIN2x3X0wzOHhMSk51NXhqemcxZ1d4aDQ1SF9hNHFxOE1ZWF9LLW1YU1Jpamk4N1FmS1dDenZkR1l0QkhqbHFVVE1ESkc3Rmw5VHU1RmdHdktiQlZIdWc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption"
-    ],
-    "quote_id": "II.17d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-08T13:33:01.632601+00:00",
-    "publish_at": "2026-11-09T10:17:00+00:00",
-    "timestamp": "2026-11-09T10:17:00+00:00"
   }
 ]
