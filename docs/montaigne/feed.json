@@ -1,5 +1,64 @@
 [
   {
+    "id": "12d5627c223d",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LOUJtdERuUktkU2t6M25ZcWp6ZVk1R0Nib3hWcjRpbmJtX0JjVVF6S3hDOVh0ZHBFRk4tdmVMdXo5eGZoaDF6a2hyNFNmVkQ4R0VXRmpDX1AxWGpVS1pGY1RfMGJDdw?oc=5\n無職になり自由になったのに、それでも不安や孤独を感じることがあるという。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
+    "theme": "nouveaute",
+    "score": 5,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "自由なのに不安や孤独を感じる…無職になって初めて気づいた「人のありがたみ」とは？【32歳で会社を辞めて無職になった男の話 Vol.35】 - スポーツ報知",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LOUJtdERuUktkU2t6M25ZcWp6ZVk1R0Nib3hWcjRpbmJtX0JjVVF6S3hDOVh0ZHBFRk4tdmVMdXo5eGZoaDF6a2hyNFNmVkQ4R0VXRmpDX1AxWGpVS1pGY1RfMGJDdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "nouveaute",
+      "soi",
+      "peur"
+    ],
+    "quote_id": "I.39c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T14:18:30.564038+00:00",
+    "publish_at": "2026-11-15T13:17:00+00:00",
+    "timestamp": "2026-11-15T13:17:00+00:00"
+  },
+  {
+    "id": "2227f8ecb5d3",
+    "text": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOZjM1WWpELTlLeU5WQ0NDRmZ0WHgwZmlQNEtPNVNCU2duM1JEaDZHN2tPZzFDTW5XU0pjcElRUzNEdE5HbS10dkhYNXBVMWtUbXdWTUFBVm1jYjJXZWhYNk5vckFPdS04VHdDN0s2aUdrOUV2d1BKQzhhRDVqZ180U2xVdG52TG1IQ2NIWXp4Qi1weEFBQlFrQWVmV1R2dUJweVBBZzdwY1lQMW9aX0RlTTNMMzM0Vk9DQjNpOEFtSVRHOTlqNjFvSm5EYk9lSk9XRTVZQmFOYWZJMGpwZVUyWXhnUXdGOGEzRzgwQWFLVEJ0Yzd1QlFFdXJJNTFoVGtfRU1ITFQyVER0bFcxRllNWE51WmI0U09hRlk2REh4d1FJeW05bUl5eHNrUkdueXpCZGJFenRSaDVSUUJHTEI3SDF3Ukxlbm9qTm5RSlNfeVJCZjFMdmJpUFNVNTlVSldCdU9zc0M5bzJvMmJIemN6aDgzeFVCMnhRLTZVdjVKVVZKZnJvR2hRSUVBaklpSVhpV3M0N1BBQlotQk5EYXhMNkctdjJ1eHlGZU0tNzhGR3l6XzlQSm1TRDQ0SDVueGZIMER2dGVXTUVMNUdrVDZ3eEZrWU1UM2RfcVJ0TDFJRWlYejhGUTNEaDctcFBUNU5LSjdndlBDSlpjaHZNaEhYUUtlNjhFMUtMQ1Qyb3JPMnB6dw?oc=5\n英国で若者の孤独解消ビジネスが広がり、友情のデジタル化という形で年間10万円のサービスがあるという。\n「なぜ彼を愛したのかと問い詰められても、それは『彼だったから、私だったから』と答えるほかに言い表せないと感じる。」\n『エセー I.28「友情について」』",
+    "theme": "profit",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "英国で広がる「若者の孤独解消ビジネス」 「友情のデジタル化」へ年間10万円 | スマートニュース - SmartNews",
+    "source_url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOZjM1WWpELTlLeU5WQ0NDRmZ0WHgwZmlQNEtPNVNCU2duM1JEaDZHN2tPZzFDTW5XU0pjcElRUzNEdE5HbS10dkhYNXBVMWtUbXdWTUFBVm1jYjJXZWhYNk5vckFPdS04VHdDN0s2aUdrOUV2d1BKQzhhRDVqZ180U2xVdG52TG1IQ2NIWXp4Qi1weEFBQlFrQWVmV1R2dUJweVBBZzdwY1lQMW9aX0RlTTNMMzM0Vk9DQjNpOEFtSVRHOTlqNjFvSm5EYk9lSk9XRTVZQmFOYWZJMGpwZVUyWXhnUXdGOGEzRzgwQWFLVEJ0Yzd1QlFFdXJJNTFoVGtfRU1ITFQyVER0bFcxRllNWE51WmI0U09hRlk2REh4d1FJeW05bUl5eHNrUkdueXpCZGJFenRSaDVSUUJHTEI3SDF3Ukxlbm9qTm5RSlNfeVJCZjFMdmJpUFNVNTlVSldCdU9zc0M5bzJvMmJIemN6aDgzeFVCMnhRLTZVdjVKVVZKZnJvR2hRSUVBaklpSVhpV3M0N1BBQlotQk5EYXhMNkctdjJ1eHlGZU0tNzhGR3l6XzlQSm1TRDQ0SDVueGZIMER2dGVXTUVMNUdrVDZ3eEZrWU1UM2RfcVJ0TDFJRWlYejhGUTNEaDctcFBUNU5LSjdndlBDSlpjaHZNaEhYUUtlNjhFMUtMQ1Qyb3JPMnB6dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "profit",
+      "soi"
+    ],
+    "quote_id": "I.28",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T14:15:10.400754+00:00",
+    "publish_at": "2026-11-15T10:17:00+00:00",
+    "timestamp": "2026-11-15T10:17:00+00:00"
+  },
+  {
+    "id": "1821e73c05f0",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XNG1yMy1NSXdLSmFOMDk0M0lDNFIxZ09nRk16UjBab240SGIwSDItV0lmX08tc2NTN3VVMlAyUVJGczE2U3FlZlVnM3hicVZZMlBUbElseGxyOU9ZbHB1eDcyWS1fU3M?oc=5\n藤沢の市民団体はヘイトスピーチ禁止条例求め陳情書を出したという。\n「法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 6,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "藤沢の市民団体、ヘイトスピーチ禁止条例求め陳情書 鈴木市長「検討する」 時代の正体 差別禁止法を求めて - カナロコ",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XNG1yMy1NSXdLSmFOMDk0M0lDNFIxZ09nRk16UjBab240SGIwSDItV0lmX08tc2NTN3VVMlAyUVJGczE2U3FlZlVnM3hicVZZMlBUbElseGxyOU9ZbHB1eDcyWS1fU3M?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "autrui",
+      "vanite"
+    ],
+    "quote_id": "III.13b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T14:12:30.076803+00:00",
+    "publish_at": "2026-11-15T07:17:00+00:00",
+    "timestamp": "2026-11-15T07:17:00+00:00"
+  },
+  {
     "id": "73921281d76f",
     "text": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdlJaUElmM3pCVmJEa1Q2T19tSk9TaWtjR1R0WkNNME5vM2tLN1l1OTJnR3pHTHlGdmdBQ3phZTRYLV9JRmFWc3F5TGdhbC1QdlJaMEo0anlZWWhiTzBGUEpvSFNTNkxzYTAzdTc2VHlaZw?oc=5\nマサチューセッツ工科大学は、再学習なしで正答率を6倍に高めたという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
     "theme": "savoir",
@@ -650,61 +709,5 @@
     "generated_at": "2026-11-09T22:34:53.709217+00:00",
     "publish_at": "2026-11-10T22:17:00+00:00",
     "timestamp": "2026-11-10T22:17:00+00:00"
-  },
-  {
-    "id": "7e2955883add",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hWXhvSTdQTjZDYTRfQWhUQ1JTQ2hTQ2NrY0N2eWNkR29pbGFDWjcwbl9HN1NKclV1ZGszNU9mS1p3MktzQkRzWkpVakpRVnZUaTFwYXZCVU1mNml6U3c?oc=5\n大学生が1年間探し続けた世界で最も珍しい昆虫が、イエローストーンで発見されたという。\n「物事の大きさよりも、その目新しさのほうが、我々をその原因の探究へと駆り立てる。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 科学",
-    "source_title": "大学生が1年探し続けた「世界で最も珍しい昆虫」をイエローストーンで発見 (2/3) - ナゾロジー",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hWXhvSTdQTjZDYTRfQWhUQ1JTQ2hTQ2NrY0N2eWNkR29pbGFDWjcwbl9HN1NKclV1ZGszNU9mS1p3MktzQkRzWkpVakpRVnZUaTFwYXZCVU1mNml6U3c?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "I.27b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T22:30:57.721297+00:00",
-    "publish_at": "2026-11-10T19:17:00+00:00",
-    "timestamp": "2026-11-10T19:17:00+00:00"
-  },
-  {
-    "id": "672c4ffe67af",
-    "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tTThBZmwtbV95U3BGcFpYQUxGSzBNT3Z3allHRHJTa04yYTYtVkhhX08zNTFWdV9NVUVXVXY5dF9YOHBheDNNU3U1Uk92SFhVaHhFNXJObVI?oc=5\n湖東記念病院訴訟で再審無罪が確定した西山さんは、捜査の違法性を主張して最高裁に書面を提出したという。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 検索 裁き",
-    "source_title": "湖東記念病院訴訟で再審無罪が確定した西山さん「捜査の違法性」を主張、最高裁へ書面提出 - 京都新聞デジタル",
-    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tTThBZmwtbV95U3BGcFpYQUxGSzBNT3Z3allHRHJTa04yYTYtVkhhX08zNTFWdV9NVUVXVXY5dF9YOHBheDNNU3U1Uk92SFhVaHhFNXJObVI?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "medecine"
-    ],
-    "quote_id": "III.13n",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T22:29:26.767356+00:00",
-    "publish_at": "2026-11-10T16:17:00+00:00",
-    "timestamp": "2026-11-10T16:17:00+00:00"
-  },
-  {
-    "id": "5f6d4854171b",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UczI4bDZBNmphdFFZV2FKN0t2RXFVYjFINHBENERzNW83andnUHBnelRsbHRtblZSU0lnUEV0RE84SXBuLVQtT1lMdThDN3hZQVllRDNhU0k1YmZCczQzbUpPWVVzcVJrSGNKOVVteUxxY0N4RkhTWWJ3TTdsMlE?oc=5\n子ども時代の虐待やいじめなど多い若者ほど、子どもを持ちたくない傾向が明らかになったという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
-    "theme": "cruaute",
-    "score": 10,
-    "source": "Google News 検索 教育",
-    "source_title": "子ども時代の虐待やいじめなど多い若者ほど「子どもを持ちたくない」傾向が明らかに（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UczI4bDZBNmphdFFZV2FKN0t2RXFVYjFINHBENERzNW83andnUHBnelRsbHRtblZSU0lnUEV0RE84SXBuLVQtT1lMdThDN3hZQVllRDNhU0k1YmZCczQzbUpPWVVzcVJrSGNKOVVteUxxY0N4RkhTWWJ3TTdsMlE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "soi"
-    ],
-    "quote_id": "II.11",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T22:28:05.330515+00:00",
-    "publish_at": "2026-11-10T13:17:00+00:00",
-    "timestamp": "2026-11-10T13:17:00+00:00"
   }
 ]
