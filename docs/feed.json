@@ -1,5 +1,64 @@
 [
   {
+    "id": "4d7bcfae721b",
+    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WM21CbVRKQlp3LXREVHFhTjhyWU9hbDdId25VSENnT04wOVB0R3BSUTJSVDZva21HT1Jydms0RUJkczJLSmdDLVIxMzBMUzRw?oc=5\n首相は防衛費に関する議論に対し、大幅な増税には慎重な態度を示しているという。\n「凪の時に嵐への備えを怠るのは、人間に共通の欠点である。」\n『君主論 cap.XXIV』",
+    "theme": "armi_proprie",
+    "score": 6,
+    "source": "Google News 検索 安全保障",
+    "source_title": "首相 防衛費巡る「大幅増税」慎重 - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WM21CbVRKQlp3LXREVHFhTjhyWU9hbDdId25VSENnT04wOVB0R3BSUTJSVDZva21HT1Jydms0RUJkczJLSmdDLVIxMzBMUzRw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "armi_proprie"
+    ],
+    "quote_id": "P24a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T18:33:01.248291+00:00",
+    "publish_at": "2026-11-15T12:17:00+00:00",
+    "timestamp": "2026-11-15T12:17:00+00:00"
+  },
+  {
+    "id": "f8a8bfe298a2",
+    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HQ0dvTnFDRHlPY1JUSzh0dlREWG5PZmFpNEJTdjhqUU13MmMtVkNTM3F6ZDd3RHB0MjlCT3AzRmZGNmhXOC1DLUJYSW9LT2dzUXFPOWxMNWRfV1BYcTJKaNIBZkFVX3lxTE5Ea1JvUGRCSUVnVEx1aDNhaUxSNWJsd3dCdThTWS16LUFOVi1UZFNlWnVmZkZLNEEyNlYyaGpPVDJjOXpWTzEyRlVwSk90Nkl6bFRyVVZremZoOGFoVnB4UllXWlFPUQ?oc=5\nプーチン氏は強硬姿勢を崩さず、ウクライナ和平の条件を一段と拡大する方針だという。\n「大物の間では、新たな恩恵が古い恨みを忘れさせると信じる者は、思い違いをしている。」\n『君主論 cap.VII』",
+    "theme": "alleanze_dipendenza",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "強硬姿勢を崩さないプーチン氏、ウクライナ和平の条件を一段と拡大 - BBC",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HQ0dvTnFDRHlPY1JUSzh0dlREWG5PZmFpNEJTdjhqUU13MmMtVkNTM3F6ZDd3RHB0MjlCT3AzRmZGNmhXOC1DLUJYSW9LT2dzUXFPOWxMNWRfV1BYcTJKaNIBZkFVX3lxTE5Ea1JvUGRCSUVnVEx1aDNhaUxSNWJsd3dCdThTWS16LUFOVi1UZFNlWnVmZkZLNEEyNlYyaGpPVDJjOXpWTzEyRlVwSk90Nkl6bFRyVVZremZoOGFoVnB4UllXWlFPUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P07",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T17:16:59.687040+00:00",
+    "publish_at": "2026-11-15T09:17:00+00:00",
+    "timestamp": "2026-11-15T09:17:00+00:00"
+  },
+  {
+    "id": "4fd5b201c830",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aNklzeVlDX2liNHBGQTZ5YWs0TVJIOVFNT2hTQV9OZUt5NThqMUE5NTFlSVRWMW1ETmRBdHNYZ0tUdWl2QU42ZmVSWThuUzFhcmdEZjFyT19zRUF2MkE?oc=5\nイラン革命防衛隊がバーレーンにある米軍の早期警戒レーダーを攻撃した。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン革命防衛隊、バーレーンにある米軍の早期警戒レーダーを攻撃 - テレ東BIZ",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aNklzeVlDX2liNHBGQTZ5YWs0TVJIOVFNT2hTQV9OZUt5NThqMUE5NTFlSVRWMW1ETmRBdHNYZ0tUdWl2QU42ZmVSWThuUzFhcmdEZjFyT19zRUF2MkE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "P26",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T17:07:29.180557+00:00",
+    "publish_at": "2026-11-15T06:17:00+00:00",
+    "timestamp": "2026-11-15T06:17:00+00:00"
+  },
+  {
     "id": "dcadd7b73efb",
     "text": "https://news.google.com/rss/articles/CBMiwARBVV95cUxOc0RPbGVOcVlkYkVmaV9UbnBWdHVYQVA4OEVjR0tPQjcycnhTVVFsZ3hYLWJWS1ZYYnNvdU5HUTlwc3M2OTNLSWxBaWxaVUN1Y0E5YXRPdWRvRTFpUFZMTVlVb21PR3lvMkhhZUxyVU51YlpnUVVwYkUzR1R0d3M1Y0YxZlFGMy1VY1o3c2YzcnA1R1RETVVmSThyS0pIVDJEaUI2aGNfU2tHWURrNkpLMlBJanVKRy1kdGc2TmdfSDdiQWJUZkF1TURjY2M4OHlIcXBuSnhKaXhMMHJBeFlvSlliaFVLVkg0WE9BdFZEWkVoMHlYVkREckdWUFFwNVV4QUQzb0NBMEREUHRmRHB3azhfU3lDdzVObUFwaHJUbzZiVElyNklRTENHVEoxamxSb0NxemJCSHFpbllYcVRFT1N2bnFFXzRJZVl1QTFESWtBNksyV0dpMVpid01LdEczVWR1SDZacHdDdG9HYm56b011UHdxcVlnYzVfSTF3UkFRMG10YmZhU2lZMUYyR3dVQ1B6MUVGQWlmbVFCdDVmUXpUSnNMbFktUldYOVVxSDR4UFFMWXlDQkhCazZfZG5RcnF4c3k0SVR2Zy1LWHpONHktSnhqNDBhTm0xUmZKOFJfR25yS295NkxEV1k0alBZZ2V5Z1Y1OUhyeXRsU0hDM2lYa2V5WWRPSVNrcWJieXNLdXNFdzlLMFNldUhCYTFQWjhLRDBLcXloLXN3S3hnaENuU3ZCTlExSnNPVlRkQjI?oc=5\nイランは戦争開始以来、7,000以上のミサイルとドローンを湾岸諸国に発射し、GCC事務局長が国連に状況を伝える。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -676,67 +735,5 @@
     "generated_at": "2026-11-10T10:00:12.482043+00:00",
     "publish_at": "2026-11-11T03:17:00+00:00",
     "timestamp": "2026-11-11T03:17:00+00:00"
-  },
-  {
-    "id": "2d491f7b926d",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYXpHT1dnUHBuTzVXTE9BdjVrLUtrbl96Ni1oeXB0M21rN0tjTzVRNXdSbXNrZzJjNlNxVmg5T1U3MjJ0UHMxSWhqMm9ONmFvQThSdXoxQ1Vhc29MeEE3R3NQWklpdTI5d1pKbmRrQ2treE1RbXEzMTV6SHBBR3k1SVdSai1fMk0?oc=5\n米軍は対イラン封鎖を強化するため新部隊を送り、陸上輸送も遮断する方針だという。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍が対イラン封鎖強化へ新部隊、先進兵器などの陸上輸送も遮断へ | ロイター - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYXpHT1dnUHBuTzVXTE9BdjVrLUtrbl96Ni1oeXB0M21rN0tjTzVRNXdSbXNrZzJjNlNxVmg5T1U3MjJ0UHMxSWhqMm9ONmFvQThSdXoxQ1Vhc29MeEE3R3NQWklpdTI5d1pKbmRrQ2treE1RbXEzMTV6SHBBR3k1SVdSai1fMk0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "armi_proprie"
-    ],
-    "quote_id": "AG7",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T02:24:22.913071+00:00",
-    "publish_at": "2026-11-11T00:17:00+00:00",
-    "timestamp": "2026-11-11T00:17:00+00:00"
-  },
-  {
-    "id": "ee81917c3932",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTVpwLTR1cEJfS09RVmZrRndRLXFyS3dvVEp5MDRIYUYzaUhvbkp4ZVR0UEtvY3NubUVJVmNEdXVJT0pwM2dZMVd3cGltaURkQXQ1S0RaRlVXVkdMdlFmUWxoYWtvYkRMSVBOLW9BdU05dGh1UldVRzdiR3VSSUdaTDJwN0R2UQ?oc=5\nロシアとウクライナは領土問題について柔軟な姿勢を示す兆しがあるとして、米当局者が述べた。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
-    "theme": "guerra",
-    "score": 20,
-    "source": "Google News 国際(World)",
-    "source_title": "ロシア・ウクライナ、領土問題で柔軟姿勢の兆し＝米当局者 | ロイター - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTVpwLTR1cEJfS09RVmZrRndRLXFyS3dvVEp5MDRIYUYzaUhvbkp4ZVR0UEtvY3NubUVJVmNEdXVJT0pwM2dZMVd3cGltaURkQXQ1S0RaRlVXVkdMdlFmUWxoYWtvYkRMSVBOLW9BdU05dGh1UldVRzdiR3VSSUdaTDJwN0R2UQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D1.33",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T02:08:31.841887+00:00",
-    "publish_at": "2026-11-10T21:17:00+00:00",
-    "timestamp": "2026-11-10T21:17:00+00:00"
-  },
-  {
-    "id": "87e1f31aa44f",
-    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pWkRIMFk3QWxIMUZ6NFRCXzAydGpScHdYVEZRRHM1Q2FnNDRTcEJvbUxIbkxqa1Ayak1wejRfcW5FNDlUeU9LLWVsbE9HbVlwT3pQU3hlTENlYXJQanl3SDE2T195a2Y0TExfem8wOE9mX2QwcFB3?oc=5\nロシアはイランとの軍事協力を深めるため、ミサイル発射機90基の供与について合意したという。\n「賢慮ある君主は、信義を守ることが己に不利益となるとき、これを守ってはならぬし、守るべきでもない。」\n『君主論 cap.XVIII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 中東",
-    "source_title": "イランとの軍事協力深めるロシア ミサイル発射機90基供与で合意 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pWkRIMFk3QWxIMUZ6NFRCXzAydGpScHdYVEZRRHM1Q2FnNDRTcEJvbUxIbkxqa1Ayak1wejRfcW5FNDlUeU9LLWVsbE9HbVlwT3pQU3hlTENlYXJQanl3SDE2T195a2Y0TExfem8wOE9mX2QwcFB3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "IS2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T19:04:55.795196+00:00",
-    "publish_at": "2026-11-10T18:17:00+00:00",
-    "timestamp": "2026-11-10T18:17:00+00:00"
   }
 ]
