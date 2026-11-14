@@ -1,5 +1,62 @@
 [
   {
+    "id": "cf05685c893d",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ObDNSaVBvNFhpX0Z2ZEdjdEVJYnBQRTJpOGNGSndVOUFCNGF1OWEwVUVJQnRUZmJxY05NQVVBUDdMVDRreUMxRGZ1VjJFbzNpcDd5U0g1UERBS0lGX0tfeUJROXhZVFI2aXlRdml2ekw2anVmS2M5NHJnbWNjU1U?oc=5\nドーピング冤罪で無念の時間を過ごし、涙ながらに復帰した競歩・池田向希が、『私のような被害者は出てほしくない』と願いを語っているという。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 裁き",
+    "source_title": "「私のような被害者は出てほしくない」涙の復帰戦…ドーピング冤罪で失った2年間の無念、感謝、願い――競歩・池田向希 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ObDNSaVBvNFhpX0Z2ZEdjdEVJYnBQRTJpOGNGSndVOUFCNGF1OWEwVUVJQnRUZmJxY05NQVVBUDdMVDRreUMxRGZ1VjJFbzNpcDd5U0g1UERBS0lGX0tfeUJROXhZVFI2aXlRdml2ekw2anVmS2M5NHJnbWNjU1U?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "peur"
+    ],
+    "quote_id": "III.13n",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T23:08:06.091162+00:00",
+    "publish_at": "2026-11-15T22:17:00+00:00",
+    "timestamp": "2026-11-15T22:17:00+00:00"
+  },
+  {
+    "id": "e749a27abfe7",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JeFRqSHdCeDNXRjl0REd6dHdLUWZhYVFsU21UVm0wa0Ezb0xpUFFjbTFwZ21mUGt4ODdEYjhrUlFaUjBOY0RfakhUQXdWTU8xWHpXM05JZkNGY1hOYzl5eWJGZ0Rta2hyZm5VOEJqeW9ZS3l4N0NXbXNENE8yRTA?oc=5\n東京都内の区立学校で重大事態が認定された生徒は、『適応障害は風邪』といじめを訴えたという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
+    "theme": "cruaute",
+    "score": 8,
+    "source": "Google News 検索 教育",
+    "source_title": "独自＞「適応障害は風邪」いじめ訴えた生徒に副校長 東京都内の区立学校で重大事態認定（産経新聞） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JeFRqSHdCeDNXRjl0REd6dHdLUWZhYVFsU21UVm0wa0Ezb0xpUFFjbTFwZ21mUGt4ODdEYjhrUlFaUjBOY0RfakhUQXdWTU8xWHpXM05JZkNGY1hOYzl5eWJGZ0Rta2hyZm5VOEJqeW9ZS3l4N0NXbXNENE8yRTA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute",
+      "savoir"
+    ],
+    "quote_id": "II.11",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T23:04:04.277527+00:00",
+    "publish_at": "2026-11-15T19:17:00+00:00",
+    "timestamp": "2026-11-15T19:17:00+00:00"
+  },
+  {
+    "id": "ed79b011bc2e",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wQm10YzR3WE1nS2FsS1Z3MHdWNTVDT3NBWmZZS0NXQ0pqbGFsd1M3WEdqT1BPZlZOWGpCejNnN1hZS3g4RnpwanZla0xpZFJWRThXWGZwQmVuTEU?oc=5\n仙台市は、独居高齢者向けの終活情報登録制度を新たに始めたという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 8,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "仙台市が新しく始めた独居高齢者向け「終活情報登録制度」ってどんな取り組み？ - 河北新報オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wQm10YzR3WE1nS2FsS1Z3MHdWNTVDT3NBWmZZS0NXQ0pqbGFsd1M3WEdqT1BPZlZOWGpCejNnN1hZS3g4RnpwanZla0xpZFJWRThXWGZwQmVuTEU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "soi"
+    ],
+    "quote_id": "I.20b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T23:02:32.694482+00:00",
+    "publish_at": "2026-11-15T16:17:00+00:00",
+    "timestamp": "2026-11-15T16:17:00+00:00"
+  },
+  {
     "id": "12d5627c223d",
     "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LOUJtdERuUktkU2t6M25ZcWp6ZVk1R0Nib3hWcjRpbmJtX0JjVVF6S3hDOVh0ZHBFRk4tdmVMdXo5eGZoaDF6a2hyNFNmVkQ4R0VXRmpDX1AxWGpVS1pGY1RfMGJDdw?oc=5\n無職になり自由になったのに、それでも不安や孤独を感じることがあるという。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
     "theme": "nouveaute",
@@ -654,60 +711,5 @@
     "generated_at": "2026-11-10T13:39:07.823312+00:00",
     "publish_at": "2026-11-11T07:17:00+00:00",
     "timestamp": "2026-11-11T07:17:00+00:00"
-  },
-  {
-    "id": "2c953d81a9a7",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14NDlMNDlmSFFDd0Q1dGE5OURtYURrVTVDU1IxSEZuVXVJUnFONTJLNWxZcXJMREhsemZEZXhic2x4UUszd1JscDBNaVdIOHNudUxDQXJkMWJqSER4bEFCclJmbXhwYU5mSUF5SA?oc=5\n不登校の子ども支援団体が陳情書で川崎総合科学高の定時制募集停止の撤回を求めたという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
-    "theme": "inconstance",
-    "score": 0,
-    "source": "Google News 国内",
-    "source_title": "川崎総合科学高の定時制募集停止、撤回を 不登校の子ども支援団体が陳情書 - カナロコ",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14NDlMNDlmSFFDd0Q1dGE5OURtYURrVTVDU1IxSEZuVXVJUnFONTJLNWxZcXJMREhsemZEZXhic2x4UUszd1JscDBNaVdIOHNudUxDQXJkMWJqSER4bEFCclJmbXhwYU5mSUF5SA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inconstance"
-    ],
-    "quote_id": "II.1b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T04:51:31.304127+00:00",
-    "publish_at": "2026-11-11T04:17:00+00:00",
-    "timestamp": "2026-11-11T04:17:00+00:00"
-  },
-  {
-    "id": "7af5bb230b1a",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSY0FVSUJBNnA2eUY0R1lnOE1mVXIxQzlqR0J1Qnd0YmFYZnZtVFQ5RUxidldGQ00wdlMtdDV0aFdnRXdxYkdDTmRLa2hZRl85ZG1HMlMxdnV1M0h6U0lsRDE1M2duOGZmWFczVHVFVG1rQjVrZ2F6Uk5SamM2SnM?oc=5\n神戸市教委に追及される保護者は、当時5年生の子供が受けたいじめを隠したのではと憤り、教育長と面談を求めるという。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
-    "theme": "cruaute",
-    "score": 8,
-    "source": "Google News 検索 教育",
-    "source_title": "「いじめを隠したのでは？」当時5年生、神戸市教委を20年追及する保護者の憤り 教育長と面談へ - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSY0FVSUJBNnA2eUY0R1lnOE1mVXIxQzlqR0J1Qnd0YmFYZnZtVFQ5RUxidldGQ00wdlMtdDV0aFdnRXdxYkdDTmRLa2hZRl85ZG1HMlMxdnV1M0h6U0lsRDE1M2duOGZmWFczVHVFVG1rQjVrZ2F6Uk5SamM2SnM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "savoir"
-    ],
-    "quote_id": "II.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T04:42:07.340944+00:00",
-    "publish_at": "2026-11-11T01:17:00+00:00",
-    "timestamp": "2026-11-11T01:17:00+00:00"
-  },
-  {
-    "id": "18e9688556c8",
-    "text": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVdyLW1aRVRUd19nTjlBdlEtd3VFd2dEVGVlN3VUbUFVNDNTbGtwZHAxdHBtaHVmcEZxbTJHcEE5ejZfa09vTFh4eEJZWGQ4cGFrSmo4eTBpaUs3Q0owVjJNNTcxb2JjODRtWHE1TlNkV2xwMGlWOFNNVElyaThpcUtRTQ?oc=5\n離婚し親しい友人もいない上に長時間労働に追われる孤独な男性が、フィリピンへの移住によって第二の人生を切り開いた。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "離婚、親しい友人なし、長時間労働…。孤独な男性がフィリピン移住で第二の人生を切り開いた方法 - Business Insider Japan",
-    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVdyLW1aRVRUd19nTjlBdlEtd3VFd2dEVGVlN3VUbUFVNDNTbGtwZHAxdHBtaHVmcEZxbTJHcEE5ejZfa09vTFh4eEJZWGQ4cGFrSmo4eTBpaUs3Q0owVjJNNTcxb2JjODRtWHE1TlNkV2xwMGlWOFNNVElyaThpcUtRTQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "III.10d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T22:34:53.709217+00:00",
-    "publish_at": "2026-11-10T22:17:00+00:00",
-    "timestamp": "2026-11-10T22:17:00+00:00"
   }
 ]
