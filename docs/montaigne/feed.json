@@ -1,5 +1,44 @@
 [
   {
+    "id": "73921281d76f",
+    "text": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdlJaUElmM3pCVmJEa1Q2T19tSk9TaWtjR1R0WkNNME5vM2tLN1l1OTJnR3pHTHlGdmdBQ3phZTRYLV9JRmFWc3F5TGdhbC1QdlJaMEo0anlZWWhiTzBGUEpvSFNTNkxzYTAzdTc2VHlaZw?oc=5\nマサチューセッツ工科大学は、再学習なしで正答率を6倍に高めたという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 科学",
+    "source_title": "再学習なしで正答率6倍 マサチューセッツ工科大学が実証した「AIがAIを直接直す」新手法（1/4 ページ） - ITmedia",
+    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdlJaUElmM3pCVmJEa1Q2T19tSk9TaWtjR1R0WkNNME5vM2tLN1l1OTJnR3pHTHlGdmdBQ3phZTRYLV9JRmFWc3F5TGdhbC1QdlJaMEo0anlZWWhiTzBGUEpvSFNTNkxzYTAzdTc2VHlaZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "II.17d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T06:34:24.208999+00:00",
+    "publish_at": "2026-11-15T04:17:00+00:00",
+    "timestamp": "2026-11-15T04:17:00+00:00"
+  },
+  {
+    "id": "6564d99f5650",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11aGxrQXU5bU9Od2l3VkkxMmZ0T1BtWWVvUHpxNXZNVFNzNTJ1WUtPQm9RV1VWWEJlOFdIVHNqU0JUSXhUNENXUEtBaE1JRmV5NzFOQXpaUHNLdw?oc=5\n最新研究では、AIの見た目で報酬に格差が生じる職場のジェンダーバイアスが示されたという。\n「平等は、公正の第一の要素である。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "savoir",
+    "score": 8,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "AIの見た目で報酬に格差が生じる？最新研究が示す職場のジェンダーバイアス - TABI LABO",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11aGxrQXU5bU9Od2l3VkkxMmZ0T1BtWWVvUHpxNXZNVFNzNTJ1WUtPQm9RV1VWWEJlOFdIVHNqU0JUSXhUNENXUEtBaE1JRmV5NzFOQXpaUHNLdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption",
+      "profit"
+    ],
+    "quote_id": "I.20g",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T06:30:26.695618+00:00",
+    "publish_at": "2026-11-15T01:17:00+00:00",
+    "timestamp": "2026-11-15T01:17:00+00:00"
+  },
+  {
     "id": "02d9b22260ba",
     "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLS2ZMM0FoOHZUbTRqaGNwanU5bWNfNlhYSTZBT19QZG1TM2p4UVpGcVJQMTQzUzRRLUZyWThBd1VEYWJ4VERjeWlsaGowOXlqZUtFeDZFeE51Sm5lSVIyUmdXN1dyZw?oc=5\n千葉豪雨から三ヶ月、マンションの断水や停電はすべて解消し、復旧の過程が道しるべになればと発信する管理組合もあるという。\n「真実を語る者も、偽りを語る者と同じくらい愚かでありうる。問題は語る内容ではなく、語り方なのだから。」\n『エセー III.8「談論の術について」』",
     "theme": "savoir",
@@ -667,42 +706,5 @@
     "generated_at": "2026-11-09T22:28:05.330515+00:00",
     "publish_at": "2026-11-10T13:17:00+00:00",
     "timestamp": "2026-11-10T13:17:00+00:00"
-  },
-  {
-    "id": "2ac3c2cc688b",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FQ05ZX210Ty1ZY3gxanVSZVN5cmFiVDZubWo4X1RwV0RaMFd5QnRRWXlTeDIyZFVrclZzMUxrU0lvVVNkekk1SXFZNmc1bGdRMmJz?oc=5\n中退や不登校で困る若者が作りたかったのは、孤立を防ぎたいという居場所である。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
-    "theme": "soi",
-    "score": 6,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "中退や不登校による孤立を防ぎたい！若者とつくる居場所 - クラウドファンディング - READYFOR",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FQ05ZX210Ty1ZY3gxanVSZVN5cmFiVDZubWo4X1RwV0RaMFd5QnRRWXlTeDIyZFVrclZzMUxrU0lvVVNkekk1SXFZNmc1bGdRMmJz?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.39c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T12:02:56.008374+00:00",
-    "publish_at": "2026-11-10T10:17:00+00:00",
-    "timestamp": "2026-11-10T10:17:00+00:00"
-  },
-  {
-    "id": "a6c02d08a873",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzeDYxanBLaU1GekhKOXh0dmpMVlZ1bGJYbGNpRFgtU0lNazJvbU5PejlZYUIwQ1RlWE1JR2pEMm5HTlFpb25vRUlhbzkxWmZLRlhMUmx3QXRfQm1CUDRfbkVPZEljbXVrM2Zhakh0YW5nZVlJX3c?oc=5\nサンセルモは終活イベントで『家族に遺したいもの』を問いかけ、元気な今だからこそ考えたいと誘うという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 6,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "サンセルモ「LASTART ひろしま終活イベント 2026」に出展「家族に遺しておきたいものは何ですか？」を問いかける参加型展示を実施 元気な今だからこそ考えたい、お葬式の“前”と“後”のこと - Mantan Web",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzeDYxanBLaU1GekhKOXh0dmpMVlZ1bGJYbGNpRFgtU0lNazJvbU5PejlZYUIwQ1RlWE1JR2pEMm5HTlFpb25vRUlhbzkxWmZLRlhMUmx3QXRfQm1CUDRfbkVPZEljbXVrM2Zhakh0YW5nZVlJX3c?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "soi"
-    ],
-    "quote_id": "I.20b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T11:59:10.744274+00:00",
-    "publish_at": "2026-11-10T07:17:00+00:00",
-    "timestamp": "2026-11-10T07:17:00+00:00"
   }
 ]
