@@ -1,5 +1,69 @@
 [
   {
+    "id": "c09def9e9c2f",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EcEpFWXNHdng5cndWQU5tS1V6OFdQN0ZXQm1fT2d6UmczSi1RU2VYNk5MUmJDQ2J4clUyNnVUTkhOLUlOLVUtOEtOX2dTQXZ0cEhFak5PYXJ0N1R1bmFQd0RNUFdscHdaMUFIYlUtNk9SSmtO?oc=5\nBigGo ファイナンスは「Tencent『従業員半数削減』の噂が拡散…Ma Huateng氏『AI戦場へ半数を再配置』」と報じた。\n「それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。」\n『随筆集』断章「風評について」",
+    "original": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News 風評・噂",
+    "source_title": "Tencent「従業員半数削減」の噂が拡散…Ma Huateng氏「AI戦場へ半数を再配置」 - BigGo ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EcEpFWXNHdng5cndWQU5tS1V6OFdQN0ZXQm1fT2d6UmczSi1RU2VYNk5MUmJDQ2J4clUyNnVUTkhOLUlOLVUtOEtOX2dTQXZ0cEhFak5PYXJ0N1R1bmFQd0RNUFdscHdaMUFIYlUtNk9SSmtO?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "E59b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T23:23:22.857363+00:00",
+    "publish_at": "2026-11-15T23:17:00+00:00",
+    "timestamp": "2026-11-15T23:17:00+00:00"
+  },
+  {
+    "id": "7d2676308a90",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FZHkwaHRZbjZPb29DX1lrdmsxYjhneUtXOGoxLWdHVjd5NE5JMkVFd1Awdm5vNnVOZXFsbmczeWQzUFIyZUNUcHBablg0V0dLdU5Rb051Ukt6OTAtQWxN?oc=5\nSNS教育講演家が、ベガッ太炎上から読み解く『発言内容より文脈のズレ』が引き起こす炎上構造を解説した。\n「ギリシア人の知恵は講壇の知恵であり、論争へと流れ出た。この種の知恵は、真理の探究に最も敵対する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム71",
+    "original": "Erat autem sapientia Graecorum professoria, et in disputationes effusa: quod genus inquisitioni veritatis adversissimum est.",
+    "original_lang": "la",
+    "theme": "fori",
+    "score": 14,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が解説、ベガッ太炎上から読み解く「発言内容より文脈のズレ」が引き起こす炎上構造 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FZHkwaHRZbjZPb29DX1lrdmsxYjhneUtXOGoxLWdHVjd5NE5JMkVFd1Awdm5vNnVOZXFsbmczeWQzUFIyZUNUcHBablg0V0dLdU5Rb051Ukt6OTAtQWxN?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fori",
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.71",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T23:17:43.123704+00:00",
+    "publish_at": "2026-11-15T20:17:00+00:00",
+    "timestamp": "2026-11-15T20:17:00+00:00"
+  },
+  {
+    "id": "fa24140ddef4",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Rc0FtdHV4NjFMRV9pQ3JZMHRwaE5Vb3RyRUxpLTRBZ2kxTzFldTd5eXdGZ0tTWDlqN3ZWYjRWVVdMUDF2MkZYYTRpTHowcy1vajFmOUtKOURFZVFNdVcw?oc=5\nSNS教育講演家が指摘したのは、炎上のメカニズムとして『雑な一般化』という無自覚な罠であるという。\n「人間の知性は、その本性によって抽象へと運ばれ、移ろうものを不変であるかのように思い描く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム51",
+    "original": "Intellectus humanus fertur ad abstracta propter naturam propriam; atque ea, quae fluxa sunt, fingit esse constantia.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が指摘する炎上のメカニズム「雑な一般化」という無自覚な罠 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Rc0FtdHV4NjFMRV9pQ3JZMHRwaE5Vb3RyRUxpLTRBZ2kxTzFldTd5eXdGZ0tTWDlqN3ZWYjRWVVdMUDF2MkZYYTRpTHowcy1vajFmOUtKOURFZVFNdVcw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.51",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T23:12:09.423707+00:00",
+    "publish_at": "2026-11-15T17:17:00+00:00",
+    "timestamp": "2026-11-15T17:17:00+00:00"
+  },
+  {
     "id": "2234b54fa119",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4RDgwMFFjSnB0RkU5eTBlTlNSMEZGem9XVnBLc25wUDMzQ05sVkRIWWNYTHkweTVTdkhPenFVd2lzNnFyemhLQUEzREJjLUZmNEcxYURkTHZENmxxVG9B?oc=5\nSNS教育講演家は炎上商法の罠について警鐘を鳴らし、インプレッション稼ぎの知られざる手口を指摘しているという。\n「極端な自己愛者の性質とはこうしたもので、自分の卵を焼くためだけにでも、家に火をつけかねない。」\n『随筆集』第23篇「自分のための知恵について」",
     "original": "It is the nature of extreme self-lovers, as they will set an house on fire, and it were but to roast their eggs …",
@@ -736,69 +800,5 @@
     "generated_at": "2026-11-10T13:39:51.419938+00:00",
     "publish_at": "2026-11-11T08:17:00+00:00",
     "timestamp": "2026-11-11T08:17:00+00:00"
-  },
-  {
-    "id": "e8a240f4ff67",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GclkxTHVlRzNtMEVRLU5aM2NiNFp0bUhuQ0lIYlVRX0pCd2xZTTRybUNjZTAxSkZWRlBKOVcwVVZ0RW04RWhGaTJFLUMzQnprWmJZa2hfQXYxUUN1aTNBRjdISE1tWG1pbF9OdUplZmM3bkpDVVdTZGxWS2puV00?oc=5\nITmedia NEWSは「ケンタッキー、一部メニュー画像に生成AI 実験販売の商品など SNSは『違和感』の声も」と報じた。\n「彼らは野心と気取りをもってそれを示し、仮面をかぶせたように形を整えて人々の前に出す。あたかもあらゆる点で完全で、完成に至っているかのように。」\n『ノヴム・オルガヌム』第1巻 アフォリズム86",
-    "original": "Illi enim ea ambitione et affectatione eas proponunt, atque in eum modum efformatas ac veluti personatas in hominum conspectum producunt, ac si illae omni ex parte perfectae essent et ad exitum perductae.",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 12,
-    "source": "Google News テクノロジー",
-    "source_title": "ケンタッキー、一部メニュー画像に生成AI 実験販売の商品など SNSは「違和感」の声も（ITmedia NEWS） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GclkxTHVlRzNtMEVRLU5aM2NiNFp0bUhuQ0lIYlVRX0pCd2xZTTRybUNjZTAxSkZWRlBKOVcwVVZ0RW04RWhGaTJFLUMzQnprWmJZa2hfQXYxUUN1aTNBRjdISE1tWG1pbF9OdUplZmM3bkpDVVdTZGxWS2puV00?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "experientia",
-      "potentia"
-    ],
-    "quote_id": "NO1.86a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T13:31:27.090411+00:00",
-    "publish_at": "2026-11-11T05:17:00+00:00",
-    "timestamp": "2026-11-11T05:17:00+00:00"
-  },
-  {
-    "id": "600c1e01e167",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzcEYwWUJDV0RKbjA3ZjU3LTRlS2JDZmZ2MlVGN1RxOWNBWENubHNLd3ZwTmRZdXAtelpweEVZY3lEMmw5YW92Nlp6YTJ1S0M5TTBHME9kWjFLdGh1NTZn?oc=5\nデータセンター規制に対し、AI・半導体関連企業は、今後の見通しをどう捉えるべきなのかという問いが投げかけられているという。\n「自然は、服従することによってでなければ征服されない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム3",
-    "original": "Natura enim non nisi parendo vincitur …",
-    "original_lang": "la",
-    "theme": "experientia",
-    "score": 12,
-    "source": "Google News 生成AIの論争",
-    "source_title": "データセンター規制 AI・半導体 関連企業の見通しは? - テレ東BIZ",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzcEYwWUJDV0RKbjA3ZjU3LTRlS2JDZmZ2MlVGN1RxOWNBWENubHNLd3ZwTmRZdXAtelpweEVZY3lEMmw5YW92Nlp6YTJ1S0M5TTBHME9kWjFLdGh1NTZn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "experientia",
-      "potentia",
-      "novitas"
-    ],
-    "quote_id": "NO1.3b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T04:47:10.984371+00:00",
-    "publish_at": "2026-11-11T02:17:00+00:00",
-    "timestamp": "2026-11-11T02:17:00+00:00"
-  },
-  {
-    "id": "a66b176a7c92",
-    "text": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiUk1CaktSWnBxRHZ4SEREWTJXMU9wVmhJcXNqYm1tZDlKVFk5NUp0OE1yNHFjMEt1cUlRSzNfRGs5YWs3YjYyZVRwRDNQT1JMWGdJR0x3V2NXbzc4TENWemdRV1g1Z2U5LVZlbWZRSnZDZC1WZjhjSA?oc=5\nマディソンのコヴェントリーのパブ前で騒動の噂が流れたが、リーズ戦後の夜、周囲から引き離される動画がSNSで拡散されているという。\n「人間の知性は、一挙に、しかも突然に心を打ち、入り込んでくるものによって最も動かされる。想像力はそうしたものによって満たされ、膨らまされるのが常である。」\n『ノヴム・オルガヌム』第1巻 アフォリズム47",
-    "original": "Intellectus humanus illis, quae simul et subito mentem ferire et subire possunt, maxime movetur; a quibus phantasia impleri et inflari consuevit …",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 12,
-    "source": "Google News 風評・噂",
-    "source_title": "マディソンにコヴェントリーのパブ前で騒動の噂──リーズ戦後の夜、周囲に引き離される動画がSNSで拡散 - スパーズジャパン",
-    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiUk1CaktSWnBxRHZ4SEREWTJXMU9wVmhJcXNqYm1tZDlKVFk5NUp0OE1yNHFjMEt1cUlRSzNfRGs5YWs3YjYyZVRwRDNQT1JMWGdJR0x3V2NXbzc4TENWemdRV1g1Z2U5LVZlbWZRSnZDZC1WZjhjSA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "NO1.47",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T04:40:28.751238+00:00",
-    "publish_at": "2026-11-10T23:17:00+00:00",
-    "timestamp": "2026-11-10T23:17:00+00:00"
   }
 ]
