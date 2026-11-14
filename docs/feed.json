@@ -1,5 +1,65 @@
 [
   {
+    "id": "53bd0fe1ccf8",
+    "text": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss\n52歳の将軍が逮捕され、副大統領が脅かされている状況で、大統領の息子がウガンダの王位継承熱を煽っている。\n「君主は二つの恐れを抱かねばならぬ。一つは内にあって臣民に対するもの、もう一つは外にあって外国の列強に対するものである。」\n『君主論 cap.XIX』",
+    "theme": "guerra",
+    "score": 4,
+    "source": "BBC World",
+    "source_title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
+    "source_title_ja": "逮捕された将軍と脅かされる副大統領：大統領の息子がウガンダの王位継承熱を煽る",
+    "source_url": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore"
+    ],
+    "quote_id": "P19a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T22:59:05.068988+00:00",
+    "publish_at": "2026-11-15T21:17:00+00:00",
+    "timestamp": "2026-11-15T21:17:00+00:00"
+  },
+  {
+    "id": "e5d22568329f",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pQmJ1a2dsNmZqdEtMV3FJT00yUlBWeTJvemFrd3JmZ21sQXBSVk5nQjZOS2R3a3dRcERyLUtuUlZRd1BJdkk4VWR2cHBwT016bUlmLVJ3Y3dOTnpzaU90aklEQ0hFZEk?oc=5\n後継者候補のジュエと叔母の金与正が軍事での存在感を競う中、北朝鮮の最高権力の行方が注目されている。\n「新たな秩序を打ち立てる先導者となることほど、扱いが難しく、成功が疑わしく、手がけて危険なことはない。」\n『君主論 cap.VI』",
+    "theme": "imperi_declino",
+    "score": 6,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "「軍事での存在感」競う後継者候補ジュエと叔母・金与正…北朝鮮”最高権力”の行方は - Infoseek",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pQmJ1a2dsNmZqdEtMV3FJT00yUlBWeTJvemFrd3JmZ21sQXBSVk5nQjZOS2R3a3dRcERyLUtuUlZRd1BJdkk4VWR2cHBwT016bUlmLVJ3Y3dOTnpzaU90aklEQ0hFZEk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "imperi_declino"
+    ],
+    "quote_id": "ID3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T22:22:57.861391+00:00",
+    "publish_at": "2026-11-15T18:17:00+00:00",
+    "timestamp": "2026-11-15T18:17:00+00:00"
+  },
+  {
+    "id": "cb839eaac353",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5VYjZSYmZ1Qk9GN0R1T01EUVBmWWUyNmdRbk9SN2U5YVF3bEZ5eVpaMVIzQTFfdVpvbGEtVzZ0VERMdlN0OGlDRU5Ha24tS3FRUWFvY0hfcw?oc=5\n米トランプ大統領は中国を念頭に置いた上で、フィリピンとミサイル配備に関する協議を行う方針だという。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 安全保障",
+    "source_title": "米トランプ大統領 中国念頭にフィリピンと“ミサイル配備”協議、防衛協力強化か ASEAN関連首脳会議きょう開幕 - TBS NEWS DIG",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5VYjZSYmZ1Qk9GN0R1T01EUVBmWWUyNmdRbk9SN2U5YVF3bEZ5eVpaMVIzQTFfdVpvbGEtVzZ0VERMdlN0OGlDRU5Ha24tS3FRUWFvY0hfcw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P18d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T21:43:34.440738+00:00",
+    "publish_at": "2026-11-15T15:17:00+00:00",
+    "timestamp": "2026-11-15T15:17:00+00:00"
+  },
+  {
     "id": "4d7bcfae721b",
     "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WM21CbVRKQlp3LXREVHFhTjhyWU9hbDdId25VSENnT04wOVB0R3BSUTJSVDZva21HT1Jydms0RUJkczJLSmdDLVIxMzBMUzRw?oc=5\n首相は防衛費に関する議論に対し、大幅な増税には慎重な態度を示しているという。\n「凪の時に嵐への備えを怠るのは、人間に共通の欠点である。」\n『君主論 cap.XXIV』",
     "theme": "armi_proprie",
@@ -712,28 +772,5 @@
     "generated_at": "2026-11-10T10:30:49.208637+00:00",
     "publish_at": "2026-11-11T06:17:00+00:00",
     "timestamp": "2026-11-11T06:17:00+00:00"
-  },
-  {
-    "id": "a21aeb386c2a",
-    "text": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hWHcyQTF0YnAwNDIwTDlQRE1UQm55QWdUTHcxaTNYOUIycXBRZXJ1MGh1eEtSWmtjOHdzbDJrZE5YbVB2Z1BCeDV4eF80RkhjcXo0TWR4ZzdueVFtZy1Xb0J3WDBVZVAzQ2dHN2k4WmRxMGdGdEJwQdIBfkFVX3lxTE5DMkdGNExkUkZ3Wk1OdGhmTTVGeW9MSFRvS1FLS3VCcGZVNVJwSG1nMjhzNndvWTJUb2VjbGRaT1dSTWxlaDVXNHZlbG93azRkYzJIcmlQcGc1TGZoT1RDV1JFVkg2WkU3QVFvREdYOXVpeFJlczJGMW1Wd3EyUQ?oc=5\nイラン最高指導者は米国が敵対的な姿勢を変えていないと述べ、攻撃を再開した場合に大規模な対応を行うとした。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 17,
-    "source": "Google News 国際(World)",
-    "source_title": "米の敵対姿勢変わらず＝イラン最高指導者、攻撃再開で「大規模な対応」 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hWHcyQTF0YnAwNDIwTDlQRE1UQm55QWdUTHcxaTNYOUIycXBRZXJ1MGh1eEtSWmtjOHdzbDJrZE5YbVB2Z1BCeDV4eF80RkhjcXo0TWR4ZzdueVFtZy1Xb0J3WDBVZVAzQ2dHN2k4WmRxMGdGdEJwQdIBfkFVX3lxTE5DMkdGNExkUkZ3Wk1OdGhmTTVGeW9MSFRvS1FLS3VCcGZVNVJwSG1nMjhzNndvWTJUb2VjbGRaT1dSTWxlaDVXNHZlbG93azRkYzJIcmlQcGc1TGZoT1RDV1JFVkg2WkU3QVFvREdYOXVpeFJlczJGMW1Wd3EyUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "inganno_simulazione",
-      "imperi_declino",
-      "economia"
-    ],
-    "quote_id": "AG3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T10:00:12.482043+00:00",
-    "publish_at": "2026-11-11T03:17:00+00:00",
-    "timestamp": "2026-11-11T03:17:00+00:00"
   }
 ]
