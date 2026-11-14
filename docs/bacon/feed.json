@@ -1,5 +1,48 @@
 [
   {
+    "id": "5710d4590e7b",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LTC1Oa0NFLTJWS256eXVtOUs3dDZRUUFrY09tQnRadWZ4SGJjcjZIdDZWdnNDcFp5WkdDSzlXeEFqc0pLTVIyUEFRZ19DclJ3d2JZ?oc=5\ninnovaTopiaは「ドコモ調査、生成AIの偽情報に『だまされない自信』が約3割に低下 生成AIを知る人は1年で急増」と報じた。\n「そうした進歩は大多数の人々の理解を超えており、世俗の意見の風にたやすく吹き倒され、かき消されてしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム91",
+    "original": "Sunt enim illi supra captum maximae partis hominum, et ab opinionum vulgarium ventis facile obruuntur et extinguuntur.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 17,
+    "source": "Google News 偽情報・言説",
+    "source_title": "ドコモ調査、生成AIの偽情報に「だまされない自信」が約3割に低下 生成AIを知る人は1年で急増 - innovaTopia",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LTC1Oa0NFLTJWS256eXVtOUs3dDZRUUFrY09tQnRadWZ4SGJjcjZIdDZWdnNDcFp5WkdDSzlXeEFqc0pLTVIyUEFRZ19DclJ3d2JZ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "NO1.91",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T06:52:59.914974+00:00",
+    "publish_at": "2026-11-15T05:17:00+00:00",
+    "timestamp": "2026-11-15T05:17:00+00:00"
+  },
+  {
+    "id": "bdd76d4e09ae",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4MDdEbXBycjdkWWxnVnBYRFZmRkVSMG5UV2RyeTI5ZlJLOVBpN04zYVZOekpCMGowSXJnbmZlTnNSaThOdEdSX2F0THROLUZQTkl3UDNUQkhEUjRZNEJ3?oc=5\nFRUITS ZIPPERの不仲説などでは、『数字が事実の代わりになる』という指摘がなされたという。\n「舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。」\n『ノヴム・オルガヌム』第1巻 アフォリズム62",
+    "original": "… ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 18,
+    "source": "Google News 偽情報・言説",
+    "source_title": "SNS教育講演家が指摘するデマ拡散の構造。「数字が事実の代わりになる」FRUITS ZIPPER不仲説の盲点 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4MDdEbXBycjdkWWxnVnBYRFZmRkVSMG5UV2RyeTI5ZlJLOVBpN04zYVZOekpCMGowSXJnbmZlTnNSaThOdEdSX2F0THROLUZQTkl3UDNUQkhEUjRZNEJ3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.62",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-14T06:37:48.807652+00:00",
+    "publish_at": "2026-11-15T02:17:00+00:00",
+    "timestamp": "2026-11-15T02:17:00+00:00"
+  },
+  {
     "id": "52e840a8c6da",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXZUxRWEc3Z0JIZm9yWWItdnRvM1RGQjdnUXJYYW1wNnhfV2ZhMWZlcmVkOGRQUmhWRWpyMWdhVm81VFlscGVpeFdhWHpYNDVtUThmQ2swaW9BT29oM3RR?oc=5\n中身のないデマが拡散する構造の罠として指摘され、 SNS教育講演家がその点を説いたという。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
     "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
@@ -757,45 +800,5 @@
     "generated_at": "2026-11-09T22:26:11.689751+00:00",
     "publish_at": "2026-11-10T14:17:00+00:00",
     "timestamp": "2026-11-10T14:17:00+00:00"
-  },
-  {
-    "id": "71e07c4abc34",
-    "text": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZDlDeHVDUnVtRDlEMV8zV2d0Zkp4bFp4dklXTjhVWVk2X2pZRTlTTVlEQnY1ZnBkWHhncEZuSUpBSmxpcklScFVad3lIcXV3Sm5HaW9PUlZrSE5qczFORFA2VWlMT29jaGlzZkw5bDZKSnIxYWlZbDdDaUNNazZkZnJlM2tFWFZwd2pJ0gGQAUFVX3lxTFB0dmRWcDBFVGFkd2RrdGdHNHhuckRRNEJ6dTdVLWlLYm9jWHpKV1ZfdWJXV1dvSG5yc3lMallxOU5zdW9RWEJOMDdDWWlOTWxLRUhhQy0xamkwUkRrU0YycWh0dzk3NE9raVJKc0dJeHVVLUIyTGE2RUNzSXFMTnh1c2lMbUxmQ3VmRUpXVkMzRA?oc=5\nBTSのVとBLACKPINKのジェニー間の熱愛説が再燃したが、きっかけは米飲食店のSNS投稿だったという。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
-    "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News SNS・報道",
-    "source_title": "「破局報道」から数年…BTS・VとBLACKPINKジェニーの熱愛説再燃　きっかけは米飲食店のSNS投稿 - ｄメニューニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZDlDeHVDUnVtRDlEMV8zV2d0Zkp4bFp4dklXTjhVWVk2X2pZRTlTTVlEQnY1ZnBkWHhncEZuSUpBSmxpcklScFVad3lIcXV3Sm5HaW9PUlZrSE5qczFORFA2VWlMT29jaGlzZkw5bDZKSnIxYWlZbDdDaUNNazZkZnJlM2tFWFZwd2pJ0gGQAUFVX3lxTFB0dmRWcDBFVGFkd2RrdGdHNHhuckRRNEJ6dTdVLWlLYm9jWHpKV1ZfdWJXV1dvSG5yc3lMallxOU5zdW9RWEJOMDdDWWlOTWxLRUhhQy0xamkwUkRrU0YycWh0dzk3NE9raVJKc0dJeHVVLUIyTGE2RUNzSXFMTnh1c2lMbUxmQ3VmRUpXVkMzRA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E35b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T12:15:45.733411+00:00",
-    "publish_at": "2026-11-10T11:17:00+00:00",
-    "timestamp": "2026-11-10T11:17:00+00:00"
-  },
-  {
-    "id": "46c941130738",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WOXljVVBLUUhIanJlM1pqYkJwSEdvejduR1lqaFJ5Wkx6NFhTMnBfVk9qcm41dVpfUmNpXzRDeEdPaEdxblQ3VW1lZy1WT2FHdlJpWE5jRXhocmdpZHVj?oc=5\n高市内閣の支持率は53％で、不支持は32％であるというNHK世論調査の結果が出てきたという。\n「それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。」\n『随筆集』断章「風評について」",
-    "original": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 11,
-    "source": "Google News 検索 国内政治",
-    "source_title": "高市内閣支持率53％ 不支持32％ NHK世論調査 - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WOXljVVBLUUhIanJlM1pqYkJwSEdvejduR1lqaFJ5Wkx6NFhTMnBfVk9qcm41dVpfUmNpXzRDeEdPaEdxblQ3VW1lZy1WT2FHdlJpWE5jRXhocmdpZHVj?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E59b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-09T12:01:05.622397+00:00",
-    "publish_at": "2026-11-10T08:17:00+00:00",
-    "timestamp": "2026-11-10T08:17:00+00:00"
   }
 ]
