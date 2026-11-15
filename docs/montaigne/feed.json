@@ -1,5 +1,43 @@
 [
   {
+    "id": "d3e16c0ed03a",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbm9EdXA2TjVqYllYWDF5TE94ZjdjU25GTl9wNWNlRUY2OXhybzduTlRtV1B2aVBWU2hfT2VuTkxsNHRDMVJkUnh2OVFyWkVjTklwdERoTFNQUzUzYUx3RXkxalJUaHB2cHVncHFISFAwVi0tN0p4bnpORXZCR0lDdEJHTV9vakU?oc=5\n57歳のキム・ワンソン氏は、非婚主義から一転しアン・ヒョソプなら即結婚と語ったという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
+    "theme": "soi",
+    "score": 2,
+    "source": "Google News 検索 世相",
+    "source_title": "57歳キム・ワンソン、非婚主義から一転「アン・ヒョソプなら即結婚」 - 조선일보",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbm9EdXA2TjVqYllYWDF5TE94ZjdjU25GTl9wNWNlRUY2OXhybzduTlRtV1B2aVBWU2hfT2VuTkxsNHRDMVJkUnh2OVFyWkVjTklwdERoTFNQUzUzYUx3RXkxalJUaHB2cHVncHFISFAwVi0tN0p4bnpORXZCR0lDdEJHTV9vakU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi",
+      "inconstance"
+    ],
+    "quote_id": "II.1b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T17:50:58.550735+00:00",
+    "publish_at": "2026-11-16T16:17:00+00:00",
+    "timestamp": "2026-11-16T16:17:00+00:00"
+  },
+  {
+    "id": "eb3ce8674e7e",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BRGVCSUxaWGFjMXZYdFExNkx5bnozQjk0aHVEWVdsOWlnbHhLYmlsTjhobHhtRjVFOWMtYVVsTzRhc2hSUzdfb2NlU3hQbmJkLXI0dUJaUnZPSGRjMnZGclRTQlJVR1U?oc=5\n大川原冤罪で長期拘束を認めた裁判所が検証を避け、遺族が訴訟で責任を問うている。\n「結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "lois",
+    "score": 8,
+    "source": "Google News 検索 裁き",
+    "source_title": "大川原冤罪で長期拘束認めた裁判所、避ける検証 訴訟で責任問う遺族 - 朝日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BRGVCSUxaWGFjMXZYdFExNkx5bnozQjk0aHVEWVdsOWlnbHhLYmlsTjhobHhtRjVFOWMtYVVsTzRhc2hSUzdfb2NlU3hQbmJkLXI0dUJaUnZPSGRjMnZGclRTQlJVR1U?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "mort"
+    ],
+    "quote_id": "III.11a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T17:45:49.515668+00:00",
+    "publish_at": "2026-11-16T13:17:00+00:00",
+    "timestamp": "2026-11-16T13:17:00+00:00"
+  },
+  {
     "id": "384a8ed2ab54",
     "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40Wjg0N0Z2SEdIcE5rek5rN3pYQ0hwSmY1MXFUd3Zhb1Q4OUNHSEkzcXRrUDVTX1RBRzdSWGZsb0VtdGRYdE9lTUdOOTdQVkl1NjNuT01XbEhGeVdzWUd0dm9qYmd4dw?oc=5\n知能の高いサルを捕獲するハンターは、苦悩しながら奔走するという。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
     "theme": "peur",
@@ -673,41 +711,5 @@
     "generated_at": "2026-11-11T08:05:19.342630+00:00",
     "publish_at": "2026-11-12T01:17:00+00:00",
     "timestamp": "2026-11-12T01:17:00+00:00"
-  },
-  {
-    "id": "bdf65a0190d6",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FdTRxSERMMnJpU1RvTXRYMkt2RUUwZkg0UXJBLXh6V1F5LUN0ZmJTRE5hN1pPUkY0T2NSWS1MZ3BaMDJxZkluX2NENF9YUWpwYk9IN0c3Mm1NcDB4S0l4LWxfVThmWUE5?oc=5\n12円のガムをお湯で崩したり何も買わずにお湯を汲んだりする外国人客に対し、コンビニ店員が困惑したという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
-    "theme": "autrui",
-    "score": 4,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "「1万円札を崩すために12円のガムを1個ずつ…」「何も買わずにポットのお湯を水筒へ」コンビニ店員が困惑した外国人客の迷惑行為 - Infoseek",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FdTRxSERMMnJpU1RvTXRYMkt2RUUwZkg0UXJBLXh6V1F5LUN0ZmJTRE5hN1pPUkY0T2NSWS1MZ3BaMDJxZkluX2NENF9YUWpwYk9IN0c3Mm1NcDB4S0l4LWxfVThmWUE5?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui"
-    ],
-    "quote_id": "I.31a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T08:00:42.773845+00:00",
-    "publish_at": "2026-11-11T22:17:00+00:00",
-    "timestamp": "2026-11-11T22:17:00+00:00"
-  },
-  {
-    "id": "ad6e55d45889",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UQjBCV282S21RVFhwX2oxaVNnRWZ1UlJtMGJtV3QwWDY0T003d2hiNGhRM2hOOEJQV3FFREktWXJraTY5MFhZdmZpYkhtNVQyb0RLcjh3?oc=5\n田嶋幸三氏が『公正な組織運営』を掲げてFIFA会長選に出馬し、孤立のリスクがあるという。\n「世界は探究の学校にすぎない。的を射止めた者ではなく、最も見事な走りを見せた者が勝つのだ。」\n『エセー III.8「談論の術について」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "田嶋幸三氏がFIFA会長選に電撃出馬、勝算はどこに？「公正な組織運営」を掲げる挑戦と日本孤立のリスク(1/4) - JBpress",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UQjBCV282S21RVFhwX2oxaVNnRWZ1UlJtMGJtV3QwWDY0T003d2hiNGhRM2hOOEJQV3FFREktWXJraTY5MFhZdmZpYkhtNVQyb0RLcjh3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "III.8c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T21:03:20.027293+00:00",
-    "publish_at": "2026-11-11T19:17:00+00:00",
-    "timestamp": "2026-11-11T19:17:00+00:00"
   }
 ]
