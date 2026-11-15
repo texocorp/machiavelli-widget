@@ -1,5 +1,46 @@
 [
   {
+    "id": "f5f61d0edb43",
+    "text": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE90WEVsSjdnWTFUano1WlMyNVM0WkFQVG5YclBJeUplMHlXOU02WWQtUXJQOUtOWjhkMjVXQ0ltRk16a1hRRFE?oc=5\n株式会社ソーシャルパスが総務省の偽・誤情報対策技術開発事業に採択された。\n「人間の知識と力とは一つに重なる。原因を知らなければ、結果を生み出すことはできないからである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム3",
+    "original": "Scientia et potentia humana in idem coincidunt, quia ignoratio causae destituit effectum.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "株式会社ソーシャルパス、総務省の偽・誤情報対策技術開発事業に採択 - Dellows News",
+    "source_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE90WEVsSjdnWTFUano1WlMyNVM0WkFQVG5YclBJeUplMHlXOU02WWQtUXJQOUtOWjhkMjVXQ0ltRk16a1hRRFE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "novitas"
+    ],
+    "quote_id": "NO1.3a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T18:32:10.127115+00:00",
+    "publish_at": "2026-11-16T17:17:00+00:00",
+    "timestamp": "2026-11-16T17:17:00+00:00"
+  },
+  {
+    "id": "bd2e770fd77f",
+    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LNkVvMWVHQ3ZESy1CMFU0NmdJYllTdFBqb0k3WmtWdDVNRGotMEhwMUxhTTRhZUhxcElHOUJHaVkxODlwZlpsemlhSGk4dw?oc=5\nダ・ヴィンチWebは「夫の不倫相手は夫の『推し』だった！ SNSで『匂わせ』投稿までしていたふたりに、サレ妻による炎上覚悟の反撃が始まる！」と報じた。\n「そして嫉妬は、噂と評判によっていつも倍加する。」\n『随筆集』第9篇「嫉妬について」",
+    "original": "… and envy ever redoubleth from speech and fame.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "夫の不倫相手は夫の「推し」だった！ SNSで「匂わせ」投稿までしていたふたりに、サレ妻による炎上覚悟の反撃が始まる！ - ダ・ヴィンチWeb",
+    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LNkVvMWVHQ3ZESy1CMFU0NmdJYllTdFBqb0k3WmtWdDVNRGotMEhwMUxhTTRhZUhxcElHOUJHaVkxODlwZlpsemlhSGk4dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E9a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T17:58:53.119039+00:00",
+    "publish_at": "2026-11-16T14:17:00+00:00",
+    "timestamp": "2026-11-16T14:17:00+00:00"
+  },
+  {
     "id": "d867ce977270",
     "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyZGEyc3VKejNaOUViaEdYMjdlYlpVWDk0X0pQSWRoMEwyS2llWWVJaUdaLXk5eE5Da08tSDFMQ1cwZFJlbmVtR2ZLLXl6OXIxekZQRDNURWNjX0w4SjRua1RTU0h0dXBZUVZKZVpoVk8zZTdLUmdR0gF_QVVfeXFMUDREWE9DaFk1WXE2LVVQSC13S3JBZkVVSmVRNGtxaGZxcDNXWkxaRUoyX09mdjBoYmlMdUZRQ2w2UkN6dTlKVk9aTkxFNzN3REdGWkd3OXY3YjMxRlRUUFIwVXAzMVRxSUZMakRYNmZ1eE5mUXRoMjl2S1lVTFQwUQ?oc=5\n神田伯山が『土下座してほしい』と発言し、その後のデマに関する経緯を説明したという。\n「嘘が混じると、いつも楽しみが増す。」\n『随筆集』第1篇「真理について」",
     "original": "A mixture of a lie doth ever add pleasure.",
@@ -760,46 +801,5 @@
     "generated_at": "2026-11-11T07:57:08.871669+00:00",
     "publish_at": "2026-11-12T02:17:00+00:00",
     "timestamp": "2026-11-12T02:17:00+00:00"
-  },
-  {
-    "id": "bddb43b7f43b",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00T0FYUXRTYV8yMGtGX0hCYzA0bTV1MXZWQmR6QXI2RjN3ZjlEYkZjSEdzRnZweUdrUy1ZUlZjejRieENWdEVKR04yZnFZRHprVUFWd05iV3JLQ3gtYWFKdks4dl9qOGdESFRoMw?oc=5\n杉並区は、偽情報・誤情報対策の強化のため外部アドバイザーの助言を受け、対応力を向上させるという。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
-    "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "杉並区、偽情報・誤情報対策に外部アドバイザー 助言受け対応力向上 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00T0FYUXRTYV8yMGtGX0hCYzA0bTV1MXZWQmR6QXI2RjN3ZjlEYkZjSEdzRnZweUdrUy1ZUlZjejRieENWdEVKR04yZnFZRHprVUFWd05iV3JLQ3gtYWFKdks4dl9qOGdESFRoMw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio"
-    ],
-    "quote_id": "E1b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T07:50:40.287663+00:00",
-    "publish_at": "2026-11-11T23:17:00+00:00",
-    "timestamp": "2026-11-11T23:17:00+00:00"
-  },
-  {
-    "id": "5bdfe9a61e8d",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KeGtwRDVKREU2ZHg0S0NJWjdXeFRFV2lRa3hLRUpEb2JhLVg4cm01LWpOamRzU3Q4UWV3SmlOWk1nTDB3LTUwMERqMlRtU3JCM0tCVDhmc3JLOTRYMHZWcG8yOFN5WFF0TFhMeDdkRmo0M1UzZlpQNUxB?oc=5\n学問としての戦史、経済史が11月の角川新書に集結し、陰謀論の時代に果たす意義と実証研究の魅力を伝えるという。\n「自然の学問は、あらゆる時代に、厄介で手強い敵を持ってきた。すなわち迷信と、盲目で度を越した信仰の熱狂である。」\n『ノヴム・オルガヌム』第1巻 アフォリズム89",
-    "original": "… nacta sit philosophia naturalis per omnes aetates adversarium molestum et difficilem; superstitionem nimirum, et zelum religionis caecum et immoderatum.",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "11月の角川新書は学問としての戦史、経済史が陰謀論の時代に果たす意義、実証研究の魅力を存分に伝える作品が集結！ 『戦史歴程』、『税と反乱』の計2作品 - 毎日キレイ",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KeGtwRDVKREU2ZHg0S0NJWjdXeFRFV2lRa3hLRUpEb2JhLVg4cm01LWpOamRzU3Q4UWV3SmlOWk1nTDB3LTUwMERqMlRtU3JCM0tCVDhmc3JLOTRYMHZWcG8yOFN5WFF0TFhMeDdkRmo0M1UzZlpQNUxB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "studium"
-    ],
-    "quote_id": "NO1.89",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T21:21:20.065360+00:00",
-    "publish_at": "2026-11-11T20:17:00+00:00",
-    "timestamp": "2026-11-11T20:17:00+00:00"
   }
 ]
