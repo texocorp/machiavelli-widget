@@ -1,5 +1,77 @@
 [
   {
+    "id": "384a8ed2ab54",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40Wjg0N0Z2SEdIcE5rek5rN3pYQ0hwSmY1MXFUd3Zhb1Q4OUNHSEkzcXRrUDVTX1RBRzdSWGZsb0VtdGRYdE9lTUdOOTdQVkl1NjNuT01XbEhGeVdzWUd0dm9qYmd4dw?oc=5\n知能の高いサルを捕獲するハンターは、苦悩しながら奔走するという。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "peur",
+    "score": 0,
+    "source": "Google News 国内",
+    "source_title": "サル捕獲に心理的負担、知能高くわな設置は「知恵比べ」…苦悩しながら奔走するハンター - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40Wjg0N0Z2SEdIcE5rek5rN3pYQ0hwSmY1MXFUd3Zhb1Q4OUNHSEkzcXRrUDVTX1RBRzdSWGZsb0VtdGRYdE9lTUdOOTdQVkl1NjNuT01XbEhGeVdzWUd0dm9qYmd4dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "peur"
+    ],
+    "quote_id": "II.12e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T11:12:44.261978+00:00",
+    "publish_at": "2026-11-16T10:17:00+00:00",
+    "timestamp": "2026-11-16T10:17:00+00:00"
+  },
+  {
+    "id": "fc584ca25e54",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hcklwMjhPZjlMZ0cybGNkZjFkaS1nZ1p2MHk2aFljeFBBcHhHMkF0TGNiT1BrRkozbWNaZ1Atc1hsZE1felRVWUtJWmpFaTA0Y3hpa3VFSUg4V0xLMkFteDBraGV4Ul9LVTZZZTIyQmdBMW9sWGZndDVBVzRCQVU?oc=5\n岐阜発のスーパー『バロー』が東京に進出したことで大行列や入場規制が発生し、スーパー好きたちはその理由を語っている。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
+    "theme": "lois",
+    "score": 2,
+    "source": "Google News 検索 世相",
+    "source_title": "大行列、入場規制も起きた東京初進出、岐阜発スーパー「バロー」。「どこよりも熱い」とスーパー好きたちが口を揃える理由 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hcklwMjhPZjlMZ0cybGNkZjFkaS1nZ1p2MHk2aFljeFBBcHhHMkF0TGNiT1BrRkozbWNaZ1Atc1hsZE1felRVWUtJWmpFaTA0Y3hpa3VFSUg4V0xLMkFteDBraGV4Ul9LVTZZZTIyQmdBMW9sWGZndDVBVzRCQVU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "II.15",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T11:10:38.786831+00:00",
+    "publish_at": "2026-11-16T07:17:00+00:00",
+    "timestamp": "2026-11-16T07:17:00+00:00"
+  },
+  {
+    "id": "c97075393bdb",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03TmZ1VVVMend5UlhKYUduS3RDRmY4TVdFWl9obVFMYzlZZFlESU1zSlhFSk1HNjQxdXE0WUV1RGVtY25zNTR3SHFRQmVHVHZOR1lCRjNiYVBGUU0?oc=5\n友達は1人もいなかったまま執拗ないじめに苦しんだ彼は、居場所を求めて東大受験に挑んだという。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
+    "theme": "cruaute",
+    "score": 4,
+    "source": "Google News 検索 教育",
+    "source_title": "｢友達は1人もいなかった｣執拗ないじめに苦しんだ彼が｢居場所を求めて｣挑んだ東大受験…高校中退→YouTubeで学んだ結果 - 東洋経済オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03TmZ1VVVMend5UlhKYUduS3RDRmY4TVdFWl9obVFMYzlZZFlESU1zSlhFSk1HNjQxdXE0WUV1RGVtY25zNTR3SHFRQmVHVHZOR1lCRjNiYVBGUU0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute"
+    ],
+    "quote_id": "II.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T11:06:58.782153+00:00",
+    "publish_at": "2026-11-16T04:17:00+00:00",
+    "timestamp": "2026-11-16T04:17:00+00:00"
+  },
+  {
+    "id": "90479ffc5ea2",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DLUJFNnBKUXJUNnZydmJ6LWxJd2ZuYUdFVTZueGVYQmRUNUVmZDVVR0JBdU5rdEFzSjVTVGdsbnRuTDRnbWw0OEJsOG5sdUxETk01WXF0ODNNbVZuMXR6YlZ1ZUJ2N3M?oc=5\n移住を選んだライバーは、限界だった競争や孤独から温泉街が癒やしてくれたと語るという。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "限界だった競争や孤独、温泉街が癒やしてくれた 移住選んだライバー - 朝日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DLUJFNnBKUXJUNnZydmJ6LWxJd2ZuYUdFVTZueGVYQmRUNUVmZDVVR0JBdU5rdEFzSjVTVGdsbnRuTDRnbWw0OEJsOG5sdUxETk01WXF0ODNNbVZuMXR6YlZ1ZUJ2N3M?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "III.10d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T11:00:43.873723+00:00",
+    "publish_at": "2026-11-16T01:17:00+00:00",
+    "timestamp": "2026-11-16T01:17:00+00:00"
+  },
+  {
     "id": "cf05685c893d",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ObDNSaVBvNFhpX0Z2ZEdjdEVJYnBQRTJpOGNGSndVOUFCNGF1OWEwVUVJQnRUZmJxY05NQVVBUDdMVDRreUMxRGZ1VjJFbzNpcDd5U0g1UERBS0lGX0tfeUJROXhZVFI2aXlRdml2ekw2anVmS2M5NHJnbWNjU1U?oc=5\nドーピング冤罪で無念の時間を過ごし、涙ながらに復帰した競歩・池田向希が、『私のような被害者は出てほしくない』と願いを語っているという。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
     "theme": "lois",
@@ -637,79 +709,5 @@
     "generated_at": "2026-11-10T21:03:20.027293+00:00",
     "publish_at": "2026-11-11T19:17:00+00:00",
     "timestamp": "2026-11-11T19:17:00+00:00"
-  },
-  {
-    "id": "9b2eb67a79a8",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pWXlIcGZTQUF2ZE9wUl9uX2NnbG5TRVNSbUQyc2MyN1p2Tm9jMlllM0JlNW0wZ3ZpUnl2M1RJNmhZY1pCanJJTTk2Umcyai1xNVQ3MkNOZHZNYkFzOFJMblBNLVpuemRRd0RSTQ?oc=5\n取り調べで『あなた大罪人ですよ』と言われたのは『例え”だった』と、裁判で初めて改善の余地あった。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
-    "theme": "cruaute",
-    "score": 5,
-    "source": "Google News 検索 裁き",
-    "source_title": "取り調べで「あなた大罪人ですよ」 は「“例え”だった」 特別公務員暴行陵虐罪に問われた元特捜部所属・現役検事の被告人質問 「もっと違う言い方があった」と裁判で初めて“改善の余地あった”示す - ktv.jp",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pWXlIcGZTQUF2ZE9wUl9uX2NnbG5TRVNSbUQyc2MyN1p2Tm9jMlllM0JlNW0wZ3ZpUnl2M1RJNmhZY1pCanJJTTk2Umcyai1xNVQ3MkNOZHZNYkFzOFJMblBNLVpuemRRd0RSTQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "lois",
-      "nouveaute"
-    ],
-    "quote_id": "II.5",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T21:00:39.580574+00:00",
-    "publish_at": "2026-11-11T16:17:00+00:00",
-    "timestamp": "2026-11-11T16:17:00+00:00"
-  },
-  {
-    "id": "bb830a8637c2",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxM0JMVWlsZ1BMOVZaSGRzQ0xHdHhSU21leXNjdklYVFZFOTg2WFhDcXV6R1p1ZFF6Vm5SWjZZNlhLYnVSejY5UkdXNGlpYm5aN1hJ?oc=5\nヘイトや差別にNOを突きつけたシンポジウムが、上智大で行われたという。\n「理性の規則に照らせば、彼らを野蛮と呼ぶこともできよう。だが我々に照らしてではない。我々はあらゆる種類の野蛮において彼らを凌いでいるのだから。」\n『エセー I.31「人食い人種について」』",
-    "theme": "autrui",
-    "score": 4,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "ヘイト、差別に「NO」 11日と15日に上智大でシンポ - 東京新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxM0JMVWlsZ1BMOVZaSGRzQ0xHdHhSU21leXNjdklYVFZFOTg2WFhDcXV6R1p1ZFF6Vm5SWjZZNlhLYnVSejY5UkdXNGlpYm5aN1hJ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui"
-    ],
-    "quote_id": "I.31b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T13:58:22.553153+00:00",
-    "publish_at": "2026-11-11T13:17:00+00:00",
-    "timestamp": "2026-11-11T13:17:00+00:00"
-  },
-  {
-    "id": "37427d98ba02",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45alB1dkhBaXZ4Z2NnMzFwSGNJdTFHV3ZrRkI3TEE4REQybHBWU0F0bm5Md3BHNEdRaldTYmxMdG1iNkxwQl83SGxkMFpxU1pDYVlDUVJPUmJPUl9KT1JIWXNqUUVJYV9heldFSlNfVUhNak5nY3c?oc=5\n死刑囚は最高裁で退けられた後、新証拠なしで自身で手続きを行い、3度目の再審請求を行ったという。\n「私としては、裁きにおいてさえ、単なる死を越えるものはすべて、まったくの残酷さに思われる。」\n『エセー II.11「残酷さについて」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 検索 裁き",
-    "source_title": "植松死刑囚3度目再審請求、自身で手続き 新証拠なし 9月に最高裁で退けられたばかり - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45alB1dkhBaXZ4Z2NnMzFwSGNJdTFHV3ZrRkI3TEE4REQybHBWU0F0bm5Md3BHNEdRaldTYmxMdG1iNkxwQl83SGxkMFpxU1pDYVlDUVJPUmJPUl9KT1JIWXNqUUVJYV9heldFSlNfVUhNak5nY3c?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "II.11b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T13:50:49.938146+00:00",
-    "publish_at": "2026-11-11T10:17:00+00:00",
-    "timestamp": "2026-11-11T10:17:00+00:00"
-  },
-  {
-    "id": "77c84105fbaf",
-    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzdmRWb085OGZsYm4tRlNBeEtTUnhDMUdKd0lteXdZUXRWclBrU2t4czZBcWNRUXprLXVOU2d5Rm9sZVBkMlp0RDQ1R1JmSEZicExtaVNOU1huTXp4UndKbjIwemJkMWZJMjk3eDBB?oc=5\n無罪判決を勝ち取った男が8年後に再び逮捕され、浅野皓生の本で推定冤罪について触れられている。\n「結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。」\n『エセー III.11「足の不自由な人々について」』",
-    "theme": "lois",
-    "score": 10,
-    "source": "Google News 検索 裁き",
-    "source_title": "無罪判決を勝ち取った男は8年後、再び逮捕された――浅野皓生『推定冤罪』試し読み（2/3） - カドブン",
-    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzdmRWb085OGZsYm4tRlNBeEtTUnhDMUdKd0lteXdZUXRWclBrU2t4czZBcWNRUXprLXVOU2d5Rm9sZVBkMlp0RDQ1R1JmSEZicExtaVNOU1huTXp4UndKbjIwemJkMWZJMjk3eDBB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "III.11a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T13:39:07.823312+00:00",
-    "publish_at": "2026-11-11T07:17:00+00:00",
-    "timestamp": "2026-11-11T07:17:00+00:00"
   }
 ]
