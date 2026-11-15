@@ -1,5 +1,45 @@
 [
   {
+    "id": "33138f0e1c14",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1raE5fN0VoUV9qbGQtX3hrTlRleVh4RHlFeFBRVkVibkRuc292U25MVHN3clJPeHJlbHRPdDQzS1R2NzFpSDZQUEZxbGlJOVo0dGlBMVhybWtoNXlZYlRB?oc=5\nイランはホルムズ海峡で米軍のレーダー施設攻撃を実施し、緊張が続いているという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 11,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン“米軍のレーダー施設攻撃” ホルムズ海峡で緊張続く - NHKニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1raE5fN0VoUV9qbGQtX3hrTlRleVh4RHlFeFBRVkVibkRuc292U25MVHN3clJPeHJlbHRPdDQzS1R2NzFpSDZQUEZxbGlJOVo0dGlBMVhybWtoNXlZYlRB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AG4",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T17:25:48.065161+00:00",
+    "publish_at": "2026-11-16T15:17:00+00:00",
+    "timestamp": "2026-11-16T15:17:00+00:00"
+  },
+  {
+    "id": "88398aae6c46",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93SjNybUU3c29sRW9BVDE0OC1Qb0JnWnNsdkdCUTJlUDZpYzA5WE9fWXNKRjUtZ1ZFZGhOSXlnV0J2QjBIYThNVGZZWkNMcEN3NHZpVUNVVWxsN2NLaWN1ZTRB?oc=5\nイラン革命防衛隊はバーレーンにある米軍防空レーダーを攻撃したが、米側はその事実を公表していないという。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン革命防衛隊、バーレーンにある米軍防空レーダーを攻撃…米軍は発表せず - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93SjNybUU3c29sRW9BVDE0OC1Qb0JnWnNsdkdCUTJlUDZpYzA5WE9fWXNKRjUtZ1ZFZGhOSXlnV0J2QjBIYThNVGZZWkNMcEN3NHZpVUNVVWxsN2NLaWN1ZTRB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D1.33",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T17:19:44.249224+00:00",
+    "publish_at": "2026-11-16T12:17:00+00:00",
+    "timestamp": "2026-11-16T12:17:00+00:00"
+  },
+  {
     "id": "61f0c0477150",
     "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWcWtRSEZqWWRLLVhkODhrR2EyWTF5VHJ1TzlpZGFEekpiWEZUVld1UHlmRlZJdXJLTEZkUzR3QlFCNmF5VGRGcWg1aHZqZC1LMVlXdGF3SnM?oc=5\nイランが無人機を用いてバーレーンの米軍施設を攻撃したと報じられているという。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
     "theme": "guerra",
@@ -731,50 +771,5 @@
     "generated_at": "2026-11-11T06:36:33.445260+00:00",
     "publish_at": "2026-11-12T00:17:00+00:00",
     "timestamp": "2026-11-12T00:17:00+00:00"
-  },
-  {
-    "id": "35e5909a2aac",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zNHU4aFZBVXRvMUh1TDhmRl9rdnZRTENpNUFmVnc1MVk3M1pIUHpGNHJCSTdFOUI0aDQwWDhGRjNOdGIxOFM5NTZOQ3d0bUZnTFphdmcwUjBFTlE2VTMxVTNB?oc=5\nルビオ米国務長官はイラン情勢について大規模な戦闘作戦を行う必要はないとし、経済的圧力が効果があると主張した。\n「賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。」\n『リウィウス論 III.12』",
-    "theme": "guerra",
-    "score": 20,
-    "source": "Google News 国際(World)",
-    "source_title": "ルビオ米国務長官、イラン情勢「もはや大規模な戦闘作戦を行う必要はない」…経済的圧力が効果と主張 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zNHU4aFZBVXRvMUh1TDhmRl9rdnZRTENpNUFmVnc1MVk3M1pIUHpGNHJCSTdFOUI0aDQwWDhGRjNOdGIxOFM5NTZOQ3d0bUZnTFphdmcwUjBFTlE2VTMxVTNB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "economia",
-      "consiglio",
-      "necessita"
-    ],
-    "quote_id": "D3.12",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T06:16:18.365824+00:00",
-    "publish_at": "2026-11-11T21:17:00+00:00",
-    "timestamp": "2026-11-11T21:17:00+00:00"
-  },
-  {
-    "id": "648c6442291b",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mcGdQdHBMUmZsX3ZQNklRa0ZoaGk4OGQ3RGdLWU1hWWVoaXBURzRzZjhidkRDYk9Yd2QxclRSUHFrLXdLYjl4VXVMUGlwcWl4eE9BR01HamE0WGNsZmk3MFNEZ01MeVNLWHliMUNta2c2ei1UZWpKbFFYdEZKcmM?oc=5\n米軍がホルムズ海峡でイランの民間船舶を攻撃し、トランプ氏はその可能性は極めて低いと発言した。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "米軍がイラン民間船舶を攻撃する瞬間…トランプ氏「可能性は極めて低い」発言する中で攻撃実行 精密誘導弾が船尾に着弾、激しく爆発する瞬間 ホルムズ海峡（ABEMA TIMES） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mcGdQdHBMUmZsX3ZQNklRa0ZoaGk4OGQ3RGdLWU1hWWVoaXBURzRzZjhidkRDYk9Yd2QxclRSUHFrLXdLYjl4VXVMUGlwcWl4eE9BR01HamE0WGNsZmk3MFNEZ01MeVNLWHliMUNta2c2ei1UZWpKbFFYdEZKcmM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "D1.46",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-10T19:33:07.919369+00:00",
-    "publish_at": "2026-11-11T18:17:00+00:00",
-    "timestamp": "2026-11-11T18:17:00+00:00"
   }
 ]
