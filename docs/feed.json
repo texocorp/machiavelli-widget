@@ -1,5 +1,45 @@
 [
   {
+    "id": "4a64e3b76e5b",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNMDZTQXVTbnF3UHZha1FTQm44OHlNMmJvSmktdmp1Vkc3clVJb3pNUXJzd2RpVGZGX3BNcXBCd2twbGtJTF9yUnFxUlNrenZySk1SZzZ3RWV6emZiTlE2akhkenBsNG9pd1A1dw?oc=5\nエストニアは放火未遂事件を受け、12月からロシア国境を閉鎖する方針だという。\n「賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。」\n『リウィウス論 III.12』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "エストニア、ロシア国境を閉鎖へ 放火未遂事件受け12月から - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNMDZTQXVTbnF3UHZha1FTQm44OHlNMmJvSmktdmp1Vkc3clVJb3pNUXJzd2RpVGZGX3BNcXBCd2twbGtJTF9yUnFxUlNrenZySk1SZzZ3RWV6emZiTlE2akhkenBsNG9pd1A1dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "D3.12",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T21:51:27.851814+00:00",
+    "publish_at": "2026-11-16T21:17:00+00:00",
+    "timestamp": "2026-11-16T21:17:00+00:00"
+  },
+  {
+    "id": "ed769effd06f",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OaERvOXdENnNJYlM5aFVQQ0xpTnE1ZjVLSHNVdldoN0JrcERWNjhDcjFtaWwyS2R5cWNVdnpHVjQzVThENnprQUJwelhMMk1LSXpSVGVDUkxyU180RXUzcTVvNks?oc=5\nイランは、米国の封鎖強化方針に対する強硬な対応として、２カ月ぶりに米軍基地を空爆した。\n「敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。」\n『リウィウス論 III.10』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン、２カ月ぶりに米軍基地を空爆…米国の「封鎖強化」方針に強硬対応 : 日本•国際 - ハンギョレ新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OaERvOXdENnNJYlM5aFVQQ0xpTnE1ZjVLSHNVdldoN0JrcERWNjhDcjFtaWwyS2R5cWNVdnpHVjQzVThENnprQUJwelhMMk1LSXpSVGVDUkxyU180RXUzcTVvNks?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D3.10",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-15T21:49:23.513854+00:00",
+    "publish_at": "2026-11-16T18:17:00+00:00",
+    "timestamp": "2026-11-16T18:17:00+00:00"
+  },
+  {
     "id": "33138f0e1c14",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1raE5fN0VoUV9qbGQtX3hrTlRleVh4RHlFeFBRVkVibkRuc292U25MVHN3clJPeHJlbHRPdDQzS1R2NzFpSDZQUEZxbGlJOVo0dGlBMVhybWtoNXlZYlRB?oc=5\nイランはホルムズ海峡で米軍のレーダー施設攻撃を実施し、緊張が続いているという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -731,45 +771,5 @@
     "generated_at": "2026-11-11T14:28:55.823315+00:00",
     "publish_at": "2026-11-12T06:17:00+00:00",
     "timestamp": "2026-11-12T06:17:00+00:00"
-  },
-  {
-    "id": "4b12e19dbeea",
-    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWmtPUDc1SmlCM01Fd0hheVlLanJQeHo4OHFlOWg4M196N3UtNEZFaVVoNWU3Tkhsckk2bGZZLXZUSEZERjJDYmNRYVk0STdoSV8wMG8yWUdpb2NDZjdvZG5TZlNnWkFQWmkxZHRkeC1VelRWamZOR3VTQS1ZYjlEV3FTbXVyRVEt?oc=5\nG7は北朝鮮の核・ミサイルや暗号資産の窃取に対して共同で対応することを表明したという。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 朝鮮半島",
-    "source_title": "G7「北朝鮮の核・ミサイル、暗号資産窃取に共同対応」…韓国の立場は4文字 - 조선일보",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWmtPUDc1SmlCM01Fd0hheVlLanJQeHo4OHFlOWg4M196N3UtNEZFaVVoNWU3Tkhsckk2bGZZLXZUSEZERjJDYmNRYVk0STdoSV8wMG8yWUdpb2NDZjdvZG5TZlNnWkFQWmkxZHRkeC1VelRWamZOR3VTQS1ZYjlEV3FTbXVyRVEt?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore"
-    ],
-    "quote_id": "FV2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T07:55:15.422847+00:00",
-    "publish_at": "2026-11-12T03:17:00+00:00",
-    "timestamp": "2026-11-12T03:17:00+00:00"
-  },
-  {
-    "id": "50261c06b936",
-    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRjFqbWhIcWVpSC1GWWc3d3k0djFyNHFJa2hzTFZZbkJEUUMtY3hVOTBJS0J3cmVDMHphTmlOQ3BWRUpkZFdtX2s4SGdkd3dWOW0wY0ZnbnR0M3BDNGtMNVFQSWptUW5EUmVhSV9xNC0wa1p2NXJaYlJvQ0VkdlRYLVFJYjlYMFpvRnFFNQ?oc=5\nゼレンスキー氏は米露ウクライナ和平協議の初日終了を『生産的だった』と評し、11日も協議が継続されるという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "ゼレンスキー氏「生産的だった」 米露ウクライナ和平協議、初日終了 11日も継続へ - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRjFqbWhIcWVpSC1GWWc3d3k0djFyNHFJa2hzTFZZbkJEUUMtY3hVOTBJS0J3cmVDMHphTmlOQ3BWRUpkZFdtX2s4SGdkd3dWOW0wY0ZnbnR0M3BDNGtMNVFQSWptUW5EUmVhSV9xNC0wa1p2NXJaYlJvQ0VkdlRYLVFJYjlYMFpvRnFFNQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG4",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T06:36:33.445260+00:00",
-    "publish_at": "2026-11-12T00:17:00+00:00",
-    "timestamp": "2026-11-12T00:17:00+00:00"
   }
 ]
