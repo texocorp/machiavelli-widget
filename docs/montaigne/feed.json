@@ -1,5 +1,79 @@
 [
   {
+    "id": "04bb9e2095bd",
+    "text": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LNUExcFFjbFBCSTBSamYxQ3M1TW9OWHp3QURCbEpoNm9VWDUtRWlaazQ4WG05NkUwV0dSMENzN19lRlRsdURj?oc=5\n甲南女子大学が12月13日に開催する入試問題対策講座で高3生に赤本を配布しライブ配信も行うという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
+    "theme": "savoir",
+    "score": 0,
+    "source": "Google News 検索 教育",
+    "source_title": "甲南女子大学 12/13「入試問題対策講座」開催 高3来場者に赤本無料配布＆ライブ配信も実施 - 大学ジャーナルオンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LNUExcFFjbFBCSTBSamYxQ3M1TW9OWHp3QURCbEpoNm9VWDUtRWlaazQ4WG05NkUwV0dSMENzN19lRlRsdURj?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "I.26a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T11:55:20.677168+00:00",
+    "publish_at": "2026-11-17T10:17:00+00:00",
+    "timestamp": "2026-11-17T10:17:00+00:00"
+  },
+  {
+    "id": "93b2511f6c84",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5COTc3M2V6ZnY3ak1ESU45QktIOXhrWk42b1ZlM1VBQXNtNE1RbFhkbUVjaVFiOEtHZTFFTjFxRzFRVzJPSVV2UmY3dGJHVXg3TUl0Q0pnSzFBTU15SHRlZHdsRU55SW8y?oc=5\n社説はアウティングの賠償命令で、根深い偏見を根絶することを呼びかけているという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
+    "theme": "lois",
+    "score": 0,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "社説：アウティングに賠償命令 根深い偏見を根絶せねば - 毎日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5COTc3M2V6ZnY3ak1ESU45QktIOXhrWk42b1ZlM1VBQXNtNE1RbFhkbUVjaVFiOEtHZTFFTjFxRzFRVzJPSVV2UmY3dGJHVXg3TUl0Q0pnSzFBTU15SHRlZHdsRU55SW8y?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "I.31a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T11:46:55.284320+00:00",
+    "publish_at": "2026-11-17T07:17:00+00:00",
+    "timestamp": "2026-11-17T07:17:00+00:00"
+  },
+  {
+    "id": "68c9b7db4583",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXhWR2J1dTBZRTVMOFEwbl9jc0w0MTB1YnMzV3RNYTM1YzF1VDZuQXQ2bDBnbVl5bVh4RS11NGxnSEw1NGx0NVdVT05SWmxRYmFDODdodFVtaTdwaVRHYktoSlV3cjBrS0lsbEpNejl4b3JpN3U4c0Q2WXNrODgtV0VlajRzM0E?oc=5\n資金を私的流用したとして解任された鳥取ガス児嶋太一前社長が会見で、騒動後初めて公の場に姿を現し私的流用を完全否定した。\n「市長とモンテーニュとは、いつもはっきり分かたれた二人であった。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "vanite",
+    "score": 1,
+    "source": "Google News 検索 職場",
+    "source_title": "会社の資金を私的流用したとして解任となった鳥取ガス児嶋太一前社長が会見 騒動後初めて公の場に姿を現し私的流用を完全否定 鳥取県鳥取市（2026年11月16日掲載） - 日テレNEWS NNN",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXhWR2J1dTBZRTVMOFEwbl9jc0w0MTB1YnMzV3RNYTM1YzF1VDZuQXQ2bDBnbVl5bVh4RS11NGxnSEw1NGx0NVdVT05SWmxRYmFDODdodFVtaTdwaVRHYktoSlV3cjBrS0lsbEpNejl4b3JpN3U4c0Q2WXNrODgtV0VlajRzM0E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "vanite",
+      "nouveaute"
+    ],
+    "quote_id": "III.10a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T11:41:50.868078+00:00",
+    "publish_at": "2026-11-17T04:17:00+00:00",
+    "timestamp": "2026-11-17T04:17:00+00:00"
+  },
+  {
+    "id": "398f8ffa7eb1",
+    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeU5udlJsdlVKTjdvMFZyU1RhNHRyaFV0d0xoMy03S0JDMGNfQlRGQ3dOYnViWmdWZVNyMkhJWVUwTi1WUTRTQWRFdVp1d3NhVGlONVdVN0RVV215ZGhSR040QWp2dDFfZXFqZVhKcnJ5RGMzTmYtc3JOaG5weVhQZ3BGTnNhQjNYRVkyeA?oc=5\nお寺で終活を行うことで、自分を顧みる時間を持ち、生き方を見つめながら心を整えることができる。\n「私の仕事、私の技芸、それは生きることだ。」\n『エセー II.6「実地の訓練について」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "お寺で終活「自分を顧みる時間」に 生き方を見つめ、心を整える場所 - 産経ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeU5udlJsdlVKTjdvMFZyU1RhNHRyaFV0d0xoMy03S0JDMGNfQlRGQ3dOYnViWmdWZVNyMkhJWVUwTi1WUTRTQWRFdVp1d3NhVGlONVdVN0RVV215ZGhSR040QWp2dDFfZXFqZVhKcnJ5RGMzTmYtc3JOaG5weVhQZ3BGTnNhQjNYRVkyeA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "soi"
+    ],
+    "quote_id": "II.6b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T11:34:30.064694+00:00",
+    "publish_at": "2026-11-17T01:17:00+00:00",
+    "timestamp": "2026-11-17T01:17:00+00:00"
+  },
+  {
     "id": "66d784096de3",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTUhYeElyTFZTYzM1MXBaSDFoTUdPVzRMcVZqaGIwemU2cHBacUxtWmpMWHRMQU8yZ29Cbm9yb2UtVXd5WFdoUkM5SGZhSXdxeGJVNmMyQWo5QzM1T05qN1E0dDV6a3JD0gFoQVVfeXFMT1RNSFh4SXJMVlNjMzUxcFpIMWhNR09XNExxVmpoYjB6ZTZwcFpxTG1aakxYdExBTzJnb0Jub3JvZS1Vd3lYV2hSQzlIZmFJd3F4YlU2YzJBajlDMzVPTmo3UTR0NXprckM?oc=5\n米司法省がエヌビディアの取引慣行を調査する可能性があるが、密輸疑惑の関連企業も捜査対象になっているという。\n「まことに慣習とは、荒々しく、しかも裏切りに満ちた教師である。」\n『エセー I.23「慣習について」』",
     "theme": "profit",
@@ -634,81 +708,5 @@
     "generated_at": "2026-11-11T22:44:52.761034+00:00",
     "publish_at": "2026-11-12T19:17:00+00:00",
     "timestamp": "2026-11-12T19:17:00+00:00"
-  },
-  {
-    "id": "b8a435a29650",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGeU0xdUZtTi1sUG96NnNCMXlrYkVRS3RkaHV5endBWTdDQmxjeVh4WlFWWEZxcjU0Rkw4QkZEMzFubV94MEUwdm1aMXB0bHJMSE9V?oc=5\n全国高齢者等終身サポート事業者協会の黒澤理事長は、老後の先も信頼築くために話を聞いたという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "老後とその先も 信頼築く 全国高齢者等終身サポート事業者協会・黒澤理事長に聞く - 東京新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGeU0xdUZtTi1sUG96NnNCMXlrYkVRS3RkaHV5endBWTdDQmxjeVh4WlFWWEZxcjU0Rkw4QkZEMzFubV94MEUwdm1aMXB0bHJMSE9V?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T16:20:47.432418+00:00",
-    "publish_at": "2026-11-12T16:17:00+00:00",
-    "timestamp": "2026-11-12T16:17:00+00:00"
-  },
-  {
-    "id": "eba67bb33f3f",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sQ3RyT2M5X2Rnb2QtZWFUeS1uTXc0MVdnRDN3d1VSazZNTjI5aDJVdVIwV1ZZNFFRbUgyQ0VjazVXeFpRMHlMdnNtSG5qd2FHVjlQb2dwNjFoYkxtenU5X0dWYjU5UkV6bndtQQ?oc=5\n高齢おひとり様の終活支援では入院や葬儀の手配が行われ、社協も取り組んでいるという。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 8,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "高齢おひとり様の終活支援 入院・葬儀の手配、社協でも - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sQ3RyT2M5X2Rnb2QtZWFUeS1uTXc0MVdnRDN3d1VSazZNTjI5aDJVdVIwV1ZZNFFRbUgyQ0VjazVXeFpRMHlMdnNtSG5qd2FHVjlQb2dwNjFoYkxtenU5X0dWYjU5UkV6bndtQQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort"
-    ],
-    "quote_id": "I.20d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T16:18:19.956684+00:00",
-    "publish_at": "2026-11-12T13:17:00+00:00",
-    "timestamp": "2026-11-12T13:17:00+00:00"
-  },
-  {
-    "id": "a5a66b26a32a",
-    "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2SDUzZW1IbHU0UGtYNEJOS2xkcWF0QzBCMjN2QklNblVTZ0pjTFNTYm4zRzQwaTEzZlVkNEkzSkRpSkVIT05TS2FGVnRVcmpDelE?oc=5\n45年の看取り実績を持つ松本医師は、母を看取った原体験から在宅薬局を始めたという。\n「死に方を知らなくとも、気にすることはない。その時になれば、自然がすっかり十分に教えてくれる。」\n『エセー III.12「人相について」』",
-    "theme": "mort",
-    "score": 10,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "45年の看取り実績を持つ松本医師×母を看取った原体験から開局したおおさか在宅薬局～家族を孤立させない地域連携～ - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2SDUzZW1IbHU0UGtYNEJOS2xkcWF0QzBCMjN2QklNblVTZ0pjTFNTYm4zRzQwaTEzZlVkNEkzSkRpSkVIT05TS2FGVnRVcmpDelE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "medecine",
-      "soi"
-    ],
-    "quote_id": "III.12b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T16:15:19.375678+00:00",
-    "publish_at": "2026-11-12T10:17:00+00:00",
-    "timestamp": "2026-11-12T10:17:00+00:00"
-  },
-  {
-    "id": "8b8241ed0b73",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGWHZJbTRfMGRJSVNybjdSZmQ5bTRyQlhncXhBdklMRGFSVklfUWhXeXJvWnpZRFk5OXRRYUlDZzB2Zkw0RkRBcEdBalVYZ25QWkZOcTkyc2tTZHZQTmc?oc=5\n福井県越前町で水揚げされた越前がにが、過去2番目に高い290万円で落札される最上級ブランド『極』となった。\n「名と物とがある。名とは物を指し示す声であって、物の一部でも、その実体の一部でもない。」\n『エセー II.16「栄光について」』",
-    "theme": "lois",
-    "score": 2,
-    "source": "Google News 国内",
-    "source_title": "越前がに最上級ブランド「極」出た…過去2番目に高い290万円で落札 福井県越前町で水揚げ - 福井新聞社",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGWHZJbTRfMGRJSVNybjdSZmQ5bTRyQlhncXhBdklMRGFSVklfUWhXeXJvWnpZRFk5OXRRYUlDZzB2Zkw0RkRBcEdBalVYZ25QWkZOcTkyc2tTZHZQTmc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "profit",
-      "vanite"
-    ],
-    "quote_id": "II.16",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T08:13:56.385388+00:00",
-    "publish_at": "2026-11-12T07:17:00+00:00",
-    "timestamp": "2026-11-12T07:17:00+00:00"
   }
 ]
