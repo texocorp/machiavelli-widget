@@ -1,5 +1,68 @@
 [
   {
+    "id": "4f93d1f92007",
+    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLUVhS3FsSkdvaUJkSE50Vy1IMkZRMzc0ZXpsaFVWRUpxa09NZGZxMVpGY1VMOWdQU181SFk3VjdrMWZST3Zyb1RtZG5rdmRyWDFVdXFKaVlldVVwdWJCMjItMW1TN2hoMU9UaWpqdG1aSkVHT0RQckdxbnA4S3NVRkItQVA5a0tT?oc=5\nYahoo!ニュースは「『素晴らしいニュースだ！』ロシア情報機関に偽情報の\"戦果\"報告、偽装サイト群の中心人物からデータ流出」と報じた。\n「蝿が戦車の車軸にとまって言った。「なんと砂ぼこりを巻き上げていることか、この私が!」」\n『随筆集』第54篇「虚栄について」",
+    "original": "The fly sat upon the axle-tree of the chariot wheel, and said, What a dust do I raise!",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「素晴らしいニュースだ！」ロシア情報機関に偽情報の\"戦果\"報告、偽装サイト群の中心人物からデータ流出 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLUVhS3FsSkdvaUJkSE50Vy1IMkZRMzc0ZXpsaFVWRUpxa09NZGZxMVpGY1VMOWdQU181SFk3VjdrMWZST3Zyb1RtZG5rdmRyWDFVdXFKaVlldVVwdWJCMjItMW1TN2hoMU9UaWpqdG1aSkVHT0RQckdxbnA4S3NVRkItQVA5a0tT?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "experientia"
+    ],
+    "quote_id": "E54",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T03:22:34.093880+00:00",
+    "publish_at": "2026-11-17T02:17:00+00:00",
+    "timestamp": "2026-11-17T02:17:00+00:00"
+  },
+  {
+    "id": "6263d6e649ef",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxUUFpNlZ3Nll1MUFUeTY2em5zeHJ2TEV0NWM4SmhmSGFLRzh2TVoyMzRJbF9EaDNYdWNUVDVVOFhPTVlDWDA5UkNLS3Q3M0RHb1FhclVXTmVWVTh1QXAyYy1GSDlqeXVoanVsOFE1T2l5MTE0TndqeWRSSkZkc0k?oc=5\n元研究員が物議を醸した警告について、専門家が解説しているという。\n「どの技術においても、その担い手たちは自分の技術の非力を自然のせいにし、自分の技術が達しえないことを、その技術の名において自然界では不可能だと宣告する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム88",
+    "original": "… ut in qualibet arte authores artis suae infirmitatem in naturae calumniam vertant; et quod ars ipsorum non assequitur, id ex eadem arte impossibile in natura pronunciant.",
+    "original_lang": "la",
+    "theme": "theatri",
+    "score": 10,
+    "source": "Google News テクノロジー",
+    "source_title": "AIはいかにして人類を滅亡させるのか？物議を醸した元研究員の警告を専門家が解説（ハフポスト日本版） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxUUFpNlZ3Nll1MUFUeTY2em5zeHJ2TEV0NWM4SmhmSGFLRzh2TVoyMzRJbF9EaDNYdWNUVDVVOFhPTVlDWDA5UkNLS3Q3M0RHb1FhclVXTmVWVTh1QXAyYy1GSDlqeXVoanVsOFE1T2l5MTE0TndqeWRSSkZkc0k?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "theatri",
+      "potentia",
+      "studium"
+    ],
+    "quote_id": "NO1.88",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T03:12:31.883815+00:00",
+    "publish_at": "2026-11-16T23:17:00+00:00",
+    "timestamp": "2026-11-16T23:17:00+00:00"
+  },
+  {
+    "id": "25aea5ba4ddc",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOUXo2MmJuVXZjRUhpUExsaVZmamhGRW5YeU9WMUFxdWJfRDFaQ0JkdnNqN0V6YUxlVTh1YnJQQkJDVXBYWTgxYV9TcnY4NUpwbkhINThEZlpXUWdncTFkN19qSzBlTk0?oc=5\n偽情報だけでなく、人の判断を変えるナラティブが脅威である『認知戦』について言及した。\n「劇場のイドラは生まれつきのものでも、ひそかに知性に忍び込んだものでもない。理論の作り話と、ゆがんだ論証の規則とから、公然と植えつけられ、受け容れられたものである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム61",
+    "original": "At idola theatri innata non sunt, nec occulto insinuata in intellectum; sed ex fabulis theoriarum, et perversis legibus demonstrationum, plane indita et recepta.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "偽情報だけではない「認知戦」 人の判断を変えるナラティブの脅威 - 朝日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOUXo2MmJuVXZjRUhpUExsaVZmamhGRW5YeU9WMUFxdWJfRDFaQ0JkdnNqN0V6YUxlVTh1YnJQQkJDVXBYWTgxYV9TcnY4NUpwbkhINThEZlpXUWdncTFkN19qSzBlTk0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio"
+    ],
+    "quote_id": "NO1.61",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T02:54:33.673666+00:00",
+    "publish_at": "2026-11-16T20:17:00+00:00",
+    "timestamp": "2026-11-16T20:17:00+00:00"
+  },
+  {
     "id": "f5f61d0edb43",
     "text": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE90WEVsSjdnWTFUano1WlMyNVM0WkFQVG5YclBJeUplMHlXOU02WWQtUXJQOUtOWjhkMjVXQ0ltRk16a1hRRFE?oc=5\n株式会社ソーシャルパスが総務省の偽・誤情報対策技術開発事業に採択された。\n「人間の知識と力とは一つに重なる。原因を知らなければ、結果を生み出すことはできないからである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム3",
     "original": "Scientia et potentia humana in idem coincidunt, quia ignoratio causae destituit effectum.",
@@ -739,67 +802,5 @@
     "generated_at": "2026-11-11T16:23:18.585658+00:00",
     "publish_at": "2026-11-12T11:17:00+00:00",
     "timestamp": "2026-11-12T11:17:00+00:00"
-  },
-  {
-    "id": "c016dece1722",
-    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fOHVrd3habjVndWFmeVBxcFNrVFpZTHEtT3ZLcVAxWDRZc092Y2h0NXBrTjlCcXlwRm5xYmp5QThqQVhJODBPckpOUG45SmZaRG16bndLYw?oc=5\n巨人選手が帽子を脱がないだけで大炎上し、球団公式SNSの危うさが浮き彫りになったという。\n「失敗したときの恥辱が、やり遂げたときの名誉より大きいような企てに乗り出す者は、自分の名誉の下手な管理者である。」\n『随筆集』第55篇「名誉と名声について」",
-    "original": "A man is an ill husband of his honor, that entereth into any action, the failing wherein may disgrace him, more than the carrying of it through, can honor him.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News SNS・報道",
-    "source_title": "画像 | 巨人選手が\"帽子を脱がない\"だけで大炎上…松井秀喜新監督の｢挨拶動画｣が浮き彫りにした球団公式SNSの危うさ - 東洋経済オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fOHVrd3habjVndWFmeVBxcFNrVFpZTHEtT3ZLcVAxWDRZc092Y2h0NXBrTjlCcXlwRm5xYmp5QThqQVhJODBPckpOUG45SmZaRG16bndLYw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E55",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T08:39:13.866881+00:00",
-    "publish_at": "2026-11-12T08:17:00+00:00",
-    "timestamp": "2026-11-12T08:17:00+00:00"
-  },
-  {
-    "id": "dceb8474dad6",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hS2c0RmtDQTFvcUFGNzVlUXhEYXNIb1R5ekpVOU5QNjdycUVCd2ttYWgxTjh6X082dUpQeHlhZ21YdGphbUpoMF81cHpsWk1fYVBxb2VYeldKS2plcC10dldSNVQ?oc=5\n中日新聞Webは「『偽情報』危うい断定 内閣広報官、Xで異論へけん制」と報じた。\n「こうした風評が騒乱の兆しだからといって、それを厳しすぎるほどに抑えつけることが騒乱の治療になるとは限らない。」\n『随筆集』第15篇「騒乱と動揺について」",
-    "original": "Neither doth it follow, that because these fames are a sign of troubles, that the suppressing of them with too much severity, should be a remedy of troubles.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「偽情報」危うい断定 内閣広報官、Xで異論へけん制 - 中日新聞Web",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hS2c0RmtDQTFvcUFGNzVlUXhEYXNIb1R5ekpVOU5QNjdycUVCd2ttYWgxTjh6X082dUpQeHlhZ21YdGphbUpoMF81cHpsWk1fYVBxb2VYeldKS2plcC10dldSNVQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama"
-    ],
-    "quote_id": "E15b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T08:15:57.832066+00:00",
-    "publish_at": "2026-11-12T05:17:00+00:00",
-    "timestamp": "2026-11-12T05:17:00+00:00"
-  },
-  {
-    "id": "53244e1057f5",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuWGgzMVBncmJMc1hCVjFVdTRFNGx3Y0Z0emh4MkVJeW15RWl5YnU2c1Y5U0NKQzl3amFIdzFDa3hreDg4dnRCdkYxd21LUG5nYjFYeHRzdFl0YTNORE9n?oc=5\n生成AI時代の災害対応に備え、偽画像拡散を想定した訓練を実施した西武鉄道という。\n「生き物が生まれたばかりのときは不格好であるように、時の産み落とす子であるあらゆる革新もまた、初めは不格好である。」\n『随筆集』第24篇「革新について」",
-    "original": "As the births of living creatures, at first are ill-shapen, so are all innovations, which are the births of time.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 12,
-    "source": "Google News AI・研究政策",
-    "source_title": "生成AI時代の災害対応 西武鉄道が偽画像拡散を想定した訓練 - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuWGgzMVBncmJMc1hCVjFVdTRFNGx3Y0Z0emh4MkVJeW15RWl5YnU2c1Y5U0NKQzl3amFIdzFDa3hreDg4dnRCdkYxd21LUG5nYjFYeHRzdFl0YTNORE9n?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "E24a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T07:57:08.871669+00:00",
-    "publish_at": "2026-11-12T02:17:00+00:00",
-    "timestamp": "2026-11-12T02:17:00+00:00"
   }
 ]
