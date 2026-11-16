@@ -1,5 +1,70 @@
 [
   {
+    "id": "6c5a1b61c5b7",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiV2JaMXpCNWo3ZUhSWnhNSnAyN1MxS1dneDB1TlVqbFR6dVh4OWxCZTlSNkFobGY2ZzhDWU1EdzZGSmJfNGhPZzBJa0Y4Tk1BSzZiVkhwdzl0VXF1T1lSalhua3VXdnFZODk4SnlPQlNRUGFB?oc=5\nBigGo ファイナンスは「FRBバー理事、AIが招く市場混乱に警鐘 取引の同調行動や銀行取り付け加速を指摘」と報じた。\n「政治の事柄においては、よい方への変化でさえ、混乱を招くゆえに疑われる。政治は論証にではなく、権威と同意と評判と意見とに拠って立つからである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム90",
+    "original": "Verum in rebus civilibus mutatio etiam in melius suspecta est ob perturbationem; cum civilia authoritate, consensu, fama, et opinione, non demonstratione, nitantur.",
+    "original_lang": "la",
+    "theme": "potentia",
+    "score": 8,
+    "source": "Google News 物議・警鐘",
+    "source_title": "FRBバー理事、AIが招く市場混乱に警鐘 取引の同調行動や銀行取り付け加速を指摘 - BigGo ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiV2JaMXpCNWo3ZUhSWnhNSnAyN1MxS1dneDB1TlVqbFR6dVh4OWxCZTlSNkFobGY2ZzhDWU1EdzZGSmJfNGhPZzBJa0Y4Tk1BSzZiVkhwdzl0VXF1T1lSalhua3VXdnFZODk4SnlPQlNRUGFB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "potentia"
+    ],
+    "quote_id": "NO1.90",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T22:41:33.622526+00:00",
+    "publish_at": "2026-11-17T20:17:00+00:00",
+    "timestamp": "2026-11-17T20:17:00+00:00"
+  },
+  {
+    "id": "667a53f0b4e4",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hXzNTTlpldUV6VDktZGtqelNqQUlkcjhtclB2NHhyVE5rTndfMm5pMUlFM2dqQ0ZCaDJlaXN3Sll0a3FRZnh0aUZQYjBFM3dVWThySHNRSnRCQXM?oc=5\n山陽新聞は「ＡＩの反論で３割判断覆す 世論工作などへの悪用懸念」と報じた。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
+    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 9,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "ＡＩの反論で３割判断覆す 世論工作などへの悪用懸念 - 山陽新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hXzNTTlpldUV6VDktZGtqelNqQUlkcjhtclB2NHhyVE5rTndfMm5pMUlFM2dqQ0ZCaDJlaXN3Sll0a3FRZnh0aUZQYjBFM3dVWThySHNRSnRCQXM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "potentia",
+      "tribus"
+    ],
+    "quote_id": "E12a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T22:36:57.811437+00:00",
+    "publish_at": "2026-11-17T17:17:00+00:00",
+    "timestamp": "2026-11-17T17:17:00+00:00"
+  },
+  {
+    "id": "7809ad7424c1",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fVnQ0X0xlR1psM08xX1RraEJXY3I2eko2d2dpR1kyUWRoTFJJZ25qQklyMENYZGg1cDBfRDAwYjFzQUt3Mm5PZDdUb1NiV0pSRi1UTWtUbTM0MVFZRzN0Y1gwRTlaSms2MzNpcWhCd1dTSFI2cHg5RUtR?oc=5\nライブドアニュースは「SNSで急増するAIなりすまし詐欺。『日本語がおかしい』ではもう見抜けない？」と報じた。\n「素手も、放任された知性も、大したことはできない。事は道具と補助によって成し遂げられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム2",
+    "original": "Nec manus nuda, nec intellectus sibi permissus, multum valet; instrumentis et auxiliis res perficitur …",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 10,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "SNSで急増するAIなりすまし詐欺。「日本語がおかしい」ではもう見抜けない？ - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fVnQ0X0xlR1psM08xX1RraEJXY3I2eko2d2dpR1kyUWRoTFJJZ25qQklyMENYZGg1cDBfRDAwYjFzQUt3Mm5PZDdUb1NiV0pSRi1UTWtUbTM0MVFZRzN0Y1gwRTlaSms2MzNpcWhCd1dTSFI2cHg5RUtR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "NO1.2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T22:19:05.258904+00:00",
+    "publish_at": "2026-11-17T14:17:00+00:00",
+    "timestamp": "2026-11-17T14:17:00+00:00"
+  },
+  {
     "id": "6c957bf873cd",
     "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZnVYaVFsYkN6TUtRTS0zNjUwWXRlelh1b0FqWEJqSUFfMkg3SURJSHJYTGFYWlFWM0tuSW90V0hjTHctT05UNHJOd1ZTSFNucmNjTjVLNHZfMkdVR0tFSzRoME1naXJISm5TN3RtRHR1VXFUM2ptRDBHMWhzRWV3ZEJHR2F5cDhx?oc=5\n韓国の税理士試験の首席合格者が生成AIを用いた不正を告白し、超小型カメラとスマホでほぼ満点を取ったという。\n「学問におけるほとんどあらゆる禍の原因と根はただ一つ、人間の知性の力を誤って讃え持ち上げるあまり、知性の真の助けを求めないことにある。」\n『ノヴム・オルガヌム』第1巻 アフォリズム9",
     "original": "Causa vero et radix fere omnium malorum in scientiis ea una est; quod dum mentis humanae vires falso miramur et extollimus, vera ejus auxilia non quaeramus.",
@@ -742,67 +807,5 @@
     "generated_at": "2026-11-12T12:48:19.631025+00:00",
     "publish_at": "2026-11-13T05:17:00+00:00",
     "timestamp": "2026-11-13T05:17:00+00:00"
-  },
-  {
-    "id": "58278b41de60",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kb2xXbkZNZDRvc0ZRLTFDYjZfRGVwSXlTYUlEZ3ZwcHZUTGdJR2tpOVlRa3F2QW52ZnFZQ1JEMmswai1tajlxcmd5amFTY1ZBVkZ4RUVtNFRyNmh5SFRwRHlSeVNTSjQwZGlpUktWUTg5alhtMmVIdk1CU09DMnc?oc=5\n米メディアは『適しているようには見えない』ドジャースの佐藤輝明獲得の噂について、関係の密接さを指摘したという。\n「自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。」\n『随筆集』第22篇「狡猾について」",
-    "original": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 12,
-    "source": "Google News 風評・噂",
-    "source_title": "「適しているようには見えない」ドジャース、佐藤輝明獲得の噂に疑問の声が上がった！？ 米メディアが指摘「どれほど密接な関係にあるかを」（ベースボールチャンネル） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kb2xXbkZNZDRvc0ZRLTFDYjZfRGVwSXlTYUlEZ3ZwcHZUTGdJR2tpOVlRa3F2QW52ZnFZQ1JEMmswai1tajlxcmd5amFTY1ZBVkZ4RUVtNFRyNmh5SFRwRHlSeVNTSjQwZGlpUktWUTg5alhtMmVIdk1CU09DMnc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E22b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T04:20:27.171738+00:00",
-    "publish_at": "2026-11-13T02:17:00+00:00",
-    "timestamp": "2026-11-13T02:17:00+00:00"
-  },
-  {
-    "id": "6f5f8af3a58a",
-    "text": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV0t0MW52T2RuMFZTZVVmbkNOeFJrNFVpM0x4ZlpYX2YwSTctODdEcDhqWDl4bDdnSEJkUUItSkQ3Rmo4WGoyMmJ1TWxUaFMyd3BlOWpucFNuZTh2WUxkZUZ4Y19Ecm8xeU4yN0VpT214azRoZ1VFbTVUSk1ZSGl4WVBOcGUzUmJyQWs5S1o0aU5PbnJsV1JDcld0bVh1d0Q2aHhScXRpb05ib2JpdHYzMnVFNzhUUm5aM2dzcjlZbzJLb1U4YnFSd0RnSldtb3c?oc=5\n디지털투데이は「韓国政府、AIと偽情報を巡る市民討論会開催」と報じた。\n「人間の知性をすでに占拠し、そこに深く根を張ったイドラと誤った観念は、人の心を包囲して、真理への入口を狭く険しいものにする。」\n『ノヴム・オルガヌム』第1巻 アフォリズム38",
-    "original": "Idola et notiones falsae, quae intellectum humanum jam occuparunt atque in eo alte haerent, non solum mentes hominum ita obsident, ut veritati aditus difficilis pateat …",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "韓国政府、AIと偽情報を巡る市民討論会開催 - 디지털투데이",
-    "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV0t0MW52T2RuMFZTZVVmbkNOeFJrNFVpM0x4ZlpYX2YwSTctODdEcDhqWDl4bDdnSEJkUUItSkQ3Rmo4WGoyMmJ1TWxUaFMyd3BlOWpucFNuZTh2WUxkZUZ4Y19Ecm8xeU4yN0VpT214azRoZ1VFbTVUSk1ZSGl4WVBOcGUzUmJyQWs5S1o0aU5PbnJsV1JDcld0bVh1d0Q2aHhScXRpb05ib2JpdHYzMnVFNzhUUm5aM2dzcjlZbzJLb1U4YnFSd0RnSldtb3c?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia"
-    ],
-    "quote_id": "NO1.38",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T04:00:00.289903+00:00",
-    "publish_at": "2026-11-12T23:17:00+00:00",
-    "timestamp": "2026-11-12T23:17:00+00:00"
-  },
-  {
-    "id": "b960878391ae",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CTE5YdVBuMzJpVGFUV25ZMVJfVUdVazhoeEpRdkJvMm12MTY5UjVGYUlwZDBJUnIzR2cxejFtM3Nwa0pUcG9XdGltODY5aTE0X0tWN1ZUQU9VdWc0aWNKLV96aWI3TUpUdFEwUUhGY3pMSzVQUEp3YVRJM285YnM?oc=5\nショップ店員が客に対して不適切な行動を取り、それが拡散して炎上し店が謝罪したが、援護しようもないという声も上がったという。\n「セネカはよく言った。怒りは崩れ落ちる建物のようなもので、落ちかかった相手の上で自らも砕ける、と。」\n『随筆集』第57篇「怒りについて」",
-    "original": "Seneca saith well, That anger is like ruin, which breaks itself upon that it falls.",
-    "original_lang": "en",
-    "theme": "fori",
-    "score": 12,
-    "source": "Google News 撤回・謝罪・誤認",
-    "source_title": "「中指立て」「国語からやり直せよ」ショップ店員による客への“不適切”行動が拡散し炎上…店が「侮辱的な発言、行為あった」認めて謝罪→「援護しようもない」の声（女性自身） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CTE5YdVBuMzJpVGFUV25ZMVJfVUdVazhoeEpRdkJvMm12MTY5UjVGYUlwZDBJUnIzR2cxejFtM3Nwa0pUcG9XdGltODY5aTE0X0tWN1ZUQU9VdWc0aWNKLV96aWI3TUpUdFEwUUhGY3pMSzVQUEp3YVRJM285YnM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fori",
-      "fama"
-    ],
-    "quote_id": "E57a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T23:02:07.753670+00:00",
-    "publish_at": "2026-11-12T20:17:00+00:00",
-    "timestamp": "2026-11-12T20:17:00+00:00"
   }
 ]
