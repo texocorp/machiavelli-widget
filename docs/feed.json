@@ -1,5 +1,82 @@
 [
   {
+    "id": "ab0cc563c8d6",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pSnZDMGRrWW0wdTZOVUcwLVhGT0l3SE9YWFJRblpHYllCaXRMNHZuSWJwZFBhUC0tb0ViMG1YUUlhX2hIS2dXZ0NTekt0Zldldy11YjRBNFRsUmdiQmJUQWlMd3h0RGM?oc=5\nイランはバーレーンの米軍施設を攻撃し、湾岸諸国も2ヶ月ぶりに標的となっている。\n「領土を手に入れたいと望むのは、まことに自然でありふれたことである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中東",
+    "source_title": "イランがバーレーンの米軍施設を攻撃 湾岸諸国が2カ月ぶり標的に - 朝日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pSnZDMGRrWW0wdTZOVUcwLVhGT0l3SE9YWFJRblpHYllCaXRMNHZuSWJwZFBhUC0tb0ViMG1YUUlhX2hIS2dXZ0NTekt0Zldldy11YjRBNFRsUmdiQmJUQWlMd3h0RGM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "P03c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T10:29:57.091814+00:00",
+    "publish_at": "2026-11-17T09:17:00+00:00",
+    "timestamp": "2026-11-17T09:17:00+00:00"
+  },
+  {
+    "id": "e1aebc49e9e1",
+    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RSWtXMnNXRHZGMEh4cG9WbmJOYzI0T2JidkdJNzVxTkJnTE9YdURXMkxJeWV4ZmllcjZudHJEaWx2WHd6LWI0WnNkSVV1a0Q3QkVYMU1ldjcydWpvMXRGY9IBZkFVX3lxTE13WGN4MlFKS1MyUk9YWXUtb1QwaXBuSmQ5THNMWTQyQUh0b1dDdmNXb1hrQlh0anVnc0ZMQm44M21OcDFqcXNWNFM3ZndCSWk5VmplRGpBTnQ2S3owUGs4QjhyWXZ4Zw?oc=5\nイランは、米軍基地にドローン攻撃を加え、バーレーンの米軍基地を攻撃したという。\n「君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。」\n『君主論 cap.XXI』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン、バーレーンの米軍基地をドローン攻撃 - BBC",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RSWtXMnNXRHZGMEh4cG9WbmJOYzI0T2JidkdJNzVxTkJnTE9YdURXMkxJeWV4ZmllcjZudHJEaWx2WHd6LWI0WnNkSVV1a0Q3QkVYMU1ldjcydWpvMXRGY9IBZkFVX3lxTE13WGN4MlFKS1MyUk9YWXUtb1QwaXBuSmQ5THNMWTQyQUh0b1dDdmNXb1hrQlh0anVnc0ZMQm44M21OcDFqcXNWNFM3ZndCSWk5VmplRGpBTnQ2S3owUGs4QjhyWXZ4Zw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AD1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T10:27:33.578797+00:00",
+    "publish_at": "2026-11-17T06:17:00+00:00",
+    "timestamp": "2026-11-17T06:17:00+00:00"
+  },
+  {
+    "id": "4026d0dd0f77",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fRlNwalVRdWp2aGY5enRhNUthZ05fWHlkRUZkVDdtUkFTNkoycTRNbFlkYjU0UDF6SEc5Y1RldEZyU1JMVVMzRWZmM3RRX0RTNTE2REQzREVqMnBLNnpFR1V1aW1qNjg?oc=5\nエストニアはドローン施設への爆破未遂を受け、ロシアとの国境を封鎖する方針だという。\n「君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。」\n『君主論 cap.XIV』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "エストニア、ロシアとの国境を封鎖へ ドローン施設への爆破未遂受け - 朝日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fRlNwalVRdWp2aGY5enRhNUthZ05fWHlkRUZkVDdtUkFTNkoycTRNbFlkYjU0UDF6SEc5Y1RldEZyU1JMVVMzRWZmM3RRX0RTNTE2REQzREVqMnBLNnpFR1V1aW1qNjg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AP2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T10:03:25.543764+00:00",
+    "publish_at": "2026-11-17T03:17:00+00:00",
+    "timestamp": "2026-11-17T03:17:00+00:00"
+  },
+  {
+    "id": "3e4cac8fdd83",
+    "text": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4tWktER3JFZG1kcE1VeDFxZ0tXbmMwTU42dGdUd0YweXRnWTJBeWdSUWswelhzdnVidEFpSldHWEI0N1l5cmhR?oc=5\n北方領土をロシア領や尖閣を中国領とするなど、日米中ロ韓による日本包囲網が敷かれているという状況下で、高市首相が領土を守れるかという問題だ。\n「弱い国家は決断において常に曖昧であり、遅い決断は常に有害である。」\n『リウィウス論 II.15』",
+    "theme": "necessita",
+    "score": 14,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "「北方領土はロシア領」「尖閣は中国領」「竹島は韓国領」…米中ロに韓国まで加わり敷かれる“日本包囲網”、高市首相は領土を守れるのか - マネーポストWEB",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4tWktER3JFZG1kcE1VeDFxZ0tXbmMwTU42dGdUd0YweXRnWTJBeWdSUWswelhzdnVidEFpSldHWEI0N1l5cmhR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "D2.15",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T09:51:57.981663+00:00",
+    "publish_at": "2026-11-17T00:17:00+00:00",
+    "timestamp": "2026-11-17T00:17:00+00:00"
+  },
+  {
     "id": "4a64e3b76e5b",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNMDZTQXVTbnF3UHZha1FTQm44OHlNMmJvSmktdmp1Vkc3clVJb3pNUXJzd2RpVGZGX3BNcXBCd2twbGtJTF9yUnFxUlNrenZySk1SZzZ3RWV6emZiTlE2akhkenBsNG9pd1A1dw?oc=5\nエストニアは放火未遂事件を受け、12月からロシア国境を閉鎖する方針だという。\n「賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。」\n『リウィウス論 III.12』",
     "theme": "guerra",
@@ -683,93 +760,5 @@
     "generated_at": "2026-11-11T22:55:58.214475+00:00",
     "publish_at": "2026-11-12T18:17:00+00:00",
     "timestamp": "2026-11-12T18:17:00+00:00"
-  },
-  {
-    "id": "e97ea98fd4bd",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XOGxyTDNuV29lRVdVa2lnTXo3RUMzdkpWUVp0QzVqQVdJelBKN2xXT1JfVGp5azltdzQ3THFFM2ZJVEt6aW9GYUNTUnl5eEJ6RUR5RFRQNjFRbVNGa1VlcTdUN0VtMnJhSEJ5Z1JpTTVvX3RtV2pYNlJBdFVqTG8?oc=5\nイランによる暗殺の恐れがあるとして、ベッセント米財務長官が自宅から基地へ転居した。\n「勝者は、苦難を共にせぬ疑わしき友を欲せず、敗者もまた、剣を執って運命を共にせぬ者を迎え入れはしない。」\n『君主論 cap.XXI』",
-    "theme": "alleanze_dipendenza",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "イランによる暗殺恐れ、ベッセント米財務長官が自宅から基地に転居…経済制裁主導し標的に（読売新聞オンライン） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XOGxyTDNuV29lRVdVa2lnTXo3RUMzdkpWUVp0QzVqQVdJelBKN2xXT1JfVGp5azltdzQ3THFFM2ZJVEt6aW9GYUNTUnl5eEJ6RUR5RFRQNjFRbVNGa1VlcTdUN0VtMnJhSEJ5Z1JpTTVvX3RtV2pYNlJBdFVqTG8?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "alleanze_dipendenza",
-      "economia",
-      "consiglio",
-      "necessita"
-    ],
-    "quote_id": "NT2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T22:13:27.586087+00:00",
-    "publish_at": "2026-11-12T15:17:00+00:00",
-    "timestamp": "2026-11-12T15:17:00+00:00"
-  },
-  {
-    "id": "e6383a7d287e",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSThIeEswNDl2aWxYVDAzeGJpaGtWMHJPcnlpWWZoaDNkay1zOEJNWXZ6blhKVUF3dU52a25Oc0U0NEd0c2U5dWJKZzJ0b0pDUkRDNEw2eHJ1aUpxeVV5RlNRa3owajNmWW8zQXZpRGM3NW82bUJKS3RfOUNGVkRIUW96dXQyZw?oc=5\nロシアがウクライナの10州で送電網を攻撃し、冬を間近に控えてエネルギー施設を標的にした。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ロシア、ウクライナ10州の送電網攻撃 冬控えエネルギー施設標的 | ロイター - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSThIeEswNDl2aWxYVDAzeGJpaGtWMHJPcnlpWWZoaDNkay1zOEJNWXZ6blhKVUF3dU52a25Oc0U0NEd0c2U5dWJKZzJ0b0pDUkRDNEw2eHJ1aUpxeVV5RlNRa3owajNmWW8zQXZpRGM3NW82bUJKS3RfOUNGVkRIUW96dXQyZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "economia"
-    ],
-    "quote_id": "ID2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T16:09:14.481082+00:00",
-    "publish_at": "2026-11-12T12:17:00+00:00",
-    "timestamp": "2026-11-12T12:17:00+00:00"
-  },
-  {
-    "id": "9f33fc932d45",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jRUs3UmR3S2ctU1MtNGZOM2VZZVdJWjA5dk5jV3dzWFlJZmJWdXpPN2dhd1FYbkxRbDBZa2VmRXVaY0FsUF9hVkw5a3YwQVlsemg4Rnp4ZUxFUzJ2WlBPdW9NODhJSnMyNUNMQg?oc=5\nイランの首都テヘランではトランプ劇場が行われ、繁華街で市民の軍事訓練も実施されたという。\n「君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。」\n『君主論 cap.XIV』",
-    "theme": "guerra",
-    "score": 16,
-    "source": "Google News 国際(World)",
-    "source_title": "イランの首都テヘランに「トランプ劇場」 繁華街で市民の軍事訓練も - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jRUs3UmR3S2ctU1MtNGZOM2VZZVdJWjA5dk5jV3dzWFlJZmJWdXpPN2dhd1FYbkxRbDBZa2VmRXVaY0FsUF9hVkw5a3YwQVlsemg4Rnp4ZUxFUzJ2WlBPdW9NODhJSnMyNUNMQg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "inganno_simulazione",
-      "economia",
-      "consiglio"
-    ],
-    "quote_id": "AP2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T14:39:01.864270+00:00",
-    "publish_at": "2026-11-12T09:17:00+00:00",
-    "timestamp": "2026-11-12T09:17:00+00:00"
-  },
-  {
-    "id": "20e8f11b7fe8",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwX3E3V0JFMUc4TjROaWJERXJMNW5MSktKX2syUmRhajNsLTRMLWk2b29jdGZuNkVNY1Y4R2hqTEZUVTZQVEd1bUNYalBQbjQyWDV0MWtZSWhUZmdYOC01TEhR?oc=5\nＧ７で米国務長官が外交路線の継続を強調し、イラン攻撃の成果を強調するとともに国連とＩＣＣについては問題視した。\n「衆愚は常に、見かけと結果にのみ捕らわれる。」\n『君主論 cap.XVIII』",
-    "theme": "guerra",
-    "score": 21,
-    "source": "Google News 国際(World)",
-    "source_title": "［スキャナー］Ｇ７で米国務長官、外交路線の継続強調…イラン攻撃は成果強調・国連とＩＣＣは問題視 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwX3E3V0JFMUc4TjROaWJERXJMNW5MSktKX2syUmRhajNsLTRMLWk2b29jdGZuNkVNY1Y4R2hqTEZUVTZQVEd1bUNYalBQbjQyWDV0MWtZSWhUZmdYOC01TEhR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "economia",
-      "consiglio",
-      "armi_proprie"
-    ],
-    "quote_id": "PP2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T14:28:55.823315+00:00",
-    "publish_at": "2026-11-12T06:17:00+00:00",
-    "timestamp": "2026-11-12T06:17:00+00:00"
   }
 ]
