@@ -1,5 +1,65 @@
 [
   {
+    "id": "b5405503db2b",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XampZVzBBYm53TnVHUEJCamJ4RmJCbFFacDBqZ24tVXZzRC1QMno5YlpoRTFFVEdjd005ZEdEbXNmZW1NV0ZpZEs4d3BFN0JraWxqd2R3Xy1SQQ?oc=5\n北朝鮮が核開発を進め、日本はどのように備えるべきかという問いに対し、韓国元高官が非核三原則の見直しを提言した。\n「人は、恐れられている者よりも、愛されている者を害することにためらいが少ない。」\n『君主論 cap.XVII』",
+    "theme": "paura_amore",
+    "score": 8,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "止められなかった北朝鮮の核開発、日本はどう備える？ 「非核三原則の見直しを」と韓国元高官、初の核実験から２０年 - 中国新聞デジタル",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XampZVzBBYm53TnVHUEJCamJ4RmJCbFFacDBqZ24tVXZzRC1QMno5YlpoRTFFVEdjd005ZEdEbXNmZW1NV0ZpZEs4d3BFN0JraWxqd2R3Xy1SQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "paura_amore"
+    ],
+    "quote_id": "P17a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T21:08:13.592675+00:00",
+    "publish_at": "2026-11-17T18:17:00+00:00",
+    "timestamp": "2026-11-17T18:17:00+00:00"
+  },
+  {
+    "id": "5c40bd2c3700",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wVmdVRFkzV2JpN2hxb2huOERwSi1od0ZYVW1vOXhoRkdzZThGeDdxSElxbzAxVUs0ZldXWmR5cTlyZnU4czlSVGY5YTZZRTBHZm5wUGRoTEg2V3lfVnFhNlhfNGhZM1J6bkJwYl82dlBpNGRUUk9iUV9lOE1wWmM?oc=5\nイランが2カ月ぶりにバーレーンの米軍施設を攻撃し、フーシ派もサウジとイエメンに攻勢をかけているという。\n「己の力と敵の力を知る者は、容易には敗れぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中東",
+    "source_title": "イランが2カ月ぶりにバーレーンの米軍施設攻撃…フーシ派はサウジとイエメンに攻勢（中央日報日本語版） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wVmdVRFkzV2JpN2hxb2huOERwSi1od0ZYVW1vOXhoRkdzZThGeDdxSElxbzAxVUs0ZldXWmR5cTlyZnU4czlSVGY5YTZZRTBHZm5wUGRoTEg2V3lfVnFhNlhfNGhZM1J6bkJwYl82dlBpNGRUUk9iUV9lOE1wWmM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AG6",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T20:49:30.945416+00:00",
+    "publish_at": "2026-11-17T15:17:00+00:00",
+    "timestamp": "2026-11-17T15:17:00+00:00"
+  },
+  {
+    "id": "cf4eb595f979",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWUh1dzNFcW5wVTlVV3N3OGNVLWdOR1ZMWjliaDAxTTEtd0NYcDJvdFBYYkstZ29PeUM0TExMWUlDaHczZ1F3SHVZcGF3cFhFeG1oei00YTFGdU1LdUlYT0FhWmp4YXdYUC05SHhBY1czaVhIUC1PVnF4TFhuOHc?oc=5\nバーレーンは隣国イランからの攻撃を迎撃し、中東のサーキットの位置関係が報じられたという。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
+    "theme": "guerra",
+    "score": 16,
+    "source": "Google News 国際(World)",
+    "source_title": "F1カタールGP会場から約111km･･･隣国バーレーンがイランの攻撃を迎撃、来季開幕戦バーレーンGP会場までわずか11km 中東3サーキットの位置関係は？（TopNews） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWUh1dzNFcW5wVTlVV3N3OGNVLWdOR1ZMWjliaDAxTTEtd0NYcDJvdFBYYkstZ29PeUM0TExMWUlDaHczZ1F3SHVZcGF3cFhFeG1oei00YTFGdU1LdUlYT0FhWmp4YXdYUC05SHhBY1czaVhIUC1PVnF4TFhuOHc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D2.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T20:29:38.586452+00:00",
+    "publish_at": "2026-11-17T12:17:00+00:00",
+    "timestamp": "2026-11-17T12:17:00+00:00"
+  },
+  {
     "id": "ab0cc563c8d6",
     "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pSnZDMGRrWW0wdTZOVUcwLVhGT0l3SE9YWFJRblpHYllCaXRMNHZuSWJwZFBhUC0tb0ViMG1YUUlhX2hIS2dXZ0NTekt0Zldldy11YjRBNFRsUmdiQmJUQWlMd3h0RGM?oc=5\nイランはバーレーンの米軍施設を攻撃し、湾岸諸国も2ヶ月ぶりに標的となっている。\n「領土を手に入れたいと望むのは、まことに自然でありふれたことである。」\n『君主論 cap.III』",
     "theme": "guerra",
@@ -698,67 +758,5 @@
     "generated_at": "2026-11-12T03:27:45.936288+00:00",
     "publish_at": "2026-11-13T03:17:00+00:00",
     "timestamp": "2026-11-13T03:17:00+00:00"
-  },
-  {
-    "id": "81efc46aa67e",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52NmM2c3FVbkMxb2JtYWhXTjVCUXRPWnYwLUxXb2Y1U0JFUzV2S0Y0NHMtWkxRa1JDcS1iMkVUM01HTmZZS0V1em03R0JNY2lNTy1LS1lMLU9VZldCdUlySXlld1d5V3NvT0FaYWplUnMyaC1UbWN5MWxBRmFMYXc?oc=5\nイランが欧州にある米軍基地への攻撃を警告し、対イラン攻撃に使用される場合は対象とした。\n「公に対してであれ私人に対してであれ、加えられた侮辱に報いぬことは、国家にとってかくも危険である。」\n『リウィウス論 II.28』",
-    "theme": "guerra",
-    "score": 11,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、欧州の米軍基地にも攻撃警告 対イラン攻撃に使用なら（ＡＦＰ＝時事） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52NmM2c3FVbkMxb2JtYWhXTjVCUXRPWnYwLUxXb2Y1U0JFUzV2S0Y0NHMtWkxRa1JDcS1iMkVUM01HTmZZS0V1em03R0JNY2lNTy1LS1lMLU9VZldCdUlySXlld1d5V3NvT0FaYWplUnMyaC1UbWN5MWxBRmFMYXc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "D2.28",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T03:23:40.246297+00:00",
-    "publish_at": "2026-11-13T00:17:00+00:00",
-    "timestamp": "2026-11-13T00:17:00+00:00"
-  },
-  {
-    "id": "1e0e9cc60f39",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfbmxBMU1YMHhhTlpLLWpSYkNFVzZJX05Ba2FsaHBoMV92eVh2TnFPUkV2bm1Od25feTU0dDZzaVZkRms0S1ZwZ01BUkVYcnQwR0RjQmVzaVlPR0diSTV5ZjU3QnlHbnhuckdobHJQV2JvMXRYSXladnZCU09uTEU?oc=5\nトランプ氏がイランは終わったと語った翌日、革命防衛隊は地下ミサイル都市の公開を行ったという。\n「外が安定していれば、陰謀に乱されぬ限り、内も常に安定しているものだ。」\n『君主論 cap.XIX』",
-    "theme": "guerra",
-    "score": 22,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏「イランは終わった」と語った翌日…「地下ミサイル都市」公開した革命防衛隊（中央日報日本語版） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfbmxBMU1YMHhhTlpLLWpSYkNFVzZJX05Ba2FsaHBoMV92eVh2TnFPUkV2bm1Od25feTU0dDZzaVZkRms0S1ZwZ01BUkVYcnQwR0RjQmVzaVlPR0diSTV5ZjU3QnlHbnhuckdobHJQV2JvMXRYSXladnZCU09uTEU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "consiglio"
-    ],
-    "quote_id": "P19b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T03:00:06.570279+00:00",
-    "publish_at": "2026-11-12T21:17:00+00:00",
-    "timestamp": "2026-11-12T21:17:00+00:00"
-  },
-  {
-    "id": "7cb2bab354d0",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVlp1UnJGTk1zN0F6b1VIQjBQajJ5XzZEaDBHNkRMenhkcldkMmVKWUxzZVpVNHZySXpDZGJxbG9tN1dlVVRqaTVVWnFlUFFKSGV0ME9sNkJQQzlFNGdocmV5Sm4yamwtRzYzU2RpLWhvX01KdWxoaUU0djJmVlJxdGJDSS1Ddw?oc=5\nロシアはウクライナの製油所への攻撃を再開させ、石油精製能力を3割減らしたという。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ロシア石油精製能力3割減、ウクライナの製油所攻撃再開で＝関係筋 | ロイター - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVlp1UnJGTk1zN0F6b1VIQjBQajJ5XzZEaDBHNkRMenhkcldkMmVKWUxzZVpVNHZySXpDZGJxbG9tN1dlVVRqaTVVWnFlUFFKSGV0ME9sNkJQQzlFNGdocmV5Sm4yamwtRzYzU2RpLWhvX01KdWxoaUU0djJmVlJxdGJDSS1Ddw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "economia"
-    ],
-    "quote_id": "P05",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T22:55:58.214475+00:00",
-    "publish_at": "2026-11-12T18:17:00+00:00",
-    "timestamp": "2026-11-12T18:17:00+00:00"
   }
 ]
