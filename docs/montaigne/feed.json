@@ -1,5 +1,75 @@
 [
   {
+    "id": "52623654f7ba",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uLUpSN053MXowelRiVm9vNHhvcDVMVm91LXhpTmlWYkt4OWdNSkVQQnVNQjBzNTc1SUZRSS1EcDFvaHZ6N2xJU1pHWTlmci1GR2NyUkxnYWhCNHQ2eVlfVjFlb1h6eEoyUVVLanR5QWJnY2FpZ1JMdjI3c2Rkdmc?oc=5\n71歳夫婦は必死に貯めた資産2億円に対し、『使い切れる気がしません』とため息をつくという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
+    "theme": "soi",
+    "score": 0,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「使い切れる気がしません」71歳夫婦、必死に貯めた“資産2億円”を前にため息。〈自助努力〉に追い詰められた末の老後の後悔 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uLUpSN053MXowelRiVm9vNHhvcDVMVm91LXhpTmlWYkt4OWdNSkVQQnVNQjBzNTc1SUZRSS1EcDFvaHZ6N2xJU1pHWTlmci1GR2NyUkxnYWhCNHQ2eVlfVjFlb1h6eEoyUVVLanR5QWJnY2FpZ1JMdjI3c2Rkdmc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T22:20:06.505542+00:00",
+    "publish_at": "2026-11-17T22:17:00+00:00",
+    "timestamp": "2026-11-17T22:17:00+00:00"
+  },
+  {
+    "id": "1fab48ffff2d",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2ZkNtai1SS2JJMlRCZE5XOVlkV202d1dvREFlUHdQN3N0S3k2NXVwOXVjQU1VR3VNTFVXeUpzN0pwUndESE1rSHNlWG4xdFZJQktYYmhxcjBHc19aZkpPbUNUNDYxT1U5bk1DVXJoaHJhTUtmYW1UMkxB?oc=5\nチャンピオンベルトを奪った張本人がまた反則論争で勝利し、『くそったれ』と叫んだという。\n「足取りも歩きぶりもまるで頼りにならぬ者と連れ立って、何のために真実を探しに出かけるのか。」\n『エセー III.8「談論の術について」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "'歴代級のマナー違反'あからさまな目突き→'前代未聞の失明危機'チャンピオンベルトまで奪った張本人、また'反則論争'勝利「くそったれ - 스타뉴스",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2ZkNtai1SS2JJMlRCZE5XOVlkV202d1dvREFlUHdQN3N0S3k2NXVwOXVjQU1VR3VNTFVXeUpzN0pwUndESE1rSHNlWG4xdFZJQktYYmhxcjBHc19aZkpPbUNUNDYxT1U5bk1DVXJoaHJhTUtmYW1UMkxB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "III.8b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T22:16:08.746596+00:00",
+    "publish_at": "2026-11-17T19:17:00+00:00",
+    "timestamp": "2026-11-17T19:17:00+00:00"
+  },
+  {
+    "id": "f45b32406e45",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdzA2MjVMWUpXRV94WEFqakpXS2ZCNW5sQ2xqVzRDWXNvRjFENUx4eWktR1U1R05MZmJEaXE2ZG1GTl9KRUJ2UW5NZjJwUEt1cFo0TkhtT0podHc?oc=5\n還暦過ぎからの終活準備で、形見のバイクに何を願うのかという。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "還暦過ぎからの終活準備、形見のバイクに何を願う？｜バイカーズシネマパラダイス第22回 - Dig-it",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdzA2MjVMWUpXRV94WEFqakpXS2ZCNW5sQ2xqVzRDWXNvRjFENUx4eWktR1U1R05MZmJEaXE2ZG1GTl9KRUJ2UW5NZjJwUEt1cFo0TkhtT0podHc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort"
+    ],
+    "quote_id": "I.20d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T22:11:57.697634+00:00",
+    "publish_at": "2026-11-17T16:17:00+00:00",
+    "timestamp": "2026-11-17T16:17:00+00:00"
+  },
+  {
+    "id": "09d330e71b1e",
+    "text": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2dmVWbmlKSDM4RWFsai1rU3Y0S3lfLUJiM25oWmFwTEkxUF80R2Z6aG5pdXhxNHpJUWVsUDhudnVSZUlCc3dVd2IzNWFseHpNVFVLLUJNZWI4X0lpM29wcGxHUWpvd1UwQXJURzRoaW4?oc=5\n情シスに転職して活躍する人と孤立する人との違いを専門エージェントが見たという。\n「人は自分を賃貸しする。その能力は自分のためではなく、仕える相手のためにある。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "情シスに転職して活躍する人、孤立する人 専門エージェントが見た分かれ目 - TechTargetジャパン",
+    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2dmVWbmlKSDM4RWFsai1rU3Y0S3lfLUJiM25oWmFwTEkxUF80R2Z6aG5pdXhxNHpJUWVsUDhudnVSZUlCc3dVd2IzNWFseHpNVFVLLUJNZWI4X0lpM29wcGxHUWpvd1UwQXJURzRoaW4?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "III.10c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-16T22:09:33.851374+00:00",
+    "publish_at": "2026-11-17T13:17:00+00:00",
+    "timestamp": "2026-11-17T13:17:00+00:00"
+  },
+  {
     "id": "04bb9e2095bd",
     "text": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LNUExcFFjbFBCSTBSamYxQ3M1TW9OWHp3QURCbEpoNm9VWDUtRWlaazQ4WG05NkUwV0dSMENzN19lRlRsdURj?oc=5\n甲南女子大学が12月13日に開催する入試問題対策講座で高3生に赤本を配布しライブ配信も行うという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
     "theme": "savoir",
@@ -633,80 +703,5 @@
     "generated_at": "2026-11-12T12:53:03.526245+00:00",
     "publish_at": "2026-11-13T07:17:00+00:00",
     "timestamp": "2026-11-13T07:17:00+00:00"
-  },
-  {
-    "id": "7a91c417689e",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhRHpIaGxtYWRFaEZfeThzaHMwNThoVV9QLTU0TXpXYldEQ000N2tIVFdob0tfd2VlR3I0dW9RVlVCV0ZQV1lkTVJhUzdYOXp6N3F1MVZKMUtGMk05SUx0M1pTTi1YU2VDVDBYTlFiNjI1bWlid2puR0lDU2ZjX0k?oc=5\n都教委が公表したアンケートで、学校でカスハラを受けた教職員の13%が経験しているという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 検索 職場",
-    "source_title": "学校でのカスハラ、教職員の13%が経験 都教委がアンケ結果を公表（朝日新聞） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhRHpIaGxtYWRFaEZfeThzaHMwNThoVV9QLTU0TXpXYldEQ000N2tIVFdob0tfd2VlR3I0dW9RVlVCV0ZQV1lkTVJhUzdYOXp6N3F1MVZKMUtGMk05SUx0M1pTTi1YU2VDVDBYTlFiNjI1bWlid2puR0lDU2ZjX0k?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "III.8a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T12:51:32.572887+00:00",
-    "publish_at": "2026-11-13T04:17:00+00:00",
-    "timestamp": "2026-11-13T04:17:00+00:00"
-  },
-  {
-    "id": "642291ec3462",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00ODZXSmVIdkMzdFJGZzFUTnc0emtUeHBNSU1WcDBmU2ZzZ1NWXzU1NElwRk9jQjFCNmNfTEhLSUcwV2lxNXJfeUdlYXd3cWZfWXRCaUd3LWdJbnZEUGg1S3l6OW1EV1pl0gFuQVVfeXFMTlBfWGhQMjgzejJWNHVjYnAyYmlkb3BUOW0zdExCako0OWpyMjN4ci1DeHc4cWUtTURKR0xTX2t6ZDg4ZmI0Rk11el8zWFkxbnUwcjEwaGUwaGRVNF9BUTZVTWk3WGRUNEs5SDBsd1E?oc=5\n韓国飲食店が『女性は少食』という偏見に基づき量差別を行っており、それが放置されている。\n「奇跡とは、自然の在り方によるのではなく、自然についての我々の無知によるものである。慣れは、我々の判断の目を眠らせる。」\n『エセー I.23「慣習について」』",
-    "theme": "autrui",
-    "score": 4,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "「女性は少食」という身勝手な偏見！ 韓国飲食店の“量差別”と放置される食の男女平等 - Infoseek",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00ODZXSmVIdkMzdFJGZzFUTnc0emtUeHBNSU1WcDBmU2ZzZ1NWXzU1NElwRk9jQjFCNmNfTEhLSUcwV2lxNXJfeUdlYXd3cWZfWXRCaUd3LWdJbnZEUGg1S3l6OW1EV1pl0gFuQVVfeXFMTlBfWGhQMjgzejJWNHVjYnAyYmlkb3BUOW0zdExCako0OWpyMjN4ci1DeHc4cWUtTURKR0xTX2t6ZDg4ZmI0Rk11el8zWFkxbnUwcjEwaGUwaGRVNF9BUTZVTWk3WGRUNEs5SDBsd1E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui"
-    ],
-    "quote_id": "I.23d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T12:49:59.522189+00:00",
-    "publish_at": "2026-11-13T01:17:00+00:00",
-    "timestamp": "2026-11-13T01:17:00+00:00"
-  },
-  {
-    "id": "ec7f5aac0153",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jRDNVRzRsRGZxQ3k2YzhaZVVPa3VUMnFxd3BBNHRhOHc2WmtFa2JBcUVXeU80XzFzYXFUQWwyRVFaSmhiejNIbzVibHJSOXVDR3dEQ3J6ZUl6VTVnSFEweEllN3F6MkNYb3BfOA?oc=5\n長野労働局に対し、過労死遺族らは、長時間労働の規制強化を求めるという。\n「絶えず変わり続ける我々の行為と、固定されて動かぬ法との間には、ほとんど釣り合いがない。最も望ましい法とは、最も数が少なく、最も簡素で、一般的なものだ。」\n『エセー III.13「経験について」』",
-    "theme": "lois",
-    "score": 4,
-    "source": "Google News 検索 職場",
-    "source_title": "過労死遺族らが長時間労働の規制強化求める 長野労働局に - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jRDNVRzRsRGZxQ3k2YzhaZVVPa3VUMnFxd3BBNHRhOHc2WmtFa2JBcUVXeU80XzFzYXFUQWwyRVFaSmhiejNIbzVibHJSOXVDR3dEQ3J6ZUl6VTVnSFEweEllN3F6MkNYb3BfOA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "mort",
-      "soi"
-    ],
-    "quote_id": "III.13d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T22:47:58.550793+00:00",
-    "publish_at": "2026-11-12T22:17:00+00:00",
-    "timestamp": "2026-11-12T22:17:00+00:00"
-  },
-  {
-    "id": "b52ddbff6ee6",
-    "text": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UdXl1eDNGM3dNYnlHeHA2bVoxRW1oT0U4R3U3QnltN0JVOGw1cF8yOUpReU1VUTRzM2RBR0oyYV9kZXhSUDk3T2szVEJJNXJGanY2a0QtS1ZYX2VRdkxmRGRaVXA3WF9LYUlERE8yNA?oc=5\nメニコンの就職偏差値や平均年収を調べるという企業研究が行われた。\n「誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。」\n『エセー I.25「衒学について」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 検索 教育",
-    "source_title": "メニコンの就職偏差値･難易度と平均年収の企業研究 - 就職偏差値.com",
-    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UdXl1eDNGM3dNYnlHeHA2bVoxRW1oT0U4R3U3QnltN0JVOGw1cF8yOUpReU1VUTRzM2RBR0oyYV9kZXhSUDk3T2szVEJJNXJGanY2a0QtS1ZYX2VRdkxmRGRaVXA3WF9LYUlERE8yNA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "profit"
-    ],
-    "quote_id": "I.25b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-11T22:44:52.761034+00:00",
-    "publish_at": "2026-11-12T19:17:00+00:00",
-    "timestamp": "2026-11-12T19:17:00+00:00"
   }
 ]
