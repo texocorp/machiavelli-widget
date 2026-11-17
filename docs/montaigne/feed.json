@@ -1,5 +1,61 @@
 [
   {
+    "id": "998b5754d9b4",
+    "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTZHEydXppOW9LcUd4VGJ3VVRENDh3Q0lSMXBLcjRUV3ZvXzVoU0VVdjBnOHNvN0dpZ2FhSm9lX3VBSUNkQ2RJdVpwU2JPaF96YTNHcDI5OTM?oc=5\nパワハラを恐れる中で広がる『育成キャンセル』は、若者たちを待ち受ける残酷な現実である。\n「役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "profit",
+    "score": 2,
+    "source": "Google News 検索 職場",
+    "source_title": "「パワハラが怖いから何も言わない」…日本の職場で広がる「育成キャンセル」、若者たちを待ち受ける残酷な現実 - 現代ビジネス",
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTZHEydXppOW9LcUd4VGJ3VVRENDh3Q0lSMXBLcjRUV3ZvXzVoU0VVdjBnOHNvN0dpZ2FhSm9lX3VBSUNkQ2RJdVpwU2JPaF96YTNHcDI5OTM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "profit",
+      "soi"
+    ],
+    "quote_id": "III.10b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T23:07:01.200693+00:00",
+    "publish_at": "2026-11-18T22:17:00+00:00",
+    "timestamp": "2026-11-18T22:17:00+00:00"
+  },
+  {
+    "id": "224ce78a4b16",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmOHM5aHR2OHZLU3RVTV8xVGJveE1TZkhBTFd5NnpyQlNUNm1LNk0weUs2eTZBUXY0azRwVjRzWlRQeGowUHJ5MktweE10cHJHYnJadVlweHlNTlJwSFlWd1VBVW83NTI4bjRSUFkyZkNUWFNyeWowOERkRG5hNnM?oc=5\nカナダ代表の医療陣は捻挫を診断したが、実は筋線維断裂であり、これは誤診かという。\n「人間の疫病、それは知っているという思い込みである。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "medecine",
+    "score": 4,
+    "source": "Google News 検索 医療",
+    "source_title": "カナダ代表医療陣また誤診か、捻挫診断が筋線維断裂 - 조선일보",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmOHM5aHR2OHZLU3RVTV8xVGJveE1TZkhBTFd5NnpyQlNUNm1LNk0weUs2eTZBUXY0azRwVjRzWlRQeGowUHJ5MktweE10cHJHYnJadVlweHlNTlJwSFlWd1VBVW83NTI4bjRSUFkyZkNUWFNyeWowOERkRG5hNnM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "II.12c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T23:04:59.885049+00:00",
+    "publish_at": "2026-11-18T19:17:00+00:00",
+    "timestamp": "2026-11-18T19:17:00+00:00"
+  },
+  {
+    "id": "de82363db630",
+    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MX244RmZkSklCeEZnaXd3d2FrMHVkS0MwcDJ3cmFGMWludjBkY19JYVdfYjJVS3NtQXFaSExnX0VmenRUM0FFbzhUMkdBTms?oc=5\n『ポリティカルパン』第7話でダークマネーに光を当てる共闘が、想定外の事態をもたらすという。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
+    "theme": "presomption",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "『ポリティカルパン』第7話 “弥生”石原さとみ＆“夏目”高橋一生、ダークマネーに光を当てるべく共闘も想定外の事態 - クランクイン！",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MX244RmZkSklCeEZnaXd3d2FrMHVkS0MwcDJ3cmFGMWludjBkY19JYVdfYjJVS3NtQXFaSExnX0VmenRUM0FFbzhUMkdBTms?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "autrui"
+    ],
+    "quote_id": "I.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T23:01:58.135007+00:00",
+    "publish_at": "2026-11-18T16:17:00+00:00",
+    "timestamp": "2026-11-18T16:17:00+00:00"
+  },
+  {
     "id": "a89ee6f355a5",
     "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wenkxSktaLUZLUHR6VDZLSXBuSG9kZndKTDhVM1psQWl6ODBsczQwd0xQdXYyMEhwQ0dXSEhXQUFVNloxZ2RWN0FBQnFIWHVKOWZxZUpTOHE4OENjNjBFVFMtdXNSY0lnQXAyZXh0d0lpb1E?oc=5\n愛知労働局は働き方改革の推進に協力を要請し、社労士会への働きかけを行っているという。\n「まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。」\n『エセー I.39「孤独について」』",
     "theme": "nouveaute",
@@ -652,60 +708,5 @@
     "generated_at": "2026-11-13T09:53:00.822602+00:00",
     "publish_at": "2026-11-14T07:17:00+00:00",
     "timestamp": "2026-11-14T07:17:00+00:00"
-  },
-  {
-    "id": "9b9430a9292f",
-    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSjZFSklsRi1QTWZNM1lIWEkyRENyQ0U0bjE0SkUzOFFiRWJhREt0YnV3Wnc5RDVkejktemljTDZlLUxJX2NQNGRVQWtFQ2pCYVphd2I4X3lULWJleWl2b2dnbGREMlhxellmWVZxbDRPZmpwQ2ZrOFRXV2FqMDFkeXBuVW1lcFhXSks1aUZ3?oc=5\n定年後に人との関わりがあるにもかかわらず孤独を感じている人の特徴やワースト1がまとめられた。\n「他の人々があなたに場所を譲ったように、あなたも他の人々に場所を譲りなさい。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "定年後、「人との関わりはあるのに孤独を感じる人」の特徴・ワースト1 (ダイヤモンド・オンライン) - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSjZFSklsRi1QTWZNM1lIWEkyRENyQ0U0bjE0SkUzOFFiRWJhREt0YnV3Wnc5RDVkejktemljTDZlLUxJX2NQNGRVQWtFQ2pCYVphd2I4X3lULWJleWl2b2dnbGREMlhxellmWVZxbDRPZmpwQ2ZrOFRXV2FqMDFkeXBuVW1lcFhXSks1aUZ3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.20e",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T09:43:53.983511+00:00",
-    "publish_at": "2026-11-14T04:17:00+00:00",
-    "timestamp": "2026-11-14T04:17:00+00:00"
-  },
-  {
-    "id": "f7e126581e41",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlhCSjd6QlltWEVqU3hsbG5Qa1hCRElsVnFEclNhTWZDZEZieXlVQmxvUEpMaF93aDZCSjNvS0txaExPTUpfblNOZzh0UVl1N1RwaGdIVDIxTnFMN0lmUnhxNlE?oc=5\n大正製薬は老化細胞を取り除き、長く健康に過ごせるように挑戦を続けたタウリン研究を行っているという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
-    "theme": "medecine",
-    "score": 4,
-    "source": "Google News 科学",
-    "source_title": "老化細胞取り除き、長く健康に過ごせるように…大正製薬で挑戦続く「タウリン」研究 - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlhCSjd6QlltWEVqU3hsbG5Qa1hCRElsVnFEclNhTWZDZEZieXlVQmxvUEpMaF93aDZCSjNvS0txaExPTUpfblNOZzh0UVl1N1RwaGdIVDIxTnFMN0lmUnhxNlE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine",
-      "savoir"
-    ],
-    "quote_id": "III.13j",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T01:56:14.877475+00:00",
-    "publish_at": "2026-11-14T01:17:00+00:00",
-    "timestamp": "2026-11-14T01:17:00+00:00"
-  },
-  {
-    "id": "2b1c29d882e4",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wRGFHcl9aSmRPanVvU0JOaWJmenVVQkx3SFFzUXIwWmdkcHJEdUw5RFNIVDl2aHA2cGluSzEyb1FZZ0p4UHlhYU5ySnJvSmtxMTd2MHdPTmNsc0ZjYmc?oc=5\nルフィ事件の渡辺優樹被告に対し、共犯の小島受刑者が語る彼の素顔という。\n「我々は皆つぎはぎでできている。その組み立てはまことに不定形でまちまちだから、どの切れ端も、どの瞬間も、それぞれ勝手に振る舞う。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 国内",
-    "source_title": "ルフィ事件の渡辺優樹被告 共犯の小島受刑者が語る素顔 (2026年11月13日掲載) - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wRGFHcl9aSmRPanVvU0JOaWJmenVVQkx3SFFzUXIwWmdkcHJEdUw5RFNIVDl2aHA2cGluSzEyb1FZZ0p4UHlhYU5ySnJvSmtxMTd2MHdPTmNsc0ZjYmc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "II.1a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T01:53:04.438308+00:00",
-    "publish_at": "2026-11-13T22:17:00+00:00",
-    "timestamp": "2026-11-13T22:17:00+00:00"
   }
 ]
