@@ -1,5 +1,66 @@
 [
   {
+    "id": "e2e7abdedda3",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnktWGhDZjU2MEU4ekE4VGtnUWY5akNMTDNudGhscEhxODhTTWwwbTA5TUY0bkJSLXpWS3FkTEtONGlxVlNSV3ZXRXlfbDRMUEFxdXlGQ0otejRkZWMwekNwMjNjbTRLQTNQc3VkWjlWUFVUZXVZWWFvbTQyVXdSMUFuNTR5QTQ?oc=5\nイランがバーレーンの米軍施設を攻撃し、仲介国との協議が続いている。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン、バーレーンの米軍施設攻撃 仲介国と協議続く中でも - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnktWGhDZjU2MEU4ekE4VGtnUWY5akNMTDNudGhscEhxODhTTWwwbTA5TUY0bkJSLXpWS3FkTEtONGlxVlNSV3ZXRXlfbDRMUEFxdXlGQ0otejRkZWMwekNwMjNjbTRLQTNQc3VkWjlWUFVUZXVZWWFvbTQyVXdSMUFuNTR5QTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "AG3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T22:37:14.767762+00:00",
+    "publish_at": "2026-11-18T21:17:00+00:00",
+    "timestamp": "2026-11-18T21:17:00+00:00"
+  },
+  {
+    "id": "316c2e0f9631",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSSGNEQVNhZkRMT2gtS3VTRTVYVk1rR1RQN09QbXlHaHRYangzdnUyUnpjOEF6dUkwbEN1NklsUjIxa00wTHVuR2ZyWTdnNUtweGFSMXZaRHdSWmZTcVBjcHNsb1dUQ2IzZHUwSWdIUnl3dEJTNjBRd2FSSlRuVlk?oc=5\n米軍はイラン・ケシム島にあるミサイル基地を空爆し、これは米当局者が報復措置であると述べているという。\n「公に対してであれ私人に対してであれ、加えられた侮辱に報いぬことは、国家にとってかくも危険である。」\n『リウィウス論 II.28』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 中東",
+    "source_title": "米軍、イラン・ケシム島ミサイル基地を空爆 報復措置＝米当局者 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSSGNEQVNhZkRMT2gtS3VTRTVYVk1rR1RQN09QbXlHaHRYangzdnUyUnpjOEF6dUkwbEN1NklsUjIxa00wTHVuR2ZyWTdnNUtweGFSMXZaRHdSWmZTcVBjcHNsb1dUQ2IzZHUwSWdIUnl3dEJTNjBRd2FSSlRuVlk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D2.28",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T22:35:33.825066+00:00",
+    "publish_at": "2026-11-18T18:17:00+00:00",
+    "timestamp": "2026-11-18T18:17:00+00:00"
+  },
+  {
+    "id": "ff3269fe42b4",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zQk9qT1I5TU9ZdXpZWXBNLXRnQ2hHVTNkVUZtV2RkeXNxVkJWRDVYNDBZdUY5SkRfZE01b2tsSGtmeGdWaVZQRGVTbkVjVGpVUVU5RG53N1gwRXQ5djJRWWFn?oc=5\nロシアはクリミア大橋を本土と結び、ウクライナ軍の攻撃で一部崩落したが、軍参謀本部は発表しているという。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "クリミア半島とロシア本土結ぶクリミア大橋、ウクライナ軍の攻撃で一部崩落…軍参謀本部発表 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zQk9qT1I5TU9ZdXpZWXBNLXRnQ2hHVTNkVUZtV2RkeXNxVkJWRDVYNDBZdUY5SkRfZE01b2tsSGtmeGdWaVZQRGVTbkVjVGpVUVU5RG53N1gwRXQ5djJRWWFn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P05",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T22:23:14.411448+00:00",
+    "publish_at": "2026-11-18T15:17:00+00:00",
+    "timestamp": "2026-11-18T15:17:00+00:00"
+  },
+  {
     "id": "2e2b14c5a030",
     "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWxVUlBHeXhkLXk4Y0hlVkNGUU94OGRaZllrRGl4NHBxRkxvNTlaSHY4eDdOTkxnTUUzRjZiV3ByWDdPdEc4N3Q4LUY4LU1aakVIakU1eEdMcDllV1N6eV82cG43eU1TbnhvQmhJa3NDQkI3TWdjc1ZTYnBZVm1vSWxSS2pka3o2aEpYWlNR0gGTAUFVX3lxTFBadHdlQk9takE2SWN1eXRKVVpTQnotTkFxckxDRlpabHpTNGFpcXRUQmI0Tk5rOVhkQS16ZS1rV0N2czVZY2FROGlyUk4tQXVFMFZuRHFPbFRENnVYSFJScE5DMDVtR1FXREIzSVhadFZNcVR2NHRBSWZZMTJaVzlyT3duWEVuQ1ZIV21MN3BaRFhqaw?oc=5\nウクライナ軍は露領土とクリミアを結ぶ橋を損傷させるため、2日連続で攻撃を加えているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -692,62 +753,5 @@
     "generated_at": "2026-11-13T08:04:17.673253+00:00",
     "publish_at": "2026-11-14T06:17:00+00:00",
     "timestamp": "2026-11-14T06:17:00+00:00"
-  },
-  {
-    "id": "9712a46e03ef",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yWFM2RFlWcVZYejFNNlU5SzAxNXpyVTB1Z2F5UzdlV2lrWmZya1JDTXJBclA0ek92LU13NTBudFh6MEtXNDh2VWdBTlR3d2I3UGd4aHFCZU9pWUNVVXAtemZaQXliUzlnb1NrLUM0cENETFhOZFE?oc=5\n中国は南シナ海の岩礁を『島』と主張し、支配を強化する姿勢を示しているという。\n「敵の利となることは汝を害し、汝の利となることは敵を害する。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 23,
-    "source": "Google News 国際(World)",
-    "source_title": "岩礁を「島」と主張→支配強化、船舶航行を常態化 中国、南シナ海でフィリピンと対立激化 - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yWFM2RFlWcVZYejFNNlU5SzAxNXpyVTB1Z2F5UzdlV2lrWmZya1JDTXJBclA0ek92LU13NTBudFh6MEtXNDh2VWdBTlR3d2I3UGd4aHFCZU9pWUNVVXAtemZaQXliUzlnb1NrLUM0cENETFhOZFE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T07:56:54.163647+00:00",
-    "publish_at": "2026-11-14T03:17:00+00:00",
-    "timestamp": "2026-11-14T03:17:00+00:00"
-  },
-  {
-    "id": "171ca5be6126",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GSG96NjZsVUZFS09IQnE0c1hENUR4VjVfMGpCSFNHMGQyMDRSVERuOUFCOWpTWDcxak1LOWJZSGY3M1Biazk3X3ZkSmx3cTlyQ2F5XzhvRm93TExWZG1KaTVVZVBadzdmUjdTcg?oc=5\n防衛研究所が南シナ海を中国の台湾統一に重要な海域と報告した。\n「真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。」\n『リウィウス論 II.30』",
-    "theme": "economia",
-    "score": 10,
-    "source": "Google News 検索 安全保障",
-    "source_title": "南シナ海「中国の台湾統一に重要な海域」 防衛研究所が報告書 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GSG96NjZsVUZFS09IQnE0c1hENUR4VjVfMGpCSFNHMGQyMDRSVERuOUFCOWpTWDcxak1LOWJZSGY3M1Biazk3X3ZkSmx3cTlyQ2F5XzhvRm93TExWZG1KaTVVZVBadzdmUjdTcg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "economia"
-    ],
-    "quote_id": "D2.30",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T00:36:09.670215+00:00",
-    "publish_at": "2026-11-14T00:17:00+00:00",
-    "timestamp": "2026-11-14T00:17:00+00:00"
-  },
-  {
-    "id": "19fee415b87f",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DcEZlVkQ3LXdaVnZ2SzRvdDgzamppaFg1blZvWXhhdjdBX0xlaHg0emlIamROQkxHclJzNUtVSUhEZXA4NWFJaXBOOUx0b2pvMEdzU25IVENCUQ?oc=5\n中国は遠方の作戦能力を強化し、台湾侵攻への対応として南シナ海を重視しているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 中国・台湾",
-    "source_title": "中国 遠方の作戦能力強化 防衛研 台湾侵攻へ南シナ海重視 - 北海道新聞デジタル",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DcEZlVkQ3LXdaVnZ2SzRvdDgzamppaFg1blZvWXhhdjdBX0xlaHg0emlIamROQkxHclJzNUtVSUhEZXA4NWFJaXBOOUx0b2pvMEdzU25IVENCUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG9",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T00:29:59.604544+00:00",
-    "publish_at": "2026-11-13T21:17:00+00:00",
-    "timestamp": "2026-11-13T21:17:00+00:00"
   }
 ]
