@@ -1,5 +1,63 @@
 [
   {
+    "id": "2e2b14c5a030",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWxVUlBHeXhkLXk4Y0hlVkNGUU94OGRaZllrRGl4NHBxRkxvNTlaSHY4eDdOTkxnTUUzRjZiV3ByWDdPdEc4N3Q4LUY4LU1aakVIakU1eEdMcDllV1N6eV82cG43eU1TbnhvQmhJa3NDQkI3TWdjc1ZTYnBZVm1vSWxSS2pka3o2aEpYWlNR0gGTAUFVX3lxTFBadHdlQk9takE2SWN1eXRKVVpTQnotTkFxckxDRlpabHpTNGFpcXRUQmI0Tk5rOVhkQS16ZS1rV0N2czVZY2FROGlyUk4tQXVFMFZuRHFPbFRENnVYSFJScE5DMDVtR1FXREIzSVhadFZNcVR2NHRBSWZZMTJaVzlyT3duWEVuQ1ZIV21MN3BaRFhqaw?oc=5\nウクライナ軍は露領土とクリミアを結ぶ橋を損傷させるため、2日連続で攻撃を加えているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "露領土とクリミア半島結ぶ橋が損傷　ウクライナ軍が2日連続で攻撃 - Infoseek",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWxVUlBHeXhkLXk4Y0hlVkNGUU94OGRaZllrRGl4NHBxRkxvNTlaSHY4eDdOTkxnTUUzRjZiV3ByWDdPdEc4N3Q4LUY4LU1aakVIakU1eEdMcDllV1N6eV82cG43eU1TbnhvQmhJa3NDQkI3TWdjc1ZTYnBZVm1vSWxSS2pka3o2aEpYWlNR0gGTAUFVX3lxTFBadHdlQk9takE2SWN1eXRKVVpTQnotTkFxckxDRlpabHpTNGFpcXRUQmI0Tk5rOVhkQS16ZS1rV0N2czVZY2FROGlyUk4tQXVFMFZuRHFPbFRENnVYSFJScE5DMDVtR1FXREIzSVhadFZNcVR2NHRBSWZZMTJaVzlyT3duWEVuQ1ZIV21MN3BaRFhqaw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG9",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:10:14.432503+00:00",
+    "publish_at": "2026-11-18T12:17:00+00:00",
+    "timestamp": "2026-11-18T12:17:00+00:00"
+  },
+  {
+    "id": "f3168f47699d",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96R2pfOHlZV21yRTYwZmtIUVBnak1BMHhxRFF1RHhqc0V0amJ3RDlhZFJxVTRjbkpBWlJMYTlaLXAtQ0JYSU5VNGE1VWZxVUpibFpSa0tzWEJ4LXVna1lLT2hzWi1qYkwyOU1FbkdaOUtmTFpSaVVxT1dB?oc=5\nウクライナは米中ロ首脳会談前に最大規模の攻撃を実行し、推定ロシア機が日本領空を侵犯したという。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "米中ロ首脳会談前に…ウクライナが最大規模の攻撃 “推定ロシア機”日本領空なぜ侵犯 - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96R2pfOHlZV21yRTYwZmtIUVBnak1BMHhxRFF1RHhqc0V0amJ3RDlhZFJxVTRjbkpBWlJMYTlaLXAtQ0JYSU5VNGE1VWZxVUpibFpSa0tzWEJ4LXVna1lLT2hzWi1qYkwyOU1FbkdaOUtmTFpSaVVxT1dB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D3.48",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T13:56:17.317337+00:00",
+    "publish_at": "2026-11-18T09:17:00+00:00",
+    "timestamp": "2026-11-18T09:17:00+00:00"
+  },
+  {
+    "id": "66ee3480ac30",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnktWGhDZjU2MEU4ekE4VGtnUWY5akNMTDNudGhscEhxODhTTWwwbTA5TUY0bkJSLXpWS3FkTEtONGlxVlNSV3ZXRXlfbDRMUEFxdXlGQ0otejRkZWMwekNwMjNjbTRLQTNQc3VkWjlWUFVUZXVZWWFvbTQyVXdSMUFuNTR5QTQ?oc=5\nバーレーンはイランからの無人機攻撃を迎撃したが、革命防衛隊はそれを米国のレーダー標的だと主張しているという。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 安全保障",
+    "source_title": "バーレーン、イランの無人機攻撃を迎撃 革命防衛隊「米レーダー標的」 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnktWGhDZjU2MEU4ekE4VGtnUWY5akNMTDNudGhscEhxODhTTWwwbTA5TUY0bkJSLXpWS3FkTEtONGlxVlNSV3ZXRXlfbDRMUEFxdXlGQ0otejRkZWMwekNwMjNjbTRLQTNQc3VkWjlWUFVUZXVZWWFvbTQyVXdSMUFuNTR5QTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "NE1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T13:52:27.923490+00:00",
+    "publish_at": "2026-11-18T06:17:00+00:00",
+    "timestamp": "2026-11-18T06:17:00+00:00"
+  },
+  {
     "id": "4095be79f2db",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOQV9fX1lVRzVLTkFEUkJKY3R1VlA1bUsyYWRUSG9lU2dWckNQWjU5MDA0Z29hZHFMbVlueXVkMjdKdzR1d1dsTVFfTjZoWk5jR0JmUDVHVkxtUnFIVC1FaWRB?oc=5\nエストニアはロシアとの国境閉鎖を決め、無人機製造企業の放火事件で露が関与する疑いがあるという。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
     "theme": "guerra",
@@ -691,69 +749,5 @@
     "generated_at": "2026-11-13T00:29:59.604544+00:00",
     "publish_at": "2026-11-13T21:17:00+00:00",
     "timestamp": "2026-11-13T21:17:00+00:00"
-  },
-  {
-    "id": "38e49da007c2",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORXN3V1l1UUpzV3E3LWdoVDRXVHQxWDlTeDAzZ1VRdnNqT1ZTREtIM0VjSWw2QzdmOGFtaHNWZWFiR1lfNUl3QzZxX1lGMEtqWnRFenk2bEprUHhkdUpLaklFVUtwUERJTXBYNzJLTlFvVWxqSjI1OUVweVFmZlZ2U1pyVnVtdw?oc=5\nロシア軍はウクライナ各地の軍需工場に対し大規模攻撃を実行すると発表した。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 15,
-    "source": "Google News 国際(World)",
-    "source_title": "ロシア軍、ウクライナ各地の軍需工場に大規模攻撃と発表 - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORXN3V1l1UUpzV3E3LWdoVDRXVHQxWDlTeDAzZ1VRdnNqT1ZTREtIM0VjSWw2QzdmOGFtaHNWZWFiR1lfNUl3QzZxX1lGMEtqWnRFenk2bEprUHhkdUpLaklFVUtwUERJTXBYNzJLTlFvVWxqSjI1OUVweVFmZlZ2U1pyVnVtdw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "popolo_principe",
-      "economia",
-      "fortuna_virtu"
-    ],
-    "quote_id": "AG2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T00:27:54.733292+00:00",
-    "publish_at": "2026-11-13T18:17:00+00:00",
-    "timestamp": "2026-11-13T18:17:00+00:00"
-  },
-  {
-    "id": "5843c990e4f0",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GdGk3VjhHQzVzTTJ3TEZnSWdNVjVlQ0pJWEJaSHR1VVNJMGY2RVNWdjF5eDZGLUNUT3NJMHFYSDJGZ0dkSVVpelZCaDZtWkpqWHdIMkZtbnBoWlB3LW9JTUVnNC1PMmRDNXlUN0MtVmluMkVpa1p0eFlhSlVxdXM?oc=5\nトランプ氏はイランとの戦争擁護の立場を示し、復員軍人の凱旋門建設を表明したという。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏イランとの戦争擁護 復員軍人称え凱旋門の建設を表明（AP通信） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GdGk3VjhHQzVzTTJ3TEZnSWdNVjVlQ0pJWEJaSHR1VVNJMGY2RVNWdjF5eDZGLUNUT3NJMHFYSDJGZ0dkSVVpelZCaDZtWkpqWHdIMkZtbnBoWlB3LW9JTUVnNC1PMmRDNXlUN0MtVmluMkVpa1p0eFlhSlVxdXM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "consiglio"
-    ],
-    "quote_id": "D1.37b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T19:24:52.910048+00:00",
-    "publish_at": "2026-11-13T15:17:00+00:00",
-    "timestamp": "2026-11-13T15:17:00+00:00"
-  },
-  {
-    "id": "61b83c1c2181",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wZWZUdWRYRC1MdmhyUTlBSHRlR0NGS010cWRERjd5SlgybFJpWC1hNk9nUHZOdmZvYUlpcGJxUVNNMG1oT2l0TEM4bHRDcm81Xy1TRXl3NXA4WVVlU3BvNllMOUphTE5C?oc=5\n緊迫する中東情勢において、トランプ政権はイスラエルとの蜜月が重荷となり、トランプ氏も嫌悪感を認めたという。\n「君主は、真の味方であり真の敵であるとき、すなわち何の遠慮もなく一方に与して他方に敵対するとき、重んじられる。そのやり方は、中立にとどまるより常に得策である。」\n『君主論 cap.XXI』",
-    "theme": "alleanze_dipendenza",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "緊迫する中東情勢,トランプ政権：イスラエルとの蜜月が「重荷」に トランプ氏も認めた「嫌悪感」 - 毎日新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wZWZUdWRYRC1MdmhyUTlBSHRlR0NGS010cWRERjd5SlgybFJpWC1hNk9nUHZOdmZvYUlpcGJxUVNNMG1oT2l0TEM4bHRDcm81Xy1TRXl3NXA4WVVlU3BvNllMOUphTE5C?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "NT1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T19:18:31.961005+00:00",
-    "publish_at": "2026-11-13T12:17:00+00:00",
-    "timestamp": "2026-11-13T12:17:00+00:00"
   }
 ]
