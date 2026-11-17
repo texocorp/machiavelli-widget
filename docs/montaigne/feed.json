@@ -1,5 +1,62 @@
 [
   {
+    "id": "a89ee6f355a5",
+    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wenkxSktaLUZLUHR6VDZLSXBuSG9kZndKTDhVM1psQWl6ODBsczQwd0xQdXYyMEhwQ0dXSEhXQUFVNloxZ2RWN0FBQnFIWHVKOWZxZUpTOHE4OENjNjBFVFMtdXNSY0lnQXAyZXh0d0lpb1E?oc=5\n愛知労働局は働き方改革の推進に協力を要請し、社労士会への働きかけを行っているという。\n「まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。」\n『エセー I.39「孤独について」』",
+    "theme": "nouveaute",
+    "score": 2,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "働き方改革推進で協力を 愛知労働局、社労士会に要請 - 中部経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wenkxSktaLUZLUHR6VDZLSXBuSG9kZndKTDhVM1psQWl6ODBsczQwd0xQdXYyMEhwQ0dXSEhXQUFVNloxZ2RWN0FBQnFIWHVKOWZxZUpTOHE4OENjNjBFVFMtdXNSY0lnQXAyZXh0d0lpb1E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "nouveaute",
+      "soi"
+    ],
+    "quote_id": "I.39a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:42:37.077178+00:00",
+    "publish_at": "2026-11-18T13:17:00+00:00",
+    "timestamp": "2026-11-18T13:17:00+00:00"
+  },
+  {
+    "id": "7dab5efce090",
+    "text": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WYzlQU1gtc0o3bTJrNG5iMWRLRnRUZi1COFhhVUxXZldwVnduR0JWeUo0WEt1aVYzVjdkUXh2VTl6TnZBY2JlbjBUcUY?oc=5\n職員の負担軽減とカスハラ対策を両立するため、遠隔接客やAIを活用した新たな窓口運営が始まったという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
+    "theme": "presomption",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "職員の負担軽減とカスハラ対策を両立！遠隔接客・AIを活用した新たな窓口運営 - ジチタイワークスWEB",
+    "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WYzlQU1gtc0o3bTJrNG5iMWRLRnRUZi1COFhhVUxXZldwVnduR0JWeUo0WEt1aVYzVjdkUXh2VTl6TnZBY2JlbjBUcUY?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "nouveaute"
+    ],
+    "quote_id": "III.8a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:38:46.881641+00:00",
+    "publish_at": "2026-11-18T10:17:00+00:00",
+    "timestamp": "2026-11-18T10:17:00+00:00"
+  },
+  {
+    "id": "86a80a5497fe",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQUdsVWR6TFVqRVpranJOLUVqVnlvZ05tVWNFTkhaQ1dhSmdBUmpBckdxWEFKRGRXczltN1J2aWE5Sl93SXRCT053QjZJVUtwR1FCdmkxVlBoNm5BV1RGQWdFNUs4bG90MUlxeFFfZUdkd1Y4WDUyUG9od0NWWkk?oc=5\n親子間で、親の老後資金と子供の援助、教育費と家計の将来など、経済的支援に関する価値観の違いが浮き彫りになっている。\n「自然から生まれると我々が言う良心の掟は、実は慣習から生まれる。」\n『エセー I.23「慣習について」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「親の老後資金と子供への援助のバランス」「教育費のかけ方と家計の将来」 - 親子間の経済的支援をめぐる価値観の違い - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQUdsVWR6TFVqRVpranJOLUVqVnlvZ05tVWNFTkhaQ1dhSmdBUmpBckdxWEFKRGRXczltN1J2aWE5Sl93SXRCT053QjZJVUtwR1FCdmkxVlBoNm5BV1RGQWdFNUs4bG90MUlxeFFfZUdkd1Y4WDUyUG9od0NWWkk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "soi"
+    ],
+    "quote_id": "I.23b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:32:21.583338+00:00",
+    "publish_at": "2026-11-18T07:17:00+00:00",
+    "timestamp": "2026-11-18T07:17:00+00:00"
+  },
+  {
     "id": "9e54aac95151",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02Wlh3Z3JfeEZVa3ZEdnFfR0s0YWhsaGpPYjlPYlkwcGpLNHlDMlI2SmRQQ1VJNl9wVy1ZMGNOR1MwcDhwOHpPRmt3dkpDSlQwbU1XQ0lLTEtWRHpzRjlNQkljRWFEZHF4d1RfWFE2QVdsYllHSHc?oc=5\n安全放置したトップが改革を成し遂げることはできるのか、沖縄・辺野古沖で転覆を引き起こしたという。\n「奇跡とは、自然の在り方によるのではなく、自然についての我々の無知によるものである。慣れは、我々の判断の目を眠らせる。」\n『エセー I.23「慣習について」』",
     "theme": "mort",
@@ -650,62 +707,5 @@
     "generated_at": "2026-11-13T01:53:04.438308+00:00",
     "publish_at": "2026-11-13T22:17:00+00:00",
     "timestamp": "2026-11-13T22:17:00+00:00"
-  },
-  {
-    "id": "35d6895b3a55",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4cy1TTkZXeFpLR1RzN3gxRzVSVGZ1SDBiQUY2V3V1OEJVSlAyT0ZDTVA3b3ZfWnpjYkk1VVFFU19ac3h0OG4tZ01nOHhEVWhHRFEzSWkyaW1MZ3c2ejY0?oc=5\n介護現場でのカスハラを防ぐために、難しい線引きが必要な対策が求められている。\n「(古い見解に言う)大きく正しくあろうとする者は細部で不正をなさざるをえず、大事で正義を貫こうとする者は小事で不公正をなさざるをえない。」\n『エセー III.13「経験について」』",
-    "theme": "medecine",
-    "score": 2,
-    "source": "Google News 検索 職場",
-    "source_title": "介護現場のカスハラ防ぐには…難しい「線引き」必要な対策は - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4cy1TTkZXeFpLR1RzN3gxRzVSVGZ1SDBiQUY2V3V1OEJVSlAyT0ZDTVA3b3ZfWnpjYkk1VVFFU19ac3h0OG4tZ01nOHhEVWhHRFEzSWkyaW1MZ3c2ejY0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine"
-    ],
-    "quote_id": "III.13o",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T21:13:08.501259+00:00",
-    "publish_at": "2026-11-13T19:17:00+00:00",
-    "timestamp": "2026-11-13T19:17:00+00:00"
-  },
-  {
-    "id": "10641c11f3f6",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tQmw3aHYtUlZBLVJteGl1WlBpY3hvdTRFclRFVXRycTJ6clJWY1FxUF81X2pvd0FlZlZaOGJqWlI0d3c5Y2l4aWlENURuTnh4Xzl5RENWRzZHTVplYTl6RmF0SW40bWhvRDMxMGg0UUQzX1F4RmpvalBmOHd4WU0?oc=5\nSNS依存の弊害は、同調圧力の強い日本の女子に強く現れているという。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
-    "theme": "opinion",
-    "score": 2,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "SNS依存の弊害が同調圧力の強い日本の女子に強く出ている（ニューズウィーク日本版） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tQmw3aHYtUlZBLVJteGl1WlBpY3hvdTRFclRFVXRycTJ6clJWY1FxUF81X2pvd0FlZlZaOGJqWlI0d3c5Y2l4aWlENURuTnh4Xzl5RENWRzZHTVplYTl6RmF0SW40bWhvRDMxMGg0UUQzX1F4RmpvalBmOHd4WU0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "opinion",
-      "coutume"
-    ],
-    "quote_id": "I.39b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T21:06:31.726077+00:00",
-    "publish_at": "2026-11-13T16:17:00+00:00",
-    "timestamp": "2026-11-13T16:17:00+00:00"
-  },
-  {
-    "id": "2c30f9f45929",
-    "text": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vT1c0VjFYa1ByRnpBYzY5NHdKNE1kbVJTc3R2QUdOMXY4MkhYdDFRWVhVeUQxOUZLaFlTaHNmLWZENW1KZW1oVHBvRjFWaEY5SUJvSkZvelBUQjB0b3ZBakZ4aW00NG1iaFhlSF9sUHJ5QQ?oc=5\n想定外の相続税や家族間の裁判といったトラブルから、家族でそれを避けるにはどうすればよいかという。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
-    "theme": "lois",
-    "score": 6,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "増える相続トラブル 想定外の相続税・家族間で裁判… 避けるには - テレ朝NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vT1c0VjFYa1ByRnpBYzY5NHdKNE1kbVJTc3R2QUdOMXY4MkhYdDFRWVhVeUQxOUZLaFlTaHNmLWZENW1KZW1oVHBvRjFWaEY5SUJvSkZvelBUQjB0b3ZBakZ4aW00NG1iaFhlSF9sUHJ5QQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "presomption",
-      "soi"
-    ],
-    "quote_id": "I.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T21:01:40.742994+00:00",
-    "publish_at": "2026-11-13T13:17:00+00:00",
-    "timestamp": "2026-11-13T13:17:00+00:00"
   }
 ]
