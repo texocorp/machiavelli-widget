@@ -1,5 +1,64 @@
 [
   {
+    "id": "4095be79f2db",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOQV9fX1lVRzVLTkFEUkJKY3R1VlA1bUsyYWRUSG9lU2dWckNQWjU5MDA0Z29hZHFMbVlueXVkMjdKdzR1d1dsTVFfTjZoWk5jR0JmUDVHVkxtUnFIVC1FaWRB?oc=5\nエストニアはロシアとの国境閉鎖を決め、無人機製造企業の放火事件で露が関与する疑いがあるという。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "エストニアがロシアとの国境閉鎖へ、無人機製造企業の放火に露が関与か…首相「脅迫には屈しない」 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOQV9fX1lVRzVLTkFEUkJKY3R1VlA1bUsyYWRUSG9lU2dWckNQWjU5MDA0Z29hZHFMbVlueXVkMjdKdzR1d1dsTVFfTjZoWk5jR0JmUDVHVkxtUnFIVC1FaWRB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D2.19",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T04:15:18.832630+00:00",
+    "publish_at": "2026-11-18T03:17:00+00:00",
+    "timestamp": "2026-11-18T03:17:00+00:00"
+  },
+  {
+    "id": "20029f5dcc70",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41MzBzQ0xoYW5RU0JIbmtZUEs1TE5la2prTjUtN1piSDB4X25fVjhuLUNkLTVNYTlWdFhFSUFDTFlaTTdGcldCMU5uUjRaLUNnZkFuTU5BREJLeTZiV1lObkR2QTY5UjVOd0VKLQ?oc=5\nウクライナはロシアに対して開戦後最大の無人機攻撃を行い、ロシア国防省が発表した。\n「新旧を問わず、あらゆる国家の主たる土台は、良き法と良き軍備である。」\n『君主論 cap.XII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ、ロシアに開戦後最大の無人機攻撃＝ロ国防省 - Infoseek",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41MzBzQ0xoYW5RU0JIbmtZUEs1TE5la2prTjUtN1piSDB4X25fVjhuLUNkLTVNYTlWdFhFSUFDTFlaTTdGcldCMU5uUjRaLUNnZkFuTU5BREJLeTZiV1lObkR2QTY5UjVOd0VKLQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "armi_proprie"
+    ],
+    "quote_id": "P12a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T04:12:08.164966+00:00",
+    "publish_at": "2026-11-18T00:17:00+00:00",
+    "timestamp": "2026-11-18T00:17:00+00:00"
+  },
+  {
+    "id": "bac1408af6a4",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VVXBzZktKemtMRXhHV2VWSzdIcnM2a1Z3a1RSODQ3MFlBMHdrWGdLRVFISXBxRlFmMjFnMU93YXJCeGpGVFRqbW9GQnJ5dFRVU1FselFGRzlaZFI5dDkwTmpB?oc=5\n米中は軍事的衝突を防ぐ覚書の協議を進めるが、米国の国防省や国務省などが同意に難色を示しているという。\n「獣の性を巧みに用いるべき君主は、狐と獅子の両者を範とせねばならぬ。獅子は罠を見破れず、狐は狼を退けられぬ。」\n『君主論 cap.XVIII』",
+    "theme": "inganno_simulazione",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "米中が軍事的衝突防ぐための覚書を協議、米国防省や国務省が同意に難色…香港紙報道 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VVXBzZktKemtMRXhHV2VWSzdIcnM2a1Z3a1RSODQ3MFlBMHdrWGdLRVFISXBxRlFmMjFnMU93YXJCeGpGVFRqbW9GQnJ5dFRVU1FselFGRzlaZFI5dDkwTmpB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione",
+      "armi_proprie"
+    ],
+    "quote_id": "IS1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T03:57:34.224286+00:00",
+    "publish_at": "2026-11-17T21:17:00+00:00",
+    "timestamp": "2026-11-17T21:17:00+00:00"
+  },
+  {
     "id": "b5405503db2b",
     "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XampZVzBBYm53TnVHUEJCamJ4RmJCbFFacDBqZ24tVXZzRC1QMno5YlpoRTFFVEdjd005ZEdEbXNmZW1NV0ZpZEs4d3BFN0JraWxqd2R3Xy1SQQ?oc=5\n北朝鮮が核開発を進め、日本はどのように備えるべきかという問いに対し、韓国元高官が非核三原則の見直しを提言した。\n「人は、恐れられている者よりも、愛されている者を害することにためらいが少ない。」\n『君主論 cap.XVII』",
     "theme": "paura_amore",
@@ -696,67 +755,5 @@
     "generated_at": "2026-11-12T19:18:31.961005+00:00",
     "publish_at": "2026-11-13T12:17:00+00:00",
     "timestamp": "2026-11-13T12:17:00+00:00"
-  },
-  {
-    "id": "0b756888bcbe",
-    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2tMVXJ4MkNkSVJZWUwzanpPTkh5T3BUbk9pbVRuQWEtY2dLck80Y3NSYlEtM1ZmUDl6d3czWW0yWFlDZEROR2RFckFBak4tSnMtSDhmNEstY0hvT2M4WjZBZnBNMkRlRzV2WkhZdDdRUGJjTkdIbzc0Nl9oUTZ1TURyV1BWbG50?oc=5\n多くの米国人がトランプ弾劾より政党間の協力を希望し、有権者の良識が政治家に届くか注目されているという。\n「よき市民は、祖国への愛のために、私的な恨みを忘れねばならぬ。」\n『リウィウス論 III.47』",
-    "theme": "guerra",
-    "score": 9,
-    "source": "Google News 国際(World)",
-    "source_title": "最新世論調査 多くの米国人がトランプ弾劾より政党間の協力を希望 有権者の「良識」は政治家に届くか #エキスパートトピ - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2tMVXJ4MkNkSVJZWUwzanpPTkh5T3BUbk9pbVRuQWEtY2dLck80Y3NSYlEtM1ZmUDl6d3czWW0yWFlDZEROR2RFckFBak4tSnMtSDhmNEstY0hvT2M4WjZBZnBNMkRlRzV2WkhZdDdRUGJjTkdIbzc0Nl9oUTZ1TURyV1BWbG50?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "popolo_principe",
-      "economia",
-      "necessita"
-    ],
-    "quote_id": "D3.47",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T12:02:05.900136+00:00",
-    "publish_at": "2026-11-13T09:17:00+00:00",
-    "timestamp": "2026-11-13T09:17:00+00:00"
-  },
-  {
-    "id": "5c9c1a1e939e",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpb2xUaDlMS3J4SHBCMDIzN3RIU0hENzVnQVI3aWVaekd2Y29lenVBZkhKQmpUVC1CNHJxcjZHYWFidGZlRkFfRzE4ME1JOGlKaWxWWjFfbVNRNmhjNS1ULUtJWURjTTFRb1pjck5GanFsck1IQmRxWElR?oc=5\nイランは核濃縮物質の搬出を否定し、米国からの攻撃があれば遠方の基地を標的にすると表明した。\n「君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。」\n『君主論 cap.XXI』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン 核濃縮物質の搬出否定 米攻撃なら“遠方基地を標的” - テレ朝NEWS",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpb2xUaDlMS3J4SHBCMDIzN3RIU0hENzVnQVI3aWVaekd2Y29lenVBZkhKQmpUVC1CNHJxcjZHYWFidGZlRkFfRzE4ME1JOGlKaWxWWjFfbVNRNmhjNS1ULUtJWURjTTFRb1pjck5GanFsck1IQmRxWElR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "AD1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T11:55:27.548130+00:00",
-    "publish_at": "2026-11-13T06:17:00+00:00",
-    "timestamp": "2026-11-13T06:17:00+00:00"
-  },
-  {
-    "id": "2efdb953590e",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkFMd1V5T05ybWM5Y1FIcGRUSXIzbnRKRWV2RzBWSnI4UDlyWFhGa1M4WlBEajA3OE1ldXVfVkRmQXNxa2VEOGNZM18yRjJiNkNOLU4zWjlPSmN4OFpKNm9DM1R3Nl9mQmMwTU9kTnZsSlQyV2ktSUZzZ0FsM0kzZkZiNXhWY0U?oc=5\nイラン大統領は米イスラエルによる攻撃で受けた環境被害に対して、補償を要求しているという。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
-    "theme": "guerra",
-    "score": 9,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン大統領、米イスラエルによる攻撃の環境被害補償を要求 - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkFMd1V5T05ybWM5Y1FIcGRUSXIzbnRKRWV2RzBWSnI4UDlyWFhGa1M4WlBEajA3OE1ldXVfVkRmQXNxa2VEOGNZM18yRjJiNkNOLU4zWjlPSmN4OFpKNm9DM1R3Nl9mQmMwTU9kTnZsSlQyV2ktSUZzZ0FsM0kzZkZiNXhWY0U?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D3.44",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T03:27:45.936288+00:00",
-    "publish_at": "2026-11-13T03:17:00+00:00",
-    "timestamp": "2026-11-13T03:17:00+00:00"
   }
 ]
