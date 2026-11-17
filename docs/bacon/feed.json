@@ -1,5 +1,133 @@
 [
   {
+    "id": "8177c86629c6",
+    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iX2ZsVHVpcnJkeWtTcVJVUEhmUzlmOG8yRE5PQTR5cHAxa2FKbERYVEoyVWZhSjlYaDRocjhzcXoxRXIzMDkwSkVIZFJqd0d6WGFLWlNxTnkwVkZK?oc=5\n卓栄泰行政院長が、資金やディープフェイク動画などによる選挙介入に対して厳重警戒を指示した。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
+    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "卓栄泰・行政院長、資金やディープフェイク動画などによる選挙介入の厳重警戒を指示 - Rti 中央廣播電臺",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iX2ZsVHVpcnJkeWtTcVJVUEhmUzlmOG8yRE5PQTR5cHAxa2FKbERYVEoyVWZhSjlYaDRocjhzcXoxRXIzMDkwSkVIZFJqd0d6WGFLWlNxTnkwVkZK?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio"
+    ],
+    "quote_id": "E15a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T15:00:58.340664+00:00",
+    "publish_at": "2026-11-18T14:17:00+00:00",
+    "timestamp": "2026-11-18T14:17:00+00:00"
+  },
+  {
+    "id": "a78d3a6f38f1",
+    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xLVNObUI4LVhMeVNKcnY1VW9sUTI1N3VCSnYtUU9hQ1JSSmRSZG1mS1FzQVppbzBIR3A5eU5Nb0x2OGctZUV3Zl80U0p5UQ?oc=5\ncokiは「ナオキマン政府広報起用で物議 陰謀論系YouTuberがまさかの『政府の顔』、オカルト界隈からも苦言」と報じた。\n「迷信の主人は民衆であり、あらゆる迷信において、賢者が愚者に従う。」\n『随筆集』第17篇「迷信について」",
+    "original": "The master of superstition, is the people; and in all superstition, wise men follow fools …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "ナオキマン政府広報起用で物議 陰謀論系YouTuberがまさかの「政府の顔」、オカルト界隈からも苦言 - coki",
+    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xLVNObUI4LVhMeVNKcnY1VW9sUTI1N3VCSnYtUU9hQ1JSSmRSZG1mS1FzQVppbzBIR3A5eU5Nb0x2OGctZUV3Zl80U0p5UQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E17b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:55:22.510334+00:00",
+    "publish_at": "2026-11-18T11:17:00+00:00",
+    "timestamp": "2026-11-18T11:17:00+00:00"
+  },
+  {
+    "id": "ec90ba63a193",
+    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xN1Z1YzNCNjhaOXpnZlNlVUluNVl1ZkZyRW85bXF6d1h1YjlFNVU3NmNxQTNUd2lQckZySHpCMHpGQk00c3hQTG41c09lN1ZJRmJDUEEtakdzWkN2?oc=5\n加害者がALICE出身ソヒに対する悪質なデマ拡散を行い、その結果として懲役1年6ヶ月の実刑判決を受けたという。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
+    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "ALICE出身ソヒへの悪質なデマ拡散、加害者に懲役1年6ヶ月の実刑判決 - Kstyle",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xN1Z1YzNCNjhaOXpnZlNlVUluNVl1ZkZyRW85bXF6d1h1YjlFNVU3NmNxQTNUd2lQckZySHpCMHpGQk00c3hQTG41c09lN1ZJRmJDUEEtakdzWkN2?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E31c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:49:36.402301+00:00",
+    "publish_at": "2026-11-18T08:17:00+00:00",
+    "timestamp": "2026-11-18T08:17:00+00:00"
+  },
+  {
+    "id": "01ae45f8bd2d",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWU1otUVkzRXA4cmxIckZJMEFjV1BqVUJhTzJPN1k4WUx5MTgzY09vSkpxbzhOaTRKVUwwTWhBQU9IQmJYWk9IRVNJeDZCWTZieGVRSUdEdDVqaUUycklV?oc=5\n一人の行動が全体を危うくする盲点について、SNSの教育講演家は構造問題を指摘したという。\n「ところが学者たちは、まことに怠惰で安易にも、経験についての噂、いわばその風評やそよ風を、自説を打ち立て裏づけるために取り込み、しかもそれに正規の証言の重みを与えてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム98",
+    "original": "Sed contra homines docti (supini sane et faciles) rumores quosdam experientiae, et quasi famas et auras ejus, ad philosophiam suam vel constituendam vel confirmandam exceperunt, atque illis nihilominus pondus legitimi testimonii attribuerunt.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News SNS・報道",
+    "source_title": "路上ライブ炎上の盲点「一人の行動が全体を危うくする」SNS教育講演家が指摘する構造問題 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWU1otUVkzRXA4cmxIckZJMEFjV1BqVUJhTzJPN1k4WUx5MTgzY09vSkpxbzhOaTRKVUwwTWhBQU9IQmJYWk9IRVNJeDZCWTZieGVRSUdEdDVqaUUycklV?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.98",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:43:57.760932+00:00",
+    "publish_at": "2026-11-18T05:17:00+00:00",
+    "timestamp": "2026-11-18T05:17:00+00:00"
+  },
+  {
+    "id": "97cb19f130e4",
+    "text": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VWjAteVNuMFdCMXhvb2tCVFY1ODRUd3JOM3piQkFGODJ3X2lDd0U5cnN0Y2FNdGVwMlBwdzEya25hekNMVlRfUkNlWGNTcUVDaHZUWjlQdDZMQWd6c09udy1JOUg3THF1TUtnckhCdnhhNVR1eFNLUg?oc=5\n転職活動で生成AIが利用者の70%以上に誤情報を経験させ、確認先は企業の公式サイトが上位になったという。\n「そして最後に、新奇なものは、退けはしないまでも、疑わしいものとして扱うこと。」\n『随筆集』第24篇「革新について」",
+    "original": "And lastly, that the novelty, though it be not rejected, yet be held for a suspect …",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 17,
+    "source": "Google News 偽情報・言説",
+    "source_title": "転職活動で生成AI利用者の70%以上が誤情報を経験。確認先は企業の公式サイトが上位に｜ワークス・ジャパン キャリア 求職者調査 - RBB TODAY",
+    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VWjAteVNuMFdCMXhvb2tCVFY1ODRUd3JOM3piQkFGODJ3X2lDd0U5cnN0Y2FNdGVwMlBwdzEya25hekNMVlRfUkNlWGNTcUVDaHZUWjlQdDZMQWd6c09udy1JOUg3THF1TUtnckhCdnhhNVR1eFNLUg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "E24c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:38:20.453041+00:00",
+    "publish_at": "2026-11-18T02:17:00+00:00",
+    "timestamp": "2026-11-18T02:17:00+00:00"
+  },
+  {
+    "id": "3193e1ef8458",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0zWHNyQ3lKSDFkbkNlS3JZS3Jlb3QyQ1dpUTJlRTFDUzUxUWVodVhIMUlHUDk3eFh2OGZMaUEzLUtkNVc3WlJVV1FQUQ?oc=5\n生成AIが作り出す虚偽引用を事前に選り分ける検証システムは不十分であり、国内外の学術論文が相次いで撤回されているという。\n「こうした形式ばかりの者たちが、表面を奥行きと嵩のある実体に見せかけるために、いかなる手管と遠眼鏡を用いるかを見るのは滑稽であり、判断力ある人にとっては風刺にうってつけである。」\n『随筆集』第26篇「賢く見えることについて」",
+    "original": "It is a ridiculous thing, and fit for a satire to persons of judgment, to see what shifts these formalists have, and what prospectives to make superficies to seem body, that hath depth and bulk.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 22,
+    "source": "Google News 研究不正・論文",
+    "source_title": "人工知能(AI)が作り出した偽参考文献を引用した国内外の学術論文が相次いで撤回されている。 生成 AI活用が研究現場で急速に拡散しているが、虚偽引用を事前に選り分ける検証システムは不十分なのが実情だ。.. - 매일경제",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0zWHNyQ3lKSDFkbkNlS3JZS3Jlb3QyQ1dpUTJlRTFDUzUxUWVodVhIMUlHUDk3eFh2OGZMaUEzLUtkNVc3WlJVV1FQUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "experientia",
+      "potentia",
+      "studium"
+    ],
+    "quote_id": "E26",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T14:30:25.875529+00:00",
+    "publish_at": "2026-11-17T23:17:00+00:00",
+    "timestamp": "2026-11-17T23:17:00+00:00"
+  },
+  {
     "id": "6c5a1b61c5b7",
     "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiV2JaMXpCNWo3ZUhSWnhNSnAyN1MxS1dneDB1TlVqbFR6dVh4OWxCZTlSNkFobGY2ZzhDWU1EdzZGSmJfNGhPZzBJa0Y4Tk1BSzZiVkhwdzl0VXF1T1lSalhua3VXdnFZODk4SnlPQlNRUGFB?oc=5\nBigGo ファイナンスは「FRBバー理事、AIが招く市場混乱に警鐘 取引の同調行動や銀行取り付け加速を指摘」と報じた。\n「政治の事柄においては、よい方への変化でさえ、混乱を招くゆえに疑われる。政治は論証にではなく、権威と同意と評判と意見とに拠って立つからである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム90",
     "original": "Verum in rebus civilibus mutatio etiam in melius suspecta est ob perturbationem; cum civilia authoritate, consensu, fama, et opinione, non demonstratione, nitantur.",
@@ -678,134 +806,5 @@
     "generated_at": "2026-11-13T09:37:11.373894+00:00",
     "publish_at": "2026-11-13T23:17:00+00:00",
     "timestamp": "2026-11-13T23:17:00+00:00"
-  },
-  {
-    "id": "737125e4e2cf",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1reF9XNDF5VG16UHZjcDFUNHVRLW9NRzlxcVhXUy1YQ3JiTFgxN0FjdVF4dWFqVHRnQXRZUFBxOTZKcWZoRmR6YzlINUJLSmpKZWtjUUtIQW9BeFptRHJLdFJZS1p5bWI2ZTFsTUw2REt0ZldOYW1MbXlWQWg2TUk?oc=5\n『いろはの恋』第6話でシール盗難疑惑がSNSで炎上し、職員たちは対応に追われたという。\n「迷信の主人は民衆であり、あらゆる迷信において、賢者が愚者に従う。」\n『随筆集』第17篇「迷信について」",
-    "original": "The master of superstition, is the people; and in all superstition, wise men follow fools …",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 12,
-    "source": "Google News SNS・報道",
-    "source_title": "『いろはの恋は時代をかける』第6話あらすじ。シール盗難疑惑がSNSで大炎上。職員たちは対応に追われ…＜ネタバレあり＞ - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1reF9XNDF5VG16UHZjcDFUNHVRLW9NRzlxcVhXUy1YQ3JiTFgxN0FjdVF4dWFqVHRnQXRZUFBxOTZKcWZoRmR6YzlINUJLSmpKZWtjUUtIQW9BeFptRHJLdFJZS1p5bWI2ZTFsTUw2REt0ZldOYW1MbXlWQWg2TUk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E17b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T21:29:42.871203+00:00",
-    "publish_at": "2026-11-13T20:17:00+00:00",
-    "timestamp": "2026-11-13T20:17:00+00:00"
-  },
-  {
-    "id": "9b1aa3df4c6f",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xQmZqYklKUEJDaS1DQ3BCZWVza0h6ZUNUZ2NDZ2N4eDBxVUNkYmkzZzlMSzN0OTN3NHpCS3hrOUtmc2JSbEhhN2JNVUF2NVpIWGFhRm5qaEhWV2g5cG02TGJuZGRBMFprbC1OMEFCbnRNX010bUEwZmluV2dXdm8?oc=5\n有識者会議が選挙中のSNSデマ対策について最終会合を開き、今月20日に報告書公表を目指すという。\n「迅速さを、会議に座っていた時間で測るな。仕事の進み具合で測れ。」\n『随筆集』第25篇「迅速について」",
-    "original": "Measure not dispatch, by the times of sitting, but by the advancement of the business.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "選挙中のSNSデマ対策 有識者会議が最終会合 今月20日に報告書公表へ＜宮城＞（ミヤギテレビ） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xQmZqYklKUEJDaS1DQ3BCZWVza0h6ZUNUZ2NDZ2N4eDBxVUNkYmkzZzlMSzN0OTN3NHpCS3hrOUtmc2JSbEhhN2JNVUF2NVpIWGFhRm5qaEhWV2g5cG02TGJuZGRBMFprbC1OMEFCbnRNX010bUEwZmluV2dXdm8?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "theatri"
-    ],
-    "quote_id": "E25b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T21:18:30.716312+00:00",
-    "publish_at": "2026-11-13T17:17:00+00:00",
-    "timestamp": "2026-11-13T17:17:00+00:00"
-  },
-  {
-    "id": "1db262aef7ab",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zT1liZU9nWkVpc3pXcDBNX3ZRaFNfTEFPU29WZ05xdWctWmJCbmd2WUM2ekFwVmh0YzBfVW40T0tNYjZqOFd4R2pDT21TYkJzMW1LeEx2ZS1UMC01MjhuMFJfOWpDSm0y?oc=5\n宮城県の有識者検討会が、選挙中のSNSデマや中傷への対策案を了承した。\n「隠し立ては、弱々しい策略、あるいは知恵にすぎない。いつ真実を語るべきかを知り、それを実行するには、強い知恵と強い心がいるからである。」\n『随筆集』第6篇「偽装と隠し立てについて」",
-    "original": "Dissimulation is but a faint kind of policy, or wisdom; for it asketh a strong wit, and a strong heart, to know when to tell truth, and to do it.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "選挙中のSNSデマ、中傷の対策案 宮城県の有識者検討会が了承 - 毎日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zT1liZU9nWkVpc3pXcDBNX3ZRaFNfTEFPU29WZ05xdWctWmJCbmd2WUM2ekFwVmh0YzBfVW40T0tNYjZqOFd4R2pDT21TYkJzMW1LeEx2ZS1UMC01MjhuMFJfOWpDSm0y?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "theatri"
-    ],
-    "quote_id": "E6",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T21:07:43.204192+00:00",
-    "publish_at": "2026-11-13T14:17:00+00:00",
-    "timestamp": "2026-11-13T14:17:00+00:00"
-  },
-  {
-    "id": "9e4bedbbd1f7",
-    "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lUTZoMm1yNmtZSENlRU9jWll0TXItZjFYVk1ZM3VPazU0MVgzNWtEcEt4cUlWb1kzbWItcnJaOUg1TUptbG5Hc0c5QnhEekh6cXc?oc=5\nCNET Japanは「AI生成の偽情報、見抜ける？ 『自信あり』は約3割に低下--ドコモ調査」と報じた。\n「人間は自然の下僕にして解釈者であり、自然の秩序について、事実によってであれ精神によってであれ観察しただけのことを為し、理解する。それ以上は知らず、為し得ない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム1",
-    "original": "Homo, naturae minister et interpres, tantum facit et intelligit quantum de naturae ordine re vel mente observaverit: nec amplius scit, aut potest.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 13,
-    "source": "Google News 偽情報・言説",
-    "source_title": "AI生成の偽情報、見抜ける？ 「自信あり」は約3割に低下--ドコモ調査 - CNET Japan",
-    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lUTZoMm1yNmtZSENlRU9jWll0TXItZjFYVk1ZM3VPazU0MVgzNWtEcEt4cUlWb1kzbWItcnJaOUg1TUptbG5Hc0c5QnhEekh6cXc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia"
-    ],
-    "quote_id": "NO1.1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T13:26:15.350887+00:00",
-    "publish_at": "2026-11-13T11:17:00+00:00",
-    "timestamp": "2026-11-13T11:17:00+00:00"
-  },
-  {
-    "id": "4a9883e49f11",
-    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YYnpSaVRlQllsYnhyMGwzZ0lSNE9oRDJ2dzkzVm1OeGc3ZEdvcTBPT0luSWlJU3B1ZWJVejZHQ2t2UEoxX3BNZldfTFJjelZv?oc=5\n風傳媒は「フアンCEO妻の『361字声明』は偽情報 拡散音声はAI合成の可能性高く、 本人は公に発言せず」と報じた。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
-    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 18,
-    "source": "Google News 偽情報・言説",
-    "source_title": "フアンCEO妻の「361字声明」は偽情報 拡散音声はAI合成の可能性高く、 本人は公に発言せず - 風傳媒",
-    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YYnpSaVRlQllsYnhyMGwzZ0lSNE9oRDJ2dzkzVm1OeGc3ZEdvcTBPT0luSWlJU3B1ZWJVejZHQ2t2UEoxX3BNZldfTFJjelZv?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fori",
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "E31c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T12:59:15.735629+00:00",
-    "publish_at": "2026-11-13T08:17:00+00:00",
-    "timestamp": "2026-11-13T08:17:00+00:00"
-  },
-  {
-    "id": "61f5e0596544",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iOTJXR0NPaW9FQUZVUThUbEljbVRsVjF6cDctX1VRWmhwbW9iZEhwSGI1dUltLXVqMDFSem1WaVJETHJPR2x1bWRfWE9weEMzQlBXbkcyOW1OMTg?oc=5\n企業の新入社員研修で最も上位のテーマは、SNS炎上対策という。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
-    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 19,
-    "source": "Google News SNS・報道",
-    "source_title": "新入社員コンプラ研修、テーマの1位は「SNS炎上対策」（55.5%）生成AI・闇バイトは？〜 企業1,257社を対象に調査・有効回答283。詳細レポートを公開～ - valuepress",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iOTJXR0NPaW9FQUZVUThUbEljbVRsVjF6cDctX1VRWmhwbW9iZEhwSGI1dUltLXVqMDFSem1WaVJETHJPR2x1bWRfWE9weEMzQlBXbkcyOW1OMTg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "E12a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-12T12:48:19.631025+00:00",
-    "publish_at": "2026-11-13T05:17:00+00:00",
-    "timestamp": "2026-11-13T05:17:00+00:00"
   }
 ]
