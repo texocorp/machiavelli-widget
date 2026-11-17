@@ -1,5 +1,68 @@
 [
   {
+    "id": "fe960ad6b555",
+    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQemRHaHFRMGZYV0RqM3VvOGotYUZaUEVEaGJKUTVMSGZXdjNMU1locFIwa0tvN2lPYXRSTGFOUEJ3dlFYQzI0N1Y2Yy1IZUh5dHZPWGlzQmVrUmdZcGY4bjB6eFpLS01MaUl0c3htTkhkZWNVc1NUUkxjS1JpTnJYaTFST3A1NlNl?oc=5\n日本ファクトチェックセンターは「高市首相が『年金廃止』と発表? 動画にそのような発言は無い」と報じた。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
+    "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
+    "original_lang": "en",
+    "theme": "fori",
+    "score": 11,
+    "source": "Google News 偽情報・言説",
+    "source_title": "高市首相が「年金廃止」と発表? 動画にそのような発言は無い（日本ファクトチェックセンター） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQemRHaHFRMGZYV0RqM3VvOGotYUZaUEVEaGJKUTVMSGZXdjNMU1locFIwa0tvN2lPYXRSTGFOUEJ3dlFYQzI0N1Y2Yy1IZUh5dHZPWGlzQmVrUmdZcGY4bjB6eFpLS01MaUl0c3htTkhkZWNVc1NUUkxjS1JpTnJYaTFST3A1NlNl?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fori",
+      "fama"
+    ],
+    "quote_id": "E50a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T23:44:34.825737+00:00",
+    "publish_at": "2026-11-18T23:17:00+00:00",
+    "timestamp": "2026-11-18T23:17:00+00:00"
+  },
+  {
+    "id": "578f4a6f1cb0",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fUDhDb0pzeG1udVBTT0U1ZllXYVAxMXByR0pSeFR0ZHBHemhGZG01bkJCVy1hUUVvSUlOVERIZlNpMHRIelVwRG44M0hpTkZBb1loZmNLc25hZEMyNnBmTFVNYjRVdw?oc=5\n日刊ゲンダイDIGITALは「『高市首相が天皇末裔説』を発信の陰謀論系ユーチューバーに税金1.5億円…また政府広報が大炎上！」と報じた。\n「ひとたび嫉妬が国家に入り込むと、それはその最良の行いさえも中傷し、悪臭へと変えてしまう。」\n『随筆集』第9篇「嫉妬について」",
+    "original": "… so when envy is gotten once into a state, it traduceth even the best actions thereof, and turneth them into an ill odor.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「高市首相が天皇末裔説」を発信の陰謀論系ユーチューバーに税金1.5億円…また政府広報が大炎上！ - 日刊ゲンダイDIGITAL",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fUDhDb0pzeG1udVBTT0U1ZllXYVAxMXByR0pSeFR0ZHBHemhGZG01bkJCVy1hUUVvSUlOVERIZlNpMHRIelVwRG44M0hpTkZBb1loZmNLc25hZEMyNnBmTFVNYjRVdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E9b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T23:24:46.541000+00:00",
+    "publish_at": "2026-11-18T20:17:00+00:00",
+    "timestamp": "2026-11-18T20:17:00+00:00"
+  },
+  {
+    "id": "caea4ae62084",
+    "text": "https://news.google.com/rss/articles/CBMigwZBVV95cUxPQ3poLTBlV01LenZ4MU5scXVPRW1OeFd0ZHRwak9Yd09MbDBXYlFlcjlEWFViWkQ0WURKcjlBTHJHUlpSZ1pfVmE5SFotX01uSW03bnpOTlhpa3NFd0R2Wnpxa1NsYTVaRFFkOWVSd0hHeUd5ZEp5eC05OFZUcDBkYkJCS0lsZWpBckVieEpJRjJoeEVEek5nNGRZZ1lDclNvQzF6NmV4RVdDOWdTVm0xalVnUTB2MTY1R2VjcHdYWUtsQXk2RkNjTERsUFgxekttRFJjLXk5QzRudnY1T2JETzZXbjdyRkh3WDhMeElWZEdHWFRhczRBbmU3ckc1N09JdUFISGpWcVl2d1dqMnhha0NCUksyZ0llUnJCMHZjbzRzMzlTSlpIQUg2ajY5SmxFNWZOMTgwLS05QWM1SmxOUjdVVkZEa2J0cU4xdDA5dWpkdzFJZ0VXX3E5TGNuVDZNaG5Xa0Z2UFdjOXRUWE1OY0E1Q3dwdGdrVWJOdUVtdHY3R3FZd1BCU2pqU3NvUG5reXhYbGNXdTBLOFg0c2tKRVpaWXdPd3VhZFMyVjR0Wm1OSHNVUWhHeEZIVzhSaTJuRFRSamtFQXJtNVg0bU81S01FTlNRUnh2UXNrMDkyVmxhckpyTUlROVA2bXRIVjJCc2ZZcjRtSHRmZGJWWkdyX01YaUpETmQ4MUVNV3M3RjdYX2Q0Y1dRVWo1aUZkUzYydVItdnVSeS0tUFVXekN4S0F6Vk9UWDRoWVFYdzFHNWtvVm5XZjAwdkFoRXZIcmxjbkVvTXZUenR3dGplQXNQVzF3MmtQLVlaaUJBNjJHNmtNWEhMT2JWWUVYRFR6eS1jOWNEVW9jenBGX2wwSFA5ZFVuV3Fjb2ZfQjljUkxlX25tOTBTeGVvT0lGSGhhWXY5OVo1VFlHSVgtak1OZmVBTnpjeFIyWTFQVjlHdHdDOGZCbU9vdWRTbi0xbkhoc09kdWwwSllWUDd3ZlBBUThOTTVLSEx5aDJNRWlBVXZuQUNxb1E?oc=5\n高市政権が国民に対して偽情報対策を呼びかけた一方で、自らの発言や政府の説明には疑惑があった。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
+    "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "高市政権の「ザ・おまいう」！ 国民に「ま・さ・か」と偽情報対策を呼びかける一方…自らの発言と政府説明は疑惑だらけ | スマートニュース - SmartNews",
+    "source_url": "https://news.google.com/rss/articles/CBMigwZBVV95cUxPQ3poLTBlV01LenZ4MU5scXVPRW1OeFd0ZHRwak9Yd09MbDBXYlFlcjlEWFViWkQ0WURKcjlBTHJHUlpSZ1pfVmE5SFotX01uSW03bnpOTlhpa3NFd0R2Wnpxa1NsYTVaRFFkOWVSd0hHeUd5ZEp5eC05OFZUcDBkYkJCS0lsZWpBckVieEpJRjJoeEVEek5nNGRZZ1lDclNvQzF6NmV4RVdDOWdTVm0xalVnUTB2MTY1R2VjcHdYWUtsQXk2RkNjTERsUFgxekttRFJjLXk5QzRudnY1T2JETzZXbjdyRkh3WDhMeElWZEdHWFRhczRBbmU3ckc1N09JdUFISGpWcVl2d1dqMnhha0NCUksyZ0llUnJCMHZjbzRzMzlTSlpIQUg2ajY5SmxFNWZOMTgwLS05QWM1SmxOUjdVVkZEa2J0cU4xdDA5dWpkdzFJZ0VXX3E5TGNuVDZNaG5Xa0Z2UFdjOXRUWE1OY0E1Q3dwdGdrVWJOdUVtdHY3R3FZd1BCU2pqU3NvUG5reXhYbGNXdTBLOFg0c2tKRVpaWXdPd3VhZFMyVjR0Wm1OSHNVUWhHeEZIVzhSaTJuRFRSamtFQXJtNVg0bU81S01FTlNRUnh2UXNrMDkyVmxhckpyTUlROVA2bXRIVjJCc2ZZcjRtSHRmZGJWWkdyX01YaUpETmQ4MUVNV3M3RjdYX2Q0Y1dRVWo1aUZkUzYydVItdnVSeS0tUFVXekN4S0F6Vk9UWDRoWVFYdzFHNWtvVm5XZjAwdkFoRXZIcmxjbkVvTXZUenR3dGplQXNQVzF3MmtQLVlaaUJBNjJHNmtNWEhMT2JWWUVYRFR6eS1jOWNEVW9jenBGX2wwSFA5ZFVuV3Fjb2ZfQjljUkxlX25tOTBTeGVvT0lGSGhhWXY5OVo1VFlHSVgtak1OZmVBTnpjeFIyWTFQVjlHdHdDOGZCbU9vdWRTbi0xbkhoc09kdWwwSllWUDd3ZlBBUThOTTVLSEx5aDJNRWlBVXZuQUNxb1E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fori"
+    ],
+    "quote_id": "E1b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-17T22:56:59.690863+00:00",
+    "publish_at": "2026-11-18T17:17:00+00:00",
+    "timestamp": "2026-11-18T17:17:00+00:00"
+  },
+  {
     "id": "8177c86629c6",
     "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iX2ZsVHVpcnJkeWtTcVJVUEhmUzlmOG8yRE5PQTR5cHAxa2FKbERYVEoyVWZhSjlYaDRocjhzcXoxRXIzMDkwSkVIZFJqd0d6WGFLWlNxTnkwVkZK?oc=5\n卓栄泰行政院長が、資金やディープフェイク動画などによる選挙介入に対して厳重警戒を指示した。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
     "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
@@ -741,70 +804,5 @@
     "generated_at": "2026-11-13T09:59:38.439169+00:00",
     "publish_at": "2026-11-14T08:17:00+00:00",
     "timestamp": "2026-11-14T08:17:00+00:00"
-  },
-  {
-    "id": "4325303413dc",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JMGh6MnFVWmpzN0gzQlp4bzNWYUVvSjdvbl9nOFR4MWwyanBpSjZtQ3d6SmRmT20tcl9HbF81b3Q0Ry0tRXEtb2cxcmpsU2JtOXQ0VmdTOTRudTRscXBB?oc=5\nSNS教育講演家が、兎田ぺこらのハロウィン投稿を例に挙げながらSNSの炎上構造や盲点を指摘した。\n「言葉はまさしく知性に暴力を加え、すべてをかき乱し、人々を空しく果てしない論争と作り話へと導く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
-    "original": "Sed verba plane vim faciunt intellectui, et omnia turbant; et homines ad inanes et innumeras controversias et commenta deducunt.",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 16,
-    "source": "Google News SNS・報道",
-    "source_title": "SNS教育講演家が指摘する「炎上の構造」兎田ぺこらのハロウィン投稿から学ぶSNSの盲点 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JMGh6MnFVWmpzN0gzQlp4bzNWYUVvSjdvbl9nOFR4MWwyanBpSjZtQ3d6SmRmT20tcl9HbF81b3Q0Ry0tRXEtb2cxcmpsU2JtOXQ0VmdTOTRudTRscXBB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.43b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T09:53:26.845441+00:00",
-    "publish_at": "2026-11-14T05:17:00+00:00",
-    "timestamp": "2026-11-14T05:17:00+00:00"
-  },
-  {
-    "id": "d8d714f6d500",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54aFhuRnpBMFlhVmZ3QjdvYWR5c185c3N5QXFJUS1iY0J4RHE3UmVyakxxeE5NNTRxdkxkY2t2R1FrVHZMUlZ3Z0ViX3dtN0hlY0ltbzhTN0hGb3VYVFFv?oc=5\nライブドアニュースは「SNS教育講演家が指摘する炎上の盲点 批判への反論より優先すべき『事実と謝罪の順番』」と報じた。\n「物事は、一度目か二度目かに揺さぶられる。助言の議論の上で揉まれなければ、運命の波の上で揉まれることになる。」\n『随筆集』第20篇「助言について」",
-    "original": "Things will have their first, or second agitation: if they be not tossed upon the arguments of counsel, they will be tossed upon the waves of fortune …",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 17,
-    "source": "Google News SNS・報道",
-    "source_title": "SNS教育講演家が指摘する炎上の盲点 批判への反論より優先すべき「事実と謝罪の順番」 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54aFhuRnpBMFlhVmZ3QjdvYWR5c185c3N5QXFJUS1iY0J4RHE3UmVyakxxeE5NNTRxdkxkY2t2R1FrVHZMUlZ3Z0ViX3dtN0hlY0ltbzhTN0hGb3VYVFFv?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "E20c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T09:44:08.661925+00:00",
-    "publish_at": "2026-11-14T02:17:00+00:00",
-    "timestamp": "2026-11-14T02:17:00+00:00"
-  },
-  {
-    "id": "4bf086a324a5",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaakt5VVFDUE1pNzJOU1Uxc3NCU1J1NVFYaE9fRGMxVjJ5My1SZEpMSUNsSm40VHRoa2wybWhCcldyV20wcDMxNDRFeFQzR3ZtWXotM0VWZUN4Ulk?oc=5\n宮城県有識者検討会が分析ツールを用いた偽情報のチェックや誹謗中傷投稿の削除要請などを含むSNS誤情報対策案を取りまとめ、それを『宮城モデル』として示した。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
-    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 22,
-    "source": "Google News 偽情報・言説",
-    "source_title": "分析ツールで偽情報などチェック 誹謗中傷投稿は削除要請… 宮城県有識者検討会がSNS誤情報対策案取りまとめ 「宮城モデル」示す - 河北新報オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaakt5VVFDUE1pNzJOU1Uxc3NCU1J1NVFYaE9fRGMxVjJ5My1SZEpMSUNsSm40VHRoa2wybWhCcldyV20wcDMxNDRFeFQzR3ZtWXotM0VWZUN4Ulk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama",
-      "theatri",
-      "experientia"
-    ],
-    "quote_id": "E15a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T09:37:11.373894+00:00",
-    "publish_at": "2026-11-13T23:17:00+00:00",
-    "timestamp": "2026-11-13T23:17:00+00:00"
   }
 ]
