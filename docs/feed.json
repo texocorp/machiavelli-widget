@@ -1,5 +1,47 @@
 [
   {
+    "id": "b9363c893980",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KZFBLbEhBMlpSc0gxWmJibm14SzVQbHpEUXZjbmRnbmg1dHZGUWNIbHM5MGR3RzUxdlRDWWdDOVdYZW8tM3BDM1Mwc0V4UFZYX09VdWVDb1c3ZzhXQlZQWUZfc003QnpmSWVoQWh6SEdhemlsR0E?oc=5\n国連では北朝鮮の労働者派遣について議論が進み、核やミサイル開発の資金源となる制裁監視チームを設けるという。\n「ローマ人は、従属する者たちを裁かねばならぬ事態に際し、中途半端な道を避けた。」\n『リウィウス論 II.23』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "北朝鮮労働者派遣を議論 国連で制裁監視チーム 核・ミサイル開発の資金源 - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KZFBLbEhBMlpSc0gxWmJibm14SzVQbHpEUXZjbmRnbmg1dHZGUWNIbHM5MGR3RzUxdlRDWWdDOVdYZW8tM3BDM1Mwc0V4UFZYX09VdWVDb1c3ZzhXQlZQWUZfc003QnpmSWVoQWh6SEdhemlsR0E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "economia",
+      "necessita"
+    ],
+    "quote_id": "D2.23",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T22:08:29.123444+00:00",
+    "publish_at": "2026-11-19T18:17:00+00:00",
+    "timestamp": "2026-11-19T18:17:00+00:00"
+  },
+  {
+    "id": "38c0b853e6f9",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwcFFuQkxQSlZSeXE0NmJ6blV4c1VMUVRMZEE4Y2JPUlNRQ0d1YlpUbFFHc19jWEI5ZmZ0MWxENlhEWkhueXp4UW1BTC1iS1Exdm1WLUFMXzRkUWpoR05NMzNB?oc=5\nウクライナがミサイルやドローンを使い、1ヶ月間準備した上でクリミア大橋を攻撃し、一部が崩落して物資調達に影響する可能性が生じた。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナがクリミア大橋を攻撃、一部崩落し物資調達に影響する可能性…ミサイルやドローン使い１か月準備 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwcFFuQkxQSlZSeXE0NmJ6blV4c1VMUVRMZEE4Y2JPUlNRQ0d1YlpUbFFHc19jWEI5ZmZ0MWxENlhEWkhueXp4UW1BTC1iS1Exdm1WLUFMXzRkUWpoR05NMzNB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D3.40",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T21:57:02.839521+00:00",
+    "publish_at": "2026-11-19T15:17:00+00:00",
+    "timestamp": "2026-11-19T15:17:00+00:00"
+  },
+  {
     "id": "81978b456522",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mS28zNEY1WnJOekhxYzVCNGRkNGdNaTJsVXlVeHBYeUdiUUVEZ3dlekUyUG94QUtOVHBNblllZWprRXJOOEE2SHFFdWZENk1LcFUtNzNGZ1NVeTF0VTBYbmt3dDdfU0JwSm1scWtOVkx2WDI1RXVFQjhlWDVoSkU?oc=5\nイランは湾岸諸国の米軍基地を攻撃し、外交努力への応酬が激化するという結果を生んでいる。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
     "theme": "guerra",
@@ -694,64 +736,5 @@
     "generated_at": "2026-11-14T17:07:29.180557+00:00",
     "publish_at": "2026-11-15T06:17:00+00:00",
     "timestamp": "2026-11-15T06:17:00+00:00"
-  },
-  {
-    "id": "dcadd7b73efb",
-    "text": "https://news.google.com/rss/articles/CBMiwARBVV95cUxOc0RPbGVOcVlkYkVmaV9UbnBWdHVYQVA4OEVjR0tPQjcycnhTVVFsZ3hYLWJWS1ZYYnNvdU5HUTlwc3M2OTNLSWxBaWxaVUN1Y0E5YXRPdWRvRTFpUFZMTVlVb21PR3lvMkhhZUxyVU51YlpnUVVwYkUzR1R0d3M1Y0YxZlFGMy1VY1o3c2YzcnA1R1RETVVmSThyS0pIVDJEaUI2aGNfU2tHWURrNkpLMlBJanVKRy1kdGc2TmdfSDdiQWJUZkF1TURjY2M4OHlIcXBuSnhKaXhMMHJBeFlvSlliaFVLVkg0WE9BdFZEWkVoMHlYVkREckdWUFFwNVV4QUQzb0NBMEREUHRmRHB3azhfU3lDdzVObUFwaHJUbzZiVElyNklRTENHVEoxamxSb0NxemJCSHFpbllYcVRFT1N2bnFFXzRJZVl1QTFESWtBNksyV0dpMVpid01LdEczVWR1SDZacHdDdG9HYm56b011UHdxcVlnYzVfSTF3UkFRMG10YmZhU2lZMUYyR3dVQ1B6MUVGQWlmbVFCdDVmUXpUSnNMbFktUldYOVVxSDR4UFFMWXlDQkhCazZfZG5RcnF4c3k0SVR2Zy1LWHpONHktSnhqNDBhTm0xUmZKOFJfR25yS295NkxEV1k0alBZZ2V5Z1Y1OUhyeXRsU0hDM2lYa2V5WWRPSVNrcWJieXNLdXNFdzlLMFNldUhCYTFQWjhLRDBLcXloLXN3S3hnaENuU3ZCTlExSnNPVlRkQjI?oc=5\nイランは戦争開始以来、7,000以上のミサイルとドローンを湾岸諸国に発射し、GCC事務局長が国連に状況を伝える。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、戦争開始以来7,000以上のミサイルとドローンを湾岸諸国に発射、GCC事務局長が国連に伝える - アラブニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiwARBVV95cUxOc0RPbGVOcVlkYkVmaV9UbnBWdHVYQVA4OEVjR0tPQjcycnhTVVFsZ3hYLWJWS1ZYYnNvdU5HUTlwc3M2OTNLSWxBaWxaVUN1Y0E5YXRPdWRvRTFpUFZMTVlVb21PR3lvMkhhZUxyVU51YlpnUVVwYkUzR1R0d3M1Y0YxZlFGMy1VY1o3c2YzcnA1R1RETVVmSThyS0pIVDJEaUI2aGNfU2tHWURrNkpLMlBJanVKRy1kdGc2TmdfSDdiQWJUZkF1TURjY2M4OHlIcXBuSnhKaXhMMHJBeFlvSlliaFVLVkg0WE9BdFZEWkVoMHlYVkREckdWUFFwNVV4QUQzb0NBMEREUHRmRHB3azhfU3lDdzVObUFwaHJUbzZiVElyNklRTENHVEoxamxSb0NxemJCSHFpbllYcVRFT1N2bnFFXzRJZVl1QTFESWtBNksyV0dpMVpid01LdEczVWR1SDZacHdDdG9HYm56b011UHdxcVlnYzVfSTF3UkFRMG10YmZhU2lZMUYyR3dVQ1B6MUVGQWlmbVFCdDVmUXpUSnNMbFktUldYOVVxSDR4UFFMWXlDQkhCazZfZG5RcnF4c3k0SVR2Zy1LWHpONHktSnhqNDBhTm0xUmZKOFJfR25yS295NkxEV1k0alBZZ2V5Z1Y1OUhyeXRsU0hDM2lYa2V5WWRPSVNrcWJieXNLdXNFdzlLMFNldUhCYTFQWjhLRDBLcXloLXN3S3hnaENuU3ZCTlExSnNPVlRkQjI?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG7",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T11:12:25.844268+00:00",
-    "publish_at": "2026-11-15T03:17:00+00:00",
-    "timestamp": "2026-11-15T03:17:00+00:00"
-  },
-  {
-    "id": "0ec352e90118",
-    "text": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYWNuU0VVWGwwQ3BnZHZVVHVnYjhHeTUzaEdLOHFFNTBBc3Y5Sm9uLTZPZWtoLUpneERJcV9XYVh4bXFsY0RRam14NkY3VGE1QUNNX1RRSXRIT3JvaUx6S3VvYnZQdzdXbnJxMk1zTXBXQnEzLWZmRUR5d1Z5N0hnRGFocFV5V2JGVHfSAY8BQVVfeXFMTXgxYUxZdWdwTk45dk1tTHR3UFdaOXplRU80TU02Qzl0Q1dXSFdRMnVjWFVPc1pFaGc2ekt2Q3dZWTlZWE9ZNzlyRWFWTzgxclQ5UXUtNzNjRWxfZFN3cUZtLTMyOUlkTGIwcDBsT1l4LW0yb1NWZXU2bUV2Q2ZOZGlNT2J5YWFlQUhuczI4OEE?oc=5\nネタニヤフ首相の陣営には組閣が指示され、イスラエルによる連立交渉が加速しているという。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 19,
-    "source": "Google News 国際(World)",
-    "source_title": "反ネタニヤフ首相陣営に組閣指示　イスラエル、連立交渉加速 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYWNuU0VVWGwwQ3BnZHZVVHVnYjhHeTUzaEdLOHFFNTBBc3Y5Sm9uLTZPZWtoLUpneERJcV9XYVh4bXFsY0RRam14NkY3VGE1QUNNX1RRSXRIT3JvaUx6S3VvYnZQdzdXbnJxMk1zTXBXQnEzLWZmRUR5d1Z5N0hnRGFocFV5V2JGVHfSAY8BQVVfeXFMTXgxYUxZdWdwTk45dk1tTHR3UFdaOXplRU80TU02Qzl0Q1dXSFdRMnVjWFVPc1pFaGc2ekt2Q3dZWTlZWE9ZNzlyRWFWTzgxclQ5UXUtNzNjRWxfZFN3cUZtLTMyOUlkTGIwcDBsT1l4LW0yb1NWZXU2bUV2Q2ZOZGlNT2J5YWFlQUhuczI4OEE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "popolo_principe"
-    ],
-    "quote_id": "AG3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T10:29:38.810494+00:00",
-    "publish_at": "2026-11-15T00:17:00+00:00",
-    "timestamp": "2026-11-15T00:17:00+00:00"
-  },
-  {
-    "id": "fc6535353426",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92OVQ5bmVYYzdfMXdWUWlkWWlSUFdwNDVwTXBpS2MtV3hKRC1FOExPd2VvVEM1dmxMZm9obkFoYjcySGhOSkJhcUs3RndfWEt3SDhScnhIRU1xdw?oc=5\n中国は遠方の作戦能力を強化しており、台湾への侵攻に向けた南シナ海での重視を示しているという。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中国・台湾",
-    "source_title": "中国、遠方の作戦能力強化 台湾侵攻へ南シナ海重視｜政治｜全国のニュース｜富山新聞 - 北國新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92OVQ5bmVYYzdfMXdWUWlkWWlSUFdwNDVwTXBpS2MtV3hKRC1FOExPd2VvVEM1dmxMZm9obkFoYjcySGhOSkJhcUs3RndfWEt3SDhScnhIRU1xdw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D3.40",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T23:13:17.570771+00:00",
-    "publish_at": "2026-11-14T21:17:00+00:00",
-    "timestamp": "2026-11-14T21:17:00+00:00"
   }
 ]
