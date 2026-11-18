@@ -1,5 +1,42 @@
 [
   {
+    "id": "d45cf0df3ead",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TNEczUVdnck84dW1vXy1STjhPYi04RVdZQzVXUS1pQ3Y2SWd0NEctSS0yQWMyWm1jU0V1cVplX09CUXJ2aFJUVjdLXzQwTmtiUHJj?oc=5\n斎藤美奈子さんとAIによる分身が、忖度のない討論の中で『私の分身か』と問われ、『文体を借りた別の論者だ』と答えた。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
+    "theme": "presomption",
+    "score": 4,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "斎藤美奈子さんと「AI斎藤美奈子」が忖度なしの徹底討論 「私の分身？」「文体を借りた別の論者です」 - 東京新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TNEczUVdnck84dW1vXy1STjhPYi04RVdZQzVXUS1pQ3Y2SWd0NEctSS0yQWMyWm1jU0V1cVplX09CUXJ2aFJUVjdLXzQwTmtiUHJj?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption"
+    ],
+    "quote_id": "I.39b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T04:33:15.478792+00:00",
+    "publish_at": "2026-11-19T04:17:00+00:00",
+    "timestamp": "2026-11-19T04:17:00+00:00"
+  },
+  {
+    "id": "2e311404ffa0",
+    "text": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9JbTZwTGRBQWZMUFdNN3o0Y1NscEZvSVpYUy10WURZanhOSlVmcGtpNDZGNG9CUVlybGVJMnVXN3pkLTVL?oc=5\n保育士歴29年の女性が病院での低賃金を訴えた問題で、国の処遇改善が対象外となっているという。\n「(古い見解に言う)大きく正しくあろうとする者は細部で不正をなさざるをえず、大事で正義を貫こうとする者は小事で不公正をなさざるをえない。」\n『エセー III.13「経験について」』",
+    "theme": "medecine",
+    "score": 4,
+    "source": "Google News 国内",
+    "source_title": "「手取りが高卒1年目の息子と2万円差」保育士歴29年の女性が病院内保育所の低賃金訴え、9割超が認可外で国の処遇改善“対象外” - 弁護士JP",
+    "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9JbTZwTGRBQWZMUFdNN3o0Y1NscEZvSVpYUy10WURZanhOSlVmcGtpNDZGNG9CUVlybGVJMnVXN3pkLTVL?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "profit"
+    ],
+    "quote_id": "III.13o",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T04:29:07.778002+00:00",
+    "publish_at": "2026-11-19T01:17:00+00:00",
+    "timestamp": "2026-11-19T01:17:00+00:00"
+  },
+  {
     "id": "998b5754d9b4",
     "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTZHEydXppOW9LcUd4VGJ3VVRENDh3Q0lSMXBLcjRUV3ZvXzVoU0VVdjBnOHNvN0dpZ2FhSm9lX3VBSUNkQ2RJdVpwU2JPaF96YTNHcDI5OTM?oc=5\nパワハラを恐れる中で広がる『育成キャンセル』は、若者たちを待ち受ける残酷な現実である。\n「役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。」\n『エセー III.10「自分の意志を節約することについて」』",
     "theme": "profit",
@@ -671,42 +708,5 @@
     "generated_at": "2026-11-13T18:03:51.787690+00:00",
     "publish_at": "2026-11-14T13:17:00+00:00",
     "timestamp": "2026-11-14T13:17:00+00:00"
-  },
-  {
-    "id": "a3d600e97a66",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ya2JEVkNFZUhOalVlSTZZMTlOS1ljdE16NVFWOHp0Z3QxX1loQ0VWQl9fZE85RW1GdHVmOFIzNG1xTDlQUzRPYTltQ08xeGlXWUplMWNNbGhKM21QaUZTYzktTGxpTjlsR1ZvRGhYUGhrNjVuUXc?oc=5\nプリペアードというAI通話録音と自動要約のサービスは、評判が高いという。\n「物事を解釈するより、解釈を解釈するほうが手間がかかり、書物について書いた書物のほうが、ほかのどんな主題の書物よりも多い。我々は互いに注釈し合っているにすぎない。」\n『エセー III.13「経験について」』",
-    "theme": "presomption",
-    "score": 4,
-    "source": "Google News 検索 職場",
-    "source_title": "プリペアード 評判が高いAI通話録音・自動要約サービス「RecACE - ニコニコニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ya2JEVkNFZUhOalVlSTZZMTlOS1ljdE16NVFWOHp0Z3QxX1loQ0VWQl9fZE85RW1GdHVmOFIzNG1xTDlQUzRPYTltQ08xeGlXWUplMWNNbGhKM21QaUZTYzktTGxpTjlsR1ZvRGhYUGhrNjVuUXc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption"
-    ],
-    "quote_id": "III.13c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T17:48:17.347778+00:00",
-    "publish_at": "2026-11-14T10:17:00+00:00",
-    "timestamp": "2026-11-14T10:17:00+00:00"
-  },
-  {
-    "id": "cc1f5bb78855",
-    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vVlNWTTFkR1hQLWk2YWNfVWpLbXdibFNhMlZhb2xUbzYta3AzS1BpbWF5Q3dmYlVoSVhCMVJ0bWRwOUkxNG94R1p6UjdwR2lBU2ltSTYtYmZzRXE1VzdXWF9nTUtHZjBHOHZrYUlIRmp4Mm5G?oc=5\nてんかんの新薬が日本上陸し、日中韓の3カ国による販売網が完成したという。\n「医学は実例と経験によって形づくられる。私の意見もまた同じである。」\n『エセー II.37「子が父に似ることについて」』",
-    "theme": "medecine",
-    "score": 2,
-    "source": "Google News 検索 医療",
-    "source_title": "SKバイオファームのてんかん新薬「Cenobamate」、日本上陸…日中韓3カ国の販売網が完成 - BigGo ファイナンス",
-    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vVlNWTTFkR1hQLWk2YWNfVWpLbXdibFNhMlZhb2xUbzYta3AzS1BpbWF5Q3dmYlVoSVhCMVJ0bWRwOUkxNG94R1p6UjdwR2lBU2ltSTYtYmZzRXE1VzdXWF9nTUtHZjBHOHZrYUlIRmp4Mm5G?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine",
-      "profit"
-    ],
-    "quote_id": "II.37b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T09:53:00.822602+00:00",
-    "publish_at": "2026-11-14T07:17:00+00:00",
-    "timestamp": "2026-11-14T07:17:00+00:00"
   }
 ]
