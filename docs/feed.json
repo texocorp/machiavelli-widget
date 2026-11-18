@@ -1,5 +1,45 @@
 [
   {
+    "id": "713222a341a8",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUHB0RVdBUUQzbVJ5M3NjSDVoeWhtb0JKMHE4SUQ0dmJwcmNPUHFkdG5qYW1maXJIZ0d4Um8wSjVNRWxFNU5vZmd2aXVJQmE1ZTFSMzJhRy1Vd0JKX2ZfbUd3?oc=5\n米国とイランが互いに報復攻撃を行い、イランは米軍のレーダーを攻撃し、米軍はミサイル発射基地を攻撃した。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
+    "theme": "guerra",
+    "score": 15,
+    "source": "Google News 検索 中東",
+    "source_title": "米イランが互いに「報復」攻撃、再び緊張高まる…イランは米軍レーダーを攻撃・米軍はミサイル発射基地を - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUHB0RVdBUUQzbVJ5M3NjSDVoeWhtb0JKMHE4SUQ0dmJwcmNPUHFkdG5qYW1maXJIZ0d4Um8wSjVNRWxFNU5vZmd2aXVJQmE1ZTFSMzJhRy1Vd0JKX2ZfbUd3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "P26",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T04:41:08.196938+00:00",
+    "publish_at": "2026-11-19T03:17:00+00:00",
+    "timestamp": "2026-11-19T03:17:00+00:00"
+  },
+  {
+    "id": "23807f6d039c",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFRmRSbXZ6LUNyY3ZXYkJuTkVLbERON3RjbEhwZ1Q3TlhNY3BOb1VqbmRySmV0ZG9nSWhBMENWZkZMc3Y5NDJHZnVLcGxtb2JKZkVpSkYyTERGMFVhczFlbndoNA?oc=5\n米軍はイランのケシム島を攻撃し、革命防衛隊のミサイル施設への報復行動を引き起こしたという。\n「優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 19,
+    "source": "Google News 国際(World)",
+    "source_title": "米軍がイラン・ケシム島攻撃 革命防衛隊ミサイル施設に報復 - 時事ドットコム",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFRmRSbXZ6LUNyY3ZXYkJuTkVLbERON3RjbEhwZ1Q3TlhNY3BOb1VqbmRySmV0ZG9nSWhBMENWZkZMc3Y5NDJHZnVLcGxtb2JKZkVpSkYyTERGMFVhczFlbndoNA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AG11",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T04:20:36.267310+00:00",
+    "publish_at": "2026-11-19T00:17:00+00:00",
+    "timestamp": "2026-11-19T00:17:00+00:00"
+  },
+  {
     "id": "e2e7abdedda3",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnktWGhDZjU2MEU4ekE4VGtnUWY5akNMTDNudGhscEhxODhTTWwwbTA5TUY0bkJSLXpWS3FkTEtONGlxVlNSV3ZXRXlfbDRMUEFxdXlGQ0otejRkZWMwekNwMjNjbTRLQTNQc3VkWjlWUFVUZXVZWWFvbTQyVXdSMUFuNTR5QTQ?oc=5\nイランがバーレーンの米軍施設を攻撃し、仲介国との協議が続いている。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -713,45 +753,5 @@
     "generated_at": "2026-11-13T16:30:44.261348+00:00",
     "publish_at": "2026-11-14T12:17:00+00:00",
     "timestamp": "2026-11-14T12:17:00+00:00"
-  },
-  {
-    "id": "387dcd86f166",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS045Ry1oQUhXTE8yVWloT2tGSzROTDRSekNLaDdCZWtYMVpFYjI2OHFTZEVURC1XMHI0NHdMTnlUOE1OV0NNRllDd1BneUgxekZfbFFHWVRFQ0NvZXBXUGd4WkRubWE5UGZQTW1sTEtJT2U3aUxHaEVlcWVaNGFPcnMwOXFCQzg?oc=5\nホルムズ海峡でLNGタンカーが爆発し、イラン国営メディアは機雷接触だと報じた。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
-    "theme": "guerra",
-    "score": 16,
-    "source": "Google News 国際(World)",
-    "source_title": "ホルムズ海峡でＬＮＧタンカー爆発、機雷接触とイラン国営メディア - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS045Ry1oQUhXTE8yVWloT2tGSzROTDRSekNLaDdCZWtYMVpFYjI2OHFTZEVURC1XMHI0NHdMTnlUOE1OV0NNRllDd1BneUgxekZfbFFHWVRFQ0NvZXBXUGd4WkRubWE5UGZQTW1sTEtJT2U3aUxHaEVlcWVaNGFPcnMwOXFCQzg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D3.48",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T16:26:30.969180+00:00",
-    "publish_at": "2026-11-14T09:17:00+00:00",
-    "timestamp": "2026-11-14T09:17:00+00:00"
-  },
-  {
-    "id": "da9830c05723",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0M1hoRGg2cWJHd3NaMWtLZE5FSS1GbXlCOTd5SV9CNDFHWHhJZFAwT0VKcFZEeE5ra2lHOFBLMnpMWXhyRFIyNWpSVDRGSEloTXhwWThrTWJ6X3BMRTEza0NLX3pEU0tzWjIwTENUZUZmMTdjYjhyejZ5aDBPRzg?oc=5\nイラン革命防衛隊がバーレーンの米レーダーと通信塔への攻撃を報復として行なった。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン革命防衛隊、バーレーンの米レーダー攻撃 通信塔空爆に報復（ロイター） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0M1hoRGg2cWJHd3NaMWtLZE5FSS1GbXlCOTd5SV9CNDFHWHhJZFAwT0VKcFZEeE5ra2lHOFBLMnpMWXhyRFIyNWpSVDRGSEloTXhwWThrTWJ6X3BMRTEza0NLX3pEU0tzWjIwTENUZUZmMTdjYjhyejZ5aDBPRzg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "NE1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T08:04:17.673253+00:00",
-    "publish_at": "2026-11-14T06:17:00+00:00",
-    "timestamp": "2026-11-14T06:17:00+00:00"
   }
 ]
