@@ -1,5 +1,46 @@
 [
   {
+    "id": "c5d27f31de55",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCNFNEblFmLVE2VnBGUmsxMEtjSTIxRlpqZ2wxem5rc3g0UWJtOUlXZmt0eVBpS2NianhSYzZobVNRQmJxRTBqUDRMZFpzR3U5LW9xcmZXUVBabzg?oc=5\n『いろはの恋は時代をかける』第6話では、シールの盗難騒動により学校がSNSで炎上し、主人公のいろはが行動を起こした。\n「言葉はまさしく知性に暴力を加え、すべてをかき乱し、人々を空しく果てしない論争と作り話へと導く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
+    "original": "Sed verba plane vim faciunt intellectui, et omnia turbant; et homines ad inanes et innumeras controversias et commenta deducunt.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News SNS・報道",
+    "source_title": "『いろはの恋は時代をかける』第6話あらすじ シール盗難騒動で学校がSNS炎上…いろはが行動に出る - 山陽新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCNFNEblFmLVE2VnBGUmsxMEtjSTIxRlpqZ2wxem5rc3g0UWJtOUlXZmt0eVBpS2NianhSYzZobVNRQmJxRTBqUDRMZFpzR3U5LW9xcmZXUVBabzg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.43b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T22:29:36.244222+00:00",
+    "publish_at": "2026-11-19T20:17:00+00:00",
+    "timestamp": "2026-11-19T20:17:00+00:00"
+  },
+  {
+    "id": "0fa146adb20d",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wWjc3Y3RxRGN6VFNuSkZ2bThaRk02Szdrc1VqeTFpanROdHUtSVFJU2V3ajZZRmg1TE1jeF9rUW5zb0NrcXIxODlFVUZObkllTE5vT3c3b1NpUQ?oc=5\nSNSで誹謗中傷を行った町議に対し、広島県神石高原町議会政倫審は辞職勧告が相当であると述べた。\n「高い地位にある人は三重の下僕である。君主あるいは国家の下僕、評判の下僕、そして仕事の下僕である。」\n『随筆集』第11篇「高い地位について」",
+    "original": "Men in great place are thrice servants: servants of the sovereign or state; servants of fame; and servants of business.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News SNS・報道",
+    "source_title": "SNSで誹謗中傷の町議「辞職勧告が相当」 広島県神石高原町議会政倫審 - 中国新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wWjc3Y3RxRGN6VFNuSkZ2bThaRk02Szdrc1VqeTFpanROdHUtSVFJU2V3ajZZRmg1TE1jeF9rUW5zb0NrcXIxODlFVUZObkllTE5vT3c3b1NpUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E11a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T22:23:01.133722+00:00",
+    "publish_at": "2026-11-19T17:17:00+00:00",
+    "timestamp": "2026-11-19T17:17:00+00:00"
+  },
+  {
     "id": "c0db7e0317fd",
     "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oZm1SRnltalIxcmVqZDliN1padEdIMFpEOVBZMVFPVGMyazBuWlBfeHhMR1J2eXR2RWhQdTYzSVVieGtuUEJ5RHJsdW55U2pnZ3k0UG9VLXEtTk0?oc=5\n河北新報オンラインは「政府広報に陰謀論ユーチューバー、ナオキマン起用に懸念 宮城・村井知事 『誤解与える』」と報じた。\n「舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。」\n『ノヴム・オルガヌム』第1巻 アフォリズム62",
     "original": "… ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
@@ -763,49 +804,5 @@
     "generated_at": "2026-11-14T06:52:59.914974+00:00",
     "publish_at": "2026-11-15T05:17:00+00:00",
     "timestamp": "2026-11-15T05:17:00+00:00"
-  },
-  {
-    "id": "bdd76d4e09ae",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4MDdEbXBycjdkWWxnVnBYRFZmRkVSMG5UV2RyeTI5ZlJLOVBpN04zYVZOekpCMGowSXJnbmZlTnNSaThOdEdSX2F0THROLUZQTkl3UDNUQkhEUjRZNEJ3?oc=5\nFRUITS ZIPPERの不仲説などでは、『数字が事実の代わりになる』という指摘がなされたという。\n「舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。」\n『ノヴム・オルガヌム』第1巻 アフォリズム62",
-    "original": "… ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 18,
-    "source": "Google News 偽情報・言説",
-    "source_title": "SNS教育講演家が指摘するデマ拡散の構造。「数字が事実の代わりになる」FRUITS ZIPPER不仲説の盲点 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4MDdEbXBycjdkWWxnVnBYRFZmRkVSMG5UV2RyeTI5ZlJLOVBpN04zYVZOekpCMGowSXJnbmZlTnNSaThOdEdSX2F0THROLUZQTkl3UDNUQkhEUjRZNEJ3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.62",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T06:37:48.807652+00:00",
-    "publish_at": "2026-11-15T02:17:00+00:00",
-    "timestamp": "2026-11-15T02:17:00+00:00"
-  },
-  {
-    "id": "52e840a8c6da",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXZUxRWEc3Z0JIZm9yWWItdnRvM1RGQjdnUXJYYW1wNnhfV2ZhMWZlcmVkOGRQUmhWRWpyMWdhVm81VFlscGVpeFdhWHpYNDVtUThmQ2swaW9BT29oM3RR?oc=5\n中身のないデマが拡散する構造の罠として指摘され、 SNS教育講演家がその点を説いたという。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
-    "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 18,
-    "source": "Google News 偽情報・言説",
-    "source_title": "SNS教育講演家が指摘する「中身のないデマ」が拡散する構造の罠 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXZUxRWEc3Z0JIZm9yWWItdnRvM1RGQjdnUXJYYW1wNnhfV2ZhMWZlcmVkOGRQUmhWRWpyMWdhVm81VFlscGVpeFdhWHpYNDVtUThmQ2swaW9BT29oM3RR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "studium"
-    ],
-    "quote_id": "E35b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T23:44:09.191799+00:00",
-    "publish_at": "2026-11-14T23:17:00+00:00",
-    "timestamp": "2026-11-14T23:17:00+00:00"
   }
 ]
