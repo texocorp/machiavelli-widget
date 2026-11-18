@@ -1,5 +1,64 @@
 [
   {
+    "id": "81978b456522",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mS28zNEY1WnJOekhxYzVCNGRkNGdNaTJsVXlVeHBYeUdiUUVEZ3dlekUyUG94QUtOVHBNblllZWprRXJOOEE2SHFFdWZENk1LcFUtNzNGZ1NVeTF0VTBYbmt3dDdfU0JwSm1scWtOVkx2WDI1RXVFQjhlWDVoSkU?oc=5\nイランは湾岸諸国の米軍基地を攻撃し、外交努力への応酬が激化するという結果を生んでいる。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン、湾岸諸国の米軍基地攻撃 外交努力よそに応酬激化（ロイター） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mS28zNEY1WnJOekhxYzVCNGRkNGdNaTJsVXlVeHBYeUdiUUVEZ3dlekUyUG94QUtOVHBNblllZWprRXJOOEE2SHFFdWZENk1LcFUtNzNGZ1NVeTF0VTBYbmt3dDdfU0JwSm1scWtOVkx2WDI1RXVFQjhlWDVoSkU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P18d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:39:05.298603+00:00",
+    "publish_at": "2026-11-19T12:17:00+00:00",
+    "timestamp": "2026-11-19T12:17:00+00:00"
+  },
+  {
+    "id": "0a919045b544",
+    "text": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaTRpWXR0LVM1VEo3T2VmQWJuWUlHS0FXQVRFZVlPN3VibGdWTWJWTHFwNHRVUHNzZVBtRkRTTjNTckFDaEVlTHB1UEVOSVNnY3VEV2ktUTNqT0hfN25fM09lVEVlQ182MHNsSVZTbmgtVERSWWkxZUg2a00tWk1mTkZ1emZvTjVWeTF1WWtwa2dWSnBUdFpiZkp0TENCYW1jMVpNdVNOX2RoZHlSSjVlRDcwdHZBWkVVWHZOWHFXOWtvWHMyUm5HQ3RSR2M1R001OTdMSVdQSXFMUUFkdEVmemJhbnlfSTc3ZkRwTGtIalVncllOQ2hvSk930gH_AUFVX3lxTFAwUHpJcU9pcENfbHZLdjhjYmVOY3A5U1p2QzdUeGNXQWhmSDk1LWpmakFlbU9uV2hvcG4wZ2VCVzlTN04zVUhHbDFLWDdfWFdUQkszYnU5a2JqUlpFVk9oN184ZUJqYm5PcnhTWFJwSEY4enhVLWdfLTJiWTdQdFdTMDE3dC1jWXpJY29FcGdPd3NOQWpNTm1jQkRTUGFHendNaHpaRHdfSDEyWVByUFJrc090SzhuSFJXMDlTTFpJaF9zLTdyX3ZZX2hGdUVzZm1iVFVVTWxDTmxTbU16dHdSWGt1Q3NaQ1VFNmNTRGtWRjdPMS1FUldEeFZDZDlfRQ?oc=5\nウクライナがコルビー米戦争次官の発表によると、2ヶ月連続でロシアの占領面積を上回る領土を解放した。\n「敵の利となることは汝を害し、汝の利となることは敵を害する。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナは２か月連続でロシアの占領面積を上回る領土を解放＝コルビー米戦争次官 - ウクルインフォルム通信",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaTRpWXR0LVM1VEo3T2VmQWJuWUlHS0FXQVRFZVlPN3VibGdWTWJWTHFwNHRVUHNzZVBtRkRTTjNTckFDaEVlTHB1UEVOSVNnY3VEV2ktUTNqT0hfN25fM09lVEVlQ182MHNsSVZTbmgtVERSWWkxZUg2a00tWk1mTkZ1emZvTjVWeTF1WWtwa2dWSnBUdFpiZkp0TENCYW1jMVpNdVNOX2RoZHlSSjVlRDcwdHZBWkVVWHZOWHFXOWtvWHMyUm5HQ3RSR2M1R001OTdMSVdQSXFMUUFkdEVmemJhbnlfSTc3ZkRwTGtIalVncllOQ2hvSk930gH_AUFVX3lxTFAwUHpJcU9pcENfbHZLdjhjYmVOY3A5U1p2QzdUeGNXQWhmSDk1LWpmakFlbU9uV2hvcG4wZ2VCVzlTN04zVUhHbDFLWDdfWFdUQkszYnU5a2JqUlpFVk9oN184ZUJqYm5PcnhTWFJwSEY4enhVLWdfLTJiWTdQdFdTMDE3dC1jWXpJY29FcGdPd3NOQWpNTm1jQkRTUGFHendNaHpaRHdfSDEyWVByUFJrc090SzhuSFJXMDlTTFpJaF9zLTdyX3ZZX2hGdUVzZm1iVFVVTWxDTmxTbU16dHdSWGt1Q3NaQ1VFNmNTRGtWRjdPMS1FUldEeFZDZDlfRQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:32:28.669522+00:00",
+    "publish_at": "2026-11-19T09:17:00+00:00",
+    "timestamp": "2026-11-19T09:17:00+00:00"
+  },
+  {
+    "id": "a4a6ee1b573d",
+    "text": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVkFoMFdkbHZYUEp5ZXFjTEtnODcyNnBpdHdORkhyWTliRF83bGlHSTN0M1VHLXNQSDQ4RXM3ZTBTbElhRFV1OUI0VUhyMGpXNzRPZnI4MmN6aGlxNnplNmFPTmcyQ3BheGxDRHRGRE1JaUdCUGdfRGlMNldhMTBBY3gxcWdCdnVNNU9WdXcyNVdFMFpjQ1RKbXR6cDlud2lvSURLRndPMHp5bjdXcHRIcnZEajZKcVJNcW9CZFJ4Q0twa1J5QjcySm80X3ZhQdIBfEFVX3lxTE8xQVdVaE12M0k0emVCSUFyN0NycGJsTGg4RlRZN3ZLZ0JxU3RxUk1LM1FxYjdQbkxJVThTRy1LZ1hxaFJvZFFEcHRPUGVBZVRtSHUyazVkV09xNHVHdU5pWV95TFh5WVVETktzWFNfSEs1bnA2aWdZY2xLWkQ?oc=5\nゼレンスキー氏が『北朝鮮がロシアに毎月弾道ミサイル数十発を送っている』と述べ、軍はクルスク州のミサイル部隊を攻撃した。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "「北朝鮮がロシアに毎月弾道ミサイル数十発」ゼレンスキー氏　軍はクルスク州のミサイル部隊を攻撃 - ｄメニューニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVkFoMFdkbHZYUEp5ZXFjTEtnODcyNnBpdHdORkhyWTliRF83bGlHSTN0M1VHLXNQSDQ4RXM3ZTBTbElhRFV1OUI0VUhyMGpXNzRPZnI4MmN6aGlxNnplNmFPTmcyQ3BheGxDRHRGRE1JaUdCUGdfRGlMNldhMTBBY3gxcWdCdnVNNU9WdXcyNVdFMFpjQ1RKbXR6cDlud2lvSURLRndPMHp5bjdXcHRIcnZEajZKcVJNcW9CZFJ4Q0twa1J5QjcySm80X3ZhQdIBfEFVX3lxTE8xQVdVaE12M0k0emVCSUFyN0NycGJsTGg4RlRZN3ZLZ0JxU3RxUk1LM1FxYjdQbkxJVThTRy1LZ1hxaFJvZFFEcHRPUGVBZVRtSHUyazVkV09xNHVHdU5pWV95TFh5WVVETktzWFNfSEs1bnA2aWdZY2xLWkQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D3.44",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:23:29.817693+00:00",
+    "publish_at": "2026-11-19T06:17:00+00:00",
+    "timestamp": "2026-11-19T06:17:00+00:00"
+  },
+  {
     "id": "713222a341a8",
     "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUHB0RVdBUUQzbVJ5M3NjSDVoeWhtb0JKMHE4SUQ0dmJwcmNPUHFkdG5qYW1maXJIZ0d4Um8wSjVNRWxFNU5vZmd2aXVJQmE1ZTFSMzJhRy1Vd0JKX2ZfbUd3?oc=5\n米国とイランが互いに報復攻撃を行い、イランは米軍のレーダーを攻撃し、米軍はミサイル発射基地を攻撃した。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
     "theme": "guerra",
@@ -694,64 +753,5 @@
     "generated_at": "2026-11-13T23:13:17.570771+00:00",
     "publish_at": "2026-11-14T21:17:00+00:00",
     "timestamp": "2026-11-14T21:17:00+00:00"
-  },
-  {
-    "id": "010775113afa",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Lei14VWxxSVRjenplLVZJaWlBajUyX3ExVnZwM2VoaGFydUVESVBKa2VIUl9mVmNnV05xM0dNNng3UFJhLTBPYm96YzdVOXNJNFZUbERiYlVFZw?oc=5\nトランプ大統領は湾岸同盟国に対しイラン攻撃の自制を要請したが、関税問題では拒否権闘争に直面しているという。\n「優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 米国の外交",
-    "source_title": "トランプ大統領、湾岸同盟国がイラン攻撃の自制を要請と発言 関税は拒否権闘争に直面 - BigGo ファイナンス",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Lei14VWxxSVRjenplLVZJaWlBajUyX3ExVnZwM2VoaGFydUVESVBKa2VIUl9mVmNnV05xM0dNNng3UFJhLTBPYm96YzdVOXNJNFZUbERiYlVFZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "economia",
-      "necessita"
-    ],
-    "quote_id": "AG11",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T22:50:46.459205+00:00",
-    "publish_at": "2026-11-14T18:17:00+00:00",
-    "timestamp": "2026-11-14T18:17:00+00:00"
-  },
-  {
-    "id": "7efb5275a21a",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4UXdLeHZTR1pmYWNYenFuT2xHMEN6UEFXNVQ1dTNMMUlxV0dSTUJtYU9IU2xEMDVNSWxNVXN0OWFTak9heU5USDV6NGdDMWlFQTQw?oc=5\nイスラエル軍はガザの病院を攻撃し、医師や子どもを含む６人が死亡したとパレスチナ当局は報じているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 13,
-    "source": "Google News 国際(World)",
-    "source_title": "イスラエル軍、ガザの病院を攻撃 医師と子ども含む６人死亡 パレスチナ当局 - CNN",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4UXdLeHZTR1pmYWNYenFuT2xHMEN6UEFXNVQ1dTNMMUlxV0dSTUJtYU9IU2xEMDVNSWxNVXN0OWFTak9heU5USDV6NGdDMWlFQTQw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "armi_proprie"
-    ],
-    "quote_id": "AG13",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T16:36:35.702716+00:00",
-    "publish_at": "2026-11-14T15:17:00+00:00",
-    "timestamp": "2026-11-14T15:17:00+00:00"
-  },
-  {
-    "id": "23b631a5b5ec",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeEFfTmN3U3cxQlFxTmZWMTdRa1dOTUZWT3VEQmVFLWtqeUtzYVlIMGtNQS14YllTMGhQRW9kZDU2Mzd2N0xhdGNQbEJvY3BUUnVLYVZzMmxXMENLTHNR?oc=5\n中国は、南シナ海をアメリカと対抗する基盤としていると防衛研究所が指摘しているという。\n「いかなる国家も、常に安全な道を選べると思ってはならぬ。賢慮とは、災いの性質を見分け、より害の少ないものを善として選ぶことにある。」\n『君主論 cap.XXI』",
-    "theme": "necessita",
-    "score": 14,
-    "source": "Google News 検索 中国・台湾",
-    "source_title": "防衛研究所 中国にとって南シナ海はアメリカと対抗する基盤 | NHKニュース | 安全保障、中国・台湾、アメリカ - NHKニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeEFfTmN3U3cxQlFxTmZWMTdRa1dOTUZWT3VEQmVFLWtqeUtzYVlIMGtNQS14YllTMGhQRW9kZDU2Mzd2N0xhdGNQbEJvY3BUUnVLYVZzMmxXMENLTHNR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "P21b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T16:30:44.261348+00:00",
-    "publish_at": "2026-11-14T12:17:00+00:00",
-    "timestamp": "2026-11-14T12:17:00+00:00"
   }
 ]
