@@ -1,5 +1,115 @@
 [
   {
+    "id": "c0db7e0317fd",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oZm1SRnltalIxcmVqZDliN1padEdIMFpEOVBZMVFPVGMyazBuWlBfeHhMR1J2eXR2RWhQdTYzSVVieGtuUEJ5RHJsdW55U2pnZ3k0UG9VLXEtTk0?oc=5\n河北新報オンラインは「政府広報に陰謀論ユーチューバー、ナオキマン起用に懸念 宮城・村井知事 『誤解与える』」と報じた。\n「舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。」\n『ノヴム・オルガヌム』第1巻 アフォリズム62",
+    "original": "… ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 11,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報に陰謀論ユーチューバー、ナオキマン起用に懸念 宮城・村井知事 「誤解与える」 - 河北新報オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oZm1SRnltalIxcmVqZDliN1padEdIMFpEOVBZMVFPVGMyazBuWlBfeHhMR1J2eXR2RWhQdTYzSVVieGtuUEJ5RHJsdW55U2pnZ3k0UG9VLXEtTk0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama",
+      "tribus"
+    ],
+    "quote_id": "NO1.62",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T15:05:24.231543+00:00",
+    "publish_at": "2026-11-19T14:17:00+00:00",
+    "timestamp": "2026-11-19T14:17:00+00:00"
+  },
+  {
+    "id": "ce223be162f3",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VcjJxdmxLRjIxYW85emF5WTAyLTZMeXM1LWpaLUI2aXN1ejVpR2tLZTRTNC11aGZzOXJNRjZ2WC1JQ0VWSFZVVGFhM1VDck9qQkFGenpnaUw4MlN6NFNaMW1tdUvSAWpBVV95cUxPQXM2eHFzNE0wUFpjYUstcDBhTFIwTE05UG5aUl9uWEpMT0NrZVo0elJ2R3liRVltc3R4aXU2LU9QLVhZMmRCcjI5U280amxSY01YanI0QjRzZ2lUQ21vV2lmcWI3aFpsZVZn?oc=5\n韓国で『AI不正で資格9個取得』との投稿が拡散したが、労務士試験の合格や勤務先の裏付けはないという。\n「自然誌の中の多くの実験は、誤って信じられ受け入れられることがありうるが、それらは、原因と公理が見出されると、まもなく容易に消し去られ、退けられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム118",
+    "original": "… multa in historia naturali experimenta falso credi et recipi posse, quae paulo post a causis et axiomatibus inventis facile expunguntur et rejiciuntur.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News ネットの騒動",
+    "source_title": "韓国で「AI不正で資格9個取得」との投稿が拡散…労務士試験の合格も勤務先も裏付けなし - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VcjJxdmxLRjIxYW85emF5WTAyLTZMeXM1LWpaLUI2aXN1ejVpR2tLZTRTNC11aGZzOXJNRjZ2WC1JQ0VWSFZVVGFhM1VDck9qQkFGenpnaUw4MlN6NFNaMW1tdUvSAWpBVV95cUxPQXM2eHFzNE0wUFpjYUstcDBhTFIwTE05UG5aUl9uWEpMT0NrZVo0elJ2R3liRVltc3R4aXU2LU9QLVhZMmRCcjI5U280amxSY01YanI0QjRzZ2lUQ21vV2lmcWI3aFpsZVZn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "experientia",
+      "potentia"
+    ],
+    "quote_id": "NO1.118",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:54:40.813148+00:00",
+    "publish_at": "2026-11-19T11:17:00+00:00",
+    "timestamp": "2026-11-19T11:17:00+00:00"
+  },
+  {
+    "id": "0bb4521e52fb",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50NUpFZUVLMTFDS3hoeXllTDBPaVZHMlhweEFjQXktWmtxcU5PY3c1QV9NUGxiVXVQOWpXQUhRSW9ReWhSUFAyd3p1dw?oc=5\nアンディ・ジャッシュ最高経営者（CEO）は、データセンター建設を中断することは歴史的なミスになるだろうと警告したという。\n「物事は、一度目か二度目かに揺さぶられる。助言の議論の上で揉まれなければ、運命の波の上で揉まれることになる。」\n『随筆集』第20篇「助言について」",
+    "original": "Things will have their first, or second agitation: if they be not tossed upon the arguments of counsel, they will be tossed upon the waves of fortune …",
+    "original_lang": "en",
+    "theme": "experientia",
+    "score": 12,
+    "source": "Google News 生成AIの論争",
+    "source_title": "米国で人工知能(AI)データセンター建設を巡る住民反発が大きくなる中で、アマゾンのアンディ·ジャッシュ最高経営者(CEO)が「データセンター建設を中断することは歴史的なミスになるだろう」と警告した。 - 매일경제",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50NUpFZUVLMTFDS3hoeXllTDBPaVZHMlhweEFjQXktWmtxcU5PY3c1QV9NUGxiVXVQOWpXQUhRSW9ReWhSUFAyd3p1dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "experientia",
+      "potentia"
+    ],
+    "quote_id": "E20c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:44:15.833509+00:00",
+    "publish_at": "2026-11-19T08:17:00+00:00",
+    "timestamp": "2026-11-19T08:17:00+00:00"
+  },
+  {
+    "id": "283cc83a804d",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCaXJuSjJDa0Z0VWNONmFHSFpHZEFpWnA4Zkprbm9ILVJxWWNaOHNrN3J3MTNqMVhfVzk3bVdPUGpyQ1hZR3dZWkM1RFJZWGlHaTZPMXJxdGc4aUhtX3I4eTMxTnQ?oc=5\n宮城県有識者会議は、選挙におけるデマ拡散を防ぐ手立てとして、対策案の『3本柱』を提示したという。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
+    "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 14,
+    "source": "Google News 偽情報・言説",
+    "source_title": "選挙のデマ拡散 防ぐ手立てを 宮城県有識者会議の対策案「3本柱」 - 中日新聞Web",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCaXJuSjJDa0Z0VWNONmFHSFpHZEFpWnA4Zkprbm9ILVJxWWNaOHNrN3J3MTNqMVhfVzk3bVdPUGpyQ1hZR3dZWkM1RFJZWGlHaTZPMXJxdGc4aUhtX3I4eTMxTnQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama",
+      "theatri"
+    ],
+    "quote_id": "E35b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:26:47.458478+00:00",
+    "publish_at": "2026-11-19T05:17:00+00:00",
+    "timestamp": "2026-11-19T05:17:00+00:00"
+  },
+  {
+    "id": "5aafaeadd4e6",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ER2lrbVJON2k4VGNhRXl1RGdNOXI0MC14dGhpUTNPdTh1aDlEVTdOZjdCQ1JKNUVPVFlYLTlnNWxueHJ3Y0dZcTNGdWZCQTN2Zk5obHRBQXkzX1BjWHVpaVFiajBfejlUMjRBM3h0M2dYVWlC?oc=5\n規制当局は同日に『救市打ち切りとファンドのAIエクスポージャー報告はともにデマ』であることを否定したという。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
+    "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 16,
+    "source": "Google News 偽情報・言説",
+    "source_title": "中国国務院常務会議「救市打ち切り」とファンドのAIエクスポージャー報告はともにデマ、規制当局が同日に2件の「小作文」を否定 - BigGo ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ER2lrbVJON2k4VGNhRXl1RGdNOXI0MC14dGhpUTNPdTh1aDlEVTdOZjdCQ1JKNUVPVFlYLTlnNWxueHJ3Y0dZcTNGdWZCQTN2Zk5obHRBQXkzX1BjWHVpaVFiajBfejlUMjRBM3h0M2dYVWlC?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "potentia",
+      "novitas"
+    ],
+    "quote_id": "NO1.45",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:07:13.748577+00:00",
+    "publish_at": "2026-11-19T02:17:00+00:00",
+    "timestamp": "2026-11-19T02:17:00+00:00"
+  },
+  {
     "id": "fe960ad6b555",
     "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQemRHaHFRMGZYV0RqM3VvOGotYUZaUEVEaGJKUTVMSGZXdjNMU1locFIwa0tvN2lPYXRSTGFOUEJ3dlFYQzI0N1Y2Yy1IZUh5dHZPWGlzQmVrUmdZcGY4bjB6eFpLS01MaUl0c3htTkhkZWNVc1NUUkxjS1JpTnJYaTFST3A1NlNl?oc=5\n日本ファクトチェックセンターは「高市首相が『年金廃止』と発表? 動画にそのような発言は無い」と報じた。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
     "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
@@ -697,112 +807,5 @@
     "generated_at": "2026-11-13T23:44:09.191799+00:00",
     "publish_at": "2026-11-14T23:17:00+00:00",
     "timestamp": "2026-11-14T23:17:00+00:00"
-  },
-  {
-    "id": "5d5276b2fb52",
-    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Zak93d2RLdGRjOFItMFY1RTJFUk9vYkx0VXFWOGl6ZkNVRFBVN00yRmVLS0FuZXRWYlRTeUh1bUNhV2Z1OG40VFFtY0dVR3Y4czhoWTlBZkkxZmJ1UFc4bFBOdGpDUQ?oc=5\n米オハイオ州動物園のライオン脱走はAI画像のデマであり、SNSで拡散されて大騒動となったという。\n「見落とされて名前を欠く物があるように、空想の想定によって、物を欠く名前もある。」\n『ノヴム・オルガヌム』第1巻 アフォリズム60",
-    "original": "… quemadmodum enim sunt res, quae nomine carent per inobservationem; ita sunt et nomina, quae carent rebus, per suppositionem phantasticam …",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 18,
-    "source": "Google News 偽情報・言説",
-    "source_title": "米オハイオ州動物園「ライオン脱走」はAI画像のデマだった…SNSで拡散され大騒動に｜もぎたて海外仰天ニュース - 日刊ゲンダイDIGITAL",
-    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Zak93d2RLdGRjOFItMFY1RTJFUk9vYkx0VXFWOGl6ZkNVRFBVN00yRmVLS0FuZXRWYlRTeUh1bUNhV2Z1OG40VFFtY0dVR3Y4czhoWTlBZkkxZmJ1UFc4bFBOdGpDUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "NO1.60",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T23:38:29.963389+00:00",
-    "publish_at": "2026-11-14T20:17:00+00:00",
-    "timestamp": "2026-11-14T20:17:00+00:00"
-  },
-  {
-    "id": "07f6001ead2d",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zOTBBU0VxZTBobF9va3ZNSG5Ya1daSkdzMkJ5UVE4MTFOU3BUckxkZ1dUcWIyQm1RWWVxbXdnRWVmS1lKXzBLTkwtTnVWaEJiTjBlaE1LbW82NHdFdzFr?oc=5\nSNS教育講演家は、反論できない店員を晒すというリスクについて指摘しているという。\n「それゆえ考察はほとんど目に見えるところで止まり、目に見えないものは、わずかしか、あるいはまったく観察されない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム50",
-    "original": "Itaque contemplatio fere desinit cum aspectu; adeo ut rerum invisibilium exigua aut nulla sit observatio.",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 14,
-    "source": "Google News SNS・報道",
-    "source_title": "SNS教育講演家が指摘するカルピスソーダ炎上の盲点、反論できない店員を晒す一方的なSNS公開のリスク - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zOTBBU0VxZTBobF9va3ZNSG5Ya1daSkdzMkJ5UVE4MTFOU3BUckxkZ1dUcWIyQm1RWWVxbXdnRWVmS1lKXzBLTkwtTnVWaEJiTjBlaE1LbW82NHdFdzFr?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.50",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T18:15:28.030941+00:00",
-    "publish_at": "2026-11-14T17:17:00+00:00",
-    "timestamp": "2026-11-14T17:17:00+00:00"
-  },
-  {
-    "id": "97821418836c",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QSkNnRFRJWnI0OUFzazcxYjlBb29XYVNCbWxjbDJPUmhUOGNmT3dTZlNtUFBXaEw1Wm1FajRIQW8wZTFZTksxTThxS3ZJcml6VjJZeDRiWGtRMUNvQnVF?oc=5\nSNS教育講演家が、誹謗中傷について『アンチはストレスの捌け口にしているだけ』と指摘した。\n「自分の内に徳を持たない者は、常に他人の徳を妬む。」\n『随筆集』第9篇「嫉妬について」",
-    "original": "A man that hath no virtue in himself, ever envieth virtue in others.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 14,
-    "source": "Google News SNS・報道",
-    "source_title": "SNS教育講演家が指摘する誹謗中傷の闇「アンチはストレスの捌け口にしているだけ」 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QSkNnRFRJWnI0OUFzazcxYjlBb29XYVNCbWxjbDJPUmhUOGNmT3dTZlNtUFBXaEw1Wm1FajRIQW8wZTFZTksxTThxS3ZJcml6VjJZeDRiWGtRMUNvQnVF?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "E9c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T18:07:38.316407+00:00",
-    "publish_at": "2026-11-14T14:17:00+00:00",
-    "timestamp": "2026-11-14T14:17:00+00:00"
-  },
-  {
-    "id": "d095f34545bd",
-    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9VcmlLVFU0VUxYYUxNRlduTDhsejU2cmFRN0Yzcm5lWmhDTnlxNHYxTFBEOEFSQzNwMXRXeGtzQlRGZXJYWnUzUjVB?oc=5\npando.lifeは「ディープフェイクAI市場に関する市場レポート：市場シェア、開発、製造コスト、セグメント、」と報じた。\n「その区分の一つ一つが中身に乏しく、空の小箱のようであっても、世間の知性の前では、完全な学問の体裁と筋道を見せる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム86",
-    "original": "Atque licet membra illa male impleta et veluti capsulae inanes sint; tamen apud intellectum vulgarem scientiae formam et rationem integrae prae se ferunt.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 18,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "ディープフェイクAI市場に関する市場レポート：市場シェア、開発、製造コスト、セグメント、 - pando.life",
-    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9VcmlLVFU0VUxYYUxNRlduTDhsejU2cmFRN0Yzcm5lWmhDTnlxNHYxTFBEOEFSQzNwMXRXeGtzQlRGZXJYWnUzUjVB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia",
-      "novitas"
-    ],
-    "quote_id": "NO1.86b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T17:53:06.895452+00:00",
-    "publish_at": "2026-11-14T11:17:00+00:00",
-    "timestamp": "2026-11-14T11:17:00+00:00"
-  },
-  {
-    "id": "73d4ff0e8659",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02ZUo4Yk9LV0FTNHBzT0pjT0NTNnB2V0twRmVyRjBON0IweU5qdEliUFRkVDI0clZ5Yk1QOW1acWtZRl9XcFFlZTZDckZ1Q0c2V2piSlRCUHRDZHhjekZR?oc=5\n投稿削除の盲点についてSNS教育講演家が指摘するが、炎上中にアーカイブを消すことは危険であるという。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
-    "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 16,
-    "source": "Google News SNS・報道",
-    "source_title": "SNS教育講演家が指摘する「投稿削除の盲点」炎上中にアーカイブを消す危険性と構造 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02ZUo4Yk9LV0FTNHBzT0pjT0NTNnB2V0twRmVyRjBON0IweU5qdEliUFRkVDI0clZ5Yk1QOW1acWtZRl9XcFFlZTZDckZ1Q0c2V2piSlRCUHRDZHhjekZR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "E50a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T09:59:38.439169+00:00",
-    "publish_at": "2026-11-14T08:17:00+00:00",
-    "timestamp": "2026-11-14T08:17:00+00:00"
   }
 ]
