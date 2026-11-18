@@ -1,5 +1,61 @@
 [
   {
+    "id": "1e9d3ce32b84",
+    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oUVI1TU1QYm5NV3hmUW15aG5KcWI1RXRRVVVadlp0eGtpbktoWE1kWktXODFqQ1VVYnJVOFFyQUNvaTBacHh1anFzYlQzdDdnQlBkZQ?oc=5\n作家の中島京子さんは、政府の姿勢に危機感を抱いているという。\n「理性の規則に照らせば、彼らを野蛮と呼ぶこともできよう。だが我々に照らしてではない。我々はあらゆる種類の野蛮において彼らを凌いでいるのだから。」\n『エセー I.31「人食い人種について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "「外国人政策は官製ヘイト」 作家・中島京子さん、政府の姿勢に危機感 - 中日新聞Web",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oUVI1TU1QYm5NV3hmUW15aG5KcWI1RXRRVVVadlp0eGtpbktoWE1kWktXODFqQ1VVYnJVOFFyQUNvaTBacHh1anFzYlQzdDdnQlBkZQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui"
+    ],
+    "quote_id": "I.31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:14:20.899770+00:00",
+    "publish_at": "2026-11-19T13:17:00+00:00",
+    "timestamp": "2026-11-19T13:17:00+00:00"
+  },
+  {
+    "id": "37757839b5e3",
+    "text": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTW01UEwxUFkxR2tfWDUyUDdZWld0SUczeHg3RGVzUkFfN3ZPSDFJQk1hMUtIdVN3S3dpcG9SaWVrSVQ3b3NpTWNLQTJMUlRjRW1TRTBVb1E5NUM5UmtLdnNadURGcjVkWk9BeFJiN0pHenFhMDljMF90Yy1NM0RCemR0eUZGS1ZZdlAzTzZHcnFHaHF4S3o4MVl3?oc=5\nカリフォルニア工科大学の数学授業で、AIで解かれてしまうので教授は宿題の採点をやめたとのことだ。\n「学問の手前にある、いろはの無知があり、学問の後に来る、博士の無知がある、と言ってもよさそうだ。後者は学問そのものが作り出し、生み出す無知である。」\n『エセー I.54「むなしい精緻さについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 科学",
+    "source_title": "カリフォルニア工科大学の数学の授業に出てみた。AIで解かれてしまうので、教授はもう宿題を採点していなかった - Business Insider Japan",
+    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTW01UEwxUFkxR2tfWDUyUDdZWld0SUczeHg3RGVzUkFfN3ZPSDFJQk1hMUtIdVN3S3dpcG9SaWVrSVQ3b3NpTWNLQTJMUlRjRW1TRTBVb1E5NUM5UmtLdnNadURGcjVkWk9BeFJiN0pHenFhMDljMF90Yy1NM0RCemR0eUZGS1ZZdlAzTzZHcnFHaHF4S3o4MVl3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "I.54",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:09:57.363481+00:00",
+    "publish_at": "2026-11-19T10:17:00+00:00",
+    "timestamp": "2026-11-19T10:17:00+00:00"
+  },
+  {
+    "id": "96a858329b96",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CUlZuT2xxcmtPa0NvWWVnQUJabjZCZkFlM3Bnalh6WjBQTVU2VTZlbEFoN01WMlFDcXNYRV9LSV8wU3E3bkVuRTF2bzVrSjVQa2dwd0ZmbC1DVEphN0I4?oc=5\n店主らが逮捕されたのは、地域ブランドの淡路島3年とらふぐを偽りで提供した疑いが強いからである。\n「なぜ人間も、その人自身のものによって評価しないのか。多くの供回り、立派な屋敷、これほどの信用、これほどの収入――それはみな彼の周りにあるのであって、彼の内にあるのではない。」\n『エセー I.42「我々の間の不平等について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 国内",
+    "source_title": "地域ブランド「淡路島3年とらふぐ」と偽り提供か 店主ら逮捕 - NHKニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CUlZuT2xxcmtPa0NvWWVnQUJabjZCZkFlM3Bnalh6WjBQTVU2VTZlbEFoN01WMlFDcXNYRV9LSV8wU3E3bkVuRTF2bzVrSjVQa2dwd0ZmbC1DVEphN0I4?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "vanite"
+    ],
+    "quote_id": "I.42b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-18T14:05:46.095930+00:00",
+    "publish_at": "2026-11-19T07:17:00+00:00",
+    "timestamp": "2026-11-19T07:17:00+00:00"
+  },
+  {
     "id": "d45cf0df3ead",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TNEczUVdnck84dW1vXy1STjhPYi04RVdZQzVXUS1pQ3Y2SWd0NEctSS0yQWMyWm1jU0V1cVplX09CUXJ2aFJUVjdLXzQwTmtiUHJj?oc=5\n斎藤美奈子さんとAIによる分身が、忖度のない討論の中で『私の分身か』と問われ、『文体を借りた別の論者だ』と答えた。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
     "theme": "presomption",
@@ -654,59 +710,5 @@
     "generated_at": "2026-11-13T23:42:35.036323+00:00",
     "publish_at": "2026-11-14T22:17:00+00:00",
     "timestamp": "2026-11-14T22:17:00+00:00"
-  },
-  {
-    "id": "06d11455fd4f",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zQmtxcThNVGhGeXM2UXdnakh3MjVidk1Fak5SZlZGTk1tLWExSWtmRVhvdm9iVS16S1g0OGU4RGJrVmoySW9YM1U1aGNRMEg3bUFGT0J3?oc=5\n生命の運命を左右するpHについての常識を覆す新しい研究が、老化や医療に応用されるという。\n「そこから何を学ぶべきか。二つの説のどちらが正しいかに心を煩わすには及ばぬ、ということではないか。千年後に第三の説が現れて、先の二つを覆さぬと誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
-    "theme": "medecine",
-    "score": 8,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "酸性かアルカリ性か、pHが生命の運命を左右する？常識を覆す「pH応答生物学」、老化研究や医療への応用も - JBpress",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zQmtxcThNVGhGeXM2UXdnakh3MjVidk1Fak5SZlZGTk1tLWExSWtmRVhvdm9iVS16S1g0OGU4RGJrVmoySW9YM1U1aGNRMEg3bUFGT0J3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine",
-      "savoir",
-      "coutume"
-    ],
-    "quote_id": "II.12f",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T23:37:51.824932+00:00",
-    "publish_at": "2026-11-14T19:17:00+00:00",
-    "timestamp": "2026-11-14T19:17:00+00:00"
-  },
-  {
-    "id": "7c3d093e40fc",
-    "text": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwMzBCYkpiMFFaTmp3YUhfTk9ibEJhUHc0V3JGLW5tdkF0MDlrb0JMaWt4enplSUVCUHVyNW9GREJUZWl5d3hvaGMzZXphcVN0MVlyTk1kLVoxa0dFMXI3OEYweUwzLWUtOS16RGdJNEM4NVB3c3BMTTlUalU4d9IBgwFBVV95cUxOM0xLbGlRTEwzU1h1Wm56Z1ViUlQ2SVJUbEhQdTN3YXE1dUx4TWJJc19abEUxai1rUXBoNWkwYnZrRDRYdjdIdzRneldpS3V2Rnl6bG96SjBUS1ZHWlNJbWVPeHJVNllGZ1dIYVdkNnBCTjY5QTVCWF9mSHFmcXRRUWNzWQ?oc=5\n30歳女性が放置した生理不順が激変した姿となり、医師は『余命1ヶ月もない』と告げたという。\n「だが私の考えでは、死はたしかに生の終わりではあっても、生の目的ではない。生の果て、その末端ではあっても、目指すところではない。」\n『エセー III.12「人相について」』",
-    "theme": "medecine",
-    "score": 0,
-    "source": "Google News 健康",
-    "source_title": "生理不順に違和感があった30歳女性。放置した1ヶ月後…→医師「余命1ヶ月もない」　現在の『激変した姿』を発信する理由に迫る - ｄメニューニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwMzBCYkpiMFFaTmp3YUhfTk9ibEJhUHc0V3JGLW5tdkF0MDlrb0JMaWt4enplSUVCUHVyNW9GREJUZWl5d3hvaGMzZXphcVN0MVlyTk1kLVoxa0dFMXI3OEYweUwzLWUtOS16RGdJNEM4NVB3c3BMTTlUalU4d9IBgwFBVV95cUxOM0xLbGlRTEwzU1h1Wm56Z1ViUlQ2SVJUbEhQdTN3YXE1dUx4TWJJc19abEUxai1rUXBoNWkwYnZrRDRYdjdIdzRneldpS3V2Rnl6bG96SjBUS1ZHWlNJbWVPeHJVNllGZ1dIYVdkNnBCTjY5QTVCWF9mSHFmcXRRUWNzWQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine"
-    ],
-    "quote_id": "III.12c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T18:07:15.808316+00:00",
-    "publish_at": "2026-11-14T16:17:00+00:00",
-    "timestamp": "2026-11-14T16:17:00+00:00"
-  },
-  {
-    "id": "56e4e561f49d",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12ckVxM3JGaWtKY25EQzhnY05nZVkxTUZsNlF1Y1pMc0hBYzY1Q1hzR3NWeGhJTGdZYVFpb2x2eFQ5SEhBc3c1UXhyUklqdEVxRl9kYlpzVzBGOTJ2MXdaRm1VTXZvRTlE?oc=5\n九大が記憶を『選んで』忘れさせる仕組みを解明し、その神経のはたらきを明らかにした。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
-    "theme": "inconstance",
-    "score": 0,
-    "source": "Google News 健康",
-    "source_title": "記憶を「選んで」忘れさせる、その仕組みに関わる神経のはたらき解明 九大 - マイナビニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12ckVxM3JGaWtKY25EQzhnY05nZVkxTUZsNlF1Y1pMc0hBYzY1Q1hzR3NWeGhJTGdZYVFpb2x2eFQ5SEhBc3c1UXhyUklqdEVxRl9kYlpzVzBGOTJ2MXdaRm1VTXZvRTlE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "III.13h",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-13T18:03:51.787690+00:00",
-    "publish_at": "2026-11-14T13:17:00+00:00",
-    "timestamp": "2026-11-14T13:17:00+00:00"
   }
 ]
