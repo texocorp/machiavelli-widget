@@ -1,5 +1,68 @@
 [
   {
+    "id": "0cd493a63abb",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aYlRYOFBIYkd6Ykg0VkEzRVNOVUJMcTc5YkwtdmJ3am9jazRvV0FxaHJFMldvc01GbmtGNmpYSDRRRm5idkNlZ1NPdGdwRnhCSmo0dk4wM2ZQR3BpaDJHaDZrN0ZnUER2ZmFNb0pB?oc=5\n政府広報室長は、陰謀論系YouTuberの起用で波紋を呼ぶ中、全てを事前にチェックせずに行動したという。\n「物事の始めと着手の時をよく見計らうことほど、大きな知恵はない。」\n『随筆集』第21篇「遅延について」",
+    "original": "There is surely no greater wisdom, than well to time the beginnings, and onsets, of things.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 13,
+    "source": "Google News 偽情報・言説",
+    "source_title": "“陰謀論系YouTuber”起用で波紋 国会で追及 政府広報室長“全てを事前にチェックせず” “経費上限1.5億円”炎上リスクは - au Webポータル",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aYlRYOFBIYkd6Ykg0VkEzRVNOVUJMcTc5YkwtdmJ3am9jazRvV0FxaHJFMldvc01GbmtGNmpYSDRRRm5idkNlZ1NPdGdwRnhCSmo0dk4wM2ZQR3BpaDJHaDZrN0ZnUER2ZmFNb0pB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E21b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T22:01:35.168747+00:00",
+    "publish_at": "2026-11-20T20:17:00+00:00",
+    "timestamp": "2026-11-20T20:17:00+00:00"
+  },
+  {
+    "id": "0a9864341e99",
+    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE81R2hObVhJbkpfM1V4ZHBQQ3R4MmMxbDViTk9abkJWYVBjd3hBaS1XUmJwRGV5czFNUXViWWQ0dmp0ZzlNekpwWmxR?oc=5\npando.lifeは「ディープフェイクAI上位10社ランキング」と報じた。\n「彼らは野心と気取りをもってそれを示し、仮面をかぶせたように形を整えて人々の前に出す。あたかもあらゆる点で完全で、完成に至っているかのように。」\n『ノヴム・オルガヌム』第1巻 アフォリズム86",
+    "original": "Illi enim ea ambitione et affectatione eas proponunt, atque in eum modum efformatas ac veluti personatas in hominum conspectum producunt, ac si illae omni ex parte perfectae essent et ad exitum perductae.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 16,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "ディープフェイクAI上位10社ランキング - pando.life",
+    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE81R2hObVhJbkpfM1V4ZHBQQ3R4MmMxbDViTk9abkJWYVBjd3hBaS1XUmJwRGV5czFNUXViWWQ0dmp0ZzlNekpwWmxR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "NO1.86a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:52:26.216913+00:00",
+    "publish_at": "2026-11-20T17:17:00+00:00",
+    "timestamp": "2026-11-20T17:17:00+00:00"
+  },
+  {
+    "id": "e41cda3a292d",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqOUlNeUdRdW9DYjFMNldPSHpaWlQ5NmFwTmlHeGJBaGdHUHBTM040R1FEbjJWdWhoZWtHdWhCMkliakFzUDVmN2ZaSk41SnRuUlRhZTZLaGI4M3ExMUhBcmF2Q0RpTUZsa3B4WE5jZTJ5S2ph?oc=5\nエヌビディアがディープフェイク騒動に直面しており、解任されたフアン氏のパロディ動画が拡散しているという。\n「順境は悪徳をいちばんよく露わにし、逆境は美徳をいちばんよく露わにする。」\n『随筆集』第5篇「逆境について」",
+    "original": "Prosperity doth best discover vice, but adversity doth best discover virtue.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 16,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "エヌビディア新体制、解任されたフアン氏のパロディ動画が拡散するディープフェイク騒動に直面 - BigGo ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqOUlNeUdRdW9DYjFMNldPSHpaWlQ5NmFwTmlHeGJBaGdHUHBTM040R1FEbjJWdWhoZWtHdWhCMkliakFzUDVmN2ZaSk41SnRuUlRhZTZLaGI4M3ExMUhBcmF2Q0RpTUZsa3B4WE5jZTJ5S2ph?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "E5",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:40:45.804759+00:00",
+    "publish_at": "2026-11-20T14:17:00+00:00",
+    "timestamp": "2026-11-20T14:17:00+00:00"
+  },
+  {
     "id": "88bf1e9eabf5",
     "text": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnNsMGVjM3JYaUFSNEFvSWZMdV9nZUtaOXZSWnZKTUJMNFJZSnZLTmpqZEtVWmZ3MUV4VGhQZjVVRFFUdUEzbmZVbF9IeWpCRW5DMkFrMThQLU8zX0pzczliNEkycldrY05vVElZTUNxT0xWRTg0dDV0bWVBNWZlTUNNYmxwTkxMN3I4M0ZRRDVyNnlHWnJoUVh1bEZsVThGQzdFMTNnMUpUeFRVRWtMX2hUVjRMbTB0a0RzWQ?oc=5\n整形疑惑が広まる中、フローレンス・ピューはSNSでその噂を明確に否定したという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
     "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
@@ -740,68 +803,5 @@
     "generated_at": "2026-11-15T11:12:22.967053+00:00",
     "publish_at": "2026-11-16T05:17:00+00:00",
     "timestamp": "2026-11-16T05:17:00+00:00"
-  },
-  {
-    "id": "f3995a06b723",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LeUVvUWtQUHU3cnBWNlF1TmtMNFhpdmZ4LS1LQklCTE9HczR4TUhNOERYOHl3a0NvaGpCNE5YNU0tTHU4aVVEZjVWbHEtUmNWSzZoUTVZRVNSTnJ3aHc?oc=5\nSTARTO社はSNS上での未確認情報の拡散や誹謗中傷に注意を呼びかけるという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
-    "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 14,
-    "source": "Google News SNS・報道",
-    "source_title": "STARTO社、SNSでの未確認情報の拡散・誹謗中傷に注意 専属契約解除等について「さまざまなご意見」「情報を発信される皆さまに改めてお願い」 - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LeUVvUWtQUHU3cnBWNlF1TmtMNFhpdmZ4LS1LQklCTE9HczR4TUhNOERYOHl3a0NvaGpCNE5YNU0tTHU4aVVEZjVWbHEtUmNWSzZoUTVZRVNSTnJ3aHc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E59a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:00:21.036207+00:00",
-    "publish_at": "2026-11-16T02:17:00+00:00",
-    "timestamp": "2026-11-16T02:17:00+00:00"
-  },
-  {
-    "id": "c09def9e9c2f",
-    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EcEpFWXNHdng5cndWQU5tS1V6OFdQN0ZXQm1fT2d6UmczSi1RU2VYNk5MUmJDQ2J4clUyNnVUTkhOLUlOLVUtOEtOX2dTQXZ0cEhFak5PYXJ0N1R1bmFQd0RNUFdscHdaMUFIYlUtNk9SSmtO?oc=5\nBigGo ファイナンスは「Tencent『従業員半数削減』の噂が拡散…Ma Huateng氏『AI戦場へ半数を再配置』」と報じた。\n「それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。」\n『随筆集』断章「風評について」",
-    "original": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 14,
-    "source": "Google News 風評・噂",
-    "source_title": "Tencent「従業員半数削減」の噂が拡散…Ma Huateng氏「AI戦場へ半数を再配置」 - BigGo ファイナンス",
-    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EcEpFWXNHdng5cndWQU5tS1V6OFdQN0ZXQm1fT2d6UmczSi1RU2VYNk5MUmJDQ2J4clUyNnVUTkhOLUlOLVUtOEtOX2dTQXZ0cEhFak5PYXJ0N1R1bmFQd0RNUFdscHdaMUFIYlUtNk9SSmtO?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "E59b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T23:23:22.857363+00:00",
-    "publish_at": "2026-11-15T23:17:00+00:00",
-    "timestamp": "2026-11-15T23:17:00+00:00"
-  },
-  {
-    "id": "7d2676308a90",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FZHkwaHRZbjZPb29DX1lrdmsxYjhneUtXOGoxLWdHVjd5NE5JMkVFd1Awdm5vNnVOZXFsbmczeWQzUFIyZUNUcHBablg0V0dLdU5Rb051Ukt6OTAtQWxN?oc=5\nSNS教育講演家が、ベガッ太炎上から読み解く『発言内容より文脈のズレ』が引き起こす炎上構造を解説した。\n「ギリシア人の知恵は講壇の知恵であり、論争へと流れ出た。この種の知恵は、真理の探究に最も敵対する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム71",
-    "original": "Erat autem sapientia Graecorum professoria, et in disputationes effusa: quod genus inquisitioni veritatis adversissimum est.",
-    "original_lang": "la",
-    "theme": "fori",
-    "score": 14,
-    "source": "Google News SNS・報道",
-    "source_title": "SNS教育講演家が解説、ベガッ太炎上から読み解く「発言内容より文脈のズレ」が引き起こす炎上構造 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FZHkwaHRZbjZPb29DX1lrdmsxYjhneUtXOGoxLWdHVjd5NE5JMkVFd1Awdm5vNnVOZXFsbmczeWQzUFIyZUNUcHBablg0V0dLdU5Rb051Ukt6OTAtQWxN?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fori",
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.71",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T23:17:43.123704+00:00",
-    "publish_at": "2026-11-15T20:17:00+00:00",
-    "timestamp": "2026-11-15T20:17:00+00:00"
   }
 ]
