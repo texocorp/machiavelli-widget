@@ -1,5 +1,136 @@
 [
   {
+    "id": "048e8f256950",
+    "text": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUsxTVU5Q1BQQlVhRExLa0tVZEc4SlpETEtQUVMweTZxbHZ3em5xT2V4d2s5bDZZeWcxOTBJTGNGcGFRbG94cG5Jb1NKeGE4dHJYT0R5eVZjOUR0bEkwMTJZNkw2TEFZQVlqTmhqdkxvZ0lxeWdGX0FxZDlUTFhMOFZkWnh2UFJFSWVBYXJ6TkRCSHF5?oc=5\n次世代エクソソームは、ヒト換算で約15年の健康寿命延伸をもたらす可能性を持っているという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
+    "theme": "mort",
+    "score": 0,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "ヒト換算で約15年の健康寿命延伸も 「次世代エクソソーム」の可能性 - 日経Gooday",
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUsxTVU5Q1BQQlVhRExLa0tVZEc4SlpETEtQUVMweTZxbHZ3em5xT2V4d2s5bDZZeWcxOTBJTGNGcGFRbG94cG5Jb1NKeGE4dHJYT0R5eVZjOUR0bEkwMTJZNkw2TEFZQVlqTmhqdkxvZ0lxeWdGX0FxZDlUTFhMOFZkWnh2UFJFSWVBYXJ6TkRCSHF5?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "medecine"
+    ],
+    "quote_id": "III.13j",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T22:22:11.442235+00:00",
+    "publish_at": "2026-11-20T22:17:00+00:00",
+    "timestamp": "2026-11-20T22:17:00+00:00"
+  },
+  {
+    "id": "cc52c022b9b0",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TSEM3UmluNy0zU0hPZ3gzNE43bkR1NENKM2VFSTRZSnBTSzc5YWl4ZlhIM2Uya21tZkZFdTM3RHVJeWZqT0pndkdSa29GcTZmazhoeUJIQ2lYMV9IRFF5eGhYYlphZnVQZFh6bDRONVJmT0ZCdS1nY0FiVzVLMlk?oc=5\nトラウマのレンズをかけ、人の傷つきに寄り添いながら逆境を乗り越えることについて考えるという。\n「自分にとって最も厭わしい側にわざわざ身構え、病や貧しさや侮りに、良い味を与えることもできるのに苦く悪い味を与えるとすれば、我々は奇妙なほど愚かである。」\n『エセー I.14「善悪の味わいは我々の考え方による」』",
+    "theme": "savoir",
+    "score": 0,
+    "source": "Google News 科学",
+    "source_title": "トラウマのレンズをかけ、人の傷つきに寄り添い逆境を乗り越える（大岡由佳／武庫川女子大学教授）（Science Portal） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TSEM3UmluNy0zU0hPZ3gzNE43bkR1NENKM2VFSTRZSnBTSzc5YWl4ZlhIM2Uya21tZkZFdTM3RHVJeWZqT0pndkdSa29GcTZmazhoeUJIQ2lYMV9IRFF5eGhYYlphZnVQZFh6bDRONVJmT0ZCdS1nY0FiVzVLMlk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "I.14b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T22:18:36.080967+00:00",
+    "publish_at": "2026-11-20T19:17:00+00:00",
+    "timestamp": "2026-11-20T19:17:00+00:00"
+  },
+  {
+    "id": "da754c344ca6",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DemRfZThmdWdoblhCUTNJdGhybVVDcmpaeTlHQXFMa085bklrLWNoUXEweVBvZElnNzB6ODM0ODVTdlVBSkhmdUtjUjRDU2VNRVFWSUgwbkltemc?oc=5\n体の年齢を下げたのは薬と生活習慣であり、調べた市販サプリでははっきりした低下は出なかったという。\n「健康とは貴いものだ。時間ばかりか、汗も労苦も財産も、さらには命までもその追求に費やすに値する、まことに唯一のものである。」\n『エセー II.37「子が父に似ることについて」』",
+    "theme": "medecine",
+    "score": 0,
+    "source": "Google News 科学",
+    "source_title": "体の年齢を下げたのは薬と生活習慣、調べた市販サプリでははっきりした低下が出なかった - ナゾロジー",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DemRfZThmdWdoblhCUTNJdGhybVVDcmpaeTlHQXFMa085bklrLWNoUXEweVBvZElnNzB6ODM0ODVTdlVBSkhmdUtjUjRDU2VNRVFWSUgwbkltemc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "II.37d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T22:14:54.507841+00:00",
+    "publish_at": "2026-11-20T16:17:00+00:00",
+    "timestamp": "2026-11-20T16:17:00+00:00"
+  },
+  {
+    "id": "29af0d332de3",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YUjVGdGVESFJLS0VoanViRXBhdEVqN1FaZGNvT0FuTTF2eHVYckhIUGZsbzVGX0x2MzlrZzNtQkdZaTM0dnloNVlCV29XandHWmFGeVlBTkhlUDE3M2ZTT2YwelJKYmt2Sll0VUZpZTltNHpY?oc=5\n中国・上海で3000台のスマホを群制御してLABUBUを買い占めた転売業者2人が実刑判決と罰金を言い渡された。\n「私が何よりも恐れるのは、恐怖そのものである。」\n『エセー I.18「恐怖について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 世相",
+    "source_title": "3000台のスマホを群制御して「LABUBU」を買い占め、転売業者2人に実刑判決・罰金も 中国・上海 - BigGo ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YUjVGdGVESFJLS0VoanViRXBhdEVqN1FaZGNvT0FuTTF2eHVYckhIUGZsbzVGX0x2MzlrZzNtQkdZaTM0dnloNVlCV29XandHWmFGeVlBTkhlUDE3M2ZTT2YwelJKYmt2Sll0VUZpZTltNHpY?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "profit",
+      "peur"
+    ],
+    "quote_id": "I.18",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:53:29.421161+00:00",
+    "publish_at": "2026-11-20T13:17:00+00:00",
+    "timestamp": "2026-11-20T13:17:00+00:00"
+  },
+  {
+    "id": "4761eb515cef",
+    "text": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jLU04MHhVaVgxU3NXOW85MnJLSXBRaDAxUEVHV2VKZ0JpLUFDR3Z5ejFpSVdkSnplZk9pWVlsZVV1a1VpY0dRZHlJeW5jVHotaFo0VGVlQm9lZXJRZWdDSzlHSzdRbHlKeXlyeUdsWGlsbjNKYTFfdFctQQ?oc=5\n山崎製パンの就職偏差値や難易度、平均年収について行われた企業研究であるという。\n「誰がより多く知っているかではなく、誰がよりよく知っているかを問うべきであった。」\n『エセー I.25「衒学について」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 教育",
+    "source_title": "山崎製パンの就職偏差値･難易度と平均年収の企業研究 - 就職偏差値.com",
+    "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jLU04MHhVaVgxU3NXOW85MnJLSXBRaDAxUEVHV2VKZ0JpLUFDR3Z5ejFpSVdkSnplZk9pWVlsZVV1a1VpY0dRZHlJeW5jVHotaFo0VGVlQm9lZXJRZWdDSzlHSzdRbHlKeXlyeUdsWGlsbjNKYTFfdFctQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "profit"
+    ],
+    "quote_id": "I.25b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:49:57.932558+00:00",
+    "publish_at": "2026-11-20T10:17:00+00:00",
+    "timestamp": "2026-11-20T10:17:00+00:00"
+  },
+  {
+    "id": "0822f8d782cf",
+    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkMnBZdFdmc0FYMWxMVHBNR3RpVDNxVk0yZC1KdmhGQnE0TjVCU0tSZW11WjNrVGI4Ri1FaU9WUTdUYV9pRzduUWx1MjRGOGUyNnFjc2ZDLUxpTmNY?oc=5\n韓国では大学入試でAIカンニングを防ぐために、隠しカメラ防止で服のボタンにシールを貼るという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 教育",
+    "source_title": "ＡＩカンニング、韓国厳戒 大学入試、隠しカメラ防止で服のボタンにシール - 朝日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkMnBZdFdmc0FYMWxMVHBNR3RpVDNxVk0yZC1KdmhGQnE0TjVCU0tSZW11WjNrVGI4Ri1FaU9WUTdUYV9pRzduUWx1MjRGOGUyNnFjc2ZDLUxpTmNY?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "II.17d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:46:14.992935+00:00",
+    "publish_at": "2026-11-20T07:17:00+00:00",
+    "timestamp": "2026-11-20T07:17:00+00:00"
+  },
+  {
+    "id": "7efac5907bbc",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZMGc5RVVlaHA2RkNpMkYxdnpDQnE4VDRyMkJlSEQ1dFI4ZzFwUlBnTEYxQ212Sk43QlVjQUFLdWU1b2duQjJQU3g2WXF5NVVUYmxPZzVabw?oc=5\n天涯孤独の独身女性が持つ唯一の生きがいのテニスで、負け続けの人生にピリオドを打ちたいと語るという。\n「自分の存在を偽りなく享受するすべを知ること、それこそ完全な、いわば神のごとき完成である。」\n『エセー III.13「経験について」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "『探偵！ナイトスクープ』天涯孤独、友達もいない独身69歳女性。唯一の生きがいのテニスで「負け続けの人生にピリオドを打ちたい」！ - ABCマガジン",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZMGc5RVVlaHA2RkNpMkYxdnpDQnE4VDRyMkJlSEQ1dFI4ZzFwUlBnTEYxQ212Sk43QlVjQUFLdWU1b2duQjJQU3g2WXF5NVVUYmxPZzVabw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "III.13g",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:42:05.707103+00:00",
+    "publish_at": "2026-11-20T04:17:00+00:00",
+    "timestamp": "2026-11-20T04:17:00+00:00"
+  },
+  {
     "id": "1c13eb650157",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0NlUHo2VEpFRHNzVDVXUU1RUTVWcUpBWmstck54bFdNRmxIai1ZSG1JajZ3Z0I3d1NDZ0tfMGxBc0I3Vm5qX3NEZkZtdzhEeVFHa0MycUkxREozVEEtOUxTRDRCTjM3djQ4RXc0TDlZLTlwZllwZ2JVam1XWGVOSTJYQURNalE?oc=5\n寝室の温度こそが、生産性を阻害する隠れた要因になっているかもしれないという。\n「我々はひどく愚かだ。『あの人は無為に一生を過ごした』『今日は何もしなかった』などと言う。何だって、あなたは生きたではないか。それこそあなたの務めのうちで、最も根本的であるばかりか、最も輝かしいものなのだ。」\n『エセー III.13「経験について」』",
     "theme": "inconstance",
@@ -572,137 +703,5 @@
     "generated_at": "2026-11-15T11:10:38.786831+00:00",
     "publish_at": "2026-11-16T07:17:00+00:00",
     "timestamp": "2026-11-16T07:17:00+00:00"
-  },
-  {
-    "id": "c97075393bdb",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03TmZ1VVVMend5UlhKYUduS3RDRmY4TVdFWl9obVFMYzlZZFlESU1zSlhFSk1HNjQxdXE0WUV1RGVtY25zNTR3SHFRQmVHVHZOR1lCRjNiYVBGUU0?oc=5\n友達は1人もいなかったまま執拗ないじめに苦しんだ彼は、居場所を求めて東大受験に挑んだという。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
-    "theme": "cruaute",
-    "score": 4,
-    "source": "Google News 検索 教育",
-    "source_title": "｢友達は1人もいなかった｣執拗ないじめに苦しんだ彼が｢居場所を求めて｣挑んだ東大受験…高校中退→YouTubeで学んだ結果 - 東洋経済オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03TmZ1VVVMend5UlhKYUduS3RDRmY4TVdFWl9obVFMYzlZZFlESU1zSlhFSk1HNjQxdXE0WUV1RGVtY25zNTR3SHFRQmVHVHZOR1lCRjNiYVBGUU0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute"
-    ],
-    "quote_id": "II.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:06:58.782153+00:00",
-    "publish_at": "2026-11-16T04:17:00+00:00",
-    "timestamp": "2026-11-16T04:17:00+00:00"
-  },
-  {
-    "id": "90479ffc5ea2",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DLUJFNnBKUXJUNnZydmJ6LWxJd2ZuYUdFVTZueGVYQmRUNUVmZDVVR0JBdU5rdEFzSjVTVGdsbnRuTDRnbWw0OEJsOG5sdUxETk01WXF0ODNNbVZuMXR6YlZ1ZUJ2N3M?oc=5\n移住を選んだライバーは、限界だった競争や孤独から温泉街が癒やしてくれたと語るという。\n「習慣は第二の天性であり、天性に劣らず強い。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "限界だった競争や孤独、温泉街が癒やしてくれた 移住選んだライバー - 朝日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DLUJFNnBKUXJUNnZydmJ6LWxJd2ZuYUdFVTZueGVYQmRUNUVmZDVVR0JBdU5rdEFzSjVTVGdsbnRuTDRnbWw0OEJsOG5sdUxETk01WXF0ODNNbVZuMXR6YlZ1ZUJ2N3M?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "III.10d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:00:43.873723+00:00",
-    "publish_at": "2026-11-16T01:17:00+00:00",
-    "timestamp": "2026-11-16T01:17:00+00:00"
-  },
-  {
-    "id": "cf05685c893d",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ObDNSaVBvNFhpX0Z2ZEdjdEVJYnBQRTJpOGNGSndVOUFCNGF1OWEwVUVJQnRUZmJxY05NQVVBUDdMVDRreUMxRGZ1VjJFbzNpcDd5U0g1UERBS0lGX0tfeUJROXhZVFI2aXlRdml2ekw2anVmS2M5NHJnbWNjU1U?oc=5\nドーピング冤罪で無念の時間を過ごし、涙ながらに復帰した競歩・池田向希が、『私のような被害者は出てほしくない』と願いを語っているという。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
-    "theme": "lois",
-    "score": 4,
-    "source": "Google News 検索 裁き",
-    "source_title": "「私のような被害者は出てほしくない」涙の復帰戦…ドーピング冤罪で失った2年間の無念、感謝、願い――競歩・池田向希 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ObDNSaVBvNFhpX0Z2ZEdjdEVJYnBQRTJpOGNGSndVOUFCNGF1OWEwVUVJQnRUZmJxY05NQVVBUDdMVDRreUMxRGZ1VjJFbzNpcDd5U0g1UERBS0lGX0tfeUJROXhZVFI2aXlRdml2ekw2anVmS2M5NHJnbWNjU1U?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "peur"
-    ],
-    "quote_id": "III.13n",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T23:08:06.091162+00:00",
-    "publish_at": "2026-11-15T22:17:00+00:00",
-    "timestamp": "2026-11-15T22:17:00+00:00"
-  },
-  {
-    "id": "e749a27abfe7",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JeFRqSHdCeDNXRjl0REd6dHdLUWZhYVFsU21UVm0wa0Ezb0xpUFFjbTFwZ21mUGt4ODdEYjhrUlFaUjBOY0RfakhUQXdWTU8xWHpXM05JZkNGY1hOYzl5eWJGZ0Rta2hyZm5VOEJqeW9ZS3l4N0NXbXNENE8yRTA?oc=5\n東京都内の区立学校で重大事態が認定された生徒は、『適応障害は風邪』といじめを訴えたという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
-    "theme": "cruaute",
-    "score": 8,
-    "source": "Google News 検索 教育",
-    "source_title": "独自＞「適応障害は風邪」いじめ訴えた生徒に副校長 東京都内の区立学校で重大事態認定（産経新聞） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JeFRqSHdCeDNXRjl0REd6dHdLUWZhYVFsU21UVm0wa0Ezb0xpUFFjbTFwZ21mUGt4ODdEYjhrUlFaUjBOY0RfakhUQXdWTU8xWHpXM05JZkNGY1hOYzl5eWJGZ0Rta2hyZm5VOEJqeW9ZS3l4N0NXbXNENE8yRTA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "savoir"
-    ],
-    "quote_id": "II.11",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T23:04:04.277527+00:00",
-    "publish_at": "2026-11-15T19:17:00+00:00",
-    "timestamp": "2026-11-15T19:17:00+00:00"
-  },
-  {
-    "id": "ed79b011bc2e",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wQm10YzR3WE1nS2FsS1Z3MHdWNTVDT3NBWmZZS0NXQ0pqbGFsd1M3WEdqT1BPZlZOWGpCejNnN1hZS3g4RnpwanZla0xpZFJWRThXWGZwQmVuTEU?oc=5\n仙台市は、独居高齢者向けの終活情報登録制度を新たに始めたという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 8,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "仙台市が新しく始めた独居高齢者向け「終活情報登録制度」ってどんな取り組み？ - 河北新報オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wQm10YzR3WE1nS2FsS1Z3MHdWNTVDT3NBWmZZS0NXQ0pqbGFsd1M3WEdqT1BPZlZOWGpCejNnN1hZS3g4RnpwanZla0xpZFJWRThXWGZwQmVuTEU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "soi"
-    ],
-    "quote_id": "I.20b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T23:02:32.694482+00:00",
-    "publish_at": "2026-11-15T16:17:00+00:00",
-    "timestamp": "2026-11-15T16:17:00+00:00"
-  },
-  {
-    "id": "12d5627c223d",
-    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LOUJtdERuUktkU2t6M25ZcWp6ZVk1R0Nib3hWcjRpbmJtX0JjVVF6S3hDOVh0ZHBFRk4tdmVMdXo5eGZoaDF6a2hyNFNmVkQ4R0VXRmpDX1AxWGpVS1pGY1RfMGJDdw?oc=5\n無職になり自由になったのに、それでも不安や孤独を感じることがあるという。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
-    "theme": "nouveaute",
-    "score": 5,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "自由なのに不安や孤独を感じる…無職になって初めて気づいた「人のありがたみ」とは？【32歳で会社を辞めて無職になった男の話 Vol.35】 - スポーツ報知",
-    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LOUJtdERuUktkU2t6M25ZcWp6ZVk1R0Nib3hWcjRpbmJtX0JjVVF6S3hDOVh0ZHBFRk4tdmVMdXo5eGZoaDF6a2hyNFNmVkQ4R0VXRmpDX1AxWGpVS1pGY1RfMGJDdw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "nouveaute",
-      "soi",
-      "peur"
-    ],
-    "quote_id": "I.39c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T14:18:30.564038+00:00",
-    "publish_at": "2026-11-15T13:17:00+00:00",
-    "timestamp": "2026-11-15T13:17:00+00:00"
-  },
-  {
-    "id": "2227f8ecb5d3",
-    "text": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOZjM1WWpELTlLeU5WQ0NDRmZ0WHgwZmlQNEtPNVNCU2duM1JEaDZHN2tPZzFDTW5XU0pjcElRUzNEdE5HbS10dkhYNXBVMWtUbXdWTUFBVm1jYjJXZWhYNk5vckFPdS04VHdDN0s2aUdrOUV2d1BKQzhhRDVqZ180U2xVdG52TG1IQ2NIWXp4Qi1weEFBQlFrQWVmV1R2dUJweVBBZzdwY1lQMW9aX0RlTTNMMzM0Vk9DQjNpOEFtSVRHOTlqNjFvSm5EYk9lSk9XRTVZQmFOYWZJMGpwZVUyWXhnUXdGOGEzRzgwQWFLVEJ0Yzd1QlFFdXJJNTFoVGtfRU1ITFQyVER0bFcxRllNWE51WmI0U09hRlk2REh4d1FJeW05bUl5eHNrUkdueXpCZGJFenRSaDVSUUJHTEI3SDF3Ukxlbm9qTm5RSlNfeVJCZjFMdmJpUFNVNTlVSldCdU9zc0M5bzJvMmJIemN6aDgzeFVCMnhRLTZVdjVKVVZKZnJvR2hRSUVBaklpSVhpV3M0N1BBQlotQk5EYXhMNkctdjJ1eHlGZU0tNzhGR3l6XzlQSm1TRDQ0SDVueGZIMER2dGVXTUVMNUdrVDZ3eEZrWU1UM2RfcVJ0TDFJRWlYejhGUTNEaDctcFBUNU5LSjdndlBDSlpjaHZNaEhYUUtlNjhFMUtMQ1Qyb3JPMnB6dw?oc=5\n英国で若者の孤独解消ビジネスが広がり、友情のデジタル化という形で年間10万円のサービスがあるという。\n「なぜ彼を愛したのかと問い詰められても、それは『彼だったから、私だったから』と答えるほかに言い表せないと感じる。」\n『エセー I.28「友情について」』",
-    "theme": "profit",
-    "score": 6,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "英国で広がる「若者の孤独解消ビジネス」 「友情のデジタル化」へ年間10万円 | スマートニュース - SmartNews",
-    "source_url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOZjM1WWpELTlLeU5WQ0NDRmZ0WHgwZmlQNEtPNVNCU2duM1JEaDZHN2tPZzFDTW5XU0pjcElRUzNEdE5HbS10dkhYNXBVMWtUbXdWTUFBVm1jYjJXZWhYNk5vckFPdS04VHdDN0s2aUdrOUV2d1BKQzhhRDVqZ180U2xVdG52TG1IQ2NIWXp4Qi1weEFBQlFrQWVmV1R2dUJweVBBZzdwY1lQMW9aX0RlTTNMMzM0Vk9DQjNpOEFtSVRHOTlqNjFvSm5EYk9lSk9XRTVZQmFOYWZJMGpwZVUyWXhnUXdGOGEzRzgwQWFLVEJ0Yzd1QlFFdXJJNTFoVGtfRU1ITFQyVER0bFcxRllNWE51WmI0U09hRlk2REh4d1FJeW05bUl5eHNrUkdueXpCZGJFenRSaDVSUUJHTEI3SDF3Ukxlbm9qTm5RSlNfeVJCZjFMdmJpUFNVNTlVSldCdU9zc0M5bzJvMmJIemN6aDgzeFVCMnhRLTZVdjVKVVZKZnJvR2hRSUVBaklpSVhpV3M0N1BBQlotQk5EYXhMNkctdjJ1eHlGZU0tNzhGR3l6XzlQSm1TRDQ0SDVueGZIMER2dGVXTUVMNUdrVDZ3eEZrWU1UM2RfcVJ0TDFJRWlYejhGUTNEaDctcFBUNU5LSjdndlBDSlpjaHZNaEhYUUtlNjhFMUtMQ1Qyb3JPMnB6dw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "profit",
-      "soi"
-    ],
-    "quote_id": "I.28",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T14:15:10.400754+00:00",
-    "publish_at": "2026-11-15T10:17:00+00:00",
-    "timestamp": "2026-11-15T10:17:00+00:00"
   }
 ]
