@@ -1,5 +1,66 @@
 [
   {
+    "id": "434dd148bdb7",
+    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nc1BaaFVEdUFScXFtZmQ3elQyOXZwTnZvR2w0WlhqV29oclJ4dmttdnJ1WFBvdmhxejFVbzdaLXMzMGd3eTNIUXhRb0hsdw?oc=5\nロシアのプーチン大統領は、クリミア橋への攻撃を受け、ウクライナに対して報復を宣言したという。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシアのプーチン大統領 クリミア橋攻撃受けウクライナに報復宣言 - FNNプライムオンライン",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nc1BaaFVEdUFScXFtZmQ3elQyOXZwTnZvR2w0WlhqV29oclJ4dmttdnJ1WFBvdmhxejFVbzdaLXMzMGd3eTNIUXhRb0hsdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D1.33",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T22:37:02.382222+00:00",
+    "publish_at": "2026-11-20T21:17:00+00:00",
+    "timestamp": "2026-11-20T21:17:00+00:00"
+  },
+  {
+    "id": "c7c16919f743",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ2FBYjU2c0llZzU2dWJtRklNVzJjY3cxQjc1TXpwMWJYSFFJclVBYjkzMU40LWMtaXVzSkFRTkF1NFpzaDVETGRDZjVJVGVJTjd3eG9yMnoweDNBY1FQeWpBNExwU3lral92aHEweElPQUhqYnZHZ2JqUHBnQ1I0X3prcmlvUdIBiwFBVV95cUxPS2lNQVB2WFFTaWlGRjRBU1duLWNyWjA0NkhZME1pNGgyREluU09BajVkSWkyU3N0enJaQjJtUkF4M2d1eGNPM3paQWVibWtsa2ZSLVpRUGNzdnFhV0dOTlhmazVTMHltdkdWTkRTdm5OV2F0N2RoQW9qVjZwOGxqeG5QcGRWUlAtOGx3?oc=5\nイランは米軍施設の攻撃を行い、これは米軍が南部ゲシュム島を攻撃したことの報復であるという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "イランがクウェートの米軍施設攻撃　米軍による南部ゲシュム島への攻撃に報復か - ｄメニューニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ2FBYjU2c0llZzU2dWJtRklNVzJjY3cxQjc1TXpwMWJYSFFJclVBYjkzMU40LWMtaXVzSkFRTkF1NFpzaDVETGRDZjVJVGVJTjd3eG9yMnoweDNBY1FQeWpBNExwU3lral92aHEweElPQUhqYnZHZ2JqUHBnQ1I0X3prcmlvUdIBiwFBVV95cUxPS2lNQVB2WFFTaWlGRjRBU1duLWNyWjA0NkhZME1pNGgyREluU09BajVkSWkyU3N0enJaQjJtUkF4M2d1eGNPM3paQWVibWtsa2ZSLVpRUGNzdnFhV0dOTlhmazVTMHltdkdWTkRTdm5OV2F0N2RoQW9qVjZwOGxqeG5QcGRWUlAtOGx3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AG4",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:36:15.773906+00:00",
+    "publish_at": "2026-11-20T18:17:00+00:00",
+    "timestamp": "2026-11-20T18:17:00+00:00"
+  },
+  {
+    "id": "5b8d7b4483d1",
+    "text": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xd1ZBVkM2emszX3NxUTktSlYyVGE1eE51US1jeGNUYUliRkcyMnE3UVhiOTI2NlRwZ2xjMmdLRDBSdFdHN3VHTmhFTUgxWnRRSVN2SU5Qb0lRWVE3QW90RzdWYlJPWjVKYk9iamhJaw?oc=5\nトランプ大統領はイランへの攻撃を検討しており、その報道を受け原油価格が上昇しているという。\n「為すべきことについては多くの者に諮り、実際に為そうとすることは少数の者にだけ打ち明けよ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ大統領がイラン攻撃を検討との報道を受け、原油価格が上昇 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xd1ZBVkM2emszX3NxUTktSlYyVGE1eE51US1jeGNUYUliRkcyMnE3UVhiOTI2NlRwZ2xjMmdLRDBSdFdHN3VHTmhFTUgxWnRRSVN2SU5Qb0lRWVE3QW90RzdWYlJPWjVKYk9iamhJaw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "economia",
+      "consiglio"
+    ],
+    "quote_id": "AG10",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T21:33:18.546553+00:00",
+    "publish_at": "2026-11-20T15:17:00+00:00",
+    "timestamp": "2026-11-20T15:17:00+00:00"
+  },
+  {
     "id": "bb65a354fc38",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WUEJTUl9TeXJRNFphLUtYWXFMenZ2Ulh4Qndhck9pRzJyX2lfQ0RRZEtvckxuYVlDTjF5TWI3TFJ5YjFJS0xMQ0J1blE2c05OWHVKRVFnaWcwd29QdThPM2hjZnFSLUJzcGtBZ1o4ZmZfV091NGo3RXEzUjd6NnM?oc=5\nウクライナ軍のミサイル攻撃によりケルチ海峡大橋が損傷したとされる動画が流れたという。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -694,68 +755,5 @@
     "generated_at": "2026-11-15T10:06:13.559119+00:00",
     "publish_at": "2026-11-16T06:17:00+00:00",
     "timestamp": "2026-11-16T06:17:00+00:00"
-  },
-  {
-    "id": "3fdd7ba1124e",
-    "text": "https://news.google.com/rss/articles/CBMigwRBVV95cUxNUEJLU2NWOVR5QnFfcUZYa2VNQnhIaFlZNTdDODF2UVE2UVYxMW11cWFnWVRKa3ZCeENHVG1vYUtpNjRvRVUyb3YxN3FvVHRmcjJhalBpaFdReVkweGdvWlpYU1RmWGI3MjZkVlF4bG9lUWxLQXhTVjBfN2V0amtDM18tUFpfOXBwSm1qRXBmb3RGQm5nNHVucmlLTGZCS2pLWGgwXzZXVVBwUk04VHk0dVBRQXpESXRucXlFVkdvYW5LTnZuX1F6MnYzcjJlLWJrZU1pQVcySUlNYVRqdUdsMExRWTRrb2ZEMmhQbXlCNWkwRmhtR0d5cEtlTFlaNjZkZTJrczM4ZlZ2b2lLNGw1STJVdTJ1cGtfRzVmdUFMcXhTSmt4WDNzay1Ra1BhbmNkZFVxNkxXWjZFNkd3RVhNUDliY0Y2OS1YbXoxcU15WlYzTzFnOFNnVVVBWWRubEk5YmFjdGtSb0RuMVdpLTIxSTVtb0hTeUxSRDFjcjYwb0NnbzJyQ3hfdE8wLW9XMl9HU1dRUzFMejdmOEtzMjNKUjl5TFRfNmZMRnNPdlF1cGJyRzYzNXVkY0VRdHd3S21mbHRhUmRBTTJqTnk5RVlWNVZTWk9Dd1ZicFNlVjVmRnItNE5XaXJuYXRCdFNzVVpCbXJjODRRcWpVNGNJNEx4T19JYw?oc=5\nイランが地下のミサイル都市を公開し、戦闘再開の際には米軍への広域攻撃を行うと表明した。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、地下「ミサイル都市」を公開 「戦闘再開なら米軍への広域攻撃」 | スマートニュース - SmartNews",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxNUEJLU2NWOVR5QnFfcUZYa2VNQnhIaFlZNTdDODF2UVE2UVYxMW11cWFnWVRKa3ZCeENHVG1vYUtpNjRvRVUyb3YxN3FvVHRmcjJhalBpaFdReVkweGdvWlpYU1RmWGI3MjZkVlF4bG9lUWxLQXhTVjBfN2V0amtDM18tUFpfOXBwSm1qRXBmb3RGQm5nNHVucmlLTGZCS2pLWGgwXzZXVVBwUk04VHk0dVBRQXpESXRucXlFVkdvYW5LTnZuX1F6MnYzcjJlLWJrZU1pQVcySUlNYVRqdUdsMExRWTRrb2ZEMmhQbXlCNWkwRmhtR0d5cEtlTFlaNjZkZTJrczM4ZlZ2b2lLNGw1STJVdTJ1cGtfRzVmdUFMcXhTSmt4WDNzay1Ra1BhbmNkZFVxNkxXWjZFNkd3RVhNUDliY0Y2OS1YbXoxcU15WlYzTzFnOFNnVVVBWWRubEk5YmFjdGtSb0RuMVdpLTIxSTVtb0hTeUxSRDFjcjYwb0NnbzJyQ3hfdE8wLW9XMl9HU1dRUzFMejdmOEtzMjNKUjl5TFRfNmZMRnNPdlF1cGJyRzYzNXVkY0VRdHd3S21mbHRhUmRBTTJqTnk5RVlWNVZTWk9Dd1ZicFNlVjVmRnItNE5XaXJuYXRCdFNzVVpCbXJjODRRcWpVNGNJNEx4T19JYw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "AG8",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T09:45:42.028766+00:00",
-    "publish_at": "2026-11-16T03:17:00+00:00",
-    "timestamp": "2026-11-16T03:17:00+00:00"
-  },
-  {
-    "id": "4190618df577",
-    "text": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVGJqQTRBdlo1a0xLWmVkYTZLMkc2a2pFc1A0by1wTm5VZS1QRzk2b2tGZHFDTzFnUTdLYVllV1RjVmtrb0JwUWlkMUJudy1qSmlTZHFPcDRfOEhvRDZETGJVUWdTcDBEaGlFTXZNby14ME9Dd3NQNXJNY1lxT0JKdEZaUG9RLV9tX3fSAY8BQVVfeXFMTVM5a1QxMi1WbnRWRVlNcDVscDZmOUpQQlZublg2M3VGY2stWnhMbmdFZzgwa3F6UkdYTVFSSEFsUlhpenZxYTV4U1plNFNSMGVheWtaWTlGM29MOWRxSGlIZ0VJeGVsY3dXd0pIdmxDRmZTM0hlRHlhRjUyY1RQN1l0OU9QWEIwc2w5aGhFUVU?oc=5\nイランは核合意への固執を強調して本格交渉入りを否定したが、米国側はこれを批判しているという。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
-    "theme": "guerra",
-    "score": 24,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン、本格交渉入り否定　「核合意に固執」と米批判 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVGJqQTRBdlo1a0xLWmVkYTZLMkc2a2pFc1A0by1wTm5VZS1QRzk2b2tGZHFDTzFnUTdLYVllV1RjVmtrb0JwUWlkMUJudy1qSmlTZHFPcDRfOEhvRDZETGJVUWdTcDBEaGlFTXZNby14ME9Dd3NQNXJNY1lxT0JKdEZaUG9RLV9tX3fSAY8BQVVfeXFMTVM5a1QxMi1WbnRWRVlNcDVscDZmOUpQQlZublg2M3VGY2stWnhMbmdFZzgwa3F6UkdYTVFSSEFsUlhpenZxYTV4U1plNFNSMGVheWtaWTlGM29MOWRxSGlIZ0VJeGVsY3dXd0pIdmxDRmZTM0hlRHlhRjUyY1RQN1l0OU9QWEIwc2w5aGhFUVU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "D1.46",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T09:25:00.318612+00:00",
-    "publish_at": "2026-11-16T00:17:00+00:00",
-    "timestamp": "2026-11-16T00:17:00+00:00"
-  },
-  {
-    "id": "53bd0fe1ccf8",
-    "text": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss\n52歳の将軍が逮捕され、副大統領が脅かされている状況で、大統領の息子がウガンダの王位継承熱を煽っている。\n「君主は二つの恐れを抱かねばならぬ。一つは内にあって臣民に対するもの、もう一つは外にあって外国の列強に対するものである。」\n『君主論 cap.XIX』",
-    "theme": "guerra",
-    "score": 4,
-    "source": "BBC World",
-    "source_title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
-    "source_title_ja": "逮捕された将軍と脅かされる副大統領：大統領の息子がウガンダの王位継承熱を煽る",
-    "source_url": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore"
-    ],
-    "quote_id": "P19a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T22:59:05.068988+00:00",
-    "publish_at": "2026-11-15T21:17:00+00:00",
-    "timestamp": "2026-11-15T21:17:00+00:00"
   }
 ]
