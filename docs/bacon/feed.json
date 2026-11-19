@@ -1,5 +1,47 @@
 [
   {
+    "id": "a5e8dd58a4e6",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJU1VCSGNiSWpjdlJ5TW81ZGZYbDZhSEk2cWpzNklNV0N0eTlFY3FYU2RpeXBhajZBcEZSV0F6a0JwYjNtaU9vbnQ0QQ?oc=5\n政府は陰謀論系配信者の過去発言について確認せず、その名前が扱われなかったという。\n「見落とされて名前を欠く物があるように、空想の想定によって、物を欠く名前もある。」\n『ノヴム・オルガヌム』第1巻 アフォリズム60",
+    "original": "… quemadmodum enim sunt res, quae nomine carent per inobservationem; ita sunt et nomina, quae carent rebus, per suppositionem phantasticam …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府、陰謀論系配信者の過去発言確認せず - 47NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJU1VCSGNiSWpjdlJ5TW81ZGZYbDZhSEk2cWpzNklNV0N0eTlFY3FYU2RpeXBhajZBcEZSV0F6a0JwYjNtaU9vbnQ0QQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fori"
+    ],
+    "quote_id": "NO1.60",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T03:55:23.398186+00:00",
+    "publish_at": "2026-11-20T02:17:00+00:00",
+    "timestamp": "2026-11-20T02:17:00+00:00"
+  },
+  {
+    "id": "69e43dc78fc7",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zRkctZFFjR0tFY2ZlRDYzNWtydDhkQXdOMlJxN2w5NlZLbTAyQmhjMTBjZjMtX3lUUnBqdlJhZ09jVVJlT2kwZm9DcG1PUHZpOGhjQWlFNnNoVVYwRjlHcURlZW8?oc=5\n政府が陰謀論や都市伝説のYouTuberを起用した政府広報に対して、SNSでは批判が相次いでいるという。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
+    "original": "There is nothing makes a man suspect much, more than to know little …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 11,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報に陰謀論・都市伝説YouTuber起用 SNSで批判相次ぐ - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zRkctZFFjR0tFY2ZlRDYzNWtydDhkQXdOMlJxN2w5NlZLbTAyQmhjMTBjZjMtX3lUUnBqdlJhZ09jVVJlT2kwZm9DcG1PUHZpOGhjQWlFNnNoVVYwRjlHcURlZW8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T03:39:58.979374+00:00",
+    "publish_at": "2026-11-19T23:17:00+00:00",
+    "timestamp": "2026-11-19T23:17:00+00:00"
+  },
+  {
     "id": "c5d27f31de55",
     "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCNFNEblFmLVE2VnBGUmsxMEtjSTIxRlpqZ2wxem5rc3g0UWJtOUlXZmt0eVBpS2NianhSYzZobVNRQmJxRTBqUDRMZFpzR3U5LW9xcmZXUVBabzg?oc=5\n『いろはの恋は時代をかける』第6話では、シールの盗難騒動により学校がSNSで炎上し、主人公のいろはが行動を起こした。\n「言葉はまさしく知性に暴力を加え、すべてをかき乱し、人々を空しく果てしない論争と作り話へと導く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
     "original": "Sed verba plane vim faciunt intellectui, et omnia turbant; et homines ad inanes et innumeras controversias et commenta deducunt.",
@@ -761,48 +803,5 @@
     "generated_at": "2026-11-14T14:19:42.077574+00:00",
     "publish_at": "2026-11-15T11:17:00+00:00",
     "timestamp": "2026-11-15T11:17:00+00:00"
-  },
-  {
-    "id": "251f92de2d43",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BVjNOeXNNc3gzUXp6dVlvOFZ5OFFpckl6U3kyTVk0WGJBbVJBWHJvdGhwX2J2SVg4b0tfUGVNak1fUVlmd1E4QXNxWjRZRVhHeTc3QkxkOUxMb2lSU21ydV93?oc=5\n地球温暖化の否定論や偽情報の広りが深刻化しており、ＡＩによる誤情報拡散防止のための指針が示されたという。\n「人間の知性は、事物の光を受ける歪んだ鏡のようなものであり、自らの性質を事物の性質に混ぜ合わせて、それを歪め、染めてしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム41",
-    "original": "Estque intellectus humanus instar speculi inaequalis ad radios rerum, qui suam naturam naturae rerum immiscet, eamque distorquet et inficit.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 22,
-    "source": "Google News 偽情報・言説",
-    "source_title": "地球温暖化の否定論や偽情報の広がり深刻、ＡＩによる誤情報拡散防止へ指針…ＣＯＰ３１ - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BVjNOeXNNc3gzUXp6dVlvOFZ5OFFpckl6U3kyTVk0WGJBbVJBWHJvdGhwX2J2SVg4b0tfUGVNak1fUVlmd1E4QXNxWjRZRVhHeTc3QkxkOUxMb2lSU21ydV93?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "NO1.41b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T14:13:14.481564+00:00",
-    "publish_at": "2026-11-15T08:17:00+00:00",
-    "timestamp": "2026-11-15T08:17:00+00:00"
-  },
-  {
-    "id": "5710d4590e7b",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LTC1Oa0NFLTJWS256eXVtOUs3dDZRUUFrY09tQnRadWZ4SGJjcjZIdDZWdnNDcFp5WkdDSzlXeEFqc0pLTVIyUEFRZ19DclJ3d2JZ?oc=5\ninnovaTopiaは「ドコモ調査、生成AIの偽情報に『だまされない自信』が約3割に低下 生成AIを知る人は1年で急増」と報じた。\n「そうした進歩は大多数の人々の理解を超えており、世俗の意見の風にたやすく吹き倒され、かき消されてしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム91",
-    "original": "Sunt enim illi supra captum maximae partis hominum, et ab opinionum vulgarium ventis facile obruuntur et extinguuntur.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 17,
-    "source": "Google News 偽情報・言説",
-    "source_title": "ドコモ調査、生成AIの偽情報に「だまされない自信」が約3割に低下 生成AIを知る人は1年で急増 - innovaTopia",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LTC1Oa0NFLTJWS256eXVtOUs3dDZRUUFrY09tQnRadWZ4SGJjcjZIdDZWdnNDcFp5WkdDSzlXeEFqc0pLTVIyUEFRZ19DclJ3d2JZ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia"
-    ],
-    "quote_id": "NO1.91",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T06:52:59.914974+00:00",
-    "publish_at": "2026-11-15T05:17:00+00:00",
-    "timestamp": "2026-11-15T05:17:00+00:00"
   }
 ]
