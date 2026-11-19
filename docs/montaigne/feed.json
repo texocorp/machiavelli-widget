@@ -1,5 +1,40 @@
 [
   {
+    "id": "1c13eb650157",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0NlUHo2VEpFRHNzVDVXUU1RUTVWcUpBWmstck54bFdNRmxIai1ZSG1JajZ3Z0I3d1NDZ0tfMGxBc0I3Vm5qX3NEZkZtdzhEeVFHa0MycUkxREozVEEtOUxTRDRCTjM3djQ4RXc0TDlZLTlwZllwZ2JVam1XWGVOSTJYQURNalE?oc=5\n寝室の温度こそが、生産性を阻害する隠れた要因になっているかもしれないという。\n「我々はひどく愚かだ。『あの人は無為に一生を過ごした』『今日は何もしなかった』などと言う。何だって、あなたは生きたではないか。それこそあなたの務めのうちで、最も根本的であるばかりか、最も輝かしいものなのだ。」\n『エセー III.13「経験について」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 科学",
+    "source_title": "「寝室の温度」が生産性を阻害する隠れた要因になっているかもしれない - GIGAZINE",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0NlUHo2VEpFRHNzVDVXUU1RUTVWcUpBWmstck54bFdNRmxIai1ZSG1JajZ3Z0I3d1NDZ0tfMGxBc0I3Vm5qX3NEZkZtdzhEeVFHa0MycUkxREozVEEtOUxTRDRCTjM3djQ4RXc0TDlZLTlwZllwZ2JVam1XWGVOSTJYQURNalE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "III.13q",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T03:44:11.847082+00:00",
+    "publish_at": "2026-11-20T01:17:00+00:00",
+    "timestamp": "2026-11-20T01:17:00+00:00"
+  },
+  {
+    "id": "9eec6fc99cdb",
+    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IMmIwb0wxSUEyOFhST3I3UUZqSVh2SlkwUUV2NjE5eGgwazRnVXJKSlRqWHpWZHF0bjl2ZXJ3NkNYTFY5bDhUSE1kMk5RdjdpbzZyU0QzVkc4M0lNRHJFZHFWWENVaFdtcXc?oc=5\n温浴施設の利益を圧迫するコストを統制する中で、企業の挑戦を下支えするリスクマネジメントの実務が公開されたという。\n「世界は探究の学校にすぎない。的を射止めた者ではなく、最も見事な走りを見せた者が勝つのだ。」\n『エセー III.8「談論の術について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "温浴施設の利益を圧迫する「保険料・修繕費・カスハラ対策」を一体統制。企業の挑戦を下支えするリスクマネジメント実務を公開 - PR TIMES",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IMmIwb0wxSUEyOFhST3I3UUZqSVh2SlkwUUV2NjE5eGgwazRnVXJKSlRqWHpWZHF0bjl2ZXJ3NkNYTFY5bDhUSE1kMk5RdjdpbzZyU0QzVkc4M0lNRHJFZHFWWENVaFdtcXc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui",
+      "profit"
+    ],
+    "quote_id": "III.8c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T03:35:54.628022+00:00",
+    "publish_at": "2026-11-19T22:17:00+00:00",
+    "timestamp": "2026-11-19T22:17:00+00:00"
+  },
+  {
     "id": "89bec26fea4a",
     "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zYzVhMmpLMnNTWlp6NDU4VGFaSDlkRmU3TUV4RUFYa0UwVHJUUzVGYWpGbG9xTjIwZmtzNlhRMGt1T1pnTHBOVjY5THZRWWJVRGhYeUgyMVMzc0JE?oc=5\n吉田仁人はグループの飛躍で感じた不安から、急に何もなくなるときが恐ろしいと告白したという。\n「人は物事そのものによってではなく、物事について抱く思いによって苦しめられる、と古代ギリシアの格言は言う。」\n『エセー I.14「善悪の味わいは我々の考え方による」』",
     "theme": "soi",
@@ -669,44 +704,5 @@
     "generated_at": "2026-11-14T14:15:10.400754+00:00",
     "publish_at": "2026-11-15T10:17:00+00:00",
     "timestamp": "2026-11-15T10:17:00+00:00"
-  },
-  {
-    "id": "1821e73c05f0",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XNG1yMy1NSXdLSmFOMDk0M0lDNFIxZ09nRk16UjBab240SGIwSDItV0lmX08tc2NTN3VVMlAyUVJGczE2U3FlZlVnM3hicVZZMlBUbElseGxyOU9ZbHB1eDcyWS1fU3M?oc=5\n藤沢の市民団体はヘイトスピーチ禁止条例求め陳情書を出したという。\n「法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。」\n『エセー III.13「経験について」』",
-    "theme": "lois",
-    "score": 6,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "藤沢の市民団体、ヘイトスピーチ禁止条例求め陳情書 鈴木市長「検討する」 時代の正体 差別禁止法を求めて - カナロコ",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XNG1yMy1NSXdLSmFOMDk0M0lDNFIxZ09nRk16UjBab240SGIwSDItV0lmX08tc2NTN3VVMlAyUVJGczE2U3FlZlVnM3hicVZZMlBUbElseGxyOU9ZbHB1eDcyWS1fU3M?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "autrui",
-      "vanite"
-    ],
-    "quote_id": "III.13b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T14:12:30.076803+00:00",
-    "publish_at": "2026-11-15T07:17:00+00:00",
-    "timestamp": "2026-11-15T07:17:00+00:00"
-  },
-  {
-    "id": "73921281d76f",
-    "text": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdlJaUElmM3pCVmJEa1Q2T19tSk9TaWtjR1R0WkNNME5vM2tLN1l1OTJnR3pHTHlGdmdBQ3phZTRYLV9JRmFWc3F5TGdhbC1QdlJaMEo0anlZWWhiTzBGUEpvSFNTNkxzYTAzdTc2VHlaZw?oc=5\nマサチューセッツ工科大学は、再学習なしで正答率を6倍に高めたという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 科学",
-    "source_title": "再学習なしで正答率6倍 マサチューセッツ工科大学が実証した「AIがAIを直接直す」新手法（1/4 ページ） - ITmedia",
-    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdlJaUElmM3pCVmJEa1Q2T19tSk9TaWtjR1R0WkNNME5vM2tLN1l1OTJnR3pHTHlGdmdBQ3phZTRYLV9JRmFWc3F5TGdhbC1QdlJaMEo0anlZWWhiTzBGUEpvSFNTNkxzYTAzdTc2VHlaZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "presomption"
-    ],
-    "quote_id": "II.17d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T06:34:24.208999+00:00",
-    "publish_at": "2026-11-15T04:17:00+00:00",
-    "timestamp": "2026-11-15T04:17:00+00:00"
   }
 ]
