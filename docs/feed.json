@@ -1,5 +1,67 @@
 [
   {
+    "id": "a5d42ce0192d",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMaFMtSTd6VHBTLWViX2pVa2p4QjVyNHdSUTVJNmNkalNOajF1SVNWT3dRMDZINkR4bS1oZ0I0N28tVy1WY1FTUkc4a0dSV2l0ZkRtZXVjRlB5YkZwY1pHalZKQm1LdG90SWI3Rk5UZlNsWDg2?oc=5\nトランプ氏はイランへの再軍事攻撃を検討しており、その意向によって国際原油価格が下げ止まって反発を示しているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 11,
+    "source": "Google News 検索 中東",
+    "source_title": "トランプ氏、イランへの再軍事攻撃を検討か 国際原油価格が下げ止まり反発 - BigGo ファイナンス",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMaFMtSTd6VHBTLWViX2pVa2p4QjVyNHdSUTVJNmNkalNOajF1SVNWT3dRMDZINkR4bS1oZ0I0N28tVy1WY1FTUkc4a0dSV2l0ZkRtZXVjRlB5YkZwY1pHalZKQm1LdG90SWI3Rk5UZlNsWDg2?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AG13",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T03:40:54.494772+00:00",
+    "publish_at": "2026-11-20T03:17:00+00:00",
+    "timestamp": "2026-11-20T03:17:00+00:00"
+  },
+  {
+    "id": "6153e247b63f",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Sei1UNS1vOEtGc3Q2cng2d2VPeER2QUZSNlFxaWVHVUMwWTMtMGVGRDcwRGV6QlRqT0VfQ3RpWWFWbC1WMGtrMWFCUXdpcWlDQWZENklvbzZPYlpVQ0JqUjVTUERKUUtmNkVhNA?oc=5\nアメリカとイスラエルによるイラン攻撃の行方が変わる中、米・イスラエルの選挙が行われるという。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 中東",
+    "source_title": "アメリカとイスラエルによるイラン攻撃⑩ 米・イスラエルの選挙が変える中東戦争の行方 - MRI 三菱総合研究所",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Sei1UNS1vOEtGc3Q2cng2d2VPeER2QUZSNlFxaWVHVUMwWTMtMGVGRDcwRGV6QlRqT0VfQ3RpWWFWbC1WMGtrMWFCUXdpcWlDQWZENklvbzZPYlpVQ0JqUjVTUERKUUtmNkVhNA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "popolo_principe"
+    ],
+    "quote_id": "D1.37b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T03:36:54.020153+00:00",
+    "publish_at": "2026-11-20T00:17:00+00:00",
+    "timestamp": "2026-11-20T00:17:00+00:00"
+  },
+  {
+    "id": "568e40864656",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KdUVMd2tNX1ltblM4cWpWc2FtcE1WQmtRZTd1Yk9ybnlUYWRvMUJrRFV3UGpiRTBNWEI3WU5IN0I0bldWT1V1S3dkYnBuaEgyZlEwNVZoM2xOZkdLalF4Z1RHTjlfVGk1YTVsdHRMV205TGVZR3Vjck1UU2hPeDQ?oc=5\nゼレンスキー氏は東部の前線陣地は堅固と強調し、ロシア側が制圧を主張する2都市で応戦しているという。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "ゼレンスキー氏「前線陣地は堅固」、ロシアが制圧主張の東部2都市で応戦と強調（ロイター） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KdUVMd2tNX1ltblM4cWpWc2FtcE1WQmtRZTd1Yk9ybnlUYWRvMUJrRFV3UGpiRTBNWEI3WU5IN0I0bldWT1V1S3dkYnBuaEgyZlEwNVZoM2xOZkdLalF4Z1RHTjlfVGk1YTVsdHRMV205TGVZR3Vjck1UU2hPeDQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "armi_proprie"
+    ],
+    "quote_id": "AG7",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-19T03:27:40.043695+00:00",
+    "publish_at": "2026-11-19T21:17:00+00:00",
+    "timestamp": "2026-11-19T21:17:00+00:00"
+  },
+  {
     "id": "b9363c893980",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KZFBLbEhBMlpSc0gxWmJibm14SzVQbHpEUXZjbmRnbmg1dHZGUWNIbHM5MGR3RzUxdlRDWWdDOVdYZW8tM3BDM1Mwc0V4UFZYX09VdWVDb1c3ZzhXQlZQWUZfc003QnpmSWVoQWh6SEdhemlsR0E?oc=5\n国連では北朝鮮の労働者派遣について議論が進み、核やミサイル開発の資金源となる制裁監視チームを設けるという。\n「ローマ人は、従属する者たちを裁かねばならぬ事態に際し、中途半端な道を避けた。」\n『リウィウス論 II.23』",
     "theme": "guerra",
@@ -696,45 +758,5 @@
     "generated_at": "2026-11-14T18:33:01.248291+00:00",
     "publish_at": "2026-11-15T12:17:00+00:00",
     "timestamp": "2026-11-15T12:17:00+00:00"
-  },
-  {
-    "id": "f8a8bfe298a2",
-    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HQ0dvTnFDRHlPY1JUSzh0dlREWG5PZmFpNEJTdjhqUU13MmMtVkNTM3F6ZDd3RHB0MjlCT3AzRmZGNmhXOC1DLUJYSW9LT2dzUXFPOWxMNWRfV1BYcTJKaNIBZkFVX3lxTE5Ea1JvUGRCSUVnVEx1aDNhaUxSNWJsd3dCdThTWS16LUFOVi1UZFNlWnVmZkZLNEEyNlYyaGpPVDJjOXpWTzEyRlVwSk90Nkl6bFRyVVZremZoOGFoVnB4UllXWlFPUQ?oc=5\nプーチン氏は強硬姿勢を崩さず、ウクライナ和平の条件を一段と拡大する方針だという。\n「大物の間では、新たな恩恵が古い恨みを忘れさせると信じる者は、思い違いをしている。」\n『君主論 cap.VII』",
-    "theme": "alleanze_dipendenza",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "強硬姿勢を崩さないプーチン氏、ウクライナ和平の条件を一段と拡大 - BBC",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HQ0dvTnFDRHlPY1JUSzh0dlREWG5PZmFpNEJTdjhqUU13MmMtVkNTM3F6ZDd3RHB0MjlCT3AzRmZGNmhXOC1DLUJYSW9LT2dzUXFPOWxMNWRfV1BYcTJKaNIBZkFVX3lxTE5Ea1JvUGRCSUVnVEx1aDNhaUxSNWJsd3dCdThTWS16LUFOVi1UZFNlWnVmZkZLNEEyNlYyaGpPVDJjOXpWTzEyRlVwSk90Nkl6bFRyVVZremZoOGFoVnB4UllXWlFPUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "P07",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T17:16:59.687040+00:00",
-    "publish_at": "2026-11-15T09:17:00+00:00",
-    "timestamp": "2026-11-15T09:17:00+00:00"
-  },
-  {
-    "id": "4fd5b201c830",
-    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aNklzeVlDX2liNHBGQTZ5YWs0TVJIOVFNT2hTQV9OZUt5NThqMUE5NTFlSVRWMW1ETmRBdHNYZ0tUdWl2QU42ZmVSWThuUzFhcmdEZjFyT19zRUF2MkE?oc=5\nイラン革命防衛隊がバーレーンにある米軍の早期警戒レーダーを攻撃した。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン革命防衛隊、バーレーンにある米軍の早期警戒レーダーを攻撃 - テレ東BIZ",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aNklzeVlDX2liNHBGQTZ5YWs0TVJIOVFNT2hTQV9OZUt5NThqMUE5NTFlSVRWMW1ETmRBdHNYZ0tUdWl2QU42ZmVSWThuUzFhcmdEZjFyT19zRUF2MkE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "P26",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-14T17:07:29.180557+00:00",
-    "publish_at": "2026-11-15T06:17:00+00:00",
-    "timestamp": "2026-11-15T06:17:00+00:00"
   }
 ]
