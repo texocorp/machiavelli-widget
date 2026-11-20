@@ -1,5 +1,99 @@
 [
   {
+    "id": "7712458c64c2",
+    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mUEgzVlFIX2VSS1VBMFNNbHhjZ2NhQnhobnFHNEJVVk1yMnBRQzM0NXVrNEVIbzd0SGhMS2RrRHZXdDRZY294eWoxSnZ0R3M?oc=5\n宮城・気仙沼市本吉町で開かれた伝統行事の山田大名行列を題材に、小学生が劇を披露したという。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
+    "theme": "coutume",
+    "score": 4,
+    "source": "Google News 検索 世相",
+    "source_title": "伝統行事の山田大名行列が題材 小学生が劇を披露 宮城・気仙沼市本吉町 - khb東日本放送",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mUEgzVlFIX2VSS1VBMFNNbHhjZ2NhQnhobnFHNEJVVk1yMnBRQzM0NXVrNEVIbzd0SGhMS2RrRHZXdDRZY294eWoxSnZ0R3M?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "coutume"
+    ],
+    "quote_id": "II.15",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T13:42:40.597121+00:00",
+    "publish_at": "2026-11-21T13:17:00+00:00",
+    "timestamp": "2026-11-21T13:17:00+00:00"
+  },
+  {
+    "id": "78c32b2ffd69",
+    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5NXFkODd4cU9zWTQyeG9WX3lIaHplWUlUX20xYVp4d3JVYmFuYWVJV0JsNmVKUkpYdHdwZ1JCeFdDV1dnaDJJdUxlYjFHN1E2T3g5aG81S1RCU3BSXzJESUJCeG96QzdfQUE?oc=5\n兵庫県で初募集される評判の高いAI通話録音・自動要約サービス『RecACE plus』は、カスハラ対応にも活用できるという。\n「物事を解釈するより、解釈を解釈するほうが手間がかかり、書物について書いた書物のほうが、ほかのどんな主題の書物よりも多い。我々は互いに注釈し合っているにすぎない。」\n『エセー III.13「経験について」』",
+    "theme": "presomption",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "プリペアード 評判が高いAI通話録音・自動要約サービス「RecACE plus」、カスハラ対応にも活用できるモデルケース企業を兵庫県で初募集 - PR TIMES",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5NXFkODd4cU9zWTQyeG9WX3lIaHplWUlUX20xYVp4d3JVYmFuYWVJV0JsNmVKUkpYdHdwZ1JCeFdDV1dnaDJJdUxlYjFHN1E2T3g5aG81S1RCU3BSXzJESUJCeG96QzdfQUE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "profit"
+    ],
+    "quote_id": "III.13c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T13:38:13.523444+00:00",
+    "publish_at": "2026-11-21T10:17:00+00:00",
+    "timestamp": "2026-11-21T10:17:00+00:00"
+  },
+  {
+    "id": "c6876e34151c",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJOW9rVTdwbEdlRjlZUllQOXRDUmQtOTE0Q0xnd0wwNmlORV9oTC1PdWk0d3YzSzRtdGQ5UzI5QV9RdmtveUVyWUNtalNkQXRPcXlsWXJ30gFbQVVfeXFMT21MNUJ5bUx2VVdPZVI5VHppMHQ1YkNKbmFFQS00aXJGM1lwZWxXeXo2Zl9qbFg1OWlXcWsxN0FwRmdtYno5NE1SRW0zdGpycWpLX3Z3MzBheFZDQQ?oc=5\n漫画で『袴田事件』を取り調べや証拠品などから問題点を解説し、冤罪は遠い世界の話ではないと訴えた。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 裁き",
+    "source_title": "「冤罪」は遠い世界の話ではない！取り調べや証拠品などから「袴田事件」における問題点を漫画で解説 - ウォーカープラス",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJOW9rVTdwbEdlRjlZUllQOXRDUmQtOTE0Q0xnd0wwNmlORV9oTC1PdWk0d3YzSzRtdGQ5UzI5QV9RdmtveUVyWUNtalNkQXRPcXlsWXJ30gFbQVVfeXFMT21MNUJ5bUx2VVdPZVI5VHppMHQ1YkNKbmFFQS00aXJGM1lwZWxXeXo2Zl9qbFg1OWlXcWsxN0FwRmdtYno5NE1SRW0zdGpycWpLX3Z3MzBheFZDQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "III.13n",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T13:27:55.529336+00:00",
+    "publish_at": "2026-11-21T07:17:00+00:00",
+    "timestamp": "2026-11-21T07:17:00+00:00"
+  },
+  {
+    "id": "d77af7c14413",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KS1JXQ0kzMEs3bms5RjI4UmVKM1BvYkphZThmRC1fZWdQTFJLVEd1Tno3WmtzaEowVkc3RUc5ekZaalFSd2pmcnRDUEoyMUotMjNGNk9ianF6bkVJdG45S09R?oc=5\n葬儀の約半数が家族葬となり、費用は約96万円で、生前相談も増加している。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 7,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "葬儀の約半数が「家族葬」に…費用は約96万円 生前相談も増加する終活のいま｜佐賀のニュース - サガテレビ",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KS1JXQ0kzMEs3bms5RjI4UmVKM1BvYkphZThmRC1fZWdQTFJLVEd1Tno3WmtzaEowVkc3RUc5ekZaalFSd2pmcnRDUEoyMUotMjNGNk9ianF6bkVJdG45S09R?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "soi"
+    ],
+    "quote_id": "I.20b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T13:16:47.660562+00:00",
+    "publish_at": "2026-11-21T04:17:00+00:00",
+    "timestamp": "2026-11-21T04:17:00+00:00"
+  },
+  {
+    "id": "89317238cb93",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbnNCQkYyWlNPYXZ5SGIwZ0Jfcm9oVlJhUjc5SzAtUFoxUms4MHNaR3htdHNsWm5Cd0IyVjU3UDQ3VkRZTXlqcXNfRWpFaXNBYXdBbGFVWGpsZXllcnNJSjdGY0hnMzBwU1JUbURSLXVMTjdRYmVqZVZYU1BwZU0?oc=5\nＦＢＳと香春町が連携してドローンを活用し、災害時に孤立した集落への物資輸送などを想定した初の実証実験を行った。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
+    "theme": "mort",
+    "score": 8,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "ＦＢＳと香春町がドローン活用で連携、災害で孤立した集落を想定した物資輸送などの訓練…初の実証実験（読売新聞オンライン） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbnNCQkYyWlNPYXZ5SGIwZ0Jfcm9oVlJhUjc5SzAtUFoxUms4MHNaR3htdHNsWm5Cd0IyVjU3UDQ3VkRZTXlqcXNfRWpFaXNBYXdBbGFVWGpsZXllcnNJSjdGY0hnMzBwU1JUbURSLXVMTjdRYmVqZVZYU1BwZU0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "presomption",
+      "soi"
+    ],
+    "quote_id": "I.39c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T13:07:20.252921+00:00",
+    "publish_at": "2026-11-21T01:17:00+00:00",
+    "timestamp": "2026-11-21T01:17:00+00:00"
+  },
+  {
     "id": "048e8f256950",
     "text": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUsxTVU5Q1BQQlVhRExLa0tVZEc4SlpETEtQUVMweTZxbHZ3em5xT2V4d2s5bDZZeWcxOTBJTGNGcGFRbG94cG5Jb1NKeGE4dHJYT0R5eVZjOUR0bEkwMTJZNkw2TEFZQVlqTmhqdkxvZ0lxeWdGX0FxZDlUTFhMOFZkWnh2UFJFSWVBYXJ6TkRCSHF5?oc=5\n次世代エクソソームは、ヒト換算で約15年の健康寿命延伸をもたらす可能性を持っているという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
     "theme": "mort",
@@ -611,97 +705,5 @@
     "generated_at": "2026-11-15T22:59:12.689192+00:00",
     "publish_at": "2026-11-16T22:17:00+00:00",
     "timestamp": "2026-11-16T22:17:00+00:00"
-  },
-  {
-    "id": "6a37b966156c",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYZEpjRXUwcndlREwtLXRUajlwSVZPeWh2WWFPUmdDbG9Wd0lOZ3I4Z3ZtandZeFNDR1pjLWR3YWdNVEtERF9LN2F4RG9CQnZLa0FoS0hsaFVleHFDTEFv?oc=5\n菊池事件の再審請求で検察は裁判所に全証拠を開示する考えを示したという。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 検索 裁き",
-    "source_title": "菊池事件の再審請求 検察が裁判所にかぎり全証拠を開示の考え - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYZEpjRXUwcndlREwtLXRUajlwSVZPeWh2WWFPUmdDbG9Wd0lOZ3I4Z3ZtandZeFNDR1pjLWR3YWdNVEtERF9LN2F4RG9CQnZLa0FoS0hsaFVleHFDTEFv?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "II.5",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T22:53:06.118522+00:00",
-    "publish_at": "2026-11-16T19:17:00+00:00",
-    "timestamp": "2026-11-16T19:17:00+00:00"
-  },
-  {
-    "id": "d3e16c0ed03a",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbm9EdXA2TjVqYllYWDF5TE94ZjdjU25GTl9wNWNlRUY2OXhybzduTlRtV1B2aVBWU2hfT2VuTkxsNHRDMVJkUnh2OVFyWkVjTklwdERoTFNQUzUzYUx3RXkxalJUaHB2cHVncHFISFAwVi0tN0p4bnpORXZCR0lDdEJHTV9vakU?oc=5\n57歳のキム・ワンソン氏は、非婚主義から一転しアン・ヒョソプなら即結婚と語ったという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
-    "theme": "soi",
-    "score": 2,
-    "source": "Google News 検索 世相",
-    "source_title": "57歳キム・ワンソン、非婚主義から一転「アン・ヒョソプなら即結婚」 - 조선일보",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbm9EdXA2TjVqYllYWDF5TE94ZjdjU25GTl9wNWNlRUY2OXhybzduTlRtV1B2aVBWU2hfT2VuTkxsNHRDMVJkUnh2OVFyWkVjTklwdERoTFNQUzUzYUx3RXkxalJUaHB2cHVncHFISFAwVi0tN0p4bnpORXZCR0lDdEJHTV9vakU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi",
-      "inconstance"
-    ],
-    "quote_id": "II.1b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T17:50:58.550735+00:00",
-    "publish_at": "2026-11-16T16:17:00+00:00",
-    "timestamp": "2026-11-16T16:17:00+00:00"
-  },
-  {
-    "id": "eb3ce8674e7e",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BRGVCSUxaWGFjMXZYdFExNkx5bnozQjk0aHVEWVdsOWlnbHhLYmlsTjhobHhtRjVFOWMtYVVsTzRhc2hSUzdfb2NlU3hQbmJkLXI0dUJaUnZPSGRjMnZGclRTQlJVR1U?oc=5\n大川原冤罪で長期拘束を認めた裁判所が検証を避け、遺族が訴訟で責任を問うている。\n「結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。」\n『エセー III.11「足の不自由な人々について」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 検索 裁き",
-    "source_title": "大川原冤罪で長期拘束認めた裁判所、避ける検証 訴訟で責任問う遺族 - 朝日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BRGVCSUxaWGFjMXZYdFExNkx5bnozQjk0aHVEWVdsOWlnbHhLYmlsTjhobHhtRjVFOWMtYVVsTzRhc2hSUzdfb2NlU3hQbmJkLXI0dUJaUnZPSGRjMnZGclRTQlJVR1U?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "mort"
-    ],
-    "quote_id": "III.11a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T17:45:49.515668+00:00",
-    "publish_at": "2026-11-16T13:17:00+00:00",
-    "timestamp": "2026-11-16T13:17:00+00:00"
-  },
-  {
-    "id": "384a8ed2ab54",
-    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40Wjg0N0Z2SEdIcE5rek5rN3pYQ0hwSmY1MXFUd3Zhb1Q4OUNHSEkzcXRrUDVTX1RBRzdSWGZsb0VtdGRYdE9lTUdOOTdQVkl1NjNuT01XbEhGeVdzWUd0dm9qYmd4dw?oc=5\n知能の高いサルを捕獲するハンターは、苦悩しながら奔走するという。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
-    "theme": "peur",
-    "score": 0,
-    "source": "Google News 国内",
-    "source_title": "サル捕獲に心理的負担、知能高くわな設置は「知恵比べ」…苦悩しながら奔走するハンター - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40Wjg0N0Z2SEdIcE5rek5rN3pYQ0hwSmY1MXFUd3Zhb1Q4OUNHSEkzcXRrUDVTX1RBRzdSWGZsb0VtdGRYdE9lTUdOOTdQVkl1NjNuT01XbEhGeVdzWUd0dm9qYmd4dw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "peur"
-    ],
-    "quote_id": "II.12e",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:12:44.261978+00:00",
-    "publish_at": "2026-11-16T10:17:00+00:00",
-    "timestamp": "2026-11-16T10:17:00+00:00"
-  },
-  {
-    "id": "fc584ca25e54",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hcklwMjhPZjlMZ0cybGNkZjFkaS1nZ1p2MHk2aFljeFBBcHhHMkF0TGNiT1BrRkozbWNaZ1Atc1hsZE1felRVWUtJWmpFaTA0Y3hpa3VFSUg4V0xLMkFteDBraGV4Ul9LVTZZZTIyQmdBMW9sWGZndDVBVzRCQVU?oc=5\n岐阜発のスーパー『バロー』が東京に進出したことで大行列や入場規制が発生し、スーパー好きたちはその理由を語っている。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
-    "theme": "lois",
-    "score": 2,
-    "source": "Google News 検索 世相",
-    "source_title": "大行列、入場規制も起きた東京初進出、岐阜発スーパー「バロー」。「どこよりも熱い」とスーパー好きたちが口を揃える理由 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hcklwMjhPZjlMZ0cybGNkZjFkaS1nZ1p2MHk2aFljeFBBcHhHMkF0TGNiT1BrRkozbWNaZ1Atc1hsZE1felRVWUtJWmpFaTA0Y3hpa3VFSUg4V0xLMkFteDBraGV4Ul9LVTZZZTIyQmdBMW9sWGZndDVBVzRCQVU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "II.15",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:10:38.786831+00:00",
-    "publish_at": "2026-11-16T07:17:00+00:00",
-    "timestamp": "2026-11-16T07:17:00+00:00"
   }
 ]
