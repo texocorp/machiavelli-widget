@@ -1,5 +1,48 @@
 [
   {
+    "id": "41448640b0c4",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MZzBoSFJWdUlhQngyMVg2MmJBVGo4Vnl1N3BwN0xweTJ1NG5abERqVWtpaTFjREZrejVyU2swandjdjl3U01QUjRXekZfcEFwaW1ZQ1RIYTNWR28?oc=5\n東洋経済オンラインは「｢ナオキマンとは何者なのか｣ 政府が陰謀論系YouTuber起用で大波紋→\"ただの炎上\"では済まない問題の本質」と報じた。\n「それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。」\n『随筆集』断章「風評について」",
+    "original": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 13,
+    "source": "Google News 偽情報・言説",
+    "source_title": "｢ナオキマンとは何者なのか｣ 政府が陰謀論系YouTuber起用で大波紋→\"ただの炎上\"では済まない問題の本質 - 東洋経済オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MZzBoSFJWdUlhQngyMVg2MmJBVGo4Vnl1N3BwN0xweTJ1NG5abERqVWtpaTFjREZrejVyU2swandjdjl3U01QUjRXekZfcEFwaW1ZQ1RIYTNWR28?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E59b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T03:27:10.770024+00:00",
+    "publish_at": "2026-11-21T02:17:00+00:00",
+    "timestamp": "2026-11-21T02:17:00+00:00"
+  },
+  {
+    "id": "f2da324903ec",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmthQ2FsTVJYNE5OSzVTeXVQSjQxREMxeF8zTkY1dGc3N1JhVzZkVmdXR1dkOGp5YW1xRTkwN2pxTjJvdTg5Z25PSExjTk9YNW9yMjFvSmhyeHNUNDZXMVF3NGNmalFuRi14MUhHTUxmcnZ3WWFUQmFsaGFpUHlsOXBoVTZBd9IBiwFBVV95cUxOZ1owNV9BRFhKWEVUUmc2UGRXX1UxOHBNVjZIZ2ZfWDA3akx2ZWwwRVYzeGxxRzh3STh6YnBLd05FQVFfN084ZjVZRnlSbkxvYWRoQmtJd3BUYjR2NnUyZWcwVU8xLW5VMHJ6WVZsM3k0RW9wbTBuZDVlRE9uNlRnTEdLeVFDbHNBanRr?oc=5\n香港メディアが、半導体規制と収益難により中国の生成AIが暗い時代を迎える可能性について報じた。\n「新しい治療を施そうとしない者は、新しい災いを覚悟しなければならない。時こそ最大の革新者だからである。」\n『随筆集』第24篇「革新について」",
+    "original": "… and he that will not apply new remedies, must expect new evils; for time is the greatest innovator …",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 16,
+    "source": "Google News AI・研究政策",
+    "source_title": "半導体規制と収益難、中国の生成AIは「暗い時代」へ？―香港メディア - ｄメニューニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmthQ2FsTVJYNE5OSzVTeXVQSjQxREMxeF8zTkY1dGc3N1JhVzZkVmdXR1dkOGp5YW1xRTkwN2pxTjJvdTg5Z25PSExjTk9YNW9yMjFvSmhyeHNUNDZXMVF3NGNmalFuRi14MUhHTUxmcnZ3WWFUQmFsaGFpUHlsOXBoVTZBd9IBiwFBVV95cUxOZ1owNV9BRFhKWEVUUmc2UGRXX1UxOHBNVjZIZ2ZfWDA3akx2ZWwwRVYzeGxxRzh3STh6YnBLd05FQVFfN084ZjVZRnlSbkxvYWRoQmtJd3BUYjR2NnUyZWcwVU8xLW5VMHJ6WVZsM3k0RW9wbTBuZDVlRE9uNlRnTEdLeVFDbHNBanRr?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "potentia",
+      "novitas"
+    ],
+    "quote_id": "E24b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T03:23:01.518933+00:00",
+    "publish_at": "2026-11-20T23:17:00+00:00",
+    "timestamp": "2026-11-20T23:17:00+00:00"
+  },
+  {
     "id": "0cd493a63abb",
     "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aYlRYOFBIYkd6Ykg0VkEzRVNOVUJMcTc5YkwtdmJ3am9jazRvV0FxaHJFMldvc01GbmtGNmpYSDRRRm5idkNlZ1NPdGdwRnhCSmo0dk4wM2ZQR3BpaDJHaDZrN0ZnUER2ZmFNb0pB?oc=5\n政府広報室長は、陰謀論系YouTuberの起用で波紋を呼ぶ中、全てを事前にチェックせずに行動したという。\n「物事の始めと着手の時をよく見計らうことほど、大きな知恵はない。」\n『随筆集』第21篇「遅延について」",
     "original": "There is surely no greater wisdom, than well to time the beginnings, and onsets, of things.",
@@ -762,46 +805,5 @@
     "generated_at": "2026-11-15T11:48:35.885347+00:00",
     "publish_at": "2026-11-16T11:17:00+00:00",
     "timestamp": "2026-11-16T11:17:00+00:00"
-  },
-  {
-    "id": "859ecaed8d0d",
-    "text": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYmZzLW84YU9sNE52bDFYVUVKZklFaklqRHR4SGlFR1p5aTc3UUo1VFhla01YUE9jTURnUXlHXzQ4TUgzSDlGc05KYlIwZFZPOFVTOEY2TTVUSE9aZWNwUFY4MVA4MW1zRFNZWUljMjZzaDF2amVROGRXQmpfM253djdLU1YyOGx5dUE?oc=5\nWESTの重岡大毅についてAIが『やったことないです』という偽情報を流した。\n「思考の中の疑惑は、鳥の中の蝙蝠のようなもので、いつも薄明かりの中を飛ぶ。」\n『随筆集』第31篇「疑惑について」",
-    "original": "Suspicions amongst thoughts, are like bats amongst birds, they ever fly by twilight.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "WEST.重岡大毅、AIが自身について“偽情報”「やったことないです」 - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYmZzLW84YU9sNE52bDFYVUVKZklFaklqRHR4SGlFR1p5aTc3UUo1VFhla01YUE9jTURnUXlHXzQ4TUgzSDlGc05KYlIwZFZPOFVTOEY2TTVUSE9aZWNwUFY4MVA4MW1zRFNZWUljMjZzaDF2amVROGRXQmpfM253djdLU1YyOGx5dUE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia"
-    ],
-    "quote_id": "E31a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:20:51.899027+00:00",
-    "publish_at": "2026-11-16T08:17:00+00:00",
-    "timestamp": "2026-11-16T08:17:00+00:00"
-  },
-  {
-    "id": "d436fb68f87a",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fLUVBQ0hrTVJoWUtTOUtMM2xEenF1X0lVcU1wZGZpT1V6Skt2OHJMd1AxemlWaW9rdjdNaVg4S0J2QW1KVDBrRV9ETmZNSEV5cE42bjF2NUlfQnNBMVpBWHQzdDY4Y195S25GQzNjX2I2eXZQeXB4UHNhdTZnOHM?oc=5\nFull-Countは「SNSで大炎上…出場ゼロの148億円男が『心から謝罪』 批判殺到で球団も声明『非難する』」と報じた。\n「順境は悪徳をいちばんよく露わにし、逆境は美徳をいちばんよく露わにする。」\n『随筆集』第5篇「逆境について」",
-    "original": "Prosperity doth best discover vice, but adversity doth best discover virtue.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 13,
-    "source": "Google News SNS・報道",
-    "source_title": "SNSで大炎上…出場ゼロの148億円男が「心から謝罪」 批判殺到で球団も声明「非難する」（Full-Count） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fLUVBQ0hrTVJoWUtTOUtMM2xEenF1X0lVcU1wZGZpT1V6Skt2OHJMd1AxemlWaW9rdjdNaVg4S0J2QW1KVDBrRV9ETmZNSEV5cE42bjF2NUlfQnNBMVpBWHQzdDY4Y195S25GQzNjX2I2eXZQeXB4UHNhdTZnOHM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E5",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:12:22.967053+00:00",
-    "publish_at": "2026-11-16T05:17:00+00:00",
-    "timestamp": "2026-11-16T05:17:00+00:00"
   }
 ]
