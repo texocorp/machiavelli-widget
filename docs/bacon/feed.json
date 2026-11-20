@@ -1,5 +1,68 @@
 [
   {
+    "id": "f54cb420961a",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rdC13YlVGN0lERm1weW5KMU5jNUZ4SkNzMUVtcHN5NnpwUWFZRnIyZGx3SE1tV1J3TEpkLW55Qml5aDFORG4waEZ2SEF0aUdxY0NJamJyZnVPQ2NjdFpPaTU0dV9OMlZkY2tPUg?oc=5\n日本経済新聞は「政府広報に陰謀論系YouTuber、偽情報対策に逆行 野党『信頼低下招く』」と報じた。\n「見せかけの迅速さは、仕事にとってありうる最も危険なものの一つである。」\n『随筆集』第25篇「迅速について」",
+    "original": "Affected dispatch is one of the most dangerous things to business that can be.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報に陰謀論系YouTuber、偽情報対策に逆行 野党「信頼低下招く」 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rdC13YlVGN0lERm1weW5KMU5jNUZ4SkNzMUVtcHN5NnpwUWFZRnIyZGx3SE1tV1J3TEpkLW55Qml5aDFORG4waEZ2SEF0aUdxY0NJamJyZnVPQ2NjdFpPaTU0dV9OMlZkY2tPUg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E25a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T13:21:47.503091+00:00",
+    "publish_at": "2026-11-21T11:17:00+00:00",
+    "timestamp": "2026-11-21T11:17:00+00:00"
+  },
+  {
+    "id": "6b47618f5e30",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80ZEhZblJwU2ZqcEtSbjJ0cjFkLXVRTmpwMF9QS2g1SU1SWUNZYkI2azRTQzQzcmlfejNvTEVhOEhMOGJPTEUyTTFDYS1HTVpKVkRaVTFNNXlYUQ?oc=5\n北海道新聞デジタルは「ミャンマー人虐待疑惑、京極町民苦悩 風評被害、無関係なのに誹謗中傷も」と報じた。\n「自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。」\n『随筆集』第22篇「狡猾について」",
+    "original": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News 風評・噂",
+    "source_title": "ミャンマー人虐待疑惑、京極町民苦悩 風評被害、無関係なのに誹謗中傷も - 北海道新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80ZEhZblJwU2ZqcEtSbjJ0cjFkLXVRTmpwMF9QS2g1SU1SWUNZYkI2azRTQzQzcmlfejNvTEVhOEhMOGJPTEUyTTFDYS1HTVpKVkRaVTFNNXlYUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E22b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T13:11:52.299902+00:00",
+    "publish_at": "2026-11-21T08:17:00+00:00",
+    "timestamp": "2026-11-21T08:17:00+00:00"
+  },
+  {
+    "id": "c4ec61c9e774",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EeFl1RzBNRlN6UUxLUGFLSWJSbF9qc29jNlN2WHUwM2FqY0w0bXZuemRNdGpEOU1tLVVVUUV5ZUZiZm0tbVZ4QWNpVXNxUFJ1Nm5ESmtaTHNDSDNmbEpKemZTNEpqaE83c3NwaFRlTGk5NEdmY28yRVg1OWlYOU0?oc=5\n日本ファクトチェックセンターは「飛行機雲ではなく危険な化学物質『ケムトレイル』? 繰り返し拡散する誤情報」と報じた。\n「最も危険な不満とは、実際の痛みよりも恐れのほうが大きい不満である。」\n『随筆集』第15篇「騒乱と動揺について」",
+    "original": "… for they are the most dangerous discontentments, where the fear is greater than the feeling.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 16,
+    "source": "Google News 偽情報・言説",
+    "source_title": "飛行機雲ではなく危険な化学物質「ケムトレイル」? 繰り返し拡散する誤情報（日本ファクトチェックセンター） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EeFl1RzBNRlN6UUxLUGFLSWJSbF9qc29jNlN2WHUwM2FqY0w0bXZuemRNdGpEOU1tLVVVUUV5ZUZiZm0tbVZ4QWNpVXNxUFJ1Nm5ESmtaTHNDSDNmbEpKemZTNEpqaE83c3NwaFRlTGk5NEdmY28yRVg1OWlYOU0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "E15c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T12:59:09.060229+00:00",
+    "publish_at": "2026-11-21T05:17:00+00:00",
+    "timestamp": "2026-11-21T05:17:00+00:00"
+  },
+  {
     "id": "41448640b0c4",
     "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MZzBoSFJWdUlhQngyMVg2MmJBVGo4Vnl1N3BwN0xweTJ1NG5abERqVWtpaTFjREZrejVyU2swandjdjl3U01QUjRXekZfcEFwaW1ZQ1RIYTNWR28?oc=5\n東洋経済オンラインは「｢ナオキマンとは何者なのか｣ 政府が陰謀論系YouTuber起用で大波紋→\"ただの炎上\"では済まない問題の本質」と報じた。\n「それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。」\n『随筆集』断章「風評について」",
     "original": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
@@ -743,67 +806,5 @@
     "generated_at": "2026-11-16T02:54:33.673666+00:00",
     "publish_at": "2026-11-16T20:17:00+00:00",
     "timestamp": "2026-11-16T20:17:00+00:00"
-  },
-  {
-    "id": "f5f61d0edb43",
-    "text": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE90WEVsSjdnWTFUano1WlMyNVM0WkFQVG5YclBJeUplMHlXOU02WWQtUXJQOUtOWjhkMjVXQ0ltRk16a1hRRFE?oc=5\n株式会社ソーシャルパスが総務省の偽・誤情報対策技術開発事業に採択された。\n「人間の知識と力とは一つに重なる。原因を知らなければ、結果を生み出すことはできないからである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム3",
-    "original": "Scientia et potentia humana in idem coincidunt, quia ignoratio causae destituit effectum.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "株式会社ソーシャルパス、総務省の偽・誤情報対策技術開発事業に採択 - Dellows News",
-    "source_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE90WEVsSjdnWTFUano1WlMyNVM0WkFQVG5YclBJeUplMHlXOU02WWQtUXJQOUtOWjhkMjVXQ0ltRk16a1hRRFE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "novitas"
-    ],
-    "quote_id": "NO1.3a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T18:32:10.127115+00:00",
-    "publish_at": "2026-11-16T17:17:00+00:00",
-    "timestamp": "2026-11-16T17:17:00+00:00"
-  },
-  {
-    "id": "bd2e770fd77f",
-    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LNkVvMWVHQ3ZESy1CMFU0NmdJYllTdFBqb0k3WmtWdDVNRGotMEhwMUxhTTRhZUhxcElHOUJHaVkxODlwZlpsemlhSGk4dw?oc=5\nダ・ヴィンチWebは「夫の不倫相手は夫の『推し』だった！ SNSで『匂わせ』投稿までしていたふたりに、サレ妻による炎上覚悟の反撃が始まる！」と報じた。\n「そして嫉妬は、噂と評判によっていつも倍加する。」\n『随筆集』第9篇「嫉妬について」",
-    "original": "… and envy ever redoubleth from speech and fame.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 12,
-    "source": "Google News SNS・報道",
-    "source_title": "夫の不倫相手は夫の「推し」だった！ SNSで「匂わせ」投稿までしていたふたりに、サレ妻による炎上覚悟の反撃が始まる！ - ダ・ヴィンチWeb",
-    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LNkVvMWVHQ3ZESy1CMFU0NmdJYllTdFBqb0k3WmtWdDVNRGotMEhwMUxhTTRhZUhxcElHOUJHaVkxODlwZlpsemlhSGk4dw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E9a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T17:58:53.119039+00:00",
-    "publish_at": "2026-11-16T14:17:00+00:00",
-    "timestamp": "2026-11-16T14:17:00+00:00"
-  },
-  {
-    "id": "d867ce977270",
-    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyZGEyc3VKejNaOUViaEdYMjdlYlpVWDk0X0pQSWRoMEwyS2llWWVJaUdaLXk5eE5Da08tSDFMQ1cwZFJlbmVtR2ZLLXl6OXIxekZQRDNURWNjX0w4SjRua1RTU0h0dXBZUVZKZVpoVk8zZTdLUmdR0gF_QVVfeXFMUDREWE9DaFk1WXE2LVVQSC13S3JBZkVVSmVRNGtxaGZxcDNXWkxaRUoyX09mdjBoYmlMdUZRQ2w2UkN6dTlKVk9aTkxFNzN3REdGWkd3OXY3YjMxRlRUUFIwVXAzMVRxSUZMakRYNmZ1eE5mUXRoMjl2S1lVTFQwUQ?oc=5\n神田伯山が『土下座してほしい』と発言し、その後のデマに関する経緯を説明したという。\n「嘘が混じると、いつも楽しみが増す。」\n『随筆集』第1篇「真理について」",
-    "original": "A mixture of a lie doth ever add pleasure.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "神田伯山「土下座してほしい」流行語大賞の選考委員を１年で卒業巡る“デマ”を否定→経緯説明 - 日刊スポーツ",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyZGEyc3VKejNaOUViaEdYMjdlYlpVWDk0X0pQSWRoMEwyS2llWWVJaUdaLXk5eE5Da08tSDFMQ1cwZFJlbmVtR2ZLLXl6OXIxekZQRDNURWNjX0w4SjRua1RTU0h0dXBZUVZKZVpoVk8zZTdLUmdR0gF_QVVfeXFMUDREWE9DaFk1WXE2LVVQSC13S3JBZkVVSmVRNGtxaGZxcDNXWkxaRUoyX09mdjBoYmlMdUZRQ2w2UkN6dTlKVk9aTkxFNzN3REdGWkd3OXY3YjMxRlRUUFIwVXAzMVRxSUZMakRYNmZ1eE5mUXRoMjl2S1lVTFQwUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fori"
-    ],
-    "quote_id": "E1a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T11:48:35.885347+00:00",
-    "publish_at": "2026-11-16T11:17:00+00:00",
-    "timestamp": "2026-11-16T11:17:00+00:00"
   }
 ]
