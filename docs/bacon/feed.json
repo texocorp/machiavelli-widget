@@ -1,5 +1,68 @@
 [
   {
+    "id": "9bd66d180d95",
+    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93eExnNTRrQkctc04yVjdhdWdWbFFJa0ZPQ0hmSGIwVjFZQ0VFekM2a2FJYkQ5bUxORXBZTHJ4clZsSUZaMW1RbE4waUFnYjB0RlVTWjlIT2xDYXl1bEtUdmUxLXY1R3NEdGk0XzgxajUtWGc?oc=5\nテレ朝NEWSは「“陰謀論系”ユーチューバー 政府『過去発言は確認せず』 政府広報に起用」と報じた。\n「必要なだけのことを知り、それでもなお自分は十分には知っていないと考えるほうが、十分に知っていると考えながら、必要なことを何一つ知らないよりもよい。」\n『ノヴム・オルガヌム』第1巻 アフォリズム126",
+    "original": "Atque melius est scire quantum opus sit, et tamen nos non penitus scire putare, quam penitus scire nos putare, et tamen nil eorum quae opus est scire.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "“陰謀論系”ユーチューバー 政府「過去発言は確認せず」 政府広報に起用 - テレ朝NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93eExnNTRrQkctc04yVjdhdWdWbFFJa0ZPQ0hmSGIwVjFZQ0VFekM2a2FJYkQ5bUxORXBZTHJ4clZsSUZaMW1RbE4waUFnYjB0RlVTWjlIT2xDYXl1bEtUdmUxLXY1R3NEdGk0XzgxajUtWGc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fori",
+      "fama"
+    ],
+    "quote_id": "NO1.126",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T22:35:33.183867+00:00",
+    "publish_at": "2026-11-21T20:17:00+00:00",
+    "timestamp": "2026-11-21T20:17:00+00:00"
+  },
+  {
+    "id": "73769309cd74",
+    "text": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMFY5NHlzNWFKQk9QY2NDWWRvQzh4a2J4ZzVNV2duaXVSRHRSMVl6SEd1Z0NHVThGQzA1RmFXSjVrQ1JMTVI1N0RrbGRWdFdYNUZVZl9qNVlMZFRMYjN2bnloNDRkbUlEczE2bGtqcXBsMF9rR2xiWHExREUwc0RxdHRLQ2x2RHJsTmVkSmZyWXo3cmU2Nnhyci1zV0NFQU50?oc=5\nディープフェイクがなりすまし詐欺のハードルを下げており、その状況について言及している。\n「狡猾な者が賢者として通用することほど、国家に害をなすものはない。」\n『随筆集』第22篇「狡猾について」",
+    "original": "… for that nothing doth more hurt in a state, than that cunning men pass for wise.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "ディープフェイクがなりすまし詐欺のハードルを下げている - eSecurity Planet",
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMFY5NHlzNWFKQk9QY2NDWWRvQzh4a2J4ZzVNV2duaXVSRHRSMVl6SEd1Z0NHVThGQzA1RmFXSjVrQ1JMTVI1N0RrbGRWdFdYNUZVZl9qNVlMZFRMYjN2bnloNDRkbUlEczE2bGtqcXBsMF9rR2xiWHExREUwc0RxdHRLQ2x2RHJsTmVkSmZyWXo3cmU2Nnhyci1zV0NFQU50?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio"
+    ],
+    "quote_id": "E22a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T21:51:30.247210+00:00",
+    "publish_at": "2026-11-21T17:17:00+00:00",
+    "timestamp": "2026-11-21T17:17:00+00:00"
+  },
+  {
+    "id": "83ada2161ff1",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lUFJxMDlIVHpDRDA5UzBIOFN0LVUwSDB2S0lyZEFMRTYwNEpmSmdYRFRTQTdNMXVwLUtVOVBpZWt0UnNVdGhLM2RnZjVxSWVBTnc2cW53MGhiREcydGJ2WW96WE1TVjVwSW53S3R3?oc=5\nInfoseekは「ネット炎上は『正義』のぶつかり合い？ ― SNSでつながりたい私たちが、満たされない理由 ― 追手門学院大学のニュース発信サイト『OTEMON VIEW』に掲載」と報じた。\n「ギリシア人の知恵は講壇の知恵であり、論争へと流れ出た。この種の知恵は、真理の探究に最も敵対する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム71",
+    "original": "Erat autem sapientia Graecorum professoria, et in disputationes effusa: quod genus inquisitioni veritatis adversissimum est.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "ネット炎上は「正義」のぶつかり合い？ ― SNSでつながりたい私たちが、満たされない理由 ― 追手門学院大学のニュース発信サイト「OTEMON VIEW」に掲載 - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lUFJxMDlIVHpDRDA5UzBIOFN0LVUwSDB2S0lyZEFMRTYwNEpmSmdYRFRTQTdNMXVwLUtVOVBpZWt0UnNVdGhLM2RnZjVxSWVBTnc2cW53MGhiREcydGJ2WW96WE1TVjVwSW53S3R3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.71",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T21:30:58.459615+00:00",
+    "publish_at": "2026-11-21T14:17:00+00:00",
+    "timestamp": "2026-11-21T14:17:00+00:00"
+  },
+  {
     "id": "f54cb420961a",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rdC13YlVGN0lERm1weW5KMU5jNUZ4SkNzMUVtcHN5NnpwUWFZRnIyZGx3SE1tV1J3TEpkLW55Qml5aDFORG4waEZ2SEF0aUdxY0NJamJyZnVPQ2NjdFpPaTU0dV9OMlZkY2tPUg?oc=5\n日本経済新聞は「政府広報に陰謀論系YouTuber、偽情報対策に逆行 野党『信頼低下招く』」と報じた。\n「見せかけの迅速さは、仕事にとってありうる最も危険なものの一つである。」\n『随筆集』第25篇「迅速について」",
     "original": "Affected dispatch is one of the most dangerous things to business that can be.",
@@ -743,68 +806,5 @@
     "generated_at": "2026-11-16T11:36:53.043480+00:00",
     "publish_at": "2026-11-17T05:17:00+00:00",
     "timestamp": "2026-11-17T05:17:00+00:00"
-  },
-  {
-    "id": "4f93d1f92007",
-    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLUVhS3FsSkdvaUJkSE50Vy1IMkZRMzc0ZXpsaFVWRUpxa09NZGZxMVpGY1VMOWdQU181SFk3VjdrMWZST3Zyb1RtZG5rdmRyWDFVdXFKaVlldVVwdWJCMjItMW1TN2hoMU9UaWpqdG1aSkVHT0RQckdxbnA4S3NVRkItQVA5a0tT?oc=5\nYahoo!ニュースは「『素晴らしいニュースだ！』ロシア情報機関に偽情報の\"戦果\"報告、偽装サイト群の中心人物からデータ流出」と報じた。\n「蝿が戦車の車軸にとまって言った。「なんと砂ぼこりを巻き上げていることか、この私が!」」\n『随筆集』第54篇「虚栄について」",
-    "original": "The fly sat upon the axle-tree of the chariot wheel, and said, What a dust do I raise!",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「素晴らしいニュースだ！」ロシア情報機関に偽情報の\"戦果\"報告、偽装サイト群の中心人物からデータ流出 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLUVhS3FsSkdvaUJkSE50Vy1IMkZRMzc0ZXpsaFVWRUpxa09NZGZxMVpGY1VMOWdQU181SFk3VjdrMWZST3Zyb1RtZG5rdmRyWDFVdXFKaVlldVVwdWJCMjItMW1TN2hoMU9UaWpqdG1aSkVHT0RQckdxbnA4S3NVRkItQVA5a0tT?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "experientia"
-    ],
-    "quote_id": "E54",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T03:22:34.093880+00:00",
-    "publish_at": "2026-11-17T02:17:00+00:00",
-    "timestamp": "2026-11-17T02:17:00+00:00"
-  },
-  {
-    "id": "6263d6e649ef",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxUUFpNlZ3Nll1MUFUeTY2em5zeHJ2TEV0NWM4SmhmSGFLRzh2TVoyMzRJbF9EaDNYdWNUVDVVOFhPTVlDWDA5UkNLS3Q3M0RHb1FhclVXTmVWVTh1QXAyYy1GSDlqeXVoanVsOFE1T2l5MTE0TndqeWRSSkZkc0k?oc=5\n元研究員が物議を醸した警告について、専門家が解説しているという。\n「どの技術においても、その担い手たちは自分の技術の非力を自然のせいにし、自分の技術が達しえないことを、その技術の名において自然界では不可能だと宣告する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム88",
-    "original": "… ut in qualibet arte authores artis suae infirmitatem in naturae calumniam vertant; et quod ars ipsorum non assequitur, id ex eadem arte impossibile in natura pronunciant.",
-    "original_lang": "la",
-    "theme": "theatri",
-    "score": 10,
-    "source": "Google News テクノロジー",
-    "source_title": "AIはいかにして人類を滅亡させるのか？物議を醸した元研究員の警告を専門家が解説（ハフポスト日本版） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxUUFpNlZ3Nll1MUFUeTY2em5zeHJ2TEV0NWM4SmhmSGFLRzh2TVoyMzRJbF9EaDNYdWNUVDVVOFhPTVlDWDA5UkNLS3Q3M0RHb1FhclVXTmVWVTh1QXAyYy1GSDlqeXVoanVsOFE1T2l5MTE0TndqeWRSSkZkc0k?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "theatri",
-      "potentia",
-      "studium"
-    ],
-    "quote_id": "NO1.88",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T03:12:31.883815+00:00",
-    "publish_at": "2026-11-16T23:17:00+00:00",
-    "timestamp": "2026-11-16T23:17:00+00:00"
-  },
-  {
-    "id": "25aea5ba4ddc",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOUXo2MmJuVXZjRUhpUExsaVZmamhGRW5YeU9WMUFxdWJfRDFaQ0JkdnNqN0V6YUxlVTh1YnJQQkJDVXBYWTgxYV9TcnY4NUpwbkhINThEZlpXUWdncTFkN19qSzBlTk0?oc=5\n偽情報だけでなく、人の判断を変えるナラティブが脅威である『認知戦』について言及した。\n「劇場のイドラは生まれつきのものでも、ひそかに知性に忍び込んだものでもない。理論の作り話と、ゆがんだ論証の規則とから、公然と植えつけられ、受け容れられたものである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム61",
-    "original": "At idola theatri innata non sunt, nec occulto insinuata in intellectum; sed ex fabulis theoriarum, et perversis legibus demonstrationum, plane indita et recepta.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "偽情報だけではない「認知戦」 人の判断を変えるナラティブの脅威 - 朝日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOUXo2MmJuVXZjRUhpUExsaVZmamhGRW5YeU9WMUFxdWJfRDFaQ0JkdnNqN0V6YUxlVTh1YnJQQkJDVXBYWTgxYV9TcnY4NUpwbkhINThEZlpXUWdncTFkN19qSzBlTk0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio"
-    ],
-    "quote_id": "NO1.61",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T02:54:33.673666+00:00",
-    "publish_at": "2026-11-16T20:17:00+00:00",
-    "timestamp": "2026-11-16T20:17:00+00:00"
   }
 ]
