@@ -1,5 +1,63 @@
 [
   {
+    "id": "1579fc61751b",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zYUZKeFBybWJlNUFSbHlKNXI2RWhkS2FheWM4ZDJOa2ZHOEY5TWxKa2hqcVZJZl9EYldmVGpiMkhxdlVVM1F1Zjc3S1NaVlB1cmtTWW1fVQ?oc=5\n維新は安保文書に関し今後5年間で防衛費を70兆円以上がベースとして議論する。\n「頼むに足り、確かで、長続きする防衛とは、汝自身と汝の力量にのみ拠るものである。」\n『君主論 cap.XXIV』",
+    "theme": "alleanze_dipendenza",
+    "score": 8,
+    "source": "Google News 検索 安全保障",
+    "source_title": "維新・前原安全保障調査会長「70兆円以上がベース」安保3文書めぐる今後5年間の防衛費めぐって - TBS NEWS DIG",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zYUZKeFBybWJlNUFSbHlKNXI2RWhkS2FheWM4ZDJOa2ZHOEY5TWxKa2hqcVZJZl9EYldmVGpiMkhxdlVVM1F1Zjc3S1NaVlB1cmtTWW1fVQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza",
+      "armi_proprie"
+    ],
+    "quote_id": "P24b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T12:59:36.778564+00:00",
+    "publish_at": "2026-11-21T06:17:00+00:00",
+    "timestamp": "2026-11-21T06:17:00+00:00"
+  },
+  {
+    "id": "d0c47aa4270b",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44M1JJdXpOZXJMU2x3aUpFYkRPU1NDb1VfcjdBcDh0WmZjYnNyakh0OVFJOGR4cFIxTTVDWlJOVXpORmtlRk5MVFFGZnY2eklJR0VlbnNIaVk2dXl3T3ZF?oc=5\n小泉防衛相は自衛隊の人的基盤強化に必要な防衛費確保に乗り進めたい考えだという。\n「凪の時に嵐への備えを怠るのは、人間に共通の欠点である。」\n『君主論 cap.XXIV』",
+    "theme": "armi_proprie",
+    "score": 8,
+    "source": "Google News 検索 安全保障",
+    "source_title": "小泉防衛相 自衛隊人的基盤強化に必要な防衛費確保したい考え - NHKニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44M1JJdXpOZXJMU2x3aUpFYkRPU1NDb1VfcjdBcDh0WmZjYnNyakh0OVFJOGR4cFIxTTVDWlJOVXpORmtlRk5MVFFGZnY2eklJR0VlbnNIaVk2dXl3T3ZF?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "armi_proprie"
+    ],
+    "quote_id": "P24a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T12:55:44.498857+00:00",
+    "publish_at": "2026-11-21T03:17:00+00:00",
+    "timestamp": "2026-11-21T03:17:00+00:00"
+  },
+  {
+    "id": "3d3687377793",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoTlBHODZZcUlCRDRSb1FtV19WQjU5UjliS2tUNGliRWdEQVhselFReHNKcnlTTEtaWWkzRkZnNzF5a1V3VXctc3dmUGpaX2NWS1BFSVNxaTVnX1hkTmt4QjRUSU5Sd3RNc1owaTRfcVdhWTVQbERER0ZqNTNWSEU?oc=5\nロシア軍はウクライナ首都キーウで各国大使館を攻撃したが、平和宣言が出される中での攻撃は避けるべきではないという。\n「敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。」\n『リウィウス論 III.10』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "米中露首脳「平和宣言」もロシア軍がウクライナ首都キーウの各国大使館を攻撃 オーストリア首相「断じて容認できない」 - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoTlBHODZZcUlCRDRSb1FtV19WQjU5UjliS2tUNGliRWdEQVhselFReHNKcnlTTEtaWWkzRkZnNzF5a1V3VXctc3dmUGpaX2NWS1BFSVNxaTVnX1hkTmt4QjRUSU5Sd3RNc1owaTRfcVdhWTVQbERER0ZqNTNWSEU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D3.10",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T12:19:13.637095+00:00",
+    "publish_at": "2026-11-21T00:17:00+00:00",
+    "timestamp": "2026-11-21T00:17:00+00:00"
+  },
+  {
     "id": "434dd148bdb7",
     "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nc1BaaFVEdUFScXFtZmQ3elQyOXZwTnZvR2w0WlhqV29oclJ4dmttdnJ1WFBvdmhxejFVbzdaLXMzMGd3eTNIUXhRb0hsdw?oc=5\nロシアのプーチン大統領は、クリミア橋への攻撃を受け、ウクライナに対して報復を宣言したという。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
     "theme": "guerra",
@@ -655,105 +713,5 @@
     "generated_at": "2026-11-15T21:51:27.851814+00:00",
     "publish_at": "2026-11-16T21:17:00+00:00",
     "timestamp": "2026-11-16T21:17:00+00:00"
-  },
-  {
-    "id": "ed769effd06f",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OaERvOXdENnNJYlM5aFVQQ0xpTnE1ZjVLSHNVdldoN0JrcERWNjhDcjFtaWwyS2R5cWNVdnpHVjQzVThENnprQUJwelhMMk1LSXpSVGVDUkxyU180RXUzcTVvNks?oc=5\nイランは、米国の封鎖強化方針に対する強硬な対応として、２カ月ぶりに米軍基地を空爆した。\n「敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。」\n『リウィウス論 III.10』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、２カ月ぶりに米軍基地を空爆…米国の「封鎖強化」方針に強硬対応 : 日本•国際 - ハンギョレ新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OaERvOXdENnNJYlM5aFVQQ0xpTnE1ZjVLSHNVdldoN0JrcERWNjhDcjFtaWwyS2R5cWNVdnpHVjQzVThENnprQUJwelhMMk1LSXpSVGVDUkxyU180RXUzcTVvNks?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "D3.10",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T21:49:23.513854+00:00",
-    "publish_at": "2026-11-16T18:17:00+00:00",
-    "timestamp": "2026-11-16T18:17:00+00:00"
-  },
-  {
-    "id": "33138f0e1c14",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1raE5fN0VoUV9qbGQtX3hrTlRleVh4RHlFeFBRVkVibkRuc292U25MVHN3clJPeHJlbHRPdDQzS1R2NzFpSDZQUEZxbGlJOVo0dGlBMVhybWtoNXlZYlRB?oc=5\nイランはホルムズ海峡で米軍のレーダー施設攻撃を実施し、緊張が続いているという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 11,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン“米軍のレーダー施設攻撃” ホルムズ海峡で緊張続く - NHKニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1raE5fN0VoUV9qbGQtX3hrTlRleVh4RHlFeFBRVkVibkRuc292U25MVHN3clJPeHJlbHRPdDQzS1R2NzFpSDZQUEZxbGlJOVo0dGlBMVhybWtoNXlZYlRB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "AG4",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T17:25:48.065161+00:00",
-    "publish_at": "2026-11-16T15:17:00+00:00",
-    "timestamp": "2026-11-16T15:17:00+00:00"
-  },
-  {
-    "id": "88398aae6c46",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93SjNybUU3c29sRW9BVDE0OC1Qb0JnWnNsdkdCUTJlUDZpYzA5WE9fWXNKRjUtZ1ZFZGhOSXlnV0J2QjBIYThNVGZZWkNMcEN3NHZpVUNVVWxsN2NLaWN1ZTRB?oc=5\nイラン革命防衛隊はバーレーンにある米軍防空レーダーを攻撃したが、米側はその事実を公表していないという。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン革命防衛隊、バーレーンにある米軍防空レーダーを攻撃…米軍は発表せず - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93SjNybUU3c29sRW9BVDE0OC1Qb0JnWnNsdkdCUTJlUDZpYzA5WE9fWXNKRjUtZ1ZFZGhOSXlnV0J2QjBIYThNVGZZWkNMcEN3NHZpVUNVVWxsN2NLaWN1ZTRB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "D1.33",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T17:19:44.249224+00:00",
-    "publish_at": "2026-11-16T12:17:00+00:00",
-    "timestamp": "2026-11-16T12:17:00+00:00"
-  },
-  {
-    "id": "61f0c0477150",
-    "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWcWtRSEZqWWRLLVhkODhrR2EyWTF5VHJ1TzlpZGFEekpiWEZUVld1UHlmRlZJdXJLTEZkUzR3QlFCNmF5VGRGcWg1aHZqZC1LMVlXdGF3SnM?oc=5\nイランが無人機を用いてバーレーンの米軍施設を攻撃したと報じられているという。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "バーレーンの米軍施設を無人機攻撃とイラン - 京都新聞デジタル",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWcWtRSEZqWWRLLVhkODhrR2EyWTF5VHJ1TzlpZGFEekpiWEZUVld1UHlmRlZJdXJLTEZkUzR3QlFCNmF5VGRGcWg1aHZqZC1LMVlXdGF3SnM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "ID2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T10:12:08.920699+00:00",
-    "publish_at": "2026-11-16T09:17:00+00:00",
-    "timestamp": "2026-11-16T09:17:00+00:00"
-  },
-  {
-    "id": "689ea0ae63fb",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EbnZ2Z1NhalBOTkFQR29mYmZFamZVVkF2NjFwU1dubnRjaGFZeHllVUhtWGFyYnJxSUZ4Vlk5dnY2T3RTRXdMektGS05wemF4M1RrTkZ6WmZkLWtvcEZZSUo5bTJKVGdVckowRklZWi1CT25tN3V1MFdn?oc=5\nイランは米軍施設への攻撃をホルムズ海峡における報復とし、ドローンを用いて敵対行為を行ったと主張しているという。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "イランがバーレーンの米軍施設攻撃 ホルムズ海峡の敵対行為にドローンで報復と主張 - テレ朝NEWS",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EbnZ2Z1NhalBOTkFQR29mYmZFamZVVkF2NjFwU1dubnRjaGFZeHllVUhtWGFyYnJxSUZ4Vlk5dnY2T3RTRXdMektGS05wemF4M1RrTkZ6WmZkLWtvcEZZSUo5bTJKVGdVckowRklZWi1CT25tN3V1MFdn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "FV2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T10:06:13.559119+00:00",
-    "publish_at": "2026-11-16T06:17:00+00:00",
-    "timestamp": "2026-11-16T06:17:00+00:00"
   }
 ]
