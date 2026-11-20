@@ -1,5 +1,41 @@
 [
   {
+    "id": "b8f6b1fe0fd0",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rMmZYVDJBcVlvRzdYOE9qeXhTanpYM3ROdEREdk1aVFo2WnoxeXZST3NodEZtdndJeENMZXczOGFTclJkVmx6SXdWNVZmOEJiQUFFZU91WDBDenhWVTZQZG1udFNLNUZsOW9XTUdaM0pURWhx?oc=5\n中川翔子が、いじめで不登校になった子のご両親へのメッセージを送っているという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
+    "theme": "cruaute",
+    "score": 4,
+    "source": "Google News 検索 教育",
+    "source_title": "中川翔子「いじめで不登校になった子のご両親へ」 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rMmZYVDJBcVlvRzdYOE9qeXhTanpYM3ROdEREdk1aVFo2WnoxeXZST3NodEZtdndJeENMZXczOGFTclJkVmx6SXdWNVZmOEJiQUFFZU91WDBDenhWVTZQZG1udFNLNUZsOW9XTUdaM0pURWhx?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute"
+    ],
+    "quote_id": "II.11",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T21:14:20.120790+00:00",
+    "publish_at": "2026-11-21T19:17:00+00:00",
+    "timestamp": "2026-11-21T19:17:00+00:00"
+  },
+  {
+    "id": "aaef312196b1",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qQzhTeFFyejVSQXNqLUgyc0JTMlRVaGN0cE5uSDhIRmNIcEZGLXp1ZFFrcmh1U0lQZTREWTRFY0tMdjdHUTJ6eUh6V3ljRUZHUEZUMjIzcmJUTjdVQnlDVGxPRzdZZw?oc=5\n中国の研究チームが、ステフェンスハマダラカの耐熱性とマラリア伝播力の謎を解明したという。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 健康",
+    "source_title": "中国の研究チーム ステフェンスハマダラカの耐熱性とマラリア伝播力の謎を解明 - CGTN Japanese",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qQzhTeFFyejVSQXNqLUgyc0JTMlRVaGN0cE5uSDhIRmNIcEZGLXp1ZFFrcmh1U0lQZTREWTRFY0tMdjdHUTJ6eUh6V3ljRUZHUEZUMjIzcmJUTjdVQnlDVGxPRzdZZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "III.13h",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-20T21:09:53.548363+00:00",
+    "publish_at": "2026-11-21T16:17:00+00:00",
+    "timestamp": "2026-11-21T16:17:00+00:00"
+  },
+  {
     "id": "7712458c64c2",
     "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mUEgzVlFIX2VSS1VBMFNNbHhjZ2NhQnhobnFHNEJVVk1yMnBRQzM0NXVrNEVIbzd0SGhMS2RrRHZXdDRZY294eWoxSnZ0R3M?oc=5\n宮城・気仙沼市本吉町で開かれた伝統行事の山田大名行列を題材に、小学生が劇を披露したという。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
     "theme": "coutume",
@@ -667,43 +703,5 @@
     "generated_at": "2026-11-16T11:41:50.868078+00:00",
     "publish_at": "2026-11-17T04:17:00+00:00",
     "timestamp": "2026-11-17T04:17:00+00:00"
-  },
-  {
-    "id": "398f8ffa7eb1",
-    "text": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeU5udlJsdlVKTjdvMFZyU1RhNHRyaFV0d0xoMy03S0JDMGNfQlRGQ3dOYnViWmdWZVNyMkhJWVUwTi1WUTRTQWRFdVp1d3NhVGlONVdVN0RVV215ZGhSR040QWp2dDFfZXFqZVhKcnJ5RGMzTmYtc3JOaG5weVhQZ3BGTnNhQjNYRVkyeA?oc=5\nお寺で終活を行うことで、自分を顧みる時間を持ち、生き方を見つめながら心を整えることができる。\n「私の仕事、私の技芸、それは生きることだ。」\n『エセー II.6「実地の訓練について」』",
-    "theme": "mort",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "お寺で終活「自分を顧みる時間」に 生き方を見つめ、心を整える場所 - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeU5udlJsdlVKTjdvMFZyU1RhNHRyaFV0d0xoMy03S0JDMGNfQlRGQ3dOYnViWmdWZVNyMkhJWVUwTi1WUTRTQWRFdVp1d3NhVGlONVdVN0RVV215ZGhSR040QWp2dDFfZXFqZVhKcnJ5RGMzTmYtc3JOaG5weVhQZ3BGTnNhQjNYRVkyeA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "soi"
-    ],
-    "quote_id": "II.6b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T11:34:30.064694+00:00",
-    "publish_at": "2026-11-17T01:17:00+00:00",
-    "timestamp": "2026-11-17T01:17:00+00:00"
-  },
-  {
-    "id": "66d784096de3",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTUhYeElyTFZTYzM1MXBaSDFoTUdPVzRMcVZqaGIwemU2cHBacUxtWmpMWHRMQU8yZ29Cbm9yb2UtVXd5WFdoUkM5SGZhSXdxeGJVNmMyQWo5QzM1T05qN1E0dDV6a3JD0gFoQVVfeXFMT1RNSFh4SXJMVlNjMzUxcFpIMWhNR09XNExxVmpoYjB6ZTZwcFpxTG1aakxYdExBTzJnb0Jub3JvZS1Vd3lYV2hSQzlIZmFJd3F4YlU2YzJBajlDMzVPTmo3UTR0NXprckM?oc=5\n米司法省がエヌビディアの取引慣行を調査する可能性があるが、密輸疑惑の関連企業も捜査対象になっているという。\n「まことに慣習とは、荒々しく、しかも裏切りに満ちた教師である。」\n『エセー I.23「慣習について」』",
-    "theme": "profit",
-    "score": 1,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "米司法省、エヌビディアの取引慣行を調査か―密輸疑惑では関連企業も捜査 - 財経新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UTUhYeElyTFZTYzM1MXBaSDFoTUdPVzRMcVZqaGIwemU2cHBacUxtWmpMWHRMQU8yZ29Cbm9yb2UtVXd5WFdoUkM5SGZhSXdxeGJVNmMyQWo5QzM1T05qN1E0dDV6a3JD0gFoQVVfeXFMT1RNSFh4SXJMVlNjMzUxcFpIMWhNR09XNExxVmpoYjB6ZTZwcFpxTG1aakxYdExBTzJnb0Jub3JvZS1Vd3lYV2hSQzlIZmFJd3F4YlU2YzJBajlDMzVPTmo3UTR0NXprckM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "profit",
-      "coutume"
-    ],
-    "quote_id": "I.23a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-15T22:59:12.689192+00:00",
-    "publish_at": "2026-11-16T22:17:00+00:00",
-    "timestamp": "2026-11-16T22:17:00+00:00"
   }
 ]
