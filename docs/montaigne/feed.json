@@ -1,5 +1,61 @@
 [
   {
+    "id": "c06f6f97980b",
+    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHcXQ1MFR1MkladjV6a2RNYk4zMG4xNC1TTk9ielhGR1dmUkRNRkNiT0Fac091YXhaSmZ2MzB2MDNLTUlTQlRDRFhvUlJNVzRsUUZuR09fM1ZFVEtPXzVSSWsycF9xZzNk?oc=5\n展示の背景には、差別と偏見を近現代において生き抜いてきたアイヌ民族の実像があるという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "展示の背景にあるアイヌ民族の実像 差別・偏見の近現代を生きて - 毎日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHcXQ1MFR1MkladjV6a2RNYk4zMG4xNC1TTk9ielhGR1dmUkRNRkNiT0Fac091YXhaSmZ2MzB2MDNLTUlTQlRDRFhvUlJNVzRsUUZuR09fM1ZFVEtPXzVSSWsycF9xZzNk?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui"
+    ],
+    "quote_id": "I.31a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T11:17:10.204739+00:00",
+    "publish_at": "2026-11-22T10:17:00+00:00",
+    "timestamp": "2026-11-22T10:17:00+00:00"
+  },
+  {
+    "id": "cf95cd45ab13",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnVhN0FXdUhVTGV1Zy1XZUhBVlY4cWtqSVFtYzdGQkoyNVBsSURodU5NTGMyNUdXZngtblFkMHlsalpwaDFuejVHblhpTWVfQmFtZXl3YlRxVTJNVF92VmxKMUdoaktwemxIbHk0eE1HYmFpOUNGSGVMdzFLVTlqMHZHRjlSUms?oc=5\n宮城県警は警察犬審査会で対象となる犬種を拡大し、もふもふのサモエドも審査に挑戦させた。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 国内",
+    "source_title": "もふもふのサモエドも挑戦 宮城県警が警察犬審査会 犬種を拡大 - 毎日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnVhN0FXdUhVTGV1Zy1XZUhBVlY4cWtqSVFtYzdGQkoyNVBsSURodU5NTGMyNUdXZngtblFkMHlsalpwaDFuejVHblhpTWVfQmFtZXl3YlRxVTJNVF92VmxKMUdoaktwemxIbHk0eE1HYmFpOUNGSGVMdzFLVTlqMHZHRjlSUms?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "nouveaute"
+    ],
+    "quote_id": "II.12e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T11:14:54.333958+00:00",
+    "publish_at": "2026-11-22T07:17:00+00:00",
+    "timestamp": "2026-11-22T07:17:00+00:00"
+  },
+  {
+    "id": "9711fc40f003",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84dVhPMW5lOUR1VkhzWUdZU0ZtX1dTQldVbnRkc0hITE55aEpkRlR6bEhXSWNFdjd6Ni0tTnVVWS1vU09nTkdZQTEwelZrb2YtNEN4bEF5eTRjZw?oc=5\n東京の市民団体が死刑囚の直筆に寄せたアンケートでは、子への思いがにじみ出ていたという。\n「結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "lois",
+    "score": 8,
+    "source": "Google News 検索 裁き",
+    "source_title": "死刑囚の肉声、にじむ直筆 謝罪や冤罪の訴え、子への思い… 東京の市民団体がアンケート - 北海道新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84dVhPMW5lOUR1VkhzWUdZU0ZtX1dTQldVbnRkc0hITE55aEpkRlR6bEhXSWNFdjd6Ni0tTnVVWS1vU09nTkdZQTEwelZrb2YtNEN4bEF5eTRjZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "vanite"
+    ],
+    "quote_id": "III.11a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T11:11:12.783721+00:00",
+    "publish_at": "2026-11-22T04:17:00+00:00",
+    "timestamp": "2026-11-22T04:17:00+00:00"
+  },
+  {
     "id": "b987b8df1e51",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16Q0FtdDlpd0g3czR2VDhERGdSNkZxeE8wdU1qbGRnMjBLZEZzSHA0ZXZtOHUyMGRxZ3FhYXJHcV9kWHlMSzJqM0VoOWZhR1JmTUhJSExCcGhmci1aZVhEb0lSWHdBQnBqSmNwTldJQXQtb01XNGZranlpdnhVRXM?oc=5\n勉強についていけず、いじめにもあった息子がiPadの学習で笑顔と自信を取り戻したという。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
     "theme": "cruaute",
@@ -650,59 +706,5 @@
     "generated_at": "2026-11-16T22:16:08.746596+00:00",
     "publish_at": "2026-11-17T19:17:00+00:00",
     "timestamp": "2026-11-17T19:17:00+00:00"
-  },
-  {
-    "id": "f45b32406e45",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdzA2MjVMWUpXRV94WEFqakpXS2ZCNW5sQ2xqVzRDWXNvRjFENUx4eWktR1U1R05MZmJEaXE2ZG1GTl9KRUJ2UW5NZjJwUEt1cFo0TkhtT0podHc?oc=5\n還暦過ぎからの終活準備で、形見のバイクに何を願うのかという。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "還暦過ぎからの終活準備、形見のバイクに何を願う？｜バイカーズシネマパラダイス第22回 - Dig-it",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdzA2MjVMWUpXRV94WEFqakpXS2ZCNW5sQ2xqVzRDWXNvRjFENUx4eWktR1U1R05MZmJEaXE2ZG1GTl9KRUJ2UW5NZjJwUEt1cFo0TkhtT0podHc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort"
-    ],
-    "quote_id": "I.20d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T22:11:57.697634+00:00",
-    "publish_at": "2026-11-17T16:17:00+00:00",
-    "timestamp": "2026-11-17T16:17:00+00:00"
-  },
-  {
-    "id": "09d330e71b1e",
-    "text": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2dmVWbmlKSDM4RWFsai1rU3Y0S3lfLUJiM25oWmFwTEkxUF80R2Z6aG5pdXhxNHpJUWVsUDhudnVSZUlCc3dVd2IzNWFseHpNVFVLLUJNZWI4X0lpM29wcGxHUWpvd1UwQXJURzRoaW4?oc=5\n情シスに転職して活躍する人と孤立する人との違いを専門エージェントが見たという。\n「人は自分を賃貸しする。その能力は自分のためではなく、仕える相手のためにある。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "情シスに転職して活躍する人、孤立する人 専門エージェントが見た分かれ目 - TechTargetジャパン",
-    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2dmVWbmlKSDM4RWFsai1rU3Y0S3lfLUJiM25oWmFwTEkxUF80R2Z6aG5pdXhxNHpJUWVsUDhudnVSZUlCc3dVd2IzNWFseHpNVFVLLUJNZWI4X0lpM29wcGxHUWpvd1UwQXJURzRoaW4?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "III.10c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T22:09:33.851374+00:00",
-    "publish_at": "2026-11-17T13:17:00+00:00",
-    "timestamp": "2026-11-17T13:17:00+00:00"
-  },
-  {
-    "id": "04bb9e2095bd",
-    "text": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LNUExcFFjbFBCSTBSamYxQ3M1TW9OWHp3QURCbEpoNm9VWDUtRWlaazQ4WG05NkUwV0dSMENzN19lRlRsdURj?oc=5\n甲南女子大学が12月13日に開催する入試問題対策講座で高3生に赤本を配布しライブ配信も行うという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
-    "theme": "savoir",
-    "score": 0,
-    "source": "Google News 検索 教育",
-    "source_title": "甲南女子大学 12/13「入試問題対策講座」開催 高3来場者に赤本無料配布＆ライブ配信も実施 - 大学ジャーナルオンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LNUExcFFjbFBCSTBSamYxQ3M1TW9OWHp3QURCbEpoNm9VWDUtRWlaazQ4WG05NkUwV0dSMENzN19lRlRsdURj?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "I.26a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T11:55:20.677168+00:00",
-    "publish_at": "2026-11-17T10:17:00+00:00",
-    "timestamp": "2026-11-17T10:17:00+00:00"
   }
 ]
