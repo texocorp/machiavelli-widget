@@ -1,5 +1,67 @@
 [
   {
+    "id": "4626818138f9",
+    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZeDFsYzl0OUsyaWxKSVZOQmdORXp3eE1vYWk5UlJkOEVSOXhGYk5hNzlRZ2tVS2FLRUtmOGlueXJtMDhka2tjbjV3VmtRSW9DOGpoeU5VMlVEYm1iRW5vbndJb1BFV09CamJpUGhRbHlfZzM4MHVB?oc=5\nプーチン氏が3カ国首脳会談を終え、ウクライナに対して過去最大級の攻撃を行った。\n「大物の間では、新たな恩恵が古い恨みを忘れさせると信じる者は、思い違いをしている。」\n『君主論 cap.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "3カ国首脳会談終えたプーチン氏、ウクライナに過去最大級の攻撃 - Bloomberg.com",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZeDFsYzl0OUsyaWxKSVZOQmdORXp3eE1vYWk5UlJkOEVSOXhGYk5hNzlRZ2tVS2FLRUtmOGlueXJtMDhka2tjbjV3VmtRSW9DOGpoeU5VMlVEYm1iRW5vbndJb1BFV09CamJpUGhRbHlfZzM4MHVB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P07",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T02:18:49.937033+00:00",
+    "publish_at": "2026-11-22T00:17:00+00:00",
+    "timestamp": "2026-11-22T00:17:00+00:00"
+  },
+  {
+    "id": "903e9714008a",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oZVZNSW8yQ0JBeHdkdDlPdU9vV1ZvSnRueUlXWF85Vk9JSEdBSWtnTWsycmowUFNOamRvbWpEZ1BRNnFPWE95YS02eDRpS29nOUZxbnZkRFpHVzA4Qk80RkRhQ244YU02WUtCZQ?oc=5\nトランプ氏はイランへの対応について年内に判断を遅らせ、決断は急がないと表明しているという。\n「己の力と敵の力を知る者は、容易には敗れぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏、イラン対応は年内判断せず 「決断は急がない」 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oZVZNSW8yQ0JBeHdkdDlPdU9vV1ZvSnRueUlXWF85Vk9JSEdBSWtnTWsycmowUFNOamRvbWpEZ1BRNnFPWE95YS02eDRpS29nOUZxbnZkRFpHVzA4Qk80RkRhQ244YU02WUtCZQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "economia",
+      "consiglio"
+    ],
+    "quote_id": "AG6",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T01:46:04.732539+00:00",
+    "publish_at": "2026-11-21T21:17:00+00:00",
+    "timestamp": "2026-11-21T21:17:00+00:00"
+  },
+  {
+    "id": "7faca96cda25",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56Ym1CYjhremM1Rnl3QnRwWW4tQm1ZMUhNVHY4dWVzaEIzYUV0R051SEFrV25wOElnWGtCQWZwbVNiYUtvemZ2cmpocG5EamZhZWtWblp4UENtM0xYVWpMamEzZVRvaEFKTGk5eGlQYy13ZGdBZHc?oc=5\nロシアが無人機で攻撃したことでオーストリアやオランダの大使館が損傷し、ブラジル大使館にも破片が落下したという。\n「君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。」\n『君主論 cap.XIV』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "ロシア無人機攻撃でオーストリアとオランダの大使館損傷 ブラジル大使館にも破片落下 - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56Ym1CYjhremM1Rnl3QnRwWW4tQm1ZMUhNVHY4dWVzaEIzYUV0R051SEFrV25wOElnWGtCQWZwbVNiYUtvemZ2cmpocG5EamZhZWtWblp4UENtM0xYVWpMamEzZVRvaEFKTGk5eGlQYy13ZGdBZHc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore"
+    ],
+    "quote_id": "AP2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T01:39:42.643909+00:00",
+    "publish_at": "2026-11-21T18:17:00+00:00",
+    "timestamp": "2026-11-21T18:17:00+00:00"
+  },
+  {
     "id": "cbc80e5e53c7",
     "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xSjFpOGZBSGJWbktxOFdBVmVCNGJkM2ZJVlFzVEoyOTZ2c1dKLWs4Z3Q2cnhtV2x6QjltajhFb2lVMUZGdlk4ZGZRNlVjMVJXM2lwcWROZWR4QQ?oc=5\nウクライナがロシア国内の石油拠点をドローンで攻撃し、夜空に閃光が見られた。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -694,25 +756,5 @@
     "generated_at": "2026-11-16T10:29:57.091814+00:00",
     "publish_at": "2026-11-17T09:17:00+00:00",
     "timestamp": "2026-11-17T09:17:00+00:00"
-  },
-  {
-    "id": "e1aebc49e9e1",
-    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RSWtXMnNXRHZGMEh4cG9WbmJOYzI0T2JidkdJNzVxTkJnTE9YdURXMkxJeWV4ZmllcjZudHJEaWx2WHd6LWI0WnNkSVV1a0Q3QkVYMU1ldjcydWpvMXRGY9IBZkFVX3lxTE13WGN4MlFKS1MyUk9YWXUtb1QwaXBuSmQ5THNMWTQyQUh0b1dDdmNXb1hrQlh0anVnc0ZMQm44M21OcDFqcXNWNFM3ZndCSWk5VmplRGpBTnQ2S3owUGs4QjhyWXZ4Zw?oc=5\nイランは、米軍基地にドローン攻撃を加え、バーレーンの米軍基地を攻撃したという。\n「君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。」\n『君主論 cap.XXI』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、バーレーンの米軍基地をドローン攻撃 - BBC",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RSWtXMnNXRHZGMEh4cG9WbmJOYzI0T2JidkdJNzVxTkJnTE9YdURXMkxJeWV4ZmllcjZudHJEaWx2WHd6LWI0WnNkSVV1a0Q3QkVYMU1ldjcydWpvMXRGY9IBZkFVX3lxTE13WGN4MlFKS1MyUk9YWXUtb1QwaXBuSmQ5THNMWTQyQUh0b1dDdmNXb1hrQlh0anVnc0ZMQm44M21OcDFqcXNWNFM3ZndCSWk5VmplRGpBTnQ2S3owUGs4QjhyWXZ4Zw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "AD1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T10:27:33.578797+00:00",
-    "publish_at": "2026-11-17T06:17:00+00:00",
-    "timestamp": "2026-11-17T06:17:00+00:00"
   }
 ]
