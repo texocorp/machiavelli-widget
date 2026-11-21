@@ -1,5 +1,42 @@
 [
   {
+    "id": "39acacd99e55",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KWWN0X3Q5WHFHLU05VnV5Vk1zaEg3OFRJX3ZETGFKeWRMdENzTDVNVlh0Rmh3VWZ5eW9ZbVYzaUNCMTNiVmpvRGFvQ2ZObnRVOWlVWDBR?oc=5\n行橋市定例会で職員へのカスハラ対策条例案が提案されるという。\n「法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 2,
+    "source": "Google News 検索 職場",
+    "source_title": "［福岡県］職員へのカスハラ 対策条例案提案へ 行橋市定例会 - 西日本新聞me",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KWWN0X3Q5WHFHLU05VnV5Vk1zaEg3OFRJX3ZETGFKeWRMdENzTDVNVlh0Rmh3VWZ5eW9ZbVYzaUNCMTNiVmpvRGFvQ2ZObnRVOWlVWDBR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "III.13b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T23:27:18.984208+00:00",
+    "publish_at": "2026-11-22T22:17:00+00:00",
+    "timestamp": "2026-11-22T22:17:00+00:00"
+  },
+  {
+    "id": "c19c5b618f84",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tZWdudUttZEplWUNKRlBvMlRFdElyU2JoR01JYXlxV2tWaTFJNHI5MlFoV1NxTHptNkM5cGlwVVpoLWJ3TWJidmg5azJabzFwQlRadTRROFgtdw?oc=5\n日本郵便関東支社と前橋市社会福祉協議会が連携協定を結び、市民の終活や高齢者の課題解決に電話相談事業を活用する。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 8,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "市民の「終活」に安心を…日本郵便関東支社と前橋市社会福祉協議会（群馬）が連携協定 電話相談事業の活用、高齢者の課題解決 - 上毛新聞電子版",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tZWdudUttZEplWUNKRlBvMlRFdElyU2JoR01JYXlxV2tWaTFJNHI5MlFoV1NxTHptNkM5cGlwVVpoLWJ3TWJidmg5azJabzFwQlRadTRROFgtdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "soi"
+    ],
+    "quote_id": "I.20d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T23:22:39.170708+00:00",
+    "publish_at": "2026-11-22T19:17:00+00:00",
+    "timestamp": "2026-11-22T19:17:00+00:00"
+  },
+  {
     "id": "ed9b2f012b52",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FaWl3Q0ZjQWt1dmRJWUZOZ203VFZtQmtIbzVwZjJYR3ROX2VyRm5Pb3dKZXRzZEsxcTZtcWlxVkt5QWF2ZnAwcXNFY2JrRTE4NjBj?oc=5\n自宅で孤立出産した35歳の女性は父親に分かりえず、乳児遺棄を繰り返したという。\n「もし嘘が真実と同じく一つの顔しか持たないなら、事はもっと楽であろう。嘘つきの言うことの反対を確かなものと受け取ればよいのだから。だが真実の裏側には十万の姿があり、果てしない広がりがある。」\n『エセー I.9「嘘つきについて」』",
     "theme": "soi",
@@ -670,46 +707,5 @@
     "generated_at": "2026-11-17T14:32:21.583338+00:00",
     "publish_at": "2026-11-18T07:17:00+00:00",
     "timestamp": "2026-11-18T07:17:00+00:00"
-  },
-  {
-    "id": "9e54aac95151",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02Wlh3Z3JfeEZVa3ZEdnFfR0s0YWhsaGpPYjlPYlkwcGpLNHlDMlI2SmRQQ1VJNl9wVy1ZMGNOR1MwcDhwOHpPRmt3dkpDSlQwbU1XQ0lLTEtWRHpzRjlNQkljRWFEZHF4d1RfWFE2QVdsYllHSHc?oc=5\n安全放置したトップが改革を成し遂げることはできるのか、沖縄・辺野古沖で転覆を引き起こしたという。\n「奇跡とは、自然の在り方によるのではなく、自然についての我々の無知によるものである。慣れは、我々の判断の目を眠らせる。」\n『エセー I.23「慣習について」』",
-    "theme": "mort",
-    "score": 6,
-    "source": "Google News 国内",
-    "source_title": "安全放置したトップに改革ができるのか 沖縄・辺野古沖転覆招いた同志社の「集団浅慮」 - 産経ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02Wlh3Z3JfeEZVa3ZEdnFfR0s0YWhsaGpPYjlPYlkwcGpLNHlDMlI2SmRQQ1VJNl9wVy1ZMGNOR1MwcDhwOHpPRmt3dkpDSlQwbU1XQ0lLTEtWRHpzRjlNQkljRWFEZHF4d1RfWFE2QVdsYllHSHc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "savoir",
-      "vanite",
-      "nouveaute"
-    ],
-    "quote_id": "I.23d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T04:34:52.767181+00:00",
-    "publish_at": "2026-11-18T04:17:00+00:00",
-    "timestamp": "2026-11-18T04:17:00+00:00"
-  },
-  {
-    "id": "2a2886aaef5e",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02eWVQSHFZdGFGaWd6Qm5hbnJIenlYeFRnV20zZ1AwTC12N3RGN0ZQYVNOMndYQmJxSF9oV1VSOXY4TTFmekNHTzNSS2pTWF9TcS00?oc=5\n小学校で死刑と叫びながら殴るいじめに対し、担任はそれを裁判ゲームと呼び、上尾市教委が報告書で明らかにした。\n「私としては、裁きにおいてさえ、単なる死を越えるものはすべて、まったくの残酷さに思われる。」\n『エセー II.11「残酷さについて」』",
-    "theme": "cruaute",
-    "score": 16,
-    "source": "Google News 検索 教育",
-    "source_title": "小学校で「死刑」と言って何度も殴るいじめ 担任は「裁判ゲーム」と… 上尾市教委が報告書 - 東京新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02eWVQSHFZdGFGaWd6Qm5hbnJIenlYeFRnV20zZ1AwTC12N3RGN0ZQYVNOMndYQmJxSF9oV1VSOXY4TTFmekNHTzNSS2pTWF9TcS00?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute",
-      "lois",
-      "savoir"
-    ],
-    "quote_id": "II.11b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T04:32:21.759788+00:00",
-    "publish_at": "2026-11-18T01:17:00+00:00",
-    "timestamp": "2026-11-18T01:17:00+00:00"
   }
 ]
