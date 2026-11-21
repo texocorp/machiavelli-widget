@@ -1,5 +1,45 @@
 [
   {
+    "id": "98605618e5ec",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YMTZCR0JnSm51d0E0WVA2a2NjcHQ5Q2x0TDZCWFpEWEhyb001MjJsY1ByZE56RFJsV3RUem4xNkRRUjNpeVl1SWhfb3FIZm84UE9LUFNDWnMtYVluNzdYSHJVQQ?oc=5\nトランプ氏は討議中に居眠りをし、報道陣から失笑を買ったという。\n「誰もが汝の外見を見るが、汝の実像を知る者はわずかである。」\n『君主論 cap.XVIII』",
+    "theme": "inganno_simulazione",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏、討議中に居眠り？ ＡＰＥＣ、報道陣から失笑：時事ドットコム - 時事ドットコム",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YMTZCR0JnSm51d0E0WVA2a2NjcHQ5Q2x0TDZCWFpEWEhyb001MjJsY1ByZE56RFJsV3RUem4xNkRRUjNpeVl1SWhfb3FIZm84UE9LUFNDWnMtYVluNzdYSHJVQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione"
+    ],
+    "quote_id": "P18b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T18:07:17.566998+00:00",
+    "publish_at": "2026-11-22T15:17:00+00:00",
+    "timestamp": "2026-11-22T15:17:00+00:00"
+  },
+  {
+    "id": "8e8c8eb14ad4",
+    "text": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV0tuLVl4dllaYzE0SEhYSmZDUzhTOVhiWU5OYTBRM2RSUGZnOF80ODlvYmlXcmRaLUN3V21walZNMUxnVk5Ud2FnV1JjQ2tTZHQ4UjYwLWNfcGpMcWQtdmNQT3pudWxXaXNNbjRKWXl1Tk1mLWQzeVZla1NxcTExbUk1WFF3azJCNHfSAY8BQVVfeXFMTnJfcXp1R21mc2hWQ3BycC1YUkRxVGNQWlVLRDJtQmhwdHNqeFYxakw5ajZZaEVOLVpyTDNWcWQ4cVpPZlNCbTExYlRpbEFVQ2Y3MnVWR3ZBM0lEMDlRWFRNNFhJdENLN3VUbkRwSWF2Mno3VHh4Vm41ZDRzc2R0QWpRMURtdUk5VUFqeGxIaVE?oc=5\nトランプ氏はイランとの早期合意を悲観視し、相手の交渉姿勢を強く非難しているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 18,
+    "source": "Google News 国際(World)",
+    "source_title": "イランとの早期合意悲観視　トランプ氏、交渉姿勢非難 - ｄメニューニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV0tuLVl4dllaYzE0SEhYSmZDUzhTOVhiWU5OYTBRM2RSUGZnOF80ODlvYmlXcmRaLUN3V21walZNMUxnVk5Ud2FnV1JjQ2tTZHQ4UjYwLWNfcGpMcWQtdmNQT3pudWxXaXNNbjRKWXl1Tk1mLWQzeVZla1NxcTExbUk1WFF3azJCNHfSAY8BQVVfeXFMTnJfcXp1R21mc2hWQ3BycC1YUkRxVGNQWlVLRDJtQmhwdHNqeFYxakw5ajZZaEVOLVpyTDNWcWQ4cVpPZlNCbTExYlRpbEFVQ2Y3MnVWR3ZBM0lEMDlRWFRNNFhJdENLN3VUbkRwSWF2Mno3VHh4Vm41ZDRzc2R0QWpRMURtdUk5VUFqeGxIaVE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "consiglio"
+    ],
+    "quote_id": "AG9",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T17:37:42.823957+00:00",
+    "publish_at": "2026-11-22T12:17:00+00:00",
+    "timestamp": "2026-11-22T12:17:00+00:00"
+  },
+  {
     "id": "cd775bc30d0d",
     "text": "https://news.google.com/rss/articles/CBMihANBVV95cUxQRzR3OWVMZXljYUdfY1hRX3J2V2Zlc05ScVQ4NENZUHNSTDc4eGFVWm1NYndrM1k0UDJEM3UwenBlY0xQVHk5dnFlekVBVFd5SFI0UGNZWGFXRnZmRTBCRVVpTlVXQlJ4NC1kc2RYRk40blNabURKdnYyZVJHUjdGSXNaZDl5N0ZRSTVzcW5aN1pKX3RYYkJtTlFiYVVNUmd2MkhzODcySmlmX2FkLWMyRGdTc3dOUHVfY3ppU3FJOTJXUGFVS1d0ZDQxMnFscm1aWk55Q0N3QlZzb3V3bEx2Q1huRll4alk5OVhQMTdXZzFJTmJkUE15bEJvQzl4czlGejFoeExmNldkZ0pjckg5QnpIbEpFNkxucHZTdXNfS1ltYkxKZmc4Wl95aFFUV1BVRlVncG5JbkdNMmpveHVlQ0ZYdGtQMlVKTmROcVM3X0l4TFVHOFhhVjRZek11ZFdyS1lORXR4WWMwZW1xb3lNUXRWZTJxUHVRb1FiN2pYcFpGX0Ex?oc=5\nポーランドへのロシアミサイル落下を受け、NATOは防衛強化の方針を示すという。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
     "theme": "guerra",
@@ -717,44 +757,5 @@
     "generated_at": "2026-11-17T04:12:08.164966+00:00",
     "publish_at": "2026-11-18T00:17:00+00:00",
     "timestamp": "2026-11-18T00:17:00+00:00"
-  },
-  {
-    "id": "bac1408af6a4",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VVXBzZktKemtMRXhHV2VWSzdIcnM2a1Z3a1RSODQ3MFlBMHdrWGdLRVFISXBxRlFmMjFnMU93YXJCeGpGVFRqbW9GQnJ5dFRVU1FselFGRzlaZFI5dDkwTmpB?oc=5\n米中は軍事的衝突を防ぐ覚書の協議を進めるが、米国の国防省や国務省などが同意に難色を示しているという。\n「獣の性を巧みに用いるべき君主は、狐と獅子の両者を範とせねばならぬ。獅子は罠を見破れず、狐は狼を退けられぬ。」\n『君主論 cap.XVIII』",
-    "theme": "inganno_simulazione",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "米中が軍事的衝突防ぐための覚書を協議、米国防省や国務省が同意に難色…香港紙報道 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VVXBzZktKemtMRXhHV2VWSzdIcnM2a1Z3a1RSODQ3MFlBMHdrWGdLRVFISXBxRlFmMjFnMU93YXJCeGpGVFRqbW9GQnJ5dFRVU1FselFGRzlaZFI5dDkwTmpB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione",
-      "armi_proprie"
-    ],
-    "quote_id": "IS1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T03:57:34.224286+00:00",
-    "publish_at": "2026-11-17T21:17:00+00:00",
-    "timestamp": "2026-11-17T21:17:00+00:00"
-  },
-  {
-    "id": "b5405503db2b",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XampZVzBBYm53TnVHUEJCamJ4RmJCbFFacDBqZ24tVXZzRC1QMno5YlpoRTFFVEdjd005ZEdEbXNmZW1NV0ZpZEs4d3BFN0JraWxqd2R3Xy1SQQ?oc=5\n北朝鮮が核開発を進め、日本はどのように備えるべきかという問いに対し、韓国元高官が非核三原則の見直しを提言した。\n「人は、恐れられている者よりも、愛されている者を害することにためらいが少ない。」\n『君主論 cap.XVII』",
-    "theme": "paura_amore",
-    "score": 8,
-    "source": "Google News 検索 朝鮮半島",
-    "source_title": "止められなかった北朝鮮の核開発、日本はどう備える？ 「非核三原則の見直しを」と韓国元高官、初の核実験から２０年 - 中国新聞デジタル",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XampZVzBBYm53TnVHUEJCamJ4RmJCbFFacDBqZ24tVXZzRC1QMno5YlpoRTFFVEdjd005ZEdEbXNmZW1NV0ZpZEs4d3BFN0JraWxqd2R3Xy1SQQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "paura_amore"
-    ],
-    "quote_id": "P17a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T21:08:13.592675+00:00",
-    "publish_at": "2026-11-17T18:17:00+00:00",
-    "timestamp": "2026-11-17T18:17:00+00:00"
   }
 ]
