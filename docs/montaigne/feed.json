@@ -1,5 +1,43 @@
 [
   {
+    "id": "b987b8df1e51",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16Q0FtdDlpd0g3czR2VDhERGdSNkZxeE8wdU1qbGRnMjBLZEZzSHA0ZXZtOHUyMGRxZ3FhYXJHcV9kWHlMSzJqM0VoOWZhR1JmTUhJSExCcGhmci1aZVhEb0lSWHdBQnBqSmNwTldJQXQtb01XNGZranlpdnhVRXM?oc=5\n勉強についていけず、いじめにもあった息子がiPadの学習で笑顔と自信を取り戻したという。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
+    "theme": "cruaute",
+    "score": 4,
+    "source": "Google News 検索 教育",
+    "source_title": "小1で自分の名前が書けない息子。勉強についていけず、いじめにも。息子に笑顔と自信が戻ったiPadを使った学習（HugKum） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16Q0FtdDlpd0g3czR2VDhERGdSNkZxeE8wdU1qbGRnMjBLZEZzSHA0ZXZtOHUyMGRxZ3FhYXJHcV9kWHlMSzJqM0VoOWZhR1JmTUhJSExCcGhmci1aZVhEb0lSWHdBQnBqSmNwTldJQXQtb01XNGZranlpdnhVRXM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute",
+      "savoir"
+    ],
+    "quote_id": "II.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T02:24:40.814155+00:00",
+    "publish_at": "2026-11-22T01:17:00+00:00",
+    "timestamp": "2026-11-22T01:17:00+00:00"
+  },
+  {
+    "id": "a6b19d28dfc5",
+    "text": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9TOE5TRVRLa3hfTjNsQWEzeDBqTE5CLXhCODVPMmhLUEpidmZyd0g3VDJadnF3REQtaG5GbVo1YS11enRaQWUybVJtOUFfc21CS1hGWVQ4OWIwUkxnVmhyMWlMOFhLY25hQmRWZXJMS2hWT043OEVGNnBuNWpmZw?oc=5\n潰瘍性大腸炎の患者を対象に、カプセル型製剤の治験が進むという。\n「医学は実例と経験によって形づくられる。私の意見もまた同じである。」\n『エセー II.37「子が父に似ることについて」』",
+    "theme": "medecine",
+    "score": 10,
+    "source": "Google News 健康",
+    "source_title": "腸内細菌が「飲み薬」に？ 潰瘍性大腸炎の患者を対象にカプセル型製剤の治験が進む 乳児期のアレルギー予防にも広がる研究（NEWSポストセブン） - ｄメニューニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9TOE5TRVRLa3hfTjNsQWEzeDBqTE5CLXhCODVPMmhLUEpidmZyd0g3VDJadnF3REQtaG5GbVo1YS11enRaQWUybVJtOUFfc21CS1hGWVQ4OWIwUkxnVmhyMWlMOFhLY25hQmRWZXJMS2hWT043OEVGNnBuNWpmZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "savoir"
+    ],
+    "quote_id": "II.37b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T02:21:18.716618+00:00",
+    "publish_at": "2026-11-21T22:17:00+00:00",
+    "timestamp": "2026-11-21T22:17:00+00:00"
+  },
+  {
     "id": "b8f6b1fe0fd0",
     "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rMmZYVDJBcVlvRzdYOE9qeXhTanpYM3ROdEREdk1aVFo2WnoxeXZST3NodEZtdndJeENMZXczOGFTclJkVmx6SXdWNVZmOEJiQUFFZU91WDBDenhWVTZQZG1udFNLNUZsOW9XTUdaM0pURWhx?oc=5\n中川翔子が、いじめで不登校になった子のご両親へのメッセージを送っているという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
     "theme": "cruaute",
@@ -666,42 +704,5 @@
     "generated_at": "2026-11-16T11:55:20.677168+00:00",
     "publish_at": "2026-11-17T10:17:00+00:00",
     "timestamp": "2026-11-17T10:17:00+00:00"
-  },
-  {
-    "id": "93b2511f6c84",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5COTc3M2V6ZnY3ak1ESU45QktIOXhrWk42b1ZlM1VBQXNtNE1RbFhkbUVjaVFiOEtHZTFFTjFxRzFRVzJPSVV2UmY3dGJHVXg3TUl0Q0pnSzFBTU15SHRlZHdsRU55SW8y?oc=5\n社説はアウティングの賠償命令で、根深い偏見を根絶することを呼びかけているという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
-    "theme": "lois",
-    "score": 0,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "社説：アウティングに賠償命令 根深い偏見を根絶せねば - 毎日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5COTc3M2V6ZnY3ak1ESU45QktIOXhrWk42b1ZlM1VBQXNtNE1RbFhkbUVjaVFiOEtHZTFFTjFxRzFRVzJPSVV2UmY3dGJHVXg3TUl0Q0pnSzFBTU15SHRlZHdsRU55SW8y?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "I.31a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T11:46:55.284320+00:00",
-    "publish_at": "2026-11-17T07:17:00+00:00",
-    "timestamp": "2026-11-17T07:17:00+00:00"
-  },
-  {
-    "id": "68c9b7db4583",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXhWR2J1dTBZRTVMOFEwbl9jc0w0MTB1YnMzV3RNYTM1YzF1VDZuQXQ2bDBnbVl5bVh4RS11NGxnSEw1NGx0NVdVT05SWmxRYmFDODdodFVtaTdwaVRHYktoSlV3cjBrS0lsbEpNejl4b3JpN3U4c0Q2WXNrODgtV0VlajRzM0E?oc=5\n資金を私的流用したとして解任された鳥取ガス児嶋太一前社長が会見で、騒動後初めて公の場に姿を現し私的流用を完全否定した。\n「市長とモンテーニュとは、いつもはっきり分かたれた二人であった。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "vanite",
-    "score": 1,
-    "source": "Google News 検索 職場",
-    "source_title": "会社の資金を私的流用したとして解任となった鳥取ガス児嶋太一前社長が会見 騒動後初めて公の場に姿を現し私的流用を完全否定 鳥取県鳥取市（2026年11月16日掲載） - 日テレNEWS NNN",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXhWR2J1dTBZRTVMOFEwbl9jc0w0MTB1YnMzV3RNYTM1YzF1VDZuQXQ2bDBnbVl5bVh4RS11NGxnSEw1NGx0NVdVT05SWmxRYmFDODdodFVtaTdwaVRHYktoSlV3cjBrS0lsbEpNejl4b3JpN3U4c0Q2WXNrODgtV0VlajRzM0E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "vanite",
-      "nouveaute"
-    ],
-    "quote_id": "III.10a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T11:41:50.868078+00:00",
-    "publish_at": "2026-11-17T04:17:00+00:00",
-    "timestamp": "2026-11-17T04:17:00+00:00"
   }
 ]
