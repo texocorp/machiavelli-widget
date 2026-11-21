@@ -1,5 +1,66 @@
 [
   {
+    "id": "cd775bc30d0d",
+    "text": "https://news.google.com/rss/articles/CBMihANBVV95cUxQRzR3OWVMZXljYUdfY1hRX3J2V2Zlc05ScVQ4NENZUHNSTDc4eGFVWm1NYndrM1k0UDJEM3UwenBlY0xQVHk5dnFlekVBVFd5SFI0UGNZWGFXRnZmRTBCRVVpTlVXQlJ4NC1kc2RYRk40blNabURKdnYyZVJHUjdGSXNaZDl5N0ZRSTVzcW5aN1pKX3RYYkJtTlFiYVVNUmd2MkhzODcySmlmX2FkLWMyRGdTc3dOUHVfY3ppU3FJOTJXUGFVS1d0ZDQxMnFscm1aWk55Q0N3QlZzb3V3bEx2Q1huRll4alk5OVhQMTdXZzFJTmJkUE15bEJvQzl4czlGejFoeExmNldkZ0pjckg5QnpIbEpFNkxucHZTdXNfS1ltYkxKZmc4Wl95aFFUV1BVRlVncG5JbkdNMmpveHVlQ0ZYdGtQMlVKTmROcVM3X0l4TFVHOFhhVjRZek11ZFdyS1lORXR4WWMwZW1xb3lNUXRWZTJxUHVRb1FiN2pYcFpGX0Ex?oc=5\nポーランドへのロシアミサイル落下を受け、NATOは防衛強化の方針を示すという。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 安全保障",
+    "source_title": "ポーランドにロシアのミサイル落下 NATOが防衛強化へ | スマートニュース - SmartNews",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxQRzR3OWVMZXljYUdfY1hRX3J2V2Zlc05ScVQ4NENZUHNSTDc4eGFVWm1NYndrM1k0UDJEM3UwenBlY0xQVHk5dnFlekVBVFd5SFI0UGNZWGFXRnZmRTBCRVVpTlVXQlJ4NC1kc2RYRk40blNabURKdnYyZVJHUjdGSXNaZDl5N0ZRSTVzcW5aN1pKX3RYYkJtTlFiYVVNUmd2MkhzODcySmlmX2FkLWMyRGdTc3dOUHVfY3ppU3FJOTJXUGFVS1d0ZDQxMnFscm1aWk55Q0N3QlZzb3V3bEx2Q1huRll4alk5OVhQMTdXZzFJTmJkUE15bEJvQzl4czlGejFoeExmNldkZ0pjckg5QnpIbEpFNkxucHZTdXNfS1ltYkxKZmc4Wl95aFFUV1BVRlVncG5JbkdNMmpveHVlQ0ZYdGtQMlVKTmROcVM3X0l4TFVHOFhhVjRZek11ZFdyS1lORXR4WWMwZW1xb3lNUXRWZTJxUHVRb1FiN2pYcFpGX0Ex?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "NE1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T10:24:50.893486+00:00",
+    "publish_at": "2026-11-22T09:17:00+00:00",
+    "timestamp": "2026-11-22T09:17:00+00:00"
+  },
+  {
+    "id": "2725c372d08b",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ydFZqUUVJbkFZa0N0X3d4cERGUHdSVEJNaFl6NTJleF9QOVFNenIxQTZLckRPZ05FWWI3NTFYSktjclNXd0VlQXJHMlpvbGhxUEJUUUlpVWQ1dWo4TjVjemp4Z0xWb0MxemNyTHd30gFzQVVfeXFMTmVFUDZRNnhNVDVrWHp0YTYzYjVEX1N5cXRVQVJuVlUxM3BQV0kydlhsTmFuSTVtUW1QT1JxMEpyem5tblBjSXNMdlNPWFpCSS1WWFhRZEtBOFhfLUw0enVkYVJ2T3JERjBHVUhrMFlGbDhGVQ?oc=5\nトランプ大統領は、イランへの大規模攻撃を検討しているかどうか、ブルームバーグ通信が報じているという。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
+    "theme": "guerra",
+    "score": 18,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ大統領 イランへの大規模攻撃を検討か ブルームバーグ通信 - ｄメニューニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ydFZqUUVJbkFZa0N0X3d4cERGUHdSVEJNaFl6NTJleF9QOVFNenIxQTZLckRPZ05FWWI3NTFYSktjclNXd0VlQXJHMlpvbGhxUEJUUUlpVWQ1dWo4TjVjemp4Z0xWb0MxemNyTHd30gFzQVVfeXFMTmVFUDZRNnhNVDVrWHp0YTYzYjVEX1N5cXRVQVJuVlUxM3BQV0kydlhsTmFuSTVtUW1QT1JxMEpyem5tblBjSXNMdlNPWFpCSS1WWFhRZEtBOFhfLUw0enVkYVJ2T3JERjBHVUhrMFlGbDhGVQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione",
+      "consiglio"
+    ],
+    "quote_id": "D2.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T09:59:53.672692+00:00",
+    "publish_at": "2026-11-22T06:17:00+00:00",
+    "timestamp": "2026-11-22T06:17:00+00:00"
+  },
+  {
+    "id": "7e676f09a8e0",
+    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhcWtwNXEybEd0S2N1OFV1d1E2WVE1dU5zQVFXZWx3NXVWU0FNVWZGeUhDbV9SZUx1NTRQZHVLMlRIdmEwblpQOGZZM0pkel9BR0dHdWl2aVlZQmhPbzJyaNIBZkFVX3lxTE9SaWNNRTJ0NF9lVnFzNWZYQkJ1Z2RkeHhHQlgzd2pqcmJ0MmZ0VUFvb0RQS0tBWVl4VWVMeVdwT2RwdktfVjl4TEZXaWt5OWQ5c20xc1NKWFIyc0lVNjZsclUzcXBqUQ?oc=5\nポーランドではロシアのミサイルが着弾したが、近くでウクライナの同盟国が演習を行っているという。\n「他人の武具は、身から滑り落ちるか、重くのしかかるか、締めつけるかのいずれかである。」\n『君主論 cap.XIII』",
+    "theme": "guerra",
+    "score": 19,
+    "source": "Google News 国際(World)",
+    "source_title": "ポーランドにロシアのミサイル着弾とトゥスク首相　近くでウクライナの同盟国が演習中 - BBC",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhcWtwNXEybEd0S2N1OFV1d1E2WVE1dU5zQVFXZWx3NXVWU0FNVWZGeUhDbV9SZUx1NTRQZHVLMlRIdmEwblpQOGZZM0pkel9BR0dHdWl2aVlZQmhPbzJyaNIBZkFVX3lxTE9SaWNNRTJ0NF9lVnFzNWZYQkJ1Z2RkeHhHQlgzd2pqcmJ0MmZ0VUFvb0RQS0tBWVl4VWVMeVdwT2RwdktfVjl4TEZXaWt5OWQ5c20xc1NKWFIyc0lVNjZsclUzcXBqUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "P13b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T09:53:02.291177+00:00",
+    "publish_at": "2026-11-22T03:17:00+00:00",
+    "timestamp": "2026-11-22T03:17:00+00:00"
+  },
+  {
     "id": "4626818138f9",
     "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZeDFsYzl0OUsyaWxKSVZOQmdORXp3eE1vYWk5UlJkOEVSOXhGYk5hNzlRZ2tVS2FLRUtmOGlueXJtMDhka2tjbjV3VmtRSW9DOGpoeU5VMlVEYm1iRW5vbndJb1BFV09CamJpUGhRbHlfZzM4MHVB?oc=5\nプーチン氏が3カ国首脳会談を終え、ウクライナに対して過去最大級の攻撃を行った。\n「大物の間では、新たな恩恵が古い恨みを忘れさせると信じる者は、思い違いをしている。」\n『君主論 cap.VII』",
     "theme": "guerra",
@@ -695,66 +756,5 @@
     "generated_at": "2026-11-16T21:08:13.592675+00:00",
     "publish_at": "2026-11-17T18:17:00+00:00",
     "timestamp": "2026-11-17T18:17:00+00:00"
-  },
-  {
-    "id": "5c40bd2c3700",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wVmdVRFkzV2JpN2hxb2huOERwSi1od0ZYVW1vOXhoRkdzZThGeDdxSElxbzAxVUs0ZldXWmR5cTlyZnU4czlSVGY5YTZZRTBHZm5wUGRoTEg2V3lfVnFhNlhfNGhZM1J6bkJwYl82dlBpNGRUUk9iUV9lOE1wWmM?oc=5\nイランが2カ月ぶりにバーレーンの米軍施設を攻撃し、フーシ派もサウジとイエメンに攻勢をかけているという。\n「己の力と敵の力を知る者は、容易には敗れぬ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "イランが2カ月ぶりにバーレーンの米軍施設攻撃…フーシ派はサウジとイエメンに攻勢（中央日報日本語版） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wVmdVRFkzV2JpN2hxb2huOERwSi1od0ZYVW1vOXhoRkdzZThGeDdxSElxbzAxVUs0ZldXWmR5cTlyZnU4czlSVGY5YTZZRTBHZm5wUGRoTEg2V3lfVnFhNlhfNGhZM1J6bkJwYl82dlBpNGRUUk9iUV9lOE1wWmM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "AG6",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T20:49:30.945416+00:00",
-    "publish_at": "2026-11-17T15:17:00+00:00",
-    "timestamp": "2026-11-17T15:17:00+00:00"
-  },
-  {
-    "id": "cf4eb595f979",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWUh1dzNFcW5wVTlVV3N3OGNVLWdOR1ZMWjliaDAxTTEtd0NYcDJvdFBYYkstZ29PeUM0TExMWUlDaHczZ1F3SHVZcGF3cFhFeG1oei00YTFGdU1LdUlYT0FhWmp4YXdYUC05SHhBY1czaVhIUC1PVnF4TFhuOHc?oc=5\nバーレーンは隣国イランからの攻撃を迎撃し、中東のサーキットの位置関係が報じられたという。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
-    "theme": "guerra",
-    "score": 16,
-    "source": "Google News 国際(World)",
-    "source_title": "F1カタールGP会場から約111km･･･隣国バーレーンがイランの攻撃を迎撃、来季開幕戦バーレーンGP会場までわずか11km 中東3サーキットの位置関係は？（TopNews） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWUh1dzNFcW5wVTlVV3N3OGNVLWdOR1ZMWjliaDAxTTEtd0NYcDJvdFBYYkstZ29PeUM0TExMWUlDaHczZ1F3SHVZcGF3cFhFeG1oei00YTFGdU1LdUlYT0FhWmp4YXdYUC05SHhBY1czaVhIUC1PVnF4TFhuOHc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D2.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T20:29:38.586452+00:00",
-    "publish_at": "2026-11-17T12:17:00+00:00",
-    "timestamp": "2026-11-17T12:17:00+00:00"
-  },
-  {
-    "id": "ab0cc563c8d6",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pSnZDMGRrWW0wdTZOVUcwLVhGT0l3SE9YWFJRblpHYllCaXRMNHZuSWJwZFBhUC0tb0ViMG1YUUlhX2hIS2dXZ0NTekt0Zldldy11YjRBNFRsUmdiQmJUQWlMd3h0RGM?oc=5\nイランはバーレーンの米軍施設を攻撃し、湾岸諸国も2ヶ月ぶりに標的となっている。\n「領土を手に入れたいと望むのは、まことに自然でありふれたことである。」\n『君主論 cap.III』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 中東",
-    "source_title": "イランがバーレーンの米軍施設を攻撃 湾岸諸国が2カ月ぶり標的に - 朝日新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pSnZDMGRrWW0wdTZOVUcwLVhGT0l3SE9YWFJRblpHYllCaXRMNHZuSWJwZFBhUC0tb0ViMG1YUUlhX2hIS2dXZ0NTekt0Zldldy11YjRBNFRsUmdiQmJUQWlMd3h0RGM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "P03c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T10:29:57.091814+00:00",
-    "publish_at": "2026-11-17T09:17:00+00:00",
-    "timestamp": "2026-11-17T09:17:00+00:00"
   }
 ]
