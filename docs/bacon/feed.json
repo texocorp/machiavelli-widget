@@ -1,5 +1,89 @@
 [
   {
+    "id": "ac40565a5843",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oVVNNemhibzhKeE8yS24xTTNFXy1VZVlsR2dfMEF5V19pbzR5UEl6dHo3b1VGTjBPeVFzYl9yQUhOQUNaaUZjZXVQYkZVa3FfZzRlQ1RZbGswSTJEaFJ6VDBQSXJJSUowTWpnMTBpXy1rX1hCbHRDdXYtdlM4Mmc?oc=5\n高校生が立ち上げた救命活動団体が『こんな綺麗事信じるな』という誹謗中傷を受け、公式サイトを公開停止した。\n「自分の内に徳を持たない者は、常に他人の徳を妬む。」\n『随筆集』第9篇「嫉妬について」",
+    "original": "A man that hath no virtue in himself, ever envieth virtue in others.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News SNS・報道",
+    "source_title": "「こんな綺麗事信じるな」高校生が立ち上げた救命活動団体に誹謗中傷が殺到、公式サイトが公開停止に（ENCOUNT） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oVVNNemhibzhKeE8yS24xTTNFXy1VZVlsR2dfMEF5V19pbzR5UEl6dHo3b1VGTjBPeVFzYl9yQUhOQUNaaUZjZXVQYkZVa3FfZzRlQ1RZbGswSTJEaFJ6VDBQSXJJSUowTWpnMTBpXy1rX1hCbHRDdXYtdlM4Mmc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E9c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T19:40:55.612944+00:00",
+    "publish_at": "2026-11-22T14:17:00+00:00",
+    "timestamp": "2026-11-22T14:17:00+00:00"
+  },
+  {
+    "id": "58f688603542",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsdTVNQVdSUC1lc0JiRGlua1o3WHBhb3JFU2JKaUxiY1ZtMWYwNURsMmU1c3ZuUlJyM3hkdFdBZFRmbzBqeGVuUjZrQmllUGNRbFdtNDMyaEpSRFFRU2c?oc=5\n沖縄タイムス社は「陰謀論ユーチューバーを起用した政府広報に疑問」と報じた。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
+    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "陰謀論ユーチューバーを起用した政府広報に疑問 - 沖縄タイムス社",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsdTVNQVdSUC1lc0JiRGlua1o3WHBhb3JFU2JKaUxiY1ZtMWYwNURsMmU1c3ZuUlJyM3hkdFdBZFRmbzBqeGVuUjZrQmllUGNRbFdtNDMyaEpSRFFRU2c?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E12a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T19:09:00.021346+00:00",
+    "publish_at": "2026-11-22T11:17:00+00:00",
+    "timestamp": "2026-11-22T11:17:00+00:00"
+  },
+  {
+    "id": "ca0b7ea84c99",
+    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByblpWNml3YnRkY09CUTdPVjAtQU5OaGRUb3lwdlF6TG83VkdDVUg5MTNhUlV6MEJKWEExZHBoOWtkZXNPN04teU5fMVd5NHhCNkFVZg?oc=5\nWIRED.jpは「AIにファクトチェックをどこまで任せられるか」と報じた。\n「人間は自然の下僕にして解釈者であり、自然の秩序について、事実によってであれ精神によってであれ観察しただけのことを為し、理解する。それ以上は知らず、為し得ない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム1",
+    "original": "Homo, naturae minister et interpres, tantum facit et intelligit quantum de naturae ordine re vel mente observaverit: nec amplius scit, aut potest.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "AIにファクトチェックをどこまで任せられるか - WIRED.jp",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByblpWNml3YnRkY09CUTdPVjAtQU5OaGRUb3lwdlF6TG83VkdDVUg5MTNhUlV6MEJKWEExZHBoOWtkZXNPN04teU5fMVd5NHhCNkFVZg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "NO1.1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T18:45:56.684499+00:00",
+    "publish_at": "2026-11-22T08:17:00+00:00",
+    "timestamp": "2026-11-22T08:17:00+00:00"
+  },
+  {
+    "id": "61f35b336d7e",
+    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40N2YwYlFNM3Z3Mzc0N3VmcVhRUXV4UVlVVkREUVM5d0ZBVE40NTlaSW1KbXRuWjNNNTdUU1ZuWng3RHlEb2lkWC1pS3hPbUpz?oc=5\n日本海新聞は「陰謀論系の政府広報起用を批判 野党『偽情報対策に逆行』」と報じた。\n「第三に、そして最後に(これが最大の理由であるが)、数限りないそうした予言のほとんどすべてはまやかしであり、暇で狡猾な頭が出来事の後になってでっち上げ、こしらえたものにすぎない。」\n『随筆集』第35篇「予言について」",
+    "original": "The third and last (which is the great one) is, that almost all of them, being infinite in number, have been impostures, and by idle and crafty brains merely contrived and feigned, after the event past.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 13,
+    "source": "Google News 偽情報・言説",
+    "source_title": "陰謀論系の政府広報起用を批判 野党「偽情報対策に逆行」 - 日本海新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40N2YwYlFNM3Z3Mzc0N3VmcVhRUXV4UVlVVkREUVM5d0ZBVE40NTlaSW1KbXRuWjNNNTdUU1ZuWng3RHlEb2lkWC1pS3hPbUpz?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E35c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T18:34:36.753357+00:00",
+    "publish_at": "2026-11-22T05:17:00+00:00",
+    "timestamp": "2026-11-22T05:17:00+00:00"
+  },
+  {
     "id": "536eec32c866",
     "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15bWdBdFFIQXBhcUI0bkw1eWhOWm1fUDVmR2hubmZDOExuTnRSX3FFZURTUkRrUTR0RjQ1WkxLcXI3ME83TXd6RENjM09BX3FiNTRUemFjYzZ3a3BPYUNBbTNGd0JEYld0emIwcjQ4d0hUSWs?oc=5\n陰謀論系ユーチューバーを政府広報に起用した政府は、出演者の過去発言を確認しなかったという。\n「だがアリストテレスの哲学に同意した者の大多数は、先入見と他人の権威とによって、自らをそれに隷属させたのである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム77",
     "original": "At numerus longe maximus eorum, qui in Aristotelis philosophiam consenserunt, ex praejudicio et authoritate aliorum se illi mancipavit …",
@@ -696,117 +780,5 @@
     "generated_at": "2026-11-17T14:38:20.453041+00:00",
     "publish_at": "2026-11-18T02:17:00+00:00",
     "timestamp": "2026-11-18T02:17:00+00:00"
-  },
-  {
-    "id": "3193e1ef8458",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0zWHNyQ3lKSDFkbkNlS3JZS3Jlb3QyQ1dpUTJlRTFDUzUxUWVodVhIMUlHUDk3eFh2OGZMaUEzLUtkNVc3WlJVV1FQUQ?oc=5\n生成AIが作り出す虚偽引用を事前に選り分ける検証システムは不十分であり、国内外の学術論文が相次いで撤回されているという。\n「こうした形式ばかりの者たちが、表面を奥行きと嵩のある実体に見せかけるために、いかなる手管と遠眼鏡を用いるかを見るのは滑稽であり、判断力ある人にとっては風刺にうってつけである。」\n『随筆集』第26篇「賢く見えることについて」",
-    "original": "It is a ridiculous thing, and fit for a satire to persons of judgment, to see what shifts these formalists have, and what prospectives to make superficies to seem body, that hath depth and bulk.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 22,
-    "source": "Google News 研究不正・論文",
-    "source_title": "人工知能(AI)が作り出した偽参考文献を引用した国内外の学術論文が相次いで撤回されている。 生成 AI活用が研究現場で急速に拡散しているが、虚偽引用を事前に選り分ける検証システムは不十分なのが実情だ。.. - 매일경제",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0zWHNyQ3lKSDFkbkNlS3JZS3Jlb3QyQ1dpUTJlRTFDUzUxUWVodVhIMUlHUDk3eFh2OGZMaUEzLUtkNVc3WlJVV1FQUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama",
-      "experientia",
-      "potentia",
-      "studium"
-    ],
-    "quote_id": "E26",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:30:25.875529+00:00",
-    "publish_at": "2026-11-17T23:17:00+00:00",
-    "timestamp": "2026-11-17T23:17:00+00:00"
-  },
-  {
-    "id": "6c5a1b61c5b7",
-    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiV2JaMXpCNWo3ZUhSWnhNSnAyN1MxS1dneDB1TlVqbFR6dVh4OWxCZTlSNkFobGY2ZzhDWU1EdzZGSmJfNGhPZzBJa0Y4Tk1BSzZiVkhwdzl0VXF1T1lSalhua3VXdnFZODk4SnlPQlNRUGFB?oc=5\nBigGo ファイナンスは「FRBバー理事、AIが招く市場混乱に警鐘 取引の同調行動や銀行取り付け加速を指摘」と報じた。\n「政治の事柄においては、よい方への変化でさえ、混乱を招くゆえに疑われる。政治は論証にではなく、権威と同意と評判と意見とに拠って立つからである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム90",
-    "original": "Verum in rebus civilibus mutatio etiam in melius suspecta est ob perturbationem; cum civilia authoritate, consensu, fama, et opinione, non demonstratione, nitantur.",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 8,
-    "source": "Google News 物議・警鐘",
-    "source_title": "FRBバー理事、AIが招く市場混乱に警鐘 取引の同調行動や銀行取り付け加速を指摘 - BigGo ファイナンス",
-    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiV2JaMXpCNWo3ZUhSWnhNSnAyN1MxS1dneDB1TlVqbFR6dVh4OWxCZTlSNkFobGY2ZzhDWU1EdzZGSmJfNGhPZzBJa0Y4Tk1BSzZiVkhwdzl0VXF1T1lSalhua3VXdnFZODk4SnlPQlNRUGFB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia"
-    ],
-    "quote_id": "NO1.90",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T22:41:33.622526+00:00",
-    "publish_at": "2026-11-17T20:17:00+00:00",
-    "timestamp": "2026-11-17T20:17:00+00:00"
-  },
-  {
-    "id": "667a53f0b4e4",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hXzNTTlpldUV6VDktZGtqelNqQUlkcjhtclB2NHhyVE5rTndfMm5pMUlFM2dqQ0ZCaDJlaXN3Sll0a3FRZnh0aUZQYjBFM3dVWThySHNRSnRCQXM?oc=5\n山陽新聞は「ＡＩの反論で３割判断覆す 世論工作などへの悪用懸念」と報じた。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
-    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 9,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "ＡＩの反論で３割判断覆す 世論工作などへの悪用懸念 - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hXzNTTlpldUV6VDktZGtqelNqQUlkcjhtclB2NHhyVE5rTndfMm5pMUlFM2dqQ0ZCaDJlaXN3Sll0a3FRZnh0aUZQYjBFM3dVWThySHNRSnRCQXM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama",
-      "potentia",
-      "tribus"
-    ],
-    "quote_id": "E12a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T22:36:57.811437+00:00",
-    "publish_at": "2026-11-17T17:17:00+00:00",
-    "timestamp": "2026-11-17T17:17:00+00:00"
-  },
-  {
-    "id": "7809ad7424c1",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fVnQ0X0xlR1psM08xX1RraEJXY3I2eko2d2dpR1kyUWRoTFJJZ25qQklyMENYZGg1cDBfRDAwYjFzQUt3Mm5PZDdUb1NiV0pSRi1UTWtUbTM0MVFZRzN0Y1gwRTlaSms2MzNpcWhCd1dTSFI2cHg5RUtR?oc=5\nライブドアニュースは「SNSで急増するAIなりすまし詐欺。『日本語がおかしい』ではもう見抜けない？」と報じた。\n「素手も、放任された知性も、大したことはできない。事は道具と補助によって成し遂げられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム2",
-    "original": "Nec manus nuda, nec intellectus sibi permissus, multum valet; instrumentis et auxiliis res perficitur …",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 10,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "SNSで急増するAIなりすまし詐欺。「日本語がおかしい」ではもう見抜けない？ - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fVnQ0X0xlR1psM08xX1RraEJXY3I2eko2d2dpR1kyUWRoTFJJZ25qQklyMENYZGg1cDBfRDAwYjFzQUt3Mm5PZDdUb1NiV0pSRi1UTWtUbTM0MVFZRzN0Y1gwRTlaSms2MzNpcWhCd1dTSFI2cHg5RUtR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "NO1.2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T22:19:05.258904+00:00",
-    "publish_at": "2026-11-17T14:17:00+00:00",
-    "timestamp": "2026-11-17T14:17:00+00:00"
-  },
-  {
-    "id": "6c957bf873cd",
-    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZnVYaVFsYkN6TUtRTS0zNjUwWXRlelh1b0FqWEJqSUFfMkg3SURJSHJYTGFYWlFWM0tuSW90V0hjTHctT05UNHJOd1ZTSFNucmNjTjVLNHZfMkdVR0tFSzRoME1naXJISm5TN3RtRHR1VXFUM2ptRDBHMWhzRWV3ZEJHR2F5cDhx?oc=5\n韓国の税理士試験の首席合格者が生成AIを用いた不正を告白し、超小型カメラとスマホでほぼ満点を取ったという。\n「学問におけるほとんどあらゆる禍の原因と根はただ一つ、人間の知性の力を誤って讃え持ち上げるあまり、知性の真の助けを求めないことにある。」\n『ノヴム・オルガヌム』第1巻 アフォリズム9",
-    "original": "Causa vero et radix fere omnium malorum in scientiis ea una est; quod dum mentis humanae vires falso miramur et extollimus, vera ejus auxilia non quaeramus.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 10,
-    "source": "Google News AI・研究政策",
-    "source_title": "韓国税理士試験の首席合格者が「生成AIで不正」と告白 超小型カメラ×スマホで“ほぼ満点”の衝撃 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZnVYaVFsYkN6TUtRTS0zNjUwWXRlelh1b0FqWEJqSUFfMkg3SURJSHJYTGFYWlFWM0tuSW90V0hjTHctT05UNHJOd1ZTSFNucmNjTjVLNHZfMkdVR0tFSzRoME1naXJISm5TN3RtRHR1VXFUM2ptRDBHMWhzRWV3ZEJHR2F5cDhx?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "experientia",
-      "potentia",
-      "specus"
-    ],
-    "quote_id": "NO1.9",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T11:52:31.958242+00:00",
-    "publish_at": "2026-11-17T11:17:00+00:00",
-    "timestamp": "2026-11-17T11:17:00+00:00"
   }
 ]
