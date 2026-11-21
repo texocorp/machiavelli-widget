@@ -1,5 +1,44 @@
 [
   {
+    "id": "ed9b2f012b52",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FaWl3Q0ZjQWt1dmRJWUZOZ203VFZtQmtIbzVwZjJYR3ROX2VyRm5Pb3dKZXRzZEsxcTZtcWlxVkt5QWF2ZnAwcXNFY2JrRTE4NjBj?oc=5\n自宅で孤立出産した35歳の女性は父親に分かりえず、乳児遺棄を繰り返したという。\n「もし嘘が真実と同じく一つの顔しか持たないなら、事はもっと楽であろう。嘘つきの言うことの反対を確かなものと受け取ればよいのだから。だが真実の裏側には十万の姿があり、果てしない広がりがある。」\n『エセー I.9「嘘つきについて」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "父親は分からず、「太っただけ」と嘘をつき通した35歳の女性 自宅で孤立出産…繰り返した乳児遺棄の理由 - 東京新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FaWl3Q0ZjQWt1dmRJWUZOZ203VFZtQmtIbzVwZjJYR3ROX2VyRm5Pb3dKZXRzZEsxcTZtcWlxVkt5QWF2ZnAwcXNFY2JrRTE4NjBj?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.9",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T18:06:22.926582+00:00",
+    "publish_at": "2026-11-22T16:17:00+00:00",
+    "timestamp": "2026-11-22T16:17:00+00:00"
+  },
+  {
+    "id": "2b9b93996c36",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMeks2OUdIbjFrejRkMlZ1UkUyMVlPQnR5NTdtaVR2Sm91dHlpZUxLN0R5dW1kTGlRX1ZFU1VSVnJpS2M0TkRFcnZyLWNGbjB2ZTNFZmFYNDNWTWw1RDN5dFl4cEVyNnVUWDZNdmVPM3JCdzVELTlzWlY4N1hFUWs?oc=5\nAI不正疑惑で亡くなったのは、高校中退からソウル大合格までを飾った『天才受験生』だという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
+    "theme": "lois",
+    "score": 8,
+    "source": "Google News 検索 教育",
+    "source_title": "“AI不正”疑惑の男性死亡 高校中退からソウル大合格、ロースクール入試で満点の“天才受験生”に何が 韓国でAIカンニングが社会問題に（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMeks2OUdIbjFrejRkMlZ1UkUyMVlPQnR5NTdtaVR2Sm91dHlpZUxLN0R5dW1kTGlRX1ZFU1VSVnJpS2M0TkRFcnZyLWNGbjB2ZTNFZmFYNDNWTWw1RDN5dFl4cEVyNnVUWDZNdmVPM3JCdzVELTlzWlY4N1hFUWs?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "mort",
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "I.26a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T18:00:50.807961+00:00",
+    "publish_at": "2026-11-22T13:17:00+00:00",
+    "timestamp": "2026-11-22T13:17:00+00:00"
+  },
+  {
     "id": "c06f6f97980b",
     "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHcXQ1MFR1MkladjV6a2RNYk4zMG4xNC1TTk9ielhGR1dmUkRNRkNiT0Fac091YXhaSmZ2MzB2MDNLTUlTQlRDRFhvUlJNVzRsUUZuR09fM1ZFVEtPXzVSSWsycF9xZzNk?oc=5\n展示の背景には、差別と偏見を近現代において生き抜いてきたアイヌ民族の実像があるという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
     "theme": "autrui",
@@ -672,39 +711,5 @@
     "generated_at": "2026-11-17T04:32:21.759788+00:00",
     "publish_at": "2026-11-18T01:17:00+00:00",
     "timestamp": "2026-11-18T01:17:00+00:00"
-  },
-  {
-    "id": "52623654f7ba",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uLUpSN053MXowelRiVm9vNHhvcDVMVm91LXhpTmlWYkt4OWdNSkVQQnVNQjBzNTc1SUZRSS1EcDFvaHZ6N2xJU1pHWTlmci1GR2NyUkxnYWhCNHQ2eVlfVjFlb1h6eEoyUVVLanR5QWJnY2FpZ1JMdjI3c2Rkdmc?oc=5\n71歳夫婦は必死に貯めた資産2億円に対し、『使い切れる気がしません』とため息をつくという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
-    "theme": "soi",
-    "score": 0,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "「使い切れる気がしません」71歳夫婦、必死に貯めた“資産2億円”を前にため息。〈自助努力〉に追い詰められた末の老後の後悔 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uLUpSN053MXowelRiVm9vNHhvcDVMVm91LXhpTmlWYkt4OWdNSkVQQnVNQjBzNTc1SUZRSS1EcDFvaHZ6N2xJU1pHWTlmci1GR2NyUkxnYWhCNHQ2eVlfVjFlb1h6eEoyUVVLanR5QWJnY2FpZ1JMdjI3c2Rkdmc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T22:20:06.505542+00:00",
-    "publish_at": "2026-11-17T22:17:00+00:00",
-    "timestamp": "2026-11-17T22:17:00+00:00"
-  },
-  {
-    "id": "1fab48ffff2d",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2ZkNtai1SS2JJMlRCZE5XOVlkV202d1dvREFlUHdQN3N0S3k2NXVwOXVjQU1VR3VNTFVXeUpzN0pwUndESE1rSHNlWG4xdFZJQktYYmhxcjBHc19aZkpPbUNUNDYxT1U5bk1DVXJoaHJhTUtmYW1UMkxB?oc=5\nチャンピオンベルトを奪った張本人がまた反則論争で勝利し、『くそったれ』と叫んだという。\n「足取りも歩きぶりもまるで頼りにならぬ者と連れ立って、何のために真実を探しに出かけるのか。」\n『エセー III.8「談論の術について」』",
-    "theme": "inconstance",
-    "score": 0,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "'歴代級のマナー違反'あからさまな目突き→'前代未聞の失明危機'チャンピオンベルトまで奪った張本人、また'反則論争'勝利「くそったれ - 스타뉴스",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2ZkNtai1SS2JJMlRCZE5XOVlkV202d1dvREFlUHdQN3N0S3k2NXVwOXVjQU1VR3VNTFVXeUpzN0pwUndESE1rSHNlWG4xdFZJQktYYmhxcjBHc19aZkpPbUNUNDYxT1U5bk1DVXJoaHJhTUtmYW1UMkxB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "III.8b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T22:16:08.746596+00:00",
-    "publish_at": "2026-11-17T19:17:00+00:00",
-    "timestamp": "2026-11-17T19:17:00+00:00"
   }
 ]
