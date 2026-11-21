@@ -1,5 +1,69 @@
 [
   {
+    "id": "cc43ba6ec3ae",
+    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuTnc0VHdzdEFoM3ZnOFRhaGgxQm4xcVZYVXpUMVJWbXVHUWt3TmVBOGs0OFM0SWQtamJlMGxHeWQ5SFcwUS14d2h5elFyOFRaN1NCaQ?oc=5\n中日新聞Webは「『生徒が外国人に連れ去られそうに』で閲覧200万回超 静岡市で誤情報が拡散した背景」と報じた。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
+    "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「生徒が外国人に連れ去られそうに」で閲覧200万回超 静岡市で誤情報が拡散した背景 - 中日新聞Web",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuTnc0VHdzdEFoM3ZnOFRhaGgxQm4xcVZYVXpUMVJWbXVHUWt3TmVBOGs0OFM0SWQtamJlMGxHeWQ5SFcwUS14d2h5elFyOFRaN1NCaQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "E1b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T23:50:55.655992+00:00",
+    "publish_at": "2026-11-22T23:17:00+00:00",
+    "timestamp": "2026-11-22T23:17:00+00:00"
+  },
+  {
+    "id": "d6d4b768d3bf",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPc2o0eGx5MXJZVjg0SURZQ3ZBSjZuNEE3dlkweFIteHBIVkFYMFZlOUhmYlZVZGJlREdFbktLeWJJLUV6SjYxc3JPZ0UwX1hzaUZSdGJn?oc=5\nJBpressは「『政府プロパガンダに予算10倍』…漫才風の安保動画は炎上、陰謀論系YouTuber起用、なぜ内閣広報予算に72.3億円？」と報じた。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
+    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「政府プロパガンダに予算10倍」…漫才風の安保動画は炎上、陰謀論系YouTuber起用、なぜ内閣広報予算に72.3億円？ - JBpress",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPc2o0eGx5MXJZVjg0SURZQ3ZBSjZuNEE3dlkweFIteHBIVkFYMFZlOUhmYlZVZGJlREdFbktLeWJJLUV6SjYxc3JPZ0UwX1hzaUZSdGJn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E31c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T23:41:55.585347+00:00",
+    "publish_at": "2026-11-22T20:17:00+00:00",
+    "timestamp": "2026-11-22T20:17:00+00:00"
+  },
+  {
+    "id": "7dcde1cb54a6",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFN09Sd0tSZGNJVEZtMXc4OU1GWnpVczBjVFpBMld2UnUyZkNqTkxUYnE5dE9oZEdSOXFmTG8xdVF0eE5hSVd1bmhlcWYzMUUxbTk1MUx6ck50OXc?oc=5\n政府が陰謀論者を起用したことで批判が続出し、野党は偽情報対策に逆行すると指摘しているという。\n「まことに、肉体に香具師がいるように、政体にも香具師がいる。大きな治療を請け負い、二、三度の試みではおそらく運がよかったが、学問の根拠を欠くために長続きしない者たちである。」\n『随筆集』第12篇「大胆について」",
+    "original": "Surely, as there are mountebanks for the natural body, so are there mountebanks for the politic body; men that undertake great cures, and perhaps have been lucky, in two or three experiments, but want the grounds of science, and therefore cannot hold out.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 13,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報に陰謀論系起用 批判やまず 野党「偽情報対策に逆行」 - 山陰中央新報デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFN09Sd0tSZGNJVEZtMXc4OU1GWnpVczBjVFpBMld2UnUyZkNqTkxUYnE5dE9oZEdSOXFmTG8xdVF0eE5hSVd1bmhlcWYzMUUxbTk1MUx6ck50OXc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E12b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T23:29:58.062106+00:00",
+    "publish_at": "2026-11-22T17:17:00+00:00",
+    "timestamp": "2026-11-22T17:17:00+00:00"
+  },
+  {
     "id": "ac40565a5843",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oVVNNemhibzhKeE8yS24xTTNFXy1VZVlsR2dfMEF5V19pbzR5UEl6dHo3b1VGTjBPeVFzYl9yQUhOQUNaaUZjZXVQYkZVa3FfZzRlQ1RZbGswSTJEaFJ6VDBQSXJJSUowTWpnMTBpXy1rX1hCbHRDdXYtdlM4Mmc?oc=5\n高校生が立ち上げた救命活動団体が『こんな綺麗事信じるな』という誹謗中傷を受け、公式サイトを公開停止した。\n「自分の内に徳を持たない者は、常に他人の徳を妬む。」\n『随筆集』第9篇「嫉妬について」",
     "original": "A man that hath no virtue in himself, ever envieth virtue in others.",
@@ -738,47 +802,5 @@
     "generated_at": "2026-11-17T14:49:36.402301+00:00",
     "publish_at": "2026-11-18T08:17:00+00:00",
     "timestamp": "2026-11-18T08:17:00+00:00"
-  },
-  {
-    "id": "01ae45f8bd2d",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWU1otUVkzRXA4cmxIckZJMEFjV1BqVUJhTzJPN1k4WUx5MTgzY09vSkpxbzhOaTRKVUwwTWhBQU9IQmJYWk9IRVNJeDZCWTZieGVRSUdEdDVqaUUycklV?oc=5\n一人の行動が全体を危うくする盲点について、SNSの教育講演家は構造問題を指摘したという。\n「ところが学者たちは、まことに怠惰で安易にも、経験についての噂、いわばその風評やそよ風を、自説を打ち立て裏づけるために取り込み、しかもそれに正規の証言の重みを与えてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム98",
-    "original": "Sed contra homines docti (supini sane et faciles) rumores quosdam experientiae, et quasi famas et auras ejus, ad philosophiam suam vel constituendam vel confirmandam exceperunt, atque illis nihilominus pondus legitimi testimonii attribuerunt.",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 14,
-    "source": "Google News SNS・報道",
-    "source_title": "路上ライブ炎上の盲点「一人の行動が全体を危うくする」SNS教育講演家が指摘する構造問題 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWU1otUVkzRXA4cmxIckZJMEFjV1BqVUJhTzJPN1k4WUx5MTgzY09vSkpxbzhOaTRKVUwwTWhBQU9IQmJYWk9IRVNJeDZCWTZieGVRSUdEdDVqaUUycklV?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.98",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:43:57.760932+00:00",
-    "publish_at": "2026-11-18T05:17:00+00:00",
-    "timestamp": "2026-11-18T05:17:00+00:00"
-  },
-  {
-    "id": "97cb19f130e4",
-    "text": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VWjAteVNuMFdCMXhvb2tCVFY1ODRUd3JOM3piQkFGODJ3X2lDd0U5cnN0Y2FNdGVwMlBwdzEya25hekNMVlRfUkNlWGNTcUVDaHZUWjlQdDZMQWd6c09udy1JOUg3THF1TUtnckhCdnhhNVR1eFNLUg?oc=5\n転職活動で生成AIが利用者の70%以上に誤情報を経験させ、確認先は企業の公式サイトが上位になったという。\n「そして最後に、新奇なものは、退けはしないまでも、疑わしいものとして扱うこと。」\n『随筆集』第24篇「革新について」",
-    "original": "And lastly, that the novelty, though it be not rejected, yet be held for a suspect …",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 17,
-    "source": "Google News 偽情報・言説",
-    "source_title": "転職活動で生成AI利用者の70%以上が誤情報を経験。確認先は企業の公式サイトが上位に｜ワークス・ジャパン キャリア 求職者調査 - RBB TODAY",
-    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VWjAteVNuMFdCMXhvb2tCVFY1ODRUd3JOM3piQkFGODJ3X2lDd0U5cnN0Y2FNdGVwMlBwdzEya25hekNMVlRfUkNlWGNTcUVDaHZUWjlQdDZMQWd6c09udy1JOUg3THF1TUtnckhCdnhhNVR1eFNLUg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia"
-    ],
-    "quote_id": "E24c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:38:20.453041+00:00",
-    "publish_at": "2026-11-18T02:17:00+00:00",
-    "timestamp": "2026-11-18T02:17:00+00:00"
   }
 ]
