@@ -1,5 +1,48 @@
 [
   {
+    "id": "536eec32c866",
+    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15bWdBdFFIQXBhcUI0bkw1eWhOWm1fUDVmR2hubmZDOExuTnRSX3FFZURTUkRrUTR0RjQ1WkxLcXI3ME83TXd6RENjM09BX3FiNTRUemFjYzZ3a3BPYUNBbTNGd0JEYld0emIwcjQ4d0hUSWs?oc=5\n陰謀論系ユーチューバーを政府広報に起用した政府は、出演者の過去発言を確認しなかったという。\n「だがアリストテレスの哲学に同意した者の大多数は、先入見と他人の権威とによって、自らをそれに隷属させたのである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム77",
+    "original": "At numerus longe maximus eorum, qui in Aristotelis philosophiam consenserunt, ex praejudicio et authoritate aliorum se illi mancipavit …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府 出演者の過去発言など確認せず “陰謀論系”ユーチューバー 政府広報に起用 - テレ朝NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15bWdBdFFIQXBhcUI0bkw1eWhOWm1fUDVmR2hubmZDOExuTnRSX3FFZURTUkRrUTR0RjQ1WkxLcXI3ME83TXd6RENjM09BX3FiNTRUemFjYzZ3a3BPYUNBbTNGd0JEYld0emIwcjQ4d0hUSWs?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fori",
+      "fama"
+    ],
+    "quote_id": "NO1.77",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T02:45:59.091512+00:00",
+    "publish_at": "2026-11-22T02:17:00+00:00",
+    "timestamp": "2026-11-22T02:17:00+00:00"
+  },
+  {
+    "id": "d7220b4adcb7",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jSWI3TENicTVtcE9VdndDX2NwejVyQnBSTTFENGF0OERMZnhkSXF6TmxGUE56WkQtSkNnQ3dpV0U3cTFSSEZnNVF1VDM2MzNuanBRRHZubTB3dVcyZVJn?oc=5\nNHKニュースは「気候変動の偽情報投稿 国連『対策の障害に』日本も増加 注意を」と報じた。\n「まことに評判は川のようなもので、軽く膨れたものを浮かべ、重く堅固なものを沈める。」\n『随筆集』第53篇「称賛について」",
+    "original": "Certainly fame is like a river, that beareth up things light and swoln, and drowns things weighty and solid.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "気候変動の偽情報投稿 国連「対策の障害に」日本も増加 注意を - NHKニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jSWI3TENicTVtcE9VdndDX2NwejVyQnBSTTFENGF0OERMZnhkSXF6TmxGUE56WkQtSkNnQ3dpV0U3cTFSSEZnNVF1VDM2MzNuanBRRHZubTB3dVcyZVJn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "E53",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T02:33:39.255974+00:00",
+    "publish_at": "2026-11-21T23:17:00+00:00",
+    "timestamp": "2026-11-21T23:17:00+00:00"
+  },
+  {
     "id": "9bd66d180d95",
     "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93eExnNTRrQkctc04yVjdhdWdWbFFJa0ZPQ0hmSGIwVjFZQ0VFekM2a2FJYkQ5bUxORXBZTHJ4clZsSUZaMW1RbE4waUFnYjB0RlVTWjlIT2xDYXl1bEtUdmUxLXY1R3NEdGk0XzgxajUtWGc?oc=5\nテレ朝NEWSは「“陰謀論系”ユーチューバー 政府『過去発言は確認せず』 政府広報に起用」と報じた。\n「必要なだけのことを知り、それでもなお自分は十分には知っていないと考えるほうが、十分に知っていると考えながら、必要なことを何一つ知らないよりもよい。」\n『ノヴム・オルガヌム』第1巻 アフォリズム126",
     "original": "Atque melius est scire quantum opus sit, et tamen nos non penitus scire putare, quam penitus scire nos putare, et tamen nil eorum quae opus est scire.",
@@ -765,46 +808,5 @@
     "generated_at": "2026-11-16T11:52:31.958242+00:00",
     "publish_at": "2026-11-17T11:17:00+00:00",
     "timestamp": "2026-11-17T11:17:00+00:00"
-  },
-  {
-    "id": "2a959d88c877",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hVVlFb241VHZQM0I5LUJ4ZXlxY1V0OElBWlc4Y0pjYUMtc0N4OVZPb1duZmw0M3JxLThKVExJeFdTalRfOHM4SXZwZEo5M0x0OHNvR29GRWVjQlNrVVlENW9Yb3Fpb2VWMkR1SC1xVFVVUkVzQklZbmN1ZDhXRDQ?oc=5\n生成AIは学習や仕事の補助ツールとされる中、活用を巡る賛否と課題が生じているという。\n「経験派は蟻のように、ただ集めて使うだけである。理論派は蜘蛛のように、自分の中から網を紡ぐ。だが蜜蜂のやり方はその中間にあり、庭や野の花から材料を集めながら、それを自らの力で変え、消化する。」\n『ノヴム・オルガヌム』第1巻 アフォリズム95",
-    "original": "Empirici, formicae more, congerunt tantum, et utuntur: rationales, aranearum more, telas ex se conficiunt: apis vero ratio media est, quae materiam ex floribus horti et agri elicit; sed tamen eam propria facultate vertit et digerit.",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 10,
-    "source": "Google News AI・研究政策",
-    "source_title": "「生成AIは学習や仕事の補助ツール」「自分で考える力の維持が重要」 - 生成AI活用を巡る賛否と課題 - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hVVlFb241VHZQM0I5LUJ4ZXlxY1V0OElBWlc4Y0pjYUMtc0N4OVZPb1duZmw0M3JxLThKVExJeFdTalRfOHM4SXZwZEo5M0x0OHNvR29GRWVjQlNrVVlENW9Yb3Fpb2VWMkR1SC1xVFVVUkVzQklZbmN1ZDhXRDQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia"
-    ],
-    "quote_id": "NO1.95",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T11:46:12.733623+00:00",
-    "publish_at": "2026-11-17T08:17:00+00:00",
-    "timestamp": "2026-11-17T08:17:00+00:00"
-  },
-  {
-    "id": "18dba86eb0f9",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KOEludEkyTU1nVG44WWRkeVRDTWlJYWpGU2J6cVpYY0lxLW5vMS0zQ2VVVU04TXlrMk9WeV92Q2xISUJta3Z2c2FUcU03cDBfUzMxUFZSRmY1MEM3S2NLYzFvZDNZdElvMjFYLVRjYzRKVGItYlVIbkZMaGRqZVU?oc=5\n山陽新聞は「偽・誤情報に注意 ＳＮＳ、救助に支障」と報じた。\n「人間の知性をすでに占拠し、そこに深く根を張ったイドラと誤った観念は、人の心を包囲して、真理への入口を狭く険しいものにする。」\n『ノヴム・オルガヌム』第1巻 アフォリズム38",
-    "original": "Idola et notiones falsae, quae intellectum humanum jam occuparunt atque in eo alte haerent, non solum mentes hominum ita obsident, ut veritati aditus difficilis pateat …",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "偽・誤情報に注意 ＳＮＳ、救助に支障 - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KOEludEkyTU1nVG44WWRkeVRDTWlJYWpGU2J6cVpYY0lxLW5vMS0zQ2VVVU04TXlrMk9WeV92Q2xISUJta3Z2c2FUcU03cDBfUzMxUFZSRmY1MEM3S2NLYzFvZDNZdElvMjFYLVRjYzRKVGItYlVIbkZMaGRqZVU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama"
-    ],
-    "quote_id": "NO1.38",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-16T11:36:53.043480+00:00",
-    "publish_at": "2026-11-17T05:17:00+00:00",
-    "timestamp": "2026-11-17T05:17:00+00:00"
   }
 ]
