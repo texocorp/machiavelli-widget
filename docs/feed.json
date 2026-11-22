@@ -1,5 +1,46 @@
 [
   {
+    "id": "3b5bc98a642e",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Wd2RGNFFXanN5aWNJX1haUkRHcGgtcE1vQmdSdlJZSFRLa2VjaTlSQWpsRXExcUkwVEV6bXpVUUJ1bzMtWlZtQ0tvZUFNMERvUzFpZFJjRFlxVTZReExOWlU3eVUyenpLNDZOVU5kY2pFSzdpNHc?oc=5\n日米同盟は日本の自律的防衛を前提としており、摩擦と競争の時代を数十年にわたって迎えているという。\n「真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。」\n『リウィウス論 II.30』",
+    "theme": "alleanze_dipendenza",
+    "score": 10,
+    "source": "Google News 検索 安全保障",
+    "source_title": "日米同盟は日本の自律的防衛が前提に 摩擦と競争の時代、数十年続く 細谷雄一慶応大教授 岐路の国防 キーマンに聞く - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Wd2RGNFFXanN5aWNJX1haUkRHcGgtcE1vQmdSdlJZSFRLa2VjaTlSQWpsRXExcUkwVEV6bXpVUUJ1bzMtWlZtQ0tvZUFNMERvUzFpZFJjRFlxVTZReExOWlU3eVUyenpLNDZOVU5kY2pFSzdpNHc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza",
+      "armi_proprie"
+    ],
+    "quote_id": "D2.30",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T23:59:26.043591+00:00",
+    "publish_at": "2026-11-22T21:17:00+00:00",
+    "timestamp": "2026-11-22T21:17:00+00:00"
+  },
+  {
+    "id": "850f0e1ed5b8",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lNktlUG1xWG5NV3Zuanh0cXhoMWt3MFRTSUhmZGFiMkJVWjVUdG9mVVVsU0dhZDQwSlEtM2luQXYyaHUzMHVxUmtUU3NxYkI0b0RIc0QwUnA5MDVBaWpUNkM4emxrOFBLbGRRQQ?oc=5\n金正恩氏はトランプ氏の誘いに動かず、米朝交渉の主導権を揺るがす姿勢を見せたという。\n「人はしばしば、謙譲によって傲慢に打ち勝てると信じて誤る。」\n『リウィウス論 II.14』",
+    "theme": "paura_amore",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "金正恩氏、トランプ氏の誘いに動かず 揺らぐ米朝交渉の主導権 - 日本経済新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lNktlUG1xWG5NV3Zuanh0cXhoMWt3MFRTSUhmZGFiMkJVWjVUdG9mVVVsU0dhZDQwSlEtM2luQXYyaHUzMHVxUmtUU3NxYkI0b0RIc0QwUnA5MDVBaWpUNkM4emxrOFBLbGRRQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "paura_amore",
+      "inganno_simulazione",
+      "economia"
+    ],
+    "quote_id": "D2.14",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-21T23:46:28.841561+00:00",
+    "publish_at": "2026-11-22T18:17:00+00:00",
+    "timestamp": "2026-11-22T18:17:00+00:00"
+  },
+  {
     "id": "98605618e5ec",
     "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YMTZCR0JnSm51d0E0WVA2a2NjcHQ5Q2x0TDZCWFpEWEhyb001MjJsY1ByZE56RFJsV3RUem4xNkRRUjNpeVl1SWhfb3FIZm84UE9LUFNDWnMtYVluNzdYSHJVQQ?oc=5\nトランプ氏は討議中に居眠りをし、報道陣から失笑を買ったという。\n「誰もが汝の外見を見るが、汝の実像を知る者はわずかである。」\n『君主論 cap.XVIII』",
     "theme": "inganno_simulazione",
@@ -718,44 +759,5 @@
     "generated_at": "2026-11-17T13:52:27.923490+00:00",
     "publish_at": "2026-11-18T06:17:00+00:00",
     "timestamp": "2026-11-18T06:17:00+00:00"
-  },
-  {
-    "id": "4095be79f2db",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOQV9fX1lVRzVLTkFEUkJKY3R1VlA1bUsyYWRUSG9lU2dWckNQWjU5MDA0Z29hZHFMbVlueXVkMjdKdzR1d1dsTVFfTjZoWk5jR0JmUDVHVkxtUnFIVC1FaWRB?oc=5\nエストニアはロシアとの国境閉鎖を決め、無人機製造企業の放火事件で露が関与する疑いがあるという。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "エストニアがロシアとの国境閉鎖へ、無人機製造企業の放火に露が関与か…首相「脅迫には屈しない」 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOQV9fX1lVRzVLTkFEUkJKY3R1VlA1bUsyYWRUSG9lU2dWckNQWjU5MDA0Z29hZHFMbVlueXVkMjdKdzR1d1dsTVFfTjZoWk5jR0JmUDVHVkxtUnFIVC1FaWRB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D2.19",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T04:15:18.832630+00:00",
-    "publish_at": "2026-11-18T03:17:00+00:00",
-    "timestamp": "2026-11-18T03:17:00+00:00"
-  },
-  {
-    "id": "20029f5dcc70",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41MzBzQ0xoYW5RU0JIbmtZUEs1TE5la2prTjUtN1piSDB4X25fVjhuLUNkLTVNYTlWdFhFSUFDTFlaTTdGcldCMU5uUjRaLUNnZkFuTU5BREJLeTZiV1lObkR2QTY5UjVOd0VKLQ?oc=5\nウクライナはロシアに対して開戦後最大の無人機攻撃を行い、ロシア国防省が発表した。\n「新旧を問わず、あらゆる国家の主たる土台は、良き法と良き軍備である。」\n『君主論 cap.XII』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナ、ロシアに開戦後最大の無人機攻撃＝ロ国防省 - Infoseek",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41MzBzQ0xoYW5RU0JIbmtZUEs1TE5la2prTjUtN1piSDB4X25fVjhuLUNkLTVNYTlWdFhFSUFDTFlaTTdGcldCMU5uUjRaLUNnZkFuTU5BREJLeTZiV1lObkR2QTY5UjVOd0VKLQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "armi_proprie"
-    ],
-    "quote_id": "P12a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T04:12:08.164966+00:00",
-    "publish_at": "2026-11-18T00:17:00+00:00",
-    "timestamp": "2026-11-18T00:17:00+00:00"
   }
 ]
