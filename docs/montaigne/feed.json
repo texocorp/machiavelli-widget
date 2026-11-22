@@ -1,5 +1,44 @@
 [
   {
+    "id": "a866770bfd4b",
+    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BQzF3TnBFNWt6dF9XY0tnNmdGb1c1Z1ZLQ1hxZThiZmtINWx5c2E2dFBsenpFeTFNd3BZMXVsY1lqaTN3ZzJiOEp0eVk2UQ?oc=5\n高知のトップメーカーが開発した樹脂製ブリッジが保険適用となり、5ヶ月で8万個売れた。\n「健康へ導いてくれる道ならば、どんな道であれ、私にとって険しすぎることも高すぎることもない。」\n『エセー II.37「子が父に似ることについて」』",
+    "theme": "medecine",
+    "score": 2,
+    "source": "Google News 国内",
+    "source_title": "なぜヒット？ 銀歯を“白い歯”に 患者「きれいな歯になった」保険適用の樹脂製ブリッジ《シンボー》高知のトップメーカー開発、5カ月で8万個売れたワケ - FNNプライムオンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BQzF3TnBFNWt6dF9XY0tnNmdGb1c1Z1ZLQ1hxZThiZmtINWx5c2E2dFBsenpFeTFNd3BZMXVsY1lqaTN3ZzJiOEp0eVk2UQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "presomption"
+    ],
+    "quote_id": "II.37c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T06:59:44.462767+00:00",
+    "publish_at": "2026-11-23T04:17:00+00:00",
+    "timestamp": "2026-11-23T04:17:00+00:00"
+  },
+  {
+    "id": "d8ae091c9ac5",
+    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3TlR5NTVqbk1DTkJEWWh0X3FNYWNCOUw5XzVpeWtqaHktOXVEaXdoRFF2Uy1RbVVDTXFVUndrZTR4VWctUENyRk8tdVp1bjQ?oc=5\nサンマルクが以前の大成功から大失速した理由は、『外国人客だらけの牛カツチェーン』という足かせになったからだという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 世相",
+    "source_title": "純利益44％減のサンマルク「外国人客だらけの牛カツチェーン」足かせに…217億円買収で大成功から一転「大失速の理由」 - 現代ビジネス",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3TlR5NTVqbk1DTkJEWWh0X3FNYWNCOUw5XzVpeWtqaHktOXVEaXdoRFF2Uy1RbVVDTXFVUndrZTR4VWctUENyRk8tdVp1bjQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui",
+      "profit",
+      "inconstance"
+    ],
+    "quote_id": "II.1b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T06:57:25.693298+00:00",
+    "publish_at": "2026-11-23T01:17:00+00:00",
+    "timestamp": "2026-11-23T01:17:00+00:00"
+  },
+  {
     "id": "39acacd99e55",
     "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KWWN0X3Q5WHFHLU05VnV5Vk1zaEg3OFRJX3ZETGFKeWRMdENzTDVNVlh0Rmh3VWZ5eW9ZbVYzaUNCMTNiVmpvRGFvQ2ZObnRVOWlVWDBR?oc=5\n行橋市定例会で職員へのカスハラ対策条例案が提案されるという。\n「法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。」\n『エセー III.13「経験について」』",
     "theme": "lois",
@@ -669,43 +708,5 @@
     "generated_at": "2026-11-17T14:42:37.077178+00:00",
     "publish_at": "2026-11-18T13:17:00+00:00",
     "timestamp": "2026-11-18T13:17:00+00:00"
-  },
-  {
-    "id": "7dab5efce090",
-    "text": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WYzlQU1gtc0o3bTJrNG5iMWRLRnRUZi1COFhhVUxXZldwVnduR0JWeUo0WEt1aVYzVjdkUXh2VTl6TnZBY2JlbjBUcUY?oc=5\n職員の負担軽減とカスハラ対策を両立するため、遠隔接客やAIを活用した新たな窓口運営が始まったという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
-    "theme": "presomption",
-    "score": 4,
-    "source": "Google News 検索 職場",
-    "source_title": "職員の負担軽減とカスハラ対策を両立！遠隔接客・AIを活用した新たな窓口運営 - ジチタイワークスWEB",
-    "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WYzlQU1gtc0o3bTJrNG5iMWRLRnRUZi1COFhhVUxXZldwVnduR0JWeUo0WEt1aVYzVjdkUXh2VTl6TnZBY2JlbjBUcUY?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption",
-      "nouveaute"
-    ],
-    "quote_id": "III.8a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:38:46.881641+00:00",
-    "publish_at": "2026-11-18T10:17:00+00:00",
-    "timestamp": "2026-11-18T10:17:00+00:00"
-  },
-  {
-    "id": "86a80a5497fe",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQUdsVWR6TFVqRVpranJOLUVqVnlvZ05tVWNFTkhaQ1dhSmdBUmpBckdxWEFKRGRXczltN1J2aWE5Sl93SXRCT053QjZJVUtwR1FCdmkxVlBoNm5BV1RGQWdFNUs4bG90MUlxeFFfZUdkd1Y4WDUyUG9od0NWWkk?oc=5\n親子間で、親の老後資金と子供の援助、教育費と家計の将来など、経済的支援に関する価値観の違いが浮き彫りになっている。\n「自然から生まれると我々が言う良心の掟は、実は慣習から生まれる。」\n『エセー I.23「慣習について」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "「親の老後資金と子供への援助のバランス」「教育費のかけ方と家計の将来」 - 親子間の経済的支援をめぐる価値観の違い - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DQUdsVWR6TFVqRVpranJOLUVqVnlvZ05tVWNFTkhaQ1dhSmdBUmpBckdxWEFKRGRXczltN1J2aWE5Sl93SXRCT053QjZJVUtwR1FCdmkxVlBoNm5BV1RGQWdFNUs4bG90MUlxeFFfZUdkd1Y4WDUyUG9od0NWWkk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "soi"
-    ],
-    "quote_id": "I.23b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:32:21.583338+00:00",
-    "publish_at": "2026-11-18T07:17:00+00:00",
-    "timestamp": "2026-11-18T07:17:00+00:00"
   }
 ]
