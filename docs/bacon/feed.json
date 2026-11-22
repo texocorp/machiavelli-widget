@@ -1,5 +1,67 @@
 [
   {
+    "id": "cc673588bdca",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96cG9UdW5UOTZ1amlaQ2RkNHpHVTdZVi1FZldKbk9xVGdZVV9ZR3U5VFRvM1JIVTNvMmVqS1RxSnNOZllicjhNTDBoQXdsR3Y0aUxrWmJVZFMwVWY1VWc2aXpUMkVGTXc?oc=5\n神戸新聞は「日々小論＞生成ＡＩと選挙 報道部長・永田憲亮|オピニオン」と報じた。\n「ところが学者たちは、まことに怠惰で安易にも、経験についての噂、いわばその風評やそよ風を、自説を打ち立て裏づけるために取り込み、しかもそれに正規の証言の重みを与えてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム98",
+    "original": "Sed contra homines docti (supini sane et faciles) rumores quosdam experientiae, et quasi famas et auras ejus, ad philosophiam suam vel constituendam vel confirmandam exceperunt, atque illis nihilominus pondus legitimi testimonii attribuerunt.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News AI・研究政策",
+    "source_title": "日々小論＞生成ＡＩと選挙 報道部長・永田憲亮|オピニオン - 神戸新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96cG9UdW5UOTZ1amlaQ2RkNHpHVTdZVi1FZldKbk9xVGdZVV9ZR3U5VFRvM1JIVTNvMmVqS1RxSnNOZllicjhNTDBoQXdsR3Y0aUxrWmJVZFMwVWY1VWc2aXpUMkVGTXc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "NO1.98",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T16:33:46.771419+00:00",
+    "publish_at": "2026-11-23T14:17:00+00:00",
+    "timestamp": "2026-11-23T14:17:00+00:00"
+  },
+  {
+    "id": "132aaf48a320",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zZVdicFNkd3pNR20xdV9yRTByYnRVQVVzaWJEblB3YXNUSDJ4V0RlRm1Xeno3cERkUTVaSWZkdXhwWl9hOHM5MTBIZHhKeWRZanJBQ1M0a1ZqenlrT0pnN0xB?oc=5\nSNSでクマの偽動画が広がり、生成AIを使ってニュース映像を模倣している。\n「人間の知性は、一挙に、しかも突然に心を打ち、入り込んでくるものによって最も動かされる。想像力はそうしたものによって満たされ、膨らまされるのが常である。」\n『ノヴム・オルガヌム』第1巻 アフォリズム47",
+    "original": "Intellectus humanus illis, quae simul et subito mentem ferire et subire possunt, maxime movetur; a quibus phantasia impleri et inflari consuevit …",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News AI・研究政策",
+    "source_title": "ＳＮＳで広がるクマの偽動画 生成ＡＩでニュース映像を模倣 - 秋田魁新報電子版",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zZVdicFNkd3pNR20xdV9yRTByYnRVQVVzaWJEblB3YXNUSDJ4V0RlRm1Xeno3cERkUTVaSWZkdXhwWl9hOHM5MTBIZHhKeWRZanJBQ1M0a1ZqenlrT0pnN0xB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "potentia"
+    ],
+    "quote_id": "NO1.47",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T16:23:56.113664+00:00",
+    "publish_at": "2026-11-23T11:17:00+00:00",
+    "timestamp": "2026-11-23T11:17:00+00:00"
+  },
+  {
+    "id": "34be54b31af2",
+    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lOExyd3o5UGE0eFZjeXJ4a0pRM1RhTldUS3E1Um1PWWwwOVIyZXMxclN2akZvamVQR1N6Y3ZkX2FQYlBiOWZBSldxN1ZGd2Rld3VIb3BJVlRnRTRJ?oc=5\n「フランコ・コラピント SNS誹謗中傷の撲滅へFIAに支援要請 - F1-Gate.com」と報じられた。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
+    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News SNS・報道",
+    "source_title": "フランコ・コラピント SNS誹謗中傷の撲滅へFIAに支援要請 - F1-Gate.com",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lOExyd3o5UGE0eFZjeXJ4a0pRM1RhTldUS3E1Um1PWWwwOVIyZXMxclN2akZvamVQR1N6Y3ZkX2FQYlBiOWZBSldxN1ZGd2Rld3VIb3BJVlRnRTRJ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E15a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T15:49:07.921601+00:00",
+    "publish_at": "2026-11-23T08:17:00+00:00",
+    "timestamp": "2026-11-23T08:17:00+00:00"
+  },
+  {
     "id": "ec0ef798d896",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wRnJSVTJwenFhTkdFWXdkLVJtUU9CV2l2QjNIeE1DTEp4VkcweEpZVWZDVXpVWkhsN3JUdUxvQXhOZ3JXMGt2ZW5WSzFrak9VaHFNY0RqV1gybXBJeS1r?oc=5\n陰謀論系YouTuberが『ナオキマンを政府広報に起用』を本当に全否定すべきなのかについて議論しているという。\n「迷信を避けることのうちにも迷信がある。かつて受け容れられていた迷信から最も遠ざかれば最善だと、人が考えるときである。」\n『随筆集』第17篇「迷信について」",
     "original": "There is a superstition in avoiding superstition, when men think to do best, if they go furthest from the superstition, formerly received …",
@@ -740,67 +802,5 @@
     "generated_at": "2026-11-17T23:44:34.825737+00:00",
     "publish_at": "2026-11-18T23:17:00+00:00",
     "timestamp": "2026-11-18T23:17:00+00:00"
-  },
-  {
-    "id": "578f4a6f1cb0",
-    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fUDhDb0pzeG1udVBTT0U1ZllXYVAxMXByR0pSeFR0ZHBHemhGZG01bkJCVy1hUUVvSUlOVERIZlNpMHRIelVwRG44M0hpTkZBb1loZmNLc25hZEMyNnBmTFVNYjRVdw?oc=5\n日刊ゲンダイDIGITALは「『高市首相が天皇末裔説』を発信の陰謀論系ユーチューバーに税金1.5億円…また政府広報が大炎上！」と報じた。\n「ひとたび嫉妬が国家に入り込むと、それはその最良の行いさえも中傷し、悪臭へと変えてしまう。」\n『随筆集』第9篇「嫉妬について」",
-    "original": "… so when envy is gotten once into a state, it traduceth even the best actions thereof, and turneth them into an ill odor.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「高市首相が天皇末裔説」を発信の陰謀論系ユーチューバーに税金1.5億円…また政府広報が大炎上！ - 日刊ゲンダイDIGITAL",
-    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fUDhDb0pzeG1udVBTT0U1ZllXYVAxMXByR0pSeFR0ZHBHemhGZG01bkJCVy1hUUVvSUlOVERIZlNpMHRIelVwRG44M0hpTkZBb1loZmNLc25hZEMyNnBmTFVNYjRVdw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E9b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T23:24:46.541000+00:00",
-    "publish_at": "2026-11-18T20:17:00+00:00",
-    "timestamp": "2026-11-18T20:17:00+00:00"
-  },
-  {
-    "id": "caea4ae62084",
-    "text": "https://news.google.com/rss/articles/CBMigwZBVV95cUxPQ3poLTBlV01LenZ4MU5scXVPRW1OeFd0ZHRwak9Yd09MbDBXYlFlcjlEWFViWkQ0WURKcjlBTHJHUlpSZ1pfVmE5SFotX01uSW03bnpOTlhpa3NFd0R2Wnpxa1NsYTVaRFFkOWVSd0hHeUd5ZEp5eC05OFZUcDBkYkJCS0lsZWpBckVieEpJRjJoeEVEek5nNGRZZ1lDclNvQzF6NmV4RVdDOWdTVm0xalVnUTB2MTY1R2VjcHdYWUtsQXk2RkNjTERsUFgxekttRFJjLXk5QzRudnY1T2JETzZXbjdyRkh3WDhMeElWZEdHWFRhczRBbmU3ckc1N09JdUFISGpWcVl2d1dqMnhha0NCUksyZ0llUnJCMHZjbzRzMzlTSlpIQUg2ajY5SmxFNWZOMTgwLS05QWM1SmxOUjdVVkZEa2J0cU4xdDA5dWpkdzFJZ0VXX3E5TGNuVDZNaG5Xa0Z2UFdjOXRUWE1OY0E1Q3dwdGdrVWJOdUVtdHY3R3FZd1BCU2pqU3NvUG5reXhYbGNXdTBLOFg0c2tKRVpaWXdPd3VhZFMyVjR0Wm1OSHNVUWhHeEZIVzhSaTJuRFRSamtFQXJtNVg0bU81S01FTlNRUnh2UXNrMDkyVmxhckpyTUlROVA2bXRIVjJCc2ZZcjRtSHRmZGJWWkdyX01YaUpETmQ4MUVNV3M3RjdYX2Q0Y1dRVWo1aUZkUzYydVItdnVSeS0tUFVXekN4S0F6Vk9UWDRoWVFYdzFHNWtvVm5XZjAwdkFoRXZIcmxjbkVvTXZUenR3dGplQXNQVzF3MmtQLVlaaUJBNjJHNmtNWEhMT2JWWUVYRFR6eS1jOWNEVW9jenBGX2wwSFA5ZFVuV3Fjb2ZfQjljUkxlX25tOTBTeGVvT0lGSGhhWXY5OVo1VFlHSVgtak1OZmVBTnpjeFIyWTFQVjlHdHdDOGZCbU9vdWRTbi0xbkhoc09kdWwwSllWUDd3ZlBBUThOTTVLSEx5aDJNRWlBVXZuQUNxb1E?oc=5\n高市政権が国民に対して偽情報対策を呼びかけた一方で、自らの発言や政府の説明には疑惑があった。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
-    "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "高市政権の「ザ・おまいう」！ 国民に「ま・さ・か」と偽情報対策を呼びかける一方…自らの発言と政府説明は疑惑だらけ | スマートニュース - SmartNews",
-    "source_url": "https://news.google.com/rss/articles/CBMigwZBVV95cUxPQ3poLTBlV01LenZ4MU5scXVPRW1OeFd0ZHRwak9Yd09MbDBXYlFlcjlEWFViWkQ0WURKcjlBTHJHUlpSZ1pfVmE5SFotX01uSW03bnpOTlhpa3NFd0R2Wnpxa1NsYTVaRFFkOWVSd0hHeUd5ZEp5eC05OFZUcDBkYkJCS0lsZWpBckVieEpJRjJoeEVEek5nNGRZZ1lDclNvQzF6NmV4RVdDOWdTVm0xalVnUTB2MTY1R2VjcHdYWUtsQXk2RkNjTERsUFgxekttRFJjLXk5QzRudnY1T2JETzZXbjdyRkh3WDhMeElWZEdHWFRhczRBbmU3ckc1N09JdUFISGpWcVl2d1dqMnhha0NCUksyZ0llUnJCMHZjbzRzMzlTSlpIQUg2ajY5SmxFNWZOMTgwLS05QWM1SmxOUjdVVkZEa2J0cU4xdDA5dWpkdzFJZ0VXX3E5TGNuVDZNaG5Xa0Z2UFdjOXRUWE1OY0E1Q3dwdGdrVWJOdUVtdHY3R3FZd1BCU2pqU3NvUG5reXhYbGNXdTBLOFg0c2tKRVpaWXdPd3VhZFMyVjR0Wm1OSHNVUWhHeEZIVzhSaTJuRFRSamtFQXJtNVg0bU81S01FTlNRUnh2UXNrMDkyVmxhckpyTUlROVA2bXRIVjJCc2ZZcjRtSHRmZGJWWkdyX01YaUpETmQ4MUVNV3M3RjdYX2Q0Y1dRVWo1aUZkUzYydVItdnVSeS0tUFVXekN4S0F6Vk9UWDRoWVFYdzFHNWtvVm5XZjAwdkFoRXZIcmxjbkVvTXZUenR3dGplQXNQVzF3MmtQLVlaaUJBNjJHNmtNWEhMT2JWWUVYRFR6eS1jOWNEVW9jenBGX2wwSFA5ZFVuV3Fjb2ZfQjljUkxlX25tOTBTeGVvT0lGSGhhWXY5OVo1VFlHSVgtak1OZmVBTnpjeFIyWTFQVjlHdHdDOGZCbU9vdWRTbi0xbkhoc09kdWwwSllWUDd3ZlBBUThOTTVLSEx5aDJNRWlBVXZuQUNxb1E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fori"
-    ],
-    "quote_id": "E1b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T22:56:59.690863+00:00",
-    "publish_at": "2026-11-18T17:17:00+00:00",
-    "timestamp": "2026-11-18T17:17:00+00:00"
-  },
-  {
-    "id": "8177c86629c6",
-    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iX2ZsVHVpcnJkeWtTcVJVUEhmUzlmOG8yRE5PQTR5cHAxa2FKbERYVEoyVWZhSjlYaDRocjhzcXoxRXIzMDkwSkVIZFJqd0d6WGFLWlNxTnkwVkZK?oc=5\n卓栄泰行政院長が、資金やディープフェイク動画などによる選挙介入に対して厳重警戒を指示した。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
-    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "卓栄泰・行政院長、資金やディープフェイク動画などによる選挙介入の厳重警戒を指示 - Rti 中央廣播電臺",
-    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iX2ZsVHVpcnJkeWtTcVJVUEhmUzlmOG8yRE5PQTR5cHAxa2FKbERYVEoyVWZhSjlYaDRocjhzcXoxRXIzMDkwSkVIZFJqd0d6WGFLWlNxTnkwVkZK?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio"
-    ],
-    "quote_id": "E15a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T15:00:58.340664+00:00",
-    "publish_at": "2026-11-18T14:17:00+00:00",
-    "timestamp": "2026-11-18T14:17:00+00:00"
   }
 ]
