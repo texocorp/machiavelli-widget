@@ -1,5 +1,64 @@
 [
   {
+    "id": "2d6c2ea26fe0",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aLXZMWXRmakFPYzZGcHVKV2J5NldubGZIOE1aRWpSM3ZRRG1XbENwLWtKZXM4X1dURS01MURtZUxTNnFhQVBoejRubW8wT0t0aEdtVzk3NVZDQkdEa2diOWF0ZGl5VGh5QXdmOFdWNExqQTZLV2NCbWpn?oc=5\nリビアで停泊していたロシア軍艦が攻撃を受け、ウクライナによるドローンを使った長距離攻撃であるとの指摘もある。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "リビア停泊中のロシア軍艦に攻撃 ウクライナのドローンによる長距離攻撃の指摘も - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aLXZMWXRmakFPYzZGcHVKV2J5NldubGZIOE1aRWpSM3ZRRG1XbENwLWtKZXM4X1dURS01MURtZUxTNnFhQVBoejRubW8wT0t0aEdtVzk3NVZDQkdEa2diOWF0ZGl5VGh5QXdmOFdWNExqQTZLV2NCbWpn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D2.19",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T21:06:39.753085+00:00",
+    "publish_at": "2026-11-23T18:17:00+00:00",
+    "timestamp": "2026-11-23T18:17:00+00:00"
+  },
+  {
+    "id": "61117571a152",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9waDhrWklTUHlqQU5KUXJHNzY0eWRwaTJxaGhGclB0SGVmemtoUmNRSkgyNXpvSDRWckhwRWRWRzVZTXF4LTdCWmN0Y1J2czJsMk5OY2hXZ19lUQ?oc=5\n11月30日から始まる核兵器禁止条約の第1回再検討会議で、核抑止に対抗する道筋が焦点となっているという。\n「愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。」\n『君主論 cap.XVII』",
+    "theme": "paura_amore",
+    "score": 10,
+    "source": "Google News 検索 安全保障",
+    "source_title": "核抑止に対抗の道筋焦点 11月30日から核兵器禁止条約第1回再検討会議 - 中国新聞デジタル",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9waDhrWklTUHlqQU5KUXJHNzY0eWRwaTJxaGhGclB0SGVmemtoUmNRSkgyNXpvSDRWckhwRWRWRzVZTXF4LTdCWmN0Y1J2czJsMk5OY2hXZ19lUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "paura_amore",
+      "alleanze_dipendenza",
+      "armi_proprie"
+    ],
+    "quote_id": "PA1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T20:18:39.906540+00:00",
+    "publish_at": "2026-11-23T15:17:00+00:00",
+    "timestamp": "2026-11-23T15:17:00+00:00"
+  },
+  {
+    "id": "c177ab6ad0c3",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVDZlamRvbXJrZGR5cU00MEphNEVSYThKMEdDYXNwbjIwUUtmYlVJRGFIY3FMR09KZnN0dkFnaXFvUzQtOUNCYm0wNF9nV2FidEZSS0lwWkhFc092azVfLS0tdmlpMi1GMlFwNjR2OWQwUmJWcm1HYm5TOHg3Wm9PSlFnUXoydw?oc=5\nフィンランド領海でロシア貨物船への無人機攻撃があり、ウクライナ関与が疑われているという。\n「敵の利となることは汝を害し、汝の利となることは敵を害する。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシア貨物船に無人機攻撃、ウクライナ関与か フィンランド領海で火災 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVDZlamRvbXJrZGR5cU00MEphNEVSYThKMEdDYXNwbjIwUUtmYlVJRGFIY3FMR09KZnN0dkFnaXFvUzQtOUNCYm0wNF9nV2FidEZSS0lwWkhFc092azVfLS0tdmlpMi1GMlFwNjR2OWQwUmJWcm1HYm5TOHg3Wm9PSlFnUXoydw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T19:51:55.820156+00:00",
+    "publish_at": "2026-11-23T12:17:00+00:00",
+    "timestamp": "2026-11-23T12:17:00+00:00"
+  },
+  {
     "id": "f03a11ae9f21",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUemJCUGROem90T09RLVFPQXBxMlRrazFSMUp0OTBfVFYyMkdSRWNfTE9hOUFxVkhOWXlMaTBDR05EUWlCUTBzWmlqRC14S3VRdnpuc0JOamUteVFoMjVvSnh2LXZNNFBGWU9DWWJodEdLSldaaFQ3dmpZYzVXMWc?oc=5\nプーチン氏は第2のヤルタを実現できず、史上初の米中露首脳会談はロシアにとって失敗となったという。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
     "theme": "guerra",
@@ -703,46 +762,5 @@
     "generated_at": "2026-11-18T04:41:08.196938+00:00",
     "publish_at": "2026-11-19T03:17:00+00:00",
     "timestamp": "2026-11-19T03:17:00+00:00"
-  },
-  {
-    "id": "23807f6d039c",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFRmRSbXZ6LUNyY3ZXYkJuTkVLbERON3RjbEhwZ1Q3TlhNY3BOb1VqbmRySmV0ZG9nSWhBMENWZkZMc3Y5NDJHZnVLcGxtb2JKZkVpSkYyTERGMFVhczFlbndoNA?oc=5\n米軍はイランのケシム島を攻撃し、革命防衛隊のミサイル施設への報復行動を引き起こしたという。\n「優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 19,
-    "source": "Google News 国際(World)",
-    "source_title": "米軍がイラン・ケシム島攻撃 革命防衛隊ミサイル施設に報復 - 時事ドットコム",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFRmRSbXZ6LUNyY3ZXYkJuTkVLbERON3RjbEhwZ1Q3TlhNY3BOb1VqbmRySmV0ZG9nSWhBMENWZkZMc3Y5NDJHZnVLcGxtb2JKZkVpSkYyTERGMFVhczFlbndoNA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "AG11",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T04:20:36.267310+00:00",
-    "publish_at": "2026-11-19T00:17:00+00:00",
-    "timestamp": "2026-11-19T00:17:00+00:00"
-  },
-  {
-    "id": "e2e7abdedda3",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnktWGhDZjU2MEU4ekE4VGtnUWY5akNMTDNudGhscEhxODhTTWwwbTA5TUY0bkJSLXpWS3FkTEtONGlxVlNSV3ZXRXlfbDRMUEFxdXlGQ0otejRkZWMwekNwMjNjbTRLQTNQc3VkWjlWUFVUZXVZWWFvbTQyVXdSMUFuNTR5QTQ?oc=5\nイランがバーレーンの米軍施設を攻撃し、仲介国との協議が続いている。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、バーレーンの米軍施設攻撃 仲介国と協議続く中でも - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnktWGhDZjU2MEU4ekE4VGtnUWY5akNMTDNudGhscEhxODhTTWwwbTA5TUY0bkJSLXpWS3FkTEtONGlxVlNSV3ZXRXlfbDRMUEFxdXlGQ0otejRkZWMwekNwMjNjbTRLQTNQc3VkWjlWUFVUZXVZWWFvbTQyVXdSMUFuNTR5QTQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "AG3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T22:37:14.767762+00:00",
-    "publish_at": "2026-11-18T21:17:00+00:00",
-    "timestamp": "2026-11-18T21:17:00+00:00"
   }
 ]
