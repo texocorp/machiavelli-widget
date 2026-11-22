@@ -1,5 +1,63 @@
 [
   {
+    "id": "f55214f67d08",
+    "text": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmFYUTZQOTlVamJYWnA3VW9va093b0pMdkVWZ3dqR3JfanRyeGt6UzFMT3lhRXhMLU9fWlJvd0xRYzA5NUNaamxiMEo0dGFVeHYyeklnUDN5bFJNS1kwRFZiNXVZWTFKV2dXWnhvMmFHaXY1d0t3dklxSmpVNWVlVHdCTXp1UERxM2Zrdm9BakRQMUZmc0RVZ1B0NGdDZXpOcGk3Rl9mejVVUE1VVUE?oc=5\n市場の噂として、米証券取引委員会はエヌビディアの会計慣行を調査するとのことである。\n「一人の誤りがまず世間の誤りをつくり、次には世間の誤りが一人一人の誤りをつくる。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "opinion",
+    "score": 1,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "市場の噂：米証券取引委員会、エヌビディアの会計慣行を調査 - Moomoo",
+    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmFYUTZQOTlVamJYWnA3VW9va093b0pMdkVWZ3dqR3JfanRyeGt6UzFMT3lhRXhMLU9fWlJvd0xRYzA5NUNaamxiMEo0dGFVeHYyeklnUDN5bFJNS1kwRFZiNXVZWTFKV2dXWnhvMmFHaXY1d0t3dklxSmpVNWVlVHdCTXp1UERxM2Zrdm9BakRQMUZmc0RVZ1B0NGdDZXpOcGk3Rl9mejVVUE1VVUE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "profit",
+      "coutume"
+    ],
+    "quote_id": "III.11b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T15:26:30.247108+00:00",
+    "publish_at": "2026-11-23T13:17:00+00:00",
+    "timestamp": "2026-11-23T13:17:00+00:00"
+  },
+  {
+    "id": "f698bb5d2c77",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IcWZObzdyWUlLTl9xOXVZRFJvcE5SMXVLUkh0dE5POWJmYWZSak9EWGJESE5xZ2tsUmFySlAwQ1NhMkQtQVNCczRkUmpBYU1xa0xYVURJcnpXWGpDQUk5U0pLX21vX0k?oc=5\nロイター報道によると、SECが会計慣行を調査しており、エヌビディア株は14%下落したという。\n「まことに慣習とは、荒々しく、しかも裏切りに満ちた教師である。」\n『エセー I.23「慣習について」』",
+    "theme": "opinion",
+    "score": 1,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "エヌビディア株が14%下落、SECが会計慣行を調査とロイター報道 - TBS NEWS DIG",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IcWZObzdyWUlLTl9xOXVZRFJvcE5SMXVLUkh0dE5POWJmYWZSak9EWGJESE5xZ2tsUmFySlAwQ1NhMkQtQVNCczRkUmpBYU1xa0xYVURJcnpXWGpDQUk5U0pLX21vX0k?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "coutume"
+    ],
+    "quote_id": "I.23a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T15:24:58.044623+00:00",
+    "publish_at": "2026-11-23T10:17:00+00:00",
+    "timestamp": "2026-11-23T10:17:00+00:00"
+  },
+  {
+    "id": "97a643312ea9",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLV0RfaU03R2V1UGdVdVpIMTF5ZnF1MUlCQkthbFBGb0FTMkVTTXdQcENxMlltZWdCUURjRk1sLThTUy1IU1NOZ0xXdy1iV3hrZGw0dFJBR0tuVWZweXdsWGdKWFFGajg?oc=5\n78年ぶりに再審法が改正され、そのことを報じる報告会が行われた。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
+    "theme": "lois",
+    "score": 6,
+    "source": "Google News 検索 裁き",
+    "source_title": "再審法が78年ぶりに変わりました――「再審法改正をめざす市民の会」報告会から - クラウドファンディング - READYFOR",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLV0RfaU03R2V1UGdVdVpIMTF5ZnF1MUlCQkthbFBGb0FTMkVTTXdQcENxMlltZWdCUURjRk1sLThTUy1IU1NOZ0xXdy1iV3hrZGw0dFJBR0tuVWZweXdsWGdKWFFGajg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "nouveaute"
+    ],
+    "quote_id": "II.5",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T15:22:56.482660+00:00",
+    "publish_at": "2026-11-23T07:17:00+00:00",
+    "timestamp": "2026-11-23T07:17:00+00:00"
+  },
+  {
     "id": "a866770bfd4b",
     "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BQzF3TnBFNWt6dF9XY0tnNmdGb1c1Z1ZLQ1hxZThiZmtINWx5c2E2dFBsenpFeTFNd3BZMXVsY1lqaTN3ZzJiOEp0eVk2UQ?oc=5\n高知のトップメーカーが開発した樹脂製ブリッジが保険適用となり、5ヶ月で8万個売れた。\n「健康へ導いてくれる道ならば、どんな道であれ、私にとって険しすぎることも高すぎることもない。」\n『エセー II.37「子が父に似ることについて」』",
     "theme": "medecine",
@@ -652,61 +710,5 @@
     "generated_at": "2026-11-17T23:07:01.200693+00:00",
     "publish_at": "2026-11-18T22:17:00+00:00",
     "timestamp": "2026-11-18T22:17:00+00:00"
-  },
-  {
-    "id": "224ce78a4b16",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmOHM5aHR2OHZLU3RVTV8xVGJveE1TZkhBTFd5NnpyQlNUNm1LNk0weUs2eTZBUXY0azRwVjRzWlRQeGowUHJ5MktweE10cHJHYnJadVlweHlNTlJwSFlWd1VBVW83NTI4bjRSUFkyZkNUWFNyeWowOERkRG5hNnM?oc=5\nカナダ代表の医療陣は捻挫を診断したが、実は筋線維断裂であり、これは誤診かという。\n「人間の疫病、それは知っているという思い込みである。」\n『エセー II.12「レーモン・スボンの弁護」』",
-    "theme": "medecine",
-    "score": 4,
-    "source": "Google News 検索 医療",
-    "source_title": "カナダ代表医療陣また誤診か、捻挫診断が筋線維断裂 - 조선일보",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmOHM5aHR2OHZLU3RVTV8xVGJveE1TZkhBTFd5NnpyQlNUNm1LNk0weUs2eTZBUXY0azRwVjRzWlRQeGowUHJ5MktweE10cHJHYnJadVlweHlNTlJwSFlWd1VBVW83NTI4bjRSUFkyZkNUWFNyeWowOERkRG5hNnM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine"
-    ],
-    "quote_id": "II.12c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T23:04:59.885049+00:00",
-    "publish_at": "2026-11-18T19:17:00+00:00",
-    "timestamp": "2026-11-18T19:17:00+00:00"
-  },
-  {
-    "id": "de82363db630",
-    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MX244RmZkSklCeEZnaXd3d2FrMHVkS0MwcDJ3cmFGMWludjBkY19JYVdfYjJVS3NtQXFaSExnX0VmenRUM0FFbzhUMkdBTms?oc=5\n『ポリティカルパン』第7話でダークマネーに光を当てる共闘が、想定外の事態をもたらすという。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
-    "theme": "presomption",
-    "score": 4,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "『ポリティカルパン』第7話 “弥生”石原さとみ＆“夏目”高橋一生、ダークマネーに光を当てるべく共闘も想定外の事態 - クランクイン！",
-    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MX244RmZkSklCeEZnaXd3d2FrMHVkS0MwcDJ3cmFGMWludjBkY19JYVdfYjJVS3NtQXFaSExnX0VmenRUM0FFbzhUMkdBTms?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption",
-      "autrui"
-    ],
-    "quote_id": "I.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T23:01:58.135007+00:00",
-    "publish_at": "2026-11-18T16:17:00+00:00",
-    "timestamp": "2026-11-18T16:17:00+00:00"
-  },
-  {
-    "id": "a89ee6f355a5",
-    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wenkxSktaLUZLUHR6VDZLSXBuSG9kZndKTDhVM1psQWl6ODBsczQwd0xQdXYyMEhwQ0dXSEhXQUFVNloxZ2RWN0FBQnFIWHVKOWZxZUpTOHE4OENjNjBFVFMtdXNSY0lnQXAyZXh0d0lpb1E?oc=5\n愛知労働局は働き方改革の推進に協力を要請し、社労士会への働きかけを行っているという。\n「まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。」\n『エセー I.39「孤独について」』",
-    "theme": "nouveaute",
-    "score": 2,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "働き方改革推進で協力を 愛知労働局、社労士会に要請 - 中部経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wenkxSktaLUZLUHR6VDZLSXBuSG9kZndKTDhVM1psQWl6ODBsczQwd0xQdXYyMEhwQ0dXSEhXQUFVNloxZ2RWN0FBQnFIWHVKOWZxZUpTOHE4OENjNjBFVFMtdXNSY0lnQXAyZXh0d0lpb1E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "nouveaute",
-      "soi"
-    ],
-    "quote_id": "I.39a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:42:37.077178+00:00",
-    "publish_at": "2026-11-18T13:17:00+00:00",
-    "timestamp": "2026-11-18T13:17:00+00:00"
   }
 ]
