@@ -1,5 +1,39 @@
 [
   {
+    "id": "1a1ca13830b8",
+    "text": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBuZkhGc1R6dVNKR2U3T1YweGN5VXoyRnhBeDE2d2NrTE5HZ0hBMTR4Ti1NZjhDMzZUQ2pMSw?oc=5\n世間体は気にしないというギターボーカルが、熱狂を生むアーティストを夢に、ワンマンライブを目標に突き進むという。\n「善に向かうものであっても、度を越したものは、私を傷つけはしなくとも驚かせ、何と名づけてよいか困らせる。」\n『エセー I.30「節度について」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "世間体は気にしない。熱狂を生むアーティストを夢に、ワンマンライブを目標に突き進むギターボーカル - Steenz(スティーンズ)",
+    "source_url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBuZkhGc1R6dVNKR2U3T1YweGN5VXoyRnhBeDE2d2NrTE5HZ0hBMTR4Ti1NZjhDMzZUQ2pMSw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "I.30b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T22:01:34.145229+00:00",
+    "publish_at": "2026-11-23T19:17:00+00:00",
+    "timestamp": "2026-11-23T19:17:00+00:00"
+  },
+  {
+    "id": "1a7ce6e45df3",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwdGxpdGhpQmR0WHJ4M3VGQXlfS29rbU13YjFpVTFFUjI1V01nUU9jcFpxUnFkSTJ1TGNLWmQ2bUxKcnFXVnhEUm5iWQ?oc=5\nカスハラ撲滅に向け意見交換が行われ、防止条例の制定に向けた動きが進んでいるという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
+    "theme": "lois",
+    "score": 2,
+    "source": "Google News 検索 職場",
+    "source_title": "カスハラ撲滅！防止条例制定に向け意見交換 - TVer",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwdGxpdGhpQmR0WHJ4M3VGQXlfS29rbU13YjFpVTFFUjI1V01nUU9jcFpxUnFkSTJ1TGNLWmQ2bUxKcnFXVnhEUm5iWQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "III.8a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T21:56:38.862966+00:00",
+    "publish_at": "2026-11-23T16:17:00+00:00",
+    "timestamp": "2026-11-23T16:17:00+00:00"
+  },
+  {
     "id": "f55214f67d08",
     "text": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmFYUTZQOTlVamJYWnA3VW9va093b0pMdkVWZ3dqR3JfanRyeGt6UzFMT3lhRXhMLU9fWlJvd0xRYzA5NUNaamxiMEo0dGFVeHYyeklnUDN5bFJNS1kwRFZiNXVZWTFKV2dXWnhvMmFHaXY1d0t3dklxSmpVNWVlVHdCTXp1UERxM2Zrdm9BakRQMUZmc0RVZ1B0NGdDZXpOcGk3Rl9mejVVUE1VVUE?oc=5\n市場の噂として、米証券取引委員会はエヌビディアの会計慣行を調査するとのことである。\n「一人の誤りがまず世間の誤りをつくり、次には世間の誤りが一人一人の誤りをつくる。」\n『エセー III.11「足の不自由な人々について」』",
     "theme": "opinion",
@@ -672,43 +706,5 @@
     "generated_at": "2026-11-18T04:33:15.478792+00:00",
     "publish_at": "2026-11-19T04:17:00+00:00",
     "timestamp": "2026-11-19T04:17:00+00:00"
-  },
-  {
-    "id": "2e311404ffa0",
-    "text": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9JbTZwTGRBQWZMUFdNN3o0Y1NscEZvSVpYUy10WURZanhOSlVmcGtpNDZGNG9CUVlybGVJMnVXN3pkLTVL?oc=5\n保育士歴29年の女性が病院での低賃金を訴えた問題で、国の処遇改善が対象外となっているという。\n「(古い見解に言う)大きく正しくあろうとする者は細部で不正をなさざるをえず、大事で正義を貫こうとする者は小事で不公正をなさざるをえない。」\n『エセー III.13「経験について」』",
-    "theme": "medecine",
-    "score": 4,
-    "source": "Google News 国内",
-    "source_title": "「手取りが高卒1年目の息子と2万円差」保育士歴29年の女性が病院内保育所の低賃金訴え、9割超が認可外で国の処遇改善“対象外” - 弁護士JP",
-    "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9JbTZwTGRBQWZMUFdNN3o0Y1NscEZvSVpYUy10WURZanhOSlVmcGtpNDZGNG9CUVlybGVJMnVXN3pkLTVL?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine",
-      "profit"
-    ],
-    "quote_id": "III.13o",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T04:29:07.778002+00:00",
-    "publish_at": "2026-11-19T01:17:00+00:00",
-    "timestamp": "2026-11-19T01:17:00+00:00"
-  },
-  {
-    "id": "998b5754d9b4",
-    "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTZHEydXppOW9LcUd4VGJ3VVRENDh3Q0lSMXBLcjRUV3ZvXzVoU0VVdjBnOHNvN0dpZ2FhSm9lX3VBSUNkQ2RJdVpwU2JPaF96YTNHcDI5OTM?oc=5\nパワハラを恐れる中で広がる『育成キャンセル』は、若者たちを待ち受ける残酷な現実である。\n「役はきちんと演じねばならぬ。だが借り物の人物の役としてだ。仮面や外見を真の本質としてはならず、借り物を自分のものとしてはならぬ。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "profit",
-    "score": 2,
-    "source": "Google News 検索 職場",
-    "source_title": "「パワハラが怖いから何も言わない」…日本の職場で広がる「育成キャンセル」、若者たちを待ち受ける残酷な現実 - 現代ビジネス",
-    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTZHEydXppOW9LcUd4VGJ3VVRENDh3Q0lSMXBLcjRUV3ZvXzVoU0VVdjBnOHNvN0dpZ2FhSm9lX3VBSUNkQ2RJdVpwU2JPaF96YTNHcDI5OTM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "profit",
-      "soi"
-    ],
-    "quote_id": "III.10b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T23:07:01.200693+00:00",
-    "publish_at": "2026-11-18T22:17:00+00:00",
-    "timestamp": "2026-11-18T22:17:00+00:00"
   }
 ]
