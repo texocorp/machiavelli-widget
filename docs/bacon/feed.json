@@ -1,5 +1,47 @@
 [
   {
+    "id": "ec0ef798d896",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wRnJSVTJwenFhTkdFWXdkLVJtUU9CV2l2QjNIeE1DTEp4VkcweEpZVWZDVXpVWkhsN3JUdUxvQXhOZ3JXMGt2ZW5WSzFrak9VaHFNY0RqV1gybXBJeS1r?oc=5\n陰謀論系YouTuberが『ナオキマンを政府広報に起用』を本当に全否定すべきなのかについて議論しているという。\n「迷信を避けることのうちにも迷信がある。かつて受け容れられていた迷信から最も遠ざかれば最善だと、人が考えるときである。」\n『随筆集』第17篇「迷信について」",
+    "original": "There is a superstition in avoiding superstition, when men think to do best, if they go furthest from the superstition, formerly received …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 11,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「ナオキマンを政府広報に起用」は本当に全否定すべきなのか…「陰謀論系YouTuber」への批判で見落とされている「意外な落とし穴」 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wRnJSVTJwenFhTkdFWXdkLVJtUU9CV2l2QjNIeE1DTEp4VkcweEpZVWZDVXpVWkhsN3JUdUxvQXhOZ3JXMGt2ZW5WSzFrak9VaHFNY0RqV1gybXBJeS1r?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E17c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T07:01:14.036488+00:00",
+    "publish_at": "2026-11-23T05:17:00+00:00",
+    "timestamp": "2026-11-23T05:17:00+00:00"
+  },
+  {
+    "id": "d37cf0addb84",
+    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50eVNqMDlGQkcxYjZLWGtGM2l3a1dJb2JoSE82NkJsRmJCRVhJMktKdkVVZHZnN0J2eENYemtKYkg5Wmo3a0xQRnNlZmRldE9sS19fRVM5TTRqLVR1MjcwZm5XY0RIY2FBNlYyS19xN1JMT1hic09j?oc=5\n日本ファクトチェックセンターは「政府広報に陰謀論系YouTuberを起用/JFC記事・動画や関連記事」と報じた。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
+    "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報に陰謀論系YouTuberを起用/JFC記事・動画や関連記事 - 日本ファクトチェックセンター",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50eVNqMDlGQkcxYjZLWGtGM2l3a1dJb2JoSE82NkJsRmJCRVhJMktKdkVVZHZnN0J2eENYemtKYkg5Wmo3a0xQRnNlZmRldE9sS19fRVM5TTRqLVR1MjcwZm5XY0RIY2FBNlYyS19xN1JMT1hic09j?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "NO1.45",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-22T06:55:39.998867+00:00",
+    "publish_at": "2026-11-23T02:17:00+00:00",
+    "timestamp": "2026-11-23T02:17:00+00:00"
+  },
+  {
     "id": "cc43ba6ec3ae",
     "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuTnc0VHdzdEFoM3ZnOFRhaGgxQm4xcVZYVXpUMVJWbXVHUWt3TmVBOGs0OFM0SWQtamJlMGxHeWQ5SFcwUS14d2h5elFyOFRaN1NCaQ?oc=5\n中日新聞Webは「『生徒が外国人に連れ去られそうに』で閲覧200万回超 静岡市で誤情報が拡散した背景」と報じた。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
     "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
@@ -760,47 +802,5 @@
     "generated_at": "2026-11-17T15:00:58.340664+00:00",
     "publish_at": "2026-11-18T14:17:00+00:00",
     "timestamp": "2026-11-18T14:17:00+00:00"
-  },
-  {
-    "id": "a78d3a6f38f1",
-    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xLVNObUI4LVhMeVNKcnY1VW9sUTI1N3VCSnYtUU9hQ1JSSmRSZG1mS1FzQVppbzBIR3A5eU5Nb0x2OGctZUV3Zl80U0p5UQ?oc=5\ncokiは「ナオキマン政府広報起用で物議 陰謀論系YouTuberがまさかの『政府の顔』、オカルト界隈からも苦言」と報じた。\n「迷信の主人は民衆であり、あらゆる迷信において、賢者が愚者に従う。」\n『随筆集』第17篇「迷信について」",
-    "original": "The master of superstition, is the people; and in all superstition, wise men follow fools …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "ナオキマン政府広報起用で物議 陰謀論系YouTuberがまさかの「政府の顔」、オカルト界隈からも苦言 - coki",
-    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xLVNObUI4LVhMeVNKcnY1VW9sUTI1N3VCSnYtUU9hQ1JSSmRSZG1mS1FzQVppbzBIR3A5eU5Nb0x2OGctZUV3Zl80U0p5UQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E17b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:55:22.510334+00:00",
-    "publish_at": "2026-11-18T11:17:00+00:00",
-    "timestamp": "2026-11-18T11:17:00+00:00"
-  },
-  {
-    "id": "ec90ba63a193",
-    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xN1Z1YzNCNjhaOXpnZlNlVUluNVl1ZkZyRW85bXF6d1h1YjlFNVU3NmNxQTNUd2lQckZySHpCMHpGQk00c3hQTG41c09lN1ZJRmJDUEEtakdzWkN2?oc=5\n加害者がALICE出身ソヒに対する悪質なデマ拡散を行い、その結果として懲役1年6ヶ月の実刑判決を受けたという。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
-    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "ALICE出身ソヒへの悪質なデマ拡散、加害者に懲役1年6ヶ月の実刑判決 - Kstyle",
-    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xN1Z1YzNCNjhaOXpnZlNlVUluNVl1ZkZyRW85bXF6d1h1YjlFNVU3NmNxQTNUd2lQckZySHpCMHpGQk00c3hQTG41c09lN1ZJRmJDUEEtakdzWkN2?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E31c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-17T14:49:36.402301+00:00",
-    "publish_at": "2026-11-18T08:17:00+00:00",
-    "timestamp": "2026-11-18T08:17:00+00:00"
   }
 ]
