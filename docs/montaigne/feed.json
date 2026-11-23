@@ -1,5 +1,60 @@
 [
   {
+    "id": "ea6e2505bba2",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sYXZQb1ZPMnhhcDVPSEZueXg2QUxIUmhCLTVIQ2JqMm01V1hQWGhtbFdNbFkzRGVRWGc0b3l0b0tPWjY4a1pzMDFIZEd4cmw0dXRPT2Vn?oc=5\n推薦で早慶と一般入試でMARCH、本当に頭がいいのはどっちという大学受験の現実が浮き彫りになったという。\n「平等は、公正の第一の要素である。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "savoir",
+    "score": 0,
+    "source": "Google News 検索 教育",
+    "source_title": "「推薦で早慶」と「一般入試でMARCH」、本当に頭がいいのはどっち？ 大学受験が浮き彫りにする不公平な現実 - ダイヤモンド・オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sYXZQb1ZPMnhhcDVPSEZueXg2QUxIUmhCLTVIQ2JqMm01V1hQWGhtbFdNbFkzRGVRWGc0b3l0b0tPWjY4a1pzMDFIZEd4cmw0dXRPT2Vn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "I.20g",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T13:09:10.084412+00:00",
+    "publish_at": "2026-11-24T10:17:00+00:00",
+    "timestamp": "2026-11-24T10:17:00+00:00"
+  },
+  {
+    "id": "518d4d3c1f43",
+    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FX0dKVUtJT1ZIZDZ5VkgyWmg0VHIwaWltbXpFOVpHbjhwVXRoSUNJZFphMnVrWUphMVhkQnhyVDNWZ1B1NXJKVzVUMjQyQnh5NGExZ1cyUkQ5UmhOSUg4OQ?oc=5\n人生１００年時代と言われる今、老後のお金について考えるという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
+    "theme": "soi",
+    "score": 0,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "人生１００年時代。今から考える老後のお金 | 神野 - つながるさがし",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FX0dKVUtJT1ZIZDZ5VkgyWmg0VHIwaWltbXpFOVpHbjhwVXRoSUNJZFphMnVrWUphMVhkQnhyVDNWZ1B1NXJKVzVUMjQyQnh5NGExZ1cyUkQ5UmhOSUg4OQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T13:04:32.837498+00:00",
+    "publish_at": "2026-11-24T07:17:00+00:00",
+    "timestamp": "2026-11-24T07:17:00+00:00"
+  },
+  {
+    "id": "2026440eab91",
+    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yQ3pYTnNJRGNiX01jQThVUWJidWVrTFZXR1BGaV9UM1Z4b2FESE5zdzhpUHRMYWFjYnlOWUM4cS1pNWExdy1kSnhZWVVLRXhQYjdlMUplMU1ZaWVyUExCOUxOdThfczE3MFHSAWpBVV95cUxOMkN6WE5zSURjYl9NY0E4VVFiYnVla0xWV0dQRmlfVDNWeG9hREhOc3c4aVB0TGFhY2J5TllDOHEtaTVhMXctZEp4WVlVS0V4UGI3ZTFKZTFNWWllclBMQjlMTnU4X3MxNzBR?oc=5\n韓国トリニティ航空の乗務員は、3年間で80件の機内販売不足に対し、自費で穴埋めしたという。\n「民にその古い慣わしを侮らせるのはたやすい。それを企てて成し遂げなかった者はいない。だが壊したものの代わりに、より良い状態を打ち立てることとなると、企てた者の多くが徒労に終わった。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "profit",
+    "score": 0,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "韓国トリニティ航空、機内販売の在庫不足を乗務員が自費で穴埋め…3年間で80件、徴収を廃止へ - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yQ3pYTnNJRGNiX01jQThVUWJidWVrTFZXR1BGaV9UM1Z4b2FESE5zdzhpUHRMYWFjYnlOWUM4cS1pNWExdy1kSnhZWVVLRXhQYjdlMUplMU1ZaWVyUExCOUxOdThfczE3MFHSAWpBVV95cUxOMkN6WE5zSURjYl9NY0E4VVFiYnVla0xWV0dQRmlfVDNWeG9hREhOc3c4aVB0TGFhY2J5TllDOHEtaTVhMXctZEp4WVlVS0V4UGI3ZTFKZTFNWWllclBMQjlMTnU4X3MxNzBR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "profit",
+      "nouveaute"
+    ],
+    "quote_id": "II.17c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T12:58:11.616848+00:00",
+    "publish_at": "2026-11-24T04:17:00+00:00",
+    "timestamp": "2026-11-24T04:17:00+00:00"
+  },
+  {
     "id": "7460a058ed8a",
     "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44aXh3TG04aGprbmNqakVnRVA1WkpqeUpZeFQtaWVrT1pvclJ3ZFR0QUo4N0stZG9xWlpZTGN4djBGNG9UODBKWVZXMnBUdXA4TGhSOW5jbFVuVE56SkxWc3dGNUNqSUJCTEE?oc=5\n実刑判決を受けた翌日にTikTokライブを行った元ジャンポケ斉藤が、視聴者2万人を集めた配信で想定外の事態に困惑し、大人しくするよう求める声が寄せられた。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
     "theme": "lois",
@@ -652,60 +707,5 @@
     "generated_at": "2026-11-18T22:05:58.040727+00:00",
     "publish_at": "2026-11-19T19:17:00+00:00",
     "timestamp": "2026-11-19T19:17:00+00:00"
-  },
-  {
-    "id": "dbdd58872b88",
-    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5UcUFma3h2MzR1RG9tVWNEbG9KNXRKVDdSeFU1VDh4LXB4N2JfUWF1TzY3dWo3ck5vVjM2Yk1RdkViT2c1T0hFNndlU044Z0tKREFGaXJjdjJKdmZOT05za3JzcE1PZ191cWc1LXVhNF96aFU?oc=5\n45歳で離婚して留学し、強烈な孤独を味わった後に起業したと伝えられている。\n「かくも多様な気質、宗派、判断、意見、法、慣習が、我々に自分たちのそれを健全に判断することを教え、我々の判断に、その不完全さと生まれつきの弱さを認めることを教える。」\n『エセー I.26「子供の教育について」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "45歳で離婚→留学「強烈な孤独」を味わった後に起業 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5UcUFma3h2MzR1RG9tVWNEbG9KNXRKVDdSeFU1VDh4LXB4N2JfUWF1TzY3dWo3ck5vVjM2Yk1RdkViT2c1T0hFNndlU044Z0tKREFGaXJjdjJKdmZOT05za3JzcE1PZ191cWc1LXVhNF96aFU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.26d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T22:04:35.537939+00:00",
-    "publish_at": "2026-11-19T16:17:00+00:00",
-    "timestamp": "2026-11-19T16:17:00+00:00"
-  },
-  {
-    "id": "1e9d3ce32b84",
-    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oUVI1TU1QYm5NV3hmUW15aG5KcWI1RXRRVVVadlp0eGtpbktoWE1kWktXODFqQ1VVYnJVOFFyQUNvaTBacHh1anFzYlQzdDdnQlBkZQ?oc=5\n作家の中島京子さんは、政府の姿勢に危機感を抱いているという。\n「理性の規則に照らせば、彼らを野蛮と呼ぶこともできよう。だが我々に照らしてではない。我々はあらゆる種類の野蛮において彼らを凌いでいるのだから。」\n『エセー I.31「人食い人種について」』",
-    "theme": "autrui",
-    "score": 4,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "「外国人政策は官製ヘイト」 作家・中島京子さん、政府の姿勢に危機感 - 中日新聞Web",
-    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oUVI1TU1QYm5NV3hmUW15aG5KcWI1RXRRVVVadlp0eGtpbktoWE1kWktXODFqQ1VVYnJVOFFyQUNvaTBacHh1anFzYlQzdDdnQlBkZQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui"
-    ],
-    "quote_id": "I.31b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:14:20.899770+00:00",
-    "publish_at": "2026-11-19T13:17:00+00:00",
-    "timestamp": "2026-11-19T13:17:00+00:00"
-  },
-  {
-    "id": "37757839b5e3",
-    "text": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTW01UEwxUFkxR2tfWDUyUDdZWld0SUczeHg3RGVzUkFfN3ZPSDFJQk1hMUtIdVN3S3dpcG9SaWVrSVQ3b3NpTWNLQTJMUlRjRW1TRTBVb1E5NUM5UmtLdnNadURGcjVkWk9BeFJiN0pHenFhMDljMF90Yy1NM0RCemR0eUZGS1ZZdlAzTzZHcnFHaHF4S3o4MVl3?oc=5\nカリフォルニア工科大学の数学授業で、AIで解かれてしまうので教授は宿題の採点をやめたとのことだ。\n「学問の手前にある、いろはの無知があり、学問の後に来る、博士の無知がある、と言ってもよさそうだ。後者は学問そのものが作り出し、生み出す無知である。」\n『エセー I.54「むなしい精緻さについて」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 科学",
-    "source_title": "カリフォルニア工科大学の数学の授業に出てみた。AIで解かれてしまうので、教授はもう宿題を採点していなかった - Business Insider Japan",
-    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTW01UEwxUFkxR2tfWDUyUDdZWld0SUczeHg3RGVzUkFfN3ZPSDFJQk1hMUtIdVN3S3dpcG9SaWVrSVQ3b3NpTWNLQTJMUlRjRW1TRTBVb1E5NUM5UmtLdnNadURGcjVkWk9BeFJiN0pHenFhMDljMF90Yy1NM0RCemR0eUZGS1ZZdlAzTzZHcnFHaHF4S3o4MVl3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "presomption"
-    ],
-    "quote_id": "I.54",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:09:57.363481+00:00",
-    "publish_at": "2026-11-19T10:17:00+00:00",
-    "timestamp": "2026-11-19T10:17:00+00:00"
   }
 ]
