@@ -1,5 +1,45 @@
 [
   {
+    "id": "05db3038c542",
+    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBud0pTZlJNaDJhTDh5aE5uTnFEdFVPanFmMFlNV0pycEExdVZ6TkYtSURNYnk5NHJEYUtHUy1id005R29fRlQ2X01B?oc=5\n『ワンス・アポン・ア・タイム・イン・ハリウッド』の続編で生成AIの使用をめぐり議論となる中、フィンチャー監督は使ってはいけないのかと問いかけたという。\n「自分自身や自分の師が知らず、手を付けなかったことは何であれ、彼らはそれを可能なことの範囲の外に置く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム75",
+    "original": "… quicquid sibi ipsis aut magistris suis incognitum aut intactum fuerit id extra terminos possibilis ponunt …",
+    "original_lang": "la",
+    "theme": "potentia",
+    "score": 10,
+    "source": "Google News 生成AIの論争",
+    "source_title": "ブラッド・ピット主演『ワンス・アポン・ア・タイム・イン・ハリウッド』続編、生成AIの使用をめぐり賛否！ フィンチャー監督「使ってはいけないのか？」 - tvgroove",
+    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBud0pTZlJNaDJhTDh5aE5uTnFEdFVPanFmMFlNV0pycEExdVZ6TkYtSURNYnk5NHJEYUtHUy1id005R29fRlQ2X01B?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "potentia"
+    ],
+    "quote_id": "NO1.75",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T03:10:06.731708+00:00",
+    "publish_at": "2026-11-24T02:17:00+00:00",
+    "timestamp": "2026-11-24T02:17:00+00:00"
+  },
+  {
+    "id": "5c22a424aa03",
+    "text": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Nelhuc29yLTZNNGY3VE94Ml9OSHhLdHoxS1l1cVA1NEJ2R1hkWlpncWN1amJJOGw2SUdDZlUzd0lId18waGNsdHpvQjA2VDJsWTRuUkpKU0drTE1Mc18yQXlIOUVabzd3VGI3WGZIcw?oc=5\n九州国立博物館は、『生成AI使用していない』との説明を訂正し、制作過程で一部利用していたことを謝罪したという。\n「隠し立ては、弱々しい策略、あるいは知恵にすぎない。いつ真実を語るべきかを知り、それを実行するには、強い知恵と強い心がいるからである。」\n『随筆集』第6篇「偽装と隠し立てについて」",
+    "original": "Dissimulation is but a faint kind of policy, or wisdom; for it asketh a strong wit, and a strong heart, to know when to tell truth, and to do it.",
+    "original_lang": "en",
+    "theme": "potentia",
+    "score": 12,
+    "source": "Google News AI・研究政策",
+    "source_title": "九州国立博物館、“チャレンジング”なポスター…「生成AI使用していない」説明を訂正・謝罪「制作過程において一部に生成AI利用」 - 山陽新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Nelhuc29yLTZNNGY3VE94Ml9OSHhLdHoxS1l1cVA1NEJ2R1hkWlpncWN1amJJOGw2SUdDZlUzd0lId18waGNsdHpvQjA2VDJsWTRuUkpKU0drTE1Mc18yQXlIOUVabzd3VGI3WGZIcw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "potentia"
+    ],
+    "quote_id": "E6",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T02:51:05.834245+00:00",
+    "publish_at": "2026-11-23T23:17:00+00:00",
+    "timestamp": "2026-11-23T23:17:00+00:00"
+  },
+  {
     "id": "5283b5f12cbc",
     "text": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpEeVl4XzgzdHh4SmR5UkgtRlpCVk05SUZhNU5NSTloZ2tSanJNbU5Lel81bFFUUERTQ0hyTy11azg2TEh5U1VpMzUyRlJDcU5aNXBheUNoRThBa1lGOWJQU3loSjNjeTBxU1cyaTR6ZllIZXJ6QVlYTmttd09zaWVEVWtBN0tVbVhqWHNuWmtBSGlsdFU5Q2dJU0pQaEloTTVERWJKZzVQWG1VV3k0RWI5ODN6MktMdk5DaTllOVQ?oc=5\nxAIが性的なディープフェイクを作るために使用されたと主張され、イギリスのジェス・アサト議員が訴えたという。\n「一つの不正な判決は、多くの悪い実例よりも大きな害をなす。悪い実例は流れを汚すだけだが、不正な判決は泉そのものを汚すからである。」\n『随筆集』第56篇「裁判について」",
     "original": "One foul sentence doth more hurt, than many foul examples. For these do but corrupt the stream, the other corrupteth the fountain.",
@@ -757,48 +797,5 @@
     "generated_at": "2026-11-18T14:54:40.813148+00:00",
     "publish_at": "2026-11-19T11:17:00+00:00",
     "timestamp": "2026-11-19T11:17:00+00:00"
-  },
-  {
-    "id": "0bb4521e52fb",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50NUpFZUVLMTFDS3hoeXllTDBPaVZHMlhweEFjQXktWmtxcU5PY3c1QV9NUGxiVXVQOWpXQUhRSW9ReWhSUFAyd3p1dw?oc=5\nアンディ・ジャッシュ最高経営者（CEO）は、データセンター建設を中断することは歴史的なミスになるだろうと警告したという。\n「物事は、一度目か二度目かに揺さぶられる。助言の議論の上で揉まれなければ、運命の波の上で揉まれることになる。」\n『随筆集』第20篇「助言について」",
-    "original": "Things will have their first, or second agitation: if they be not tossed upon the arguments of counsel, they will be tossed upon the waves of fortune …",
-    "original_lang": "en",
-    "theme": "experientia",
-    "score": 12,
-    "source": "Google News 生成AIの論争",
-    "source_title": "米国で人工知能(AI)データセンター建設を巡る住民反発が大きくなる中で、アマゾンのアンディ·ジャッシュ最高経営者(CEO)が「データセンター建設を中断することは歴史的なミスになるだろう」と警告した。 - 매일경제",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50NUpFZUVLMTFDS3hoeXllTDBPaVZHMlhweEFjQXktWmtxcU5PY3c1QV9NUGxiVXVQOWpXQUhRSW9ReWhSUFAyd3p1dw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "experientia",
-      "potentia"
-    ],
-    "quote_id": "E20c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:44:15.833509+00:00",
-    "publish_at": "2026-11-19T08:17:00+00:00",
-    "timestamp": "2026-11-19T08:17:00+00:00"
-  },
-  {
-    "id": "283cc83a804d",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCaXJuSjJDa0Z0VWNONmFHSFpHZEFpWnA4Zkprbm9ILVJxWWNaOHNrN3J3MTNqMVhfVzk3bVdPUGpyQ1hZR3dZWkM1RFJZWGlHaTZPMXJxdGc4aUhtX3I4eTMxTnQ?oc=5\n宮城県有識者会議は、選挙におけるデマ拡散を防ぐ手立てとして、対策案の『3本柱』を提示したという。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
-    "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 14,
-    "source": "Google News 偽情報・言説",
-    "source_title": "選挙のデマ拡散 防ぐ手立てを 宮城県有識者会議の対策案「3本柱」 - 中日新聞Web",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCaXJuSjJDa0Z0VWNONmFHSFpHZEFpWnA4Zkprbm9ILVJxWWNaOHNrN3J3MTNqMVhfVzk3bVdPUGpyQ1hZR3dZWkM1RFJZWGlHaTZPMXJxdGc4aUhtX3I4eTMxTnQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "theatri"
-    ],
-    "quote_id": "E35b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:26:47.458478+00:00",
-    "publish_at": "2026-11-19T05:17:00+00:00",
-    "timestamp": "2026-11-19T05:17:00+00:00"
   }
 ]
