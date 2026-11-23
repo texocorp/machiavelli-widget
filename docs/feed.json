@@ -1,5 +1,66 @@
 [
   {
+    "id": "643561499e84",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zVXFJSndaYkJyeEZuTm52VWdZMm1Tc2xTaXhmRzctYkdmb1VuWENyQ1hHa3I2aFNvM2U3aGhORk9lMm1QTzFtaVhpZlZVcGJEcnhv?oc=5\n北アフリカで停泊していたロシア軍艦は、ウクライナのドローン攻撃を受け、沈没したという。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "北アフリカに停泊中のロシア軍艦、ウクライナのドローン攻撃で沈没とゼレンスキー氏 - CNN",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zVXFJSndaYkJyeEZuTm52VWdZMm1Tc2xTaXhmRzctYkdmb1VuWENyQ1hHa3I2aFNvM2U3aGhORk9lMm1QTzFtaVhpZlZVcGJEcnhv?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG8",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T09:57:14.561287+00:00",
+    "publish_at": "2026-11-24T09:17:00+00:00",
+    "timestamp": "2026-11-24T09:17:00+00:00"
+  },
+  {
+    "id": "1a7bf39f7a0c",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CUXNPWEhBU1phSkNDWXNJSDVSSUdBclFJWVZ1SmwyT2lhQThQNGg5Z3VqVU9hTHg2OTVWX1RNWXhDbGRNX05uUnZxUmlmSGdkOEtEbnMzTV8yVEFBSEN2VXpaX0dFTWM3M09iUExkeHpUUEc4ODNhNGJtRXplazA?oc=5\n米大統領は、来年以降の交渉決裂でイランへの再攻撃が可能になると警告しているという。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
+    "theme": "guerra",
+    "score": 9,
+    "source": "Google News 検索 中東",
+    "source_title": "イラン再攻撃の可能性警告 来年以降、交渉決裂なら 米大統領（時事通信） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CUXNPWEhBU1phSkNDWXNJSDVSSUdBclFJWVZ1SmwyT2lhQThQNGg5Z3VqVU9hTHg2OTVWX1RNWXhDbGRNX05uUnZxUmlmSGdkOEtEbnMzTV8yVEFBSEN2VXpaX0dFTWM3M09iUExkeHpUUEc4ODNhNGJtRXplazA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "inganno_simulazione"
+    ],
+    "quote_id": "ID2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T09:43:33.228118+00:00",
+    "publish_at": "2026-11-24T06:17:00+00:00",
+    "timestamp": "2026-11-24T06:17:00+00:00"
+  },
+  {
+    "id": "c9b274aa3041",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6NUtyTUhkR3FabXJhaW5ablcxS0NyZHFoTExWNGJ1RTFJdG92QzZOM0FDaGhBY04xQndZeUpORU9KWGFTZVZVVlBsREtCS09zanUyTjF1OGtBQ002RkJpb2lFMnlBcGtHMDRTNmplMFgxUlRfc0d0Y3FGU0JTNlU?oc=5\nトランプ大統領は来年以降のイラン攻撃再開の可能性を主張し、ホルムズ海峡航行正常化などで合意しない場合について言及しているという。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
+    "theme": "guerra",
+    "score": 13,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ大統領 来年以降のイラン攻撃再開の可能性を主張 米テレビインタビュー ホルムズ海峡の航行正常化などで合意しない場合（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6NUtyTUhkR3FabXJhaW5ablcxS0NyZHFoTExWNGJ1RTFJdG92QzZOM0FDaGhBY04xQndZeUpORU9KWGFTZVZVVlBsREtCS09zanUyTjF1OGtBQ002RkJpb2lFMnlBcGtHMDRTNmplMFgxUlRfc0d0Y3FGU0JTNlU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D1.46",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T09:22:38.201661+00:00",
+    "publish_at": "2026-11-24T03:17:00+00:00",
+    "timestamp": "2026-11-24T03:17:00+00:00"
+  },
+  {
     "id": "3368e825ac80",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByZXBoTFBQbjV3engwaUtHUGR6Sk5mTWRidnlLTThXNjV2dHBtcFo4YUhlOW96Qmc5eEZ5OFV6Qm5jei02RzNXMEFSRW1NYXpyNjVVU050cHlLZU12ZmtfYTJiN0pHM0MxdUxfY1FNOXg5V283LVA0M2d1Rm10elE?oc=5\nウクライナはロシアの軍艦を攻撃したのか、リビアで複数の無人艇に関する報道が出ているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -704,65 +765,5 @@
     "generated_at": "2026-11-18T22:08:29.123444+00:00",
     "publish_at": "2026-11-19T18:17:00+00:00",
     "timestamp": "2026-11-19T18:17:00+00:00"
-  },
-  {
-    "id": "38c0b853e6f9",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwcFFuQkxQSlZSeXE0NmJ6blV4c1VMUVRMZEE4Y2JPUlNRQ0d1YlpUbFFHc19jWEI5ZmZ0MWxENlhEWkhueXp4UW1BTC1iS1Exdm1WLUFMXzRkUWpoR05NMzNB?oc=5\nウクライナがミサイルやドローンを使い、1ヶ月間準備した上でクリミア大橋を攻撃し、一部が崩落して物資調達に影響する可能性が生じた。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "ウクライナがクリミア大橋を攻撃、一部崩落し物資調達に影響する可能性…ミサイルやドローン使い１か月準備 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwcFFuQkxQSlZSeXE0NmJ6blV4c1VMUVRMZEE4Y2JPUlNRQ0d1YlpUbFFHc19jWEI5ZmZ0MWxENlhEWkhueXp4UW1BTC1iS1Exdm1WLUFMXzRkUWpoR05NMzNB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "D3.40",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T21:57:02.839521+00:00",
-    "publish_at": "2026-11-19T15:17:00+00:00",
-    "timestamp": "2026-11-19T15:17:00+00:00"
-  },
-  {
-    "id": "81978b456522",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mS28zNEY1WnJOekhxYzVCNGRkNGdNaTJsVXlVeHBYeUdiUUVEZ3dlekUyUG94QUtOVHBNblllZWprRXJOOEE2SHFFdWZENk1LcFUtNzNGZ1NVeTF0VTBYbmt3dDdfU0JwSm1scWtOVkx2WDI1RXVFQjhlWDVoSkU?oc=5\nイランは湾岸諸国の米軍基地を攻撃し、外交努力への応酬が激化するという結果を生んでいる。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、湾岸諸国の米軍基地攻撃 外交努力よそに応酬激化（ロイター） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mS28zNEY1WnJOekhxYzVCNGRkNGdNaTJsVXlVeHBYeUdiUUVEZ3dlekUyUG94QUtOVHBNblllZWprRXJOOEE2SHFFdWZENk1LcFUtNzNGZ1NVeTF0VTBYbmt3dDdfU0JwSm1scWtOVkx2WDI1RXVFQjhlWDVoSkU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione"
-    ],
-    "quote_id": "P18d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:39:05.298603+00:00",
-    "publish_at": "2026-11-19T12:17:00+00:00",
-    "timestamp": "2026-11-19T12:17:00+00:00"
-  },
-  {
-    "id": "0a919045b544",
-    "text": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaTRpWXR0LVM1VEo3T2VmQWJuWUlHS0FXQVRFZVlPN3VibGdWTWJWTHFwNHRVUHNzZVBtRkRTTjNTckFDaEVlTHB1UEVOSVNnY3VEV2ktUTNqT0hfN25fM09lVEVlQ182MHNsSVZTbmgtVERSWWkxZUg2a00tWk1mTkZ1emZvTjVWeTF1WWtwa2dWSnBUdFpiZkp0TENCYW1jMVpNdVNOX2RoZHlSSjVlRDcwdHZBWkVVWHZOWHFXOWtvWHMyUm5HQ3RSR2M1R001OTdMSVdQSXFMUUFkdEVmemJhbnlfSTc3ZkRwTGtIalVncllOQ2hvSk930gH_AUFVX3lxTFAwUHpJcU9pcENfbHZLdjhjYmVOY3A5U1p2QzdUeGNXQWhmSDk1LWpmakFlbU9uV2hvcG4wZ2VCVzlTN04zVUhHbDFLWDdfWFdUQkszYnU5a2JqUlpFVk9oN184ZUJqYm5PcnhTWFJwSEY4enhVLWdfLTJiWTdQdFdTMDE3dC1jWXpJY29FcGdPd3NOQWpNTm1jQkRTUGFHendNaHpaRHdfSDEyWVByUFJrc090SzhuSFJXMDlTTFpJaF9zLTdyX3ZZX2hGdUVzZm1iVFVVTWxDTmxTbU16dHdSWGt1Q3NaQ1VFNmNTRGtWRjdPMS1FUldEeFZDZDlfRQ?oc=5\nウクライナがコルビー米戦争次官の発表によると、2ヶ月連続でロシアの占領面積を上回る領土を解放した。\n「敵の利となることは汝を害し、汝の利となることは敵を害する。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナは２か月連続でロシアの占領面積を上回る領土を解放＝コルビー米戦争次官 - ウクルインフォルム通信",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaTRpWXR0LVM1VEo3T2VmQWJuWUlHS0FXQVRFZVlPN3VibGdWTWJWTHFwNHRVUHNzZVBtRkRTTjNTckFDaEVlTHB1UEVOSVNnY3VEV2ktUTNqT0hfN25fM09lVEVlQ182MHNsSVZTbmgtVERSWWkxZUg2a00tWk1mTkZ1emZvTjVWeTF1WWtwa2dWSnBUdFpiZkp0TENCYW1jMVpNdVNOX2RoZHlSSjVlRDcwdHZBWkVVWHZOWHFXOWtvWHMyUm5HQ3RSR2M1R001OTdMSVdQSXFMUUFkdEVmemJhbnlfSTc3ZkRwTGtIalVncllOQ2hvSk930gH_AUFVX3lxTFAwUHpJcU9pcENfbHZLdjhjYmVOY3A5U1p2QzdUeGNXQWhmSDk1LWpmakFlbU9uV2hvcG4wZ2VCVzlTN04zVUhHbDFLWDdfWFdUQkszYnU5a2JqUlpFVk9oN184ZUJqYm5PcnhTWFJwSEY4enhVLWdfLTJiWTdQdFdTMDE3dC1jWXpJY29FcGdPd3NOQWpNTm1jQkRTUGFHendNaHpaRHdfSDEyWVByUFJrc090SzhuSFJXMDlTTFpJaF9zLTdyX3ZZX2hGdUVzZm1iVFVVTWxDTmxTbU16dHdSWGt1Q3NaQ1VFNmNTRGtWRjdPMS1FUldEeFZDZDlfRQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:32:28.669522+00:00",
-    "publish_at": "2026-11-19T09:17:00+00:00",
-    "timestamp": "2026-11-19T09:17:00+00:00"
   }
 ]
