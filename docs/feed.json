@@ -1,5 +1,81 @@
 [
   {
+    "id": "cd5a73b8034e",
+    "text": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT19DQnhKbUR3bEppbFNRT3g1TDN1a1pia3VwbFZaNHJYdmtXS194NEE5OXgzX1BVZ09DTnJEbXJTcV9mOHpRSk54OFhpenp2YjNidENLbzd4b3NzXzdlRkEzd0ZQeko4QTd4dElKT0cxc2tKT1lTemIySF9kaGNWNGtMZ0E?oc=5\nリビアで停泊中のロシア船が爆発し、ウクライナ軍による水上ドローン攻撃の可能性があると報じられた。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "リビアで停泊中のロシア船が爆発 ウクライナ軍「水上ドローン」攻撃か（2026年11月22日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT19DQnhKbUR3bEppbFNRT3g1TDN1a1pia3VwbFZaNHJYdmtXS194NEE5OXgzX1BVZ09DTnJEbXJTcV9mOHpRSk54OFhpenp2YjNidENLbzd4b3NzXzdlRkEzd0ZQeko4QTd4dElKT0cxc2tKT1lTemIySF9kaGNWNGtMZ0E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG4",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T22:15:06.290970+00:00",
+    "publish_at": "2026-11-24T21:17:00+00:00",
+    "timestamp": "2026-11-24T21:17:00+00:00"
+  },
+  {
+    "id": "ea471749106b",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lOUtGczlTWDlmMXhmQ21PSDRrS0Y4VFFsR1Vad2Zwa1pYMVJBaWhpQXZNQjBtWnlQZ215eDJrTTZtWTlIMThiUlM5R2RqenVrTVl2akxSelNyNU0wR0xMR2FWZUxXTEVENjVFNXc0MnFPbEwxUzdXM1Rn?oc=5\nウクライナはリビア沖でロシア軍艦を撃沈し、ゼレンスキー大統領がその攻撃映像を公開したという。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ リビア沖でロシア軍艦を撃沈 ゼレンスキー大統領が攻撃映像を公開 - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lOUtGczlTWDlmMXhmQ21PSDRrS0Y4VFFsR1Vad2Zwa1pYMVJBaWhpQXZNQjBtWnlQZ215eDJrTTZtWTlIMThiUlM5R2RqenVrTVl2akxSelNyNU0wR0xMR2FWZUxXTEVENjVFNXc0MnFPbEwxUzdXM1Rn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG7",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T22:07:39.724972+00:00",
+    "publish_at": "2026-11-24T18:17:00+00:00",
+    "timestamp": "2026-11-24T18:17:00+00:00"
+  },
+  {
+    "id": "65535d9850ea",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0ltRDR3MnFiSGNaMFA5X25TM1NJM2VXc1FNX2E5a0E2SVRJelFSTW5zbGFaaHVNYjZrZFVqSnoyM1NiTno2ejVwSkFZeFJqb1A5azJPdEdCLVBPVmw3cjRobWdjeWJNVkVyeXAtN2xWME9nN1dqcWhRMDhRbExvSzJjWlpIZw?oc=5\nウクライナがリビアでロシア艦を撃沈したことで、黒海における攻撃が拡大したという。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ、北アフリカのリビアでロシア艦撃沈 黒海外に攻撃拡大 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0ltRDR3MnFiSGNaMFA5X25TM1NJM2VXc1FNX2E5a0E2SVRJelFSTW5zbGFaaHVNYjZrZFVqSnoyM1NiTno2ejVwSkFZeFJqb1A5azJPdEdCLVBPVmw3cjRobWdjeWJNVkVyeXAtN2xWME9nN1dqcWhRMDhRbExvSzJjWlpIZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "P05",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T22:01:56.416628+00:00",
+    "publish_at": "2026-11-24T15:17:00+00:00",
+    "timestamp": "2026-11-24T15:17:00+00:00"
+  },
+  {
+    "id": "4b437f0d2873",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3NTUyQmtndjBnLW5BeDJpcWM0TGd5WnloZnhQQVEzWkFyei11ZDhXQ2l6NFplcHZPLTBINjI1eElWQS1tZDFzV0VabFlnVXRWbi1nWTRTcw?oc=5\nトランプ氏と習氏はAI分野での協力を誇示したが、それでも突きつけられる厳しい現実があるという。\n「君主は先に挙げた美徳をすべて実際に備えている必要はない。だが、備えているように見せることは是非とも必要である。」\n『君主論 cap.XVIII』",
+    "theme": "inganno_simulazione",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ氏と習氏、AI分野での協力誇示 それでも突きつけられる厳しい現実 - CNN",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3NTUyQmtndjBnLW5BeDJpcWM0TGd5WnloZnhQQVEzWkFyei11ZDhXQ2l6NFplcHZPLTBINjI1eElWQS1tZDFzV0VabFlnVXRWbi1nWTRTcw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione"
+    ],
+    "quote_id": "P18a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T21:46:07.317897+00:00",
+    "publish_at": "2026-11-24T12:17:00+00:00",
+    "timestamp": "2026-11-24T12:17:00+00:00"
+  },
+  {
     "id": "643561499e84",
     "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zVXFJSndaYkJyeEZuTm52VWdZMm1Tc2xTaXhmRzctYkdmb1VuWENyQ1hHa3I2aFNvM2U3aGhORk9lMm1QTzFtaVhpZlZVcGJEcnhv?oc=5\n北アフリカで停泊していたロシア軍艦は、ウクライナのドローン攻撃を受け、沈没したという。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -681,89 +757,5 @@
     "generated_at": "2026-11-19T13:03:44.060793+00:00",
     "publish_at": "2026-11-20T06:17:00+00:00",
     "timestamp": "2026-11-20T06:17:00+00:00"
-  },
-  {
-    "id": "a5d42ce0192d",
-    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMaFMtSTd6VHBTLWViX2pVa2p4QjVyNHdSUTVJNmNkalNOajF1SVNWT3dRMDZINkR4bS1oZ0I0N28tVy1WY1FTUkc4a0dSV2l0ZkRtZXVjRlB5YkZwY1pHalZKQm1LdG90SWI3Rk5UZlNsWDg2?oc=5\nトランプ氏はイランへの再軍事攻撃を検討しており、その意向によって国際原油価格が下げ止まって反発を示しているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 11,
-    "source": "Google News 検索 中東",
-    "source_title": "トランプ氏、イランへの再軍事攻撃を検討か 国際原油価格が下げ止まり反発 - BigGo ファイナンス",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMaFMtSTd6VHBTLWViX2pVa2p4QjVyNHdSUTVJNmNkalNOajF1SVNWT3dRMDZINkR4bS1oZ0I0N28tVy1WY1FTUkc4a0dSV2l0ZkRtZXVjRlB5YkZwY1pHalZKQm1LdG90SWI3Rk5UZlNsWDg2?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "economia"
-    ],
-    "quote_id": "AG13",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T03:40:54.494772+00:00",
-    "publish_at": "2026-11-20T03:17:00+00:00",
-    "timestamp": "2026-11-20T03:17:00+00:00"
-  },
-  {
-    "id": "6153e247b63f",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Sei1UNS1vOEtGc3Q2cng2d2VPeER2QUZSNlFxaWVHVUMwWTMtMGVGRDcwRGV6QlRqT0VfQ3RpWWFWbC1WMGtrMWFCUXdpcWlDQWZENklvbzZPYlpVQ0JqUjVTUERKUUtmNkVhNA?oc=5\nアメリカとイスラエルによるイラン攻撃の行方が変わる中、米・イスラエルの選挙が行われるという。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 中東",
-    "source_title": "アメリカとイスラエルによるイラン攻撃⑩ 米・イスラエルの選挙が変える中東戦争の行方 - MRI 三菱総合研究所",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Sei1UNS1vOEtGc3Q2cng2d2VPeER2QUZSNlFxaWVHVUMwWTMtMGVGRDcwRGV6QlRqT0VfQ3RpWWFWbC1WMGtrMWFCUXdpcWlDQWZENklvbzZPYlpVQ0JqUjVTUERKUUtmNkVhNA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "popolo_principe"
-    ],
-    "quote_id": "D1.37b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T03:36:54.020153+00:00",
-    "publish_at": "2026-11-20T00:17:00+00:00",
-    "timestamp": "2026-11-20T00:17:00+00:00"
-  },
-  {
-    "id": "568e40864656",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KdUVMd2tNX1ltblM4cWpWc2FtcE1WQmtRZTd1Yk9ybnlUYWRvMUJrRFV3UGpiRTBNWEI3WU5IN0I0bldWT1V1S3dkYnBuaEgyZlEwNVZoM2xOZkdLalF4Z1RHTjlfVGk1YTVsdHRMV205TGVZR3Vjck1UU2hPeDQ?oc=5\nゼレンスキー氏は東部の前線陣地は堅固と強調し、ロシア側が制圧を主張する2都市で応戦しているという。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "ゼレンスキー氏「前線陣地は堅固」、ロシアが制圧主張の東部2都市で応戦と強調（ロイター） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KdUVMd2tNX1ltblM4cWpWc2FtcE1WQmtRZTd1Yk9ybnlUYWRvMUJrRFV3UGpiRTBNWEI3WU5IN0I0bldWT1V1S3dkYnBuaEgyZlEwNVZoM2xOZkdLalF4Z1RHTjlfVGk1YTVsdHRMV205TGVZR3Vjck1UU2hPeDQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "inganno_simulazione",
-      "armi_proprie"
-    ],
-    "quote_id": "AG7",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T03:27:40.043695+00:00",
-    "publish_at": "2026-11-19T21:17:00+00:00",
-    "timestamp": "2026-11-19T21:17:00+00:00"
-  },
-  {
-    "id": "b9363c893980",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KZFBLbEhBMlpSc0gxWmJibm14SzVQbHpEUXZjbmRnbmg1dHZGUWNIbHM5MGR3RzUxdlRDWWdDOVdYZW8tM3BDM1Mwc0V4UFZYX09VdWVDb1c3ZzhXQlZQWUZfc003QnpmSWVoQWh6SEdhemlsR0E?oc=5\n国連では北朝鮮の労働者派遣について議論が進み、核やミサイル開発の資金源となる制裁監視チームを設けるという。\n「ローマ人は、従属する者たちを裁かねばならぬ事態に際し、中途半端な道を避けた。」\n『リウィウス論 II.23』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 朝鮮半島",
-    "source_title": "北朝鮮労働者派遣を議論 国連で制裁監視チーム 核・ミサイル開発の資金源 - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KZFBLbEhBMlpSc0gxWmJibm14SzVQbHpEUXZjbmRnbmg1dHZGUWNIbHM5MGR3RzUxdlRDWWdDOVdYZW8tM3BDM1Mwc0V4UFZYX09VdWVDb1c3ZzhXQlZQWUZfc003QnpmSWVoQWh6SEdhemlsR0E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "economia",
-      "necessita"
-    ],
-    "quote_id": "D2.23",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T22:08:29.123444+00:00",
-    "publish_at": "2026-11-19T18:17:00+00:00",
-    "timestamp": "2026-11-19T18:17:00+00:00"
   }
 ]
