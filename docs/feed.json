@@ -1,5 +1,46 @@
 [
   {
+    "id": "3368e825ac80",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByZXBoTFBQbjV3engwaUtHUGR6Sk5mTWRidnlLTThXNjV2dHBtcFo4YUhlOW96Qmc5eEZ5OFV6Qm5jei02RzNXMEFSRW1NYXpyNjVVU050cHlLZU12ZmtfYTJiN0pHM0MxdUxfY1FNOXg5V283LVA0M2d1Rm10elE?oc=5\nウクライナはロシアの軍艦を攻撃したのか、リビアで複数の無人艇に関する報道が出ているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナ、ロシアの軍艦攻撃か リビアで複数の無人艇、報道（共同通信） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByZXBoTFBQbjV3engwaUtHUGR6Sk5mTWRidnlLTThXNjV2dHBtcFo4YUhlOW96Qmc5eEZ5OFV6Qm5jei02RzNXMEFSRW1NYXpyNjVVU050cHlLZU12ZmtfYTJiN0pHM0MxdUxfY1FNOXg5V283LVA0M2d1Rm10elE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AG13",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T01:50:59.934268+00:00",
+    "publish_at": "2026-11-24T00:17:00+00:00",
+    "timestamp": "2026-11-24T00:17:00+00:00"
+  },
+  {
+    "id": "5a4b1a7e7370",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CYTNQbnlGZ3UyTm5jUUxQQ1BJQ21KWW5fWGxyb1JlMGUxeVdNSGZ0Sms4RUZFZ0pkWEZtQ3V5RmVjOGZuZ2dzWUtoSWNWNWd2czJKV2VVak0tX3VJUmZFZExR?oc=5\nイラン革命防衛隊は、米国のレーダーシステムを再度攻撃したというニュースに関する。\n「公に対してであれ私人に対してであれ、加えられた侮辱に報いぬことは、国家にとってかくも危険である。」\n『リウィウス論 II.28』",
+    "theme": "guerra",
+    "score": 11,
+    "source": "Google News 国際(World)",
+    "source_title": "米レーダーへ再び攻撃 イラン革命防衛隊 バーレーン基地 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CYTNQbnlGZ3UyTm5jUUxQQ1BJQ21KWW5fWGxyb1JlMGUxeVdNSGZ0Sms4RUZFZ0pkWEZtQ3V5RmVjOGZuZ2dzWUtoSWNWNWd2czJKV2VVak0tX3VJUmZFZExR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "economia"
+    ],
+    "quote_id": "D2.28",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T01:21:47.564202+00:00",
+    "publish_at": "2026-11-23T21:17:00+00:00",
+    "timestamp": "2026-11-23T21:17:00+00:00"
+  },
+  {
     "id": "2d6c2ea26fe0",
     "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aLXZMWXRmakFPYzZGcHVKV2J5NldubGZIOE1aRWpSM3ZRRG1XbENwLWtKZXM4X1dURS01MURtZUxTNnFhQVBoejRubW8wT0t0aEdtVzk3NVZDQkdEa2diOWF0ZGl5VGh5QXdmOFdWNExqQTZLV2NCbWpn?oc=5\nリビアで停泊していたロシア軍艦が攻撃を受け、ウクライナによるドローンを使った長距離攻撃であるとの指摘もある。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
     "theme": "guerra",
@@ -723,44 +764,5 @@
     "generated_at": "2026-11-18T14:32:28.669522+00:00",
     "publish_at": "2026-11-19T09:17:00+00:00",
     "timestamp": "2026-11-19T09:17:00+00:00"
-  },
-  {
-    "id": "a4a6ee1b573d",
-    "text": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVkFoMFdkbHZYUEp5ZXFjTEtnODcyNnBpdHdORkhyWTliRF83bGlHSTN0M1VHLXNQSDQ4RXM3ZTBTbElhRFV1OUI0VUhyMGpXNzRPZnI4MmN6aGlxNnplNmFPTmcyQ3BheGxDRHRGRE1JaUdCUGdfRGlMNldhMTBBY3gxcWdCdnVNNU9WdXcyNVdFMFpjQ1RKbXR6cDlud2lvSURLRndPMHp5bjdXcHRIcnZEajZKcVJNcW9CZFJ4Q0twa1J5QjcySm80X3ZhQdIBfEFVX3lxTE8xQVdVaE12M0k0emVCSUFyN0NycGJsTGg4RlRZN3ZLZ0JxU3RxUk1LM1FxYjdQbkxJVThTRy1LZ1hxaFJvZFFEcHRPUGVBZVRtSHUyazVkV09xNHVHdU5pWV95TFh5WVVETktzWFNfSEs1bnA2aWdZY2xLWkQ?oc=5\nゼレンスキー氏が『北朝鮮がロシアに毎月弾道ミサイル数十発を送っている』と述べ、軍はクルスク州のミサイル部隊を攻撃した。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 朝鮮半島",
-    "source_title": "「北朝鮮がロシアに毎月弾道ミサイル数十発」ゼレンスキー氏　軍はクルスク州のミサイル部隊を攻撃 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVkFoMFdkbHZYUEp5ZXFjTEtnODcyNnBpdHdORkhyWTliRF83bGlHSTN0M1VHLXNQSDQ4RXM3ZTBTbElhRFV1OUI0VUhyMGpXNzRPZnI4MmN6aGlxNnplNmFPTmcyQ3BheGxDRHRGRE1JaUdCUGdfRGlMNldhMTBBY3gxcWdCdnVNNU9WdXcyNVdFMFpjQ1RKbXR6cDlud2lvSURLRndPMHp5bjdXcHRIcnZEajZKcVJNcW9CZFJ4Q0twa1J5QjcySm80X3ZhQdIBfEFVX3lxTE8xQVdVaE12M0k0emVCSUFyN0NycGJsTGg4RlRZN3ZLZ0JxU3RxUk1LM1FxYjdQbkxJVThTRy1LZ1hxaFJvZFFEcHRPUGVBZVRtSHUyazVkV09xNHVHdU5pWV95TFh5WVVETktzWFNfSEs1bnA2aWdZY2xLWkQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D3.44",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:23:29.817693+00:00",
-    "publish_at": "2026-11-19T06:17:00+00:00",
-    "timestamp": "2026-11-19T06:17:00+00:00"
-  },
-  {
-    "id": "713222a341a8",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUHB0RVdBUUQzbVJ5M3NjSDVoeWhtb0JKMHE4SUQ0dmJwcmNPUHFkdG5qYW1maXJIZ0d4Um8wSjVNRWxFNU5vZmd2aXVJQmE1ZTFSMzJhRy1Vd0JKX2ZfbUd3?oc=5\n米国とイランが互いに報復攻撃を行い、イランは米軍のレーダーを攻撃し、米軍はミサイル発射基地を攻撃した。\n「必要とする者にとって戦は正しく、武器のほかに望みなき者にとって武器は神聖である。」\n『君主論 cap.XXVI』",
-    "theme": "guerra",
-    "score": 15,
-    "source": "Google News 検索 中東",
-    "source_title": "米イランが互いに「報復」攻撃、再び緊張高まる…イランは米軍レーダーを攻撃・米軍はミサイル発射基地を - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUHB0RVdBUUQzbVJ5M3NjSDVoeWhtb0JKMHE4SUQ0dmJwcmNPUHFkdG5qYW1maXJIZ0d4Um8wSjVNRWxFNU5vZmd2aXVJQmE1ZTFSMzJhRy1Vd0JKX2ZfbUd3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "P26",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T04:41:08.196938+00:00",
-    "publish_at": "2026-11-19T03:17:00+00:00",
-    "timestamp": "2026-11-19T03:17:00+00:00"
   }
 ]
