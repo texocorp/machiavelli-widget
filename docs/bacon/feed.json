@@ -1,5 +1,67 @@
 [
   {
+    "id": "873aed4b1ca6",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MRC1GSnN3ZFVnbTl6WnFwRURmODdNbEt6V0VQNmEtUjV1LVhhR2NCVk1YQXdCT1hVbEtxcjVNNlN1UkxHNFVYUDNSWVlUWDllTDNUanhCMVgxUQ?oc=5\n北海道新聞デジタルは「『信頼性落とす』 野党が批判 安保広報に『陰謀論系』配信者」と報じた。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
+    "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 9,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「信頼性落とす」 野党が批判 安保広報に「陰謀論系」配信者 - 北海道新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MRC1GSnN3ZFVnbTl6WnFwRURmODdNbEt6V0VQNmEtUjV1LVhhR2NCVk1YQXdCT1hVbEtxcjVNNlN1UkxHNFVYUDNSWVlUWDllTDNUanhCMVgxUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E35b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T14:30:13.192984+00:00",
+    "publish_at": "2026-11-24T11:17:00+00:00",
+    "timestamp": "2026-11-24T11:17:00+00:00"
+  },
+  {
+    "id": "06bc6d3cb881",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfVmhHeTN6WFo3c1ItMHg2SXhtd1FJaVRBNHA5S2lkZDJPcFNwNkpoWEw2aG53MEZSeTJYWnNlN081NjFaakJtbkpKMFc4OVNSak5VMy1vWHA2R3RrZHVETmdnNmRwSGZlQV9aSFBadXY5SVRW0gF0QVVfeXFMUF9WaEd5M3pYWjdzUi0weDZJeG13UUlpVEE0cDlLaWRkMk9wU3A2SmhYTDZobncwRlJ5Mlhac2U3TzU2MVpqQm1uSkowVzg5U1JqTlUzLW9YcDZHdGtkdUROZ2c2ZHBIZmVBX1pIUFp1djlJVFY?oc=5\nInfoseekは「米州議員に『変幻自在レプティリアン』疑惑浮上　奇妙な動画拡散に『私は人間です』」と報じた。\n「嘘が混じると、いつも楽しみが増す。」\n『随筆集』第1篇「真理について」",
+    "original": "A mixture of a lie doth ever add pleasure.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "米州議員に「変幻自在レプティリアン」疑惑浮上　奇妙な動画拡散に「私は人間です」 - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfVmhHeTN6WFo3c1ItMHg2SXhtd1FJaVRBNHA5S2lkZDJPcFNwNkpoWEw2aG53MEZSeTJYWnNlN081NjFaakJtbkpKMFc4OVNSak5VMy1vWHA2R3RrZHVETmdnNmRwSGZlQV9aSFBadXY5SVRW0gF0QVVfeXFMUF9WaEd5M3pYWjdzUi0weDZJeG13UUlpVEE0cDlLaWRkMk9wU3A2SmhYTDZobncwRlJ5Mlhac2U3TzU2MVpqQm1uSkowVzg5U1JqTlUzLW9YcDZHdGtkdUROZ2c2ZHBIZmVBX1pIUFp1djlJVFY?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E1a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T14:00:30.247552+00:00",
+    "publish_at": "2026-11-24T08:17:00+00:00",
+    "timestamp": "2026-11-24T08:17:00+00:00"
+  },
+  {
+    "id": "aa59ef178f70",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uMGs1VVZHdURqTVlEOTJzT0Fna1BJckN1NVJoa19OdkhmYzh1Z25vakpPZVNPV2gwaEhrRW1XbjVBeW0teE1lN0ZpdHhYRVVSYzNKVVh6NHZneDFsX1dB?oc=5\n公式アカウントの誤爆に対し、SNS教育講演家が指摘するのは、謝罪は炎上より広がらないという盲点であるという。\n「自然に根ざしたものは成長し、増大する。だが意見に根ざしたものは、移り変わりはしても増大はしない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム74",
+    "original": "Quae enim in natura fundata sunt, crescunt et augentur: quae autem in opinione, variantur, non augentur.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 16,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が指摘する公式アカウント誤爆の盲点「謝罪は炎上より広がらない」 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uMGs1VVZHdURqTVlEOTJzT0Fna1BJckN1NVJoa19OdkhmYzh1Z25vakpPZVNPV2gwaEhrRW1XbjVBeW0teE1lN0ZpdHhYRVVSYzNKVVh6NHZneDFsX1dB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.74",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T12:53:25.676556+00:00",
+    "publish_at": "2026-11-24T05:17:00+00:00",
+    "timestamp": "2026-11-24T05:17:00+00:00"
+  },
+  {
     "id": "05db3038c542",
     "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBud0pTZlJNaDJhTDh5aE5uTnFEdFVPanFmMFlNV0pycEExdVZ6TkYtSURNYnk5NHJEYUtHUy1id005R29fRlQ2X01B?oc=5\n『ワンス・アポン・ア・タイム・イン・ハリウッド』の続編で生成AIの使用をめぐり議論となる中、フィンチャー監督は使ってはいけないのかと問いかけたという。\n「自分自身や自分の師が知らず、手を付けなかったことは何であれ、彼らはそれを可能なことの範囲の外に置く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム75",
     "original": "… quicquid sibi ipsis aut magistris suis incognitum aut intactum fuerit id extra terminos possibilis ponunt …",
@@ -711,91 +773,5 @@
     "generated_at": "2026-11-19T03:39:58.979374+00:00",
     "publish_at": "2026-11-19T23:17:00+00:00",
     "timestamp": "2026-11-19T23:17:00+00:00"
-  },
-  {
-    "id": "c5d27f31de55",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCNFNEblFmLVE2VnBGUmsxMEtjSTIxRlpqZ2wxem5rc3g0UWJtOUlXZmt0eVBpS2NianhSYzZobVNRQmJxRTBqUDRMZFpzR3U5LW9xcmZXUVBabzg?oc=5\n『いろはの恋は時代をかける』第6話では、シールの盗難騒動により学校がSNSで炎上し、主人公のいろはが行動を起こした。\n「言葉はまさしく知性に暴力を加え、すべてをかき乱し、人々を空しく果てしない論争と作り話へと導く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
-    "original": "Sed verba plane vim faciunt intellectui, et omnia turbant; et homines ad inanes et innumeras controversias et commenta deducunt.",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News SNS・報道",
-    "source_title": "『いろはの恋は時代をかける』第6話あらすじ シール盗難騒動で学校がSNS炎上…いろはが行動に出る - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCNFNEblFmLVE2VnBGUmsxMEtjSTIxRlpqZ2wxem5rc3g0UWJtOUlXZmt0eVBpS2NianhSYzZobVNRQmJxRTBqUDRMZFpzR3U5LW9xcmZXUVBabzg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.43b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T22:29:36.244222+00:00",
-    "publish_at": "2026-11-19T20:17:00+00:00",
-    "timestamp": "2026-11-19T20:17:00+00:00"
-  },
-  {
-    "id": "0fa146adb20d",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wWjc3Y3RxRGN6VFNuSkZ2bThaRk02Szdrc1VqeTFpanROdHUtSVFJU2V3ajZZRmg1TE1jeF9rUW5zb0NrcXIxODlFVUZObkllTE5vT3c3b1NpUQ?oc=5\nSNSで誹謗中傷を行った町議に対し、広島県神石高原町議会政倫審は辞職勧告が相当であると述べた。\n「高い地位にある人は三重の下僕である。君主あるいは国家の下僕、評判の下僕、そして仕事の下僕である。」\n『随筆集』第11篇「高い地位について」",
-    "original": "Men in great place are thrice servants: servants of the sovereign or state; servants of fame; and servants of business.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News SNS・報道",
-    "source_title": "SNSで誹謗中傷の町議「辞職勧告が相当」 広島県神石高原町議会政倫審 - 中国新聞デジタル",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wWjc3Y3RxRGN6VFNuSkZ2bThaRk02Szdrc1VqeTFpanROdHUtSVFJU2V3ajZZRmg1TE1jeF9rUW5zb0NrcXIxODlFVUZObkllTE5vT3c3b1NpUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E11a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T22:23:01.133722+00:00",
-    "publish_at": "2026-11-19T17:17:00+00:00",
-    "timestamp": "2026-11-19T17:17:00+00:00"
-  },
-  {
-    "id": "c0db7e0317fd",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oZm1SRnltalIxcmVqZDliN1padEdIMFpEOVBZMVFPVGMyazBuWlBfeHhMR1J2eXR2RWhQdTYzSVVieGtuUEJ5RHJsdW55U2pnZ3k0UG9VLXEtTk0?oc=5\n河北新報オンラインは「政府広報に陰謀論ユーチューバー、ナオキマン起用に懸念 宮城・村井知事 『誤解与える』」と報じた。\n「舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。」\n『ノヴム・オルガヌム』第1巻 アフォリズム62",
-    "original": "… ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 11,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府広報に陰謀論ユーチューバー、ナオキマン起用に懸念 宮城・村井知事 「誤解与える」 - 河北新報オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oZm1SRnltalIxcmVqZDliN1padEdIMFpEOVBZMVFPVGMyazBuWlBfeHhMR1J2eXR2RWhQdTYzSVVieGtuUEJ5RHJsdW55U2pnZ3k0UG9VLXEtTk0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "tribus"
-    ],
-    "quote_id": "NO1.62",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T15:05:24.231543+00:00",
-    "publish_at": "2026-11-19T14:17:00+00:00",
-    "timestamp": "2026-11-19T14:17:00+00:00"
-  },
-  {
-    "id": "ce223be162f3",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VcjJxdmxLRjIxYW85emF5WTAyLTZMeXM1LWpaLUI2aXN1ejVpR2tLZTRTNC11aGZzOXJNRjZ2WC1JQ0VWSFZVVGFhM1VDck9qQkFGenpnaUw4MlN6NFNaMW1tdUvSAWpBVV95cUxPQXM2eHFzNE0wUFpjYUstcDBhTFIwTE05UG5aUl9uWEpMT0NrZVo0elJ2R3liRVltc3R4aXU2LU9QLVhZMmRCcjI5U280amxSY01YanI0QjRzZ2lUQ21vV2lmcWI3aFpsZVZn?oc=5\n韓国で『AI不正で資格9個取得』との投稿が拡散したが、労務士試験の合格や勤務先の裏付けはないという。\n「自然誌の中の多くの実験は、誤って信じられ受け入れられることがありうるが、それらは、原因と公理が見出されると、まもなく容易に消し去られ、退けられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム118",
-    "original": "… multa in historia naturali experimenta falso credi et recipi posse, quae paulo post a causis et axiomatibus inventis facile expunguntur et rejiciuntur.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News ネットの騒動",
-    "source_title": "韓国で「AI不正で資格9個取得」との投稿が拡散…労務士試験の合格も勤務先も裏付けなし - Infoseek",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VcjJxdmxLRjIxYW85emF5WTAyLTZMeXM1LWpaLUI2aXN1ejVpR2tLZTRTNC11aGZzOXJNRjZ2WC1JQ0VWSFZVVGFhM1VDck9qQkFGenpnaUw4MlN6NFNaMW1tdUvSAWpBVV95cUxPQXM2eHFzNE0wUFpjYUstcDBhTFIwTE05UG5aUl9uWEpMT0NrZVo0elJ2R3liRVltc3R4aXU2LU9QLVhZMmRCcjI5U280amxSY01YanI0QjRzZ2lUQ21vV2lmcWI3aFpsZVZn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama",
-      "experientia",
-      "potentia"
-    ],
-    "quote_id": "NO1.118",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:54:40.813148+00:00",
-    "publish_at": "2026-11-19T11:17:00+00:00",
-    "timestamp": "2026-11-19T11:17:00+00:00"
   }
 ]
