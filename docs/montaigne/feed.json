@@ -1,5 +1,43 @@
 [
   {
+    "id": "7460a058ed8a",
+    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44aXh3TG04aGprbmNqakVnRVA1WkpqeUpZeFQtaWVrT1pvclJ3ZFR0QUo4N0stZG9xWlpZTGN4djBGNG9UODBKWVZXMnBUdXA4TGhSOW5jbFVuVE56SkxWc3dGNUNqSUJCTEE?oc=5\n実刑判決を受けた翌日にTikTokライブを行った元ジャンポケ斉藤が、視聴者2万人を集めた配信で想定外の事態に困惑し、大人しくするよう求める声が寄せられた。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "《実刑判決翌日にTikTokライブ》元ジャンポケ斉藤 視聴者2万人に膨れ上がった配信で“想定外の事態”に困惑…「今は大人しくして」の声も - 女性自身",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44aXh3TG04aGprbmNqakVnRVA1WkpqeUpZeFQtaWVrT1pvclJ3ZFR0QUo4N0stZG9xWlpZTGN4djBGNG9UODBKWVZXMnBUdXA4TGhSOW5jbFVuVE56SkxWc3dGNUNqSUJCTEE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "presomption"
+    ],
+    "quote_id": "I.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T02:53:51.492501+00:00",
+    "publish_at": "2026-11-24T01:17:00+00:00",
+    "timestamp": "2026-11-24T01:17:00+00:00"
+  },
+  {
+    "id": "85371df53805",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yQ05BVE81bjRnMHE4c2UtdzlHbnlfSXo5ZXdVMGVfOG1tN1BGQnhsdUlPb2hLVDAwRjdjVHlEYnhnNUZ0aWlNckpqQkdIVkJiU0gyY09FWTlDLS1hYzVkZXo3NDdKZWUzOVRMUUF4V3QydzdkczZsUG5tc2ZTR2s?oc=5\n記者が孤独死した女性のアパートで見つけたのは、『部屋の壁に大きな黒い染みが』あるという異様な光景だった。\n「この世で、私自身ほどはっきりした怪物や奇跡を、私は見たことがない。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「部屋の壁に大きな黒い染みが…」金庫に現金3400万円を遺して孤独死した“謎の女性”の不可解な生活…記者がアパートで目撃した“異様な光景”（2020年の事件）（文春オンライン） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yQ05BVE81bjRnMHE4c2UtdzlHbnlfSXo5ZXdVMGVfOG1tN1BGQnhsdUlPb2hLVDAwRjdjVHlEYnhnNUZ0aWlNckpqQkdIVkJiU0gyY09FWTlDLS1hYzVkZXo3NDdKZWUzOVRMUUF4V3QydzdkczZsUG5tc2ZTR2s?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "soi"
+    ],
+    "quote_id": "III.11e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-23T02:50:59.700591+00:00",
+    "publish_at": "2026-11-23T22:17:00+00:00",
+    "timestamp": "2026-11-23T22:17:00+00:00"
+  },
+  {
     "id": "1a1ca13830b8",
     "text": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBuZkhGc1R6dVNKR2U3T1YweGN5VXoyRnhBeDE2d2NrTE5HZ0hBMTR4Ti1NZjhDMzZUQ2pMSw?oc=5\n世間体は気にしないというギターボーカルが、熱狂を生むアーティストを夢に、ワンマンライブを目標に突き進むという。\n「善に向かうものであっても、度を越したものは、私を傷つけはしなくとも驚かせ、何と名づけてよいか困らせる。」\n『エセー I.30「節度について」』",
     "theme": "inconstance",
@@ -669,42 +707,5 @@
     "generated_at": "2026-11-18T14:09:57.363481+00:00",
     "publish_at": "2026-11-19T10:17:00+00:00",
     "timestamp": "2026-11-19T10:17:00+00:00"
-  },
-  {
-    "id": "96a858329b96",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CUlZuT2xxcmtPa0NvWWVnQUJabjZCZkFlM3Bnalh6WjBQTVU2VTZlbEFoN01WMlFDcXNYRV9LSV8wU3E3bkVuRTF2bzVrSjVQa2dwd0ZmbC1DVEphN0I4?oc=5\n店主らが逮捕されたのは、地域ブランドの淡路島3年とらふぐを偽りで提供した疑いが強いからである。\n「なぜ人間も、その人自身のものによって評価しないのか。多くの供回り、立派な屋敷、これほどの信用、これほどの収入――それはみな彼の周りにあるのであって、彼の内にあるのではない。」\n『エセー I.42「我々の間の不平等について」』",
-    "theme": "lois",
-    "score": 4,
-    "source": "Google News 国内",
-    "source_title": "地域ブランド「淡路島3年とらふぐ」と偽り提供か 店主ら逮捕 - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CUlZuT2xxcmtPa0NvWWVnQUJabjZCZkFlM3Bnalh6WjBQTVU2VTZlbEFoN01WMlFDcXNYRV9LSV8wU3E3bkVuRTF2bzVrSjVQa2dwd0ZmbC1DVEphN0I4?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "vanite"
-    ],
-    "quote_id": "I.42b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T14:05:46.095930+00:00",
-    "publish_at": "2026-11-19T07:17:00+00:00",
-    "timestamp": "2026-11-19T07:17:00+00:00"
-  },
-  {
-    "id": "d45cf0df3ead",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TNEczUVdnck84dW1vXy1STjhPYi04RVdZQzVXUS1pQ3Y2SWd0NEctSS0yQWMyWm1jU0V1cVplX09CUXJ2aFJUVjdLXzQwTmtiUHJj?oc=5\n斎藤美奈子さんとAIによる分身が、忖度のない討論の中で『私の分身か』と問われ、『文体を借りた別の論者だ』と答えた。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
-    "theme": "presomption",
-    "score": 4,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "斎藤美奈子さんと「AI斎藤美奈子」が忖度なしの徹底討論 「私の分身？」「文体を借りた別の論者です」 - 東京新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TNEczUVdnck84dW1vXy1STjhPYi04RVdZQzVXUS1pQ3Y2SWd0NEctSS0yQWMyWm1jU0V1cVplX09CUXJ2aFJUVjdLXzQwTmtiUHJj?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption"
-    ],
-    "quote_id": "I.39b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-18T04:33:15.478792+00:00",
-    "publish_at": "2026-11-19T04:17:00+00:00",
-    "timestamp": "2026-11-19T04:17:00+00:00"
   }
 ]
