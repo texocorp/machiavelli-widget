@@ -1,5 +1,113 @@
 [
   {
+    "id": "b7f00cb5ae74",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBOEljSi12NzdQUmx3dXF6d3hNSktVUi0zZDFvSFNhWXczeFBkbUFUSlpadVdqU3FRbG80eUJBSEJweE5kZE40WlV5N1NiSHViUHphQ2hhdWFybmJoQk1HSG5QY2NLM0hfd0dyYjVMRHJUdGdoQjhSaHZSc3hZc0k?oc=5\n元TBS報道キャスターが『モーニングショー』に生出演し、陰謀論系ユーチューバーによる政府広報に関する解説を行った。\n「思考の中の疑惑は、鳥の中の蝙蝠のようなもので、いつも薄明かりの中を飛ぶ。」\n『随筆集』第31篇「疑惑について」",
+    "original": "Suspicions amongst thoughts, are like bats amongst birds, they ever fly by twilight.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "元TBS報道キャスター「モーニングショー」生出演 陰謀論系ユーチューバー政府広報めぐり解説（日刊スポーツ） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBOEljSi12NzdQUmx3dXF6d3hNSktVUi0zZDFvSFNhWXczeFBkbUFUSlpadVdqU3FRbG80eUJBSEJweE5kZE40WlV5N1NiSHViUHphQ2hhdWFybmJoQk1HSG5QY2NLM0hfd0dyYjVMRHJUdGdoQjhSaHZSc3hZc0k?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E31a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T11:37:29.365780+00:00",
+    "publish_at": "2026-11-25T11:17:00+00:00",
+    "timestamp": "2026-11-25T11:17:00+00:00"
+  },
+  {
+    "id": "ce2cab09d61d",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFd1FyaFE1NVIxS3BybnIwMi04TEhPb3NHMzEwazlUNFVMRm5FVldaczJtRG0xYnNQVnI4Tm9DTGdiai1pSzhZUWJ2Q2pQcGhVLXJzaEhUMExnWHdXNnd4OXloTXd1Z1A4T1VFX0tsN050R2J1bHJEdTk0Xzk2V3M?oc=5\n政府が陰謀論系ユーチューバーを政府広報に起用したことで物議を醸し、予算増の要求も出ているという。\n「舞台のための作り話は、歴史に基づく真の話よりも整って優美であり、人が望むとおりのものになっている。」\n『ノヴム・オルガヌム』第1巻 アフォリズム62",
+    "original": "… ut narrationes fictae ad scenam narrationibus ex historia veris concinniores sint et elegantiores, et quales quis magis vellet.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報に“陰謀論系ユーチューバー”起用で物議 予算増の要求も 広報の役割とは（テレビ朝日系（ANN）） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFd1FyaFE1NVIxS3BybnIwMi04TEhPb3NHMzEwazlUNFVMRm5FVldaczJtRG0xYnNQVnI4Tm9DTGdiai1pSzhZUWJ2Q2pQcGhVLXJzaEhUMExnWHdXNnd4OXloTXd1Z1A4T1VFX0tsN050R2J1bHJEdTk0Xzk2V3M?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "NO1.62",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T11:28:15.418082+00:00",
+    "publish_at": "2026-11-25T08:17:00+00:00",
+    "timestamp": "2026-11-25T08:17:00+00:00"
+  },
+  {
+    "id": "3ea9fc36bfb0",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kSFRWcEVoSmI5QVg3VzRBVngzZzdHcGlhMTRQTm53cUtteU11VXpvVG9oYnlRSUFfYkRRTEdtTmgtbHFpZmlSWEhSZ1dXZmVzNEYtZ3FNM183U0hpTkhPZzRmWWJIU1B3b0pxSHhBa0pJOUVxeVdhcU8xMlNMUmM?oc=5\n陰謀論系YouTuberが『政府は数字にしか注目してない』と発言し、原爆投下はフェイク説も紹介したという。\n「第一に、人は当たったときには気に留め、外れたときには決して気に留めない。」\n『随筆集』第35篇「予言について」",
+    "original": "First, that men mark when they hit, and never mark when they miss …",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "「政府は数字にしか注目してない」“原爆投下はフェイク説”も紹介した陰謀論系YouTuber 広報に起用がどちらも“得をしない”ワケ - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kSFRWcEVoSmI5QVg3VzRBVngzZzdHcGlhMTRQTm53cUtteU11VXpvVG9oYnlRSUFfYkRRTEdtTmgtbHFpZmlSWEhSZ1dXZmVzNEYtZ3FNM183U0hpTkhPZzRmWWJIU1B3b0pxSHhBa0pJOUVxeVdhcU8xMlNMUmM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E35a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T11:12:16.220952+00:00",
+    "publish_at": "2026-11-25T05:17:00+00:00",
+    "timestamp": "2026-11-25T05:17:00+00:00"
+  },
+  {
+    "id": "586ab610edb5",
+    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FNGJlbVFiY1JwODA1RUlmT0ItYjZ0aVlIU0JiaFM3cmhVclZVQzljOGw4Q2IxSEFrT0loNHh6Y1B0a1VGVFJiSC1YR0I5Tnc?oc=5\n週刊女性PRIMEは「政府広報が起用の陰謀論YouTuber・ナオキマン『がんは深呼吸すれば治る』『抗がん剤の効果は2％以下』根拠不明発言、厚労相が明確に否定」と報じた。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
+    "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 14,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報が起用の陰謀論YouTuber・ナオキマン「がんは深呼吸すれば治る」「抗がん剤の効果は2％以下」根拠不明発言、厚労相が明確に否定 - 週刊女性PRIME",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FNGJlbVFiY1JwODA1RUlmT0ItYjZ0aVlIU0JiaFM3cmhVclZVQzljOGw4Q2IxSEFrT0loNHh6Y1B0a1VGVFJiSC1YR0I5Tnc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fori",
+      "fama",
+      "experientia"
+    ],
+    "quote_id": "E50a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T11:06:13.642734+00:00",
+    "publish_at": "2026-11-25T02:17:00+00:00",
+    "timestamp": "2026-11-25T02:17:00+00:00"
+  },
+  {
+    "id": "b39401659999",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVYXM3SEt4cThGb0xoZWxoWDhqdnVqVjc4OUl0WEVCMTNfT2tzai1hRk1PRVgxMjRtTEJsRWV4dXVUMjVMbmd4RTZpd2ctNVdWcFhuRjlFTEg0WFBMeTFPUnQxSQ?oc=5\nInter BEE 2026の講演でディープフェイク対策として、検知AIと来歴情報の組み合わせ方について語られたという。\n「しるしの中で、果実から取るしるしほど確かで高貴なものはない。果実と生み出された成果こそが、学説の真実の保証人のようなものだからである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム73",
+    "original": "Inter signa, nullum magis certum aut nobile est, quam quod ex fructibus. Fructus enim et opera inventa pro veritate philosophiarum velut sponsores et fidejussores sunt.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 16,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "ディープフェイク対策、検知AIと来歴情報をどう組み合わせるか Inter BEE 2026講演レポート - 株式会社インプレス",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVYXM3SEt4cThGb0xoZWxoWDhqdnVqVjc4OUl0WEVCMTNfT2tzai1hRk1PRVgxMjRtTEJsRWV4dXVUMjVMbmd4RTZpd2ctNVdWcFhuRjlFTEg0WFBMeTFPUnQxSQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "NO1.73",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T11:00:42.273458+00:00",
+    "publish_at": "2026-11-24T23:17:00+00:00",
+    "timestamp": "2026-11-24T23:17:00+00:00"
+  },
+  {
     "id": "ed3d5fc12788",
     "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94cmZyZlRBSTlrbW5McjFxRFhQdGFvMVN5RUNvS2Q4RE9wcjNhbjJWbk9BOThrdmZiblgyeko4cFkyVFMwNG1UblVva0gyNGlVaXlWMUptMlJrcXhaV193ek1fZkFQbldEb2dDbTIwOWtHZHJM?oc=5\n株式会社EMOLVAは、政治SNS特有の3つの壁に対応する独自戦略を共有し、期間限定でプログラムを開始するという。\n「多く問う者は、多く学び、そして多く人を満足させる。」\n『随筆集』第32篇「談論について」",
     "original": "… he that questioneth much, shall learn much, and content much …",
@@ -689,89 +797,5 @@
     "generated_at": "2026-11-19T22:01:35.168747+00:00",
     "publish_at": "2026-11-20T20:17:00+00:00",
     "timestamp": "2026-11-20T20:17:00+00:00"
-  },
-  {
-    "id": "0a9864341e99",
-    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE81R2hObVhJbkpfM1V4ZHBQQ3R4MmMxbDViTk9abkJWYVBjd3hBaS1XUmJwRGV5czFNUXViWWQ0dmp0ZzlNekpwWmxR?oc=5\npando.lifeは「ディープフェイクAI上位10社ランキング」と報じた。\n「彼らは野心と気取りをもってそれを示し、仮面をかぶせたように形を整えて人々の前に出す。あたかもあらゆる点で完全で、完成に至っているかのように。」\n『ノヴム・オルガヌム』第1巻 アフォリズム86",
-    "original": "Illi enim ea ambitione et affectatione eas proponunt, atque in eum modum efformatas ac veluti personatas in hominum conspectum producunt, ac si illae omni ex parte perfectae essent et ad exitum perductae.",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 16,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "ディープフェイクAI上位10社ランキング - pando.life",
-    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE81R2hObVhJbkpfM1V4ZHBQQ3R4MmMxbDViTk9abkJWYVBjd3hBaS1XUmJwRGV5czFNUXViWWQ0dmp0ZzlNekpwWmxR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia"
-    ],
-    "quote_id": "NO1.86a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T21:52:26.216913+00:00",
-    "publish_at": "2026-11-20T17:17:00+00:00",
-    "timestamp": "2026-11-20T17:17:00+00:00"
-  },
-  {
-    "id": "e41cda3a292d",
-    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqOUlNeUdRdW9DYjFMNldPSHpaWlQ5NmFwTmlHeGJBaGdHUHBTM040R1FEbjJWdWhoZWtHdWhCMkliakFzUDVmN2ZaSk41SnRuUlRhZTZLaGI4M3ExMUhBcmF2Q0RpTUZsa3B4WE5jZTJ5S2ph?oc=5\nエヌビディアがディープフェイク騒動に直面しており、解任されたフアン氏のパロディ動画が拡散しているという。\n「順境は悪徳をいちばんよく露わにし、逆境は美徳をいちばんよく露わにする。」\n『随筆集』第5篇「逆境について」",
-    "original": "Prosperity doth best discover vice, but adversity doth best discover virtue.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 16,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "エヌビディア新体制、解任されたフアン氏のパロディ動画が拡散するディープフェイク騒動に直面 - BigGo ファイナンス",
-    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqOUlNeUdRdW9DYjFMNldPSHpaWlQ5NmFwTmlHeGJBaGdHUHBTM040R1FEbjJWdWhoZWtHdWhCMkliakFzUDVmN2ZaSk41SnRuUlRhZTZLaGI4M3ExMUhBcmF2Q0RpTUZsa3B4WE5jZTJ5S2ph?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama"
-    ],
-    "quote_id": "E5",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T21:40:45.804759+00:00",
-    "publish_at": "2026-11-20T14:17:00+00:00",
-    "timestamp": "2026-11-20T14:17:00+00:00"
-  },
-  {
-    "id": "88bf1e9eabf5",
-    "text": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnNsMGVjM3JYaUFSNEFvSWZMdV9nZUtaOXZSWnZKTUJMNFJZSnZLTmpqZEtVWmZ3MUV4VGhQZjVVRFFUdUEzbmZVbF9IeWpCRW5DMkFrMThQLU8zX0pzczliNEkycldrY05vVElZTUNxT0xWRTg0dDV0bWVBNWZlTUNNYmxwTkxMN3I4M0ZRRDVyNnlHWnJoUVh1bEZsVThGQzdFMTNnMUpUeFRVRWtMX2hUVjRMbTB0a0RzWQ?oc=5\n整形疑惑が広まる中、フローレンス・ピューはSNSでその噂を明確に否定したという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
-    "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 12,
-    "source": "Google News 風評・噂",
-    "source_title": "整形疑惑が広まるフローレンス・ピュー、SNSで噂を“明確に”否定 - Harper's BAZAAR",
-    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnNsMGVjM3JYaUFSNEFvSWZMdV9nZUtaOXZSWnZKTUJMNFJZSnZLTmpqZEtVWmZ3MUV4VGhQZjVVRFFUdUEzbmZVbF9IeWpCRW5DMkFrMThQLU8zX0pzczliNEkycldrY05vVElZTUNxT0xWRTg0dDV0bWVBNWZlTUNNYmxwTkxMN3I4M0ZRRDVyNnlHWnJoUVh1bEZsVThGQzdFMTNnMUpUeFRVRWtMX2hUVjRMbTB0a0RzWQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E59a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T13:45:26.325909+00:00",
-    "publish_at": "2026-11-20T11:17:00+00:00",
-    "timestamp": "2026-11-20T11:17:00+00:00"
-  },
-  {
-    "id": "c8b6ddbd6898",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YS1BCUEZzdUtrWmZreDVUcktIaDdJc2VGQWUweGhhaHh5T19EZTh4a01kcHUzNkNjalVKSXFGd29FbWlxRjczVXpuWmFrNVNyMW45QjNuUkJtX0dzRXlr?oc=5\nNHKニュースは「国民 玉木代表 政府広報“陰謀論ユーチューバー起用は適切か” | NHKニュース | ＡＩ・ネット・ＩＴ、文化・芸術・エンタメ」と報じた。\n「思考の中の疑惑は、鳥の中の蝙蝠のようなもので、いつも薄明かりの中を飛ぶ。」\n『随筆集』第31篇「疑惑について」",
-    "original": "Suspicions amongst thoughts, are like bats amongst birds, they ever fly by twilight.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "国民 玉木代表 政府広報“陰謀論ユーチューバー起用は適切か” | NHKニュース | ＡＩ・ネット・ＩＴ、文化・芸術・エンタメ - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YS1BCUEZzdUtrWmZreDVUcktIaDdJc2VGQWUweGhhaHh5T19EZTh4a01kcHUzNkNjalVKSXFGd29FbWlxRjczVXpuWmFrNVNyMW45QjNuUkJtX0dzRXlr?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama",
-      "potentia"
-    ],
-    "quote_id": "E31a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T13:34:43.484288+00:00",
-    "publish_at": "2026-11-20T08:17:00+00:00",
-    "timestamp": "2026-11-20T08:17:00+00:00"
   }
 ]
