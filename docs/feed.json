@@ -1,5 +1,65 @@
 [
   {
+    "id": "7ea1e0560ca5",
+    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uYW5GcVJtRjg4UG9KS3B5eDhQeGdyQks3ZEV0UDJrYjBFd2E4cEJRMi1JaXlGX0FmLUhHX01xZjlqSEhYZEdrZ2FBQ2FZUVdqbHIzWmc5QnJWN0o1dHEtbtIBZkFVX3lxTFBEZWM0NklBNlNEZ3dtX3FlaVBwRkJTbzNBOU1WY3FrXzl2bDJZcVhIWW9rUVVOU2VSNTBYT2N1WENza2xLVFFfbXVKSkkybW9WM3YtVExxN1J3ejI3UlJUM3VfNmhhUQ?oc=5\nウクライナでの戦争が拡大し、リビア海域でロシア艦船が攻撃されたことが分かった。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナでの戦争が拡大、リビア海域でのロシア艦船攻撃から分かること - BBC",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uYW5GcVJtRjg4UG9KS3B5eDhQeGdyQks3ZEV0UDJrYjBFd2E4cEJRMi1JaXlGX0FmLUhHX01xZjlqSEhYZEdrZ2FBQ2FZUVdqbHIzWmc5QnJWN0o1dHEtbtIBZkFVX3lxTFBEZWM0NklBNlNEZ3dtX3FlaVBwRkJTbzNBOU1WY3FrXzl2bDJZcVhIWW9rUVVOU2VSNTBYT2N1WENza2xLVFFfbXVKSkkybW9WM3YtVExxN1J3ejI3UlJUM3VfNmhhUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D1.33",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T17:56:33.397603+00:00",
+    "publish_at": "2026-11-25T15:17:00+00:00",
+    "timestamp": "2026-11-25T15:17:00+00:00"
+  },
+  {
+    "id": "26c9f6374ff4",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KWjR5dmNyUUo1V1B4NmRLdFFNWWdWdWhkOWV0OFJaUFFPLVhnSHNiZy1zVXhJdWRCNEJKVTEzWE92Nlg0dlVCUFZOVGp1YzQ4TW5WQURZeVZ5RGlBMkZrakI2cV9peEZsS2hNQ1ZmN3lqaXF6VGxoa2NVRWJxZWc?oc=5\nウクライナがロシア艦船をドローンで攻撃したことは、動画や衛星画像から明らかになっているという。\n「尋常な手段では決して得られぬものも、勢いと大胆さによってしばしば得られる。」\n『リウィウス論 III.44』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナがロシア艦船をドローン攻撃、動画や衛星画像で分かること（BBC News） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KWjR5dmNyUUo1V1B4NmRLdFFNWWdWdWhkOWV0OFJaUFFPLVhnSHNiZy1zVXhJdWRCNEJKVTEzWE92Nlg0dlVCUFZOVGp1YzQ4TW5WQURZeVZ5RGlBMkZrakI2cV9peEZsS2hNQ1ZmN3lqaXF6VGxoa2NVRWJxZWc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "D3.44",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T17:48:22.730890+00:00",
+    "publish_at": "2026-11-25T12:17:00+00:00",
+    "timestamp": "2026-11-25T12:17:00+00:00"
+  },
+  {
+    "id": "a78b194dc55b",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdkE2WkZGN014SzlMQk1VSjloQ3BNblphVzJzWGZuUG1NczlKbndwdU1PUnBwNnczREhGYXEyWFVSWllCLXN3TVk1QnoyX1lacnFmcjBMbXhPN3VpVGE3ZHJFMFAtSEM5anVoNGpLeUNwWVpRVEpsbEpDNG5tNTZWUHF0Wm9mUk0?oc=5\nイランの外務省報道官は、米国による海上封鎖に対し『あらゆる手段』で対抗すると表明した。\n「戦争を遂行するうえで詐術を用いるのは、栄誉ある行いである。」\n『リウィウス論 III.40』",
+    "theme": "guerra",
+    "score": 22,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン、「あらゆる手段」で米海上封鎖に対抗＝外務省報道官 | ロイター - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdkE2WkZGN014SzlMQk1VSjloQ3BNblphVzJzWGZuUG1NczlKbndwdU1PUnBwNnczREhGYXEyWFVSWllCLXN3TVk1QnoyX1lacnFmcjBMbXhPN3VpVGE3ZHJFMFAtSEM5anVoNGpLeUNwWVpRVEpsbEpDNG5tNTZWUHF0Wm9mUk0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D3.40",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T17:43:00.861599+00:00",
+    "publish_at": "2026-11-25T09:17:00+00:00",
+    "timestamp": "2026-11-25T09:17:00+00:00"
+  },
+  {
     "id": "0b3c903c8b46",
     "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSEE1R05MZlBtLXpsbFliby1rQzdOaEtLdHhMUFJHX21BV0traGZwTy1pQmNyN2hyd1BaMDlCNXRrcnh2UHhObWdFTEFwNklYUHplU3lMTWNMbUI0VnFhMmZhb0d1N00?oc=5\nハマスは襲撃から3週間前に『地震を起こす』という警告をイスラエルに発していた。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
     "theme": "guerra",
@@ -699,66 +759,5 @@
     "generated_at": "2026-11-20T12:19:13.637095+00:00",
     "publish_at": "2026-11-21T00:17:00+00:00",
     "timestamp": "2026-11-21T00:17:00+00:00"
-  },
-  {
-    "id": "434dd148bdb7",
-    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nc1BaaFVEdUFScXFtZmQ3elQyOXZwTnZvR2w0WlhqV29oclJ4dmttdnJ1WFBvdmhxejFVbzdaLXMzMGd3eTNIUXhRb0hsdw?oc=5\nロシアのプーチン大統領は、クリミア橋への攻撃を受け、ウクライナに対して報復を宣言したという。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ロシアのプーチン大統領 クリミア橋攻撃受けウクライナに報復宣言 - FNNプライムオンライン",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nc1BaaFVEdUFScXFtZmQ3elQyOXZwTnZvR2w0WlhqV29oclJ4dmttdnJ1WFBvdmhxejFVbzdaLXMzMGd3eTNIUXhRb0hsdw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D1.33",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T22:37:02.382222+00:00",
-    "publish_at": "2026-11-20T21:17:00+00:00",
-    "timestamp": "2026-11-20T21:17:00+00:00"
-  },
-  {
-    "id": "c7c16919f743",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ2FBYjU2c0llZzU2dWJtRklNVzJjY3cxQjc1TXpwMWJYSFFJclVBYjkzMU40LWMtaXVzSkFRTkF1NFpzaDVETGRDZjVJVGVJTjd3eG9yMnoweDNBY1FQeWpBNExwU3lral92aHEweElPQUhqYnZHZ2JqUHBnQ1I0X3prcmlvUdIBiwFBVV95cUxPS2lNQVB2WFFTaWlGRjRBU1duLWNyWjA0NkhZME1pNGgyREluU09BajVkSWkyU3N0enJaQjJtUkF4M2d1eGNPM3paQWVibWtsa2ZSLVpRUGNzdnFhV0dOTlhmazVTMHltdkdWTkRTdm5OV2F0N2RoQW9qVjZwOGxqeG5QcGRWUlAtOGx3?oc=5\nイランは米軍施設の攻撃を行い、これは米軍が南部ゲシュム島を攻撃したことの報復であるという。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "イランがクウェートの米軍施設攻撃　米軍による南部ゲシュム島への攻撃に報復か - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ2FBYjU2c0llZzU2dWJtRklNVzJjY3cxQjc1TXpwMWJYSFFJclVBYjkzMU40LWMtaXVzSkFRTkF1NFpzaDVETGRDZjVJVGVJTjd3eG9yMnoweDNBY1FQeWpBNExwU3lral92aHEweElPQUhqYnZHZ2JqUHBnQ1I0X3prcmlvUdIBiwFBVV95cUxPS2lNQVB2WFFTaWlGRjRBU1duLWNyWjA0NkhZME1pNGgyREluU09BajVkSWkyU3N0enJaQjJtUkF4M2d1eGNPM3paQWVibWtsa2ZSLVpRUGNzdnFhV0dOTlhmazVTMHltdkdWTkRTdm5OV2F0N2RoQW9qVjZwOGxqeG5QcGRWUlAtOGx3?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "AG4",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T21:36:15.773906+00:00",
-    "publish_at": "2026-11-20T18:17:00+00:00",
-    "timestamp": "2026-11-20T18:17:00+00:00"
-  },
-  {
-    "id": "5b8d7b4483d1",
-    "text": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xd1ZBVkM2emszX3NxUTktSlYyVGE1eE51US1jeGNUYUliRkcyMnE3UVhiOTI2NlRwZ2xjMmdLRDBSdFdHN3VHTmhFTUgxWnRRSVN2SU5Qb0lRWVE3QW90RzdWYlJPWjVKYk9iamhJaw?oc=5\nトランプ大統領はイランへの攻撃を検討しており、その報道を受け原油価格が上昇しているという。\n「為すべきことについては多くの者に諮り、実際に為そうとすることは少数の者にだけ打ち明けよ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ大統領がイラン攻撃を検討との報道を受け、原油価格が上昇 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xd1ZBVkM2emszX3NxUTktSlYyVGE1eE51US1jeGNUYUliRkcyMnE3UVhiOTI2NlRwZ2xjMmdLRDBSdFdHN3VHTmhFTUgxWnRRSVN2SU5Qb0lRWVE3QW90RzdWYlJPWjVKYk9iamhJaw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "economia",
-      "consiglio"
-    ],
-    "quote_id": "AG10",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T21:33:18.546553+00:00",
-    "publish_at": "2026-11-20T15:17:00+00:00",
-    "timestamp": "2026-11-20T15:17:00+00:00"
   }
 ]
