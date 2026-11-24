@@ -1,5 +1,63 @@
 [
   {
+    "id": "15443b395d92",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMlF1VE5QYzhBeWNNTjV6RFVkWkFBelRBdDFvYWhYSVVYbzlzOHhzV2dQc1hyRnQzQ0pJNzRXM3FVdzM5RWZyMXM1RFZjeklmbGFheV9aZm5YWGpGVm5HNk1qNUJUMHllUjhkQ1pEQVhCSFhGWC00ckpZUktvWWNGTE1kVlhydTA?oc=5\n11月は過労死防止月間で、働き方や過労死の危険性、パワハラ相談などについて考えられている。\n「まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。」\n『エセー I.39「孤独について」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "11月は「過労死防止月間」 働き方について考える 過労死の危険が高まる残業時間は？ パワハラ相談にも変化 鳥取県鳥取市 - 日テレNEWS NNN",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMlF1VE5QYzhBeWNNTjV6RFVkWkFBelRBdDFvYWhYSVVYbzlzOHhzV2dQc1hyRnQzQ0pJNzRXM3FVdzM5RWZyMXM1RFZjeklmbGFheV9aZm5YWGpGVm5HNk1qNUJUMHllUjhkQ1pEQVhCSFhGWC00ckpZUktvWWNGTE1kVlhydTA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.39a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T21:28:26.805058+00:00",
+    "publish_at": "2026-11-25T19:17:00+00:00",
+    "timestamp": "2026-11-25T19:17:00+00:00"
+  },
+  {
+    "id": "3c603ff8ffd1",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OZ1VBcEZtRXdVUFltM0FULXluSjdrenBYT0M3TUtVVnNwNjMyYWhIMHAydEFjWkVvWHZ1WV9McDBRWmI0ZEUtSDZNYjMycFhyTUpqdktpRG9iRXEza0tYQUNiVQ?oc=5\nワークマンのリカバリースーツについて、忖度なし検証を行い第1位に選ばれたという。\n「世の中で最も大事なことは、自分が自分自身のものであるすべを知ることだ。」\n『エセー I.39「孤独について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "第1位 ワークマンのリカバリースーツを忖度なし検証 - MonoMax web",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OZ1VBcEZtRXdVUFltM0FULXluSjdrenBYT0M3TUtVVnNwNjMyYWhIMHAydEFjWkVvWHZ1WV9McDBRWmI0ZEUtSDZNYjMycFhyTUpqdktpRG9iRXEza0tYQUNiVQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui"
+    ],
+    "quote_id": "I.39b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T21:20:34.242833+00:00",
+    "publish_at": "2026-11-25T16:17:00+00:00",
+    "timestamp": "2026-11-25T16:17:00+00:00"
+  },
+  {
+    "id": "c99596bad227",
+    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiR00zLVpQSUVJUEU4OFJYTWRLLUJiX0syamxRNzFfNTE0aGJZWnNmYUFiMlRXdDNzODdVRENEV3BFWGhxdi0yMjRjMFdSNnM?oc=5\n米商務省は、見送り報道から2週間で一転し、AI半導体流用疑いで7社を規制したという。\n「人間の理性は、両刃の危険な剣である。」\n『エセー II.17「うぬぼれについて」』",
+    "theme": "lois",
+    "score": 6,
+    "source": "Google News 検索 世相",
+    "source_title": "見送り報道から2週間で一転 米商務省がメガスピード関連7社を規制、AI半導体流用疑い ｜Seizo Trend - ビジネス+IT",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiR00zLVpQSUVJUEU4OFJYTWRLLUJiX0syamxRNzFfNTE0aGJZWnNmYUFiMlRXdDNzODdVRENEV3BFWGhxdi0yMjRjMFdSNnM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "opinion",
+      "presomption",
+      "profit",
+      "inconstance"
+    ],
+    "quote_id": "II.17d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T21:17:02.855715+00:00",
+    "publish_at": "2026-11-25T13:17:00+00:00",
+    "timestamp": "2026-11-25T13:17:00+00:00"
+  },
+  {
     "id": "da7572737009",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TX3h3UkRiSFRkWnNjZTdBeThvMkQwS25Hbld4YmxpcmVkS3U0ZHFON3NQbHNubm1ZRnhod0FNZUkyd0gydjRNMGY4TUVYaG9VaUlSM0tDSmtjM1FTaHBqYWI3aFFRX3JKVGpKd3FoRk5DeENDU2lZSEFCOEdLLUE?oc=5\n『会社員』で古き価値観に囚われた英理子が描かれ、差別に苦しむ姿が映し出されたという。\n「自然から生まれると我々が言う良心の掟は、実は慣習から生まれる。」\n『エセー I.23「慣習について」』",
     "theme": "autrui",
@@ -646,62 +704,5 @@
     "generated_at": "2026-11-20T13:16:47.660562+00:00",
     "publish_at": "2026-11-21T04:17:00+00:00",
     "timestamp": "2026-11-21T04:17:00+00:00"
-  },
-  {
-    "id": "89317238cb93",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbnNCQkYyWlNPYXZ5SGIwZ0Jfcm9oVlJhUjc5SzAtUFoxUms4MHNaR3htdHNsWm5Cd0IyVjU3UDQ3VkRZTXlqcXNfRWpFaXNBYXdBbGFVWGpsZXllcnNJSjdGY0hnMzBwU1JUbURSLXVMTjdRYmVqZVZYU1BwZU0?oc=5\nＦＢＳと香春町が連携してドローンを活用し、災害時に孤立した集落への物資輸送などを想定した初の実証実験を行った。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
-    "theme": "mort",
-    "score": 8,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "ＦＢＳと香春町がドローン活用で連携、災害で孤立した集落を想定した物資輸送などの訓練…初の実証実験（読売新聞オンライン） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbnNCQkYyWlNPYXZ5SGIwZ0Jfcm9oVlJhUjc5SzAtUFoxUms4MHNaR3htdHNsWm5Cd0IyVjU3UDQ3VkRZTXlqcXNfRWpFaXNBYXdBbGFVWGpsZXllcnNJSjdGY0hnMzBwU1JUbURSLXVMTjdRYmVqZVZYU1BwZU0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "presomption",
-      "soi"
-    ],
-    "quote_id": "I.39c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T13:07:20.252921+00:00",
-    "publish_at": "2026-11-21T01:17:00+00:00",
-    "timestamp": "2026-11-21T01:17:00+00:00"
-  },
-  {
-    "id": "048e8f256950",
-    "text": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUsxTVU5Q1BQQlVhRExLa0tVZEc4SlpETEtQUVMweTZxbHZ3em5xT2V4d2s5bDZZeWcxOTBJTGNGcGFRbG94cG5Jb1NKeGE4dHJYT0R5eVZjOUR0bEkwMTJZNkw2TEFZQVlqTmhqdkxvZ0lxeWdGX0FxZDlUTFhMOFZkWnh2UFJFSWVBYXJ6TkRCSHF5?oc=5\n次世代エクソソームは、ヒト換算で約15年の健康寿命延伸をもたらす可能性を持っているという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
-    "theme": "mort",
-    "score": 0,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "ヒト換算で約15年の健康寿命延伸も 「次世代エクソソーム」の可能性 - 日経Gooday",
-    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUsxTVU5Q1BQQlVhRExLa0tVZEc4SlpETEtQUVMweTZxbHZ3em5xT2V4d2s5bDZZeWcxOTBJTGNGcGFRbG94cG5Jb1NKeGE4dHJYT0R5eVZjOUR0bEkwMTJZNkw2TEFZQVlqTmhqdkxvZ0lxeWdGX0FxZDlUTFhMOFZkWnh2UFJFSWVBYXJ6TkRCSHF5?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "medecine"
-    ],
-    "quote_id": "III.13j",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T22:22:11.442235+00:00",
-    "publish_at": "2026-11-20T22:17:00+00:00",
-    "timestamp": "2026-11-20T22:17:00+00:00"
-  },
-  {
-    "id": "cc52c022b9b0",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TSEM3UmluNy0zU0hPZ3gzNE43bkR1NENKM2VFSTRZSnBTSzc5YWl4ZlhIM2Uya21tZkZFdTM3RHVJeWZqT0pndkdSa29GcTZmazhoeUJIQ2lYMV9IRFF5eGhYYlphZnVQZFh6bDRONVJmT0ZCdS1nY0FiVzVLMlk?oc=5\nトラウマのレンズをかけ、人の傷つきに寄り添いながら逆境を乗り越えることについて考えるという。\n「自分にとって最も厭わしい側にわざわざ身構え、病や貧しさや侮りに、良い味を与えることもできるのに苦く悪い味を与えるとすれば、我々は奇妙なほど愚かである。」\n『エセー I.14「善悪の味わいは我々の考え方による」』",
-    "theme": "savoir",
-    "score": 0,
-    "source": "Google News 科学",
-    "source_title": "トラウマのレンズをかけ、人の傷つきに寄り添い逆境を乗り越える（大岡由佳／武庫川女子大学教授）（Science Portal） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TSEM3UmluNy0zU0hPZ3gzNE43bkR1NENKM2VFSTRZSnBTSzc5YWl4ZlhIM2Uya21tZkZFdTM3RHVJeWZqT0pndkdSa29GcTZmazhoeUJIQ2lYMV9IRFF5eGhYYlphZnVQZFh6bDRONVJmT0ZCdS1nY0FiVzVLMlk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "I.14b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T22:18:36.080967+00:00",
-    "publish_at": "2026-11-20T19:17:00+00:00",
-    "timestamp": "2026-11-20T19:17:00+00:00"
   }
 ]
