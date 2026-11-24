@@ -1,5 +1,70 @@
 [
   {
+    "id": "1b9ea8b421b6",
+    "text": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3d1dKZDhSWFVxRXNyNmJvQzFlcnZ6MDRpZ0kzQVhfdVhSYUVUNDVFVTVMX0pOS3IwajJuU3FJSE01VFJNbnZwQ0ZlV0NuSVV6clgwcmZNSmI2ZG44SHliZTlhTFdNNjZLUXFZRExFRENSNDhRc29vQ3F5SQ?oc=5\nカスハラが方針を明記し、SNSでの誹謗中傷や土下座要求などの問題に対し、関係者が安心して役割を果たせる環境を確保するとした。\n「高い地位にある人は三重の下僕である。君主あるいは国家の下僕、評判の下僕、そして仕事の下僕である。」\n『随筆集』第11篇「高い地位について」",
+    "original": "Men in great place are thrice servants: servants of the sovereign or state; servants of fame; and servants of business.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News SNS・報道",
+    "source_title": "カスハラの方針を明記 SNSでの誹謗中傷や土下座要求など「関係者が安心してその役割を果たせる環境を確保」 - 日テレNEWS NNN",
+    "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3d1dKZDhSWFVxRXNyNmJvQzFlcnZ6MDRpZ0kzQVhfdVhSYUVUNDVFVTVMX0pOS3IwajJuU3FJSE01VFJNbnZwQ0ZlV0NuSVV6clgwcmZNSmI2ZG44SHliZTlhTFdNNjZLUXFZRExFRENSNDhRc29vQ3F5SQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E11a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T21:56:56.807183+00:00",
+    "publish_at": "2026-11-25T20:17:00+00:00",
+    "timestamp": "2026-11-25T20:17:00+00:00"
+  },
+  {
+    "id": "567539bac55e",
+    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OYjZQc3J5b0t2T3VVTjJuY0NoTDBPaENOMXczTURGT0tLVDQxcXFfR0hyRFdIa2h3Um5zRGVKX216Rnl1ZEZ1UWFpY3RyZThmMkd1LWx4eElVeEJPVmxTTA?oc=5\n新聞協会はSNS対策案に対して懸念を示し、選挙における偽情報の問題が議論されているという。\n「自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。」\n『随筆集』第22篇「狡猾について」",
+    "original": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 11,
+    "source": "Google News 偽情報・言説",
+    "source_title": "ＳＮＳ対策案に新聞協会が懸念 選挙の偽情報巡り - 琉球新報デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OYjZQc3J5b0t2T3VVTjJuY0NoTDBPaENOMXczTURGT0tLVDQxcXFfR0hyRFdIa2h3Um5zRGVKX216Rnl1ZEZ1UWFpY3RyZThmMkd1LWx4eElVeEJPVmxTTA?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "tribus"
+    ],
+    "quote_id": "E22b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T21:43:20.845961+00:00",
+    "publish_at": "2026-11-25T17:17:00+00:00",
+    "timestamp": "2026-11-25T17:17:00+00:00"
+  },
+  {
+    "id": "5655fa154bd0",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nd0JYRWF2OHhuQWp0dHJRQjNFelVLRXNvSDJVNDAtOXBQSUM3dzZ6TGdhdFBCYXZxRklwbG01QkhFUHFlOFN6dmxYWXdaRVhjSW8yMGdMU0xnRk14X0E?oc=5\n知事選に関する誤情報が3割から5割ほど信じられているというNHK文研の調査結果が明らかになったという。\n「人間の知性は、事物の光を受ける歪んだ鏡のようなものであり、自らの性質を事物の性質に混ぜ合わせて、それを歪め、染めてしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム41",
+    "original": "Estque intellectus humanus instar speculi inaequalis ad radios rerum, qui suam naturam naturae rerum immiscet, eamque distorquet et inficit.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 17,
+    "source": "Google News 偽情報・言説",
+    "source_title": "［ファクトデマ チェック］誤情報「信用」3～5割 知事選 ネットで流布 検証報道「見た」7割 NHK文研調査 - 沖縄タイムス社",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nd0JYRWF2OHhuQWp0dHJRQjNFelVLRXNvSDJVNDAtOXBQSUM3dzZ6TGdhdFBCYXZxRklwbG01QkhFUHFlOFN6dmxYWXdaRVhjSW8yMGdMU0xnRk14X0E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "superstitio",
+      "fama",
+      "experientia"
+    ],
+    "quote_id": "NO1.41b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T21:17:30.975110+00:00",
+    "publish_at": "2026-11-25T14:17:00+00:00",
+    "timestamp": "2026-11-25T14:17:00+00:00"
+  },
+  {
     "id": "b7f00cb5ae74",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBOEljSi12NzdQUmx3dXF6d3hNSktVUi0zZDFvSFNhWXczeFBkbUFUSlpadVdqU3FRbG80eUJBSEJweE5kZE40WlV5N1NiSHViUHphQ2hhdWFybmJoQk1HSG5QY2NLM0hfd0dyYjVMRHJUdGdoQjhSaHZSc3hZc0k?oc=5\n元TBS報道キャスターが『モーニングショー』に生出演し、陰謀論系ユーチューバーによる政府広報に関する解説を行った。\n「思考の中の疑惑は、鳥の中の蝙蝠のようなもので、いつも薄明かりの中を飛ぶ。」\n『随筆集』第31篇「疑惑について」",
     "original": "Suspicions amongst thoughts, are like bats amongst birds, they ever fly by twilight.",
@@ -733,69 +798,5 @@
     "generated_at": "2026-11-20T12:59:09.060229+00:00",
     "publish_at": "2026-11-21T05:17:00+00:00",
     "timestamp": "2026-11-21T05:17:00+00:00"
-  },
-  {
-    "id": "41448640b0c4",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MZzBoSFJWdUlhQngyMVg2MmJBVGo4Vnl1N3BwN0xweTJ1NG5abERqVWtpaTFjREZrejVyU2swandjdjl3U01QUjRXekZfcEFwaW1ZQ1RIYTNWR28?oc=5\n東洋経済オンラインは「｢ナオキマンとは何者なのか｣ 政府が陰謀論系YouTuber起用で大波紋→\"ただの炎上\"では済まない問題の本質」と報じた。\n「それゆえ賢明な為政者はみな、行動や計画そのものに対するのと同じほど、風評にも目を光らせ、心を配るべきである。」\n『随筆集』断章「風評について」",
-    "original": "Therefore let all wise governors have as great a watch and care over fames, as they have of the actions and designs themselves.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 13,
-    "source": "Google News 偽情報・言説",
-    "source_title": "｢ナオキマンとは何者なのか｣ 政府が陰謀論系YouTuber起用で大波紋→\"ただの炎上\"では済まない問題の本質 - 東洋経済オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MZzBoSFJWdUlhQngyMVg2MmJBVGo4Vnl1N3BwN0xweTJ1NG5abERqVWtpaTFjREZrejVyU2swandjdjl3U01QUjRXekZfcEFwaW1ZQ1RIYTNWR28?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E59b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T03:27:10.770024+00:00",
-    "publish_at": "2026-11-21T02:17:00+00:00",
-    "timestamp": "2026-11-21T02:17:00+00:00"
-  },
-  {
-    "id": "f2da324903ec",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmthQ2FsTVJYNE5OSzVTeXVQSjQxREMxeF8zTkY1dGc3N1JhVzZkVmdXR1dkOGp5YW1xRTkwN2pxTjJvdTg5Z25PSExjTk9YNW9yMjFvSmhyeHNUNDZXMVF3NGNmalFuRi14MUhHTUxmcnZ3WWFUQmFsaGFpUHlsOXBoVTZBd9IBiwFBVV95cUxOZ1owNV9BRFhKWEVUUmc2UGRXX1UxOHBNVjZIZ2ZfWDA3akx2ZWwwRVYzeGxxRzh3STh6YnBLd05FQVFfN084ZjVZRnlSbkxvYWRoQmtJd3BUYjR2NnUyZWcwVU8xLW5VMHJ6WVZsM3k0RW9wbTBuZDVlRE9uNlRnTEdLeVFDbHNBanRr?oc=5\n香港メディアが、半導体規制と収益難により中国の生成AIが暗い時代を迎える可能性について報じた。\n「新しい治療を施そうとしない者は、新しい災いを覚悟しなければならない。時こそ最大の革新者だからである。」\n『随筆集』第24篇「革新について」",
-    "original": "… and he that will not apply new remedies, must expect new evils; for time is the greatest innovator …",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 16,
-    "source": "Google News AI・研究政策",
-    "source_title": "半導体規制と収益難、中国の生成AIは「暗い時代」へ？―香港メディア - ｄメニューニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmthQ2FsTVJYNE5OSzVTeXVQSjQxREMxeF8zTkY1dGc3N1JhVzZkVmdXR1dkOGp5YW1xRTkwN2pxTjJvdTg5Z25PSExjTk9YNW9yMjFvSmhyeHNUNDZXMVF3NGNmalFuRi14MUhHTUxmcnZ3WWFUQmFsaGFpUHlsOXBoVTZBd9IBiwFBVV95cUxOZ1owNV9BRFhKWEVUUmc2UGRXX1UxOHBNVjZIZ2ZfWDA3akx2ZWwwRVYzeGxxRzh3STh6YnBLd05FQVFfN084ZjVZRnlSbkxvYWRoQmtJd3BUYjR2NnUyZWcwVU8xLW5VMHJ6WVZsM3k0RW9wbTBuZDVlRE9uNlRnTEdLeVFDbHNBanRr?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "potentia",
-      "novitas"
-    ],
-    "quote_id": "E24b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T03:23:01.518933+00:00",
-    "publish_at": "2026-11-20T23:17:00+00:00",
-    "timestamp": "2026-11-20T23:17:00+00:00"
-  },
-  {
-    "id": "0cd493a63abb",
-    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aYlRYOFBIYkd6Ykg0VkEzRVNOVUJMcTc5YkwtdmJ3am9jazRvV0FxaHJFMldvc01GbmtGNmpYSDRRRm5idkNlZ1NPdGdwRnhCSmo0dk4wM2ZQR3BpaDJHaDZrN0ZnUER2ZmFNb0pB?oc=5\n政府広報室長は、陰謀論系YouTuberの起用で波紋を呼ぶ中、全てを事前にチェックせずに行動したという。\n「物事の始めと着手の時をよく見計らうことほど、大きな知恵はない。」\n『随筆集』第21篇「遅延について」",
-    "original": "There is surely no greater wisdom, than well to time the beginnings, and onsets, of things.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 13,
-    "source": "Google News 偽情報・言説",
-    "source_title": "“陰謀論系YouTuber”起用で波紋 国会で追及 政府広報室長“全てを事前にチェックせず” “経費上限1.5億円”炎上リスクは - au Webポータル",
-    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aYlRYOFBIYkd6Ykg0VkEzRVNOVUJMcTc5YkwtdmJ3am9jazRvV0FxaHJFMldvc01GbmtGNmpYSDRRRm5idkNlZ1NPdGdwRnhCSmo0dk4wM2ZQR3BpaDJHaDZrN0ZnUER2ZmFNb0pB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E21b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T22:01:35.168747+00:00",
-    "publish_at": "2026-11-20T20:17:00+00:00",
-    "timestamp": "2026-11-20T20:17:00+00:00"
   }
 ]
