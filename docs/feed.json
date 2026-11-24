@@ -1,5 +1,66 @@
 [
   {
+    "id": "0b3c903c8b46",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSEE1R05MZlBtLXpsbFliby1rQzdOaEtLdHhMUFJHX21BV0traGZwTy1pQmNyN2hyd1BaMDlCNXRrcnh2UHhObWdFTEFwNklYUHplU3lMTWNMbUI0VnFhMmZhb0d1N00?oc=5\nハマスは襲撃から3週間前に『地震を起こす』という警告をイスラエルに発していた。\n「敵が大きな誤りを犯すのを見たら、その裏に罠が潜んでいると考えるべきである。」\n『リウィウス論 III.48』",
+    "theme": "guerra",
+    "score": 11,
+    "source": "Google News 国際(World)",
+    "source_title": "「地震を起こす」襲撃3週間前、ハマスがイスラエルに発していた警告 - 朝日新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSEE1R05MZlBtLXpsbFliby1rQzdOaEtLdHhMUFJHX21BV0traGZwTy1pQmNyN2hyd1BaMDlCNXRrcnh2UHhObWdFTEFwNklYUHplU3lMTWNMbUI0VnFhMmZhb0d1N00?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "paura_amore",
+      "inganno_simulazione"
+    ],
+    "quote_id": "D3.48",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T06:49:47.415841+00:00",
+    "publish_at": "2026-11-25T06:17:00+00:00",
+    "timestamp": "2026-11-25T06:17:00+00:00"
+  },
+  {
+    "id": "09984102a54b",
+    "text": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yckNsclctaU5xVTN0VWlIU1ZNNGkyYXEwMVcweVRUT0ZmNmNablFiNktTQVU4T19Mb2J0WDBrOHp3T1BCUnZzUEJFZnFjR2VTV2fSAVRBVV95cUxQY2tWc3d1dkhZbzhXc1FtS1pJSEIxM3FrZmFhSnRsRUt4SERMTDdxb0dzR1JPY1ZOdkhTbTh6NVhocGY1ZFR4MEN5UmlIRE9STWJFdUQ?oc=5\nNATOはロシアの核衛星報道を受け、宇宙空間での防衛を強調する方針だという。\n「人は懐柔するか、さもなくば抹殺するかのどちらかでなければならぬ。軽い危害には報復できても、重い危害には報復できぬからである。」\n『君主論 cap.III』",
+    "theme": "paura_amore",
+    "score": 12,
+    "source": "Google News 検索 安全保障",
+    "source_title": "NATO、宇宙空間での防衛強調 ロシアの核衛星報道で - AFPBB News",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yckNsclctaU5xVTN0VWlIU1ZNNGkyYXEwMVcweVRUT0ZmNmNablFiNktTQVU4T19Mb2J0WDBrOHp3T1BCUnZzUEJFZnFjR2VTV2fSAVRBVV95cUxQY2tWc3d1dkhZbzhXc1FtS1pJSEIxM3FrZmFhSnRsRUt4SERMTDdxb0dzR1JPY1ZOdkhTbTh6NVhocGY1ZFR4MEN5UmlIRE9STWJFdUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "paura_amore",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "P03a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T06:44:01.663564+00:00",
+    "publish_at": "2026-11-25T03:17:00+00:00",
+    "timestamp": "2026-11-25T03:17:00+00:00"
+  },
+  {
+    "id": "c89c4608e3b0",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5bHRCbHNsbFVCYVlXcXZrMnRrZGpnZ0gyTEhOR3BrX2dIN0FmQVNYTU1wYlMtTDV0M21ZRmEzSlltTzhfZUJiQ05XSy1SRVVMaUptTUlhU1ItZkhaVVRXT25Pb2s?oc=5\nイランがバーレーンの米軍施設を攻撃し、今月で4度目の攻撃であり、報復であると主張した。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
+    "theme": "guerra",
+    "score": 23,
+    "source": "Google News 国際(World)",
+    "source_title": "イラン、バーレーンの米軍施設攻撃＝今月４度目、「報復」主張 - Infoseek",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5bHRCbHNsbFVCYVlXcXZrMnRrZGpnZ0gyTEhOR3BrX2dIN0FmQVNYTU1wYlMtTDV0M21ZRmEzSlltTzhfZUJiQ05XSy1SRVVMaUptTUlhU1ItZkhaVVRXT25Pb2s?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D1.37b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T06:01:56.383277+00:00",
+    "publish_at": "2026-11-25T00:17:00+00:00",
+    "timestamp": "2026-11-25T00:17:00+00:00"
+  },
+  {
     "id": "cd5a73b8034e",
     "text": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT19DQnhKbUR3bEppbFNRT3g1TDN1a1pia3VwbFZaNHJYdmtXS194NEE5OXgzX1BVZ09DTnJEbXJTcV9mOHpRSk54OFhpenp2YjNidENLbzd4b3NzXzdlRkEzd0ZQeko4QTd4dElKT0cxc2tKT1lTemIySF9kaGNWNGtMZ0E?oc=5\nリビアで停泊中のロシア船が爆発し、ウクライナ軍による水上ドローン攻撃の可能性があると報じられた。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -699,63 +760,5 @@
     "generated_at": "2026-11-19T21:33:18.546553+00:00",
     "publish_at": "2026-11-20T15:17:00+00:00",
     "timestamp": "2026-11-20T15:17:00+00:00"
-  },
-  {
-    "id": "bb65a354fc38",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WUEJTUl9TeXJRNFphLUtYWXFMenZ2Ulh4Qndhck9pRzJyX2lfQ0RRZEtvckxuYVlDTjF5TWI3TFJ5YjFJS0xMQ0J1blE2c05OWHVKRVFnaWcwd29QdThPM2hjZnFSLUJzcGtBZ1o4ZmZfV091NGo3RXEzUjd6NnM?oc=5\nウクライナ軍のミサイル攻撃によりケルチ海峡大橋が損傷したとされる動画が流れたという。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ケルチ海峡大橋損傷を示す動画 ウクライナ軍ミサイル攻撃の爪痕（AP通信） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WUEJTUl9TeXJRNFphLUtYWXFMenZ2Ulh4Qndhck9pRzJyX2lfQ0RRZEtvckxuYVlDTjF5TWI3TFJ5YjFJS0xMQ0J1blE2c05OWHVKRVFnaWcwd29QdThPM2hjZnFSLUJzcGtBZ1o4ZmZfV091NGo3RXEzUjd6NnM?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG8",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T13:36:01.916891+00:00",
-    "publish_at": "2026-11-20T12:17:00+00:00",
-    "timestamp": "2026-11-20T12:17:00+00:00"
-  },
-  {
-    "id": "7e991ad0e0fd",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DSGdWMEZScGNVVkc3ZDJBc21sVmMzYmpmRmthNWlpX1ZqWmxIOVZzb3BkX28zNmQtM3E3dl9KNjZ6cUM4eDZfelIxMjY4cW5vd3VB?oc=5\nイランは米軍のミサイル発射施設への攻撃を受けつつも、湾岸地域での攻撃範囲を拡大させた。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 中東",
-    "source_title": "イラン、湾岸地域での攻撃範囲拡大 米軍によるミサイル発射施設への攻撃受け - CNN",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DSGdWMEZScGNVVkc3ZDJBc21sVmMzYmpmRmthNWlpX1ZqWmxIOVZzb3BkX28zNmQtM3E3dl9KNjZ6cUM4eDZfelIxMjY4cW5vd3VB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "ID2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T13:17:25.660591+00:00",
-    "publish_at": "2026-11-20T09:17:00+00:00",
-    "timestamp": "2026-11-20T09:17:00+00:00"
-  },
-  {
-    "id": "1446eccee7e7",
-    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjVkxKclg5M1c3MUs4bjhvdE5iSVhfTE5Mb1AxU290c0hEOUk3M1l0TzlJZ0RFUEdXVVY1R3lGaDF3WEd2MWJOV0lFQkJOYlQ3bGNETHR1V0RITEUzYmlMadIBZkFVX3lxTFBQVzlweG9OMElsNWJ0X01LeVRXOVhXVkZWblNGWkZ3SDhxbzRCOV9PM0RQVkt5bmItNDRVQkZtR284OFlRdXpkVzY4c1JxMEdQWndPYi1qZnV3YWFWNkt6LUo4dFpIZw?oc=5\nウクライナがクリミア橋を攻撃し、これは1週間以内に3度目のことであるとしてロシア当局が発表した。\n「人は一つの野心から次の野心へと上っていく。初めは害されまいとし、やがて他者を害するようになる。」\n『リウィウス論 I.46』",
-    "theme": "guerra",
-    "score": 16,
-    "source": "Google News 国際(World)",
-    "source_title": "ウクライナがクリミア橋を攻撃、1週間で3度目　ロシア当局が発表 - BBC",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjVkxKclg5M1c3MUs4bjhvdE5iSVhfTE5Mb1AxU290c0hEOUk3M1l0TzlJZ0RFUEdXVVY1R3lGaDF3WEd2MWJOV0lFQkJOYlQ3bGNETHR1V0RITEUzYmlMadIBZkFVX3lxTFBQVzlweG9OMElsNWJ0X01LeVRXOVhXVkZWblNGWkZ3SDhxbzRCOV9PM0RQVkt5bmItNDRVQkZtR284OFlRdXpkVzY4c1JxMEdQWndPYi1qZnV3YWFWNkt6LUo4dFpIZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D1.46",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T13:03:44.060793+00:00",
-    "publish_at": "2026-11-20T06:17:00+00:00",
-    "timestamp": "2026-11-20T06:17:00+00:00"
   }
 ]
