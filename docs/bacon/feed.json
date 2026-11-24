@@ -1,5 +1,68 @@
 [
   {
+    "id": "ed3d5fc12788",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94cmZyZlRBSTlrbW5McjFxRFhQdGFvMVN5RUNvS2Q4RE9wcjNhbjJWbk9BOThrdmZiblgyeko4cFkyVFMwNG1UblVva0gyNGlVaXlWMUptMlJrcXhaV193ek1fZkFQbldEb2dDbTIwOWtHZHJM?oc=5\n株式会社EMOLVAは、政治SNS特有の3つの壁に対応する独自戦略を共有し、期間限定でプログラムを開始するという。\n「多く問う者は、多く学び、そして多く人を満足させる。」\n『随筆集』第32篇「談論について」",
+    "original": "… he that questioneth much, shall learn much, and content much …",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 10,
+    "source": "Google News SNS・報道",
+    "source_title": "株式会社EMOLVAが政治家・政党向けの「SNS活用・個別相談プログラム」を期間限定で開始｜公職選挙法・炎上リスクなど“政治SNS特有の3つの壁”に対応する独自戦略を共有 - Excite エキサイト",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94cmZyZlRBSTlrbW5McjFxRFhQdGFvMVN5RUNvS2Q4RE9wcjNhbjJWbk9BOThrdmZiblgyeko4cFkyVFMwNG1UblVva0gyNGlVaXlWMUptMlJrcXhaV193ek1fZkFQbldEb2dDbTIwOWtHZHJM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E32c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T02:14:20.484234+00:00",
+    "publish_at": "2026-11-24T20:17:00+00:00",
+    "timestamp": "2026-11-24T20:17:00+00:00"
+  },
+  {
+    "id": "b60812d45437",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01VUNVTlhyaWRVZWZ1OEo4UDNEZm5Nb29STkJsTS1jVXFPSmhydkc5cDJzTnhyQXFpN0pqb1hreE4wbHB2OXJDLUxVUm9hcE1abFREMnZaTlBpVXVpTEhSMmZkak1oZw?oc=5\n見知らぬ人たちがインター校計画に移民反対を叫び、不安を煽り過激な排外的デマを広めているという。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
+    "original": "There is nothing makes a man suspect much, more than to know little …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "インター校計画に「移民反対」叫ぶ見知らぬ人たち、不安あおり過激化する排外的デマ - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01VUNVTlhyaWRVZWZ1OEo4UDNEZm5Nb29STkJsTS1jVXFPSmhydkc5cDJzTnhyQXFpN0pqb1hreE4wbHB2OXJDLUxVUm9hcE1abFREMnZaTlBpVXVpTEhSMmZkak1oZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "tribus"
+    ],
+    "quote_id": "E31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T01:39:44.924567+00:00",
+    "publish_at": "2026-11-24T17:17:00+00:00",
+    "timestamp": "2026-11-24T17:17:00+00:00"
+  },
+  {
+    "id": "be26196c9e93",
+    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRSnJVeFp5alUwS212bkR4OC1adjJ6TDVUbmtlcGo0YldKQ3J5aDlnaDJ0MzhNREFGb2lUUDZzc2NUMy1BY2NodlF0Q3ZfOGxZdWJZU0U0ZTJGVlZpWHpPb3VJUEotTjc5SkpCeThmZ00wR3hoT0pJ0gF8QVVfeXFMTU9SLW9WV0s1UFBKSS1HQU1NWkh4QU85bTV3T1I1a0xodUx3QnA5NktjaDROUmpHUkRibnJuOC1PNnVNU2tSS2NtVDE5Y1JPbFV0Vl9NWE94YnB6RTFXZWJuUVJONHU5MGFBOENKYzlOX0hzLUJQY0NxOHBIdw?oc=5\n政府が陰謀論系を起用したことに批判が集まり、野党は偽情報対策に逆行すると指摘しているという。\n「空言を弄し空想にふける人々にも事欠かなかった。彼らは、一部は信じやすさから、一部は欺きから、人類を約束で押しつぶしてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム87",
+    "original": "Neque enim defuerunt homines vaniloqui et phantastici, qui partim ex credulitate, partim ex impostura, genus humanum promissis onerarunt …",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 13,
+    "source": "Google News 偽情報・言説",
+    "source_title": "政府広報　陰謀論系起用、批判やまず　野党「偽情報対策に逆行」｜四国新聞WEB朝刊 - 四国新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRSnJVeFp5alUwS212bkR4OC1adjJ6TDVUbmtlcGo0YldKQ3J5aDlnaDJ0MzhNREFGb2lUUDZzc2NUMy1BY2NodlF0Q3ZfOGxZdWJZU0U0ZTJGVlZpWHpPb3VJUEotTjc5SkpCeThmZ00wR3hoT0pJ0gF8QVVfeXFMTU9SLW9WV0s1UFBKSS1HQU1NWkh4QU85bTV3T1I1a0xodUx3QnA5NktjaDROUmpHUkRibnJuOC1PNnVNU2tSS2NtVDE5Y1JPbFV0Vl9NWE94YnB6RTFXZWJuUVJONHU5MGFBOENKYzlOX0hzLUJQY0NxOHBIdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "NO1.87",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-24T01:23:58.644104+00:00",
+    "publish_at": "2026-11-24T14:17:00+00:00",
+    "timestamp": "2026-11-24T14:17:00+00:00"
+  },
+  {
     "id": "873aed4b1ca6",
     "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MRC1GSnN3ZFVnbTl6WnFwRURmODdNbEt6V0VQNmEtUjV1LVhhR2NCVk1YQXdCT1hVbEtxcjVNNlN1UkxHNFVYUDNSWVlUWDllTDNUanhCMVgxUQ?oc=5\n北海道新聞デジタルは「『信頼性落とす』 野党が批判 安保広報に『陰謀論系』配信者」と報じた。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
     "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
@@ -710,68 +773,5 @@
     "generated_at": "2026-11-19T13:34:43.484288+00:00",
     "publish_at": "2026-11-20T08:17:00+00:00",
     "timestamp": "2026-11-20T08:17:00+00:00"
-  },
-  {
-    "id": "72d4b793e21e",
-    "text": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNemJhZVRVMzNvRmVtU1NGTmRvQ3pNTFBvNHRYeFRRU0V4d2tpYkNjYjFDWXJ3TnREV2VaRWhqeUh1TURBYl9uNFVUVjJZMDNNNEpCd0gySXgyLWU1cldha0ZvdWdna1lXM2lKR1o2UjRyeWpZQnFlVThBSGRXZ3RfQlN5Yw?oc=5\nCoinbaseのAIが、テスラgiveaway詐欺というディープフェイクによる詐欺470万ドル分を阻止したという。\n「空言を弄し空想にふける人々にも事欠かなかった。彼らは、一部は信じやすさから、一部は欺きから、人類を約束で押しつぶしてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム87",
-    "original": "Neque enim defuerunt homines vaniloqui et phantastici, qui partim ex credulitate, partim ex impostura, genus humanum promissis onerarunt …",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 16,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "Coinbase、AIでディープフェイクの「テスラ giveaway」詐欺470万ドル分を阻止 - Cryptopolitan",
-    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNemJhZVRVMzNvRmVtU1NGTmRvQ3pNTFBvNHRYeFRRU0V4d2tpYkNjYjFDWXJ3TnREV2VaRWhqeUh1TURBYl9uNFVUVjJZMDNNNEpCd0gySXgyLWU1cldha0ZvdWdna1lXM2lKR1o2UjRyeWpZQnFlVThBSGRXZ3RfQlN5Yw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "potentia"
-    ],
-    "quote_id": "NO1.87",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T13:25:56.746391+00:00",
-    "publish_at": "2026-11-20T05:17:00+00:00",
-    "timestamp": "2026-11-20T05:17:00+00:00"
-  },
-  {
-    "id": "a5e8dd58a4e6",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJU1VCSGNiSWpjdlJ5TW81ZGZYbDZhSEk2cWpzNklNV0N0eTlFY3FYU2RpeXBhajZBcEZSV0F6a0JwYjNtaU9vbnQ0QQ?oc=5\n政府は陰謀論系配信者の過去発言について確認せず、その名前が扱われなかったという。\n「見落とされて名前を欠く物があるように、空想の想定によって、物を欠く名前もある。」\n『ノヴム・オルガヌム』第1巻 アフォリズム60",
-    "original": "… quemadmodum enim sunt res, quae nomine carent per inobservationem; ita sunt et nomina, quae carent rebus, per suppositionem phantasticam …",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府、陰謀論系配信者の過去発言確認せず - 47NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJU1VCSGNiSWpjdlJ5TW81ZGZYbDZhSEk2cWpzNklNV0N0eTlFY3FYU2RpeXBhajZBcEZSV0F6a0JwYjNtaU9vbnQ0QQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fori"
-    ],
-    "quote_id": "NO1.60",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T03:55:23.398186+00:00",
-    "publish_at": "2026-11-20T02:17:00+00:00",
-    "timestamp": "2026-11-20T02:17:00+00:00"
-  },
-  {
-    "id": "69e43dc78fc7",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zRkctZFFjR0tFY2ZlRDYzNWtydDhkQXdOMlJxN2w5NlZLbTAyQmhjMTBjZjMtX3lUUnBqdlJhZ09jVVJlT2kwZm9DcG1PUHZpOGhjQWlFNnNoVVYwRjlHcURlZW8?oc=5\n政府が陰謀論や都市伝説のYouTuberを起用した政府広報に対して、SNSでは批判が相次いでいるという。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
-    "original": "There is nothing makes a man suspect much, more than to know little …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 11,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府広報に陰謀論・都市伝説YouTuber起用 SNSで批判相次ぐ - Infoseek",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zRkctZFFjR0tFY2ZlRDYzNWtydDhkQXdOMlJxN2w5NlZLbTAyQmhjMTBjZjMtX3lUUnBqdlJhZ09jVVJlT2kwZm9DcG1PUHZpOGhjQWlFNnNoVVYwRjlHcURlZW8?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E31b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-19T03:39:58.979374+00:00",
-    "publish_at": "2026-11-19T23:17:00+00:00",
-    "timestamp": "2026-11-19T23:17:00+00:00"
   }
 ]
