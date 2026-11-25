@@ -1,5 +1,61 @@
 [
   {
+    "id": "41a6b0d5df48",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQnNYYzNnTkxlTnBfdG9TeTAxRkRCb0FRQkxyRXd5dVlCeUtmenVNUlhDSGlvaHlvS0h6VkJ6TWlTZm1ZOUlTdmlTNkhUVEotdW1wSDhYV0p2TDhjT25qTF9wWm1ZVVBydzNwbFYyOWlJMWpIYTBjZExjR2NTTUU?oc=5\n目黒蓮が挑んだ孤独な戦いを報じ、SHOGUN2の真田広之がハリウッドと日本の仲間と名作を通じて築いた絆について触れた。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
+    "theme": "soi",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "目黒蓮が挑んだ孤独な戦い!『SHOGUN2』真田広之がハリウッド、そして日本の仲間と名作を通じて築いた絆（双葉社 THE CHANGE） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQnNYYzNnTkxlTnBfdG9TeTAxRkRCb0FRQkxyRXd5dVlCeUtmenVNUlhDSGlvaHlvS0h6VkJ6TWlTZm1ZOUlTdmlTNkhUVEotdW1wSDhYV0p2TDhjT25qTF9wWm1ZVVBydzNwbFYyOWlJMWpIYTBjZExjR2NTTUU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "soi"
+    ],
+    "quote_id": "I.39c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T04:36:21.460275+00:00",
+    "publish_at": "2026-11-26T04:17:00+00:00",
+    "timestamp": "2026-11-26T04:17:00+00:00"
+  },
+  {
+    "id": "52471cedef6f",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TTm9ZaHpheEVFTTM4TjZWOXNjUjhvaVk3bXdkcDd2dGRiZlZTcFQ1Ny1Pa0gxZjVIbG5MTjhrWkFtLUYtOHlQVUdPUGpodWJyMXJMQ3NzQlZZUQ?oc=5\nソロプレナーにとって、孤独は燃え尽きリスクとなり得るという。\n「私の考えでは、人は他人に自分を貸すべきであって、自分を与えるのは自分自身に対してだけにすべきである。」\n『エセー III.10「自分の意志を節約することについて」』",
+    "theme": "opinion",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "ソロプレナーの「孤独」は燃え尽きリスク 支援ネットワークの築き方 - Forbes JAPAN",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TTm9ZaHpheEVFTTM4TjZWOXNjUjhvaVk3bXdkcDd2dGRiZlZTcFQ1Ny1Pa0gxZjVIbG5MTjhrWkFtLUYtOHlQVUdPUGpodWJyMXJMQ3NzQlZZUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "opinion",
+      "soi"
+    ],
+    "quote_id": "III.10f",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T04:27:36.779346+00:00",
+    "publish_at": "2026-11-26T01:17:00+00:00",
+    "timestamp": "2026-11-26T01:17:00+00:00"
+  },
+  {
+    "id": "2c2208fce319",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1zaFRWaEI1UFpxUTdEY2NRSmZXWEswUnV2cEVfV19WdmtKSDJURUZoS1pLSWxhYnhMajVrTDhkOS1lTHN0OTFQTk93RQ?oc=5\nワークマンの『働きながら疲労回復!?』というリカバリースーツが人気だ。\n「踊るときは踊り、眠るときは眠る。」\n『エセー III.13「経験について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "ワークマン「働きながら疲労回復!?」上下8,980円のリカバリースーツ、即戦力の一生モノ靴！リーガルの大定番が進化…ほか【ビジネスアイテムの人気記事ランキングベスト3】（2026年10月版） | モノマックス（MonoMax）｜付録、カバン、時計、家電、カップ麺などの情報を - MonoMax web",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1zaFRWaEI1UFpxUTdEY2NRSmZXWEswUnV2cEVfV19WdmtKSDJURUZoS1pLSWxhYnhMajVrTDhkOS1lTHN0OTFQTk93RQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui",
+      "profit"
+    ],
+    "quote_id": "III.13r",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T04:20:47.131820+00:00",
+    "publish_at": "2026-11-25T22:17:00+00:00",
+    "timestamp": "2026-11-25T22:17:00+00:00"
+  },
+  {
     "id": "15443b395d92",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMlF1VE5QYzhBeWNNTjV6RFVkWkFBelRBdDFvYWhYSVVYbzlzOHhzV2dQc1hyRnQzQ0pJNzRXM3FVdzM5RWZyMXM1RFZjeklmbGFheV9aZm5YWGpGVm5HNk1qNUJUMHllUjhkQ1pEQVhCSFhGWC00ckpZUktvWWNGTE1kVlhydTA?oc=5\n11月は過労死防止月間で、働き方や過労死の危険性、パワハラ相談などについて考えられている。\n「まったく自分だけの、まったく自由な奥の小部屋を取っておかねばならぬ。そこに我々の真の自由と、何よりの隠れ家と孤独を打ち立てるのだ。」\n『エセー I.39「孤独について」』",
     "theme": "soi",
@@ -648,61 +704,5 @@
     "generated_at": "2026-11-20T13:42:40.597121+00:00",
     "publish_at": "2026-11-21T13:17:00+00:00",
     "timestamp": "2026-11-21T13:17:00+00:00"
-  },
-  {
-    "id": "78c32b2ffd69",
-    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5NXFkODd4cU9zWTQyeG9WX3lIaHplWUlUX20xYVp4d3JVYmFuYWVJV0JsNmVKUkpYdHdwZ1JCeFdDV1dnaDJJdUxlYjFHN1E2T3g5aG81S1RCU3BSXzJESUJCeG96QzdfQUE?oc=5\n兵庫県で初募集される評判の高いAI通話録音・自動要約サービス『RecACE plus』は、カスハラ対応にも活用できるという。\n「物事を解釈するより、解釈を解釈するほうが手間がかかり、書物について書いた書物のほうが、ほかのどんな主題の書物よりも多い。我々は互いに注釈し合っているにすぎない。」\n『エセー III.13「経験について」』",
-    "theme": "presomption",
-    "score": 4,
-    "source": "Google News 検索 職場",
-    "source_title": "プリペアード 評判が高いAI通話録音・自動要約サービス「RecACE plus」、カスハラ対応にも活用できるモデルケース企業を兵庫県で初募集 - PR TIMES",
-    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5NXFkODd4cU9zWTQyeG9WX3lIaHplWUlUX20xYVp4d3JVYmFuYWVJV0JsNmVKUkpYdHdwZ1JCeFdDV1dnaDJJdUxlYjFHN1E2T3g5aG81S1RCU3BSXzJESUJCeG96QzdfQUE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "presomption",
-      "profit"
-    ],
-    "quote_id": "III.13c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T13:38:13.523444+00:00",
-    "publish_at": "2026-11-21T10:17:00+00:00",
-    "timestamp": "2026-11-21T10:17:00+00:00"
-  },
-  {
-    "id": "c6876e34151c",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJOW9rVTdwbEdlRjlZUllQOXRDUmQtOTE0Q0xnd0wwNmlORV9oTC1PdWk0d3YzSzRtdGQ5UzI5QV9RdmtveUVyWUNtalNkQXRPcXlsWXJ30gFbQVVfeXFMT21MNUJ5bUx2VVdPZVI5VHppMHQ1YkNKbmFFQS00aXJGM1lwZWxXeXo2Zl9qbFg1OWlXcWsxN0FwRmdtYno5NE1SRW0zdGpycWpLX3Z3MzBheFZDQQ?oc=5\n漫画で『袴田事件』を取り調べや証拠品などから問題点を解説し、冤罪は遠い世界の話ではないと訴えた。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
-    "theme": "lois",
-    "score": 4,
-    "source": "Google News 検索 裁き",
-    "source_title": "「冤罪」は遠い世界の話ではない！取り調べや証拠品などから「袴田事件」における問題点を漫画で解説 - ウォーカープラス",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJOW9rVTdwbEdlRjlZUllQOXRDUmQtOTE0Q0xnd0wwNmlORV9oTC1PdWk0d3YzSzRtdGQ5UzI5QV9RdmtveUVyWUNtalNkQXRPcXlsWXJ30gFbQVVfeXFMT21MNUJ5bUx2VVdPZVI5VHppMHQ1YkNKbmFFQS00aXJGM1lwZWxXeXo2Zl9qbFg1OWlXcWsxN0FwRmdtYno5NE1SRW0zdGpycWpLX3Z3MzBheFZDQQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "III.13n",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T13:27:55.529336+00:00",
-    "publish_at": "2026-11-21T07:17:00+00:00",
-    "timestamp": "2026-11-21T07:17:00+00:00"
-  },
-  {
-    "id": "d77af7c14413",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KS1JXQ0kzMEs3bms5RjI4UmVKM1BvYkphZThmRC1fZWdQTFJLVEd1Tno3WmtzaEowVkc3RUc5ekZaalFSd2pmcnRDUEoyMUotMjNGNk9ianF6bkVJdG45S09R?oc=5\n葬儀の約半数が家族葬となり、費用は約96万円で、生前相談も増加している。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 7,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "葬儀の約半数が「家族葬」に…費用は約96万円 生前相談も増加する終活のいま｜佐賀のニュース - サガテレビ",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KS1JXQ0kzMEs3bms5RjI4UmVKM1BvYkphZThmRC1fZWdQTFJLVEd1Tno3WmtzaEowVkc3RUc5ekZaalFSd2pmcnRDUEoyMUotMjNGNk9ianF6bkVJdG45S09R?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "soi"
-    ],
-    "quote_id": "I.20b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T13:16:47.660562+00:00",
-    "publish_at": "2026-11-21T04:17:00+00:00",
-    "timestamp": "2026-11-21T04:17:00+00:00"
   }
 ]
