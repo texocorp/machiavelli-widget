@@ -1,5 +1,24 @@
 [
   {
+    "id": "66fd9ee9f66d",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoaEhwSUxDREhCWnNNYUlDeVhGcWhwWTlKTV90OWFLZElWNlRjUHhtLXpITVc4OF9YVy16bWI0ZXBlekwtVzFGYzlGZWcyR1lDd3dCTklQbVJLbG1KeXNkVlNNNXZWQmZGdk1WWkQ2WWZ0TDdGdlZOUnRFaHZ0NXc?oc=5\nイエメン軍は暫定首都アデンを制圧されないとし、フーシ派が約60キロまで接近した。\n「敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。」\n『リウィウス論 III.10』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "イエメン軍、暫定首都アデンは「制圧されない」 フーシ派が約60キロまで接近も（ロイター） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoaEhwSUxDREhCWnNNYUlDeVhGcWhwWTlKTV90OWFLZElWNlRjUHhtLXpITVc4OF9YVy16bWI0ZXBlekwtVzFGYzlGZWcyR1lDd3dCTklQbVJLbG1KeXNkVlNNNXZWQmZGdk1WWkQ2WWZ0TDdGdlZOUnRFaHZ0NXc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D3.10",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T04:07:51.681621+00:00",
+    "publish_at": "2026-11-25T18:17:00+00:00",
+    "timestamp": "2026-11-25T18:17:00+00:00"
+  },
+  {
     "id": "7ea1e0560ca5",
     "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uYW5GcVJtRjg4UG9KS3B5eDhQeGdyQks3ZEV0UDJrYjBFd2E4cEJRMi1JaXlGX0FmLUhHX01xZjlqSEhYZEdrZ2FBQ2FZUVdqbHIzWmc5QnJWN0o1dHEtbtIBZkFVX3lxTFBEZWM0NklBNlNEZ3dtX3FlaVBwRkJTbzNBOU1WY3FrXzl2bDJZcVhIWW9rUVVOU2VSNTBYT2N1WENza2xLVFFfbXVKSkkybW9WM3YtVExxN1J3ejI3UlJUM3VfNmhhUQ?oc=5\nウクライナでの戦争が拡大し、リビア海域でロシア艦船が攻撃されたことが分かった。\n「災いが国家の内に、あるいは国家に対して大きく育ってしまったなら、正面からぶつかるより、時間を稼いで凌ぐ方が賢明である。」\n『リウィウス論 I.33』",
     "theme": "guerra",
@@ -682,82 +701,5 @@
     "generated_at": "2026-11-20T21:16:31.562750+00:00",
     "publish_at": "2026-11-21T12:17:00+00:00",
     "timestamp": "2026-11-21T12:17:00+00:00"
-  },
-  {
-    "id": "bdfef10e94f7",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TY2xfblA3UzIxSjVXalFuQ01oRTNTaHFTRklzV3BkWGpjRjB3YWthLTd5STBWdmhvMzJ1S2xxU3BtdklLZFp2UnVrWk5ncjNaNmNtOWk5ZG5uSEdoaXZ5Z3huVnA1eno4NlQ5a2J0TFVDMFhKT2hQaVZNMklRRlU?oc=5\nロシアがウクライナへの攻撃を続ける中、ポーランドにミサイルが落下し、この国が国外からの攻撃を受けつつある。\n「君主は二つの恐れを抱かねばならぬ。一つは内にあって臣民に対するもの、もう一つは外にあって外国の列強に対するものである。」\n『君主論 cap.XIX』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ポーランドにミサイル落下 ロシアのウクライナ攻撃で侵入（共同通信） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TY2xfblA3UzIxSjVXalFuQ01oRTNTaHFTRklzV3BkWGpjRjB3YWthLTd5STBWdmhvMzJ1S2xxU3BtdklLZFp2UnVrWk5ncjNaNmNtOWk5ZG5uSEdoaXZ5Z3huVnA1eno4NlQ5a2J0TFVDMFhKT2hQaVZNMklRRlU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "P19a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T20:51:50.263214+00:00",
-    "publish_at": "2026-11-21T09:17:00+00:00",
-    "timestamp": "2026-11-21T09:17:00+00:00"
-  },
-  {
-    "id": "1579fc61751b",
-    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zYUZKeFBybWJlNUFSbHlKNXI2RWhkS2FheWM4ZDJOa2ZHOEY5TWxKa2hqcVZJZl9EYldmVGpiMkhxdlVVM1F1Zjc3S1NaVlB1cmtTWW1fVQ?oc=5\n維新は安保文書に関し今後5年間で防衛費を70兆円以上がベースとして議論する。\n「頼むに足り、確かで、長続きする防衛とは、汝自身と汝の力量にのみ拠るものである。」\n『君主論 cap.XXIV』",
-    "theme": "alleanze_dipendenza",
-    "score": 8,
-    "source": "Google News 検索 安全保障",
-    "source_title": "維新・前原安全保障調査会長「70兆円以上がベース」安保3文書めぐる今後5年間の防衛費めぐって - TBS NEWS DIG",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zYUZKeFBybWJlNUFSbHlKNXI2RWhkS2FheWM4ZDJOa2ZHOEY5TWxKa2hqcVZJZl9EYldmVGpiMkhxdlVVM1F1Zjc3S1NaVlB1cmtTWW1fVQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "alleanze_dipendenza",
-      "armi_proprie"
-    ],
-    "quote_id": "P24b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T12:59:36.778564+00:00",
-    "publish_at": "2026-11-21T06:17:00+00:00",
-    "timestamp": "2026-11-21T06:17:00+00:00"
-  },
-  {
-    "id": "d0c47aa4270b",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44M1JJdXpOZXJMU2x3aUpFYkRPU1NDb1VfcjdBcDh0WmZjYnNyakh0OVFJOGR4cFIxTTVDWlJOVXpORmtlRk5MVFFGZnY2eklJR0VlbnNIaVk2dXl3T3ZF?oc=5\n小泉防衛相は自衛隊の人的基盤強化に必要な防衛費確保に乗り進めたい考えだという。\n「凪の時に嵐への備えを怠るのは、人間に共通の欠点である。」\n『君主論 cap.XXIV』",
-    "theme": "armi_proprie",
-    "score": 8,
-    "source": "Google News 検索 安全保障",
-    "source_title": "小泉防衛相 自衛隊人的基盤強化に必要な防衛費確保したい考え - NHKニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44M1JJdXpOZXJMU2x3aUpFYkRPU1NDb1VfcjdBcDh0WmZjYnNyakh0OVFJOGR4cFIxTTVDWlJOVXpORmtlRk5MVFFGZnY2eklJR0VlbnNIaVk2dXl3T3ZF?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "armi_proprie"
-    ],
-    "quote_id": "P24a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T12:55:44.498857+00:00",
-    "publish_at": "2026-11-21T03:17:00+00:00",
-    "timestamp": "2026-11-21T03:17:00+00:00"
-  },
-  {
-    "id": "3d3687377793",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoTlBHODZZcUlCRDRSb1FtV19WQjU5UjliS2tUNGliRWdEQVhselFReHNKcnlTTEtaWWkzRkZnNzF5a1V3VXctc3dmUGpaX2NWS1BFSVNxaTVnX1hkTmt4QjRUSU5Sd3RNc1owaTRfcVdhWTVQbERER0ZqNTNWSEU?oc=5\nロシア軍はウクライナ首都キーウで各国大使館を攻撃したが、平和宣言が出される中での攻撃は避けるべきではないという。\n「敵が是が非でも決戦を挑んでくるとき、指揮官はそれを避けることはできぬ。」\n『リウィウス論 III.10』",
-    "theme": "guerra",
-    "score": 10,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "米中露首脳「平和宣言」もロシア軍がウクライナ首都キーウの各国大使館を攻撃 オーストリア首相「断じて容認できない」 - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoTlBHODZZcUlCRDRSb1FtV19WQjU5UjliS2tUNGliRWdEQVhselFReHNKcnlTTEtaWWkzRkZnNzF5a1V3VXctc3dmUGpaX2NWS1BFSVNxaTVnX1hkTmt4QjRUSU5Sd3RNc1owaTRfcVdhWTVQbERER0ZqNTNWSEU?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D3.10",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T12:19:13.637095+00:00",
-    "publish_at": "2026-11-21T00:17:00+00:00",
-    "timestamp": "2026-11-21T00:17:00+00:00"
   }
 ]
