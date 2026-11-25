@@ -1,5 +1,59 @@
 [
   {
+    "id": "435414e15175",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVc0dyNlByMi0xTTBBWlBNT3BhZVJOTzd2TXJNcTg4VjBENllwRHNhYkxtcld5azF6N0RnQVJnclNMRGE0Wk1McUU4UHE3cjZ2MGh1Ymp2WFZxaXBGR0lEa2NaYw?oc=5\n前川彰司さんの弁護人は、再審無罪の事件で参考人取り調べも可視化を求めているという。\n「罪そのものより罪深い有罪判決を、私はいくつ見てきたことか。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 裁き",
+    "source_title": "「参考人取り調べも可視化を」 再審無罪の前川彰司さん弁護人 - 山陽新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVc0dyNlByMi0xTTBBWlBNT3BhZVJOTzd2TXJNcTg4VjBENllwRHNhYkxtcld5azF6N0RnQVJnclNMRGE0Wk1McUU4UHE3cjZ2MGh1Ymp2WFZxaXBGR0lEa2NaYw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "III.13n",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T15:51:51.336878+00:00",
+    "publish_at": "2026-11-26T13:17:00+00:00",
+    "timestamp": "2026-11-26T13:17:00+00:00"
+  },
+  {
+    "id": "0a1895703412",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rMlRaYllyMklBWlJEeHduZG1fRWtZYVJSQkdSTmwwQ2NMRmhVZW5jWkhYVmJHeFd3bWtWbVFQOVhKZzdzdEJTTVB0ako4Q3l5dHZpekRFS0FKcmZ0RGc?oc=5\n20代で発症したIgA腎症に対し、長い年月が流れ、ついに15年経て新薬が登場するという。\n「避けられぬものは、耐えることを学ばねばならぬ。」\n『エセー III.13「経験について」』",
+    "theme": "medecine",
+    "score": 4,
+    "source": "Google News 健康",
+    "source_title": "20代で発症の難病IgA腎症 15年経て新薬が登場 (2026年11月25日掲載) - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rMlRaYllyMklBWlJEeHduZG1fRWtZYVJSQkdSTmwwQ2NMRmhVZW5jWkhYVmJHeFd3bWtWbVFQOVhKZzdzdEJTTVB0ako4Q3l5dHZpekRFS0FKcmZ0RGc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "III.13m",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T15:45:32.125433+00:00",
+    "publish_at": "2026-11-26T10:17:00+00:00",
+    "timestamp": "2026-11-26T10:17:00+00:00"
+  },
+  {
+    "id": "0bf022cec6c6",
+    "text": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rTVF6Vnp2S0otNlJkRFczS00xdGtUYTZ4S1BJSURwUmNwcUFmUlRpbElCS0V5UnpWdHdzd2dXUUFHejBQcUJPbF9YS1NLRUVleEZrTFg4Y0lVRHhwYzFJNURjVzVHcWdCS204REtOb1F2Z2NpQTMxYlVKRQ?oc=5\n無臭元工業が東北大と共同研究を開始し、下水道管路の延命保全を行うという。\n「死をあらかじめ思うことは、自由をあらかじめ思うことである。死ぬことを学んだ者は、隷従することを忘れたのだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "savoir",
+    "score": 8,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "無臭元工業 下水道管路の延命保全へ 東北大と共同研究を開始 - 環境新聞オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rTVF6Vnp2S0otNlJkRFczS00xdGtUYTZ4S1BJSURwUmNwcUFmUlRpbElCS0V5UnpWdHdzd2dXUUFHejBQcUJPbF9YS1NLRUVleEZrTFg4Y0lVRHhwYzFJNURjVzVHcWdCS204REtOb1F2Z2NpQTMxYlVKRQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "I.20b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T15:41:45.441576+00:00",
+    "publish_at": "2026-11-26T07:17:00+00:00",
+    "timestamp": "2026-11-26T07:17:00+00:00"
+  },
+  {
     "id": "41a6b0d5df48",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQnNYYzNnTkxlTnBfdG9TeTAxRkRCb0FRQkxyRXd5dVlCeUtmenVNUlhDSGlvaHlvS0h6VkJ6TWlTZm1ZOUlTdmlTNkhUVEotdW1wSDhYV0p2TDhjT25qTF9wWm1ZVVBydzNwbFYyOWlJMWpIYTBjZExjR2NTTUU?oc=5\n目黒蓮が挑んだ孤独な戦いを報じ、SHOGUN2の真田広之がハリウッドと日本の仲間と名作を通じて築いた絆について触れた。\n「人間ほど人づきあいを損ない、しかも人づきあいを求めるものはない。前者はその悪徳により、後者はその本性による。」\n『エセー I.39「孤独について」』",
     "theme": "soi",
@@ -650,59 +704,5 @@
     "generated_at": "2026-11-21T02:21:18.716618+00:00",
     "publish_at": "2026-11-21T22:17:00+00:00",
     "timestamp": "2026-11-21T22:17:00+00:00"
-  },
-  {
-    "id": "b8f6b1fe0fd0",
-    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rMmZYVDJBcVlvRzdYOE9qeXhTanpYM3ROdEREdk1aVFo2WnoxeXZST3NodEZtdndJeENMZXczOGFTclJkVmx6SXdWNVZmOEJiQUFFZU91WDBDenhWVTZQZG1udFNLNUZsOW9XTUdaM0pURWhx?oc=5\n中川翔子が、いじめで不登校になった子のご両親へのメッセージを送っているという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
-    "theme": "cruaute",
-    "score": 4,
-    "source": "Google News 検索 教育",
-    "source_title": "中川翔子「いじめで不登校になった子のご両親へ」 - 日本経済新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rMmZYVDJBcVlvRzdYOE9qeXhTanpYM3ROdEREdk1aVFo2WnoxeXZST3NodEZtdndJeENMZXczOGFTclJkVmx6SXdWNVZmOEJiQUFFZU91WDBDenhWVTZQZG1udFNLNUZsOW9XTUdaM0pURWhx?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "cruaute"
-    ],
-    "quote_id": "II.11",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T21:14:20.120790+00:00",
-    "publish_at": "2026-11-21T19:17:00+00:00",
-    "timestamp": "2026-11-21T19:17:00+00:00"
-  },
-  {
-    "id": "aaef312196b1",
-    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qQzhTeFFyejVSQXNqLUgyc0JTMlRVaGN0cE5uSDhIRmNIcEZGLXp1ZFFrcmh1U0lQZTREWTRFY0tMdjdHUTJ6eUh6V3ljRUZHUEZUMjIzcmJUTjdVQnlDVGxPRzdZZw?oc=5\n中国の研究チームが、ステフェンスハマダラカの耐熱性とマラリア伝播力の謎を解明したという。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 健康",
-    "source_title": "中国の研究チーム ステフェンスハマダラカの耐熱性とマラリア伝播力の謎を解明 - CGTN Japanese",
-    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qQzhTeFFyejVSQXNqLUgyc0JTMlRVaGN0cE5uSDhIRmNIcEZGLXp1ZFFrcmh1U0lQZTREWTRFY0tMdjdHUTJ6eUh6V3ljRUZHUEZUMjIzcmJUTjdVQnlDVGxPRzdZZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "III.13h",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T21:09:53.548363+00:00",
-    "publish_at": "2026-11-21T16:17:00+00:00",
-    "timestamp": "2026-11-21T16:17:00+00:00"
-  },
-  {
-    "id": "7712458c64c2",
-    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mUEgzVlFIX2VSS1VBMFNNbHhjZ2NhQnhobnFHNEJVVk1yMnBRQzM0NXVrNEVIbzd0SGhMS2RrRHZXdDRZY294eWoxSnZ0R3M?oc=5\n宮城・気仙沼市本吉町で開かれた伝統行事の山田大名行列を題材に、小学生が劇を披露したという。\n「容易さから来る飽満ほど、生来我々の好みに反するものはなく、希少さと困難ほど、好みを研ぎ澄ますものはない。」\n『エセー II.15「我々の欲望は困難によって募る」』",
-    "theme": "coutume",
-    "score": 4,
-    "source": "Google News 検索 世相",
-    "source_title": "伝統行事の山田大名行列が題材 小学生が劇を披露 宮城・気仙沼市本吉町 - khb東日本放送",
-    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mUEgzVlFIX2VSS1VBMFNNbHhjZ2NhQnhobnFHNEJVVk1yMnBRQzM0NXVrNEVIbzd0SGhMS2RrRHZXdDRZY294eWoxSnZ0R3M?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "coutume"
-    ],
-    "quote_id": "II.15",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T13:42:40.597121+00:00",
-    "publish_at": "2026-11-21T13:17:00+00:00",
-    "timestamp": "2026-11-21T13:17:00+00:00"
   }
 ]
