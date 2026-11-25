@@ -1,5 +1,48 @@
 [
   {
+    "id": "c3fc198c6049",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCbDd1ellEZGhoRjRfYWNIaFZpLUxqbERUMUhWYkFuaDdxckFHQWh1UkVWdXNUV1JqcUJhNnlIbllvemdsZ2hCOEl4Q2dxdHhNbGRKVDVMSFVrbkE3VFE?oc=5\nライブドアニュースは「SNS教育講演家が指摘する『未来の基準で裁かれる』炎上の盲点。当時は美談だった過去とSNSの闇」と報じた。\n「そうした進歩は大多数の人々の理解を超えており、世俗の意見の風にたやすく吹き倒され、かき消されてしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム91",
+    "original": "Sunt enim illi supra captum maximae partis hominum, et ab opinionum vulgarium ventis facile obruuntur et extinguuntur.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が指摘する「未来の基準で裁かれる」炎上の盲点。当時は美談だった過去とSNSの闇 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCbDd1ellEZGhoRjRfYWNIaFZpLUxqbERUMUhWYkFuaDdxckFHQWh1UkVWdXNUV1JqcUJhNnlIbllvemdsZ2hCOEl4Q2dxdHhNbGRKVDVMSFVrbkE3VFE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "NO1.91",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T04:43:25.009867+00:00",
+    "publish_at": "2026-11-26T02:17:00+00:00",
+    "timestamp": "2026-11-26T02:17:00+00:00"
+  },
+  {
+    "id": "7c9b4850f0e0",
+    "text": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nd0JYRWF2OHhuQWp0dHJRQjNFelVLRXNvSDJVNDAtOXBQSUM3dzZ6TGdhdFBCYXZxRklwbG01QkhFUHFlOFN6dmxYWXdaRVhjSW8yMGdMU0xnRk14X0E?oc=5\nNHK文研が沖縄県知事選で出回った誤情報をどれだけの人が信じたかを調査し、ファクトチェックの効果も分析したという。\n「言葉は概念の符牒である。それゆえ事の土台である概念そのものが混乱し、軽率に事物から抽き出されているなら、その上に築かれるものには何の堅固さもない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム14",
+    "original": "… verba notionum tesserae sunt. Itaque si notiones ipsae (id quod basis rei est) confusae sint, et temere a rebus abstractae; nihil in iis, quae superstruuntur, est firmitudinis.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 15,
+    "source": "Google News 偽情報・言説",
+    "source_title": "沖縄県知事選で出回った誤情報、どれだけの人が信じた？ NHK文研が調査、ファクトチェックの効果も分析 - 沖縄タイムス社",
+    "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nd0JYRWF2OHhuQWp0dHJRQjNFelVLRXNvSDJVNDAtOXBQSUM3dzZ6TGdhdFBCYXZxRklwbG01QkhFUHFlOFN6dmxYWXdaRVhjSW8yMGdMU0xnRk14X0E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "experientia"
+    ],
+    "quote_id": "NO1.14",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T04:31:17.749327+00:00",
+    "publish_at": "2026-11-25T23:17:00+00:00",
+    "timestamp": "2026-11-25T23:17:00+00:00"
+  },
+  {
     "id": "1b9ea8b421b6",
     "text": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3d1dKZDhSWFVxRXNyNmJvQzFlcnZ6MDRpZ0kzQVhfdVhSYUVUNDVFVTVMX0pOS3IwajJuU3FJSE01VFJNbnZwQ0ZlV0NuSVV6clgwcmZNSmI2ZG44SHliZTlhTFdNNjZLUXFZRExFRENSNDhRc29vQ3F5SQ?oc=5\nカスハラが方針を明記し、SNSでの誹謗中傷や土下座要求などの問題に対し、関係者が安心して役割を果たせる環境を確保するとした。\n「高い地位にある人は三重の下僕である。君主あるいは国家の下僕、評判の下僕、そして仕事の下僕である。」\n『随筆集』第11篇「高い地位について」",
     "original": "Men in great place are thrice servants: servants of the sovereign or state; servants of fame; and servants of business.",
@@ -757,46 +800,5 @@
     "generated_at": "2026-11-20T13:21:47.503091+00:00",
     "publish_at": "2026-11-21T11:17:00+00:00",
     "timestamp": "2026-11-21T11:17:00+00:00"
-  },
-  {
-    "id": "6b47618f5e30",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80ZEhZblJwU2ZqcEtSbjJ0cjFkLXVRTmpwMF9QS2g1SU1SWUNZYkI2azRTQzQzcmlfejNvTEVhOEhMOGJPTEUyTTFDYS1HTVpKVkRaVTFNNXlYUQ?oc=5\n北海道新聞デジタルは「ミャンマー人虐待疑惑、京極町民苦悩 風評被害、無関係なのに誹謗中傷も」と報じた。\n「自分が表に出たくない事柄では、世間の名を借りるのが狡猾の一手である。「世間ではこう言っている」とか「こんな噂がある」と言うように。」\n『随筆集』第22篇「狡猾について」",
-    "original": "In things that a man would not be seen in himself, it is a point of cunning, to borrow the name of the world; as to say, The world says, or There is a speech abroad.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 14,
-    "source": "Google News 風評・噂",
-    "source_title": "ミャンマー人虐待疑惑、京極町民苦悩 風評被害、無関係なのに誹謗中傷も - 北海道新聞デジタル",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80ZEhZblJwU2ZqcEtSbjJ0cjFkLXVRTmpwMF9QS2g1SU1SWUNZYkI2azRTQzQzcmlfejNvTEVhOEhMOGJPTEUyTTFDYS1HTVpKVkRaVTFNNXlYUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E22b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T13:11:52.299902+00:00",
-    "publish_at": "2026-11-21T08:17:00+00:00",
-    "timestamp": "2026-11-21T08:17:00+00:00"
-  },
-  {
-    "id": "c4ec61c9e774",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EeFl1RzBNRlN6UUxLUGFLSWJSbF9qc29jNlN2WHUwM2FqY0w0bXZuemRNdGpEOU1tLVVVUUV5ZUZiZm0tbVZ4QWNpVXNxUFJ1Nm5ESmtaTHNDSDNmbEpKemZTNEpqaE83c3NwaFRlTGk5NEdmY28yRVg1OWlYOU0?oc=5\n日本ファクトチェックセンターは「飛行機雲ではなく危険な化学物質『ケムトレイル』? 繰り返し拡散する誤情報」と報じた。\n「最も危険な不満とは、実際の痛みよりも恐れのほうが大きい不満である。」\n『随筆集』第15篇「騒乱と動揺について」",
-    "original": "… for they are the most dangerous discontentments, where the fear is greater than the feeling.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 16,
-    "source": "Google News 偽情報・言説",
-    "source_title": "飛行機雲ではなく危険な化学物質「ケムトレイル」? 繰り返し拡散する誤情報（日本ファクトチェックセンター） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EeFl1RzBNRlN6UUxLUGFLSWJSbF9qc29jNlN2WHUwM2FqY0w0bXZuemRNdGpEOU1tLVVVUUV5ZUZiZm0tbVZ4QWNpVXNxUFJ1Nm5ESmtaTHNDSDNmbEpKemZTNEpqaE83c3NwaFRlTGk5NEdmY28yRVg1OWlYOU0?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama"
-    ],
-    "quote_id": "E15c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-20T12:59:09.060229+00:00",
-    "publish_at": "2026-11-21T05:17:00+00:00",
-    "timestamp": "2026-11-21T05:17:00+00:00"
   }
 ]
