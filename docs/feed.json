@@ -1,5 +1,120 @@
 [
   {
+    "id": "0983d1fb264c",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVDhZNDRzcmdYbDlCZmZsTmRzNk9scjBDNzE1Y0RZYlpCVlgxQXlsNk94TU42ZHRjQy1MYXJPek85WWVTZ3JZWnFiOEZVUG9tNTlEYmNXRXU5ZVdqVGVaM2xkbzIyWFRya0xpM0hJdXROcWpENndPWWRORVRSOUthOHZzUW84QQ?oc=5\nロシアはウクライナ電力網を攻撃し、5州で停電やザポリージャ原発の電源喪失を引き起こしたという。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシアがウクライナ電力網攻撃、5州で停電 ザポリージャ原発も電源喪失 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVDhZNDRzcmdYbDlCZmZsTmRzNk9scjBDNzE1Y0RZYlpCVlgxQXlsNk94TU42ZHRjQy1MYXJPek85WWVTZ3JZWnFiOEZVUG9tNTlEYmNXRXU5ZVdqVGVaM2xkbzIyWFRya0xpM0hJdXROcWpENndPWWRORVRSOUthOHZzUW84QQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG3",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T06:34:15.629081+00:00",
+    "publish_at": "2026-11-27T00:17:00+00:00",
+    "timestamp": "2026-11-27T00:17:00+00:00"
+  },
+  {
+    "id": "7a063ede76b6",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM3JNX1VqSlFQWGJlVi1oa0pQcWtuS3A0aVNKZ1JOQlpaYmF2VlI0OHJKb1kxeGZRUml5Zi13ZGdGY3RqTmM0a09SZEc2Y0pMTHhySkM3NHlXX0ZUZHRMTUZOLTBsLV9zNFZhZEdiQWFTSU5CcDd1RHJpMGhnSVZRQ29PWXEtQQ?oc=5\nロシアがキーウに弾道ミサイルを撃ち込み、商業施設などに被害をもたらしたという。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "キーウにロシアの弾道ミサイル攻撃、商業施設など被害 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM3JNX1VqSlFQWGJlVi1oa0pQcWtuS3A0aVNKZ1JOQlpaYmF2VlI0OHJKb1kxeGZRUml5Zi13ZGdGY3RqTmM0a09SZEc2Y0pMTHhySkM3NHlXX0ZUZHRMTUZOLTBsLV9zNFZhZEdiQWFTSU5CcDd1RHJpMGhnSVZRQ29PWXEtQQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D2.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T06:04:04.520981+00:00",
+    "publish_at": "2026-11-26T21:17:00+00:00",
+    "timestamp": "2026-11-26T21:17:00+00:00"
+  },
+  {
+    "id": "fbddbb620faf",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWkotX2dXQnpjYkhSY1owYWluamhxTmNNYUVweU92NmtKRlR2RmhGRE1KZXlXZk1xZUR5aHhmQ3FSM2F5WEZSbi1xMnI5R3ZYaHlta2p5dnI0ZDBJNUUyZVdqXzBaZHBOdDFSZVhocUpVM3E1TTktRzBRcERlbUdNUktkQVFzUQ?oc=5\nロシアは冬にウクライナからの無人機攻撃に警戒しており、副首相がこれを最優先課題として挙げているという。\n「己の力と敵の力を知る者は、容易には敗れぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ロシア、冬のウクライナ無人機攻撃に警戒 副首相「最優先課題」 - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWkotX2dXQnpjYkhSY1owYWluamhxTmNNYUVweU92NmtKRlR2RmhGRE1KZXlXZk1xZUR5aHhmQ3FSM2F5WEZSbi1xMnI5R3ZYaHlta2p5dnI0ZDBJNUUyZVdqXzBaZHBOdDFSZVhocUpVM3E1TTktRzBRcERlbUdNUktkQVFzUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG6",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T06:00:21.958024+00:00",
+    "publish_at": "2026-11-26T18:17:00+00:00",
+    "timestamp": "2026-11-26T18:17:00+00:00"
+  },
+  {
+    "id": "673e1db47bf6",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ORGRHQ2ljUEVtYTVOeEdNWDJ1TzYwOVl0dGc4SnZKOC1tUEZpOUVJWmpXaHJGVHdlRVBaVENva0tjUGNIQm5jc0hPUzU1U180Q2ppalNYRkVfSUFKYjdUbUQ3SGd1b2xyLU81NGxaTnliTk4zWVE?oc=5\n金正恩氏は核開発を加速させ、敵への抑止や交渉材料にはせず、核弾頭などの施設内部写真を公開しているという。\n「人は、恐れられている者よりも、愛されている者を害することにためらいが少ない。」\n『君主論 cap.XVII』",
+    "theme": "paura_amore",
+    "score": 10,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "金正恩氏、核開発を加速 敵抑止、交渉材料とせず 核弾頭？など並ぶ施設内部の写真公開 - 産経ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ORGRHQ2ljUEVtYTVOeEdNWDJ1TzYwOVl0dGc4SnZKOC1tUEZpOUVJWmpXaHJGVHdlRVBaVENva0tjUGNIQm5jc0hPUzU1U180Q2ppalNYRkVfSUFKYjdUbUQ3SGd1b2xyLU81NGxaTnliTk4zWVE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "paura_amore",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P17a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T05:57:52.621591+00:00",
+    "publish_at": "2026-11-26T15:17:00+00:00",
+    "timestamp": "2026-11-26T15:17:00+00:00"
+  },
+  {
+    "id": "fb9a8fe227b8",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03TEVMS1NKOTV2OHg5Rkt1SHo1eHFWWEVUWldPYlo0U3hXZFlTdVRQM2c5cEo3Vnd6WnZ1UDRjS19lNm9sMFRadVh4b2pUcXRCVHdNVkx1NUk4WlFnaFln?oc=5\n中国海警局の船2隻が沖縄の尖閣諸島沖で日本の領海に侵入した。\n「領土を手に入れたいと望むのは、まことに自然でありふれたことである。」\n『君主論 cap.III』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "沖縄 中国海警局の船2隻が尖閣諸島沖で日本の領海に侵入 - NHKニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03TEVMS1NKOTV2OHg5Rkt1SHo1eHFWWEVUWldPYlo0U3hXZFlTdVRQM2c5cEo3Vnd6WnZ1UDRjS19lNm9sMFRadVh4b2pUcXRCVHdNVkx1NUk4WlFnaFln?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "P03c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T05:46:32.005078+00:00",
+    "publish_at": "2026-11-26T12:17:00+00:00",
+    "timestamp": "2026-11-26T12:17:00+00:00"
+  },
+  {
+    "id": "f09a95036345",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aSWRWSkJ2cENLTHJUV0FmSmpGWHZfZjFldmJjclRxZ3E2bExQX1g2U1dEaU5lUGxsVWY1N3hVRkRQaUR5UVVLZHdid1JrYzU5bk5LUE1HVQ?oc=5\nロシアにはサイバー攻撃から流出した資料がBBCで報道され、ウクライナ侵攻で約50万人の死者が出たことが発覚した。\n「君主は二つの恐れを抱かねばならぬ。一つは内にあって臣民に対するもの、もう一つは外にあって外国の列強に対するものである。」\n『君主論 cap.XIX』",
+    "theme": "guerra",
+    "score": 12,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナ侵攻によりロシアは50万人近くの死者 サイバー攻撃から流出したロシア連邦統計局の資料で発覚 BBCが報道 - TBS NEWS DIG",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aSWRWSkJ2cENLTHJUV0FmSmpGWHZfZjFldmJjclRxZ3E2bExQX1g2U1dEaU5lUGxsVWY1N3hVRkRQaUR5UVVLZHdid1JrYzU5bk5LUE1HVQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "P19a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T05:29:26.388257+00:00",
+    "publish_at": "2026-11-26T09:17:00+00:00",
+    "timestamp": "2026-11-26T09:17:00+00:00"
+  },
+  {
     "id": "08eba57fc002",
     "text": "https://www.aljazeera.com/news/2026/11/25/nigerias-tinubu-pledges-to-bring-peace-to-insurgency-hit-northeast-region?traffic_source=rss\nニジェールのティンブー大統領は、反乱に悩む国境地域へ平和をもたらすことを誓っているという。\n「外が安定していれば、陰謀に乱されぬ限り、内も常に安定しているものだ。」\n『君主論 cap.XIX』",
     "theme": "guerra",
@@ -598,66 +713,5 @@
     "generated_at": "2026-11-21T18:07:17.566998+00:00",
     "publish_at": "2026-11-22T15:17:00+00:00",
     "timestamp": "2026-11-22T15:17:00+00:00"
-  },
-  {
-    "id": "8e8c8eb14ad4",
-    "text": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV0tuLVl4dllaYzE0SEhYSmZDUzhTOVhiWU5OYTBRM2RSUGZnOF80ODlvYmlXcmRaLUN3V21walZNMUxnVk5Ud2FnV1JjQ2tTZHQ4UjYwLWNfcGpMcWQtdmNQT3pudWxXaXNNbjRKWXl1Tk1mLWQzeVZla1NxcTExbUk1WFF3azJCNHfSAY8BQVVfeXFMTnJfcXp1R21mc2hWQ3BycC1YUkRxVGNQWlVLRDJtQmhwdHNqeFYxakw5ajZZaEVOLVpyTDNWcWQ4cVpPZlNCbTExYlRpbEFVQ2Y3MnVWR3ZBM0lEMDlRWFRNNFhJdENLN3VUbkRwSWF2Mno3VHh4Vm41ZDRzc2R0QWpRMURtdUk5VUFqeGxIaVE?oc=5\nトランプ氏はイランとの早期合意を悲観視し、相手の交渉姿勢を強く非難しているという。\n「敵に読まれたと気づいたなら、策を変えよ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 18,
-    "source": "Google News 国際(World)",
-    "source_title": "イランとの早期合意悲観視　トランプ氏、交渉姿勢非難 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV0tuLVl4dllaYzE0SEhYSmZDUzhTOVhiWU5OYTBRM2RSUGZnOF80ODlvYmlXcmRaLUN3V21walZNMUxnVk5Ud2FnV1JjQ2tTZHQ4UjYwLWNfcGpMcWQtdmNQT3pudWxXaXNNbjRKWXl1Tk1mLWQzeVZla1NxcTExbUk1WFF3azJCNHfSAY8BQVVfeXFMTnJfcXp1R21mc2hWQ3BycC1YUkRxVGNQWlVLRDJtQmhwdHNqeFYxakw5ajZZaEVOLVpyTDNWcWQ4cVpPZlNCbTExYlRpbEFVQ2Y3MnVWR3ZBM0lEMDlRWFRNNFhJdENLN3VUbkRwSWF2Mno3VHh4Vm41ZDRzc2R0QWpRMURtdUk5VUFqeGxIaVE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "consiglio"
-    ],
-    "quote_id": "AG9",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T17:37:42.823957+00:00",
-    "publish_at": "2026-11-22T12:17:00+00:00",
-    "timestamp": "2026-11-22T12:17:00+00:00"
-  },
-  {
-    "id": "cd775bc30d0d",
-    "text": "https://news.google.com/rss/articles/CBMihANBVV95cUxQRzR3OWVMZXljYUdfY1hRX3J2V2Zlc05ScVQ4NENZUHNSTDc4eGFVWm1NYndrM1k0UDJEM3UwenBlY0xQVHk5dnFlekVBVFd5SFI0UGNZWGFXRnZmRTBCRVVpTlVXQlJ4NC1kc2RYRk40blNabURKdnYyZVJHUjdGSXNaZDl5N0ZRSTVzcW5aN1pKX3RYYkJtTlFiYVVNUmd2MkhzODcySmlmX2FkLWMyRGdTc3dOUHVfY3ppU3FJOTJXUGFVS1d0ZDQxMnFscm1aWk55Q0N3QlZzb3V3bEx2Q1huRll4alk5OVhQMTdXZzFJTmJkUE15bEJvQzl4czlGejFoeExmNldkZ0pjckg5QnpIbEpFNkxucHZTdXNfS1ltYkxKZmc4Wl95aFFUV1BVRlVncG5JbkdNMmpveHVlQ0ZYdGtQMlVKTmROcVM3X0l4TFVHOFhhVjRZek11ZFdyS1lORXR4WWMwZW1xb3lNUXRWZTJxUHVRb1FiN2pYcFpGX0Ex?oc=5\nポーランドへのロシアミサイル落下を受け、NATOは防衛強化の方針を示すという。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 検索 安全保障",
-    "source_title": "ポーランドにロシアのミサイル落下 NATOが防衛強化へ | スマートニュース - SmartNews",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxQRzR3OWVMZXljYUdfY1hRX3J2V2Zlc05ScVQ4NENZUHNSTDc4eGFVWm1NYndrM1k0UDJEM3UwenBlY0xQVHk5dnFlekVBVFd5SFI0UGNZWGFXRnZmRTBCRVVpTlVXQlJ4NC1kc2RYRk40blNabURKdnYyZVJHUjdGSXNaZDl5N0ZRSTVzcW5aN1pKX3RYYkJtTlFiYVVNUmd2MkhzODcySmlmX2FkLWMyRGdTc3dOUHVfY3ppU3FJOTJXUGFVS1d0ZDQxMnFscm1aWk55Q0N3QlZzb3V3bEx2Q1huRll4alk5OVhQMTdXZzFJTmJkUE15bEJvQzl4czlGejFoeExmNldkZ0pjckg5QnpIbEpFNkxucHZTdXNfS1ltYkxKZmc4Wl95aFFUV1BVRlVncG5JbkdNMmpveHVlQ0ZYdGtQMlVKTmROcVM3X0l4TFVHOFhhVjRZek11ZFdyS1lORXR4WWMwZW1xb3lNUXRWZTJxUHVRb1FiN2pYcFpGX0Ex?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "NE1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T10:24:50.893486+00:00",
-    "publish_at": "2026-11-22T09:17:00+00:00",
-    "timestamp": "2026-11-22T09:17:00+00:00"
-  },
-  {
-    "id": "2725c372d08b",
-    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ydFZqUUVJbkFZa0N0X3d4cERGUHdSVEJNaFl6NTJleF9QOVFNenIxQTZLckRPZ05FWWI3NTFYSktjclNXd0VlQXJHMlpvbGhxUEJUUUlpVWQ1dWo4TjVjemp4Z0xWb0MxemNyTHd30gFzQVVfeXFMTmVFUDZRNnhNVDVrWHp0YTYzYjVEX1N5cXRVQVJuVlUxM3BQV0kydlhsTmFuSTVtUW1QT1JxMEpyem5tblBjSXNMdlNPWFpCSS1WWFhRZEtBOFhfLUw0enVkYVJ2T3JERjBHVUhrMFlGbDhGVQ?oc=5\nトランプ大統領は、イランへの大規模攻撃を検討しているかどうか、ブルームバーグ通信が報じているという。\n「賢明な君主や国家は、勝つことで満足すべきである。満足しなければ、たいていは負けることになる。」\n『リウィウス論 II.27』",
-    "theme": "guerra",
-    "score": 18,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ大統領 イランへの大規模攻撃を検討か ブルームバーグ通信 - ｄメニューニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ydFZqUUVJbkFZa0N0X3d4cERGUHdSVEJNaFl6NTJleF9QOVFNenIxQTZLckRPZ05FWWI3NTFYSktjclNXd0VlQXJHMlpvbGhxUEJUUUlpVWQ1dWo4TjVjemp4Z0xWb0MxemNyTHd30gFzQVVfeXFMTmVFUDZRNnhNVDVrWHp0YTYzYjVEX1N5cXRVQVJuVlUxM3BQV0kydlhsTmFuSTVtUW1QT1JxMEpyem5tblBjSXNMdlNPWFpCSS1WWFhRZEtBOFhfLUw0enVkYVJ2T3JERjBHVUhrMFlGbDhGVQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "consiglio"
-    ],
-    "quote_id": "D2.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T09:59:53.672692+00:00",
-    "publish_at": "2026-11-22T06:17:00+00:00",
-    "timestamp": "2026-11-22T06:17:00+00:00"
   }
 ]
