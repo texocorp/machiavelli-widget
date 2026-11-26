@@ -1,5 +1,68 @@
 [
   {
+    "id": "cb9e5c824e9d",
+    "text": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSGpvRlY0c19iVllpZXRtQzR3cE03b0lyZ2ZrX2lGVXllbzNraXpJZzFGczFCbXhZNHpxQ1k2dFlaMTRHTi10dFVuUmRiMVZ6MW40bzIzdWgyMkUxZ2swZTA4LWtwbl8yUFRqNzdiLS1JY2tIaTVCTnBieVNmZzRQMQ?oc=5\nマスク氏がxAIを去った創業メンバーの3人が『予言者AI』の開発に取り組むという。\n「人間には、意志の野心に劣らぬ、知性の野心とでもいうべきものが宿っている。高く秀でた才においては、ことにそうである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム65",
+    "original": "Inest enim homini quaedam intellectus ambitio, non minor quam voluntatis; praesertim in ingeniis altis et elevatis.",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 風評・噂",
+    "source_title": "マスク氏のxAI去った創業メンバー3人、「予言者AI」開発へ - 조선일보",
+    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSGpvRlY0c19iVllpZXRtQzR3cE03b0lyZ2ZrX2lGVXllbzNraXpJZzFGczFCbXhZNHpxQ1k2dFlaMTRHTi10dFVuUmRiMVZ6MW40bzIzdWgyMkUxZ2swZTA4LWtwbl8yUFRqNzdiLS1JY2tIaTVCTnBieVNmZzRQMQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "potentia",
+      "novitas"
+    ],
+    "quote_id": "NO1.65",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T19:56:01.604729+00:00",
+    "publish_at": "2026-11-27T17:17:00+00:00",
+    "timestamp": "2026-11-27T17:17:00+00:00"
+  },
+  {
+    "id": "1e17bbe6c500",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTjBjOGp4TksxdVBfSVN6Y1ZaTmFFbXc4dDF5QmpQY3FzOXBFWFphQnFLN2N5TEVoNFRFd2ZOdXI0Wi1yT0dzZU5PeE4wcXlFdDFBcllxak0taVU5VFdxODV3bG5TazF2VEMyZjlOWlVPSVltNXJtcEZGcnQ4SEVKRnpVbEhKT1gtM0FMelBR?oc=5\nYahoo!ニュースは「なみえ焼そば商標権トラブルで浪江町商工会が方針撤回。町おこしのはずがSNS炎上でブランド価値を損なう #エキスパートトピ」と報じた。\n「最も危険な不満とは、実際の痛みよりも恐れのほうが大きい不満である。」\n『随筆集』第15篇「騒乱と動揺について」",
+    "original": "… for they are the most dangerous discontentments, where the fear is greater than the feeling.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "なみえ焼そば商標権トラブルで浪江町商工会が方針撤回。町おこしのはずがSNS炎上でブランド価値を損なう #エキスパートトピ - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTjBjOGp4TksxdVBfSVN6Y1ZaTmFFbXc4dDF5QmpQY3FzOXBFWFphQnFLN2N5TEVoNFRFd2ZOdXI0Wi1yT0dzZU5PeE4wcXlFdDFBcllxak0taVU5VFdxODV3bG5TazF2VEMyZjlOWlVPSVltNXJtcEZGcnQ4SEVKRnpVbEhKT1gtM0FMelBR?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama"
+    ],
+    "quote_id": "E15c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T19:49:03.951259+00:00",
+    "publish_at": "2026-11-27T14:17:00+00:00",
+    "timestamp": "2026-11-27T14:17:00+00:00"
+  },
+  {
+    "id": "8a591af39303",
+    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IY1VmU0VkOU54bDRrY0VXcGtOTmFjRHZ5eTl3UHUyY0JibEFQQWk4SXM5NGtTX25hbUs5aVZyNDVQSTRVSmFHR1N3?oc=5\nディープフェイクAIの国内シェアと参入企業が話題となっているという。\n「いかなる帝国も、いかなる宗派も、いかなる星も、これらの機械的発明以上の力と、いわば影響を、人間の事柄に及ぼしたとは思われないほどである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム129",
+    "original": "… ut non imperium aliquod, non secta, non stella, majorem efficaciam et quasi influxum super res humanas exercuisse videatur, quam ista mechanica exercuerunt.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 16,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "ディープフェイクAI国内シェアと参入企業 - pando.life",
+    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5IY1VmU0VkOU54bDRrY0VXcGtOTmFjRHZ5eTl3UHUyY0JibEFQQWk4SXM5NGtTX25hbUs5aVZyNDVQSTRVSmFHR1N3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "NO1.129b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T19:41:01.271109+00:00",
+    "publish_at": "2026-11-27T11:17:00+00:00",
+    "timestamp": "2026-11-27T11:17:00+00:00"
+  },
+  {
     "id": "5e1dcda9006d",
     "text": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQLUhPRk9MNkdfMHlKQ2JBSXZaQVo5SXNUbUN5MFNFcG1weFhEZmFZX1FyWC1wQkZKNmluQllLTEp5UnFmYWFqa2M5OWZnbzRVeXd6UWFZRm9zWlBFUTk1T3ZPMnRXbE9zVE56UEVBXzhFUURDQllDSnAwVGQxYnpIdHQ5Qm9JUHFLREtiQXJMdlVnNksyYlgzaXlneVBGcTdDaUVsbFRzUDNSMlJJRXpORHlMZl91ZzljX3hwa0E4cnNWSm50V0JvcHZkeG1FcXI2M251SjZqYkNFVUE4TExHc1NsTDJEcHV0ZUtseUJscVEwa0xKb01XOGxnd1NyYXpkZlpvTEk0V1M3eHRqdlJwdXhUTHgxbDhDLW5pbDc4RUMtd0Z1N0JXSzM3MXZKdjhfa1RaZTY3OHJsRjBWWTB0dVlHTUI1cE0zRmtJYUpKQlZJTGlYaWtFMF9PMHltd0NmdVRCWHk0MG81Zkp5TURsZDV0OVE2YU9tVHduMEpqRGF1NjRDM2NCNlpvckNtcElxbEFwVVdyZ3hUdWtUQlNJa1JzYTBlRzlxWTZYQUdDbDAtODVJeEFRcThJOTVPUTdHSjZaaGFJbWlvb0c5c19RRFFQTmRnQmpIaGRLZXNHVzFrWXR1Ry1Z?oc=5\n政府が陰謀論系ユーチューバーを起用した政府広報について、与野党やSNSから疑問の声が相次いでいるという。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
     "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
@@ -740,69 +803,5 @@
     "generated_at": "2026-11-22T06:55:39.998867+00:00",
     "publish_at": "2026-11-23T02:17:00+00:00",
     "timestamp": "2026-11-23T02:17:00+00:00"
-  },
-  {
-    "id": "cc43ba6ec3ae",
-    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuTnc0VHdzdEFoM3ZnOFRhaGgxQm4xcVZYVXpUMVJWbXVHUWt3TmVBOGs0OFM0SWQtamJlMGxHeWQ5SFcwUS14d2h5elFyOFRaN1NCaQ?oc=5\n中日新聞Webは「『生徒が外国人に連れ去られそうに』で閲覧200万回超 静岡市で誤情報が拡散した背景」と報じた。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
-    "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「生徒が外国人に連れ去られそうに」で閲覧200万回超 静岡市で誤情報が拡散した背景 - 中日新聞Web",
-    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuTnc0VHdzdEFoM3ZnOFRhaGgxQm4xcVZYVXpUMVJWbXVHUWt3TmVBOGs0OFM0SWQtamJlMGxHeWQ5SFcwUS14d2h5elFyOFRaN1NCaQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama"
-    ],
-    "quote_id": "E1b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T23:50:55.655992+00:00",
-    "publish_at": "2026-11-22T23:17:00+00:00",
-    "timestamp": "2026-11-22T23:17:00+00:00"
-  },
-  {
-    "id": "d6d4b768d3bf",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPc2o0eGx5MXJZVjg0SURZQ3ZBSjZuNEE3dlkweFIteHBIVkFYMFZlOUhmYlZVZGJlREdFbktLeWJJLUV6SjYxc3JPZ0UwX1hzaUZSdGJn?oc=5\nJBpressは「『政府プロパガンダに予算10倍』…漫才風の安保動画は炎上、陰謀論系YouTuber起用、なぜ内閣広報予算に72.3億円？」と報じた。\n「心がおのずから集める疑惑は羽音にすぎない。だが他人の作り話や囁きによって人為的に育てられ、頭に吹き込まれた疑惑には、針がある。」\n『随筆集』第31篇「疑惑について」",
-    "original": "Suspicions that the mind of itself gathers, are but buzzes; but suspicions that are artificially nourished, and put into men's heads, by the tales and whisperings of others, have stings.",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「政府プロパガンダに予算10倍」…漫才風の安保動画は炎上、陰謀論系YouTuber起用、なぜ内閣広報予算に72.3億円？ - JBpress",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPc2o0eGx5MXJZVjg0SURZQ3ZBSjZuNEE3dlkweFIteHBIVkFYMFZlOUhmYlZVZGJlREdFbktLeWJJLUV6SjYxc3JPZ0UwX1hzaUZSdGJn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E31c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T23:41:55.585347+00:00",
-    "publish_at": "2026-11-22T20:17:00+00:00",
-    "timestamp": "2026-11-22T20:17:00+00:00"
-  },
-  {
-    "id": "7dcde1cb54a6",
-    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFN09Sd0tSZGNJVEZtMXc4OU1GWnpVczBjVFpBMld2UnUyZkNqTkxUYnE5dE9oZEdSOXFmTG8xdVF0eE5hSVd1bmhlcWYzMUUxbTk1MUx6ck50OXc?oc=5\n政府が陰謀論者を起用したことで批判が続出し、野党は偽情報対策に逆行すると指摘しているという。\n「まことに、肉体に香具師がいるように、政体にも香具師がいる。大きな治療を請け負い、二、三度の試みではおそらく運がよかったが、学問の根拠を欠くために長続きしない者たちである。」\n『随筆集』第12篇「大胆について」",
-    "original": "Surely, as there are mountebanks for the natural body, so are there mountebanks for the politic body; men that undertake great cures, and perhaps have been lucky, in two or three experiments, but want the grounds of science, and therefore cannot hold out.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 13,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府広報に陰謀論系起用 批判やまず 野党「偽情報対策に逆行」 - 山陰中央新報デジタル",
-    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFN09Sd0tSZGNJVEZtMXc4OU1GWnpVczBjVFpBMld2UnUyZkNqTkxUYnE5dE9oZEdSOXFmTG8xdVF0eE5hSVd1bmhlcWYzMUUxbTk1MUx6ck50OXc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E12b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T23:29:58.062106+00:00",
-    "publish_at": "2026-11-22T17:17:00+00:00",
-    "timestamp": "2026-11-22T17:17:00+00:00"
   }
 ]
