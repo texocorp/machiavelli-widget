@@ -1,5 +1,64 @@
 [
   {
+    "id": "08eba57fc002",
+    "text": "https://www.aljazeera.com/news/2026/11/25/nigerias-tinubu-pledges-to-bring-peace-to-insurgency-hit-northeast-region?traffic_source=rss\nニジェールのティンブー大統領は、反乱に悩む国境地域へ平和をもたらすことを誓っているという。\n「外が安定していれば、陰謀に乱されぬ限り、内も常に安定しているものだ。」\n『君主論 cap.XIX』",
+    "theme": "guerra",
+    "score": 6,
+    "source": "Al Jazeera",
+    "source_title": "Nigeria’s Tinubu pledges to bring peace to rebellion-hit border region",
+    "source_title_ja": "ニジェールのティンブー大統領、反乱に悩む国境地域への平和をもたらすことを誓う",
+    "source_url": "https://www.aljazeera.com/news/2026/11/25/nigerias-tinubu-pledges-to-bring-peace-to-insurgency-hit-northeast-region?traffic_source=rss",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "P19b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T00:05:57.804165+00:00",
+    "publish_at": "2026-11-26T06:17:00+00:00",
+    "timestamp": "2026-11-26T06:17:00+00:00"
+  },
+  {
+    "id": "8db97c4087d0",
+    "text": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EMkFDaGE0TG9MLUEtTDRKUjZmcXJRZFVtWlhvdUFrSUhJMy1YUzlQa0I0SURYdW8tQWxTN2NwSFJaU2VydXlnVWxwalRrU3E2bXFRWmIyaXdEczdPazdCbFlsam5Qb2R1SU5QVV9GLTd5SXZZOGp4dUtwQ3hRUdIBgwFBVV95cUxPNi1ZcTF4NHdoZjlXYVJYMU9GWGJ3UjhBa3NET3lvaGVqRHZHXzBwV2xtMkNabFJKckRJNE9UcDF5TVB4d25Ta2QtZVFZT0htQzhwR0tjTEYwWF9QU0MxUm0wQVd3YnR2WDNMbWY0TmdCa0JhSmNQbW9kTUtGUS1xcHI0SQ?oc=5\nウクライナ軍はロシア主要空軍基地を攻撃し、5機の軍用機が損傷したと表明したという。\n「君主たる者、戦争とその組織・規律以外に、目的も思考の対象も持ってはならぬ。」\n『君主論 cap.XIV』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナ軍、ロシア主要空軍基地を攻撃　軍用機5機損傷と表明 - ｄメニューニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EMkFDaGE0TG9MLUEtTDRKUjZmcXJRZFVtWlhvdUFrSUhJMy1YUzlQa0I0SURYdW8tQWxTN2NwSFJaU2VydXlnVWxwalRrU3E2bXFRWmIyaXdEczdPazdCbFlsam5Qb2R1SU5QVV9GLTd5SXZZOGp4dUtwQ3hRUdIBgwFBVV95cUxPNi1ZcTF4NHdoZjlXYVJYMU9GWGJ3UjhBa3NET3lvaGVqRHZHXzBwV2xtMkNabFJKckRJNE9UcDF5TVB4d25Ta2QtZVFZT0htQzhwR0tjTEYwWF9QU0MxUm0wQVd3YnR2WDNMbWY0TmdCa0JhSmNQbW9kTUtGUS1xcHI0SQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AP2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T23:23:40.425238+00:00",
+    "publish_at": "2026-11-26T03:17:00+00:00",
+    "timestamp": "2026-11-26T03:17:00+00:00"
+  },
+  {
+    "id": "a3ca6fc0c708",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PYjhzdFF6ZVZfTDRSYVBfREktenROVzZ3bU5EVTd6Z1A5MnZ2ZjNET1BWWS1EdUQ4SXZkLUF6a3czS3hnWEV6bEgxN1dCYjVUUW1SVWFGNjBiOWNKN1FzTlpMSUtYclM3MHBtRGQ3YTk2cGJKYllEb0E2ODZDQlU?oc=5\nロシアは英元首相が提案したウクライナへの外国部隊展開を拒否し、その提案に反発を示しているという。\n「君主たる者、やむを得ぬ場合を除き、他国を攻めるために己より強大な者と手を組んではならぬ。勝てば、汝はその者の虜囚となるからだ。」\n『君主論 cap.XXI』",
+    "theme": "guerra",
+    "score": 11,
+    "source": "Google News 国際(World)",
+    "source_title": "ロシア、ウクライナへの外国部隊展開拒否 英元首相の提案に反発（ロイター） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PYjhzdFF6ZVZfTDRSYVBfREktenROVzZ3bU5EVTd6Z1A5MnZ2ZjNET1BWWS1EdUQ4SXZkLUF6a3czS3hnWEV6bEgxN1dCYjVUUW1SVWFGNjBiOWNKN1FzTlpMSUtYclM3MHBtRGQ3YTk2cGJKYllEb0E2ODZDQlU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "AD1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-25T22:32:44.972761+00:00",
+    "publish_at": "2026-11-26T00:17:00+00:00",
+    "timestamp": "2026-11-26T00:17:00+00:00"
+  },
+  {
     "id": "29b4036158d1",
     "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51ZW5qVndXblhrWUluVU5ORHNXWW5vWkhNYktGVEcweEpRdkkxQXIyR1FRUVFSSEpNeFRsOHFwUTdmbjNkakhRekxQb0JzT1B5UHFCT2dvbGdpUFMzWll3YU50MjB0NHNpQjlWVUVYTGZSNEpwb1E?oc=5\n北朝鮮はスイス代表を呼び出し、平壌の拠点を閉鎖するよう要求したという。\n「賢慮ある君主は、信義を守ることが己に不利益となるとき、これを守ってはならぬし、守るべきでもない。」\n『君主論 cap.XVIII』",
     "theme": "inganno_simulazione",
@@ -600,68 +659,5 @@
     "generated_at": "2026-11-21T09:59:53.672692+00:00",
     "publish_at": "2026-11-22T06:17:00+00:00",
     "timestamp": "2026-11-22T06:17:00+00:00"
-  },
-  {
-    "id": "7e676f09a8e0",
-    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhcWtwNXEybEd0S2N1OFV1d1E2WVE1dU5zQVFXZWx3NXVWU0FNVWZGeUhDbV9SZUx1NTRQZHVLMlRIdmEwblpQOGZZM0pkel9BR0dHdWl2aVlZQmhPbzJyaNIBZkFVX3lxTE9SaWNNRTJ0NF9lVnFzNWZYQkJ1Z2RkeHhHQlgzd2pqcmJ0MmZ0VUFvb0RQS0tBWVl4VWVMeVdwT2RwdktfVjl4TEZXaWt5OWQ5c20xc1NKWFIyc0lVNjZsclUzcXBqUQ?oc=5\nポーランドではロシアのミサイルが着弾したが、近くでウクライナの同盟国が演習を行っているという。\n「他人の武具は、身から滑り落ちるか、重くのしかかるか、締めつけるかのいずれかである。」\n『君主論 cap.XIII』",
-    "theme": "guerra",
-    "score": 19,
-    "source": "Google News 国際(World)",
-    "source_title": "ポーランドにロシアのミサイル着弾とトゥスク首相　近くでウクライナの同盟国が演習中 - BBC",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhcWtwNXEybEd0S2N1OFV1d1E2WVE1dU5zQVFXZWx3NXVWU0FNVWZGeUhDbV9SZUx1NTRQZHVLMlRIdmEwblpQOGZZM0pkel9BR0dHdWl2aVlZQmhPbzJyaNIBZkFVX3lxTE9SaWNNRTJ0NF9lVnFzNWZYQkJ1Z2RkeHhHQlgzd2pqcmJ0MmZ0VUFvb0RQS0tBWVl4VWVMeVdwT2RwdktfVjl4TEZXaWt5OWQ5c20xc1NKWFIyc0lVNjZsclUzcXBqUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "P13b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T09:53:02.291177+00:00",
-    "publish_at": "2026-11-22T03:17:00+00:00",
-    "timestamp": "2026-11-22T03:17:00+00:00"
-  },
-  {
-    "id": "4626818138f9",
-    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZeDFsYzl0OUsyaWxKSVZOQmdORXp3eE1vYWk5UlJkOEVSOXhGYk5hNzlRZ2tVS2FLRUtmOGlueXJtMDhka2tjbjV3VmtRSW9DOGpoeU5VMlVEYm1iRW5vbndJb1BFV09CamJpUGhRbHlfZzM4MHVB?oc=5\nプーチン氏が3カ国首脳会談を終え、ウクライナに対して過去最大級の攻撃を行った。\n「大物の間では、新たな恩恵が古い恨みを忘れさせると信じる者は、思い違いをしている。」\n『君主論 cap.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "3カ国首脳会談終えたプーチン氏、ウクライナに過去最大級の攻撃 - Bloomberg.com",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZeDFsYzl0OUsyaWxKSVZOQmdORXp3eE1vYWk5UlJkOEVSOXhGYk5hNzlRZ2tVS2FLRUtmOGlueXJtMDhka2tjbjV3VmtRSW9DOGpoeU5VMlVEYm1iRW5vbndJb1BFV09CamJpUGhRbHlfZzM4MHVB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione"
-    ],
-    "quote_id": "P07",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T02:18:49.937033+00:00",
-    "publish_at": "2026-11-22T00:17:00+00:00",
-    "timestamp": "2026-11-22T00:17:00+00:00"
-  },
-  {
-    "id": "903e9714008a",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oZVZNSW8yQ0JBeHdkdDlPdU9vV1ZvSnRueUlXWF85Vk9JSEdBSWtnTWsycmowUFNOamRvbWpEZ1BRNnFPWE95YS02eDRpS29nOUZxbnZkRFpHVzA4Qk80RkRhQ244YU02WUtCZQ?oc=5\nトランプ氏はイランへの対応について年内に判断を遅らせ、決断は急がないと表明しているという。\n「己の力と敵の力を知る者は、容易には敗れぬ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 12,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、イラン対応は年内判断せず 「決断は急がない」 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oZVZNSW8yQ0JBeHdkdDlPdU9vV1ZvSnRueUlXWF85Vk9JSEdBSWtnTWsycmowUFNOamRvbWpEZ1BRNnFPWE95YS02eDRpS29nOUZxbnZkRFpHVzA4Qk80RkRhQ244YU02WUtCZQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "inganno_simulazione",
-      "economia",
-      "consiglio"
-    ],
-    "quote_id": "AG6",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T01:46:04.732539+00:00",
-    "publish_at": "2026-11-21T21:17:00+00:00",
-    "timestamp": "2026-11-21T21:17:00+00:00"
   }
 ]
