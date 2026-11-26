@@ -1,5 +1,68 @@
 [
   {
+    "id": "6fcc031f0bd8",
+    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jUUJBZTRhNlZTWlQ0OW9GZ3RrM0pRMkZmaWcwV0lRbEF6czEtNm5YcGJMTU9pclFJVVNjOVNqdEFkLUxDZjBlTDNsNmJiVXh6SnF1VEJn?oc=5\n佐賀新聞社はネット情報を検証すると発表し、選挙報道の指針を示したという。\n「自然誌の中の多くの実験は、誤って信じられ受け入れられることがありうるが、それらは、原因と公理が見出されると、まもなく容易に消し去られ、退けられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム118",
+    "original": "… multa in historia naturali experimenta falso credi et recipi posse, quae paulo post a causis et axiomatibus inventis facile expunguntur et rejiciuntur.",
+    "original_lang": "la",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "ファクトチェック＞ネット情報、検証します 佐賀新聞社、選挙報道指針 | 行政・社会 | 佐賀県のニュース - 佐賀新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jUUJBZTRhNlZTWlQ0OW9GZ3RrM0pRMkZmaWcwV0lRbEF6czEtNm5YcGJMTU9pclFJVVNjOVNqdEFkLUxDZjBlTDNsNmJiVXh6SnF1VEJn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "experientia"
+    ],
+    "quote_id": "NO1.118",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T00:57:03.437507+00:00",
+    "publish_at": "2026-11-26T23:17:00+00:00",
+    "timestamp": "2026-11-26T23:17:00+00:00"
+  },
+  {
+    "id": "0c00f3b6d688",
+    "text": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPeEpuTjFYajFDcG1XbERELXpNSWd6QUtUZEtWVjMxZ0ZGMlhTMjN1U054YTN2LWJrSEswQW1LSUdQNFc3aDdWMkJqaFpPVHk2UU83Qw?oc=5\n中日新聞Webは「陰謀論者の起用 偽情報対策に逆行する」と報じた。\n「第三に、そして最後に(これが最大の理由であるが)、数限りないそうした予言のほとんどすべてはまやかしであり、暇で狡猾な頭が出来事の後になってでっち上げ、こしらえたものにすぎない。」\n『随筆集』第35篇「予言について」",
+    "original": "The third and last (which is the great one) is, that almost all of them, being infinite in number, have been impostures, and by idle and crafty brains merely contrived and feigned, after the event past.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "陰謀論者の起用 偽情報対策に逆行する - 中日新聞Web",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPeEpuTjFYajFDcG1XbERELXpNSWd6QUtUZEtWVjMxZ0ZGMlhTMjN1U054YTN2LWJrSEswQW1LSUdQNFc3aDdWMkJqaFpPVHk2UU83Qw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "superstitio"
+    ],
+    "quote_id": "E35c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T00:51:32.987641+00:00",
+    "publish_at": "2026-11-26T20:17:00+00:00",
+    "timestamp": "2026-11-26T20:17:00+00:00"
+  },
+  {
+    "id": "f023eecf4567",
+    "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sYkh1MllrVmNtdHNKSTZ2dTBYUGxkMVl1b0RKX0IyN1p5RHZWNDRYRk5IQmZ2dllPd0tsWlNVT1FBcGNjdFNubFVVQmJRaGJnS1UtWUdXXzQ?oc=5\n沖縄八重山日報は「抗議船２隻、届出なく『運航実態の把握困難』 参考人招致で沖縄運輸部 辺野古特別委」と報じた。\n「必要なだけのことを知り、それでもなお自分は十分には知っていないと考えるほうが、十分に知っていると考えながら、必要なことを何一つ知らないよりもよい。」\n『ノヴム・オルガヌム』第1巻 アフォリズム126",
+    "original": "Atque melius est scire quantum opus sit, et tamen nos non penitus scire putare, quam penitus scire nos putare, et tamen nil eorum quae opus est scire.",
+    "original_lang": "la",
+    "theme": "studium",
+    "score": 14,
+    "source": "Google News 国内",
+    "source_title": "抗議船２隻、届出なく「運航実態の把握困難」 参考人招致で沖縄運輸部 辺野古特別委 - 沖縄八重山日報",
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sYkh1MllrVmNtdHNKSTZ2dTBYUGxkMVl1b0RKX0IyN1p5RHZWNDRYRk5IQmZ2dllPd0tsWlNVT1FBcGNjdFNubFVVQmJRaGJnS1UtWUdXXzQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "studium",
+      "tribus"
+    ],
+    "quote_id": "NO1.126",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T00:34:51.578295+00:00",
+    "publish_at": "2026-11-26T17:17:00+00:00",
+    "timestamp": "2026-11-26T17:17:00+00:00"
+  },
+  {
     "id": "6afdb570950a",
     "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUQ1NFZmpkT19Yc08yQjJYaUNVUWNzbUJ3clEwZUhPYWppRnZJZHd1SllkakxONFBTVnB5YkJqTlBKUUVKZXZUNm9pNzJhcVZ4c1lTVHBnY2JtOEduaE1N?oc=5\n千葉テレビ放送株式会社は「『陰謀論系』起用で大炎上の政府広報動画が街中で配信開始 日刊ゲンダイ記者も都内の駅で確認」と報じた。\n「言葉はまさしく知性に暴力を加え、すべてをかき乱し、人々を空しく果てしない論争と作り話へと導く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム43",
     "original": "Sed verba plane vim faciunt intellectui, et omnia turbant; et homines ad inanes et innumeras controversias et commenta deducunt.",
@@ -736,70 +799,5 @@
     "generated_at": "2026-11-21T18:45:56.684499+00:00",
     "publish_at": "2026-11-22T08:17:00+00:00",
     "timestamp": "2026-11-22T08:17:00+00:00"
-  },
-  {
-    "id": "61f35b336d7e",
-    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40N2YwYlFNM3Z3Mzc0N3VmcVhRUXV4UVlVVkREUVM5d0ZBVE40NTlaSW1KbXRuWjNNNTdUU1ZuWng3RHlEb2lkWC1pS3hPbUpz?oc=5\n日本海新聞は「陰謀論系の政府広報起用を批判 野党『偽情報対策に逆行』」と報じた。\n「第三に、そして最後に(これが最大の理由であるが)、数限りないそうした予言のほとんどすべてはまやかしであり、暇で狡猾な頭が出来事の後になってでっち上げ、こしらえたものにすぎない。」\n『随筆集』第35篇「予言について」",
-    "original": "The third and last (which is the great one) is, that almost all of them, being infinite in number, have been impostures, and by idle and crafty brains merely contrived and feigned, after the event past.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 13,
-    "source": "Google News 偽情報・言説",
-    "source_title": "陰謀論系の政府広報起用を批判 野党「偽情報対策に逆行」 - 日本海新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40N2YwYlFNM3Z3Mzc0N3VmcVhRUXV4UVlVVkREUVM5d0ZBVE40NTlaSW1KbXRuWjNNNTdUU1ZuWng3RHlEb2lkWC1pS3hPbUpz?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E35c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T18:34:36.753357+00:00",
-    "publish_at": "2026-11-22T05:17:00+00:00",
-    "timestamp": "2026-11-22T05:17:00+00:00"
-  },
-  {
-    "id": "536eec32c866",
-    "text": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15bWdBdFFIQXBhcUI0bkw1eWhOWm1fUDVmR2hubmZDOExuTnRSX3FFZURTUkRrUTR0RjQ1WkxLcXI3ME83TXd6RENjM09BX3FiNTRUemFjYzZ3a3BPYUNBbTNGd0JEYld0emIwcjQ4d0hUSWs?oc=5\n陰謀論系ユーチューバーを政府広報に起用した政府は、出演者の過去発言を確認しなかったという。\n「だがアリストテレスの哲学に同意した者の大多数は、先入見と他人の権威とによって、自らをそれに隷属させたのである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム77",
-    "original": "At numerus longe maximus eorum, qui in Aristotelis philosophiam consenserunt, ex praejudicio et authoritate aliorum se illi mancipavit …",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府 出演者の過去発言など確認せず “陰謀論系”ユーチューバー 政府広報に起用 - テレ朝NEWS",
-    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15bWdBdFFIQXBhcUI0bkw1eWhOWm1fUDVmR2hubmZDOExuTnRSX3FFZURTUkRrUTR0RjQ1WkxLcXI3ME83TXd6RENjM09BX3FiNTRUemFjYzZ3a3BPYUNBbTNGd0JEYld0emIwcjQ4d0hUSWs?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fori",
-      "fama"
-    ],
-    "quote_id": "NO1.77",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T02:45:59.091512+00:00",
-    "publish_at": "2026-11-22T02:17:00+00:00",
-    "timestamp": "2026-11-22T02:17:00+00:00"
-  },
-  {
-    "id": "d7220b4adcb7",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jSWI3TENicTVtcE9VdndDX2NwejVyQnBSTTFENGF0OERMZnhkSXF6TmxGUE56WkQtSkNnQ3dpV0U3cTFSSEZnNVF1VDM2MzNuanBRRHZubTB3dVcyZVJn?oc=5\nNHKニュースは「気候変動の偽情報投稿 国連『対策の障害に』日本も増加 注意を」と報じた。\n「まことに評判は川のようなもので、軽く膨れたものを浮かべ、重く堅固なものを沈める。」\n『随筆集』第53篇「称賛について」",
-    "original": "Certainly fame is like a river, that beareth up things light and swoln, and drowns things weighty and solid.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 10,
-    "source": "Google News 偽情報・言説",
-    "source_title": "気候変動の偽情報投稿 国連「対策の障害に」日本も増加 注意を - NHKニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jSWI3TENicTVtcE9VdndDX2NwejVyQnBSTTFENGF0OERMZnhkSXF6TmxGUE56WkQtSkNnQ3dpV0U3cTFSSEZnNVF1VDM2MzNuanBRRHZubTB3dVcyZVJn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "fama"
-    ],
-    "quote_id": "E53",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T02:33:39.255974+00:00",
-    "publish_at": "2026-11-21T23:17:00+00:00",
-    "timestamp": "2026-11-21T23:17:00+00:00"
   }
 ]
