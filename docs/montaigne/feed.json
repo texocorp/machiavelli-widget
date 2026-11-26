@@ -1,5 +1,83 @@
 [
   {
+    "id": "ddabf0858557",
+    "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zeGE3WUxuVmo2dldKZUlZWk9KWFpyb2R1YVdUVFF6TzJyLXVjLWlYa1Qtbk9leHRteTQ5b21kRVlNZDY3LVNWMl93cVlQOTU3?oc=5\n獨協大は、大学受験を1日2校可能にするために『イブニング入試』を新設したという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
+    "theme": "savoir",
+    "score": 0,
+    "source": "Google News 検索 教育",
+    "source_title": "「大学受験、1日2校」が可能に 獨協大が「イブニング入試」を新設、その狙いとは - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zeGE3WUxuVmo2dldKZUlZWk9KWFpyb2R1YVdUVFF6TzJyLXVjLWlYa1Qtbk9leHRteTQ5b21kRVlNZDY3LVNWMl93cVlQOTU3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir"
+    ],
+    "quote_id": "I.26a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T20:38:05.600951+00:00",
+    "publish_at": "2026-11-27T19:17:00+00:00",
+    "timestamp": "2026-11-27T19:17:00+00:00"
+  },
+  {
+    "id": "240abe60a59a",
+    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XLWdWVngwSmFyd1loakpvcGpHejM3OU5TMnF6UlVhNzZ1V2tBeE9YQXVOeGduc0d1ZzFWMWRlb2FJbzBMU0xSb2pVVkY2Zm00OVcyNmtIRGhOWFZDdU9GenBYRWZVY3JqNTIzdVBiVFVfdXVX?oc=5\nAIチップ各社が価格未定の長期契約でメモリを買い占める競争を行い、SamsungやSKは供給枠を確保しようとしている。\n「私が何よりも恐れるのは、恐怖そのものである。」\n『エセー I.18「恐怖について」』",
+    "theme": "presomption",
+    "score": 4,
+    "source": "Google News 検索 世相",
+    "source_title": "AIチップ各社、価格未定の長期契約でメモリを「買い占め」…Samsung・SKの供給枠確保競争 - BigGo ファイナンス",
+    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XLWdWVngwSmFyd1loakpvcGpHejM3OU5TMnF6UlVhNzZ1V2tBeE9YQXVOeGduc0d1ZzFWMWRlb2FJbzBMU0xSb2pVVkY2Zm00OVcyNmtIRGhOWFZDdU9GenBYRWZVY3JqNTIzdVBiVFVfdXVX?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "peur"
+    ],
+    "quote_id": "I.18",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T20:03:34.043328+00:00",
+    "publish_at": "2026-11-27T16:17:00+00:00",
+    "timestamp": "2026-11-27T16:17:00+00:00"
+  },
+  {
+    "id": "b8647f459ba6",
+    "text": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yQmEzT1VtM0kxOWhZdmY4REtZRi1rSmVKOTh1bU5BalNPUzZHeDlfZEx5bXZ3dlprcTVCQlUwNkRsOFlnVFVWQkh2X01tUkJaOVpmTXFoSlhjTzVUYWs0Q1pYMVc0eUFmRTVzTXQ5RWZIT1NCaHdOSVNfdw?oc=5\nAIが反論を受け、気候科学の正答を覆したが、これは科学者や専門家の代わりになるものではないとユネスコとUCLの報告で示された。\n「学問の手前にある、いろはの無知があり、学問の後に来る、博士の無知がある、と言ってもよさそうだ。後者は学問そのものが作り出し、生み出す無知である。」\n『エセー I.54「むなしい精緻さについて」』",
+    "theme": "savoir",
+    "score": 4,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "“おべっか” ＡＩが反論受け気候科学の正答を覆す 「科学者・専門家の代わりにならず」 ユネスコ・ＵＣＬ報告 - 環境新聞オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yQmEzT1VtM0kxOWhZdmY4REtZRi1rSmVKOTh1bU5BalNPUzZHeDlfZEx5bXZ3dlprcTVCQlUwNkRsOFlnVFVWQkh2X01tUkJaOVpmTXFoSlhjTzVUYWs0Q1pYMVc0eUFmRTVzTXQ5RWZIT1NCaHdOSVNfdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "savoir",
+      "presomption"
+    ],
+    "quote_id": "I.54",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T19:55:39.078855+00:00",
+    "publish_at": "2026-11-27T13:17:00+00:00",
+    "timestamp": "2026-11-27T13:17:00+00:00"
+  },
+  {
+    "id": "6c9870b368c6",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xRXJEZVQ2T2F5SUZrTnZDdm5SSzAxMXdVb20tT2tHaTJPNEFSblhnZHZsZEJJdjBuTG9ERmZ1S2ZMUjBLek1PV3I4WlVWQ1NoN2dsdW9ldi10TExDLWlyc3A0dncxMldfdzFac3FNM3FTMjN5b1JMV01LdmtNdVE?oc=5\n愛知の大学が開発し、高齢者の運転寿命を延ばすことで健康寿命に直結するという。\n「自然の流れに逆らって来るものは、どれも厭わしいかもしれない。だが自然に従って来るものは、いつも快いはずである。」\n『エセー III.13「経験について」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "高齢者の運転寿命を延ばせ 健康寿命に直結、愛知の大学が開発へ（毎日新聞） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xRXJEZVQ2T2F5SUZrTnZDdm5SSzAxMXdVb20tT2tHaTJPNEFSblhnZHZsZEJJdjBuTG9ERmZ1S2ZMUjBLek1PV3I4WlVWQ1NoN2dsdW9ldi10TExDLWlyc3A0dncxMldfdzFac3FNM3FTMjN5b1JMV01LdmtNdVE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "medecine",
+      "savoir",
+      "presomption",
+      "soi"
+    ],
+    "quote_id": "III.13j",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T19:51:30.765900+00:00",
+    "publish_at": "2026-11-27T10:17:00+00:00",
+    "timestamp": "2026-11-27T10:17:00+00:00"
+  },
+  {
     "id": "597253ae7d33",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HcEp5LTRtNDk4R3FIZkJWTEtXR3hHSE1jLTlKeFdtcDNzYkxPWmIydHVVMk5waGxTeEdlbFZtcUJFSjYwRDF4NWlIRGJJVk1MQnU4Tk9UZzRIQXEyTDFBeVFVQlA4REZGSWtncQ?oc=5\n風疹ウイルスの『侵入口』を特定できたことで、母子間の感染経路の解明が期待されているという。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
     "theme": "medecine",
@@ -627,80 +705,5 @@
     "generated_at": "2026-11-22T06:59:44.462767+00:00",
     "publish_at": "2026-11-23T04:17:00+00:00",
     "timestamp": "2026-11-23T04:17:00+00:00"
-  },
-  {
-    "id": "d8ae091c9ac5",
-    "text": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3TlR5NTVqbk1DTkJEWWh0X3FNYWNCOUw5XzVpeWtqaHktOXVEaXdoRFF2Uy1RbVVDTXFVUndrZTR4VWctUENyRk8tdVp1bjQ?oc=5\nサンマルクが以前の大成功から大失速した理由は、『外国人客だらけの牛カツチェーン』という足かせになったからだという。\n「我々と我々自身との間には、我々と他人との間と同じほどの違いがある。」\n『エセー II.1「我々の行為の一貫しなさについて」』",
-    "theme": "autrui",
-    "score": 4,
-    "source": "Google News 検索 世相",
-    "source_title": "純利益44％減のサンマルク「外国人客だらけの牛カツチェーン」足かせに…217億円買収で大成功から一転「大失速の理由」 - 現代ビジネス",
-    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3TlR5NTVqbk1DTkJEWWh0X3FNYWNCOUw5XzVpeWtqaHktOXVEaXdoRFF2Uy1RbVVDTXFVUndrZTR4VWctUENyRk8tdVp1bjQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui",
-      "profit",
-      "inconstance"
-    ],
-    "quote_id": "II.1b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T06:57:25.693298+00:00",
-    "publish_at": "2026-11-23T01:17:00+00:00",
-    "timestamp": "2026-11-23T01:17:00+00:00"
-  },
-  {
-    "id": "39acacd99e55",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KWWN0X3Q5WHFHLU05VnV5Vk1zaEg3OFRJX3ZETGFKeWRMdENzTDVNVlh0Rmh3VWZ5eW9ZbVYzaUNCMTNiVmpvRGFvQ2ZObnRVOWlVWDBR?oc=5\n行橋市定例会で職員へのカスハラ対策条例案が提案されるという。\n「法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。」\n『エセー III.13「経験について」』",
-    "theme": "lois",
-    "score": 2,
-    "source": "Google News 検索 職場",
-    "source_title": "［福岡県］職員へのカスハラ 対策条例案提案へ 行橋市定例会 - 西日本新聞me",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KWWN0X3Q5WHFHLU05VnV5Vk1zaEg3OFRJX3ZETGFKeWRMdENzTDVNVlh0Rmh3VWZ5eW9ZbVYzaUNCMTNiVmpvRGFvQ2ZObnRVOWlVWDBR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "III.13b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T23:27:18.984208+00:00",
-    "publish_at": "2026-11-22T22:17:00+00:00",
-    "timestamp": "2026-11-22T22:17:00+00:00"
-  },
-  {
-    "id": "c19c5b618f84",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tZWdudUttZEplWUNKRlBvMlRFdElyU2JoR01JYXlxV2tWaTFJNHI5MlFoV1NxTHptNkM5cGlwVVpoLWJ3TWJidmg5azJabzFwQlRadTRROFgtdw?oc=5\n日本郵便関東支社と前橋市社会福祉協議会が連携協定を結び、市民の終活や高齢者の課題解決に電話相談事業を活用する。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "mort",
-    "score": 8,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "市民の「終活」に安心を…日本郵便関東支社と前橋市社会福祉協議会（群馬）が連携協定 電話相談事業の活用、高齢者の課題解決 - 上毛新聞電子版",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tZWdudUttZEplWUNKRlBvMlRFdElyU2JoR01JYXlxV2tWaTFJNHI5MlFoV1NxTHptNkM5cGlwVVpoLWJ3TWJidmg5azJabzFwQlRadTRROFgtdw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "soi"
-    ],
-    "quote_id": "I.20d",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T23:22:39.170708+00:00",
-    "publish_at": "2026-11-22T19:17:00+00:00",
-    "timestamp": "2026-11-22T19:17:00+00:00"
-  },
-  {
-    "id": "ed9b2f012b52",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FaWl3Q0ZjQWt1dmRJWUZOZ203VFZtQmtIbzVwZjJYR3ROX2VyRm5Pb3dKZXRzZEsxcTZtcWlxVkt5QWF2ZnAwcXNFY2JrRTE4NjBj?oc=5\n自宅で孤立出産した35歳の女性は父親に分かりえず、乳児遺棄を繰り返したという。\n「もし嘘が真実と同じく一つの顔しか持たないなら、事はもっと楽であろう。嘘つきの言うことの反対を確かなものと受け取ればよいのだから。だが真実の裏側には十万の姿があり、果てしない広がりがある。」\n『エセー I.9「嘘つきについて」』",
-    "theme": "soi",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "父親は分からず、「太っただけ」と嘘をつき通した35歳の女性 自宅で孤立出産…繰り返した乳児遺棄の理由 - 東京新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FaWl3Q0ZjQWt1dmRJWUZOZ203VFZtQmtIbzVwZjJYR3ROX2VyRm5Pb3dKZXRzZEsxcTZtcWlxVkt5QWF2ZnAwcXNFY2JrRTE4NjBj?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.9",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T18:06:22.926582+00:00",
-    "publish_at": "2026-11-22T16:17:00+00:00",
-    "timestamp": "2026-11-22T16:17:00+00:00"
   }
 ]
