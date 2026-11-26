@@ -1,5 +1,61 @@
 [
   {
+    "id": "597253ae7d33",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HcEp5LTRtNDk4R3FIZkJWTEtXR3hHSE1jLTlKeFdtcDNzYkxPWmIydHVVMk5waGxTeEdlbFZtcUJFSjYwRDF4NWlIRGJJVk1MQnU4Tk9UZzRIQXEyTDFBeVFVQlA4REZGSWtncQ?oc=5\n風疹ウイルスの『侵入口』を特定できたことで、母子間の感染経路の解明が期待されているという。\n「知りたいという欲望ほど、自然な欲望はない。」\n『エセー III.13「経験について」』",
+    "theme": "medecine",
+    "score": 4,
+    "source": "Google News 健康",
+    "source_title": "風疹ウイルスの「侵入口」を特定 母子感染経路解明に期待 - 日本経済新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HcEp5LTRtNDk4R3FIZkJWTEtXR3hHSE1jLTlKeFdtcDNzYkxPWmIydHVVMk5waGxTeEdlbFZtcUJFSjYwRDF4NWlIRGJJVk1MQnU4Tk9UZzRIQXEyTDFBeVFVQlA4REZGSWtncQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "III.13h",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T09:57:42.443316+00:00",
+    "publish_at": "2026-11-27T07:17:00+00:00",
+    "timestamp": "2026-11-27T07:17:00+00:00"
+  },
+  {
+    "id": "e7b784e6c3e2",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CeWlRRXZ5MFlNd2JnemliOTZ4SHVib0FBMFJMYlRZbFVWS0xEbUR1SWJoS3UwMVRjNlctVGxFNEFncEdNRXVMckNEZThUQmhiUDhCTHNSVHFYWHBDOW9B?oc=5\n宮城で発生したいじめ重大事態が昨年度に過去最多の70件となった。\n「臆病は残酷の母である、と私はしばしば耳にしてきた。」\n『エセー II.27「臆病は残酷の母」』",
+    "theme": "cruaute",
+    "score": 5,
+    "source": "Google News 検索 教育",
+    "source_title": "宮城「いじめ重大事態」昨年度は過去最多の70件 - NHKニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CeWlRRXZ5MFlNd2JnemliOTZ4SHVib0FBMFJMYlRZbFVWS0xEbUR1SWJoS3UwMVRjNlctVGxFNEFncEdNRXVMckNEZThUQmhiUDhCTHNSVHFYWHBDOW9B?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "cruaute"
+    ],
+    "quote_id": "II.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T09:52:52.380632+00:00",
+    "publish_at": "2026-11-27T04:17:00+00:00",
+    "timestamp": "2026-11-27T04:17:00+00:00"
+  },
+  {
+    "id": "6a2dededc615",
+    "text": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWG9KQjFMLVRhdWpjN25YZ05IZEhidEQ2OE5mY1BQSUNqcmpKck11REgwM1J6QXA1eG1OcnVzZms0RWsxSEtQOWFpRVp0aUtDeTlIakdzNnBHY054RlZhalFtSDZBSkFyLVVuZVN2bGlSMTF1aG1QT0IwN2YxaDJrcHVESjk1QzFXcmJaMGZteTducnVr0gGUAUFVX3lxTFBYb0pCMUwtVGF1amM3blhnTkhkSGJ0RDY4TmZjUFBJQ2pyakpyTXVESDAzUnpBcDV4bU5ydXNmazRFazFIS1A5YWlFWnRpS0N5OUhqR3M2cEdjTnhGVmFqUW1INkFKQXItVW5lU3ZsaVIxMXVobVBPQjA3ZjFoMmtwdURKOTVDMVdyYlowZm15N25ydWs?oc=5\n新薬の成功をきっかけに人事を刷新し、次期トップには研究や生産の専門家を据えたという。\n「医学は実例と経験によって形づくられる。私の意見もまた同じである。」\n『エセー II.37「子が父に似ることについて」』",
+    "theme": "medecine",
+    "score": 6,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "柳韓洋行、次期トップに研究・生産の専門家　新薬成功で人事刷新 - Chosunbiz",
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWG9KQjFMLVRhdWpjN25YZ05IZEhidEQ2OE5mY1BQSUNqcmpKck11REgwM1J6QXA1eG1OcnVzZms0RWsxSEtQOWFpRVp0aUtDeTlIakdzNnBHY054RlZhalFtSDZBSkFyLVVuZVN2bGlSMTF1aG1QT0IwN2YxaDJrcHVESjk1QzFXcmJaMGZteTducnVr0gGUAUFVX3lxTFBYb0pCMUwtVGF1amM3blhnTkhkSGJ0RDY4TmZjUFBJQ2pyakpyTXVESDAzUnpBcDV4bU5ydXNmazRFazFIS1A5YWlFWnRpS0N5OUhqR3M2cEdjTnhGVmFqUW1INkFKQXItVW5lU3ZsaVIxMXVobVBPQjA3ZjFoMmtwdURKOTVDMVdyYlowZm15N25ydWs?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "savoir",
+      "nouveaute"
+    ],
+    "quote_id": "II.37b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T09:34:52.161821+00:00",
+    "publish_at": "2026-11-27T01:17:00+00:00",
+    "timestamp": "2026-11-27T01:17:00+00:00"
+  },
+  {
     "id": "7151ea5c458a",
     "text": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRGhwN3pOZURmNFJUS2FXOFdsNWc2amlEcXV3bHd2dndfSVo1RXRNOUg0Vld3eTBaa09hMHdDcGJzNHRlRTBHQ2RsN0Nwa2lEQTk2R1RNNGJyUS0zVlJIei1ZcDUyS0JGZldwZUJDeWgtay0wYVZ6UTZJRUpWRUZ3emRNeGM5TU5RdzNsUHZLdUdHY01IVlBsc3VCdm5BRDhhbV9jdU5aaGdhNDdqVEJEb1Yzb2dVY1JwVFg1VDJWX2JiSVdmWi14aVp4cEY3OVdk?oc=5\n米誌の記事が元同級生を挙げて証言し、テイラー・スウィフトは実はいじめっ子だったのかと問うているという。\n「私は数ある悪徳の中でも、残酷さをこそ残酷なまでに憎む。生まれつきにおいても判断においても、あらゆる悪徳の極みとして。」\n『エセー II.11「残酷さについて」』",
     "theme": "cruaute",
@@ -646,63 +702,5 @@
     "generated_at": "2026-11-21T18:06:22.926582+00:00",
     "publish_at": "2026-11-22T16:17:00+00:00",
     "timestamp": "2026-11-22T16:17:00+00:00"
-  },
-  {
-    "id": "2b9b93996c36",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMeks2OUdIbjFrejRkMlZ1UkUyMVlPQnR5NTdtaVR2Sm91dHlpZUxLN0R5dW1kTGlRX1ZFU1VSVnJpS2M0TkRFcnZyLWNGbjB2ZTNFZmFYNDNWTWw1RDN5dFl4cEVyNnVUWDZNdmVPM3JCdzVELTlzWlY4N1hFUWs?oc=5\nAI不正疑惑で亡くなったのは、高校中退からソウル大合格までを飾った『天才受験生』だという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
-    "theme": "lois",
-    "score": 8,
-    "source": "Google News 検索 教育",
-    "source_title": "“AI不正”疑惑の男性死亡 高校中退からソウル大合格、ロースクール入試で満点の“天才受験生”に何が 韓国でAIカンニングが社会問題に（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMeks2OUdIbjFrejRkMlZ1UkUyMVlPQnR5NTdtaVR2Sm91dHlpZUxLN0R5dW1kTGlRX1ZFU1VSVnJpS2M0TkRFcnZyLWNGbjB2ZTNFZmFYNDNWTWw1RDN5dFl4cEVyNnVUWDZNdmVPM3JCdzVELTlzWlY4N1hFUWs?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "mort",
-      "savoir",
-      "presomption"
-    ],
-    "quote_id": "I.26a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T18:00:50.807961+00:00",
-    "publish_at": "2026-11-22T13:17:00+00:00",
-    "timestamp": "2026-11-22T13:17:00+00:00"
-  },
-  {
-    "id": "c06f6f97980b",
-    "text": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHcXQ1MFR1MkladjV6a2RNYk4zMG4xNC1TTk9ielhGR1dmUkRNRkNiT0Fac091YXhaSmZ2MzB2MDNLTUlTQlRDRFhvUlJNVzRsUUZuR09fM1ZFVEtPXzVSSWsycF9xZzNk?oc=5\n展示の背景には、差別と偏見を近現代において生き抜いてきたアイヌ民族の実像があるという。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
-    "theme": "autrui",
-    "score": 4,
-    "source": "Google News 検索 偏見・摩擦",
-    "source_title": "展示の背景にあるアイヌ民族の実像 差別・偏見の近現代を生きて - 毎日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHcXQ1MFR1MkladjV6a2RNYk4zMG4xNC1TTk9ielhGR1dmUkRNRkNiT0Fac091YXhaSmZ2MzB2MDNLTUlTQlRDRFhvUlJNVzRsUUZuR09fM1ZFVEtPXzVSSWsycF9xZzNk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "autrui"
-    ],
-    "quote_id": "I.31a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T11:17:10.204739+00:00",
-    "publish_at": "2026-11-22T10:17:00+00:00",
-    "timestamp": "2026-11-22T10:17:00+00:00"
-  },
-  {
-    "id": "cf95cd45ab13",
-    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnVhN0FXdUhVTGV1Zy1XZUhBVlY4cWtqSVFtYzdGQkoyNVBsSURodU5NTGMyNUdXZngtblFkMHlsalpwaDFuejVHblhpTWVfQmFtZXl3YlRxVTJNVF92VmxKMUdoaktwemxIbHk0eE1HYmFpOUNGSGVMdzFLVTlqMHZHRjlSUms?oc=5\n宮城県警は警察犬審査会で対象となる犬種を拡大し、もふもふのサモエドも審査に挑戦させた。\n「私が猫と戯れているとき、私が猫で暇をつぶしている以上に、猫のほうが私で暇をつぶしていないと、誰に分かろう。」\n『エセー II.12「レーモン・スボンの弁護」』",
-    "theme": "savoir",
-    "score": 4,
-    "source": "Google News 国内",
-    "source_title": "もふもふのサモエドも挑戦 宮城県警が警察犬審査会 犬種を拡大 - 毎日新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnVhN0FXdUhVTGV1Zy1XZUhBVlY4cWtqSVFtYzdGQkoyNVBsSURodU5NTGMyNUdXZngtblFkMHlsalpwaDFuejVHblhpTWVfQmFtZXl3YlRxVTJNVF92VmxKMUdoaktwemxIbHk0eE1HYmFpOUNGSGVMdzFLVTlqMHZHRjlSUms?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir",
-      "nouveaute"
-    ],
-    "quote_id": "II.12e",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T11:14:54.333958+00:00",
-    "publish_at": "2026-11-22T07:17:00+00:00",
-    "timestamp": "2026-11-22T07:17:00+00:00"
   }
 ]
