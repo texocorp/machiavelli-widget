@@ -1,5 +1,44 @@
 [
   {
+    "id": "99b5d5950ba9",
+    "text": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XYnJ3M1QtbVhDR3JuMFhQQzUyRGxaOGlqNDRKcm55VEZqaERfUXpQdWNMQXozQXhkRjFvTUNqR3RYbmZub2VBSWE5Y1E1WHkwVlR5RXhDQ2dHVjQ4UG0tME1nTDJPWXpEbkk4aUFZUlEzUQ?oc=5\n中国海警局の船2隻が尖閣諸島・南小島沖の領海に侵入し砲を搭載した状態で、近くで日本漁船1隻が操業している。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 検索 中国・台湾",
+    "source_title": "沖縄県：尖閣諸島・南小島沖の領海に中国海警局の船２隻が侵入、砲を搭載…近くで日本漁船１隻が操業 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XYnJ3M1QtbVhDR3JuMFhQQzUyRGxaOGlqNDRKcm55VEZqaERfUXpQdWNMQXozQXhkRjFvTUNqR3RYbmZub2VBSWE5Y1E1WHkwVlR5RXhDQ2dHVjQ4UG0tME1nTDJPWXpEbkk4aUFZUlEzUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "FV2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T16:10:30.245101+00:00",
+    "publish_at": "2026-11-27T06:17:00+00:00",
+    "timestamp": "2026-11-27T06:17:00+00:00"
+  },
+  {
+    "id": "eefb832e76c4",
+    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0eEF2OFYyck9XaUdpblpiTUxlaUdfUDE4RndHVUQ0ZWEtTlhRQUhsUHJscnp3Wk9TRlhfa0M4T0JPTVZ4QzE3VEpyQzVKZVVRUmlTUTJBdjZCa2RpYnI3LTZn?oc=5\nウクライナは製油所攻撃を強化し、ロシアの製油能力半減やガソリン供給への影響がほぼ確実となった。\n「敵は剣よりも飢えによって打ち負かす方がよい。剣による勝利には、力量よりも運命の働きがはるかに大きいからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 18,
+    "source": "Google News 国際(World)",
+    "source_title": "ウクライナが製油所攻撃強化、ロシアの製油能力半減か…ガソリン供給への影響「ほぼ確実」 - 読売新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0eEF2OFYyck9XaUdpblpiTUxlaUdfUDE4RndHVUQ0ZWEtTlhRQUhsUHJscnp3Wk9TRlhfa0M4T0JPTVZ4QzE3VEpyQzVKZVVRUmlTUTJBdjZCa2RpYnI3LTZn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AG2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T15:14:02.912135+00:00",
+    "publish_at": "2026-11-27T03:17:00+00:00",
+    "timestamp": "2026-11-27T03:17:00+00:00"
+  },
+  {
     "id": "0983d1fb264c",
     "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVDhZNDRzcmdYbDlCZmZsTmRzNk9scjBDNzE1Y0RZYlpCVlgxQXlsNk94TU42ZHRjQy1MYXJPek85WWVTZ3JZWnFiOEZVUG9tNTlEYmNXRXU5ZVdqVGVaM2xkbzIyWFRya0xpM0hJdXROcWpENndPWWRORVRSOUthOHZzUW84QQ?oc=5\nロシアはウクライナ電力網を攻撃し、5州で停電やザポリージャ原発の電源喪失を引き起こしたという。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -653,65 +692,5 @@
     "generated_at": "2026-11-22T11:23:27.363330+00:00",
     "publish_at": "2026-11-23T00:17:00+00:00",
     "timestamp": "2026-11-23T00:17:00+00:00"
-  },
-  {
-    "id": "3b5bc98a642e",
-    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Wd2RGNFFXanN5aWNJX1haUkRHcGgtcE1vQmdSdlJZSFRLa2VjaTlSQWpsRXExcUkwVEV6bXpVUUJ1bzMtWlZtQ0tvZUFNMERvUzFpZFJjRFlxVTZReExOWlU3eVUyenpLNDZOVU5kY2pFSzdpNHc?oc=5\n日米同盟は日本の自律的防衛を前提としており、摩擦と競争の時代を数十年にわたって迎えているという。\n「真に強い国家や君主は、友誼を金で買わず、力量と武力の評判によって得る。」\n『リウィウス論 II.30』",
-    "theme": "alleanze_dipendenza",
-    "score": 10,
-    "source": "Google News 検索 安全保障",
-    "source_title": "日米同盟は日本の自律的防衛が前提に 摩擦と競争の時代、数十年続く 細谷雄一慶応大教授 岐路の国防 キーマンに聞く - 産経ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Wd2RGNFFXanN5aWNJX1haUkRHcGgtcE1vQmdSdlJZSFRLa2VjaTlSQWpsRXExcUkwVEV6bXpVUUJ1bzMtWlZtQ0tvZUFNMERvUzFpZFJjRFlxVTZReExOWlU3eVUyenpLNDZOVU5kY2pFSzdpNHc?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "alleanze_dipendenza",
-      "armi_proprie"
-    ],
-    "quote_id": "D2.30",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T23:59:26.043591+00:00",
-    "publish_at": "2026-11-22T21:17:00+00:00",
-    "timestamp": "2026-11-22T21:17:00+00:00"
-  },
-  {
-    "id": "850f0e1ed5b8",
-    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lNktlUG1xWG5NV3Zuanh0cXhoMWt3MFRTSUhmZGFiMkJVWjVUdG9mVVVsU0dhZDQwSlEtM2luQXYyaHUzMHVxUmtUU3NxYkI0b0RIc0QwUnA5MDVBaWpUNkM4emxrOFBLbGRRQQ?oc=5\n金正恩氏はトランプ氏の誘いに動かず、米朝交渉の主導権を揺るがす姿勢を見せたという。\n「人はしばしば、謙譲によって傲慢に打ち勝てると信じて誤る。」\n『リウィウス論 II.14』",
-    "theme": "paura_amore",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "金正恩氏、トランプ氏の誘いに動かず 揺らぐ米朝交渉の主導権 - 日本経済新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lNktlUG1xWG5NV3Zuanh0cXhoMWt3MFRTSUhmZGFiMkJVWjVUdG9mVVVsU0dhZDQwSlEtM2luQXYyaHUzMHVxUmtUU3NxYkI0b0RIc0QwUnA5MDVBaWpUNkM4emxrOFBLbGRRQQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "paura_amore",
-      "inganno_simulazione",
-      "economia"
-    ],
-    "quote_id": "D2.14",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T23:46:28.841561+00:00",
-    "publish_at": "2026-11-22T18:17:00+00:00",
-    "timestamp": "2026-11-22T18:17:00+00:00"
-  },
-  {
-    "id": "98605618e5ec",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YMTZCR0JnSm51d0E0WVA2a2NjcHQ5Q2x0TDZCWFpEWEhyb001MjJsY1ByZE56RFJsV3RUem4xNkRRUjNpeVl1SWhfb3FIZm84UE9LUFNDWnMtYVluNzdYSHJVQQ?oc=5\nトランプ氏は討議中に居眠りをし、報道陣から失笑を買ったという。\n「誰もが汝の外見を見るが、汝の実像を知る者はわずかである。」\n『君主論 cap.XVIII』",
-    "theme": "inganno_simulazione",
-    "score": 10,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏、討議中に居眠り？ ＡＰＥＣ、報道陣から失笑：時事ドットコム - 時事ドットコム",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YMTZCR0JnSm51d0E0WVA2a2NjcHQ5Q2x0TDZCWFpEWEhyb001MjJsY1ByZE56RFJsV3RUem4xNkRRUjNpeVl1SWhfb3FIZm84UE9LUFNDWnMtYVluNzdYSHJVQQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione"
-    ],
-    "quote_id": "P18b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-21T18:07:17.566998+00:00",
-    "publish_at": "2026-11-22T15:17:00+00:00",
-    "timestamp": "2026-11-22T15:17:00+00:00"
   }
 ]
