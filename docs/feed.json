@@ -1,5 +1,123 @@
 [
   {
+    "id": "2419c851c7b5",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02bVRtRF91MVVOUDFCM09fQVFueTVQeXFTYnhRV3cwTDR0YkNtZmVYSG5tSTdXNzREVF93eU11UjhqNFY0ZG9MUEcxVTczdVJISnp3ZTgxMGUxYVM1dHN3?oc=5\nウクライナがロシアの製油所を攻撃し、10月以降に製油能力が30% 低下した可能性があるとした。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "ウクライナがロシア製油所攻撃 10月以降製油能力30％低下か | NHKニュース | ウクライナ情勢、ロシア - NHKニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02bVRtRF91MVVOUDFCM09fQVFueTVQeXFTYnhRV3cwTDR0YkNtZmVYSG5tSTdXNzREVF93eU11UjhqNFY0ZG9MUEcxVTczdVJISnp3ZTgxMGUxYVM1dHN3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "economia"
+    ],
+    "quote_id": "AG13",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T01:31:22.587410+00:00",
+    "publish_at": "2026-11-28T00:17:00+00:00",
+    "timestamp": "2026-11-28T00:17:00+00:00"
+  },
+  {
+    "id": "717f7e25d0b7",
+    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JQzVVcTQ2YmhVRG1seWdpR2JtVTlQRUJ0cXJDRVdvM0hIZlpsOTIydUV2NTlQY1dieVEyZDA1bWxtZ0VOdEFPdkJGZE1kSVdmcjd1Y0s4MEFDVjZwQlVQZkNoTQ?oc=5\nロシアはリビア沿岸で軍艦を撃沈され、ウクライナの攻撃範囲が拡大しているという。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "リビア沿岸でロシア軍艦撃沈 ウクライナ 攻撃範囲拡大か - テレ東BIZ",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JQzVVcTQ2YmhVRG1seWdpR2JtVTlQRUJ0cXJDRVdvM0hIZlpsOTIydUV2NTlQY1dieVEyZDA1bWxtZ0VOdEFPdkJGZE1kSVdmcjd1Y0s4MEFDVjZwQlVQZkNoTQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "D2.19",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T01:25:07.737941+00:00",
+    "publish_at": "2026-11-27T21:17:00+00:00",
+    "timestamp": "2026-11-27T21:17:00+00:00"
+  },
+  {
+    "id": "d8fcd0b6516b",
+    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaDNrRm1ENEhYQ1V6dk1qdXJibVBQNllCXzVhN2Y2TGphQVkxbTl1WGQxOWlRS0EycW56NG5PZ1UxZGJZRUE4cWp6YlhKU1FSbVl2UUFXUHJXNXRKMjVDVDNRMHpmRjMyVGpWeEo0Q0FnRHB3ajA3eUFyMkNlUWc0Rmk2UENoZw?oc=5\nトランプ氏は欧州全域での軍事攻撃を巡り、プーチン氏に自制を求めているという。\n「優れた指揮官は、必要に迫られるか好機に招かれぬ限り、決して決戦に臨まぬ。」\n『戦争の技法 lib.VII』",
+    "theme": "guerra",
+    "score": 8,
+    "source": "Google News 検索 ロシア・ウクライナ",
+    "source_title": "トランプ氏、プーチン氏に自制求める 欧州全域での軍事攻撃巡り - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaDNrRm1ENEhYQ1V6dk1qdXJibVBQNllCXzVhN2Y2TGphQVkxbTl1WGQxOWlRS0EycW56NG5PZ1UxZGJZRUE4cWp6YlhKU1FSbVl2UUFXUHJXNXRKMjVDVDNRMHpmRjMyVGpWeEo0Q0FnRHB3ajA3eUFyMkNlUWc0Rmk2UENoZw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra"
+    ],
+    "quote_id": "AG11",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T01:17:15.839290+00:00",
+    "publish_at": "2026-11-27T18:17:00+00:00",
+    "timestamp": "2026-11-27T18:17:00+00:00"
+  },
+  {
+    "id": "f9f7e1363d7e",
+    "text": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13OEpTS0tMaThwWHVpb0RXWUpURVZ5OGhJa2RYNWtmMllOZS1GckVzX2NoWHBoU1pzTmFaNERKUDd4eG1ESWMzR1BSTWtTNkpTVDNNemFiSmM?oc=5\n北朝鮮はロシアへの軍事支援を停止するかもしれないとウクライナ情報機関が発表したという。\n「自前の軍備を持たぬ君主国に安全はない。それどころか、すべてを運命に委ねることになる。」\n『君主論 cap.XIII』",
+    "theme": "alleanze_dipendenza",
+    "score": 10,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "北朝鮮、ロシア軍事支援停止か ウクライナ情報機関が発表 - 山陽新聞",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13OEpTS0tMaThwWHVpb0RXWUpURVZ5OGhJa2RYNWtmMllOZS1GckVzX2NoWHBoU1pzTmFaNERKUDd4eG1ESWMzR1BSTWtTNkpTVDNNemFiSmM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza",
+      "consiglio"
+    ],
+    "quote_id": "P13a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T00:38:42.759039+00:00",
+    "publish_at": "2026-11-27T15:17:00+00:00",
+    "timestamp": "2026-11-27T15:17:00+00:00"
+  },
+  {
+    "id": "ce1b6e2ab0ea",
+    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtS3YyeFJTR2E1UXFUQ0xPV2h4QmxKTUtpbzdFYzJCdDFuOXN6Q19TMkppbWtMa0psNEVOdG5TUmNxaC1GUVBZQnJ2QQ?oc=5\n北朝鮮は核開発の進展を誇示し、敵を抑止するため交渉材料としない方針だという。\n「愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。」\n『君主論 cap.XVII』",
+    "theme": "paura_amore",
+    "score": 12,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "北朝鮮 核開発進展を誇示 敵抑止 交渉材料とせず - 北日本新聞webunプラス",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtS3YyeFJTR2E1UXFUQ0xPV2h4QmxKTUtpbzdFYzJCdDFuOXN6Q19TMkppbWtMa0psNEVOdG5TUmNxaC1GUVBZQnJ2QQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "paura_amore",
+      "inganno_simulazione"
+    ],
+    "quote_id": "PA1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T00:07:17.838054+00:00",
+    "publish_at": "2026-11-27T12:17:00+00:00",
+    "timestamp": "2026-11-27T12:17:00+00:00"
+  },
+  {
+    "id": "035381701bb5",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0bHNiOEc0Y1djYVprWWhTYW9aTDZZVjZ5OXIxQ1pGNTFvSDVSUU1SdGwtdDJsQTRfcm01NE5ZcDRvM0FZQ1VldWJjdW9pa1EtVE5XXzdXamFFaXVhTHZWckFpQjhnSVpqSW5pUUtkdlhiLWM1eWFEdmtwRm9xRzQ?oc=5\nトランプ大統領がプーチン大統領に対し、欧州全域での軍事攻撃の停止を要請し、中国での首脳会談でウクライナ和平の早期実現を目指した。\n「あらゆる人間の行い、とりわけ訴え出る法廷のない君主の行いにおいては、人は結果を見る。」\n『君主論 cap.XVIII』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 国際(World)",
+    "source_title": "トランプ大統領 プーチン大統領に欧州全域での軍事攻撃の停止を要請 中国での首脳会談で ウクライナ和平の早期実現のため - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0bHNiOEc0Y1djYVprWWhTYW9aTDZZVjZ5OXIxQ1pGNTFvSDVSUU1SdGwtdDJsQTRfcm01NE5ZcDRvM0FZQ1VldWJjdW9pa1EtVE5XXzdXamFFaXVhTHZWckFpQjhnSVpqSW5pUUtkdlhiLWM1eWFEdmtwRm9xRzQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "inganno_simulazione"
+    ],
+    "quote_id": "P18d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-26T23:53:22.371747+00:00",
+    "publish_at": "2026-11-27T09:17:00+00:00",
+    "timestamp": "2026-11-27T09:17:00+00:00"
+  },
+  {
     "id": "99b5d5950ba9",
     "text": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XYnJ3M1QtbVhDR3JuMFhQQzUyRGxaOGlqNDRKcm55VEZqaERfUXpQdWNMQXozQXhkRjFvTUNqR3RYbmZub2VBSWE5Y1E1WHkwVlR5RXhDQ2dHVjQ4UG0tME1nTDJPWXpEbkk4aUFZUlEzUQ?oc=5\n中国海警局の船2隻が尖閣諸島・南小島沖の領海に侵入し砲を搭載した状態で、近くで日本漁船1隻が操業している。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
     "theme": "guerra",
@@ -629,68 +747,5 @@
     "generated_at": "2026-11-22T12:32:28.911413+00:00",
     "publish_at": "2026-11-23T09:17:00+00:00",
     "timestamp": "2026-11-23T09:17:00+00:00"
-  },
-  {
-    "id": "7f2242026490",
-    "text": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIcGxDTW40bzFoTFY5WVczWTN6dXQzdnF0aEN1b2toZ3ZTZENmTm5PVWFTeDUxb19tNWNkcHRqSGZHUDhCSjBuN1BPNzJ4cnBRRWZ2TkZ5bEp6QnBwcXM3RDdzaw?oc=5\nイラン革命防衛隊はバーレーンの米軍施設に攻撃を加えたと主張しているという。\n「慎重であるより果断である方がよい。運命は女であり、これを制するには力ずくで打ち据える必要がある。」\n『君主論 cap.XXV』",
-    "theme": "guerra",
-    "score": 14,
-    "source": "Google News 検索 安全保障",
-    "source_title": "イラン革命防衛隊 バーレーンの米軍施設に攻撃と主張 - テレ東BIZ",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIcGxDTW40bzFoTFY5WVczWTN6dXQzdnF0aEN1b2toZ3ZTZENmTm5PVWFTeDUxb19tNWNkcHRqSGZHUDhCSjBuN1BPNzJ4cnBRRWZ2TkZ5bEp6QnBwcXM3RDdzaw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "FV2",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T11:43:50.342885+00:00",
-    "publish_at": "2026-11-23T06:17:00+00:00",
-    "timestamp": "2026-11-23T06:17:00+00:00"
-  },
-  {
-    "id": "f183ddd1fb66",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nQ3RIU3NrSnJuN0FURUd1cjJTc1VqVFFiVVZWbDlkUXRGXzVXVFlubDA5ZkFFTWs1RWp1a1RBWFZmOFZpYzFXXy1LZ21mMko4aDFjNHZNY2VKdV9PWnZRYW5sN2hxTnVicXBXMnJyVE5zellSSnRnbmFwdXY2Mlk?oc=5\nイランはトンネル内のミサイル施設を公開し、力で脅威に立ち向かう姿勢を強調したという。\n「賢明な指揮官は、味方の兵には戦わざるを得ぬ必要を課し、敵の兵からはそれを取り除くべきである。」\n『リウィウス論 III.12』",
-    "theme": "guerra",
-    "score": 18,
-    "source": "Google News 国際(World)",
-    "source_title": "トンネルの両側にミサイルなどが一面に…イランが革命防衛隊のミサイル施設を公開 幹部「力で脅威に立ち向かうことに躊躇せず」強調 アメリカへの“けん制”報道も（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nQ3RIU3NrSnJuN0FURUd1cjJTc1VqVFFiVVZWbDlkUXRGXzVXVFlubDA5ZkFFTWs1RWp1a1RBWFZmOFZpYzFXXy1LZ21mMko4aDFjNHZNY2VKdV9PWnZRYW5sN2hxTnVicXBXMnJyVE5zellSSnRnbmFwdXY2Mlk?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "D3.12",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T11:36:21.359907+00:00",
-    "publish_at": "2026-11-23T03:17:00+00:00",
-    "timestamp": "2026-11-23T03:17:00+00:00"
-  },
-  {
-    "id": "3968233720cd",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42bVhhaGg0LU9DVWI3Vk96TVZ0T3Q2dGJodFRlT283bTktZVZJNzdERG5rSnhObkIwRjZfYWRZZmpKT2t1S3djVkMwT21kWTdqR09WOExpcHA4d3VDU0NYNnJsYlY1T1ZsbFROajVzV0ZLR25rVXlZbndUU0duV2c?oc=5\nトランプ大統領は任期残り約2年でイランの核兵器保有阻止を目指し、政権交代後も効力を持つ恒久的な合意を結ぶという。\n「実行し終えるまで敵に隠し通した策ほど、優れた策はない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 20,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ大統領、イランの核兵器保有阻止へ「恒久的な合意」目指す 任期残り約2年、政権交代後も効力を - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42bVhhaGg0LU9DVWI3Vk96TVZ0T3Q2dGJodFRlT283bTktZVZJNzdERG5rSnhObkIwRjZfYWRZZmpKT2t1S3djVkMwT21kWTdqR09WOExpcHA4d3VDU0NYNnJsYlY1T1ZsbFROajVzV0ZLR25rVXlZbndUU0duV2c?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "paura_amore",
-      "inganno_simulazione",
-      "imperi_declino",
-      "armi_proprie"
-    ],
-    "quote_id": "AG3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T11:23:27.363330+00:00",
-    "publish_at": "2026-11-23T00:17:00+00:00",
-    "timestamp": "2026-11-23T00:17:00+00:00"
   }
 ]
