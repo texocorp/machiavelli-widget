@@ -1,5 +1,69 @@
 [
   {
+    "id": "059178575f58",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qQWNxeWhTN0hTUkJPbmw5NklHSXppbE9oRl8wbHJQaTZGemgyXzhaM2tQLVRJNVd6M2JneGYxUE91eU5OaHNmVGd6Y1Vmc2N4cGExVzRDZkpjdw?oc=5\n中国新聞デジタルは「陰謀論系の政府広報起用に苦言」と報じた。\n「ひとたび嫉妬が国家に入り込むと、それはその最良の行いさえも中傷し、悪臭へと変えてしまう。」\n『随筆集』第9篇「嫉妬について」",
+    "original": "… so when envy is gotten once into a state, it traduceth even the best actions thereof, and turneth them into an ill odor.",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 10,
+    "source": "Google News 偽情報・言説",
+    "source_title": "陰謀論系の政府広報起用に苦言 - 中国新聞デジタル",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qQWNxeWhTN0hTUkJPbmw5NklHSXppbE9oRl8wbHJQaTZGemgyXzhaM2tQLVRJNVd6M2JneGYxUE91eU5OaHNmVGd6Y1Vmc2N4cGExVzRDZkpjdw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E9b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T03:17:00.421686+00:00",
+    "publish_at": "2026-11-28T02:17:00+00:00",
+    "timestamp": "2026-11-28T02:17:00+00:00"
+  },
+  {
+    "id": "7eaa22a18d8e",
+    "text": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVX3h0QVhoQzhpZ3NGc3pvOGZPdjJVWWNnaVcwMDY3NDdTY1prNVNJWDJ6ZUVET1JvZXgyLWRsT05Ba2dXZ2JCNVZIejBBQjViV21wVjBxeGRpaW5jeDBrdXE3ZUtYQlpVbGg3UGx4d0xfcTdRTGfSAXtBVV95cUxNSEhKNVFIMS1nRlpyNTUyNGhKNHQyQjFnRk1aWnNJSHBIY0RXMVh2OWNwWlJnc3RrYWFOMmgtZmVxa0ZjbUt6Tk5RSXk1bVJzaE03UFRkX3BUQTgxX1Vvang0a3hWeEJUYTQ3cmNhWlUyMjF3bldUS2NSeHc?oc=5\nIDCは、『AIで成果を出す企業ほど人を増やす』という通説を否定する調査結果を発表したという。\n「真理は権威の娘ではなく、時の娘であると言われるのはもっともである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム84",
+    "original": "Recte enim Veritas Temporis filia dicitur, non Authoritatis.",
+    "original_lang": "la",
+    "theme": "theatri",
+    "score": 12,
+    "source": "Google News 検索 学説・未知",
+    "source_title": "AIで成果を出す企業ほど「人を増やす」？　“通説”を否定する調査結果をIDCが発表 - Infoseek",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVX3h0QVhoQzhpZ3NGc3pvOGZPdjJVWWNnaVcwMDY3NDdTY1prNVNJWDJ6ZUVET1JvZXgyLWRsT05Ba2dXZ2JCNVZIejBBQjViV21wVjBxeGRpaW5jeDBrdXE3ZUtYQlpVbGg3UGx4d0xfcTdRTGfSAXtBVV95cUxNSEhKNVFIMS1nRlpyNTUyNGhKNHQyQjFnRk1aWnNJSHBIY0RXMVh2OWNwWlJnc3RrYWFOMmgtZmVxa0ZjbUt6Tk5RSXk1bVJzaE03UFRkX3BUQTgxX1Vvang0a3hWeEJUYTQ3cmNhWlUyMjF3bldUS2NSeHc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "theatri",
+      "experientia",
+      "potentia"
+    ],
+    "quote_id": "NO1.84b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T03:05:34.893081+00:00",
+    "publish_at": "2026-11-27T23:17:00+00:00",
+    "timestamp": "2026-11-27T23:17:00+00:00"
+  },
+  {
+    "id": "473b3d372aff",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Fc1Y3dEVBYUktTXpRcjJDTHNWaGs1X0wyQlN2VEpQTkdPNnN3UXVFT2hNQy0yMWt4YUp3Qm5RUEhNbWtiZ1VvMnZUTlI3bEJIb1N6TkFvbEZTZHVkWUtF?oc=5\nインフルエンサーの盲点として『独身キャラ』が崩壊し、SNSでの講演家がその炎上構造を指摘したという。\n「順境は悪徳をいちばんよく露わにし、逆境は美徳をいちばんよく露わにする。」\n『随筆集』第5篇「逆境について」",
+    "original": "Prosperity doth best discover vice, but adversity doth best discover virtue.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 14,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が指摘するインフルエンサーの盲点「独身キャラ」が崩壊した絶望ライン工の炎上構造 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Fc1Y3dEVBYUktTXpRcjJDTHNWaGs1X0wyQlN2VEpQTkdPNnN3UXVFT2hNQy0yMWt4YUp3Qm5RUEhNbWtiZ1VvMnZUTlI3bEJIb1N6TkFvbEZTZHVkWUtF?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "E5",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T02:57:28.318739+00:00",
+    "publish_at": "2026-11-27T20:17:00+00:00",
+    "timestamp": "2026-11-27T20:17:00+00:00"
+  },
+  {
     "id": "cb9e5c824e9d",
     "text": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSGpvRlY0c19iVllpZXRtQzR3cE03b0lyZ2ZrX2lGVXllbzNraXpJZzFGczFCbXhZNHpxQ1k2dFlaMTRHTi10dFVuUmRiMVZ6MW40bzIzdWgyMkUxZ2swZTA4LWtwbl8yUFRqNzdiLS1JY2tIaTVCTnBieVNmZzRQMQ?oc=5\nマスク氏がxAIを去った創業メンバーの3人が『予言者AI』の開発に取り組むという。\n「人間には、意志の野心に劣らぬ、知性の野心とでもいうべきものが宿っている。高く秀でた才においては、ことにそうである。」\n『ノヴム・オルガヌム』第1巻 アフォリズム65",
     "original": "Inest enim homini quaedam intellectus ambitio, non minor quam voluntatis; praesertim in ingeniis altis et elevatis.",
@@ -741,67 +805,5 @@
     "generated_at": "2026-11-22T16:23:56.113664+00:00",
     "publish_at": "2026-11-23T11:17:00+00:00",
     "timestamp": "2026-11-23T11:17:00+00:00"
-  },
-  {
-    "id": "34be54b31af2",
-    "text": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lOExyd3o5UGE0eFZjeXJ4a0pRM1RhTldUS3E1Um1PWWwwOVIyZXMxclN2akZvamVQR1N6Y3ZkX2FQYlBiOWZBSldxN1ZGd2Rld3VIb3BJVlRnRTRJ?oc=5\n「フランコ・コラピント SNS誹謗中傷の撲滅へFIAに支援要請 - F1-Gate.com」と報じられた。\n「国家に対する誹謗と放縦な言説が頻繁かつ公然と行われるとき、また同様に、国家に不利な偽りの知らせがしばしば飛び交い、性急に受け容れられるとき、それは騒乱の兆しの一つである。」\n『随筆集』第15篇「騒乱と動揺について」",
-    "original": "Libels and licentious discourses against the state, when they are frequent and open; and in like sort, false news often running up and down, to the disadvantage of the state, and hastily embraced; are amongst the signs of troubles.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News SNS・報道",
-    "source_title": "フランコ・コラピント SNS誹謗中傷の撲滅へFIAに支援要請 - F1-Gate.com",
-    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lOExyd3o5UGE0eFZjeXJ4a0pRM1RhTldUS3E1Um1PWWwwOVIyZXMxclN2akZvamVQR1N6Y3ZkX2FQYlBiOWZBSldxN1ZGd2Rld3VIb3BJVlRnRTRJ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E15a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T15:49:07.921601+00:00",
-    "publish_at": "2026-11-23T08:17:00+00:00",
-    "timestamp": "2026-11-23T08:17:00+00:00"
-  },
-  {
-    "id": "ec0ef798d896",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wRnJSVTJwenFhTkdFWXdkLVJtUU9CV2l2QjNIeE1DTEp4VkcweEpZVWZDVXpVWkhsN3JUdUxvQXhOZ3JXMGt2ZW5WSzFrak9VaHFNY0RqV1gybXBJeS1r?oc=5\n陰謀論系YouTuberが『ナオキマンを政府広報に起用』を本当に全否定すべきなのかについて議論しているという。\n「迷信を避けることのうちにも迷信がある。かつて受け容れられていた迷信から最も遠ざかれば最善だと、人が考えるときである。」\n『随筆集』第17篇「迷信について」",
-    "original": "There is a superstition in avoiding superstition, when men think to do best, if they go furthest from the superstition, formerly received …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 11,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「ナオキマンを政府広報に起用」は本当に全否定すべきなのか…「陰謀論系YouTuber」への批判で見落とされている「意外な落とし穴」 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wRnJSVTJwenFhTkdFWXdkLVJtUU9CV2l2QjNIeE1DTEp4VkcweEpZVWZDVXpVWkhsN3JUdUxvQXhOZ3JXMGt2ZW5WSzFrak9VaHFNY0RqV1gybXBJeS1r?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E17c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T07:01:14.036488+00:00",
-    "publish_at": "2026-11-23T05:17:00+00:00",
-    "timestamp": "2026-11-23T05:17:00+00:00"
-  },
-  {
-    "id": "d37cf0addb84",
-    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50eVNqMDlGQkcxYjZLWGtGM2l3a1dJb2JoSE82NkJsRmJCRVhJMktKdkVVZHZnN0J2eENYemtKYkg5Wmo3a0xQRnNlZmRldE9sS19fRVM5TTRqLVR1MjcwZm5XY0RIY2FBNlYyS19xN1JMT1hic09j?oc=5\n日本ファクトチェックセンターは「政府広報に陰謀論系YouTuberを起用/JFC記事・動画や関連記事」と報じた。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
-    "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
-    "original_lang": "la",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府広報に陰謀論系YouTuberを起用/JFC記事・動画や関連記事 - 日本ファクトチェックセンター",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50eVNqMDlGQkcxYjZLWGtGM2l3a1dJb2JoSE82NkJsRmJCRVhJMktKdkVVZHZnN0J2eENYemtKYkg5Wmo3a0xQRnNlZmRldE9sS19fRVM5TTRqLVR1MjcwZm5XY0RIY2FBNlYyS19xN1JMT1hic09j?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "NO1.45",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T06:55:39.998867+00:00",
-    "publish_at": "2026-11-23T02:17:00+00:00",
-    "timestamp": "2026-11-23T02:17:00+00:00"
   }
 ]
