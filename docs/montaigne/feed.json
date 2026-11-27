@@ -1,5 +1,62 @@
 [
   {
+    "id": "a138866ac292",
+    "text": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tNVpZdlMwSmthQm11dGlaT3hidk5ZTktrd0V2NmJjWlhwSzRvVTFTdkNZUlR6bkk2WnlOazZza2JvNVNxNW93UmRNb08zenRqbVpWelJXc2I5UE5ibm1YQi1ldjNqS3BCU2xn?oc=5\n静岡市の移動販売車『うえたん号』が、第15回健康寿命をのばそうアワードで厚生労働大臣優秀賞を受賞したという。\n「あなたの生のたえまない営みは、死を築くことにほかならない。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "「第15回 健康寿命をのばそう！アワード（介護予防・高齢者生活支援分野）」で静岡市の移動販売車「うえたん号」が、厚生労働大臣優秀賞（企業部門）を受賞 - 時事ドットコム",
+    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tNVpZdlMwSmthQm11dGlaT3hidk5ZTktrd0V2NmJjWlhwSzRvVTFTdkNZUlR6bkk2WnlOazZza2JvNVNxNW93UmRNb08zenRqbVpWelJXc2I5UE5ibm1YQi1ldjNqS3BCU2xn?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort",
+      "medecine",
+      "profit",
+      "soi"
+    ],
+    "quote_id": "I.20c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T12:33:45.440353+00:00",
+    "publish_at": "2026-11-28T10:17:00+00:00",
+    "timestamp": "2026-11-28T10:17:00+00:00"
+  },
+  {
+    "id": "fc13b2163fe0",
+    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jZFVHWWtjQVJWa3Z5VTU2S3llZ3pBcmNyeDk1TjQ1X181dHg0ZFBnTy1BTjRmaDZOMjRFaWNWbWZCM3k0TEpVV3dGS0x6b0NyVjMycnA2c0JkdTJEX0NzN2FGOF82dw?oc=5\n延命治療の中止時期について、臨終期から終末期への前倒しを８４％の人が賛同しているという。\n「だが私の考えでは、死はたしかに生の終わりではあっても、生の目的ではない。生の果て、その末端ではあっても、目指すところではない。」\n『エセー III.12「人相について」』",
+    "theme": "medecine",
+    "score": 6,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "延命治療の中止時期、臨終期から終末期への前倒しに８４％が賛同 - 동아일보",
+    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jZFVHWWtjQVJWa3Z5VTU2S3llZ3pBcmNyeDk1TjQ1X181dHg0ZFBnTy1BTjRmaDZOMjRFaWNWbWZCM3k0TEpVV3dGS0x6b0NyVjMycnA2c0JkdTJEX0NzN2FGOF82dw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine"
+    ],
+    "quote_id": "III.12c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T12:31:27.196869+00:00",
+    "publish_at": "2026-11-28T07:17:00+00:00",
+    "timestamp": "2026-11-28T07:17:00+00:00"
+  },
+  {
+    "id": "9471ecb8c5fc",
+    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRXzJvMmluUExOSGJHc0wxNnQzU2J4dmc2QUROajlWNUhuTGE1TGdyRXp5SWlWSzhFSWtqdFNZRW9hZ01tTTQ4QTZaRmF1T2JWQUpnQnhWbXVnVUpMMWFhT2dBbkhuWmtIMnc?oc=5\n山口県迷惑行為防止法条例違反の容疑で中国人が逮捕されたという。\n「法はしばしば愚か者によって作られる。さらにしばしば、平等を憎むあまり公正を欠く人々によって作られる。」\n『エセー III.13「経験について」』",
+    "theme": "lois",
+    "score": 6,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "山口県迷惑行為防止法条例違反容疑で中国人逮捕/岩国署 - 山口新聞 電子版",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRXzJvMmluUExOSGJHc0wxNnQzU2J4dmc2QUROajlWNUhuTGE1TGdyRXp5SWlWSzhFSWtqdFNZRW9hZ01tTTQ4QTZaRmF1T2JWQUpnQnhWbXVnVUpMMWFhT2dBbkhuWmtIMnc?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "III.13b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T12:28:51.210112+00:00",
+    "publish_at": "2026-11-28T04:17:00+00:00",
+    "timestamp": "2026-11-28T04:17:00+00:00"
+  },
+  {
     "id": "d8c470569f34",
     "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qbG41enZBZFhzWjRyUDlnd1hxbW5BSVFYQ0tUazBYUy03Tkd1TDZhZzBYWWNkRm83VjdNU2lDY2FXOU8zQkFGS3g2c0lGYjQxVXpuM240QUtFRFBVYllMRDMxa3Y3clM4eFE?oc=5\n刑事・少年司法研究センターがクラウドファンディングで講演会を開催し、そのテーマは冤罪と再審法改正である。\n「受け容れられてきた法を改めることに、それがどんな法であれ、揺り動かす害を上回るほどの明白な益があるかは、大いに疑わしい。」\n『エセー I.23「慣習について」』",
     "theme": "lois",
@@ -651,62 +708,5 @@
     "generated_at": "2026-11-22T22:01:34.145229+00:00",
     "publish_at": "2026-11-23T19:17:00+00:00",
     "timestamp": "2026-11-23T19:17:00+00:00"
-  },
-  {
-    "id": "1a7ce6e45df3",
-    "text": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwdGxpdGhpQmR0WHJ4M3VGQXlfS29rbU13YjFpVTFFUjI1V01nUU9jcFpxUnFkSTJ1TGNLWmQ2bUxKcnFXVnhEUm5iWQ?oc=5\nカスハラ撲滅に向け意見交換が行われ、防止条例の制定に向けた動きが進んでいるという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
-    "theme": "lois",
-    "score": 2,
-    "source": "Google News 検索 職場",
-    "source_title": "カスハラ撲滅！防止条例制定に向け意見交換 - TVer",
-    "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwdGxpdGhpQmR0WHJ4M3VGQXlfS29rbU13YjFpVTFFUjI1V01nUU9jcFpxUnFkSTJ1TGNLWmQ2bUxKcnFXVnhEUm5iWQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois"
-    ],
-    "quote_id": "III.8a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T21:56:38.862966+00:00",
-    "publish_at": "2026-11-23T16:17:00+00:00",
-    "timestamp": "2026-11-23T16:17:00+00:00"
-  },
-  {
-    "id": "f55214f67d08",
-    "text": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmFYUTZQOTlVamJYWnA3VW9va093b0pMdkVWZ3dqR3JfanRyeGt6UzFMT3lhRXhMLU9fWlJvd0xRYzA5NUNaamxiMEo0dGFVeHYyeklnUDN5bFJNS1kwRFZiNXVZWTFKV2dXWnhvMmFHaXY1d0t3dklxSmpVNWVlVHdCTXp1UERxM2Zrdm9BakRQMUZmc0RVZ1B0NGdDZXpOcGk3Rl9mejVVUE1VVUE?oc=5\n市場の噂として、米証券取引委員会はエヌビディアの会計慣行を調査するとのことである。\n「一人の誤りがまず世間の誤りをつくり、次には世間の誤りが一人一人の誤りをつくる。」\n『エセー III.11「足の不自由な人々について」』",
-    "theme": "opinion",
-    "score": 1,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "市場の噂：米証券取引委員会、エヌビディアの会計慣行を調査 - Moomoo",
-    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmFYUTZQOTlVamJYWnA3VW9va093b0pMdkVWZ3dqR3JfanRyeGt6UzFMT3lhRXhMLU9fWlJvd0xRYzA5NUNaamxiMEo0dGFVeHYyeklnUDN5bFJNS1kwRFZiNXVZWTFKV2dXWnhvMmFHaXY1d0t3dklxSmpVNWVlVHdCTXp1UERxM2Zrdm9BakRQMUZmc0RVZ1B0NGdDZXpOcGk3Rl9mejVVUE1VVUE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "opinion",
-      "profit",
-      "coutume"
-    ],
-    "quote_id": "III.11b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T15:26:30.247108+00:00",
-    "publish_at": "2026-11-23T13:17:00+00:00",
-    "timestamp": "2026-11-23T13:17:00+00:00"
-  },
-  {
-    "id": "f698bb5d2c77",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IcWZObzdyWUlLTl9xOXVZRFJvcE5SMXVLUkh0dE5POWJmYWZSak9EWGJESE5xZ2tsUmFySlAwQ1NhMkQtQVNCczRkUmpBYU1xa0xYVURJcnpXWGpDQUk5U0pLX21vX0k?oc=5\nロイター報道によると、SECが会計慣行を調査しており、エヌビディア株は14%下落したという。\n「まことに慣習とは、荒々しく、しかも裏切りに満ちた教師である。」\n『エセー I.23「慣習について」』",
-    "theme": "opinion",
-    "score": 1,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "エヌビディア株が14%下落、SECが会計慣行を調査とロイター報道 - TBS NEWS DIG",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1IcWZObzdyWUlLTl9xOXVZRFJvcE5SMXVLUkh0dE5POWJmYWZSak9EWGJESE5xZ2tsUmFySlAwQ1NhMkQtQVNCczRkUmpBYU1xa0xYVURJcnpXWGpDQUk5U0pLX21vX0k?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "opinion",
-      "coutume"
-    ],
-    "quote_id": "I.23a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T15:24:58.044623+00:00",
-    "publish_at": "2026-11-23T10:17:00+00:00",
-    "timestamp": "2026-11-23T10:17:00+00:00"
   }
 ]
