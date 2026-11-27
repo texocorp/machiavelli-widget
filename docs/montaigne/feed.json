@@ -1,5 +1,46 @@
 [
   {
+    "id": "d8c470569f34",
+    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qbG41enZBZFhzWjRyUDlnd1hxbW5BSVFYQ0tUazBYUy03Tkd1TDZhZzBYWWNkRm83VjdNU2lDY2FXOU8zQkFGS3g2c0lGYjQxVXpuM240QUtFRFBVYllMRDMxa3Y3clM4eFE?oc=5\n刑事・少年司法研究センターがクラウドファンディングで講演会を開催し、そのテーマは冤罪と再審法改正である。\n「受け容れられてきた法を改めることに、それがどんな法であれ、揺り動かす害を上回るほどの明白な益があるかは、大いに疑わしい。」\n『エセー I.23「慣習について」』",
+    "theme": "lois",
+    "score": 14,
+    "source": "Google News 検索 裁き",
+    "source_title": "講演会「冤罪と再審法改正」開催 12月20日、刑事・少年司法研究センター（ERCJ） - クラウドファンディング - READYFOR",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qbG41enZBZFhzWjRyUDlnd1hxbW5BSVFYQ0tUazBYUy03Tkd1TDZhZzBYWWNkRm83VjdNU2lDY2FXOU8zQkFGS3g2c0lGYjQxVXpuM240QUtFRFBVYllMRDMxa3Y3clM4eFE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "savoir",
+      "nouveaute"
+    ],
+    "quote_id": "I.23c",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T02:59:38.256291+00:00",
+    "publish_at": "2026-11-28T01:17:00+00:00",
+    "timestamp": "2026-11-28T01:17:00+00:00"
+  },
+  {
+    "id": "39f41d7649f6",
+    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3bEIwckgxTDlzTEU5NGplcTRrVWhZZGZ5SV9pY1ZfYVpTbUhJMjYwbS1jdS01Tjd3RUIyeXFwNjRXc21qRlE1d1NUN18wU0VJTndPSUwyZWxyZ3pEeGk1MDFhWkE?oc=5\n千葉大などの研究チームは、年齢による偏見や差別を受けた高齢者は要介護リスクが高いと発表した。\n「人はみな、自分の習慣にないものを野蛮と呼ぶ。」\n『エセー I.31「人食い人種について」』",
+    "theme": "medecine",
+    "score": 16,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "年齢による偏見や差別を受けた高齢者、要介護２以上や認知症のリスクが１・７倍に…千葉大など研究チーム - 読売新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3bEIwckgxTDlzTEU5NGplcTRrVWhZZGZ5SV9pY1ZfYVpTbUhJMjYwbS1jdS01Tjd3RUIyeXFwNjRXc21qRlE1d1NUN18wU0VJTndPSUwyZWxyZ3pEeGk1MDFhWkE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "medecine",
+      "savoir",
+      "autrui",
+      "soi"
+    ],
+    "quote_id": "I.31a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T02:54:39.689268+00:00",
+    "publish_at": "2026-11-27T22:17:00+00:00",
+    "timestamp": "2026-11-27T22:17:00+00:00"
+  },
+  {
     "id": "ddabf0858557",
     "text": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zeGE3WUxuVmo2dldKZUlZWk9KWFpyb2R1YVdUVFF6TzJyLXVjLWlYa1Qtbk9leHRteTQ5b21kRVlNZDY3LVNWMl93cVlQOTU3?oc=5\n獨協大は、大学受験を1日2校可能にするために『イブニング入試』を新設したという。\n「(教師には)頭がよく詰まっているより、よく出来ている人を選びたい。」\n『エセー I.26「子供の教育について」』",
     "theme": "savoir",
@@ -667,43 +708,5 @@
     "generated_at": "2026-11-22T15:24:58.044623+00:00",
     "publish_at": "2026-11-23T10:17:00+00:00",
     "timestamp": "2026-11-23T10:17:00+00:00"
-  },
-  {
-    "id": "97a643312ea9",
-    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLV0RfaU03R2V1UGdVdVpIMTF5ZnF1MUlCQkthbFBGb0FTMkVTTXdQcENxMlltZWdCUURjRk1sLThTUy1IU1NOZ0xXdy1iV3hrZGw0dFJBR0tuVWZweXdsWGdKWFFGajg?oc=5\n78年ぶりに再審法が改正され、そのことを報じる報告会が行われた。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
-    "theme": "lois",
-    "score": 6,
-    "source": "Google News 検索 裁き",
-    "source_title": "再審法が78年ぶりに変わりました――「再審法改正をめざす市民の会」報告会から - クラウドファンディング - READYFOR",
-    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLV0RfaU03R2V1UGdVdVpIMTF5ZnF1MUlCQkthbFBGb0FTMkVTTXdQcENxMlltZWdCUURjRk1sLThTUy1IU1NOZ0xXdy1iV3hrZGw0dFJBR0tuVWZweXdsWGdKWFFGajg?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "nouveaute"
-    ],
-    "quote_id": "II.5",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T15:22:56.482660+00:00",
-    "publish_at": "2026-11-23T07:17:00+00:00",
-    "timestamp": "2026-11-23T07:17:00+00:00"
-  },
-  {
-    "id": "a866770bfd4b",
-    "text": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BQzF3TnBFNWt6dF9XY0tnNmdGb1c1Z1ZLQ1hxZThiZmtINWx5c2E2dFBsenpFeTFNd3BZMXVsY1lqaTN3ZzJiOEp0eVk2UQ?oc=5\n高知のトップメーカーが開発した樹脂製ブリッジが保険適用となり、5ヶ月で8万個売れた。\n「健康へ導いてくれる道ならば、どんな道であれ、私にとって険しすぎることも高すぎることもない。」\n『エセー II.37「子が父に似ることについて」』",
-    "theme": "medecine",
-    "score": 2,
-    "source": "Google News 国内",
-    "source_title": "なぜヒット？ 銀歯を“白い歯”に 患者「きれいな歯になった」保険適用の樹脂製ブリッジ《シンボー》高知のトップメーカー開発、5カ月で8万個売れたワケ - FNNプライムオンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BQzF3TnBFNWt6dF9XY0tnNmdGb1c1Z1ZLQ1hxZThiZmtINWx5c2E2dFBsenpFeTFNd3BZMXVsY1lqaTN3ZzJiOEp0eVk2UQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine",
-      "presomption"
-    ],
-    "quote_id": "II.37c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T06:59:44.462767+00:00",
-    "publish_at": "2026-11-23T04:17:00+00:00",
-    "timestamp": "2026-11-23T04:17:00+00:00"
   }
 ]
