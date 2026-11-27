@@ -1,5 +1,68 @@
 [
   {
+    "id": "bc20a83331bf",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TUlAteG42RkFhT3ljdHpRYkhQWlVWbGdERWhQdE95V3RpREc2d21WZFRvVlNieGpRNElNaHQzVUhNd0RlZFlyRVE0VUJ5cWYzbTB1bEdUeThIaDA1T2FDbUlVSkdBaWs?oc=5\n官房長官は、陰謀論のユーチューバー起用について『世論誘導ではない』と発言したという。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
+    "original": "There is nothing makes a man suspect much, more than to know little …",
+    "original_lang": "en",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "官房長官「世論誘導ではない」 「陰謀論」のユーチューバー起用巡り - 朝日新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TUlAteG42RkFhT3ljdHpRYkhQWlVWbGdERWhQdE95V3RpREc2d21WZFRvVlNieGpRNElNaHQzVUhNd0RlZFlyRVE0VUJ5cWYzbTB1bEdUeThIaDA1T2FDbUlVSkdBaWs?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "E31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T22:52:58.473510+00:00",
+    "publish_at": "2026-11-28T20:17:00+00:00",
+    "timestamp": "2026-11-28T20:17:00+00:00"
+  },
+  {
+    "id": "fa803046a68d",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oY19SdUFHVjVrNHRzcGh6Vk5nOHBRdjlsc2t2a3h5dFZJYjVybEgtdjYwa2xIR245SWc5UGJITkotU2p2LWktbEQ5emVxNnpSZnViUEZRdHZXaXFHTUkwVXN1RU1kS3VHNWlUZ1lnTnczNk5DNjVOTTJVZEtUTkU?oc=5\n『第一生命を名乗る』偽メールが拡散し、偽サイトや不正なアプリへの誘導も行われているという。\n「人間の本性には、概して賢者よりも愚者の部分が多い。それゆえ人の心の愚かな部分をとらえる能力こそ、最も強力なのである。」\n『随筆集』第12篇「大胆について」",
+    "original": "There is in human nature generally, more of the fool than of the wise; and therefore those faculties, by which the foolish part of men's minds is taken, are most potent.",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 14,
+    "source": "Google News 偽情報・言説",
+    "source_title": "第一生命を名乗る偽メールが拡散 偽サイトや不正なアプリへの誘導も（日本ファクトチェックセンター） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oY19SdUFHVjVrNHRzcGh6Vk5nOHBRdjlsc2t2a3h5dFZJYjVybEgtdjYwa2xIR245SWc5UGJITkotU2p2LWktbEQ5emVxNnpSZnViUEZRdHZXaXFHTUkwVXN1RU1kS3VHNWlUZ1lnTnczNk5DNjVOTTJVZEtUTkU?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "E12a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T22:31:24.327087+00:00",
+    "publish_at": "2026-11-28T17:17:00+00:00",
+    "timestamp": "2026-11-28T17:17:00+00:00"
+  },
+  {
+    "id": "dcd74074193d",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KUnl5bUZTeFJRUFM5dVpsbXpHTDhWZU5teVFwNnFwX3hMc2dfeVlWRFpWOWQ0ZjVVeGROVWRZb0l2aER4TF9FRE9RT3FHbVBqUU1OU3JaVnAtaUc4UXk4dzR3ZGEwc1lORGNmQWt3?oc=5\nディープフェイク対策に欠けているのが、AIリテラシーという層であるという。\n「素手も、放任された知性も、大したことはできない。事は道具と補助によって成し遂げられる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム2",
+    "original": "Nec manus nuda, nec intellectus sibi permissus, multum valet; instrumentis et auxiliis res perficitur …",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 16,
+    "source": "Google News 情報操作・偽動画",
+    "source_title": "ディープフェイク対策に欠けているのは、AIリテラシーという層 - Unite.AI",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KUnl5bUZTeFJRUFM5dVpsbXpHTDhWZU5teVFwNnFwX3hMc2dfeVlWRFpWOWQ0ZjVVeGROVWRZb0l2aER4TF9FRE9RT3FHbVBqUU1OU3JaVnAtaUc4UXk4dzR3ZGEwc1lORGNmQWt3?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "potentia"
+    ],
+    "quote_id": "NO1.2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T22:14:14.504443+00:00",
+    "publish_at": "2026-11-28T14:17:00+00:00",
+    "timestamp": "2026-11-28T14:17:00+00:00"
+  },
+  {
     "id": "e5f4bcdcb5e1",
     "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNEw5ODhKUWFNQVRqUzNPeFhOeXVjMVRzMjFxbDZ5V1FQdDVYRjl6Vm8tRW9sVFR4ZFR1a3pNTWhyLXF3NUdaaXZNUGFhSmotQnkzQThVcVYycmRob1A3aTU2czlUVmtqamZlRFZMZGJnLWtUbWJqQU9BckpzMTZ2LTMybVc2Y2xz?oc=5\nYahoo!ニュースは「AIを確認しないまま記事に…日本ファクトチェックセンターの誤情報は『インシデント』なのか #エキスパートトピ」と報じた。\n「まことに、肉体に香具師がいるように、政体にも香具師がいる。大きな治療を請け負い、二、三度の試みではおそらく運がよかったが、学問の根拠を欠くために長続きしない者たちである。」\n『随筆集』第12篇「大胆について」",
     "original": "Surely, as there are mountebanks for the natural body, so are there mountebanks for the politic body; men that undertake great cures, and perhaps have been lucky, in two or three experiments, but want the grounds of science, and therefore cannot hold out.",
@@ -749,65 +812,5 @@
     "generated_at": "2026-11-23T12:53:25.676556+00:00",
     "publish_at": "2026-11-24T05:17:00+00:00",
     "timestamp": "2026-11-24T05:17:00+00:00"
-  },
-  {
-    "id": "05db3038c542",
-    "text": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBud0pTZlJNaDJhTDh5aE5uTnFEdFVPanFmMFlNV0pycEExdVZ6TkYtSURNYnk5NHJEYUtHUy1id005R29fRlQ2X01B?oc=5\n『ワンス・アポン・ア・タイム・イン・ハリウッド』の続編で生成AIの使用をめぐり議論となる中、フィンチャー監督は使ってはいけないのかと問いかけたという。\n「自分自身や自分の師が知らず、手を付けなかったことは何であれ、彼らはそれを可能なことの範囲の外に置く。」\n『ノヴム・オルガヌム』第1巻 アフォリズム75",
-    "original": "… quicquid sibi ipsis aut magistris suis incognitum aut intactum fuerit id extra terminos possibilis ponunt …",
-    "original_lang": "la",
-    "theme": "potentia",
-    "score": 10,
-    "source": "Google News 生成AIの論争",
-    "source_title": "ブラッド・ピット主演『ワンス・アポン・ア・タイム・イン・ハリウッド』続編、生成AIの使用をめぐり賛否！ フィンチャー監督「使ってはいけないのか？」 - tvgroove",
-    "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBud0pTZlJNaDJhTDh5aE5uTnFEdFVPanFmMFlNV0pycEExdVZ6TkYtSURNYnk5NHJEYUtHUy1id005R29fRlQ2X01B?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia"
-    ],
-    "quote_id": "NO1.75",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T03:10:06.731708+00:00",
-    "publish_at": "2026-11-24T02:17:00+00:00",
-    "timestamp": "2026-11-24T02:17:00+00:00"
-  },
-  {
-    "id": "5c22a424aa03",
-    "text": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Nelhuc29yLTZNNGY3VE94Ml9OSHhLdHoxS1l1cVA1NEJ2R1hkWlpncWN1amJJOGw2SUdDZlUzd0lId18waGNsdHpvQjA2VDJsWTRuUkpKU0drTE1Mc18yQXlIOUVabzd3VGI3WGZIcw?oc=5\n九州国立博物館は、『生成AI使用していない』との説明を訂正し、制作過程で一部利用していたことを謝罪したという。\n「隠し立ては、弱々しい策略、あるいは知恵にすぎない。いつ真実を語るべきかを知り、それを実行するには、強い知恵と強い心がいるからである。」\n『随筆集』第6篇「偽装と隠し立てについて」",
-    "original": "Dissimulation is but a faint kind of policy, or wisdom; for it asketh a strong wit, and a strong heart, to know when to tell truth, and to do it.",
-    "original_lang": "en",
-    "theme": "potentia",
-    "score": 12,
-    "source": "Google News AI・研究政策",
-    "source_title": "九州国立博物館、“チャレンジング”なポスター…「生成AI使用していない」説明を訂正・謝罪「制作過程において一部に生成AI利用」 - 山陽新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Nelhuc29yLTZNNGY3VE94Ml9OSHhLdHoxS1l1cVA1NEJ2R1hkWlpncWN1amJJOGw2SUdDZlUzd0lId18waGNsdHpvQjA2VDJsWTRuUkpKU0drTE1Mc18yQXlIOUVabzd3VGI3WGZIcw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "potentia"
-    ],
-    "quote_id": "E6",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T02:51:05.834245+00:00",
-    "publish_at": "2026-11-23T23:17:00+00:00",
-    "timestamp": "2026-11-23T23:17:00+00:00"
-  },
-  {
-    "id": "5283b5f12cbc",
-    "text": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpEeVl4XzgzdHh4SmR5UkgtRlpCVk05SUZhNU5NSTloZ2tSanJNbU5Lel81bFFUUERTQ0hyTy11azg2TEh5U1VpMzUyRlJDcU5aNXBheUNoRThBa1lGOWJQU3loSjNjeTBxU1cyaTR6ZllIZXJ6QVlYTmttd09zaWVEVWtBN0tVbVhqWHNuWmtBSGlsdFU5Q2dJU0pQaEloTTVERWJKZzVQWG1VV3k0RWI5ODN6MktMdk5DaTllOVQ?oc=5\nxAIが性的なディープフェイクを作るために使用されたと主張され、イギリスのジェス・アサト議員が訴えたという。\n「一つの不正な判決は、多くの悪い実例よりも大きな害をなす。悪い実例は流れを汚すだけだが、不正な判決は泉そのものを汚すからである。」\n『随筆集』第56篇「裁判について」",
-    "original": "One foul sentence doth more hurt, than many foul examples. For these do but corrupt the stream, the other corrupteth the fountain.",
-    "original_lang": "en",
-    "theme": "simulatio",
-    "score": 12,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "イギリスのジェス・アサト議員、xAIを訴える、性的なディープフェイクを作るために使用されたと主張するグロック - VOI.ID",
-    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpEeVl4XzgzdHh4SmR5UkgtRlpCVk05SUZhNU5NSTloZ2tSanJNbU5Lel81bFFUUERTQ0hyTy11azg2TEh5U1VpMzUyRlJDcU5aNXBheUNoRThBa1lGOWJQU3loSjNjeTBxU1cyaTR6ZllIZXJ6QVlYTmttd09zaWVEVWtBN0tVbVhqWHNuWmtBSGlsdFU5Q2dJU0pQaEloTTVERWJKZzVQWG1VV3k0RWI5ODN6MktMdk5DaTllOVQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio"
-    ],
-    "quote_id": "E56b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T21:56:02.169186+00:00",
-    "publish_at": "2026-11-23T20:17:00+00:00",
-    "timestamp": "2026-11-23T20:17:00+00:00"
   }
 ]
