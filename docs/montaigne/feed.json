@@ -1,5 +1,78 @@
 [
   {
+    "id": "6375d234077f",
+    "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2M1d5alBpVlVKMlZmZk9Pem1pREpWTFMwazl3MjhZdldmTFlrR1k1RDRKZm9vRVlmV0VMUkZibGZGXzQzVkZrQm93b0JYVzdqMmZnYUVKT1pnWms0YlliU2U4MDRuZndveHRCUmlB?oc=5\nカスハラ対策義務化を受け、企業が怒鳴り声をAI変換や胸元カメラなど“新兵器”を繰り出すという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
+    "theme": "presomption",
+    "score": 4,
+    "source": "Google News 検索 職場",
+    "source_title": "カスハラ対策義務化で「怒鳴り声をAIで変換」「駅員に胸元カメラ」…企業が繰り出す“新兵器” - au Webポータル",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2M1d5alBpVlVKMlZmZk9Pem1pREpWTFMwazl3MjhZdldmTFlrR1k1RDRKZm9vRVlmV0VMUkZibGZGXzQzVkZrQm93b0JYVzdqMmZnYUVKT1pnWms0YlliU2U4MDRuZndveHRCUmlB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption",
+      "profit"
+    ],
+    "quote_id": "III.8a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T22:19:43.910324+00:00",
+    "publish_at": "2026-11-28T22:17:00+00:00",
+    "timestamp": "2026-11-28T22:17:00+00:00"
+  },
+  {
+    "id": "52f09b3db83f",
+    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZbUIxb3NfX05sVC05YXV6RGdqNkFNT0pmSHF5ZmNtWm1WTTU4RU54Q1I2VVoyclNaY2FJa182ZHhVcGdJVW9MMl9kakpsNF9RTGdWQi1GUlJKUQ?oc=5\n終活や相続をテーマにした落語セミナーでは、『心にある大切な財産を遺言書に載せてほしい』と呼びかけているという。\n「我々の道のりの行き着く先は死であり、それは我々が必ず目指す的である。死に怯えていては、熱に浮かされずに一歩でも先へ進めようか。世の人の療法は、それを考えないことだ。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
+    "theme": "mort",
+    "score": 4,
+    "source": "Google News 検索 老い・終末期",
+    "source_title": "終活や相続をテーマに落語で学ぶセミナー 「心にある大切な財産を（遺言書）に載せてほしい」 - TBS NEWS DIG",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZbUIxb3NfX05sVC05YXV6RGdqNkFNT0pmSHF5ZmNtWm1WTTU4RU54Q1I2VVoyclNaY2FJa182ZHhVcGdJVW9MMl9kakpsNF9RTGdWQi1GUlJKUQ?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "mort"
+    ],
+    "quote_id": "I.20d",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T22:15:59.602273+00:00",
+    "publish_at": "2026-11-28T19:17:00+00:00",
+    "timestamp": "2026-11-28T19:17:00+00:00"
+  },
+  {
+    "id": "a6fb534201b0",
+    "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00em5fU3ZXS2xVaWVTYlVzWEZwMzdNYWZiVklfX2NkQjl0STd4SU9HVFN1dHRMVVQtM2lvQUdxd09xbFNyeUJNdWd4TWZPeXlkcWFzOFJ0blRsV3VadHVYTTNhQkxRV1E?oc=5\n人権団体は自治体や選管に働きかけ、時代の正体である差別禁止法を求めるという。\n「理性の規則に照らせば、彼らを野蛮と呼ぶこともできよう。だが我々に照らしてではない。我々はあらゆる種類の野蛮において彼らを凌いでいるのだから。」\n『エセー I.31「人食い人種について」』",
+    "theme": "autrui",
+    "score": 4,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "選挙ヘイト食い止めを 人権団体、自治体や選管に働きかけ 時代の正体 差別禁止法を求めて - カナロコ",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00em5fU3ZXS2xVaWVTYlVzWEZwMzdNYWZiVklfX2NkQjl0STd4SU9HVFN1dHRMVVQtM2lvQUdxd09xbFNyeUJNdWd4TWZPeXlkcWFzOFJ0blRsV3VadHVYTTNhQkxRV1E?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "autrui"
+    ],
+    "quote_id": "I.31b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T22:10:42.505152+00:00",
+    "publish_at": "2026-11-28T16:17:00+00:00",
+    "timestamp": "2026-11-28T16:17:00+00:00"
+  },
+  {
+    "id": "7739ff3cd657",
+    "text": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZlRDUXRBcDdaektzcHNjc1l5cTFEcVd3RnNxcEJRYWxralQ0QndQNTBGUWZkLVg4dlBwTVQtdkpTbGVNNkszbjJyUHlfS25teW9LQUxZa0VWdE9MY2swS3NDZ20zVGxpbVYtSUo1ZGV0alBRWEkwck4yU2JjaldZVXUyMUgwaVpYYjNlOC1R?oc=5\n全斗煥政権批判の横断幕やビラを掲げた男性が、42年ぶりに再審無罪となったという。\n「拷問とは危険な発明である。それは真実を試すというより、忍耐を試すもののように思われる。」\n『エセー II.5「良心について」』",
+    "theme": "lois",
+    "score": 5,
+    "source": "Google News 検索 裁き",
+    "source_title": "全斗煥政権批判の横断幕・ビラ、60代男性が42年ぶり再審無罪 - 조선일보",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZlRDUXRBcDdaektzcHNjc1l5cTFEcVd3RnNxcEJRYWxralQ0QndQNTBGUWZkLVg4dlBwTVQtdkpTbGVNNkszbjJyUHlfS25teW9LQUxZa0VWdE9MY2swS3NDZ20zVGxpbVYtSUo1ZGV0alBRWEkwck4yU2JjaldZVXUyMUgwaVpYYjNlOC1R?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "II.5",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T22:06:56.709070+00:00",
+    "publish_at": "2026-11-28T13:17:00+00:00",
+    "timestamp": "2026-11-28T13:17:00+00:00"
+  },
+  {
     "id": "a138866ac292",
     "text": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tNVpZdlMwSmthQm11dGlaT3hidk5ZTktrd0V2NmJjWlhwSzRvVTFTdkNZUlR6bkk2WnlOazZza2JvNVNxNW93UmRNb08zenRqbVpWelJXc2I5UE5ibm1YQi1ldjNqS3BCU2xn?oc=5\n静岡市の移動販売車『うえたん号』が、第15回健康寿命をのばそうアワードで厚生労働大臣優秀賞を受賞したという。\n「あなたの生のたえまない営みは、死を築くことにほかならない。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
     "theme": "mort",
@@ -635,78 +708,5 @@
     "generated_at": "2026-11-23T13:04:32.837498+00:00",
     "publish_at": "2026-11-24T07:17:00+00:00",
     "timestamp": "2026-11-24T07:17:00+00:00"
-  },
-  {
-    "id": "2026440eab91",
-    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yQ3pYTnNJRGNiX01jQThVUWJidWVrTFZXR1BGaV9UM1Z4b2FESE5zdzhpUHRMYWFjYnlOWUM4cS1pNWExdy1kSnhZWVVLRXhQYjdlMUplMU1ZaWVyUExCOUxOdThfczE3MFHSAWpBVV95cUxOMkN6WE5zSURjYl9NY0E4VVFiYnVla0xWV0dQRmlfVDNWeG9hREhOc3c4aVB0TGFhY2J5TllDOHEtaTVhMXctZEp4WVlVS0V4UGI3ZTFKZTFNWWllclBMQjlMTnU4X3MxNzBR?oc=5\n韓国トリニティ航空の乗務員は、3年間で80件の機内販売不足に対し、自費で穴埋めしたという。\n「民にその古い慣わしを侮らせるのはたやすい。それを企てて成し遂げなかった者はいない。だが壊したものの代わりに、より良い状態を打ち立てることとなると、企てた者の多くが徒労に終わった。」\n『エセー II.17「うぬぼれについて」』",
-    "theme": "profit",
-    "score": 0,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "韓国トリニティ航空、機内販売の在庫不足を乗務員が自費で穴埋め…3年間で80件、徴収を廃止へ - Infoseek",
-    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yQ3pYTnNJRGNiX01jQThVUWJidWVrTFZXR1BGaV9UM1Z4b2FESE5zdzhpUHRMYWFjYnlOWUM4cS1pNWExdy1kSnhZWVVLRXhQYjdlMUplMU1ZaWVyUExCOUxOdThfczE3MFHSAWpBVV95cUxOMkN6WE5zSURjYl9NY0E4VVFiYnVla0xWV0dQRmlfVDNWeG9hREhOc3c4aVB0TGFhY2J5TllDOHEtaTVhMXctZEp4WVlVS0V4UGI3ZTFKZTFNWWllclBMQjlMTnU4X3MxNzBR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "profit",
-      "nouveaute"
-    ],
-    "quote_id": "II.17c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T12:58:11.616848+00:00",
-    "publish_at": "2026-11-24T04:17:00+00:00",
-    "timestamp": "2026-11-24T04:17:00+00:00"
-  },
-  {
-    "id": "7460a058ed8a",
-    "text": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44aXh3TG04aGprbmNqakVnRVA1WkpqeUpZeFQtaWVrT1pvclJ3ZFR0QUo4N0stZG9xWlpZTGN4djBGNG9UODBKWVZXMnBUdXA4TGhSOW5jbFVuVE56SkxWc3dGNUNqSUJCTEE?oc=5\n実刑判決を受けた翌日にTikTokライブを行った元ジャンポケ斉藤が、視聴者2万人を集めた配信で想定外の事態に困惑し、大人しくするよう求める声が寄せられた。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
-    "theme": "lois",
-    "score": 4,
-    "source": "Google News 検索 学説・未知",
-    "source_title": "《実刑判決翌日にTikTokライブ》元ジャンポケ斉藤 視聴者2万人に膨れ上がった配信で“想定外の事態”に困惑…「今は大人しくして」の声も - 女性自身",
-    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44aXh3TG04aGprbmNqakVnRVA1WkpqeUpZeFQtaWVrT1pvclJ3ZFR0QUo4N0stZG9xWlpZTGN4djBGNG9UODBKWVZXMnBUdXA4TGhSOW5jbFVuVE56SkxWc3dGNUNqSUJCTEE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "lois",
-      "presomption"
-    ],
-    "quote_id": "I.27",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T02:53:51.492501+00:00",
-    "publish_at": "2026-11-24T01:17:00+00:00",
-    "timestamp": "2026-11-24T01:17:00+00:00"
-  },
-  {
-    "id": "85371df53805",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yQ05BVE81bjRnMHE4c2UtdzlHbnlfSXo5ZXdVMGVfOG1tN1BGQnhsdUlPb2hLVDAwRjdjVHlEYnhnNUZ0aWlNckpqQkdIVkJiU0gyY09FWTlDLS1hYzVkZXo3NDdKZWUzOVRMUUF4V3QydzdkczZsUG5tc2ZTR2s?oc=5\n記者が孤独死した女性のアパートで見つけたのは、『部屋の壁に大きな黒い染みが』あるという異様な光景だった。\n「この世で、私自身ほどはっきりした怪物や奇跡を、私は見たことがない。」\n『エセー III.11「足の不自由な人々について」』",
-    "theme": "mort",
-    "score": 4,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "「部屋の壁に大きな黒い染みが…」金庫に現金3400万円を遺して孤独死した“謎の女性”の不可解な生活…記者がアパートで目撃した“異様な光景”（2020年の事件）（文春オンライン） - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yQ05BVE81bjRnMHE4c2UtdzlHbnlfSXo5ZXdVMGVfOG1tN1BGQnhsdUlPb2hLVDAwRjdjVHlEYnhnNUZ0aWlNckpqQkdIVkJiU0gyY09FWTlDLS1hYzVkZXo3NDdKZWUzOVRMUUF4V3QydzdkczZsUG5tc2ZTR2s?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "mort",
-      "soi"
-    ],
-    "quote_id": "III.11e",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T02:50:59.700591+00:00",
-    "publish_at": "2026-11-23T22:17:00+00:00",
-    "timestamp": "2026-11-23T22:17:00+00:00"
-  },
-  {
-    "id": "1a1ca13830b8",
-    "text": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBuZkhGc1R6dVNKR2U3T1YweGN5VXoyRnhBeDE2d2NrTE5HZ0hBMTR4Ti1NZjhDMzZUQ2pMSw?oc=5\n世間体は気にしないというギターボーカルが、熱狂を生むアーティストを夢に、ワンマンライブを目標に突き進むという。\n「善に向かうものであっても、度を越したものは、私を傷つけはしなくとも驚かせ、何と名づけてよいか困らせる。」\n『エセー I.30「節度について」』",
-    "theme": "inconstance",
-    "score": 0,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "世間体は気にしない。熱狂を生むアーティストを夢に、ワンマンライブを目標に突き進むギターボーカル - Steenz(スティーンズ)",
-    "source_url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBuZkhGc1R6dVNKR2U3T1YweGN5VXoyRnhBeDE2d2NrTE5HZ0hBMTR4Ti1NZjhDMzZUQ2pMSw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "I.30b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T22:01:34.145229+00:00",
-    "publish_at": "2026-11-23T19:17:00+00:00",
-    "timestamp": "2026-11-23T19:17:00+00:00"
   }
 ]
