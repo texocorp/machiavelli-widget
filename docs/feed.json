@@ -1,5 +1,64 @@
 [
   {
+    "id": "98653fac4546",
+    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xckFsd3BqU2JpYXFscW1tWWQ4WHZfUm1tMmpPZ1R5MmxiTngyQU5kdWZmWk1CYjYwT2xUMVlrb3lCR2VIelJwX2hqWW55UTNJY3c0QXVUOWtINVBDWExNSTlwcG90WWxVV3g1RmdSQlJiZUNqVXgwYi1R?oc=5\n北朝鮮はロシアへの軍事支援を一時停止するかどうかを金総書記が決定し、ウクライナ情報機関が分析しているという。\n「援軍や傭兵の軍に頼る君主や国家が、いかに大きな危険を背負い込むことか。」\n『リウィウス論 II.20』",
+    "theme": "alleanze_dipendenza",
+    "score": 10,
+    "source": "Google News 検索 朝鮮半島",
+    "source_title": "北朝鮮がロシア軍事支援一時停止か 金総書記が決定 ウクライナ情報機関が分析 - テレ朝NEWS",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xckFsd3BqU2JpYXFscW1tWWQ4WHZfUm1tMmpPZ1R5MmxiTngyQU5kdWZmWk1CYjYwT2xUMVlrb3lCR2VIelJwX2hqWW55UTNJY3c0QXVUOWtINVBDWExNSTlwcG90WWxVV3g1RmdSQlJiZUNqVXgwYi1R?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "alleanze_dipendenza",
+      "consiglio"
+    ],
+    "quote_id": "D2.20",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T20:40:21.415139+00:00",
+    "publish_at": "2026-11-28T15:17:00+00:00",
+    "timestamp": "2026-11-28T15:17:00+00:00"
+  },
+  {
+    "id": "5c8e04acd07f",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WR3p6THBfeXAwSnJTUE05YlN2MGUyeDU3bm90d1dPVmtHbGdVWV9nNno1bENBMkhLVXB4VTJoZ2VNdE9LT1UxRkNnTnJGb1JXUHJUTHFOU0F5MnNhdFdoQmZCa3gzU09zWjRVLUhQR0pqT25vQW9SNzJWTGNoM3c?oc=5\nイランがクウェートに攻撃を加え、その結果として2人が死亡したと報道されているという。\n「人が害をなすのは、恐怖からか、憎悪からかのいずれかである。」\n『君主論 cap.VII』",
+    "theme": "guerra",
+    "score": 10,
+    "source": "Google News 国際(World)",
+    "source_title": "イランがクウェート攻撃、2人死亡と報道（共同通信） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WR3p6THBfeXAwSnJTUE05YlN2MGUyeDU3bm90d1dPVmtHbGdVWV9nNno1bENBMkhLVXB4VTJoZ2VNdE9LT1UxRkNnTnJGb1JXUHJUTHFOU0F5MnNhdFdoQmZCa3gzU09zWjRVLUhQR0pqT25vQW9SNzJWTGNoM3c?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "popolo_principe"
+    ],
+    "quote_id": "ID2",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T19:55:26.340744+00:00",
+    "publish_at": "2026-11-28T12:17:00+00:00",
+    "timestamp": "2026-11-28T12:17:00+00:00"
+  },
+  {
+    "id": "96269358958b",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZVjFaZENfazJOTDBsUWdGc3o5QlB5eWx5VmMtdWJGV3Bxc0lpMzZLWVVWNjNoaEl3NkpEZVJ6SzJJeWh4MGtoTC04M3pta2JmM0dB?oc=5\nガザでイスラエルは暗殺作戦を激化させ、停戦履行を迫られる米政権の要求にも応じないという。\n「約束を破るのに、もっともらしい口実に事欠いた君主などいない。」\n『君主論 cap.XVIII』",
+    "theme": "inganno_simulazione",
+    "score": 11,
+    "source": "Google News 検索 中東",
+    "source_title": "ガザでイスラエルの暗殺作戦が激化、停戦履行迫る米政権の要求にも応じず - CNN.co.jp",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZVjFaZENfazJOTDBsUWdGc3o5QlB5eWx5VmMtdWJGV3Bxc0lpMzZLWVVWNjNoaEl3NkpEZVJ6SzJJeWh4MGtoTC04M3pta2JmM0dB?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "inganno_simulazione"
+    ],
+    "quote_id": "P18e",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-27T19:46:39.349018+00:00",
+    "publish_at": "2026-11-28T09:17:00+00:00",
+    "timestamp": "2026-11-28T09:17:00+00:00"
+  },
+  {
     "id": "5c11393412f0",
     "text": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85UXZzRUtINm10QUFsZ3NGYnFOUmdmbzgzNUZsMnpJOTNPTDJfejdUWDVYazZKU2drQzFsejRRcVFfZGdzZEFHOGctck02UDY1OWxSWFhnSFk4SkI3YXhUTFV5Mjlaa0N4OEJFQkRPX3NqR0ROMlVPeDRVdjNoZw?oc=5\n米軍が戦死者の集団埋葬訓練を実施し、同盟国の国防衛に対する覚悟が見えるかどうかについて議論されている。\n「他人の武具は、身から滑り落ちるか、重くのしかかるか、締めつけるかのいずれかである。」\n『君主論 cap.XIII』",
     "theme": "guerra",
@@ -668,86 +727,5 @@
     "generated_at": "2026-11-23T09:22:38.201661+00:00",
     "publish_at": "2026-11-24T03:17:00+00:00",
     "timestamp": "2026-11-24T03:17:00+00:00"
-  },
-  {
-    "id": "3368e825ac80",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByZXBoTFBQbjV3engwaUtHUGR6Sk5mTWRidnlLTThXNjV2dHBtcFo4YUhlOW96Qmc5eEZ5OFV6Qm5jei02RzNXMEFSRW1NYXpyNjVVU050cHlLZU12ZmtfYTJiN0pHM0MxdUxfY1FNOXg5V283LVA0M2d1Rm10elE?oc=5\nウクライナはロシアの軍艦を攻撃したのか、リビアで複数の無人艇に関する報道が出ているという。\n「人、鉄、金、パンが戦争の要である。だが四つのうち、より必要なのは前の二つだ。人と鉄は金とパンを見つけ出すが、パンと金は人と鉄を見つけ出せぬからである。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "ウクライナ、ロシアの軍艦攻撃か リビアで複数の無人艇、報道（共同通信） - Yahoo!ニュース",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByZXBoTFBQbjV3engwaUtHUGR6Sk5mTWRidnlLTThXNjV2dHBtcFo4YUhlOW96Qmc5eEZ5OFV6Qm5jei02RzNXMEFSRW1NYXpyNjVVU050cHlLZU12ZmtfYTJiN0pHM0MxdUxfY1FNOXg5V283LVA0M2d1Rm10elE?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "economia"
-    ],
-    "quote_id": "AG13",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T01:50:59.934268+00:00",
-    "publish_at": "2026-11-24T00:17:00+00:00",
-    "timestamp": "2026-11-24T00:17:00+00:00"
-  },
-  {
-    "id": "5a4b1a7e7370",
-    "text": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CYTNQbnlGZ3UyTm5jUUxQQ1BJQ21KWW5fWGxyb1JlMGUxeVdNSGZ0Sms4RUZFZ0pkWEZtQ3V5RmVjOGZuZ2dzWUtoSWNWNWd2czJKV2VVak0tX3VJUmZFZExR?oc=5\nイラン革命防衛隊は、米国のレーダーシステムを再度攻撃したというニュースに関する。\n「公に対してであれ私人に対してであれ、加えられた侮辱に報いぬことは、国家にとってかくも危険である。」\n『リウィウス論 II.28』",
-    "theme": "guerra",
-    "score": 11,
-    "source": "Google News 国際(World)",
-    "source_title": "米レーダーへ再び攻撃 イラン革命防衛隊 バーレーン基地 - 読売新聞",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CYTNQbnlGZ3UyTm5jUUxQQ1BJQ21KWW5fWGxyb1JlMGUxeVdNSGZ0Sms4RUZFZ0pkWEZtQ3V5RmVjOGZuZ2dzWUtoSWNWNWd2czJKV2VVak0tX3VJUmZFZExR?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza",
-      "economia"
-    ],
-    "quote_id": "D2.28",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T01:21:47.564202+00:00",
-    "publish_at": "2026-11-23T21:17:00+00:00",
-    "timestamp": "2026-11-23T21:17:00+00:00"
-  },
-  {
-    "id": "2d6c2ea26fe0",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aLXZMWXRmakFPYzZGcHVKV2J5NldubGZIOE1aRWpSM3ZRRG1XbENwLWtKZXM4X1dURS01MURtZUxTNnFhQVBoejRubW8wT0t0aEdtVzk3NVZDQkdEa2diOWF0ZGl5VGh5QXdmOFdWNExqQTZLV2NCbWpn?oc=5\nリビアで停泊していたロシア軍艦が攻撃を受け、ウクライナによるドローンを使った長距離攻撃であるとの指摘もある。\n「秩序が整わず、ローマ人の力量に倣わぬ国家にとって、領土の獲得は栄達ではなく破滅のもととなる。」\n『リウィウス論 II.19』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "リビア停泊中のロシア軍艦に攻撃 ウクライナのドローンによる長距離攻撃の指摘も - テレ朝NEWS",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aLXZMWXRmakFPYzZGcHVKV2J5NldubGZIOE1aRWpSM3ZRRG1XbENwLWtKZXM4X1dURS01MURtZUxTNnFhQVBoejRubW8wT0t0aEdtVzk3NVZDQkdEa2diOWF0ZGl5VGh5QXdmOFdWNExqQTZLV2NCbWpn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "D2.19",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T21:06:39.753085+00:00",
-    "publish_at": "2026-11-23T18:17:00+00:00",
-    "timestamp": "2026-11-23T18:17:00+00:00"
-  },
-  {
-    "id": "61117571a152",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9waDhrWklTUHlqQU5KUXJHNzY0eWRwaTJxaGhGclB0SGVmemtoUmNRSkgyNXpvSDRWckhwRWRWRzVZTXF4LTdCWmN0Y1J2czJsMk5OY2hXZ19lUQ?oc=5\n11月30日から始まる核兵器禁止条約の第1回再検討会議で、核抑止に対抗する道筋が焦点となっているという。\n「愛されるより恐れられる方が、はるかに安全である。両者を同時に得られぬのであれば。」\n『君主論 cap.XVII』",
-    "theme": "paura_amore",
-    "score": 10,
-    "source": "Google News 検索 安全保障",
-    "source_title": "核抑止に対抗の道筋焦点 11月30日から核兵器禁止条約第1回再検討会議 - 中国新聞デジタル",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9waDhrWklTUHlqQU5KUXJHNzY0eWRwaTJxaGhGclB0SGVmemtoUmNRSkgyNXpvSDRWckhwRWRWRzVZTXF4LTdCWmN0Y1J2czJsMk5OY2hXZ19lUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "paura_amore",
-      "alleanze_dipendenza",
-      "armi_proprie"
-    ],
-    "quote_id": "PA1",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-22T20:18:39.906540+00:00",
-    "publish_at": "2026-11-23T15:17:00+00:00",
-    "timestamp": "2026-11-23T15:17:00+00:00"
   }
 ]
