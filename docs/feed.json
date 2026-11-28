@@ -1,5 +1,25 @@
 [
   {
+    "id": "89b7afa1e938",
+    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNU1TWjhvdDBfaGd6b2dIMjduOEk4azF0MmQyMTJqSC1Qb1V6WFAyUmxLTjdGNlJFZUpCVlFHakk0Q3ZqWTdQTWJKUDlRendici11Z1BiOVFtTDRsSWIyWmk4LU5DSlRzVmxkbXhXd2NGeW5zMXFrUmtQVU1lMFNqV2laNGgzNE1R?oc=5\nロシア軍の極超音速ミサイルなど複数機が炎上し、インフラ攻撃などで脅威な相手となっている。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
+    "theme": "guerra",
+    "score": 16,
+    "source": "Google News 国際(World)",
+    "source_title": "ロシア軍基地の「極超音速ミサイル」運用機など複数機が炎上 インフラ攻撃などで脅威な相手 - carview!",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNU1TWjhvdDBfaGd6b2dIMjduOEk4azF0MmQyMTJqSC1Qb1V6WFAyUmxLTjdGNlJFZUpCVlFHakk0Q3ZqWTdQTWJKUDlRendici11Z1BiOVFtTDRsSWIyWmk4LU5DSlRzVmxkbXhXd2NGeW5zMXFrUmtQVU1lMFNqV2laNGgzNE1R?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "P05",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T19:03:21.579550+00:00",
+    "publish_at": "2026-11-29T12:17:00+00:00",
+    "timestamp": "2026-11-29T12:17:00+00:00"
+  },
+  {
     "id": "51daac726707",
     "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0VNM0lZcDYtRnJ6MUtEX1owamk1MmtHbjk0WUN6eUFvNC16VS0tWXhtTl9JTFFlM0pEbGdyNzRhYmdLVWIxczZzeUkwOC1lOFJjNlUwTXFrVnZ0WlExLXVVNl9UWmhxeUpxSEd6UHJtRmkzeXc1YnhpbHVSMHd6c3NMaHN0d2c?oc=5\nトルコ、パキスタン、サウジが集団防衛同盟の拡大に関する原則に合意した。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
     "theme": "guerra",
@@ -690,63 +710,5 @@
     "generated_at": "2026-11-24T06:44:01.663564+00:00",
     "publish_at": "2026-11-25T03:17:00+00:00",
     "timestamp": "2026-11-25T03:17:00+00:00"
-  },
-  {
-    "id": "c89c4608e3b0",
-    "text": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5bHRCbHNsbFVCYVlXcXZrMnRrZGpnZ0gyTEhOR3BrX2dIN0FmQVNYTU1wYlMtTDV0M21ZRmEzSlltTzhfZUJiQ05XSy1SRVVMaUptTUlhU1ItZkhaVVRXT25Pb2s?oc=5\nイランがバーレーンの米軍施設を攻撃し、今月で4度目の攻撃であり、報復であると主張した。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
-    "theme": "guerra",
-    "score": 23,
-    "source": "Google News 国際(World)",
-    "source_title": "イラン、バーレーンの米軍施設攻撃＝今月４度目、「報復」主張 - Infoseek",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5bHRCbHNsbFVCYVlXcXZrMnRrZGpnZ0gyTEhOR3BrX2dIN0FmQVNYTU1wYlMtTDV0M21ZRmEzSlltTzhfZUJiQ05XSy1SRVVMaUptTUlhU1ItZkhaVVRXT25Pb2s?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra",
-      "alleanze_dipendenza"
-    ],
-    "quote_id": "D1.37b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-24T06:01:56.383277+00:00",
-    "publish_at": "2026-11-25T00:17:00+00:00",
-    "timestamp": "2026-11-25T00:17:00+00:00"
-  },
-  {
-    "id": "cd5a73b8034e",
-    "text": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT19DQnhKbUR3bEppbFNRT3g1TDN1a1pia3VwbFZaNHJYdmtXS194NEE5OXgzX1BVZ09DTnJEbXJTcV9mOHpRSk54OFhpenp2YjNidENLbzd4b3NzXzdlRkEzd0ZQeko4QTd4dElKT0cxc2tKT1lTemIySF9kaGNWNGtMZ0E?oc=5\nリビアで停泊中のロシア船が爆発し、ウクライナ軍による水上ドローン攻撃の可能性があると報じられた。\n「戦において、好機を見抜き、それをつかむことほど役立つものはない。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "リビアで停泊中のロシア船が爆発 ウクライナ軍「水上ドローン」攻撃か（2026年11月22日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT19DQnhKbUR3bEppbFNRT3g1TDN1a1pia3VwbFZaNHJYdmtXS194NEE5OXgzX1BVZ09DTnJEbXJTcV9mOHpRSk54OFhpenp2YjNidENLbzd4b3NzXzdlRkEzd0ZQeko4QTd4dElKT0cxc2tKT1lTemIySF9kaGNWNGtMZ0E?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG4",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T22:15:06.290970+00:00",
-    "publish_at": "2026-11-24T21:17:00+00:00",
-    "timestamp": "2026-11-24T21:17:00+00:00"
-  },
-  {
-    "id": "ea471749106b",
-    "text": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lOUtGczlTWDlmMXhmQ21PSDRrS0Y4VFFsR1Vad2Zwa1pYMVJBaWhpQXZNQjBtWnlQZ215eDJrTTZtWTlIMThiUlM5R2RqenVrTVl2akxSelNyNU0wR0xMR2FWZUxXTEVENjVFNXc0MnFPbEwxUzdXM1Rn?oc=5\nウクライナはリビア沖でロシア軍艦を撃沈し、ゼレンスキー大統領がその攻撃映像を公開したという。\n「兵の数より兵の力量がものを言い、時には力量よりも地の利が役に立つ。」\n『戦争の技法 lib.VII』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナ リビア沖でロシア軍艦を撃沈 ゼレンスキー大統領が攻撃映像を公開 - テレ朝NEWS",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lOUtGczlTWDlmMXhmQ21PSDRrS0Y4VFFsR1Vad2Zwa1pYMVJBaWhpQXZNQjBtWnlQZ215eDJrTTZtWTlIMThiUlM5R2RqenVrTVl2akxSelNyNU0wR0xMR2FWZUxXTEVENjVFNXc0MnFPbEwxUzdXM1Rn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "AG7",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T22:07:39.724972+00:00",
-    "publish_at": "2026-11-24T18:17:00+00:00",
-    "timestamp": "2026-11-24T18:17:00+00:00"
   }
 ]
