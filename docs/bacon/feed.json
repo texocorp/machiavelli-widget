@@ -1,5 +1,69 @@
 [
   {
+    "id": "9760bd1a1793",
+    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hX1liZEdfMk92R1ZOaWlSTzEzRnVCcGNaYjQ0aVlBWUViYTNHZksyYU1DeS1ab1lRMVhyT1AyRWN2UFRkbzIzYzN4MmotMFhPVEdRUkl1S0t3Nk1IaENv?oc=5\nSNS教育講演家が、錦糸町の雑貨店トラブルを例に挙げながら企業の炎上における盲点を語った。\n「反駁し論破するために読むな。信じ込み、鵜呑みにするためでもなく、話の種を見つけるためでもなく、量り、考えるために読め。」\n『随筆集』第50篇「学問について」",
+    "original": "Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "SNS教育講演家が語る企業炎上の盲点 錦糸町雑貨店トラブルから学ぶSNS時代の教訓 - ライブドアニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hX1liZEdfMk92R1ZOaWlSTzEzRnVCcGNaYjQ0aVlBWUViYTNHZksyYU1DeS1ab1lRMVhyT1AyRWN2UFRkbzIzYzN4MmotMFhPVEdRUkl1S0t3Nk1IaENv?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "studium"
+    ],
+    "quote_id": "E50a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:16:00.446536+00:00",
+    "publish_at": "2026-11-29T11:17:00+00:00",
+    "timestamp": "2026-11-29T11:17:00+00:00"
+  },
+  {
+    "id": "f26c17ce0e17",
+    "text": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WczVBUldhUGRVQlRrZVQ3Nmlqa19pNUZRVEJJLXVqbWE2UGYyWktyd2lzS0hGS3loQXpDNXUyVFljb1A5MjRJaWFTYm9DOXV2djdpR1ZBYkNuMUE?oc=5\n宮城県の有識者会議がSNS上の偽情報や誤情報への対策について、その結論を『平時の備え』であると出した。\n「その区分の一つ一つが中身に乏しく、空の小箱のようであっても、世間の知性の前では、完全な学問の体裁と筋道を見せる。」\n『ノヴム・オルガヌム』第1巻 アフォリズム86",
+    "original": "Atque licet membra illa male impleta et veluti capsulae inanes sint; tamen apud intellectum vulgarem scientiae formam et rationem integrae prae se ferunt.",
+    "original_lang": "la",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "SNSの偽・誤情報対策 宮城県の有識者会議が出した結論は「平時の備え」だった＜ニュース深掘り＞ - 河北新報オンライン",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WczVBUldhUGRVQlRrZVQ3Nmlqa19pNUZRVEJJLXVqbWE2UGYyWktyd2lzS0hGS3loQXpDNXUyVFljb1A5MjRJaWFTYm9DOXV2djdpR1ZBYkNuMUE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama",
+      "theatri"
+    ],
+    "quote_id": "NO1.86b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:11:29.609131+00:00",
+    "publish_at": "2026-11-29T08:17:00+00:00",
+    "timestamp": "2026-11-29T08:17:00+00:00"
+  },
+  {
+    "id": "50e968b4bd8c",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IMjhSY214aUh6RHZxdzlVS0U5dlFzbzEwa0JZeUtrbzd2X21lVnZTX296LThTdUlEakVNU2p4UHMyVXUzUFZlWmtrUENIV25zbDlHczZGdEZBRk9zZzRnXzZ1S05MMkIxdlpSTDY1ZWhjV0NTcEpESHZvd2d4SEE?oc=5\n政府が安保広報の陰謀論ユーチューバーを起用したことに波紋を広げているという。\n「人間の知性は、その性質から、事物のうちに実際に見出す以上の秩序と均整を、たやすく想定してしまう。」\n『ノヴム・オルガヌム』第1巻 アフォリズム45",
+    "original": "Intellectus humanus ex proprietate sua facile supponit majorem ordinem et aequalitatem in rebus, quam invenit …",
+    "original_lang": "la",
+    "theme": "superstitio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "安保広報の陰謀論ユーチューバー起用に波紋 与党批判も「意に介さない」政府に識者が警鐘（西日本新聞me） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IMjhSY214aUh6RHZxdzlVS0U5dlFzbzEwa0JZeUtrbzd2X21lVnZTX296LThTdUlEakVNU2p4UHMyVXUzUFZlWmtrUENIV25zbDlHczZGdEZBRk9zZzRnXzZ1S05MMkIxdlpSTDY1ZWhjV0NTcEpESHZvd2d4SEE?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "superstitio",
+      "fama"
+    ],
+    "quote_id": "NO1.45",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:05:31.169491+00:00",
+    "publish_at": "2026-11-29T05:17:00+00:00",
+    "timestamp": "2026-11-29T05:17:00+00:00"
+  },
+  {
     "id": "4e9a47d18114",
     "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6VDNzSHdwazJfNTk4Ui1LbndSbmoyZ0lUU2l3Y2xWQmVDVVFwQ1dCbnpqSEpINkw1WTdRbmxXeWxJeV96TDZNTm1CYzJmcDlwdEVXOXdJZFIwVVp3aEtFNnhxX0EyTDUwVWluUg?oc=5\n開発元が新作『配信少女ノ裏垢迷宮』を来年1月29日に発売することを発表しているという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
     "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
@@ -749,69 +813,5 @@
     "generated_at": "2026-11-24T02:14:20.484234+00:00",
     "publish_at": "2026-11-24T20:17:00+00:00",
     "timestamp": "2026-11-24T20:17:00+00:00"
-  },
-  {
-    "id": "b60812d45437",
-    "text": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01VUNVTlhyaWRVZWZ1OEo4UDNEZm5Nb29STkJsTS1jVXFPSmhydkc5cDJzTnhyQXFpN0pqb1hreE4wbHB2OXJDLUxVUm9hcE1abFREMnZaTlBpVXVpTEhSMmZkak1oZw?oc=5\n見知らぬ人たちがインター校計画に移民反対を叫び、不安を煽り過激な排外的デマを広めているという。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
-    "original": "There is nothing makes a man suspect much, more than to know little …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 12,
-    "source": "Google News 偽情報・言説",
-    "source_title": "インター校計画に「移民反対」叫ぶ見知らぬ人たち、不安あおり過激化する排外的デマ - 読売新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01VUNVTlhyaWRVZWZ1OEo4UDNEZm5Nb29STkJsTS1jVXFPSmhydkc5cDJzTnhyQXFpN0pqb1hreE4wbHB2OXJDLUxVUm9hcE1abFREMnZaTlBpVXVpTEhSMmZkak1oZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "tribus"
-    ],
-    "quote_id": "E31b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-24T01:39:44.924567+00:00",
-    "publish_at": "2026-11-24T17:17:00+00:00",
-    "timestamp": "2026-11-24T17:17:00+00:00"
-  },
-  {
-    "id": "be26196c9e93",
-    "text": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRSnJVeFp5alUwS212bkR4OC1adjJ6TDVUbmtlcGo0YldKQ3J5aDlnaDJ0MzhNREFGb2lUUDZzc2NUMy1BY2NodlF0Q3ZfOGxZdWJZU0U0ZTJGVlZpWHpPb3VJUEotTjc5SkpCeThmZ00wR3hoT0pJ0gF8QVVfeXFMTU9SLW9WV0s1UFBKSS1HQU1NWkh4QU85bTV3T1I1a0xodUx3QnA5NktjaDROUmpHUkRibnJuOC1PNnVNU2tSS2NtVDE5Y1JPbFV0Vl9NWE94YnB6RTFXZWJuUVJONHU5MGFBOENKYzlOX0hzLUJQY0NxOHBIdw?oc=5\n政府が陰謀論系を起用したことに批判が集まり、野党は偽情報対策に逆行すると指摘しているという。\n「空言を弄し空想にふける人々にも事欠かなかった。彼らは、一部は信じやすさから、一部は欺きから、人類を約束で押しつぶしてきた。」\n『ノヴム・オルガヌム』第1巻 アフォリズム87",
-    "original": "Neque enim defuerunt homines vaniloqui et phantastici, qui partim ex credulitate, partim ex impostura, genus humanum promissis onerarunt …",
-    "original_lang": "la",
-    "theme": "simulatio",
-    "score": 13,
-    "source": "Google News 偽情報・言説",
-    "source_title": "政府広報　陰謀論系起用、批判やまず　野党「偽情報対策に逆行」｜四国新聞WEB朝刊 - 四国新聞",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRSnJVeFp5alUwS212bkR4OC1adjJ6TDVUbmtlcGo0YldKQ3J5aDlnaDJ0MzhNREFGb2lUUDZzc2NUMy1BY2NodlF0Q3ZfOGxZdWJZU0U0ZTJGVlZpWHpPb3VJUEotTjc5SkpCeThmZ00wR3hoT0pJ0gF8QVVfeXFMTU9SLW9WV0s1UFBKSS1HQU1NWkh4QU85bTV3T1I1a0xodUx3QnA5NktjaDROUmpHUkRibnJuOC1PNnVNU2tSS2NtVDE5Y1JPbFV0Vl9NWE94YnB6RTFXZWJuUVJONHU5MGFBOENKYzlOX0hzLUJQY0NxOHBIdw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "simulatio",
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "NO1.87",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-24T01:23:58.644104+00:00",
-    "publish_at": "2026-11-24T14:17:00+00:00",
-    "timestamp": "2026-11-24T14:17:00+00:00"
-  },
-  {
-    "id": "873aed4b1ca6",
-    "text": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MRC1GSnN3ZFVnbTl6WnFwRURmODdNbEt6V0VQNmEtUjV1LVhhR2NCVk1YQXdCT1hVbEtxcjVNNlN1UkxHNFVYUDNSWVlUWDllTDNUanhCMVgxUQ?oc=5\n北海道新聞デジタルは「『信頼性落とす』 野党が批判 安保広報に『陰謀論系』配信者」と報じた。\n「第二に、もっともらしい推測や曖昧な言い伝えが、しばしば予言へと姿を変える。」\n『随筆集』第35篇「予言について」",
-    "original": "The second is, that probable conjectures, or obscure traditions, many times turn themselves into prophecies …",
-    "original_lang": "en",
-    "theme": "superstitio",
-    "score": 9,
-    "source": "Google News 偽情報・言説",
-    "source_title": "「信頼性落とす」 野党が批判 安保広報に「陰謀論系」配信者 - 北海道新聞デジタル",
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MRC1GSnN3ZFVnbTl6WnFwRURmODdNbEt6V0VQNmEtUjV1LVhhR2NCVk1YQXdCT1hVbEtxcjVNNlN1UkxHNFVYUDNSWVlUWDllTDNUanhCMVgxUQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "superstitio",
-      "fama"
-    ],
-    "quote_id": "E35b",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T14:30:13.192984+00:00",
-    "publish_at": "2026-11-24T11:17:00+00:00",
-    "timestamp": "2026-11-24T11:17:00+00:00"
   }
 ]
