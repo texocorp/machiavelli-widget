@@ -1,5 +1,47 @@
 [
   {
+    "id": "51daac726707",
+    "text": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0VNM0lZcDYtRnJ6MUtEX1owamk1MmtHbjk0WUN6eUFvNC16VS0tWXhtTl9JTFFlM0pEbGdyNzRhYmdLVWIxczZzeUkwOC1lOFJjNlUwTXFrVnZ0WlExLXVVNl9UWmhxeUpxSEd6UHJtRmkzeXc1YnhpbHVSMHd6c3NMaHN0d2c?oc=5\nトルコ、パキスタン、サウジが集団防衛同盟の拡大に関する原則に合意した。\n「祖国は、恥辱をもってであれ栄光をもってであれ守らねばならぬ。いかなる仕方であれ、守られればそれでよい。」\n『リウィウス論 III.41』",
+    "theme": "guerra",
+    "score": 13,
+    "source": "Google News 国際(World)",
+    "source_title": "トルコ・パキスタン・サウジ、集団防衛同盟拡大の原則合意 閣僚会合 | ロイター - Reuters",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0VNM0lZcDYtRnJ6MUtEX1owamk1MmtHbjk0WUN6eUFvNC16VS0tWXhtTl9JTFFlM0pEbGdyNzRhYmdLVWIxczZzeUkwOC1lOFJjNlUwTXFrVnZ0WlExLXVVNl9UWmhxeUpxSEd6UHJtRmkzeXc1YnhpbHVSMHd6c3NMaHN0d2c?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza",
+      "inganno_simulazione",
+      "consiglio"
+    ],
+    "quote_id": "NE1",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T10:41:46.692925+00:00",
+    "publish_at": "2026-11-29T09:17:00+00:00",
+    "timestamp": "2026-11-29T09:17:00+00:00"
+  },
+  {
+    "id": "87428a5ed7ef",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyUExCTFVuLTNCM1lHYTlXaWJ0NDlXZERMTG10cEMwaEVfT2F4VnE3dDdKT2s3bm9Xd01RaXVwdlYxamFwdU1yTEQyVDVhSjNNc2NHWWVHc3FPeEVKeXBXbmpyN0pRSFRtdFJMMUNrVm5vR1BHMDI1YzRZSjRaa0U?oc=5\n米軍はイラン港湾封鎖の突破を試みた船を攻撃し、それを航行不能にさせたという。\n「必要から戦う理由がなくなれば、人は野心のために戦う。」\n『リウィウス論 I.37』",
+    "theme": "guerra",
+    "score": 14,
+    "source": "Google News 検索 中東",
+    "source_title": "米軍、イラン港湾封鎖の突破試みた船を攻撃 航行不能に（ＡＦＰ＝時事） - Yahoo!ニュース",
+    "source_title_ja": "",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyUExCTFVuLTNCM1lHYTlXaWJ0NDlXZERMTG10cEMwaEVfT2F4VnE3dDdKT2s3bm9Xd01RaXVwdlYxamFwdU1yTEQyVDVhSjNNc2NHWWVHc3FPeEVKeXBXbmpyN0pRSFRtdFJMMUNrVm5vR1BHMDI1YzRZSjRaa0U?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "guerra",
+      "alleanze_dipendenza"
+    ],
+    "quote_id": "D1.37b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T10:37:18.808777+00:00",
+    "publish_at": "2026-11-29T06:17:00+00:00",
+    "timestamp": "2026-11-29T06:17:00+00:00"
+  },
+  {
     "id": "978935ab356d",
     "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxekswQkdFeC1EcjVpeWZoM1VQUTN4S01fbW1JNktmVjY2MWZjWUVQcHd5ZVlrX0dueEdkQm9vZU1EZzlPY0FpbFB3UzlKVjVwMG05STVjVUcyYS1pR0laUmpCdi1NcXFtaDBXU1k0X01BMGYzSWJ0NnlxTTd3SlE?oc=5\n米軍が封鎖突破を試みた商船を航行不能にすると、イランはこれを打破すると表明しているという。\n「新しく突然の事態は、軍を動揺させる。」\n『戦争の技法 lib.VII』",
     "theme": "guerra",
@@ -706,43 +748,5 @@
     "generated_at": "2026-11-23T22:07:39.724972+00:00",
     "publish_at": "2026-11-24T18:17:00+00:00",
     "timestamp": "2026-11-24T18:17:00+00:00"
-  },
-  {
-    "id": "65535d9850ea",
-    "text": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0ltRDR3MnFiSGNaMFA5X25TM1NJM2VXc1FNX2E5a0E2SVRJelFSTW5zbGFaaHVNYjZrZFVqSnoyM1NiTno2ejVwSkFZeFJqb1A5azJPdEdCLVBPVmw3cjRobWdjeWJNVkVyeXAtN2xWME9nN1dqcWhRMDhRbExvSzJjWlpIZw?oc=5\nウクライナがリビアでロシア艦を撃沈したことで、黒海における攻撃が拡大したという。\n「自由に慣れた都市の主となりながら、それを打ち砕かぬ者は、やがてその都市に打ち砕かれると覚悟せよ。」\n『君主論 cap.V』",
-    "theme": "guerra",
-    "score": 8,
-    "source": "Google News 検索 ロシア・ウクライナ",
-    "source_title": "ウクライナ、北アフリカのリビアでロシア艦撃沈 黒海外に攻撃拡大 - Reuters",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0ltRDR3MnFiSGNaMFA5X25TM1NJM2VXc1FNX2E5a0E2SVRJelFSTW5zbGFaaHVNYjZrZFVqSnoyM1NiTno2ejVwSkFZeFJqb1A5azJPdEdCLVBPVmw3cjRobWdjeWJNVkVyeXAtN2xWME9nN1dqcWhRMDhRbExvSzJjWlpIZw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "guerra"
-    ],
-    "quote_id": "P05",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T22:01:56.416628+00:00",
-    "publish_at": "2026-11-24T15:17:00+00:00",
-    "timestamp": "2026-11-24T15:17:00+00:00"
-  },
-  {
-    "id": "4b437f0d2873",
-    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3NTUyQmtndjBnLW5BeDJpcWM0TGd5WnloZnhQQVEzWkFyei11ZDhXQ2l6NFplcHZPLTBINjI1eElWQS1tZDFzV0VabFlnVXRWbi1nWTRTcw?oc=5\nトランプ氏と習氏はAI分野での協力を誇示したが、それでも突きつけられる厳しい現実があるという。\n「君主は先に挙げた美徳をすべて実際に備えている必要はない。だが、備えているように見せることは是非とも必要である。」\n『君主論 cap.XVIII』",
-    "theme": "inganno_simulazione",
-    "score": 8,
-    "source": "Google News 国際(World)",
-    "source_title": "トランプ氏と習氏、AI分野での協力誇示 それでも突きつけられる厳しい現実 - CNN",
-    "source_title_ja": "",
-    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3NTUyQmtndjBnLW5BeDJpcWM0TGd5WnloZnhQQVEzWkFyei11ZDhXQ2l6NFplcHZPLTBINjI1eElWQS1tZDFzV0VabFlnVXRWbi1nWTRTcw?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "inganno_simulazione"
-    ],
-    "quote_id": "P18a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T21:46:07.317897+00:00",
-    "publish_at": "2026-11-24T12:17:00+00:00",
-    "timestamp": "2026-11-24T12:17:00+00:00"
   }
 ]
