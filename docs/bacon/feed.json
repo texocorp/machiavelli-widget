@@ -1,5 +1,47 @@
 [
   {
+    "id": "4e9a47d18114",
+    "text": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6VDNzSHdwazJfNTk4Ui1LbndSbmoyZ0lUU2l3Y2xWQmVDVVFwQ1dCbnpqSEpINkw1WTdRbmxXeWxJeV96TDZNTm1CYzJmcDlwdEVXOXdJZFIwVVp3aEtFNnhxX0EyTDUwVWluUg?oc=5\n開発元が新作『配信少女ノ裏垢迷宮』を来年1月29日に発売することを発表しているという。\n「風評の力は大きく、それが大きな役割を果たさなかった大事業はほとんどない。」\n『随筆集』断章「風評について」",
+    "original": "Fame is of that force, as there is scarcely any great action, wherein it hath not a great part …",
+    "original_lang": "en",
+    "theme": "fama",
+    "score": 12,
+    "source": "Google News SNS・報道",
+    "source_title": "『魔法少女ノ魔女裁判』開発元による新作『配信少女ノ裏垢迷宮』来年1月29日発売へ。裏アカダンジョンで本音を暴いて“公開処刑”する、炎上ガールズバンドとSNSの闇 - AUTOMATON",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6VDNzSHdwazJfNTk4Ui1LbndSbmoyZ0lUU2l3Y2xWQmVDVVFwQ1dCbnpqSEpINkw1WTdRbmxXeWxJeV96TDZNTm1CYzJmcDlwdEVXOXdJZFIwVVp3aEtFNnhxX0EyTDUwVWluUg?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "fama",
+      "novitas"
+    ],
+    "quote_id": "E59a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T04:14:10.897215+00:00",
+    "publish_at": "2026-11-29T02:17:00+00:00",
+    "timestamp": "2026-11-29T02:17:00+00:00"
+  },
+  {
+    "id": "716f52f9d35a",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yZ2dqbmJNaTk5TDdVWFVFczVYWkNjc2xuc2ZMQkNCLWR0aDVYWGtrZ2Jqc0otMXAxLWhXSnJSMTF3YTlmLTd4WnhCckdQa3ZkeWVWYVNHNDgwOVlTdTVtYU1EMTYyakVJNDlEUXdZemdKUUY3YUw3WUVKSEZWRWM?oc=5\n移民・外国人政策をめぐる偽誤情報の4つのパターンが話題となっているという。\n「害をなすのは、心を通り過ぎる嘘ではなく、心に沈み込み、住みつく嘘である。」\n『随筆集』第1篇「真理について」",
+    "original": "But it is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt …",
+    "original_lang": "en",
+    "theme": "simulatio",
+    "score": 12,
+    "source": "Google News 偽情報・言説",
+    "source_title": "移民・外国人政策をめぐる偽誤情報の4つのパターン（日本ファクトチェックセンター） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yZ2dqbmJNaTk5TDdVWFVFczVYWkNjc2xuc2ZMQkNCLWR0aDVYWGtrZ2Jqc0otMXAxLWhXSnJSMTF3YTlmLTd4WnhCckdQa3ZkeWVWYVNHNDgwOVlTdTVtYU1EMTYyakVJNDlEUXdZemdKUUY3YUw3WUVKSEZWRWM?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "simulatio",
+      "fama"
+    ],
+    "quote_id": "E1b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T03:56:57.822828+00:00",
+    "publish_at": "2026-11-28T23:17:00+00:00",
+    "timestamp": "2026-11-28T23:17:00+00:00"
+  },
+  {
     "id": "bc20a83331bf",
     "text": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TUlAteG42RkFhT3ljdHpRYkhQWlVWbGdERWhQdE95V3RpREc2d21WZFRvVlNieGpRNElNaHQzVUhNd0RlZFlyRVE0VUJ5cWYzbTB1bEdUeThIaDA1T2FDbUlVSkdBaWs?oc=5\n官房長官は、陰謀論のユーチューバー起用について『世論誘導ではない』と発言したという。\n「知ることが少ないことほど、人に多くを疑わせるものはない。」\n『随筆集』第31篇「疑惑について」",
     "original": "There is nothing makes a man suspect much, more than to know little …",
@@ -771,46 +813,5 @@
     "generated_at": "2026-11-23T14:30:13.192984+00:00",
     "publish_at": "2026-11-24T11:17:00+00:00",
     "timestamp": "2026-11-24T11:17:00+00:00"
-  },
-  {
-    "id": "06bc6d3cb881",
-    "text": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfVmhHeTN6WFo3c1ItMHg2SXhtd1FJaVRBNHA5S2lkZDJPcFNwNkpoWEw2aG53MEZSeTJYWnNlN081NjFaakJtbkpKMFc4OVNSak5VMy1vWHA2R3RrZHVETmdnNmRwSGZlQV9aSFBadXY5SVRW0gF0QVVfeXFMUF9WaEd5M3pYWjdzUi0weDZJeG13UUlpVEE0cDlLaWRkMk9wU3A2SmhYTDZobncwRlJ5Mlhac2U3TzU2MVpqQm1uSkowVzg5U1JqTlUzLW9YcDZHdGtkdUROZ2c2ZHBIZmVBX1pIUFp1djlJVFY?oc=5\nInfoseekは「米州議員に『変幻自在レプティリアン』疑惑浮上　奇妙な動画拡散に『私は人間です』」と報じた。\n「嘘が混じると、いつも楽しみが増す。」\n『随筆集』第1篇「真理について」",
-    "original": "A mixture of a lie doth ever add pleasure.",
-    "original_lang": "en",
-    "theme": "fama",
-    "score": 10,
-    "source": "Google News 情報操作・偽動画",
-    "source_title": "米州議員に「変幻自在レプティリアン」疑惑浮上　奇妙な動画拡散に「私は人間です」 - Infoseek",
-    "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfVmhHeTN6WFo3c1ItMHg2SXhtd1FJaVRBNHA5S2lkZDJPcFNwNkpoWEw2aG53MEZSeTJYWnNlN081NjFaakJtbkpKMFc4OVNSak5VMy1vWHA2R3RrZHVETmdnNmRwSGZlQV9aSFBadXY5SVRW0gF0QVVfeXFMUF9WaEd5M3pYWjdzUi0weDZJeG13UUlpVEE0cDlLaWRkMk9wU3A2SmhYTDZobncwRlJ5Mlhac2U3TzU2MVpqQm1uSkowVzg5U1JqTlUzLW9YcDZHdGtkdUROZ2c2ZHBIZmVBX1pIUFp1djlJVFY?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama"
-    ],
-    "quote_id": "E1a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T14:00:30.247552+00:00",
-    "publish_at": "2026-11-24T08:17:00+00:00",
-    "timestamp": "2026-11-24T08:17:00+00:00"
-  },
-  {
-    "id": "aa59ef178f70",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uMGs1VVZHdURqTVlEOTJzT0Fna1BJckN1NVJoa19OdkhmYzh1Z25vakpPZVNPV2gwaEhrRW1XbjVBeW0teE1lN0ZpdHhYRVVSYzNKVVh6NHZneDFsX1dB?oc=5\n公式アカウントの誤爆に対し、SNS教育講演家が指摘するのは、謝罪は炎上より広がらないという盲点であるという。\n「自然に根ざしたものは成長し、増大する。だが意見に根ざしたものは、移り変わりはしても増大はしない。」\n『ノヴム・オルガヌム』第1巻 アフォリズム74",
-    "original": "Quae enim in natura fundata sunt, crescunt et augentur: quae autem in opinione, variantur, non augentur.",
-    "original_lang": "la",
-    "theme": "fama",
-    "score": 16,
-    "source": "Google News SNS・報道",
-    "source_title": "SNS教育講演家が指摘する公式アカウント誤爆の盲点「謝罪は炎上より広がらない」 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uMGs1VVZHdURqTVlEOTJzT0Fna1BJckN1NVJoa19OdkhmYzh1Z25vakpPZVNPV2gwaEhrRW1XbjVBeW0teE1lN0ZpdHhYRVVSYzNKVVh6NHZneDFsX1dB?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "fama",
-      "studium"
-    ],
-    "quote_id": "NO1.74",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T12:53:25.676556+00:00",
-    "publish_at": "2026-11-24T05:17:00+00:00",
-    "timestamp": "2026-11-24T05:17:00+00:00"
   }
 ]
