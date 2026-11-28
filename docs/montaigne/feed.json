@@ -1,5 +1,95 @@
 [
   {
+    "id": "da7f354a5e10",
+    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3X3hGOW9NalhMdUMtMVlHenRhN01jcGdsa3lUdGM5ZG1tVW5OcUdGcldGRUZnRC1rWGN0N1Vrb1l0NjUtckNPanlVV0tGU0g3M1U0?oc=5\nアフガニスタンから日本へ向けた旅では、地続きの『排外主義』が見えてきたという。\n「私はすべての人間を同胞と思い、フランス人を抱擁するようにポーランド人をも抱擁する。国民としての絆を、普遍的で共通の絆より後に置くのだ。」\n『エセー III.9「むなしさについて」』",
+    "theme": "inconstance",
+    "score": 0,
+    "source": "Google News 検索 偏見・摩擦",
+    "source_title": "アフガニスタンから日本に地続きの「排外主義」を追って見えてきたこと - クーリエ・ジャポン",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3X3hGOW9NalhMdUMtMVlHenRhN01jcGdsa3lUdGM5ZG1tVW5OcUdGcldGRUZnRC1rWGN0N1Vrb1l0NjUtckNPanlVV0tGU0g3M1U0?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [],
+    "quote_id": "III.9b",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:27:41.848787+00:00",
+    "publish_at": "2026-11-29T13:17:00+00:00",
+    "timestamp": "2026-11-29T13:17:00+00:00"
+  },
+  {
+    "id": "3a0df3d39cf2",
+    "text": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0MF9jdXJrcDZLeHY5djFOZ2JJT3RndXg4Wi02cktwMjRzUTlKYkQtbEs3czNpOVF3WTdIOV9MR1ZqeG9Na1NyaGcxa2twZHdyQXJfa0luYw?oc=5\n藤井富山市長は前例踏襲からの脱却を訓示し、課長職以上には部下に声をかけるよう要請した。\n「まことに慣習とは、荒々しく、しかも裏切りに満ちた教師である。」\n『エセー I.23「慣習について」』",
+    "theme": "vanite",
+    "score": 0,
+    "source": "Google News 検索 慣習・同調",
+    "source_title": "「前例踏襲から脱却を」 人口水増し 藤井富山市長が訓示 課長職以上に要請「部下に声掛けて」 - 北國新聞",
+    "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0MF9jdXJrcDZLeHY5djFOZ2JJT3RndXg4Wi02cktwMjRzUTlKYkQtbEs3czNpOVF3WTdIOV9MR1ZqeG9Na1NyaGcxa2twZHdyQXJfa0luYw?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "vanite",
+      "coutume"
+    ],
+    "quote_id": "I.23a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:19:48.752463+00:00",
+    "publish_at": "2026-11-29T10:17:00+00:00",
+    "timestamp": "2026-11-29T10:17:00+00:00"
+  },
+  {
+    "id": "7a63c152fb0f",
+    "text": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTndHbHNlTnZRdjRuM1M0MXpucEw0Y280bm9CenpiVC1IY3QtSHJfaGQ4UGFhRHAtSTZuSjd5MFkzQk54OGY1MHlWU1hqb2xEcVVDN21UUXdEUFZ6cF9sVGppRTFlVHdiZVNnWTUwS1NNYW5CMEdnbnRzSFl5QlFPYjFpV3FoVFBu?oc=5\n水星探査機は軌道投入に成功したものの、想定外のスラスタ早期停止による軌道のズレが起きたという。\n「自分に理解できないものを軽んじるのは、愚かな無謀さを伴うばかりか、重大な結果を招く危険な大胆さである。」\n『エセー I.27「真偽を己の力量で測る愚かさ」』",
+    "theme": "presomption",
+    "score": 0,
+    "source": "Google News 科学",
+    "source_title": "水星探査機ベピコロンボ軌道投入成功、想定外の「スラスタ早期停止」と軌道のズレの影響 - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTndHbHNlTnZRdjRuM1M0MXpucEw0Y280bm9CenpiVC1IY3QtSHJfaGQ4UGFhRHAtSTZuSjd5MFkzQk54OGY1MHlWU1hqb2xEcVVDN21UUXdEUFZ6cF9sVGppRTFlVHdiZVNnWTUwS1NNYW5CMEdnbnRzSFl5QlFPYjFpV3FoVFBu?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "presomption"
+    ],
+    "quote_id": "I.27",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:13:44.724765+00:00",
+    "publish_at": "2026-11-29T07:17:00+00:00",
+    "timestamp": "2026-11-29T07:17:00+00:00"
+  },
+  {
+    "id": "425b96ab58a2",
+    "text": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRXBxY2dlSWVzOGJ1Qnc3SGZ2V1p1d2t0NER3NkI3UVduLUIzOWVNV2lwSC01eG93NWlTMkotaXFkak9CbXVORmVQZTdfNFNYa2lEQkZuXzQwT0RLek1uOWo3dUxBN2UxNmVSdUJaSnBpdUk0Wm9LeXA5V1FWRjZIWjRja0N0bUkwaVY2UGxTWXl3OGVP0gGUAUFVX3lxTE9FcHFjZ2VJZXM4YnVCdzdIZnZXWnV3a3Q0RHc2QjdRV24tQjM5ZU1XaXBILTV4b3c1aVMySi1pcWRqT0JtdU5GZVBlN180U1hraURCRm5fNDBPREt6TW45ajd1TEE3ZTE2ZVJ1QlpKcGl1STRab0t5cDlXUVZGNkhaNGNrQ3RtSTBpVjZQbFNZeXc4ZU8?oc=5\n取り調べで見せる不気味な余裕から、ソ・ヒョンジンがユ・ヨンソク死亡事件の真犯人ではないか疑われているという。\n「もし嘘が真実と同じく一つの顔しか持たないなら、事はもっと楽であろう。嘘つきの言うことの反対を確かなものと受け取ればよいのだから。だが真実の裏側には十万の姿があり、果てしない広がりがある。」\n『エセー I.9「嘘つきについて」』",
+    "theme": "lois",
+    "score": 2,
+    "source": "Google News 検索 裁き",
+    "source_title": "「完璧な嘘」ソ・ヒョンジン、ユ・ヨンソク死亡事件の真犯人なのか…取り調べで見せる不気味な余裕 - ｄメニューニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRXBxY2dlSWVzOGJ1Qnc3SGZ2V1p1d2t0NER3NkI3UVduLUIzOWVNV2lwSC01eG93NWlTMkotaXFkak9CbXVORmVQZTdfNFNYa2lEQkZuXzQwT0RLek1uOWo3dUxBN2UxNmVSdUJaSnBpdUk0Wm9LeXA5V1FWRjZIWjRja0N0bUkwaVY2UGxTWXl3OGVP0gGUAUFVX3lxTE9FcHFjZ2VJZXM4YnVCdzdIZnZXWnV3a3Q0RHc2QjdRV24tQjM5ZU1XaXBILTV4b3c1aVMySi1pcWRqT0JtdU5GZVBlN180U1hraURCRm5fNDBPREt6TW45ajd1TEE3ZTE2ZVJ1QlpKcGl1STRab0t5cDlXUVZGNkhaNGNrQ3RtSTBpVjZQbFNZeXc4ZU8?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois",
+      "mort"
+    ],
+    "quote_id": "I.9",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:07:40.779163+00:00",
+    "publish_at": "2026-11-29T04:17:00+00:00",
+    "timestamp": "2026-11-29T04:17:00+00:00"
+  },
+  {
+    "id": "85c65a876d96",
+    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vdEFiWklPMU5SNV8yNWhLbDFXV0ItZ3diR2gxS0U2cklGaklsX3BzTzA5SWF6aklyaHY0REVYUmRqT21PVWZXQV9KdDBoNzlfUW1jX2kxZUM1bW45WnRtVHFJX2hrRlpKSUhnLXJOSTRpcFQ5U2lLb2NfbWd3Z1k?oc=5\n検事が、仕事は供述を変えさせることだと衝撃の発言したという。\n「結局のところ、自分の推測のために人ひとりを生きたまま焼くとは、推測にずいぶん高い値をつけるものだ。」\n『エセー III.11「足の不自由な人々について」』",
+    "theme": "lois",
+    "score": 4,
+    "source": "Google News 検索 裁き",
+    "source_title": "「私の仕事はあなたの供述を変えさせること」検事の衝撃の発言 冤罪を経験した村木厚子さんが見た取り調べの現実（47NEWS） - Yahoo!ニュース",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vdEFiWklPMU5SNV8yNWhLbDFXV0ItZ3diR2gxS0U2cklGaklsX3BzTzA5SWF6aklyaHY0REVYUmRqT21PVWZXQV9KdDBoNzlfUW1jX2kxZUM1bW45WnRtVHFJX2hrRlpKSUhnLXJOSTRpcFQ5U2lLb2NfbWd3Z1k?oc=5",
+    "generator": "ollama:qwen3.5:9b",
+    "themes": [
+      "lois"
+    ],
+    "quote_id": "III.11a",
+    "quote_choice": "llm",
+    "generated_at": "2026-11-28T13:03:55.919262+00:00",
+    "publish_at": "2026-11-29T01:17:00+00:00",
+    "timestamp": "2026-11-29T01:17:00+00:00"
+  },
+  {
     "id": "6375d234077f",
     "text": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2M1d5alBpVlVKMlZmZk9Pem1pREpWTFMwazl3MjhZdldmTFlrR1k1RDRKZm9vRVlmV0VMUkZibGZGXzQzVkZrQm93b0JYVzdqMmZnYUVKT1pnWms0YlliU2U4MDRuZndveHRCUmlB?oc=5\nカスハラ対策義務化を受け、企業が怒鳴り声をAI変換や胸元カメラなど“新兵器”を繰り出すという。\n「愚かさは悪い性質だ。だがそれに耐えられず、腹を立てて苛立つのも――私がまさにそうなのだが――また別種の病である。」\n『エセー III.8「談論の術について」』",
     "theme": "presomption",
@@ -622,91 +712,5 @@
     "generated_at": "2026-11-24T01:10:11.202781+00:00",
     "publish_at": "2026-11-24T22:17:00+00:00",
     "timestamp": "2026-11-24T22:17:00+00:00"
-  },
-  {
-    "id": "e228c928171a",
-    "text": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxbEtYZkNxMDZTR0pSVlFzVXJiaXR3LTRLcW43SmlCOGlycGc1X1ZxMTBPckdmc3Z6aEczcjFUeTI3QUFncFVJc2ktTDFiamcxM3dPcVNPcFd3Mk5BSWRn?oc=5\n銀行を辞めた男性が部長に出世したことを義母は『いや、なかなかのポジションなんですけど？』とつぶやいたという。\n「人は自分を賃貸しする。その能力は自分のためではなく、仕える相手のためにある。」\n『エセー III.10「自分の意志を節約することについて」』",
-    "theme": "inconstance",
-    "score": 0,
-    "source": "Google News 検索 慣習・同調",
-    "source_title": "「いや、なかなかのポジションなんですけど？」28歳で銀行を辞めた男性が、転職した営業会社で部長に出世も…義母がボソリとつぶやいた〈27年後も引きずる一言〉 - ライブドアニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxbEtYZkNxMDZTR0pSVlFzVXJiaXR3LTRLcW43SmlCOGlycGc1X1ZxMTBPckdmc3Z6aEczcjFUeTI3QUFncFVJc2ktTDFiamcxM3dPcVNPcFd3Mk5BSWRn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "III.10c",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-24T01:03:48.184661+00:00",
-    "publish_at": "2026-11-24T19:17:00+00:00",
-    "timestamp": "2026-11-24T19:17:00+00:00"
-  },
-  {
-    "id": "0366e26c6a47",
-    "text": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uYXJDa003ZklVNEhaODNlR2ZycEtkZVpNbkpDMHkxSVJ3MHd3SFZqRFVPVnBYN3psNXBZaVpBMG9tY3ZsbWlpbVdYNjgteGxtZmJjNWlzaVJqSW1oRmhtWVBtUFYzcm9ldXhFaGc0WjV3WEJ5dnp0d3BDUWtTaTA?oc=5\n見切り品植物の再生プロが、ショックで丸坊主になったガジュマルの見事な復活策を教えるという。\n「軽んじられた型がしばしば再び重んじられ、それがまたすぐに軽んじられるのは避けられない。同じ判断が十五年か二十年のうちに、異なるどころか正反対の意見を二つ三つと取る。信じがたいほどの移り気と軽はずみである。」\n『エセー I.49「古い慣習について」』",
-    "theme": "inconstance",
-    "score": 0,
-    "source": "Google News 健康",
-    "source_title": "ショック「ハダニで丸坊主」のガジュマル→見事復活の策あり！見切り品植物の再生プロが教える対策の鉄則とは？ - Yahoo!ニュース",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uYXJDa003ZklVNEhaODNlR2ZycEtkZVpNbkpDMHkxSVJ3MHd3SFZqRFVPVnBYN3psNXBZaVpBMG9tY3ZsbWlpbVdYNjgteGxtZmJjNWlzaVJqSW1oRmhtWVBtUFYzcm9ldXhFaGc0WjV3WEJ5dnp0d3BDUWtTaTA?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [],
-    "quote_id": "I.49",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-24T01:00:43.415082+00:00",
-    "publish_at": "2026-11-24T16:17:00+00:00",
-    "timestamp": "2026-11-24T16:17:00+00:00"
-  },
-  {
-    "id": "d0b8e7073ca2",
-    "text": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9QQmk3UEhZQTNsWjRoU1JoUTFBUTBqUXR4RG9EY0hwNjY0bFVBZkFxVGZPZHdYaExtWW93ZjhMZ3A1YkVSbkhvelluenE5Wm1LeUhV?oc=5\n杏花の祖母が運び込まれてから、進藤らによって行われるオペで延命治療をするかどうかの選択を迫られるという。\n「我々は死を案じて生をかき乱し、生を案じて死をかき乱す。」\n『エセー III.12「人相について」』",
-    "theme": "medecine",
-    "score": 6,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "畦地（杏花）の祖母が運び込まれてくる！進藤（江口洋介）らによってオペが行われるが、延命治療をするかどうかの選択を迫られ…『救命病棟24時』第8話予告 - めざましmedia",
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9QQmk3UEhZQTNsWjRoU1JoUTFBUTBqUXR4RG9EY0hwNjY0bFVBZkFxVGZPZHdYaExtWW93ZjhMZ3A1YkVSbkhvelluenE5Wm1LeUhV?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "medecine"
-    ],
-    "quote_id": "III.12a",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-24T00:56:20.483850+00:00",
-    "publish_at": "2026-11-24T13:17:00+00:00",
-    "timestamp": "2026-11-24T13:17:00+00:00"
-  },
-  {
-    "id": "ea6e2505bba2",
-    "text": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sYXZQb1ZPMnhhcDVPSEZueXg2QUxIUmhCLTVIQ2JqMm01V1hQWGhtbFdNbFkzRGVRWGc0b3l0b0tPWjY4a1pzMDFIZEd4cmw0dXRPT2Vn?oc=5\n推薦で早慶と一般入試でMARCH、本当に頭がいいのはどっちという大学受験の現実が浮き彫りになったという。\n「平等は、公正の第一の要素である。」\n『エセー I.20「哲学するとは死ぬことを学ぶこと」』",
-    "theme": "savoir",
-    "score": 0,
-    "source": "Google News 検索 教育",
-    "source_title": "「推薦で早慶」と「一般入試でMARCH」、本当に頭がいいのはどっち？ 大学受験が浮き彫りにする不公平な現実 - ダイヤモンド・オンライン",
-    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sYXZQb1ZPMnhhcDVPSEZueXg2QUxIUmhCLTVIQ2JqMm01V1hQWGhtbFdNbFkzRGVRWGc0b3l0b0tPWjY4a1pzMDFIZEd4cmw0dXRPT2Vn?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "savoir"
-    ],
-    "quote_id": "I.20g",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T13:09:10.084412+00:00",
-    "publish_at": "2026-11-24T10:17:00+00:00",
-    "timestamp": "2026-11-24T10:17:00+00:00"
-  },
-  {
-    "id": "518d4d3c1f43",
-    "text": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FX0dKVUtJT1ZIZDZ5VkgyWmg0VHIwaWltbXpFOVpHbjhwVXRoSUNJZFphMnVrWUphMVhkQnhyVDNWZ1B1NXJKVzVUMjQyQnh5NGExZ1cyUkQ5UmhOSUg4OQ?oc=5\n人生１００年時代と言われる今、老後のお金について考えるという。\n「我々は決して自分の家にいない。いつもその先にいる。恐れ、欲望、希望が、我々を未来へと駆り立てる。」\n『エセー I.3「我々の情念は我々の先へ運ばれる」』",
-    "theme": "soi",
-    "score": 0,
-    "source": "Google News 検索 老い・終末期",
-    "source_title": "人生１００年時代。今から考える老後のお金 | 神野 - つながるさがし",
-    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FX0dKVUtJT1ZIZDZ5VkgyWmg0VHIwaWltbXpFOVpHbjhwVXRoSUNJZFphMnVrWUphMVhkQnhyVDNWZ1B1NXJKVzVUMjQyQnh5NGExZ1cyUkQ5UmhOSUg4OQ?oc=5",
-    "generator": "ollama:qwen3.5:9b",
-    "themes": [
-      "soi"
-    ],
-    "quote_id": "I.3",
-    "quote_choice": "llm",
-    "generated_at": "2026-11-23T13:04:32.837498+00:00",
-    "publish_at": "2026-11-24T07:17:00+00:00",
-    "timestamp": "2026-11-24T07:17:00+00:00"
   }
 ]
